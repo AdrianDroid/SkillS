@@ -32,7 +32,7 @@ Three skills, used in order. Do not skip a stage.
 
 | Skill | What it does |
 |---|---|
-| `divide-and-conquer` | Recursively split a project into bite-size units and dispatch independent waves in parallel via sub-agents. Parent coordinates and integrates; it does not also do the leaf work. |
+| `DnC` | Folder `divide-and-conquer`. Recursively split a project into bite-size units and dispatch independent waves in parallel via sub-agents. Parent coordinates and integrates; it does not also do the leaf work. |
 
 ## Research and writing
 

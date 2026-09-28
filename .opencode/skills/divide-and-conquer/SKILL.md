@@ -1,14 +1,17 @@
 ---
-name: divide-and-conquer
+name: DnC
 description: >-
-  Use when a request is a project rather than one outcome, spans multiple
-  subsystems or artifacts, or you are about to do a multi-part task inline.
-  Triggers include sprawling requests, migrations, large refactors, several
-  independent bugs, "break this down", and the urge to just do it yourself
-  because of a deadline, waiting user, or sub-agent overhead.
+  Use when the user says DnC, or when a request is a project rather than one
+  outcome, spans multiple subsystems or artifacts, or you are about to do a
+  multi-part task inline. Triggers include sprawling requests, migrations,
+  large refactors, several independent bugs, "break this down", and the urge
+  to just do it yourself because of a deadline, waiting user, or sub-agent
+  overhead.
 ---
 
-# Divide and Conquer
+# Divide and Conquer (DnC)
+
+Shorthand: **DnC**. Invoke by that name.
 
 Recursively split until every leaf is bite-size. Dispatch every independent wave in parallel. The parent coordinates. It does not also do the leaf work.
 
@@ -56,7 +59,7 @@ One `task` call per message is sequential. Parallel means every unit in the wave
 
 OpenCode tool: `task`. Pick `subagent_type` from the unit: `explore` (find/answer), `general` (mixed or unknown), `coder` (implement), `tester-coder` (tests), `tech-writer` (docs).
 
-Each prompt is self-contained. Sub-agents do not see this chat. Include outcome, file scope, non-goals, and done-when. If the parent cannot see whether the unit is bite-size, the prompt must say: apply divide-and-conquer; if it is not bite-size, split and parallelize; return only the result.
+Each prompt is self-contained. Sub-agents do not see this chat. Include outcome, file scope, non-goals, and done-when. If the parent cannot see whether the unit is bite-size, the prompt must say: apply DnC; if it is not bite-size, split and parallelize; return only the result.
 
 After you dispatch, do not do that work yourself and do not re-implement it to check it. Integrate returned results. The dependent leaf (release note, migration note) runs only after its inputs exist.
 
