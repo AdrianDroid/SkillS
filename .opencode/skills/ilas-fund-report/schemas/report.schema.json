@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ILAS report.json",
+  "type": "object",
+  "required": ["meta", "macro", "fees", "universe", "picks", "ages", "appendix"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["plan", "as_of", "fund_count", "disclaimer"],
+      "properties": {
+        "plan": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "as_of": { "type": "string" },
+        "nav_date": { "type": "string" },
+        "fund_count": { "type": "integer" },
+        "risk": { "type": "string" },
+        "disclaimer": { "type": "string" }
+      }
+    },
+    "macro": {
+      "type": "object",
+      "required": ["rows", "thesis", "ilas"],
+      "properties": {
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["indicator", "value", "date", "source"],
+            "properties": {
+              "indicator": { "type": "string" },
+              "value": { "type": "string" },
+              "date": { "type": "string" },
+              "source": { "type": "string" }
+            }
+          }
+        },
+        "thesis": { "type": "string" },
+        "ilas": { "type": "string" }
+      }
+    },
+    "fees": { "type": "object", "required": ["paragraphs"], "properties": { "paragraphs": { "type": "array", "items": { "type": "string" } } } },
+    "universe": { "type": "array" },
+    "picks": {
+      "type": "object",
+      "required": ["growth", "income"],
+      "properties": {
+        "growth": { "type": "array", "minItems": 10, "maxItems": 10 },
+        "income": { "type": "array", "minItems": 10, "maxItems": 10 }
+      }
+    },
+    "ages": {
+      "type": "object",
+      "required": ["why_count", "tabs"],
+      "properties": {
+        "why_count": { "type": "string" },
+        "tabs": {
+          "type": "object",
+          "required": ["60+", "40s", "20-30s"]
+        }
+      }
+    },
+    "appendix": {
+      "type": "object",
+      "required": ["coverage", "groups"],
+      "properties": {
+        "coverage": { "type": "string" },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "links"],
+            "properties": {
+              "title": { "type": "string" },
+              "links": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["href", "label"],
+                  "properties": {
+                    "href": { "type": "string" },
+                    "label": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ILAS funds.json",
+  "type": "object",
+  "required": ["plan", "as_of", "funds"],
+  "properties": {
+    "plan": { "type": "string" },
+    "as_of": { "type": "string" },
+    "coverage_pct": { "type": "number" },
+    "ter_coverage_pct": { "type": "number" },
+    "funds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "name"],
+        "properties": {
+          "code": { "type": "string" },
+          "name": { "type": "string" },
+          "house": { "type": "string" },
+          "type": { "type": "string" },
+          "region": { "type": "string" },
+          "sector": { "type": "string" },
+          "nav": { "type": ["number", "null"] },
+          "ret_1y": { "type": ["number", "null"] },
+          "ret_3y": { "type": ["number", "null"] },
+          "ret_5y": { "type": ["number", "null"] },
+          "ter": { "type": ["number", "null"] },
+          "ter_source": { "type": ["string", "null"] },
+          "vol": { "type": ["number", "null"] },
+          "isin": { "type": ["string", "null"] },
+          "ccy": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

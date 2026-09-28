@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ILAS 報告</title>
+<style>
+:root{--bg:#0b1224;--card:#1e293b;--ink:#e2e8f0;--muted:#94a3b8;--acc:#38bdf8;--line:#334155}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans TC","PingFang HK",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.wrap{max-width:1160px;margin:0 auto;padding:24px 16px 72px}
+h1{margin:8px 0} h2{color:var(--acc);margin-top:28px}
+.sub,.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0}
+.disclaimer{background:#3f1d1d;border-color:#7f1d1d;color:#fecaca}
+.err{background:#3f1d1d;border:1px solid #7f1d1d;color:#fecaca;padding:16px;border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:.8rem}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;vertical-align:top}
+th:nth-child(-n+3),td:nth-child(-n+3){text-align:left}
+th{cursor:pointer;user-select:none;white-space:nowrap}
+tr:nth-child(even){background:rgba(255,255,255,.03)}
+tr:hover{background:rgba(56,189,248,.08)}
+.reason{text-align:left!important;font-size:.78rem;color:#cbd5e1}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tabs button{background:#334155;color:#e2e8f0;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+.tabs button.active{background:#0ea5e9;color:#042f4a;font-weight:700}
+.panel{display:none !important}.panel.active{display:block !important}
+.pill{display:inline-block;background:#0ea5e9;color:#042f4a;border-radius:999px;padding:2px 8px;font-size:.75rem;font-weight:700}
+details.universe,details.appendix{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:12px 0}
+summary{cursor:pointer;font-weight:700}
+.appendix a{color:#38bdf8;word-break:break-all}
+.appendix h3{margin:16px 0 8px;font-size:1rem}
+.appendix ul{padding-left:1.2rem}
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+<p class="muted">載入 report.json…</p>
+</div>
+<script src="report.js"></script>
+</body>
+</html>

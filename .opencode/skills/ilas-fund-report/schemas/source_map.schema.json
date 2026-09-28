@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ILAS source_map",
+  "type": "object",
+  "required": ["plan", "provider", "pages", "apis", "docs"],
+  "properties": {
+    "plan": { "type": "string" },
+    "provider": { "type": "string" },
+    "product_code": { "type": ["string", "null"] },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "url"],
+        "properties": {
+          "kind": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "apis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["method", "url", "returns"],
+        "properties": {
+          "method": { "type": "string" },
+          "url": { "type": "string" },
+          "body": {},
+          "returns": { "type": "string" }
+        }
+      }
+    },
+    "docs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

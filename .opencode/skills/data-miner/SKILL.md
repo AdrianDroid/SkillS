@@ -32,6 +32,8 @@ Ensure Playwright is installed:
 npm init -y && npm install playwright && npx playwright install chromium
 ```
 
+**Optional (for blocked sites):** MyBrowser MCP browser extension — enables extraction from bot-protected sites by using the user's real browser session. If headless Playwright fails with 403/CAPTCHA, prompt the user to enable it (see Step 3e).
+
 ## Research Process (Autonomous Execution)
 
 When invoked, follow this decision-driven workflow. Do NOT ask the user for guidance at each step — execute autonomously and report findings at the end.
@@ -161,6 +163,52 @@ Invoke-RestMethod -Uri '<discovered-api-url>' -Headers $headers | ConvertTo-Json
 ```
 
 If the API requires a session token or cookie, extract it from the Playwright context via `context.cookies()` and reuse it.
+
+#### 3e. MyBrowser MCP Fallback — When Headless Playwright Is Blocked
+
+**When to use:** All stealth tactics have failed (real Chrome, webdriver override, mobile emulation, curl cookie replay) and the site still returns 403 / ERR_NETWORK_CHANGED / CAPTCHA / "Just a moment..." under headless Playwright. This is the **last resort** before logging the site as blocked.
+
+**Procedure:**
+
+1. **Detect headless failure** — confirm at least one of:
+   - HTTP 403 from Akamai/Cloudflare after stealth
+   - ERR_NETWORK_CHANGED / ERR_ABORTED
+   - CAPTCHA challenge page
+   - "Just a moment..." Cloudflare interstitial
+
+2. **Prompt the user:**
+   ```
+   Headless scraping is blocked on [site URL]. Please enable MyBrowser MCP
+   (browser extension) so I can continue extraction from your real browser session.
+   Once enabled, let me know and I'll navigate and capture the data.
+   ```
+
+3. **Once user confirms MyBrowser is enabled**, use these tools in order:
+
+   | Step | Tool | Purpose |
+   |------|------|---------|
+   | Navigate | `mybrowser_browser_navigate` | Load the target URL in the user's real browser |
+   | Verify | `mybrowser_browser_snapshot` | Confirm page loaded (check for content, not block page) |
+   | Capture XHR | `mybrowser_browser_network` (start_capture → navigate → get_log) | Intercept API calls the page makes |
+   | Extract data | `mybrowser_browser_extract` | Pull structured data from rendered DOM |
+   | Run JS | `mybrowser_browser_evaluate` | Execute custom extraction logic on the page |
+   | Screenshot | `mybrowser_browser_screenshot` | Visual record of what the page looks like |
+
+4. **Extract from captured network log:**
+   ```
+   mybrowser_browser_network(action="get_log", filter={"resourceType": "fetch"})
+   ```
+   Filter for JSON responses. The API endpoints found here are often the same ones Playwright was blocked from — but they work because the request comes from the user's authenticated browser session.
+
+5. **Save results** to the same output files as Playwright would produce (`captured-api.json`, `table-data.json`).
+
+**Key differences from Playwright:**
+- Runs in the user's **real browser** (existing cookies, session, CAPTCHA solved)
+- Not headless — the user sees the browser window
+- Requires user interaction (not fully autonomous)
+- Bot protection (Akamai/Cloudflare) typically does not block real browser sessions
+
+**Limitation:** This breaks autonomous execution. If the user cannot enable MyBrowser MCP, log the site as blocked and continue with other sources.
 
 ### Step 4: Reverse-Engineer JS Bundles for API Endpoints
 
@@ -346,7 +394,8 @@ Present findings in this format — fill in all applicable sections:
 - **If a page requires authentication or blocks access:**
   1. First try Playwright with realistic browser fingerprint
   2. Try intercepting XHR to find an exposed API endpoint behind the page
-  3. If still blocked, log the limitation clearly
+  3. If still blocked, try MyBrowser MCP (Step 3e) — user's real browser session bypasses most bot protection
+  4. If MyBrowser is unavailable or user declines, log the limitation clearly and move on
 - **Decision making:**
   - If a page returns HTML with data in tables/lists → extract directly
   - If a page has `__NUXT__` / `__NEXT_DATA__` / `window.__INITIAL_STATE__` → parse the JSON (it contains the preloaded data)
