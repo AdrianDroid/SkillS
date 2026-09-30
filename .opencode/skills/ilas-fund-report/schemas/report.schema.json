@@ -1,6 +1,27 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "ILAS report.json",
+  "definitions": {
+    "pick": {
+      "type": "object",
+      "description": "One watchlist candidate. No weight field: the watchlist is not sized.",
+      "required": ["code", "reason"],
+      "properties": {
+        "code": { "type": "string" },
+        "reason": { "type": "string", "minLength": 25 }
+      }
+    },
+    "holding": {
+      "type": "object",
+      "description": "One sized portfolio holding. weight is a percentage and must be >= 10.",
+      "required": ["code", "weight", "reason"],
+      "properties": {
+        "code": { "type": "string" },
+        "weight": { "type": "number", "minimum": 10, "maximum": 100 },
+        "reason": { "type": "string", "minLength": 25 }
+      }
+    }
+  },
   "type": "object",
   "required": ["meta", "macro", "fees", "universe", "picks", "ages", "appendix"],
   "properties": {
@@ -42,20 +63,39 @@
     "universe": { "type": "array" },
     "picks": {
       "type": "object",
+      "description": "The 20-name WATCHLIST: the candidate set a client selects FROM. NOT a portfolio -- no >=10% floor, no <=10-name cap, no house cap applies here. Each leg is pinned to exactly 10 because report.js renders the fixed headings 增長型 10 / 收益／防禦 10. The 20 is a fixed shape; the thesis picks WHICH 20, never HOW MANY. Portfolio sizing lives on ages.tabs.",
       "required": ["growth", "income"],
       "properties": {
-        "growth": { "type": "array", "minItems": 10, "maxItems": 10 },
-        "income": { "type": "array", "minItems": 10, "maxItems": 10 }
+        "growth": {
+          "type": "array",
+          "description": "Exactly 10 growth-tilted candidates. reason must name a specific macro theme and why this fund over alternatives; a metric such as 'T1' or 'high Sharpe' is not a reason.",
+          "minItems": 10,
+          "maxItems": 10,
+          "items": { "$ref": "#/definitions/pick" }
+        },
+        "income": {
+          "type": "array",
+          "description": "Exactly 10 income/defensive candidates. Same reason requirement.",
+          "minItems": 10,
+          "maxItems": 10,
+          "items": { "$ref": "#/definitions/pick" }
+        }
       }
     },
     "ages": {
       "type": "object",
+      "description": "The SIZED PORTFOLIOS -- this is where <=10 names, every weight >=10%, weights summing to 100%, and a <=30% single-house cap apply. The 20-name picks watchlist is the menu; each band draws 6-10 of them. The union of all three bands must be a subset of picks.",
       "required": ["why_count", "tabs"],
       "properties": {
         "why_count": { "type": "string" },
         "tabs": {
           "type": "object",
-          "required": ["60+", "40s", "20-30s"]
+          "required": ["60+", "40s", "20-30s"],
+          "properties": {
+            "60+": { "type": "array", "minItems": 1, "maxItems": 10, "items": { "$ref": "#/definitions/holding" } },
+            "40s": { "type": "array", "minItems": 1, "maxItems": 10, "items": { "$ref": "#/definitions/holding" } },
+            "20-30s": { "type": "array", "minItems": 1, "maxItems": 10, "items": { "$ref": "#/definitions/holding" } }
+          }
         }
       }
     },

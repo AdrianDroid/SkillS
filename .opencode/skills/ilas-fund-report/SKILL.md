@@ -14,7 +14,7 @@ description: >-
 
 ## Overview
 
-Produce a reallocation report for an ILAS plan using a strict **top-down** methodology. This skill is the **analysis layer** only — it assumes enriched fund data (with NAV, returns, vol, Sharpe, TER, region, sector, type) has already been extracted. If it hasn't, stop and invoke `ilAS-data-extract` first.
+Produce a reallocation report for an ILAS plan using a strict **top-down** methodology. This skill is the **analysis layer** only — it assumes enriched fund data (with NAV, returns, vol, Sharpe, TER, region, sector, type) has already been extracted. If it hasn't, stop and invoke `ilAS-data-extract` (that skill owns its tree). Do not extract here. First action is the execution tree below — not a ranking.
 
 **Critical rule #1 (METHODOLOGY ORDER): You MUST follow top-down in this exact order: Macro → Regional → Sector → Funds → Portfolio. Do NOT reverse this order. If you find yourself picking funds first and then justifying with macro, STOP — you're doing it wrong.**
 
@@ -27,6 +27,54 @@ Produce a reallocation report for an ILAS plan using a strict **top-down** metho
 **Critical rule #5 (HTML CONTRACT): Write `report.json` then copy `template.html` + `report.js` from this skill. The page fetch()es JSON. MUST match `html-report-contract.md`. Chat MUST NOT paste HTML. Serve the directory (LAN/tailnet) and put Markdown in chat.**
 
 **Critical rule #6 (CLEAN WORKSPACE): Each run starts empty.** Delete prior extract/report artifacts (`en.txt`, `zh.txt`, `*.json` fund dumps, `index.html`, `funds.js`, old CSVs) before fetching. Do not reuse last-run JSON. Keep only scripts/templates. See `RUN.md`.
+
+**Critical rule #7 (EXECUTION TREE): No ranking, macro fetch, or HTML write until the tree in Execution is written in the chat. Parent coordinates. Parent does not do leaf work.**
+
+## Execution — REQUIRED SUB-SKILL
+
+**REQUIRED SUB-SKILL:** divide-and-conquer. Load it before any ranking, macro fetch, or HTML write.
+
+**Violating the letter of this section is violating the spirit of this section.**
+
+```
+GATES (parent, no ranking): CSV columns + coverage ≥90% + TER ≥90% + macro JSON exists.
+  CSV/coverage/TER fail → invoke ilAS-data-extract. Stop. Do not rank. Do not extract here.
+  Macro JSON missing, CSV also missing → macro-research is a sibling of extraction, one message. Not a step after the CSV.
+  Macro JSON missing, CSV present → one macro leaf, then gates again.
+WAVE A (parallel, after gates): regional summary | sector summary. No fund names. Done-when: both tables exist.
+WAVE B (after A): top-quartile WATCHLIST, top-down. Done-when: exactly 20 = 10 growth + 10 income, each with a macro-tied reason. Portfolio sizing rules do NOT apply here.
+WAVE C (parallel): Senior 60+ | Mid-40s | Young 20–30s, each 6–10 names at ≥10%, drawn FROM the 20-name watchlist.
+INTEGRATE (parent only): validate_report.py, then report.json + copy template.html and report.js. Markdown in chat. No HTML paste.
+```
+
+### The two objects: WATCHLIST ≠ PORTFOLIO
+
+This is the single most mis-read rule in this skill. They are different artifacts with different counts, different sizing rules, and different jobs. "Shortlist" means the **20-name watchlist** (`picks`) and nothing else.
+
+| | `picks` — WATCHLIST | `ages.tabs` — PORTFOLIO |
+|---|---|---|
+| Count | **exactly 20** = 10 growth + 10 income | **6–10 per age band** (3 bands) |
+| What it is | the candidate set you select *from* | the thing a client actually holds |
+| Sizing rules | **none** — no ≥10%, no ≤10%, no house cap | every weight ≥10%, ≤10 names, house ≤30% |
+| Sourced from | the whole universe, top-down by macro theme | the 20-name watchlist, sized |
+| Enforced by | `schemas/report.schema.json` → `minItems/maxItems: 10` each | `template.html` + `html-report-contract.md` §5 |
+
+**The 20 is a fixed shape, not a target.** The ≥10% / ≤10 rules live in Phase 5 and Phase C **only**. A watchlist of 20 is not over-diversified, not over-sized, and not a violation of anything — it is the required output shape. Conversely a portfolio of 20 is impossible (20 × 10% floor = 200%).
+
+**A 6–8 name watchlist is a FAILURE, not restraint.** It is never correct. If you are weighing 8 vs 20, the answer is 20.
+
+Methodology order still holds: no fund names before WAVE B. Regional and sector do not depend on each other. Age portfolios do not depend on each other. Macro does not need the CSV.
+
+`subagent_type`: `general` for WAVE A–C. All calls in a wave go in one message. Human forbade sub-agents: still write this tree; run waves yourself; units stay separate.
+
+| Excuse | Reality |
+|---|---|
+| Skip the process, just produce portfolios | Portfolios are WAVE C. Gates and WAVE A come first. |
+| User is waiting | Independent leaves run at once. Serializing them is the delay. |
+| I'll rank while coverage is checked | Coverage fail → extract skill. No partial report. |
+| Macro after the CSV | Macro does not need the CSV. Missing macro is not a reason to rank early. |
+| I'll write all three ages in one pass | WAVE C is three units. |
+| Invoke extract means I scrape | Invoke means that skill's tree. This skill does not extract. |
 
 ## Parameter Extraction
 
@@ -105,6 +153,8 @@ If ter_coverage < 90% → invoke `ilAS-data-extract` (Phase 1.x)
 
 ## Workflow: Top-Down in Order
 
+These phases are the leaves of the execution tree. Do not run them inline in the parent.
+
 ### Phase 1: Macro → Map to ILAS Universe
 
 Read the macro context JSON. Identify the 3 most investable asset classes / regions / sectors based on the macro picture. This is your **macro thesis** — it drives ALL downstream decisions.
@@ -164,34 +214,42 @@ Sector categories:
 - Utilities
 - Broad / Multi-sector
 
-### Phase 4: Fund Selection (Top Quartile, by Region + Sector)
+### Phase 4: Fund Selection → the 20-name WATCHLIST
 
-Only NOW do individual fund names appear. For each macro-overweight region+sector combination:
+This phase produces **`picks`: exactly 20 names — 10 growth-tilted + 10 income/defensive.** Only NOW do individual fund names appear. For each macro-overweight region+sector combination:
 - Rank funds by Sharpe ratio (gross-of-TER)
 - Apply tiering: Tier 1 (top quartile), Tier 2 (second quartile), Tier 3 (below median)
-- Check sizing: **at most 10 holdings**, **each ≥ 10%**, no fund house >30%
 - Verify liquidity: prefer funds with 5Y track record
 - Flag any fund with TER >2% (high-cost warning)
+
+**Shape (REQUIRED, fixed):** `picks.growth` = exactly 10, `picks.income` = exactly 10. The schema enforces `minItems: 10, maxItems: 10` on each and `template.html` renders the hardcoded headers 增長型 10 / 收益／防禦 10. **The 20 is the deliverable. It is not "as many as the thesis needs" — the thesis picks *which* 20, never *how many*.**
+
+**Do NOT apply portfolio sizing here.** No ≥10% floor, no ≤10 names, no 30% house cap, no "pick the smallest set", no "as few as the thesis needs", no "prefer 6–8". Those belong to Phase 5 and constrain `ages.tabs` only. A 20-name watchlist violates none of them. Filling 20 is the shape; the only judgement is *which* 20.
+
+Each entry needs a **`reason`** that names a specific macro theme and why this fund over its alternatives. "T1" or "high Sharpe" is not a reason.
+
+`validate_report.py` fails the run if either list is not exactly 10. Run it before INTEGRATE.
 
 Fund selection criteria (in priority order):
 1. Gross-of-TER Sharpe ratio (1Y, confirmed by 3Y)
 2. Consistency: 3Y return > median for its category
 3. TER: lower is better, all else equal
 4. Track record: prefer 5Y history
-5. Diversification: **max 10 holdings**, **min 10% per holding**, max 30% per fund house
+5. Balance the 10/10 split against the **macro thesis** (which themes have depth in this plan), not by convenience
 
 ### Phase 5: Age-Stratified Portfolio Construction
 
-Build three model portfolios. Each must be:
+This phase produces **`ages.tabs` — the sized portfolios.** Now the sizing rules apply. Each must be:
 - Fully invested (100% allocation)
-- **At most 10 funds; every weight ≥ 10%** — these are **caps/floors, not a target**. Pick the smallest set that expresses the macro thesis. Filling 10 names forces 10×10% equal weight and **washes out conviction**. Prefer 6–8 names with 10–20% weights. State why that count, not “because the max is 10”.
+- **At most 10 funds; every weight ≥ 10%** — these are **caps/floors, not a target**. Pick the smallest set that expresses the macro thesis. Filling 10 names forces 10×10% equal weight and **washes out conviction**. Prefer 6–8 names with 10–20% weights. State why that count, not "because the max is 10".
 - House-constrained (no single fund house >30%)
 - Risk-appropriate for the age group
-- A 5% / 8% “sleeve” is invalid — raise it to ≥10% or drop the name
+- A 5% / 8% "sleeve" is invalid — raise it to ≥10% or drop the name
 - Do **not** add funds just to reach 10
-- Shortlist and age portfolios use the **same investable set**. Unusable names are deleted from the shortlist, not footnoted.
+- The 20-name watchlist is the **menu**, not the portfolio. Draw from it; a portfolio uses 6–10 of the 20. Do not pad a portfolio with watchlist names to reach 20, and do not let a 20-name watchlist shrink the portfolio below the thesis.
+- Unusable names are deleted from the watchlist, not footnoted. The watchlist must be a **strict superset** of everything the three portfolios use.
 - Do **not** give >10% to a name you have flagged as Sharpe/vol biased (short wrapper history). Drop it or keep at the 10% floor with the flag in the reason.
-- Calendar-year worst return is **not** max drawdown. If you cannot compute MDD from daily/monthly NAV, write “MDD unavailable”.
+- Calendar-year worst return is **not** max drawdown. If you cannot compute MDD from daily/monthly NAV, write "MDD unavailable".
 
 #### Senior (60+)
 - 60% income / defensive (bonds, high-dividend equity, multi-asset)
@@ -225,10 +283,12 @@ These are **fatal errors** that invalidate the analysis:
 1. **Picking funds first, then justifying with macro** — you MUST go top-down (Macro → Regional → Sector → Funds)
 2. **Only one portfolio** — you MUST produce three age-stratified portfolios
 3. **Comparing net returns across funds with different TERs** — use gross-of-TER Sharpe ratios
-4. **Ignoring sizing** — more than 10 names, or any line &lt; 10% (including 5% cash)
-5. **Using only 1Y data** — 1Y Sharpe confirmed by 3Y consistency
-6. **No macro thesis** — every allocation must trace back to a macro theme
-7. **Single fund house dominance** — diversify across managers
+4. **Ignoring sizing** — more than 10 names per portfolio, or any line < 10% (including 5% cash)
+5. **A 20-name watchlist** — `picks` is **exactly 10 growth + 10 income**. Portfolio sizing (≥10%, ≤10 names, ≤30% house) does **not** apply to it. Producing 6–8, or applying the Phase 5 rules to the watchlist, is a shape failure
+6. **Using only 1Y data** — 1Y Sharpe confirmed by 3Y consistency
+7. **No macro thesis** — every allocation must trace back to a macro theme
+8. **Single fund house dominance** — diversify across managers
+9. **A pick whose `reason` is a metric** — "T1", "high Sharpe", "top quartile" without a macro theme
 
 ## Output Format
 
@@ -321,9 +381,15 @@ COVERAGE: x% — GATE ≥ 90%: PASS/FAIL
 - [ ] Regional views computed (Phase 2)?
 - [ ] Sector views computed (Phase 3)?
 - [ ] Fund selection done top-down (Phase 4)?
+- [ ] `picks` is **exactly 10 growth + 10 income = 20**? (not 6–8, not 12, not 20 in one leg)
+- [ ] Every pick has a `reason` naming a **macro theme**? (not "T1" / "high Sharpe")
+- [ ] The 20-name watchlist is a **strict superset** of every code used in the three portfolios?
+- [ ] No portfolio-sizing rule was applied to the watchlist (no ≥10% floor, no house cap on `picks`)?
 - [ ] Three age-stratified portfolios constructed (Phase 5)?
-- [ ] Sizing: ≤10 holdings, each ≥10%, house ≤30%?
+- [ ] Sizing **per portfolio**: ≤10 holdings, each ≥10%, weights sum to 100%, house ≤30%?
+- [ ] `validate_report.py` exits 0?
 - [ ] All returns standardised to gross-of-TER?
+- [ ] Any Sharpe whose vol differs from the published `vol_*_used` recomputed and flagged (`sharpe_basis_flag`)?
 - [ ] COI reminder included?
 - [ ] Data coverage report included?
 - [ ] Markdown + HTML both generated?

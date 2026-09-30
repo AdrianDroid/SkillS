@@ -14,15 +14,48 @@ description: >-
 
 ## Overview
 
-Extract complete fund data from an ILAS plan's fund price page. Produce an enriched CSV ready for analysis by `ilas-fund-report`. Execute autonomously from start to finish — do NOT ask the user for direction mid-extraction.
+Extract complete fund data from an ILAS plan's fund price page. Produce an enriched CSV ready for `ilas-fund-report`. Do not ask the user for direction mid-extraction. First action is the execution tree below — not a search.
 
-**Critical rule #1 (COVERAGE GATE — HARD STOP): The run is NOT complete until ≥90% of funds have COMPLETE data (1Y + 3Y + 5Y returns + TER + region/sector/type all populated). Compute the coverage metric after EVERY extraction pass. Below 90% → keep searching through the source layers. Do NOT write the final output below 90%. If you cannot reach 90% after exhausting ALL layers (L1-L6), you MUST produce a coverage report showing exactly which funds are missing and why, and tell the user: "Coverage is X%. I cannot proceed with report generation. Here are the missing funds and the sources I tried."**
+**Critical rule #1 (COVERAGE GATE — HARD STOP): the run is NOT complete until ≥90% of funds have COMPLETE data (1Y + 3Y + 5Y returns + TER + region/sector/type all populated).** Recompute the metric after EVERY pass. Below 90% → keep working the source layers; do NOT write the final output. Still short after L1–L6 → produce a coverage report naming the missing funds and the sources tried, and tell the user: "Coverage is X%. I cannot proceed with report generation. Here are the missing funds and the sources I tried."
 
-**Critical rule #2: An output where >5% of performance/cost fields are N/A is USELESS. You must exhaust all data mining approaches before accepting empty fields. Missing data means you did not complete the work.**
+**Critical rule #2: an output where >5% of performance/cost fields are N/A is USELESS. Exhaust all data-mining approaches before accepting an empty field.**
 
-**Critical rule #3 (TER as Hard Gate): TER/OCF is mandatory for every fund. ≥90% TER coverage required before producing output. <90% → stop and ask the user for TER sources (factsheets, KFS, fund detail pages). <70% → halt. TER standardisation is the foundation of fair cross-fund comparison.**
+**Critical rule #3 (TER as hard gate): TER/OCF is mandatory for every fund. ≥90% TER coverage required. <90% → stop and ask the user for factsheets, KFS, fund detail pages. <70% → halt.**
 
-**Critical rule #4 (REPORT GATE): You MUST NOT invoke `ilas-fund-report` or generate any report if coverage <90%. The report skill will reject your CSV. Do not waste time building a report that will be thrown away. Fix the data first.**
+**Critical rule #4 (REPORT GATE): you MUST NOT invoke `ilas-fund-report` or generate any report if coverage <90% or if `validate_funds.py` does not exit 0. Fix the data first.**
+
+**Critical rule #5 (EXECUTION TREE): no search, navigate, fetch, or scrape until the tree in Execution is written in the chat. Parent coordinates; the parent does not do leaf work.**
+
+## Execution — REQUIRED SUB-SKILL
+
+**REQUIRED SUB-SKILL:** divide-and-conquer. Load it before any data tool call.
+
+**Violating the letter of this section is violating the spirit of this section.**
+
+Autonomous means do not ask the user. It does not mean the parent scrapes.
+
+```
+WAVE 1 (one unit): discover plan → source_map.json + fund-universe table. Done-when: saturation checklist met.
+WAVE 2 (parallel, one task per fund house): that house's L1 XHR/API only. Done-when: 1/3/5Y+TER or a documented block with the HTTP/error.
+WAVE 3 (after WAVE 2, parallel, incomplete houses only): one task per failed house or per aggregator (L2–L6). Done-when: fields filled or every layer tried and recorded.
+INTEGRATE (parent only): coverage + TER gates, merge enriched CSV, then `python3 validate_funds.py funds.csv`. **Exit 0 is required before the CSV is handed to `ilas-fund-report`.** Parent does not search, scrape, or parse fund pages.
+```
+
+Leaf prompt is self-contained: use Playwright/XHR or the named fallback layer; if you have no browser tools, return `blocked` — do not invent numbers. `subagent_type`: `general`. All WAVE 2 `task` calls go in one message.
+
+Human forbade sub-agents: still write this tree. Run waves yourself in dependency order. Units stay separate. Do not collapse houses into one pass.
+
+Extract-only: do not invoke `macro-research` or `ilas-fund-report`. If the user asked for a report, `macro-research` is a sibling of WAVE 2, not a step after the CSV.
+
+| Excuse | Reality |
+|---|---|
+| Skill says start with web search | That search is WAVE 1's leaf. Tree first, then dispatch WAVE 1. |
+| User is waiting / don't over-engineer / deadline | That is why WAVE 2 houses run at once. |
+| No sub-agents | Still write the tree. Run waves yourself. Do not merge units. |
+| I already know productId / jina / the API | That is the WAVE 1 brief. It does not skip the tree or Stage 1 rediscovery. |
+| Execute autonomously means I scrape | Autonomous = don't ask the user. Parent integrates. |
+| Sub-agents can't run Playwright, so I will | Dispatch anyway. Prompt requires browser tools. `blocked` returns; parent does not scrape that leaf. |
+| I'll just do this one house; I have the context | One house is still a leaf. |
 
 ## Parameter Extraction
 
@@ -36,9 +69,11 @@ Extract complete fund data from an ILAS plan's fund price page. Produce an enric
 
 ## Stage 1 — Discover the plan (any ILAS)
 
+**This stage is WAVE 1's leaf.** If the execution tree is not already in the chat, stop and write it. The parent does not run this search.
+
 Do **not** start from a hardcoded adapter (Manulife `productId`, CTF `OSCAR`, …). Those are examples Stage 1 should **rediscover**.
 
-1. Web search EN+中: `"[plan]" ILAS`, `"[plan]" 投資相連保險`, fund price / 投資選擇 / KFS PDF.
+1. Web search EN + 中文: `"[plan]" ILAS`, `"[plan]" 投資相連保險`, fund price / 投資選擇 / KFS PDF.
 2. Open the official fund-price (and info) page. **Preferred:** Playwright intercept XHR/fetch (`application/json`) → replay the API for the full universe.
 3. If no JSON / blocked (Akamai, ESA slider, 403): HTML tables, jina, offering PDFs, FE/citicode, FT by ISIN, aggregators. XHR is one path, **not the only path**.
 4. Write `source_map.json` (schema in `ilas-fund-report/schemas/source_map.schema.json`): `plan`, `provider`, `product_code`, `pages[]`, `apis[]`, `docs[]`, `blockers[]`.
@@ -46,36 +81,15 @@ Do **not** start from a hardcoded adapter (Manulife `productId`, CTF `OSCAR`, �
 
 ## Core Principle: API-First Data Extraction
 
-**Prefer JSON APIs over HTML.** The primary extraction method is XHR JSON interception via Playwright:
-
-1. Launch headless browser on the target page
-2. Intercept ALL XHR/fetch responses, filtering for `application/json` and `application/javascript`
-3. Identify API endpoints returning: fund list, fund detail (NAV, returns), fund fees
-4. Replay these APIs directly with `webfetch` to get structured JSON data
-5. Parse the JSON to extract exact numeric values
-
-This approach is orders of magnitude faster and more reliable than HTML scraping:
-- One API endpoint often serves data for ALL funds
-- JSON is machine-readable with exact numbers
-- APIs change less frequently than HTML layouts
-- You can batch-query all funds from one house in a single script
+**Prefer JSON APIs over HTML.** Launch headless, intercept ALL XHR/fetch responses filtering for `application/json` / `application/javascript`, identify the endpoints serving fund list, fund detail and fund fees, then replay them directly with `webfetch` and parse exact values. This is orders of magnitude faster and more reliable than HTML scraping: one endpoint often serves every fund, JSON is machine-readable, APIs change less often than layouts, and a house can be batch-queried in a single script.
 
 ## Phase 1: Fund Universe Identification — FIND EVERY FUND IN THE PLAN
 
-**CRITICAL RULE:** You MUST find ALL funds available in this specific plan. Different ILAS plans offer vastly different fund universes — some have 30 funds, others 150+. Do NOT assume a number. Your job is to exhaust every search method until no new funds can be discovered.
+**CRITICAL RULE:** find ALL funds available in this specific plan. ILAS universes range from ~30 to 150+ funds. Do NOT assume a number — exhaust every method until no new fund can be discovered.
 
 ### 1A: Identify the Plan
 
-Start by determining what plan you're dealing with:
-
-- **Provider** (Manulife, Generali, AXA, Aviva, Prudential, etc.)
-- **Plan name** (exact English and Chinese name if applicable)
-- **Product code / plan code** (if available from SFC or provider site)
-- **Plan type** (regular premium, single premium, lump sum)
-
-Search: `"[Plan Name]" "[Provider]" ILAS`, `"[Plan Name]" 投資相連保險`.
-
-For HK plans, also search the Chinese name: providers often market ILAS plans with different Chinese names.
+Determine: **Provider** (Manulife, Generali, AXA, Aviva, Prudential, …), **plan name** (exact English and Chinese), **product/plan code** if available, and **plan type** (regular premium, single premium, lump sum). Search `"[Plan Name]" "[Provider]" ILAS"` and `"[Plan Name]" 投資相連保險"` — HK providers often market ILAS plans under different Chinese names.
 
 ### 1B: Discover the Fund Universe — Use ALL Methods
 
@@ -83,20 +97,26 @@ For each search method, track which funds it discovers. Stop when multiple metho
 
 | Method | What to Search | What to Expect |
 |--------|---------------|----------------|
-| **Provider fund price page** | Navigate the provider's fund price / fund choice page for ILAS. Use both English and Chinese plan name. | Full fund list with NAV prices |
-| **Investment Choice Brochure PDF** | `"[Plan Name]" investment choice brochure PDF`, `"[Plan Name]" 投資選擇` | Official fund list PDF with all fund names |
-| **Plan brochure / product brochure PDF** | `"[Plan Name]" brochure PDF`, `"[Plan Name]" product sheet` | Full plan description with fund list |
-| **Fund change announcements** | `"[Provider]" ILAS fund change announcement`, `"[Provider]" 基金變更` | Lists specific fund additions/deletions |
-| **SFC authorized fund list** | Check `apps.sfc.hk/productlistWeb/searchProduct/ILAS.do`. Find the plan code and see if underlying funds are listed. | Plan registration info, possibly fund list |
-| **API/XHR interception** | Navigate to the provider's fund page with Playwright, intercept XHR for JSON fund list APIs | Full fund universe in one API call |
-| **Aggregator / comparison sites** | `"[Plan Name]" fund list`, `"[Plan Name]" fund choices` | Curated fund lists from financial portals |
-| **Web search — English** | `"[Plan Name]" "fund" "ILAS"` | Various pages mentioning fund options |
-| **Web search — Chinese (for HK plans)** | `"[Plan Chinese Name]" 基金` | Chinese financial forum discussions listing fund choices |
-| **Fund house search** | For each fund house mentioned in any search result, search: `"[Fund House]" "[Plan Name]"` | Additional funds from that house |
+| **Provider fund price page** | The provider's fund price / fund choice page for ILAS, in both the English and Chinese plan name | Full fund list with NAV prices |
+| **Investment Choice Brochure PDF** | `"[Plan Name]" investment choice brochure PDF`, `"[Plan Name]" 投資選擇` | Official fund list with all fund names |
+| **Plan brochure / product sheet** | `"[Plan Name]" brochure PDF`, `"[Plan Name]" product sheet` | Full plan description with fund list |
+| **Fund change announcements** | `"[Provider]" ILAS fund change announcement`, `"[Provider]" 基金變更` | Specific fund additions/deletions; also the wind-up evidence for D6 |
+| **SFC authorized fund list** | `apps.sfc.hk/productlistWeb/searchProduct/ILAS.do` — find the plan code | Plan registration info, possibly the fund list |
+| **API/XHR interception** | Playwright on the provider's fund page, intercepting JSON fund-list APIs | Full fund universe in one API call |
+| **Aggregator / comparison sites** | `"[Plan Name]" fund list`, `"[Plan Name]" fund choices` | Curated fund lists — verify freshness first (D5) |
+| **Web search — EN + 中文** | `"[Plan Name]" fund ILAS`; for HK plans also `"[Plan Chinese Name]" 基金` | Fund options, Chinese forum discussions |
+| **Fund house search** | For each house mentioned in any result: `"[Fund House]" "[Plan Name]"` | Additional funds from that house |
 
 ### 1C: Identify Fund Houses in This Plan
 
 From the funds discovered, compile the list of fund houses this specific plan offers. For each fund discovered, record which house manages it. If you find a fund house in any search result that hasn't been checked yet, search for more funds from that house in this plan.
+
+#### Deriving the house (D4)
+
+**The plan platform is not a fund house.** A provider's fund-list API labels **every** row with the plan sponsor — `platformName` was the plan name for all 108 rows of a real run (verified Sep 2026). Trusting that field labels the entire universe as one house.
+
+- Derive `house` from the **underlying fund name / share class**, never from `platformName` / `providerName`.
+- An internally managed line with no underlying is labelled `INTERNAL — <sponsor>` so it can never be confused with a rival asset manager. Four internally-managed lines were written as `house="Manulife"`, indistinguishable from Manulife Investment Management.
 
 ### 1D: Fund Universe Completeness Check
 
@@ -111,6 +131,14 @@ From the funds discovered, compile the list of fund houses this specific plan of
 
 Create a fund list table with: Fund Name | Fund House | ISIN | Asset Class | Currency | Morningstar ID (if found) | Source (which method found this fund).
 
+### 1E: Liveness and wind-up (D6)
+
+**A provider's own liveness flag is not a wind-up check.** Two funds announced for **compulsory redemption and termination on 2026-10-30** (Manulife IM HK notice dated 2026-08-17, Trust Deed cl. 28.3(b), sub-scale plus underlying-fee inflation) while the plan API still returned `fundSuspendInd = "N"` and a live NAV for both (verified Sep 2026).
+
+- Check house notices, KFS/prospectus, and provider fund lists for compulsory redemption, termination, or merger. Do not rely on the plan API's `fundSuspendInd` / switch / availability flag.
+- Record where you confirmed the fund is still open, in `liveness_checked`.
+- **Record both directions.** A separate run found a false positive of the opposite kind: a fund flagged suspended at the wrapper with no closure notice anywhere, a live factsheet, and continuous pricing. `liveness_checked` must say what you checked and what you concluded, not just "OK".
+
 ### Phase 1.x: TER/OCF Capture — MANDATORY, BEFORE RETURNS EXTRACTION
 
 **TER/OCF is the #1 hardest field to extract and the #1 field that breaks cross-fund comparison. Capture it early and verify it.**
@@ -119,20 +147,29 @@ For each fund house, extract TER/OCF (Ongoing Charges Figure / Total Expense Rat
 
 | Layer | Source | Method | Expected TER Fields |
 |-------|--------|--------|---------------------|
-| **T1** | Fund house website | XHR interception on fund detail page | OCF, TER, management fee, admin fee |
+| **T1** | Fund house website | XHR interception on fund detail page | OCF, TER. A management fee belongs in `wrapper_fee_pct`, not `ter` |
 | **T2** | Fund factsheet PDF | Download + extract from "Fund Expense" or "Charges" section | OCF, TER, total cost |
-| **T3** | HK aggregators | FSMOne, HKET, ETNet fund detail pages | OCF |
+| **T3** | HK aggregators | FSMOne, ETNet fund detail pages. HKET only after the D5 freshness check | OCF |
 | **T4** | Morningstar HK | `morningstar.hk` fund page → "费用" tab | TER, transaction fee |
 | **T5** | FT.com | `markets.ft.com/data/funds/tearsheet/summary?s=[ISIN]:USD` | OCF |
 | **T6** | Plan documents | Investment Choice Brochure PDF, fund change announcements | TER for internal funds |
 | **T7** | User-provided | Ask user to upload factsheet PDFs or KFS (Key Features Statement) | All fees |
 
 **TER extraction rules:**
-- Prefer OCF (Ongoing Charges Figure) over TER if both available — OCF excludes transaction costs
-- If only "management fee" available, note it as a partial TER and flag in output
-- Record the source for each TER value in `ter_source` column
-- If TER is genuinely unavailable after T1-T6, set `ter = NULL` and `ter_source = "unavailable"` — do NOT guess
+- Prefer OCF over TER if both available, and record which measure you used in `ter_basis`. They are **not interchangeable**: OCF excludes transaction costs, TER does not.
+- **A management fee is not a partial TER.** Record it in `wrapper_fee_pct`, never in `ter` — see the wrapper-fee trap below.
+- Record the source for each TER value in `ter_source`, naming a real document or endpoint
+- If TER is genuinely unavailable after T1-T6, set `ter = NULL`, `ter_basis = "unavailable"`, `ter_source = "unavailable"` — do NOT guess
 - Internal funds (e.g., Manulife Select series): check the plan's Investment Choice Brochure PDF (T6) first
+
+#### The wrapper-fee trap (D2)
+
+A provider's fund-detail API returns `details.managementFee` as a string like `"0.0175 per annum"` on **every** investment choice. It is the plan sponsor's investment-management fee on the choice, not the fund's ongoing charge. Substituting it for `ter` invents the single number the whole downstream comparison rests on.
+
+- Write it to `wrapper_fee_pct`. **Never** write it to `ter`.
+- **Conflation signature — the mechanical check:** `ter == wrapper_fee_pct`, or a `ter_source` that resolves to a bare fee-field name with no document/endpoint locator. Both fail `validate_funds.py` (rules D2, D2d).
+- A `ter_source` that names a real document or endpoint passes even when it also mentions the management fee.
+- **Genuine exception — state it so the rule is not over-applied:** an internally managed fund may have *only* an all-in plan fee. The Manulife ARI brochure p.59 discloses 1.70% p.a. and states it already includes the underlying managers' fees. That is a legitimate all-in cost, not an OCF — record it as all-in and label it, never as `ter` with basis `OCF`.
 
 **TER quality gate after extraction:**
 ```
@@ -144,39 +181,27 @@ TER coverage = # funds with TER populated / total_funds × 100
 
 ### Phase 1.y: MyBrowser MCP Fallback — When Headless Fails
 
-**If Playwright headless mode is blocked (Akamai 403, Cloudflare, ERR_NETWORK_CHANGED) on the primary data source (e.g., Manulife HK fund price page), use MyBrowser MCP as a fallback.**
+**If Playwright headless is blocked on the primary source (Akamai 403, Cloudflare, `ERR_NETWORK_CHANGED`), use MyBrowser MCP.**
 
-Procedure:
-1. Detect headless failure: HTTP 403, ERR_NETWORK_CHANGED, "Just a moment...", or ERR_ABORTED
-2. Prompt the user:
-   ```
-   Headless scraping is blocked on [site]. Please enable MyBrowser MCP
-   (browser extension) to continue extraction. Once enabled, I'll use the
-   browser MCP tools to navigate and capture data directly from your browser.
-   ```
-3. Once user confirms MyBrowser is enabled:
-   - Use `mybrowser_browser_navigate` to the target URL
-   - Use `mybrowser_browser_snapshot` to verify page loaded
-   - Use `mybrowser_browser_network` (start_capture → navigate → get_log) to intercept XHR
-   - Use `mybrowser_browser_extract` for structured data extraction
-   - Use `mybrowser_browser_evaluate` for JavaScript-based data capture
+1. Detect failure: HTTP 403, `ERR_NETWORK_CHANGED`, "Just a moment...", `ERR_ABORTED`
+2. Prompt the user: *"Headless scraping is blocked on [site]. Please enable MyBrowser MCP (browser extension) so I can capture data directly from your browser. Once enabled I'll continue."*
+3. Once enabled: `mybrowser_browser_navigate` → `mybrowser_browser_snapshot` to confirm load → `mybrowser_browser_network` (start_capture → navigate → get_log) to intercept XHR → `mybrowser_browser_extract` / `mybrowser_browser_evaluate` for structured capture.
 
-**MyBrowser MCP is the LAST RESORT before asking the user for manual data entry.** Try all other layers (T1-T6, L2-L6) before invoking this.
+**MyBrowser MCP is the LAST RESORT before asking the user for manual data entry.** Try all other layers (T1-T6, L2-L6) first.
 
 ## Phase 2: Per-Fund-House Playwright XHR Interception (PRIMARY — MANDATORY)
 
-## Phase 2: Per-Fund-House Playwright XHR Interception (PRIMARY — MANDATORY)
+**This phase is WAVE 2.** One house per `task`, all houses in one message. The parent does not run the Playwright script.
 
 **CRITICAL RULE:** For EVERY fund house in the plan, you MUST write and execute a Playwright XHR interception script on their HK fund page. Save each script to `/tmp/opencode/`. Do NOT skip this step. Do NOT fall back to web search. Only after XHR interception fails on a site may you use fallback sources.
 
 ### Procedure for Each Fund House
 
-1. Navigate to the fund house's HK fund price/performance page (URLs below)
+1. Navigate to the house's HK fund price/performance page (URLs below)
 2. Intercept ALL XHR/fetch responses, filter for JSON
-3. Identify the API that returns fund performance data
-4. Replay that API directly with `fetch` or `webfetch` for ALL funds from this house
-5. Parse JSON results to extract: trailing returns, OCF, NAV, ratings
-6. **Save the script to `/tmp/opencode/xhr_[house].js`** and save captured JSON to `/tmp/opencode/xhr_[house]_capture.json`
+3. Replay the discovered API for ALL funds from this house
+4. Parse JSON for trailing returns, OCF, NAV, ratings
+5. Save the script to `/tmp/opencode/xhr_[house].js` and captured JSON to `/tmp/opencode/xhr_[house]_capture.json`
 
 ### Playwright Template — Use This for Every Fund House
 
@@ -188,157 +213,112 @@ const fs = require('fs');
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-    viewport: { width: 1920, height: 1080 },
-    locale: 'en-US'
+    viewport: { width: 1920, height: 1080 }, locale: 'en-US'
   });
   const page = await context.newPage();
-
-  const capturedData = [];
-  page.on('response', async (response) => {
-    const url = response.url();
-    const contentType = response.headers()['content-type'] || '';
-    const status = response.status();
-    if (contentType.includes('json') || contentType.includes('application/json')) {
-      try {
-        const json = await response.json();
-        capturedData.push({ url, status, data: json });
-      } catch (e) {}
-    }
+  const captured = [];
+  page.on('response', async (r) => {
+    if (!(r.headers()['content-type'] || '').includes('json')) return;
+    try { captured.push({ url: r.url(), status: r.status(), data: await r.json() }); } catch (e) {}
   });
-
   await page.goto('TARGET_URL', { waitUntil: 'networkidle', timeout: 60000 });
   await page.waitForTimeout(5000);
-
-  // Save captures
-  fs.writeFileSync('/tmp/opencode/xhr_captures.json', JSON.stringify(capturedData, null, 2));
-  console.log(`Captured ${capturedData.length} XHR responses`);
-
-  // Print summary
-  capturedData.forEach((r, i) => {
-    const dataStr = r.data ? JSON.stringify(r.data).substring(0, 200) : 'no data';
-    console.log(`[${i}] ${response.url}`);
-    console.log(`    Status: ${r.status}, Data: ${dataStr}`);
-  });
-
+  fs.writeFileSync('/tmp/opencode/xhr_captures.json', JSON.stringify(captured, null, 2));
+  console.log(`Captured ${captured.length} XHR responses`);
   await browser.close();
 })();
 ```
 
-### Concrete Fund House Targets — Navigate HERE for XHR Interception
+### Concrete Fund House Targets — see `house-access.md`
 
-For each house that appears in your fund universe, navigate to its HK fund page and capture XHR. **Do NOT skip any house.**
+**Do not trust a "blocked" verdict without re-testing.** The table this replaced marked 13 of 16 houses "blocked"; a live run (verified Sep 2026) reached **16 of 24**. Nearly every "block" was a typo'd/legacy domain, a wrong URL path, **bundled Chromium crashing** (which reports as `ERR_NETWORK_CHANGED` / `ERR_ABORTED`, *not* bot detection), or a consent gate a real browser clicks past.
 
-| Fund House | Playwright Target URL | Actual Result | API Found |
-|------------|----------------------|---------------|-----------|
-| **AllianzGI HK** | `https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds/` | ✅ Loaded | `GET /en-HK/api/funddata/multi/funds/{guid}/{guid}` → 412 funds with exact trailing returns, NAV, calendar years |
-| **Franklin Templeton HK** | `https://www.franklintempleton.com.hk/en-hk/our-funds/price-and-performance/mutual-funds` | ✅ Loaded (needs Individual Investor + Accept + cookie consent) | GraphQL `POST /api/pds/price-and-performance` with operations: IntlCorePpss (core), IntlIndentifiers (ISINs), CommonPerformance, IntlRatings (M★), CalendarYearMonthly |
-| **Fidelity HK** | `https://www.fidelity.com.hk/en/funds/fund-price-and-performance/` | 🚫 **HTTP 403** — Akamai bot protection, all URLs blocked | N/A — use PDF factsheets |
-| **JPMorgan HK** | `https://am.jpmorgan.com/hk/en/asset-management/per/products/` | 🚫 **ERR_ABORTED** — network security intercept | N/A — use PDF factsheets |
-| **BlackRock HK** | `https://www.blackrock.com/hk/en/products/` | 🚫 **Redirected** — CrowdStrike Source Defense blocking | N/A — use Morningstar |
-| **Manulife IM** | `https://www.manulifeim.com.hk/en/funds/fund-prices.html` | 🚫 **HTTP 403** — Akamai all pages/APIs | N/A — no public access |
-| **Manulife HK** | `https://www.manulife.com.hk/` | 🚫 **HTTP 403** — Akamai on all pages | N/A — no public access |
-| **Schroders HK** | `https://www.schroders.com/en-hk/hk/individual/fund-centre/` | 🚫 **ERR_NETWORK_CHANGED** — intermittent failure | N/A — use Morningstar |
-| **Ninety One HK** | `https://ninetyone.com/hong-kong/en` | 🚫 **Cloudflare 403** — "Just a moment..." | N/A — use FT.com |
-| **Invesco HK** | `https://www.invesco.com.hk/en/home` | 🚫 **404** — all fund URLs not found | N/A — use Morningstar |
-| **PIMCO HK** | `https://www.pimco.com/hk/en/investments/mutual-funds` | 🚫 **404** — fund pages broken under headless | N/A — use Yahoo Finance |
-| **Janus Henderson HK** | `https://www.janushenderson.com/` | 🚫 **ERR_NETWORK_CHANGED** — intermittent failure | N/A — use Morningstar |
-| **AB/AllianceBernstein HK** | `https://www.alliancebernstein.com.hk/` | 🚫 **SSL EXPIRED** — ERR_CERT_DATE_INVALID | N/A — use PDF factsheets |
-| **Value Partners HK** | `https://www.vp.com.hk/en/` | 🚫 **SSL EXPIRED** — ERR_CERT_AUTHORITY_INVALID | N/A — use PDF factsheets |
-| **BNP Paribas AM HK** | `https://www.bnpparibas-am.com.hk/en-hk/` | 🚫 **DNS FAILURE** — ERR_NAME_NOT_RESOLVED | N/A — no access |
-| **Amundi HK** | `https://www.amundi.com.hk/en_retail` | ⚠️ Forces redirect to Chinese (zh_retail) | Partial |
-| **Nikko AM → Amova AM** | `https://www.nikkoam.com.hk/en/home` | ⚠️ Redirected to hk.amova-am.com (rebranded) | Partial — needs role selector + disclaimer accept |
+**Order of attack, every house, every run:**
 
-### Real-World API Discovery Notes (Verified Jul 2026)
+1. Use the corrected URL in **`house-access.md`** — it has the working targets, the live API endpoints, and the share-class traps that produce wrong numbers rather than mere blocks.
+2. `chromium.launch({ channel: 'chrome', headless: false })` under `xvfb-run` + `navigator.webdriver` override. Bundled Chromium is the most common false negative.
+3. Bare domain 404s? Try the **global root** (`.com` vs `.com.hk`).
+4. Click through consent/disclaimer gates. `page.request.get()` inherits the 403; **in-page `window.fetch()` under real Chrome returns 200**.
 
-#### AllianzGI HK — Fully Working
+Houses confirmed reachable Sep 2026: AllianzGI, Franklin Templeton, JPMorgan, Fidelity, Manulife HK, Manulife IM, Ninety One, Schroders, Invesco, Amundi, BNP Paribas AM, AllianceBernstein, Value Partners, Barings, T. Rowe Price, First Sentier, Janus Henderson, Hang Seng IM, PIMCO, Capital Group, ChinaAMC. Confirmed hard: UBS (Akamai 403 behind a role gate — use issuer KIDs via `api.fundinfo.com`), Pictet (404 + hCaptcha), BlackRock (path + T&C gate).
+
+### Real-World API Discovery Notes (verified Sep 2026)
+
+#### AllianzGI HK — reachable, but no returns and no OCF
 ```
-Target: https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds
-API (fund list):  POST /api/sitecore/searchservice/fundlist
-   Body: IsAutosuggest=true&Region=ap&Language=en-HK&SalesChannel=hk_retail_financial_advisor
 API (multi-fund): GET /en-HK/api/funddata/multi/funds/{sitecoreId}/{datasourceId}
-   → Returns 412 funds with exact: FundName, ISIN, BaseCurrency, NAV, NavDate,
-     YTD, TrailingReturn1Year, TrailingReturn3Year, TrailingReturn5Year,
-     SinceInception, CY2022, CY2021, CY2020, CY2019, CY2018
-   → NOTE: No OCF, no Morningstar rating, no SRRI in this API
-   → OCF/SRRI data must come from fund detail page or factsheet PDF
+  -> ~412 funds, ~687KB
+  Real fields: FundName, Isin, BaseCurrency, Nav, NavDate, CALENDAR_YEAR_<YEAR>
+  NO TrailingReturn* fields. NO OCF. NO Morningstar. NO SRRI.
+  YEAR_INTERVAL_1/3/5_MONTH_ULTIMO  = 1/3/5 MONTHS, not years
+  Values are HTML-wrapped: '<span class="up--color">34.90 %</span>' -> regex-strip
+  OCF/TER: fund DETAIL page (server-side rendered, has "Total Expense Ratio"),
+           or the per-fund factsheet under /documents/{guid}/{ISIN}
 ```
-**How to use**: Navigate once, capture the GET `/api/funddata/multi/funds/` response. The response is ~687KB. Parse it for the specific fund ISINs needed.
+**How to use**: Navigate once, capture the GET response, parse it for the ISINs needed. The max 3Y-equivalent figure in the payload observed was 29.85% p.a. — that field is 36 months, not 3 years. Never use it to validate a plan's 3Y/5Y returns without an ISIN match.
 
 #### Franklin Templeton HK — GraphQL API Fully Working
 ```
 Target: https://www.franklintempleton.com.hk/en-hk/our-funds/price-and-performance/mutual-funds
 - Must first accept role selector ("Individual Investor") + welcome dialog ("Accept") + cookie consent ("Ok")
-- Then navigate to the mutual funds page
 
 API: POST /api/pds/price-and-performance (GraphQL)
-Operations available:
-  op=Labels&id=0          → Field name translations
-  op=IntlCorePpss&id=2    → Core fund data: fundid, fundname, basecurrcode,
-                             assetclass, fundcatg, invmangr, aum, shareclass[]
-                             fields: shclname, shclcurr, prmryshclind, perfincdt,
-                             nav { navdate, navvalue, navchngpct, ytdtotretatnav },
-                             charges { prfrmncefee, fundadminfee, annchrg, expratnet }
-  op=IntlIndentifiers&id=3 → ISIN, Bloomberg ticker, share class codes (199KB response)
-  op=CommonPerformance&id=4 → Trailing returns (month_end, quarter_end) but only for AllianzGI funds
-  op=IntlRatings&id=5      → Morningstar Overall Rating, MS Rating 3/5/10Y, MS Category (142KB)
-  op=CalendarYearMonthly&id=6 → Calendar year returns monthly
-  op=CalendarYearQuarterly&id=7 → Calendar year returns quarterly
+  op=FundOverviewSummary -> ONGOING_CHARGE_RATIO = THE OCF (as-of dated)
+  op=IntlCorePpss        -> charges.prfrmncefee / fundadminfee / annchrg / expratnet
+                            annchrg = MANAGEMENT CHARGE, not the OCF
+                            Proof of the distinction: one fund had OCF 1.37%, annchrg 1.05%, expratnet 1.39%
+  op=IntlIndentifiers    -> ISIN, Bloomberg ticker, share class codes (199KB)
+  op=CommonPerformance   -> no trailing returns for FT funds (only YTD on the live site)
+  op=IntlRatings         -> Morningstar Overall Rating, MS Rating 3/5/10Y, MS Category (142KB)
+  op=CalendarYearMonthly -> calendar year returns monthly
+  op=CalendarYearQuarterly -> calendar year returns quarterly
 ```
-**How to use**: Navigate to mutual funds page, the page fires all these APIs automatically. Capture the response bodies. `IntlCorePpss` + `IntlRatings` + `IntlIndentifiers` together give NAV, OCF, Morningstar stars, and ISIN for all 62 HK mutual funds.
+**How to use**: the page fires these automatically; capture the bodies. `FundOverviewSummary` + `IntlRatings` + `IntlIndentifiers` give the OCF, Morningstar stars, and ISIN. `charges.annchrg` is the manager's charge — writing it to `ter` is defect D2.
 
-#### Common Bot Protection Patterns
-| Pattern | Sites Affected | What Happens |
-|---------|---------------|--------------|
-| **Akamai CDN** | Manulife HK, Manulife IM, Fidelity HK | HTTP 403 on ALL pages/APIs, even headless Playwright |
-| **Cloudflare** | Ninety One HK | "Just a moment..." challenge, 403 block |
-| **CrowdStrike Source Defense** | BlackRock HK | Page loads but content is blocked/replaced, 27+ console errors |
-| **Network security intercept** | JPMorgan HK | ERR_ABORTED before any page content loads |
-| **SSL certificate expired** | AB HK, Value Partners HK | ERR_CERT_DATE_INVALID / ERR_CERT_AUTHORITY_INVALID |
-| **404 behind headless** | Invesco HK, PIMCO HK | All fund-related URLs return 404 under Playwright |
-| **ERR_NETWORK_CHANGED** | Schroders HK, Janus Henderson HK | Intermittent failures in headless mode |
+#### Symptom → most likely cause (verified Sep 2026)
 
-**Strategy when blocked**: Do NOT stop at the first 403. Escalate through Phase 2B layers: L2 aggregators → L3 stealth re-attempt (real Chrome + webdriver override + curl cookie replay + API-host probe) → L4 Wayback Machine → L5 plan documents → L6 external tearsheets (Morningstar/Primerate/FT.com by ISIN, PDF factsheets at `{fundhouse}.com.hk/{language}/fund-literature/{fund-name}.pdf`).
+**Read this before concluding anything about bot protection.** The previous version of this
+table listed SSL expiry, 404-behind-headless and network intercepts as site properties.
+Every one of those was wrong: they were artefacts of a headless-Chromium build, a typo'd
+TLD, or a wrong path. None of these seven houses actually blocks a real browser.
+
+| Symptom | What it usually actually is | Verified example |
+|---------|----------------------------|------------------|
+| `ERR_NETWORK_CHANGED`, `ERR_ABORTED` | **Bundled Chromium failing on a GPU-sandbox host.** Not a block. Use `channel: 'chrome'` | JPMorgan, Schroders, Janus, Manulife IM — all reachable |
+| `SSL EXPIRED` / `ERR_CERT_*` | The **wrong host**. Try the global root | AB: `.com` root valid. Value Partners: `vp.com.hk` dead, `valuepartners-group.com` valid |
+| `ERR_NAME_NOT_RESOLVED` | A **typo'd or legacy TLD** | `bnpparibas-am.com.hk` has zero DNS records; `.com` works |
+| 404 on every fund URL | **A guessed path**, or a wrong share-class slug | JPMorgan `/products/` is a 304-byte stub; PIMCO `eg-usd-…` does not exist, `e-usd-…` does |
+| 403 on `page.request.get()` | **That call bypasses the browser stack.** In-page `window.fetch()` returns 200 | Fidelity International |
+| 403 everywhere | Genuine edge protection, or a **role/cookie gate after a 200** | Manulife HK (Akamai — beat by replaying real-Chrome cookies through curl); UBS (Akamai — no way through, use issuer KIDs) |
+| A consent/splash gate | A **button disabled until you scroll the disclaimer** | Invesco's Confirm; BlackRock's T&C modal |
+
+**Escalation order when genuinely blocked:** L2 aggregators (freshness-checked) → L3 stealth (real Chrome, mobile emulation, curl cookie replay, API-host probe) → L4 Wayback → L5 plan documents → L6 external tearsheets. But exhaust §"Concrete Fund House Targets" **first** — the cheap causes above resolve most cases.
 
 ### Special Case: CTF Life (Chow Tai Fook)
 
 Playwright on `ctflife.com.hk` is often blocked by **Alibaba Cloud ESA slider**. Fund-price HTML is still fetchable (curl/webfetch). Vue `GET /api/PerformanceData` is not the path; POST with `fund_code` 500s.
 
 **CTF Life extraction procedure:**
-1. Parse fund-price **HTML table**: `data-prod` (Oscar=`OSCAR`), `data-comp`, `data-cat`, code, `getPricePDF('CITICODE')`, NAV.
+1. Parse the fund-price **HTML table**: `data-prod` (Oscar=`OSCAR`), `data-comp`, `data-cat`, code, `getPricePDF('CITICODE')`, NAV.
 2. Filter the plan with `OSCAR` in `data-prod` (shared list with Cheers Plus / Legend / We Shine). Drop Legend-only T-codes.
 3. Batch FE Precision Plus for ISIN + KFS + factsheet:
    `https://datafeeds.feprecisionplus.com/api/funddata/CTFLife/5331e260-6d43-295c-cd1c-dea0faa31e7c?Languages=en-gb&rangename=Range&citicodes=`
-4. FT.com by `{ISIN}:{CCY}` for trailing returns (`data-mod-config` rawFundPerformance) and Ongoing charge. HK ISINs often 404 on FT → KFS OCF + factsheet cumulative 1/3/5Y (**annualise** 3Y/5Y).
-5. **Do NOT generate a report with only current prices — that is 0% coverage and is unacceptable**
+4. FT.com by `{ISIN}:{CCY}` for trailing returns (`data-mod-config` rawFundPerformance) and ongoing charge. HK ISINs often 404 on FT → KFS OCF + factsheet cumulative 1/3/5Y (**annualise** 3Y/5Y).
+5. **Do NOT generate a report with only current prices — that is 0% coverage**
 
 Oscar (~180 F-codes) houses: BlackRock, abrdn, Allianz, Schroder, Barings, BNP, Fidelity, JPMorgan, Invesco, FT, Ninety One, PIMCO, T. Rowe, Value Partners, Wellington, others.
 
 ### After Discovery: Replay APIs Directly
 
-Once you find the API endpoint pattern for a fund house, use it to batch-extract data for ALL their funds at once:
-
-```javascript
-// Example: after finding a Morningstar API endpoint
-const fundIds = ['F00000XXXX', ...]; // from XHR capture
-const results = [];
-for (const id of fundIds) {
-  const res = await fetch(`https://asiaapi.morningstar.com/ODSHelperWS/default.aspx?ClientId=chiefsec&DocType=FS&Id=${id}&LanguageId=EN&MarketId=CU$$$$$$HKG`);
-  const data = await res.json();
-  results.push({ id, data });
-}
-// Extract: 1Y return = data.performance.oneYearReturn, etc.
-```
+Once you find an endpoint pattern for a fund house, batch-extract data for ALL their funds in one script: `fetch` the discovered URL per fund ID, `res.json()`, then read the exact field (`data.performance.oneYearReturn`, etc.). Save the script and its output per house.
 
 ### Mandatory Checklist Per Fund House
 
-For EACH fund house, verify these before moving on:
-
-- [ ] Playwright script written and saved to `/tmp/opencode/xhr_[house].js`?
-- [ ] Script executed and captured XHR responses?
-- [ ] Found JSON API with performance data? If yes, replayed it.
-- [ ] If no JSON API found, attempted HTML parsing of the fund page?
-- [ ] Extracted: 1/3/5Y trailing returns, Morningstar rating, OCF, risk rating?
-- [ ] Saved results to fund house output file?
+- [ ] Script written, saved to `/tmp/opencode/xhr_[house].js`, and executed?
+- [ ] XHR responses captured; JSON API found and replayed for the whole house?
+- [ ] If no JSON API, HTML parsing attempted on the fund page?
+- [ ] Extracted 1/3/5Y returns, rating, OCF, risk rating?
+- [ ] Results saved to the house's output file?
 
 ## Phase 2B: Fallback Source Layers (escalate until coverage ≥ 90%)
 
@@ -355,14 +335,17 @@ For EACH fund house, verify these before moving on:
 
 ### Layer L2: HK Aggregator Portals (HIGH VALUE — do not skip)
 
-Aggregator fund price pages cover ALL fund houses in one site, are rarely bot-blocked, and are JSON-API-backed. **The source that enumerated the fund universe will almost always also have performance data APIs.**
+Aggregator fund price pages cover many fund houses in one site, are rarely bot-blocked, and are JSON-API-backed. **The source that enumerated the fund universe will usually have a performance API too** — but verify it is current first.
 
-- **HKET fund price page** `invest.hket.com` — proven (Jul 2026): enumerated full 130-fund ILAS universe. Intercept XHR on the fund price/search pages for the performance API.
-- **ETNet fund centre** `fund.etnet.com.hk` — fund screener with full data
-- **FSMOne HK** `fsmone.com.hk` — full fund database, price + performance + OCF
-- **AASTOCKS funds** `aastocks.com.hk/en/funds/` — fund search with returns
+Targets: `invest.hket.com`, `fund.etnet.com.hk`, `fsmone.com.hk`, `aastocks.com.hk/en/funds/`.
 
-Procedure: write a Playwright XHR interception script for each aggregator (save to `/tmp/opencode/xhr_aggregator_*.js`), search for each missing fund, capture the JSON API, replay it for all missing funds. Batch by aggregator, not per fund.
+**Freshness check (D5, before trusting a fund-price page).** `invest.hket.com` returned a **frozen 2021-03-26 snapshot** — 95 rows, every price stamped 26/03/21, zero ISINs, and delisted funds still listed (verified Sep 2026). A prior run took its whole universe and fund count from that page and produced a dataset that self-reported 4% complete. **This applies to plan and provider fund-price pages too, not just third-party aggregators** — a provider table is equally capable of being stale.
+
+- Assert the as-of date of what the aggregator *actually returns* (price dates, "as of" header, API field), not the date of the page you requested.
+- Sanity-check the count against a second source. A stale snapshot still enumerates a full-looking universe — **a plausible fund count is not evidence of currency**.
+- Never accept a prior run's fund count as gospel. Re-derive saturation every run, and record the verified as-of date in `freshness_checked` on every aggregator-sourced row.
+
+Procedure: write a Playwright XHR interception script per aggregator (save to `/tmp/opencode/xhr_aggregator_*.js`), search for each missing fund, capture the JSON API, replay it for all missing funds. Batch by aggregator, not per fund.
 
 ### Layer L3: Stealth Re-Attempt on Blocked Houses
 
@@ -371,82 +354,65 @@ Procedure: write a Playwright XHR interception script for each aggregator (save 
 1. **Real Chrome channel + webdriver override** (defeats basic Akamai/Cloudflare headless detection):
 ```javascript
 const browser = await chromium.launch({
-  channel: 'chrome',                       // real Chrome install, not bundled Chromium
-  headless: false,                          // headed; on a server use `xvfb-run node script.js`
+  channel: 'chrome',                 // real Chrome, not bundled Chromium
+  headless: false,                    // headed; on a server use `xvfb-run node script.js`
   args: ['--disable-blink-features=AutomationControlled']
 });
-const context = await browser.newContext({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', locale: 'en-US', timezoneId: 'Asia/Hong_Kong', viewport: { width: 1920, height: 1080 } });
+const context = await browser.newContext({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', locale: 'en-US', timezoneId: 'Asia/Hong_Kong' });
 await context.addInitScript(() => {
   Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
   window.chrome = window.chrome || { runtime: {} };
 });
 ```
 2. **Mobile device emulation** — many Akamai configs exempt mobile traffic: `browser.newContext({ ...devices['iPhone 13'] })`
-3. **Cookie/session replay via curl**: after the browser session, export `context.cookies()`, then replay discovered APIs directly with `curl -H 'User-Agent: ...' -H 'Accept: application/json' -b 'cookies.txt' -H 'Referer: <the page>' <API URL>` — API hosts are often less protected than HTML pages.
-4. **Bypass path via API host**: even when HTML is 403, try the API endpoint host directly (e.g., `api.fidelity.com.hk`, `prices.manulifeim.com.hk`) — check DNS and probe common API paths.
+3. **Cookie/session replay via curl**: export `context.cookies()`, then `curl -H 'User-Agent: ...' -H 'Accept: application/json' -b 'cookies.txt' -H 'Referer: <the page>' <API URL>` — API hosts are often less protected than HTML pages.
+4. **Bypass path via API host**: even when HTML is 403, probe the API endpoint host directly (e.g., `api.fidelity.com.hk`, `prices.manulifeim.com.hk`) — check DNS and common API paths.
 5. Only if ALL of 1–4 fail for a house may you drop L1 for that house and go to L2/L4 for its funds.
 
 ### Layer L4: Wayback Machine (dead / SSL-expired / DNS-failed sites)
 
-For sites like AB HK (SSL expired), Value Partners HK (SSL expired), BNP Paribas AM HK (DNS dead):
+For sites like AB HK, Value Partners HK, BNP Paribas AM HK:
 
-- Page snapshots: `web.archive.org/web/2024*/{original-url}` — pick the newest snapshot
+- Page snapshots: `web.archive.org/web/2024*/{original-url}` — pick the newest
 - PDF factsheets: `web.archive.org/web/{timestamp}if_/{factsheet-url}.pdf` — `if_` returns the raw original file
-- Fund data pages render server-side; the cached HTML still contains the performance tables
-- Search snapshots by fund name: `web.archive.org/web/*/vp.com.hk/*`
+- Fund data pages render server-side, so cached HTML still holds the performance tables
+- Search by fund name: `web.archive.org/web/*/vp.com.hk/*`
 
 ### Layer L5: Plan's Own Documents (internal funds)
 
-**Internal funds (e.g., Manulife Select series) are NOT "no public data" until the plan's own documents have been checked.** The plan operator publishes OCF and fund details for internal funds in:
-
-- Investment Choice Brochure / 投資選擇手冊 PDF — search `"[Plan Name]" investment choice brochure PDF`, `"[Plan Name]" 投資選擇手冊`
-- Plan fact sheet / product brochure PDF
-- Fund change announcements — `"[Provider]" ILAS fund change announcement`
-- Provider's ILAS platform login-adjacent public pages (e.g., Manulife's fund price pages for the plan)
+**Internal funds are NOT "no public data" until the plan's own documents have been checked.** The operator publishes OCF and fund details for internal funds in the Investment Choice Brochure / 投資選擇手冊 PDF, the plan fact sheet / product brochure, fund change announcements, and the provider's public ILAS platform pages. Search `"[Plan Name]" investment choice brochure PDF`, `"[Plan Name]" 投資選擇手冊`, `"[Provider]" ILAS fund change announcement`.
 
 ### Layer L6: Per-Fund External Sources (in order, only for funds still missing data)
 
-### Source B: Fund Manager Pages — Direct HTML Scrape
+**Source A — Fund Manager Pages: Direct HTML Scrape.**
 
-If XHR found no API, use Playwright or fetch to read the HTML fund page directly for each fund from this house:
+If XHR found no API, read the HTML fund page directly for each fund from this house. The house's fund-detail URL shape is listed in the fund-house table above (Phase 2); the recurring patterns are:
 
 - **BlackRock**: `https://www.blackrock.com/hk/en/products/[PRODUCT_ID]` — SSR HTML with performance tables
-- **AllianzGI**: `https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds/[FUND-NAME]` — Performance tab HTML
-- **PIMCO**: `https://www.pimco.com.hk/en/investments/gis/[FUND-NAME]/inst-usd-accumulation` — factsheet PDFs
-- **JPMorgan**: `https://am.jpmorgan.com/hk/en/asset-management/per/products/[FUND-NAME]-ISIN` — performance tables
 - **Fidelity**: `https://www.fidelity.com.hk/en/funds/[FUND-NAME]` — factsheet performance
-- **Schroders**: `https://www.schroders.com.hk/hk/individual/funds/[FUND-NAME]` — factsheet PDFs
-- **Franklin Templeton**: `https://www.franklintempleton.com.hk/en-hk/investor/investments-and-solutions/funds/[FUND-NAME]`
-- **Invesco**: `https://www.invesco.com.hk/en/funds/[FUND-NAME]`
 - **Manulife IM**: `https://www.manulifeim.com.hk/en/funds/fund-prices.html` (may be 403)
-- **Capital Group**: `https://www.capitalgroup.com/individual-investors/hk/en/investments/[FUND-NAME].html`
+- Anything else: `{fundhouse}.com.hk/{language}/fund-literature/{fund-name}.pdf` for the factsheet
 
-### Source C: Morningstar HK
+**Source B — Morningstar HK.**
 
-Search: `site:morningstar.hk "[Fund Name]" "[Fund House]"`
-URL: `https://www.morningstar.hk/hk/report/fund/performance.aspx?t=0P0000XXXX`
-Data: Star rating, trailing returns, category, OCF.
+`https://www.morningstar.hk/hk/report/fund/performance.aspx?t=0P0000XXXX` — star rating, trailing returns, category, OCF. Search: `site:morningstar.hk "[Fund Name]" "[Fund House]"`.
 
-### Source D: FT.com (by ISIN)
+**Source C — FT.com (by ISIN).**
 
-URL: `https://markets.ft.com/data/funds/tearsheet/summary?s=[ISIN]:USD`
-URL (performance): `https://markets.ft.com/data/funds/tearsheet/performance?s=[ISIN]:USD`
-Data: Exact trailing returns (5yr, 3yr, 1yr), quartile ranking, OCF, fund size, launch date.
+`https://markets.ft.com/data/funds/tearsheet/summary?s=[ISIN]:USD` and `.../performance?s=[ISIN]:USD` — exact trailing returns (1/3/5yr), quartile ranking, OCF, fund size, launch date.
 
-### Source E: Yahoo Finance (by Morningstar ID)
+**Source D — Yahoo Finance (by Morningstar ID).**
 
-URL: `https://finance.yahoo.com/quote/0P0000XXXX/`
-Data: YTD return, 1yr, 3yr, 5yr returns, Morningstar Risk Rating, Expense Ratio.
+`https://finance.yahoo.com/quote/0P0000XXXX/` — YTD, 1/3/5yr returns, Morningstar Risk Rating, expense ratio.
 
-### Source F: Endowus / Aggregators
+**Source E — Endowus / Aggregators.**
 
-URL: `https://endowus.com/en-hk/investment-funds-list/[fund-name]-[ISIN]`
-Search: `endowus.com "[Fund Name]" performance`
+`https://endowus.com/en-hk/investment-funds-list/[fund-name]-[ISIN]`; search `endowus.com "[Fund Name]" performance`.
 
-### Source G: PDF Factsheets
+**Source F — PDF Factsheets.**
 
-Search: `"[Fund Name]" factsheet PDF Hong Kong` or `api.fundinfo.com "[Fund Name]"`
-Fundinfo: `https://api.fundinfo.com/document/[HASH]/MR_en_en_[ISIN]_YES_[DATE].pdf?apiKey=[KEY]`
+Search `"[Fund Name]" factsheet PDF Hong Kong"` or `api.fundinfo.com "[Fund Name]"`; `https://api.fundinfo.com/document/[HASH]/MR_en_en_[ISIN]_YES_[DATE].pdf?apiKey=[KEY]`
+
 
 ## Phase 3: Coverage Gate — MANDATORY, NEVER SKIP
 
@@ -457,7 +423,7 @@ complete   = # funds with ALL of [1Y return, 3Y return, 5Y return, TER, region, 
 coverage % = complete / total_funds × 100
 ```
 
-**GATE: `coverage % ≥ 90%` is REQUIRED before producing the final output.**
+**GATE: `coverage % ≥ 90%` is REQUIRED before producing the final output.** A row nulled for an `insufficient_history` sentinel (D1) counts as **incomplete**: nulling is the honest reading, not a coverage regression to be excused, and clearing the gate now requires backfilling.
 
 | Coverage | Action |
 |----------|--------|
@@ -465,26 +431,19 @@ coverage % = complete / total_funds × 100
 | 70–89% | NOT DONE — continue to the next source layer (L2 → L3 → L4 → L5 → L6), targeting ONLY the missing funds. Recompute after each layer. |
 | < 70% | CRITICAL FAILURE of extraction — go back and redo Phase 2 from scratch with stealth techniques (L3) on ALL houses before touching L6 |
 
-**Loop until one of:**
-1. Coverage ≥ 90%, OR
-2. Every missing fund has a documented exclusion reason with evidence of WHICH sources were tried and WHY they failed (this requires L2, L3, L4, L5 attempted for that fund — a single source failing is never a valid exclusion)
+**Loop until one of:** coverage ≥ 90%, OR every missing fund has a documented exclusion reason naming WHICH sources were tried and WHY they failed (L2, L3, L4, L5 must each have been attempted for that fund — one source failing is never a valid exclusion).
 
 **Include this report in the output:**
 
 ```
 ## Data Coverage Report
 | Status | Funds | % |
-|--------|:-----:|:--:|
 | Complete (1/3/5Y + TER + region/sector/type) | n | x% |
-| Partial (missing some fields) | n | x% |
-| Missing (no data) | n | x% |
+| Partial / Missing | n | x% |
 COVERAGE: x% — GATE ≥ 90%: PASS/FAIL
 
 ## TER Coverage Report
-| Status | Funds | % |
-|--------|:-----:|:--:|
-| TER populated | n | x% |
-| TER unavailable | n | x% |
+| TER populated | n | x% |   | TER unavailable | n | x% |
 TER GATE ≥ 90%: PASS/FAIL
 ```
 
@@ -492,49 +451,87 @@ TER GATE ≥ 90%: PASS/FAIL
 
 - **No `~` (approximate) values.** Extract exact percentages (e.g., `5.37`, not `~5.4%`).
 - Use most recent data available; note the date.
-- For annualised returns, use trailing return figures (1yr, 3yr, 5yr annualised).
-- For OCF/TER, use "Ongoing Charges Figure" or "Total Expense Ratio". Prefer OCF if both available.
+- Use trailing annualised returns (1yr, 3yr, 5yr) — never calendar-year or YTD figures in a `ret_Ny` field.
 - **TER standardisation**: Record TER in the output. The analysis layer (`ilas-fund-report`) will standardise all returns to gross-of-TER for fair comparison. Your job is to extract the TER accurately.
+
+## Sentinels, nulls, and backfill provenance (D1)
+
+`0.0` is a **missing-data sentinel**, not a 0% return. 32 of 108 fund-periods in a real run returned `y3`/`y5 == 0.0`; all 32 belonged to a share class whose NAV history started *after* the lookback date. Published as-is, every recently-launched class is ranked catastrophic.
+
+- When a trailing-return field is exactly `0.0`, compare the class's NAV-tracking-start / launch date with the lookback date. A real 0% is possible and still needs a flag; `0.0` is never silently publishable.
+- **Class too young:** `ret_3y = null`, `ret_3y_flag = "insufficient_history"`, `ret_src_3y = "insufficient_history"`.
+- **Underlying fund exists:** backfill its trailing 3Y/5Y by ISIN, set `ret_src_3y = "underlying_fund"`, and state the basis — net of that fund's own OCF, **not** net of the plan wrapper.
+- **Never** interpolate, and **never** back-extrapolate a 3Y/5Y from the 1Y.
+- `ret_src_*` must be one of `plan_share_class` | `underlying_fund` | `insufficient_history` | `not_covered` | `unavailable`. Every multi-period return declares its provenance (D1b).
+
+**Gate interaction:** a nulled sentinel counts as an **incomplete** row for the ≥90% coverage gate. Nulling is not a coverage regression to be excused — it is the honest reading, and clearing the gate now requires backfilling.
+
+## Volatility, Sharpe, and basis matching (D3)
+
+A Sharpe's numerator and denominator must be the same fund **and** the same window. A house-sourced vol overrode the plan vol, so three funds published a Sharpe that divided an underlying-fund return by a plan-share-class vol, or the reverse. In all 108 rows the published Sharpe could not be recomputed from the published columns; one fund was overstated by 67% (vol 10.63 used vs 17.77 published).
+
+- Compute the return and the vol for a given horizon **from the same price-history series over the same window**. A cumulative return field sourced separately from the vol is not a matched pair.
+- If a return is backfilled from the underlying fund, its vol must be the underlying fund's for the same window.
+- If no house vol is published for that window, use the plan vol **and** flag the mix in `sharpe_basis_flag` — never silently mix.
+- **Hard requirement:** the published Sharpe must be recomputable from the published columns — `sharpe_Ny = (ret_Ny_gross − rf) / vol_Ny_used`. Publish the vol you actually divided by.
+- `vol_annual` is the **trailing-3Y** vol, not a 1Y figure.
 
 ## Output CSV Schema
 
-The output must be an enriched CSV with these columns:
+The output must be an enriched CSV with these columns. `validate_funds.py` fails the run (exit 1) on any violation of R0, D1, D1b, D2, D2b, D2c, D2d, D3, D3b, D3c, D4, D5, D6, R9.
 
 | Column | Type | Required | Description |
 |--------|------|----------|-------------|
 | `code` | String | Yes | Fund code (e.g., UIG01) |
 | `name` | String | Yes | Fund full name |
-| `house` | String | Yes | Fund house (e.g., Manulife IM) |
+| `house` | String | Yes | Fund house, derived from the underlying fund — never the platform name (D4). `INTERNAL — <sponsor>` for internal lines |
 | `region` | String | Yes | Geographic region (North America, Europe, Japan, Asia Pacific ex-Japan, Greater China, EM, Global) |
 | `sector` | String | Yes | Sector focus (Technology, Healthcare, Financials, etc. or "Broad" if multi-sector) |
 | `type` | String | Yes | Asset class (Equity, Bond, Multi-Asset, Money Market, etc.) |
 | `nav` | Float | Yes | Latest NAV |
 | `ret_1y` | Float | Yes | 1-year annualised return (%) |
-| `ret_3y` | Float | Yes | 3-year annualised return (%) |
-| `ret_5y` | Float | Yes | 5-year annualised return (%) |
-| `vol_annual` | Float | Yes | Annualised volatility (%) |
-| `sharpe_1y` | Float | Yes | 1-year Sharpe ratio (risk-free = 4% p.a. USD) |
-| `sharpe_3y` | Float | Yes | 3-year Sharpe ratio |
-| `sharpe_5y` | Float | Yes | 5-year Sharpe ratio |
-| `ter` | Float | No | Total Expense Ratio / OCF (%) — NULL if unavailable |
-| `ter_source` | String | No | Source of TER value (e.g., "factsheet.pdf", "FSMOne", "unavailable") |
+| `ret_3y` | Float | Yes | 3-year annualised return (%). Null if sentinel (D1) |
+| `ret_5y` | Float | Yes | 5-year annualised return (%). Null if sentinel (D1) |
+| `ret_1y_flag` / `ret_3y_flag` / `ret_5y_flag` | String | No | Sentinel explanation, e.g. `insufficient_history`. Required wherever a value is `0.0` (D1) |
+| `ret_src_1y` / `ret_src_3y` / `ret_src_5y` | String | Yes | `plan_share_class` \| `underlying_fund` \| `insufficient_history` \| `not_covered` \| `unavailable` (D1b) |
+| `ret_1y_gross` / `ret_3y_gross` / `ret_5y_gross` | Float | No | **Gross-of-TER** return = `ret_Ny + ter`. This is the standardised comparison basis, not the money invested returned — two funds with different OCFs are compared on this, never on `ret_Ny` (D2) |
+| `vol_annual` | Float | Yes | Annualised volatility (%) — **trailing 3Y**, not 1Y |
+| `vol_3y_used` / `vol_5y_used` | Float | No | The vol actually used in the Sharpe for that horizon (D3) |
+| `vol_3y_source` / `vol_5y_source` | String | No | `plan_share_class` (the plan's exact share class) \| `house_underlying_fund` (the fund, representative or other class) \| `published_standard_deviation` (issuer-published SD, window read from the document) \| `computed_daily_nav_series` / `computed_monthly_nav_series` (derived, method + window in `vol_method`/`vol_window`) \| `short_window` \| `unavailable`. Should equal `ret_src_*` (**D3c**) |
+| `sharpe_1y` / `sharpe_3y` / `sharpe_5y` | Float | Yes | Realised Sharpe on the **net** return, risk-free = 4% p.a. USD: `(ret_Ny − rf) / vol` |
+| `sharpe_1y_gross` / `sharpe_3y_gross` / `sharpe_5y_gross` | Float | No | Sharpe on the **gross-of-TER** return: `(ret_Ny_gross − rf) / vol_Ny_used`. This is what the analysis layer ranks on. Note the numerator is cost-stripped while the denominator is not, so it is a comparison index, not a realised risk-adjusted return (D3) |
+| `sharpe_basis_flag` | String | Yes | `matched` \| `3y` \| `5y` \| `3y+5y` — whether each Sharpe's return and vol share one fund and window (D3b) |
+| `ter` | Float | No | Total Expense Ratio / OCF (%) — NULL if unavailable. **Never** the wrapper fee (D2) |
+| `ter_basis` | String | Yes | `OCF` \| `TER` \| `ongoing_charges` \| `unavailable` (D2b) |
+| `ter_source` | String | Yes | Named document or endpoint (e.g., "factsheet.pdf p.2", "op=FundOverviewSummary"), or `unavailable` (D2c/D2d) |
+| `wrapper_fee_pct` | Float | Yes | Plan sponsor's investment-management fee on the choice. Published under its own name so it cannot be mistaken for `ter` (D2) |
+| `freshness_checked` | String | No | As-of date verified on aggregator-sourced rows, else `not-applicable` (D5) |
+| `liveness_checked` | String | Yes | Where you confirmed the fund is still open (house notice / KFS / fund list) and what you concluded (D6) |
 | `data_source` | String | Yes | Which method found this fund's data |
+
+`validate_funds.py` ships alongside this SKILL.md. Run it before handing the CSV on:
+
+```bash
+python3 validate_funds.py funds.csv --rf 4.0 --json plan_harvest.json   # exit 0 = contract satisfied
+```
+
+It enforces the rules by id: **R0** required columns · **R9** `region` from the fixed taxonomy and a non-empty `type` · **D1**/`D1b` sentinel and backfill provenance · **D2**/`D2b`/`D2c`/`D2d` wrapper-fee separation, `ter_basis`, named source · **D3**/`D3b`/`D3c` Sharpe recomputability and basis disclosure · **D4** house is not the platform · **D5** aggregator freshness · **D6** liveness cross-check. Warnings are advisory (a `ter` that coincidentally equals the wrapper fee is one); failures block the run.
 
 ## N/A Enforcement
 
-- You may only mark a field N/A **after** attempting ALL of these in order:
-  1. **Playwright XHR interception** on the fund manager's HK site (MANDATORY — write and run the script)
-  2. **Replay discovered APIs** to batch-extract data
-  3. **Layer L2** — HK aggregator portals (HKET / ETNet / FSMOne / AASTOCKS) XHR interception
-  4. **Layer L3** — stealth re-attempt on blocked houses (real Chrome + webdriver override + curl cookie replay)
-  5. **Layer L4** — Wayback Machine for dead/SSL-expired sites
-  6. **Layer L5** — plan's own documents (brochure / investment choice PDF) for internal funds
-  7. **Layer L6** — Morningstar HK → FT.com by ISIN → Yahoo Finance → Endowus/aggregators → PDF factsheets
-- **Coverage gate: if <90% of funds have COMPLETE data (1/3/5Y + TER + region/sector), extraction is insufficient — go back and mine more data (Phase 3)**
-- N/A only acceptable after documenting WHICH sources were tried and WHY they failed for that specific fund
-- A row where TER is N/A is only acceptable after attempting T1-T7 (Phase 1.x) AND documenting each layer
-- **You may NOT skip a fund house's XHR interception because "it might be blocked" — you must attempt it and prove it fails (with L3 techniques)**
-- **You may NOT accept "internal fund, no public data" for a fund house's internal funds — check the plan's own documents (L5) first**
+You may only mark a field N/A **after** attempting ALL of these in order:
+1. **Playwright XHR interception** on the fund manager's HK site (write and run the script)
+2. **Replay discovered APIs** to batch-extract data
+3. **Layer L2** — HK aggregator portals (HKET / ETNet / FSMOne / AASTOCKS), freshness-checked
+4. **Layer L3** — stealth re-attempt on blocked houses
+5. **Layer L4** — Wayback Machine for dead/SSL-expired sites
+6. **Layer L5** — plan's own documents (brochure / investment choice PDF) for internal funds
+7. **Layer L6** — Fund Manager Pages → Morningstar HK → FT.com by ISIN → Yahoo Finance → Endowus/aggregators → PDF factsheets
+- **Coverage gate: <90% of funds COMPLETE (1/3/5Y + TER + region/sector) → go back and mine more data (Phase 3)**
+- N/A is acceptable only after documenting WHICH sources were tried and WHY they failed, for that specific fund
+- A N/A TER additionally requires T1-T7 (Phase 1.x) attempted and each layer documented
+- **You may NOT skip a house's XHR interception because "it might be blocked" — prove it fails, with L3**
+- **You may NOT accept "internal fund, no public data" before L5**
 - **You may NOT stop the run below 90% coverage — the output is not final until the gate passes**
 
 ## Completeness Checklist
@@ -547,6 +544,8 @@ The output must be an enriched CSV with these columns:
 - [ ] SFC product list checked?
 - [ ] Saturation reached? (multiple methods return the same fund set)
 - [ ] Every fund house mentioned in any result individually searched?
+- [ ] Every fund's liveness checked against house notices / KFS, not the API's suspend flag (Phase 1E, D6)?
+- [ ] Every aggregator-sourced price verified for as-of date freshness (D5)?
 
 **DATA COMPLETENESS (Phase 2 + 3):**
 - [ ] Playwright XHR interception script written and saved for EVERY fund house?
@@ -566,59 +565,68 @@ The output must be an enriched CSV with these columns:
 - [ ] FT.com (Layer L6) attempted for every fund with known ISIN?
 - [ ] Yahoo Finance (Layer L6) attempted for every fund?
 
+**CONTRACT COMPLIANCE (`validate_funds.py` — exit 0 required before `ilas-fund-report`):**
+- [ ] `wrapper_fee_pct` populated on every row, and never equal to `ter` (D2)?
+- [ ] `ter_basis` and `ter_source` populated, with a real document/endpoint locator (D2b, D2c, D2d)?
+- [ ] No unflagged `0.0` in `ret_1y/3y/5y` — every sentinel nulled or backfilled (D1)?
+- [ ] `ret_src_1y/3y/5y` declared on every row (D1b)?
+- [ ] Every 3Y/5Y Sharpe recomputable as `(ret_Ny_gross − rf) / vol_Ny_used`, with `vol_Ny_source` equal to `ret_src_Ny` (D3, D3b, D3c)?
+- [ ] `house` is a fund manager or `INTERNAL — <sponsor>`, never a platform name (D4)?
+- [ ] `freshness_checked` populated wherever `data_source` cites an aggregator (D5)?
+- [ ] `liveness_checked` populated on every row, with what was checked and concluded (D6)?
+- [ ] `python3 validate_funds.py funds.csv` exits 0?
+
 ## Mandatory Disclaimer
 
 > *This analysis evaluates fund performance and risk metrics for informational purposes and does not constitute personalized financial or investment advice.*
 
 ## Common Mistakes
 
-- **Skipping Playwright XHR interception and going straight to web search** — this is the #1 error. XHR interception is MANDATORY for every fund house. Write the script. Run it. Capture the JSON.
-- **Stopping the run below 90% coverage** — the single biggest failure mode. One pass over sources is NOT enough. L2 (aggregators), L3 (stealth), L4 (Wayback), L5 (plan docs) exist precisely for the funds L1 missed. Recompute coverage after each layer and keep going.
-- **Accepting "blocked" as final** — Akamai/Cloudflare 403 on the first attempt does not mean no data exists. Stealth techniques (real Chrome, webdriver override, mobile emulation, curl cookie replay, API-host probing) recover many "blocked" houses.
-- **Never using the source that found the fund universe for data extraction** — if a portal (e.g., HKET invest.hket.com) enumerated all 130 funds, it has the performance API too. Intercept it.
-- **Marking internal funds "no public data"** without checking the plan's own brochure/投資選擇手冊 (L5) — the plan operator publishes OCF for internal funds.
+- **Skipping Playwright XHR interception and going straight to web search** — the #1 error. XHR is MANDATORY for every house. Write the script, run it, capture the JSON.
+- **Stopping the run below 90% coverage** — the single biggest failure mode. L2 (aggregators), L3 (stealth), L4 (Wayback), L5 (plan docs) exist for the funds L1 missed. Recompute after each layer.
+- **Accepting "blocked" as final** — Akamai/Cloudflare 403 does not mean no data. Real Chrome, webdriver override, mobile emulation, curl cookie replay and API-host probing recover many houses.
+- **Trusting an aggregator because it enumerated a full-looking universe** — a frozen snapshot returns a complete-looking list with stale prices. Assert the as-of date of what it returns, cross-check the count, record `freshness_checked` (D5).
+- **Publishing a `0.0` 3Y/5Y as a return** — `0.0` is a missing-data sentinel. Null it, flag it, or backfill from the underlying fund; treating it as 0% ranks every young share class catastrophic (D1).
+- **Substituting the plan's investment-management fee for the OCF** — `details.managementFee` appears on every investment choice and is the sponsor's fee, not the fund's ongoing charge. It goes in `wrapper_fee_pct` (D2).
+- **Mixing bases inside one Sharpe** — a plan-share-class vol against an underlying-fund return (or the reverse) is not a Sharpe. Match fund and window, publish the vol you divided by (D3).
+- **Labelling `house` from `platformName`** — the plan sponsor is the platform, not the manager. Derive it from the underlying fund; internal lines get `INTERNAL — <sponsor>` (D4).
+- **Treating the API's suspend flag as a liveness check** — funds announced for compulsory redemption keep returning a live NAV and `suspend=N`. Check house notices and the KFS (D6).
+- **Marking internal funds "no public data"** without checking the plan's own brochure/投資選擇手冊 (L5).
 - **Not using Wayback Machine** for SSL-expired / DNS-dead / 404 sites — cached pages and PDFs still contain the data.
-- **Dispatching text-only agents/subagents who cannot run Playwright** — XHR interception requires a browser. If you delegate, you must delegate to agents that have Playwright/browser tools.
-- **Scraping HTML instead of finding the JSON API via XHR interception** — always check XHR first
-- **Stopping early** — once fund discovery plateaus, switch methods. If a fund house appears in the plan but none of their funds are listed, search harder.
-- **Assuming the first search result is complete** — it never is. Cross-reference multiple methods.
+- **Doing house leaves in the parent** — dispatch is required. A `blocked` return is a failed leaf, not permission for the parent to scrape it.
+- **Dispatching text-only agents without saying so in the prompt** — XHR needs a browser; without one the leaf returns `blocked`.
+- **Scraping HTML instead of finding the JSON API** — always check XHR first
 - **Hardcoding fund counts or fund houses** — every ILAS plan is different. Discover, don't assume.
-- **Comparing returns without standardising for TER** — two funds with the same 1Y return but different TERs have different investor outcomes. Always record TER.
-- **Accepting "TER not available" without trying T1-T7** — TER is the hardest field but also the most important for fair comparison. Exhaust all layers before giving up.
-- **Outputting N/A before attempting all layers**
-- **Listing fund names without data**
-- **Asking user for direction**
-- **Skipping fund manager pages**
-- **Not trying FT.com by ISIN (Layer L6)**
-- **Not trying Yahoo Finance (Layer L6)**
-- **Accepting >5% N/A rate (and never <90% coverage)**
-- **Using `~` approximations instead of exact numbers**
-- **Processing funds one at a time instead of batch-processing by fund house / aggregator**
-- **Not documenting which sources yielded data for each fund**
+- **Comparing returns without standardising for TER** — two funds with the same 1Y return but different TERs have different investor outcomes.
+- **Accepting "TER not available" without trying T1-T7** — TER is the hardest field and the most important for fair comparison.
+- **Outputting N/A before attempting all layers; listing fund names without data; asking the user for direction; skipping fund manager pages; not trying FT.com/Endowus/PDF factsheets; using `~` approximations; processing funds one at a time instead of batch-by-house; not documenting which source yielded each fund's data; accepting >5% N/A or <90% coverage.**
 
 ## Red Flags — The Run Is NOT Complete, Keep Searching
 
-- "Most funds have data, a few N/A is fine" — coverage gate is 90%, not "most"
-- "That site is blocked" — blocked ≠ exhausted; L3 stealth + L4 Wayback still untried
-- "Internal fund, no public data" — L5 plan documents still untried
+- "Most funds have data, a few N/A is fine" — the gate is 90%, not "most"
+- "That site is blocked" — blocked ≠ exhausted; L3 stealth + L4 Wayback untried
+- "Internal fund, no public data" — L5 plan documents untried
 - "I already tried Morningstar" — one tearsheet failing ≠ all sources exhausted
 - "Coverage is high enough" — compute the metric; below 90% means continue
 - "I'll write the output and note the gaps" — below 90%, the output is not final
 - "This fund is terminated/merged" — still record it with last-known data + source
 - "XHR failed, going to web search" — go to L2/L3/L4 first, web search is L6 territory
-- "TER is hard to find" — TER is the #1 field for fair comparison; exhaust T1-T7 before giving up
-- "I have the data, no need for TER" — data without TER is incomplete for cross-fund comparison
+- "TER is hard to find" — TER is the #1 field for fair comparison; exhaust T1-T7
+- "This 3Y return is 0.0" — that is a sentinel, not a return. Null and flag, or backfill (D1)
+- "The page shows a 1.75% fee, so that's the TER" — that is the wrapper fee (D2)
+- "The Sharpe is roughly right" — it must be recomputable from the published columns (D3)
+- "The API says the fund is active" — that is not a wind-up check (D6)
+- "The aggregator lists 130 funds, so the universe is 130" — a stale snapshot lists a full universe too (D5)
+- A search, navigate, or fetch before the tree is in the chat — stop, write the tree, dispatch the current wave
+- "Don't over-engineer / user is waiting / no sub-agents" — still write the tree; forbidden spawn means run waves yourself, units stay separate
+- "I'll scrape this house myself, I have the context" — that house is a leaf
+- "The validator is a formality, I'll run it at the end" — it is the gate; exit 0 before the CSV moves on
 
-**All of these mean: keep mining. The gate is 90%.**
+**All of these mean: keep mining. The gate is 90%. And if the tree was skipped: stop, write the tree, dispatch the current wave.**
 
 ## Out of Scope
 
-This skill handles **data extraction only**. It does NOT:
-- Analyze or rank funds (→ `ilas-fund-report`)
-- Build model portfolios (→ `ilas-fund-report`)
-- Research macro context (→ `macro-research`)
-- Produce reallocation recommendations (→ `ilas-fund-report`)
-- Compare funds across plans (→ `ilas-fund-report`)
+This skill handles **data extraction only**. Analysis, ranking, model portfolios, reallocation recommendations, cross-plan comparison → `ilas-fund-report`. Macro context → `macro-research`.
 
 ## Companion Skills
 
