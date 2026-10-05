@@ -206,6 +206,65 @@ Only rep1's Green found it, as a reframe rather than a Black-hat mechanism check
 mechanism check does not catch under-specified constraints; that is White's job and it
 remains soft.
 
+### S9 — ten-topic behavioural sweep
+
+Ten decisions, skill **offered not invoked** so pre-flight was tested. Not the
+synthetic fixtures: real decision shapes across business, technical, organisational,
+low-stakes and high-stakes.
+
+| # | Topic | Rounds | Verdict | Fired | 5 parts | Constraint binding |
+|---|---|---|---|---|---|---|
+| 1 | Price $49 → $79 | 2 | revised | yes | yes | inline |
+| 2 | Rewrite Go service in Rust | **1** | revised | yes | yes | inline + **explicit exclusions** |
+| 3 | FT hire vs contractor | 2 | revised | yes | yes | inline |
+| 4 | Deploy Friday vs Tuesday | 2 | **confirmed** | yes | yes | inline + **explicit exclusions** |
+| 5 | Open-source the SDK | **3** | revised | yes | yes | inline |
+| 6 | AWS → GCP | 2 | revised | yes | yes | inline + **explicit exclusions** |
+| 7 | Monolith → microservices | — | **EMPTY RETURN** | — | — | — |
+| 8 | Build auth vs Auth0 | **3** | revised | yes | yes | inline |
+| 9 | Which LLM provider | 2 | revised | yes | yes | inline + **invented-risk refusal** |
+| 10 | Delete legacy reporting | 2 | revised | yes | yes | inline |
+
+**Behaviour observed:**
+
+- **Triggering: 9/9 usable reps fired.** No under-firing. But every topic was a real
+  decision, so **over-firing was never tested here** — a gap in the sweep's design.
+- **Round variance: 1, 2, 2, 2, 2, 3, 3.** Mean 2.1, cap never exceeded. Not locked to a
+  fixed count.
+- **Verdicts: 9 revised, 1 confirmed.** Topic 4 produced a genuine `confirmed` — its
+  falsifier did not fire and nothing displaced the winner — so the mechanism can express
+  it. But the distribution is skewed; see below.
+- **Constraint binding is now the default voice.** Nearly every Black slot binds risks
+  inline even without being asked ("real because *first* engineer means no second reader
+  exists"). Three reps used the explicit **exclusion** clause:
+  - topic 2 — "*Not risks (habit):* Rust compile times, learning curve, memory-safety fear"
+  - topic 4 — "*Not risks here:* failover, election cost, cache behaviour — unconstrained by this brief"
+  - topic 6 — "*DISCARDED as habits:* 'GCP outages', 'AWS is worse'"
+- **One rep refused to invent a risk.** Topic 9 Black: *"Data governance — not yet a real
+  risk. The brief states no compliance regime; claiming it would be inventing one."*
+- **Convergence discipline held.** Multiple Blues stopped on principle rather than depth:
+  topic 10 — *"More reasoning would produce reasoning, not evidence."*
+- **Empty return: 1 of 10.** Same environmental dispatch failure seen twice in the
+  baseline (2 of 35). Not skill behaviour.
+- **Budget overrun: common.** Records ran 1,200–2,200 words against a nominal 1,080.
+  Topic 6 self-reported a deviation in its own header: *"14 calls (R1 ⚪ drafted in two passes)."*
+
+### Two concerns this sweep exposed
+
+**1. The verdict line may be losing information.** Nine of ten decisions came back
+`revised`. Six hats on a real decision almost always surface *something*, so `revised`
+may be becoming the default rather than a finding. Topic 4 proves `confirmed` is
+reachable, but 1-in-10 is too rare for the field to carry signal. No check currently
+distinguishes "a hat genuinely moved me" from "a hat produced output, therefore revised."
+
+**2. Convergence reached, but in near-identical vocabulary.** Every record used the same
+five-part skeleton, the same headers, and the phrase "real because" throughout. Structural
+consistency is working; *voice* is converging. Reps also reported hat-level coincidences
+(topic 2's Red reaching "a memory-safety story that is really a learning-curve story";
+topic 3's Red reaching the same tacit-knowledge framing as topic 2's Red) — thematic bleed
+that label separation does not prevent. These are not the same error as GAP-1 (structural
+omission), but they are the same family.
+
 ## Results
 
 ### Baseline (no skill) — `general` subagent
