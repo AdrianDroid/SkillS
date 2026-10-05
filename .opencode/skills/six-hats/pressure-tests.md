@@ -161,6 +161,45 @@ SLA-renegotiation. rep2 added: *"active-active buys RPO=0 and region-loss surviv
 — it does not buy the number asked for, and it is a worse answer to WAN partitions than
 plain automated failover."*
 
+### S8b — controller re-run, same question, fixed skill
+
+The controller re-ran S8's question against the fixed skill. **Contaminated by
+construction** — the controller had run it twice already, so the preview was informed
+rather than predicted. It demonstrates the protocol's shape; it is not independent
+evidence. The subagent runs are the evidence.
+
+**What the fix did.** R1 Black opened by naming what it excluded:
+
+> *Deliberately excluded because C1 removes them: failover time, promotion cost,
+> election duration, leader-election latency, VIP/DNS failover cost. Multi-primary has no
+> promotion step; pricing these is the error I made last run.*
+
+The mechanism-mismatch failure is blocked by rule rather than luck. Both S8 subagents
+did the same unprompted.
+
+**What the White change did that two prior runs missed.** Opening with the constraints
+*listed* surfaced that **two of four constraints are not decidable**: C1 is three
+requirements sharing one name — (a) no region as SPOF, (b) both regions accept writes,
+(c) the same rows writable from both. (a)+(b) is routine configuration; (c) forces
+consensus and has no good relational answer. C3's "or like" is a hedge that widens the
+comparison set. Both prior runs treated these as resolvable by analysis.
+
+**Verdict:** revised — Black and Green. The recommendation inverted the preview:
+per-region Postgres primaries routed by tenant if cross-region transaction fraction is
+low and no global unique constraints or joins exist; Spanner or CockroachDB if it is
+material. The gate is a one-day query-log measurement, not a vendor comparison.
+
+### Three findings from S8b, all controller-side
+
+| # | Finding | Status |
+|---|---|---|
+| 1 | **Preview-layer defect.** `Flips if` was aimed at *products* when the blocker was *the brief*. A falsifier aimed at the wrong layer cannot fire, so its non-firing carried no information. | **Open gap in the skill.** No rule requires a falsifier to target the layer where the uncertainty actually lives. Needs a micro-test before any edit. |
+| 2 | R1 used 7 calls — a contamination preamble occupied a hat slot | Controller deviation, disclosed |
+| 3 | R2's White was folded mid-stream; the remaining five hats were skipped | Controller deviation, disclosed, then corrected by running them |
+
+Findings 2 and 3 are the GAP-1 class the controller itself logged in Task 4, occurring
+while testing a fix for it. **Disclosed rather than smoothed, which is the rule working.**
+
 **Still uncaught by any hat:** neither rep flagged the *other* trap — that "active-active
 across WAN" has two incompatible readings (symmetric multi-writer vs. no-region-SPOF).
 Only rep1's Green found it, as a reframe rather than a Black-hat mechanism check. A
