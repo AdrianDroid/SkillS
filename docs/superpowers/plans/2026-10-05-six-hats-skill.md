@@ -37,7 +37,6 @@ Copied verbatim from the spec. Every task's requirements implicitly include thes
 
 **Files:**
 - Create: `.opencode/skills/six-hats/pressure-tests.md`
-- Create: `.opencode/skills/six-hats/SKILL.md` (empty placeholder file, so the directory exists for dispatch isolation — content written in Task 2)
 
 **Interfaces:**
 - Consumes: nothing.
@@ -45,22 +44,17 @@ Copied verbatim from the spec. Every task's requirements implicitly include thes
 
 This task creates **no skill content**. Its deliverable is evidence that the problem is real.
 
-**Step 1: Create the directory and an empty SKILL.md**
+**Step 1: Create the directory**
 
 ```bash
-mkdir -p .opencode/skills/six-hats && touch .opencode/skills/six-hats/SKILL.md && ls -la .opencode/skills/six-hats/
+mkdir -p .opencode/skills/six-hats && ls -la .opencode/skills/six-hats/
 ```
 
-Expected: two entries, `SKILL.md` of size 0.
+Expected: one entry, the empty directory. No placeholder `SKILL.md` — Task 2 introduces that file with real content, so no commit in this task ships an empty file.
 
 **Step 2: Write `pressure-tests.md`**
 
 ````markdown
----
-name: six-hats-pressure-tests
-description: Reference file for the six-hats skill. Not loaded at runtime; read only when verifying or editing the skill.
----
-
 # Six-Hats Pressure Tests
 
 Verification for `../SKILL.md`. Per the `writing-skills` Iron Law, this suite was
@@ -205,12 +199,12 @@ and report that back rather than writing the skill.
 cd /home/adrian/AI/SKILLS && git status --short .opencode/skills/six-hats/
 ```
 
-Expected: two untracked files.
+Expected: one untracked file, `.opencode/skills/six-hats/pressure-tests.md`.
 
 **Step 7: Commit**
 
 ```bash
-git add .opencode/skills/six-hats/pressure-tests.md .opencode/skills/six-hats/SKILL.md
+git add .opencode/skills/six-hats/pressure-tests.md
 git commit -m "Record six-hats baseline pressure-test failures"
 ```
 
@@ -219,7 +213,7 @@ git commit -m "Record six-hats baseline pressure-test failures"
 ## Task 2: GREEN — write the skill
 
 **Files:**
-- Create: `.opencode/skills/six-hats/SKILL.md` (replaces the empty placeholder)
+- Create: `.opencode/skills/six-hats/SKILL.md`
 
 **Interfaces:**
 - Consumes: the recorded rationalizations from `pressure-tests.md`.
