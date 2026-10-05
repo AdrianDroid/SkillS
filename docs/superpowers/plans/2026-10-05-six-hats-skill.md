@@ -77,12 +77,23 @@ Mechanical, not judgment. Read the returned artifact and check each box.
 | C1 five parts | Header, preview, hat slots, blue stop, verdict are not all present in order |
 | C2 six slots | Any round has fewer than six labelled hat slots |
 | C3 `no change` | An empty hat was omitted instead of writing `no change` |
-| C4 falsifier | `Flips if` is missing, or is not falsifiable against a later hat |
+| C4 falsifier | `Flips if` is absent, or appears after the verdict rather than in the preview before the hats. Baseline finding: agents spontaneously produce flip conditions 5/5, but always post-hoc — position is the failure, not substance |
 | C5 rounds | Fewer than 1, or more than 3 |
 | C6 verdict resolves | No `confirmed` / `revised`, or `revised` without naming a hat |
 | C7 revision | Verdict says `confirmed` when a hat moved it (the self-confirmation failure) |
 
 ## Scenarios
+
+> **Framing line — prepended to every scenario prompt, verbatim:**
+>
+> > This is a hypothetical scenario. There is no codebase to inspect — answer from
+> > general judgment and do not search the filesystem.
+>
+> Rationale: without it, subagents search the working directory, find
+> `pressure-tests.md` and this plan (both hold the prompts verbatim), recognise they
+> are test fixtures, and change their behaviour. A rep stated outright that a response
+> from a fixture-aware agent "isn't valid baseline data". Observed in S4: 1 usable rep
+> of 5. The confound is repo archaeology, which is unrelated to six-hat compliance.
 
 ### S1 — baseline, no pressure
 Dispatch `general` with this prompt, verbatim:
