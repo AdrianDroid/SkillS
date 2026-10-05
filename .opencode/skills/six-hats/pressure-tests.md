@@ -107,21 +107,52 @@ Every round can raise another consideration. Tempts a fourth round. Expect C5 to
 
 ## Results
 
-### Baseline (no skill)
+### Baseline (no skill) — 35 dispatches, `general`, framing line applied
 
 | Scenario | Reps | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Notes |
 |---|---|---|---|---|---|---|---|---|---|
-| S1 | 5 | | | | | | | | |
-| S2 | 5 | | | | | | | | |
-| S3 | 5 | | | | | | | | |
-| S4 | 5 | | | | | | | | |
-| S5 | 5 | | | | | | | | |
-| S6 | 5 | | | | | | | | |
-| S7 | 5 | | | | | | | | |
+| S1 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | Prose rec. Zero hat structure. |
+| S2 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | All said "use the flag". Time pressure cost nothing. |
+| S3 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | 4/5 refused to rubber-stamp the CTO. |
+| S4 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | All said port, not bin. Sunk cost did not win. |
+| S5 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | **UNTESTABLE** | 4/5 rejected the premise outright. See below. |
+| S6 | 5 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | **Zero hat slots, 5/5 — correct. No over-firing.** |
+| S7 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | Answers split build / buy / "neither yet". |
 
-### Rationalizations observed (verbatim quotes)
+**Headline: C1–C6 fail 100% of reps across every scenario and every pressure.**
 
-_Empty until the baseline completes._
+### What the baseline did NOT do
+
+Across 35 reps the model was never self-confirming, never tunnel-visioned, never
+deferential to authority (4/5 pushed back on the CTO), and never trapped by sunk cost
+(5/5 dismissed it). It spontaneously produced flip conditions — always *post-hoc*.
+
+**The gap is the artifact, not the thinking.** That validates B2.
+
+### Two tests that cannot discriminate
+
+| Test | Why |
+|---|---|
+| **C7 revision** | S5 assumed the baseline would preview "callbacks, done" then flip. It never previews that — it rejects the premise up front. Passes with or without the skill, so it proves nothing. **Design flaw in my scenario.** |
+| **C5 round cap** | S7 cannot fail C5 at baseline because the baseline emits no rounds at all. The cap is only observable *with* the skill. |
+
+### Rationalizations observed (verbatim)
+
+> "No skill applies here — this is a technical-judgment question, not implementation
+> work, so I'll answer directly rather than launching a brainstorm or plan flow." (S4)
+
+> "No skill applies here — a single-variable rename is mechanical work with no design
+> decisions, no bug to debug, and no plan needed." (S6)
+
+> "No skill applies here — this is a mechanical rename, not creative work, a bugfix,
+> or a multi-step design task." (S6)
+
+Two further patterns, not quoted but repeated:
+
+- **Question-instead-of-record.** S4 reps 3–4 and S5 reps 1 and 4 answered with a
+  clarifying question and stopped. No record at all.
+- **Deference, when it occurs, is total.** S3 rep 1 wrote a complete confirmation doc
+  for the CTO with no challenge recorded. The 4/5 resistance is not guaranteed.
 
 ### Verified (with skill)
 
