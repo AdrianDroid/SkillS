@@ -1,0 +1,31 @@
+[    2857ms] [INFO] Style observer started @ https://body.nextjs.schdr.eu-central-1.isgdigital.com/en/gr/professional/gfc/fund/SCHDR_F00000VOYV/?prerender=true&baseUrl=https%3A%2F%2Fwww.schroders.com%2Fen-gr%2Fgr%2Fprofessional%2Ffund-centre%2F&externalId=SCHDR_F00000VOYV&fundName=Schroder-International-Selection-Fund-Emerging-Markets-Multi-Asset-A-Distribution-USD-MF&language=en&location=gr&channel=professional&clientId=schdr&clientVersion=v1&r=%2Ffund%2FSCHDR_F00000VOYV%2F:66
+[    3460ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/styles/clientStyles/schdr/SNotoSans-Regular.woff2:0
+[    3813ms] [INFO] Environment: Browser @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38
+[    3813ms] [INFO] Initialising datadog @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38
+[    3867ms] [INFO] Starting app hydration... @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38
+[    3867ms] [INFO] Attaching client root... @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38
+[    3868ms] [INFO] Rendering tree... @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38
+[    3869ms] [INFO] Render complete @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38
+[    4185ms] [WARNING] Highcharts warning: Deprecated member
+ - accessibility.keyboardNavigation.mode: accessibility.keyboardNavigation.seriesNavigation.mode @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:352
+[    5282ms] [INFO] page view {environment: production, userPlatform: web, region: EMEA, country: Greece, subSegment: Professional} @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:355
+[    5557ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/api/v1/getArticles?location=gr&channel=professional&language=en&name=Schroder%20International%20Selection%20Fund%20Emerging%20Markets%20Multi-Asset%20A%20Distribution%20USD%20MF&nameUntranslated=Schroder%20International%20Selection%20Fund%20Emerging%20Markets%20Multi-Asset%20A%20Distribution%20USD%20MF&externalId=SCHDR_F00000VOYV&parentExternalId=SCHDR_FS0000BTKU&baseCurrency=USD&legalStructure=SICAV&fundRange=SISF&shareclassExternalId=SCHDR_F00000VOYV&fundExternalId=SCHDR_FS0000BTKU&isin=LU1196710351:0
+[    5559ms] [ERROR] Failed To Execute Request: TypeError: Failed to fetch
+    at v (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:11:466)
+    at abortHandler (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:344:40713)
+    at requestWithoutBody (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:344:41163)
+    at async https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/entries/pages_index.Camo0uyu.js:11:76212 @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:14
+[    5560ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/api/v1/getShareClasses?location=gr&channel=professional&language=en&fundExternalId=SCHDR_FS0000BTKU:0
+[    5561ms] [ERROR] Failed To Execute Request: TypeError: Failed to fetch
+    at v (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:11:466)
+    at abortHandler (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:344:40713)
+    at requestWithoutBody (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:344:41163)
+    at async https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/entries/pages_index.Camo0uyu.js:11:119006 @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:14
+[    5561ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/api/v1/getDocumentCategories?location=gr&channel=professional&language=en&name=Schroder%20International%20Selection%20Fund%20Emerging%20Markets%20Multi-Asset%20A%20Distribution%20USD%20MF&nameUntranslated=Schroder%20International%20Selection%20Fund%20Emerging%20Markets%20Multi-Asset%20A%20Distribution%20USD%20MF&externalId=SCHDR_F00000VOYV&parentExternalId=SCHDR_FS0000BTKU&baseCurrency=USD&legalStructure=SICAV&fundRange=SISF&shareclassExternalId=SCHDR_F00000VOYV&fundExternalId=SCHDR_FS0000BTKU&isin=LU1196710351:0
+[    5561ms] [ERROR] Failed To Execute Request: TypeError: Failed to fetch
+    at v (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:11:466)
+    at abortHandler (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:344:40713)
+    at requestWithoutBody (https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-4PbOmFV0.js:344:41163)
+    at async https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/entries/pages_index.Camo0uyu.js:11:77841 @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:14
+[    7289ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.21.0%2Capi%3Afetch%2Cenv%3Aschdr-production%2Cservice%3Afev2-vike%2Cversion%3Av1.4.2&dd-api-key=pubd4001ad1df4684558aedfda973fdd768&dd-evp-origin-version=5.21.0&dd-evp-origin=browser&dd-request-id=9231106d-21fc-4074-81e3-da6dcf227854&batch_time=1785543775613:0
+[   13869ms] [INFO] Hydration check finished @ https://fev2-vite.schdr.eu-central-1.isgdigital.com/assets/chunks/chunk-CRzb59-Q.js:38

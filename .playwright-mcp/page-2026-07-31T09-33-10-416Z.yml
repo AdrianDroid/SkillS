@@ -1,0 +1,102 @@
+- generic [active] [ref=f133e1]:
+  - link "Skip to Content (press ENTER)" [ref=f133e2] [cursor=pointer]:
+    - /url: "#mainSection"
+  - banner [ref=f133e3]:
+    - generic [ref=f133e5]:
+      - generic [ref=f133e6]:
+        - button "Menu" [ref=f133e8] [cursor=pointer]
+        - link [ref=f133e12] [cursor=pointer]:
+          - /url: /en-hk/individual
+          - img "Barings" [ref=f133e13]
+        - button "Search" [ref=f133e16] [cursor=pointer]
+      - generic [ref=f133e20]:
+        - searchbox "What are you looking for?" [ref=f133e21]
+        - button "Submit" [ref=f133e22] [cursor=pointer]
+        - button "Clear Search" [ref=f133e23] [cursor=pointer]
+    - navigation [ref=f133e24]:
+      - generic [ref=f133e28]:
+        - list [ref=f133e29]:
+          - listitem [ref=f133e30]:
+            - link "About" [ref=f133e31] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f133e32]:
+            - link "Funds" [ref=f133e33] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f133e34]:
+            - link "Sustainability" [ref=f133e35] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f133e36]:
+            - link "Perspectives" [ref=f133e37] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f133e38]:
+            - link "Contact" [ref=f133e39] [cursor=pointer]:
+              - /url: "#"
+        - button "Locations" [ref=f133e41] [cursor=pointer]
+  - main [ref=f133e44]:
+    - heading "Welcome to Barings.com" [level=1] [ref=f133e52]
+    - generic [ref=f133e68] [cursor=pointer]:
+      - paragraph [ref=f133e69]: Investing Together
+      - heading "We’re Glad You’re Here" [level=2] [ref=f133e70]
+      - paragraph [ref=f133e72]: The page you are trying to reach may be unavailable. Please verify your self-identification using the location pin in the navigation bar or return to the homepage.
+      - link "Homepage" [ref=f133e73]:
+        - /url: /en-hk/guest
+  - generic [ref=f133e77]:
+    - paragraph [ref=f133e81]:
+      - text: We use cookies on our website to provide you with the best experience. By proceeding to our site you agree to our
+      - link "Cookies Notice" [ref=f133e82] [cursor=pointer]:
+        - /url: /guest/content/cookies-notice
+      - text: and our site
+      - link "Terms and Conditions" [ref=f133e83] [cursor=pointer]:
+        - /url: /guest/content/terms-and-conditions
+      - text: .
+    - button "Close and Accept" [ref=f133e84] [cursor=pointer]
+  - contentinfo [ref=f133e87]:
+    - generic [ref=f133e90]:
+      - generic [ref=f133e92]:
+        - heading "Who We Are" [level=2] [ref=f133e93]
+        - generic [ref=f133e94]:
+          - paragraph [ref=f133e95]: Barings is a $502 billion* global alternative asset manager that partners with institutional, insurance and wealth clients and supports leading businesses with flexible financing solutions. The firm, a subsidiary of MassMutual with a minority investment from MS&AD, seeks to deliver excess returns by leveraging its global scale and capabilities across credit, real assets, capital solutions and emerging markets.
+          - paragraph [ref=f133e96]: "*As of June 30, 2026"
+        - link "Contact Us" [ref=f133e97] [cursor=pointer]:
+          - /url: /guest/contact/contact-barings
+      - generic [ref=f133e99]:
+        - heading "Follow Us" [level=2] [ref=f133e100]
+        - link [ref=f133e101] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/barings
+          - img "LinkedIn" [ref=f133e102]
+        - link [ref=f133e103] [cursor=pointer]:
+          - /url: https://twitter.com/Barings
+          - img "Twitter" [ref=f133e104]
+        - link [ref=f133e105] [cursor=pointer]:
+          - /url: https://podcasts.apple.com/us/podcast/streaming-income-a-podcast-from-barings/id1449496233
+          - img "Apple Podcast" [ref=f133e106]
+        - link [ref=f133e107] [cursor=pointer]:
+          - /url: https://open.spotify.com/show/7wv1GJCQHcggXDdMHbhRlY
+          - img "Spotify" [ref=f133e108]
+        - link [ref=f133e109] [cursor=pointer]:
+          - /url: https://www.youtube.com/@Barings
+          - img "Barings YouTube Channel" [ref=f133e110]
+    - list [ref=f133e113]:
+      - listitem [ref=f133e114]:
+        - link "Privacy Notice" [ref=f133e115] [cursor=pointer]:
+          - /url: /guest/content/privacy-notice
+      - listitem [ref=f133e116]:
+        - link "Cookie Notice" [ref=f133e117] [cursor=pointer]:
+          - /url: /guest/content/cookies-notice
+      - listitem [ref=f133e118]:
+        - link "Terms & Conditions" [ref=f133e119] [cursor=pointer]:
+          - /url: /guest/content/terms-and-conditions
+      - listitem [ref=f133e120]:
+        - link "Important Disclosures" [ref=f133e121] [cursor=pointer]:
+          - /url: /guest/content/important-disclosures
+      - listitem [ref=f133e122]:
+        - link "Site Map" [ref=f133e123] [cursor=pointer]:
+          - /url: /guest/sitemap
+    - generic [ref=f133e127]:
+      - paragraph [ref=f133e128]:
+        - text: The opinions and other information contained herein, whether express or implied are made in good faith in relation to the facts known at the time of preparation and are subject to change without notice.
+        - strong [ref=f133e129]: PAST PERFORMANCE IS NOT NECESSARILY INDICATIVE OF FUTURE RESULTS.
+        - text: All monetary figures are in USD unless otherwise specified.
+      - paragraph [ref=f133e130]: This material should not be construed as a recommendation, and Barings is not soliciting any action based upon such information. Additionally, the strategies and funds may not be available to all investor types in all jurisdictions. In some jurisdictions this website may contain advertising.
+      - paragraph [ref=f133e131]
+      - paragraph [ref=f133e132]: Copyright © 2026 Barings. The BARINGS name and logo design are trademarks of Barings and are registered in U.S. Patent and Trademark Office and in other countries around the world. All rights are reserved.

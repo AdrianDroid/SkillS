@@ -1,0 +1,20 @@
+- generic [active] [ref=f206e1]:
+  - main [ref=f206e2]:
+    - generic [ref=f206e3]:
+      - heading "ninetyone.com" [level=1] [ref=f206e5]
+      - heading "Performing security verification" [level=2] [ref=f206e6]
+      - paragraph [ref=f206e7]: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+  - contentinfo [ref=f206e8]:
+    - generic [ref=f206e10]:
+      - generic [ref=f206e12]:
+        - text: "Ray ID:"
+        - code [ref=f206e13]: a240963149b949dd
+      - generic [ref=f206e14]:
+        - generic [ref=f206e15]:
+          - text: Performance and Security by
+          - link "Cloudflare, opens in a new tab" [ref=f206e16] [cursor=pointer]:
+            - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+            - text: Cloudflare
+        - link "Privacy, opens in a new tab" [ref=f206e18] [cursor=pointer]:
+          - /url: https://www.cloudflare.com/privacypolicy/
+          - text: Privacy

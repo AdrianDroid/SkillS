@@ -1,0 +1,420 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - table [ref=f14e3]:
+      - rowgroup [ref=f14e4]:
+        - row [ref=f14e5]:
+          - cell [ref=f14e6]
+          - cell [ref=f14e7]
+          - cell [ref=f14e8]
+    - generic [ref=f14e10]:
+      - link [ref=f14e11] [cursor=pointer]:
+        - /url: https://invest.hket.com
+      - generic [ref=f14e12]:
+        - link "Facebook" [ref=f14e13] [cursor=pointer]:
+          - /url: javascript:open('https://www.facebook.com/hketpage');void(0);
+        - link "Google+" [ref=f14e14] [cursor=pointer]:
+          - /url: javascript:open('https://plus.googleapis.com/109420843946900840391/');void(0);
+        - link "微博" [ref=f14e15] [cursor=pointer]:
+          - /url: javascript:open('http://weibo.com/hket');void(0);
+        - link "視頻新聞" [ref=f14e16] [cursor=pointer]:
+          - /url: javascript:open('https://www.youtube.com/user/hketvideo');void(0);
+        - link "電郵" [ref=f14e17] [cursor=pointer]:
+          - /url: mailto:cs_onlinesub@hket.com?subject=hket.com%20-%20enquiry/comment&body=You are welcome to provide us with your comment on hket.com. For any enquiry, you can contact our CS hotline at (852) 2880 2863 during office hours or send us this email. Please provide your name and telephone no. during day time for our follow-up if necessary.
+        - link "手機版" [ref=f14e19] [cursor=pointer]:
+          - /url: javascript:open('http://m.hket.com/');void(0);
+    - generic [ref=f14e21]:
+      - generic "HKET.com" [ref=f14e22] [cursor=pointer]
+      - link "投資" [ref=f14e24] [cursor=pointer]:
+        - /url: https://invest.hket.com
+      - link "股票資訊" [ref=f14e26] [cursor=pointer]:
+        - /url: http://www.hket.com/finance/dashboards.do
+    - generic [ref=f14e28]:
+      - generic [ref=f14e29]:
+        - link "基金價格查詢" [ref=f14e31] [cursor=pointer]:
+          - /url: fund.html
+        - link "強積金價格查詢" [ref=f14e33] [cursor=pointer]:
+          - /url: mpf.html
+      - generic [ref=f14e35]:
+        - generic [ref=f14e36]: 基金查詢
+        - generic [ref=f14e38]:
+          - generic [ref=f14e39]:
+            - generic [ref=f14e40]: 英文順序
+            - generic [ref=f14e41]:
+              - link "A" [ref=f14e42] [cursor=pointer]:
+                - /url: html/fund_a=a.html
+              - link "B" [ref=f14e43] [cursor=pointer]:
+                - /url: html/fund_a=b.html
+              - link "C" [ref=f14e44] [cursor=pointer]:
+                - /url: html/fund_a=c.html
+              - link "D" [ref=f14e45] [cursor=pointer]:
+                - /url: html/fund_a=d.html
+              - link "E" [ref=f14e46] [cursor=pointer]:
+                - /url: html/fund_a=e.html
+              - link "F" [ref=f14e47] [cursor=pointer]:
+                - /url: html/fund_a=f.html
+              - link "G" [ref=f14e48] [cursor=pointer]:
+                - /url: html/fund_a=g.html
+              - link "H" [ref=f14e49] [cursor=pointer]:
+                - /url: html/fund_a=h.html
+              - link "I" [ref=f14e50] [cursor=pointer]:
+                - /url: html/fund_a=i.html
+              - link "J" [ref=f14e51] [cursor=pointer]:
+                - /url: html/fund_a=j.html
+              - link "K" [ref=f14e52] [cursor=pointer]:
+                - /url: html/fund_a=k.html
+              - link "L" [ref=f14e53] [cursor=pointer]:
+                - /url: html/fund_a=l.html
+              - link "M" [ref=f14e54] [cursor=pointer]:
+                - /url: html/fund_a=m.html
+              - link "N" [ref=f14e55] [cursor=pointer]:
+                - /url: html/fund_a=n.html
+              - link "O" [ref=f14e56] [cursor=pointer]:
+                - /url: html/fund_a=o.html
+              - link "P" [ref=f14e57] [cursor=pointer]:
+                - /url: html/fund_a=p.html
+              - link "Q" [ref=f14e58] [cursor=pointer]:
+                - /url: html/fund_a=q.html
+              - link "R" [ref=f14e59] [cursor=pointer]:
+                - /url: html/fund_a=r.html
+              - link "S" [ref=f14e60] [cursor=pointer]:
+                - /url: html/fund_a=s.html
+              - link "T" [ref=f14e61] [cursor=pointer]:
+                - /url: html/fund_a=t.html
+              - link "U" [ref=f14e62] [cursor=pointer]:
+                - /url: html/fund_a=u.html
+              - link "V" [ref=f14e63] [cursor=pointer]:
+                - /url: html/fund_a=v.html
+              - link "W" [ref=f14e64] [cursor=pointer]:
+                - /url: html/fund_a=w.html
+              - link "X" [ref=f14e65] [cursor=pointer]:
+                - /url: html/fund_a=x.html
+              - link "Y" [ref=f14e66] [cursor=pointer]:
+                - /url: html/fund_a=y.html
+              - link "Z" [ref=f14e67] [cursor=pointer]:
+                - /url: html/fund_a=z.html
+              - link "ALL" [ref=f14e68] [cursor=pointer]:
+                - /url: html/fund_a=a11_1.html
+          - generic [ref=f14e69]:
+            - generic [ref=f14e70]: 首字筆劃
+            - generic [ref=f14e71]:
+              - link "3" [ref=f14e72] [cursor=pointer]:
+                - /url: html/fund_s=3.html
+              - link "4" [ref=f14e73] [cursor=pointer]:
+                - /url: html/fund_s=4.html
+              - link "5" [ref=f14e74] [cursor=pointer]:
+                - /url: html/fund_s=5.html
+              - link "6" [ref=f14e75] [cursor=pointer]:
+                - /url: html/fund_s=6.html
+              - link "7" [ref=f14e76] [cursor=pointer]:
+                - /url: html/fund_s=7.html
+              - link "8" [ref=f14e77] [cursor=pointer]:
+                - /url: html/fund_s=8.html
+              - link "9" [ref=f14e78] [cursor=pointer]:
+                - /url: html/fund_s=9.html
+              - link "10" [ref=f14e79] [cursor=pointer]:
+                - /url: html/fund_s=10.html
+              - link "11" [ref=f14e80] [cursor=pointer]:
+                - /url: html/fund_s=11.html
+              - link "12" [ref=f14e81] [cursor=pointer]:
+                - /url: html/fund_s=12.html
+              - link "13" [ref=f14e82] [cursor=pointer]:
+                - /url: html/fund_s=13.html
+              - link "14" [ref=f14e83] [cursor=pointer]:
+                - /url: html/fund_s=14.html
+              - link "15" [ref=f14e84] [cursor=pointer]:
+                - /url: html/fund_s=15.html
+              - link "16" [ref=f14e85] [cursor=pointer]:
+                - /url: html/fund_s=16.html
+              - link "17" [ref=f14e86] [cursor=pointer]:
+                - /url: html/fund_s=17.html
+              - link "18" [ref=f14e87] [cursor=pointer]:
+                - /url: html/fund_s=18.html
+              - link "19" [ref=f14e88] [cursor=pointer]:
+                - /url: html/fund_s=19.html
+              - link "20" [ref=f14e89] [cursor=pointer]:
+                - /url: html/fund_s=20.html
+              - link "21" [ref=f14e90] [cursor=pointer]:
+                - /url: html/fund_s=21.html
+              - link "22" [ref=f14e91] [cursor=pointer]:
+                - /url: html/fund_s=22.html
+              - link "全部" [ref=f14e92] [cursor=pointer]:
+                - /url: html/fund_s=all_1.html
+      - generic [ref=f14e94]:
+        - generic [ref=f14e95]: 熱門基金管理機構
+        - list [ref=f14e98]:
+          - generic [ref=f14e99]:
+            - link [ref=f14e101] [cursor=pointer]:
+              - /url: daily/FUND_fidelity.html
+            - heading [level=3] [ref=f14e104]:
+              - link "富達基金（香港）有限公司 Fidelity International" [ref=f14e105] [cursor=pointer]:
+                - /url: daily/FUND_fidelity.html
+                - text: 富達基金（香港）有限公司Fidelity International
+    - generic [ref=f14e106]:
+      - link [ref=f14e109] [cursor=pointer]:
+        - /url: http://www.hket.com/
+      - generic [ref=f14e111]:
+        - generic [ref=f14e112]:
+          - link "主頁" [ref=f14e113] [cursor=pointer]:
+            - /url: https://www.hket.com
+          - link "即時新聞" [ref=f14e114] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran001/全部
+          - link "財經" [ref=f14e115] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran009/即市財經
+          - link "理財" [ref=f14e116] [cursor=pointer]:
+            - /url: https://wealth.hket.com
+          - link "科技" [ref=f14e117] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran010/科技
+          - link "中國" [ref=f14e118] [cursor=pointer]:
+            - /url: https://china.hket.com
+          - link "國際" [ref=f14e119] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran011/國際
+          - link "商業" [ref=f14e120] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran012/商業
+          - link "大灣區" [ref=f14e121] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran016/大灣區
+          - link "移民百科" [ref=f14e122] [cursor=pointer]:
+            - /url: https://wealth.hket.com/sraw015/移民百科
+          - link "博客" [ref=f14e123] [cursor=pointer]:
+            - /url: https://wealth.hket.com/sraw007/博客
+          - link "TV" [ref=f14e124] [cursor=pointer]:
+            - /url: https://video.hket.com
+          - paragraph
+          - link "TV" [ref=f14e125] [cursor=pointer]:
+            - /url: https://video.hket.com
+          - link "財經台" [ref=f14e126] [cursor=pointer]:
+            - /url: https://video.hket.com/srvv023/財經台
+          - link "地產台" [ref=f14e127] [cursor=pointer]:
+            - /url: https://video.hket.com/srvv024/地產台
+          - link "家庭台" [ref=f14e128] [cursor=pointer]:
+            - /url: https://video.hket.com/srvv026/家庭台
+          - link "健康台" [ref=f14e129] [cursor=pointer]:
+            - /url: https://video.hket.com/srvv025/健康台
+        - generic [ref=f14e130]:
+          - link "名家" [ref=f14e131] [cursor=pointer]:
+            - /url: https://specialist.hket.com/
+          - link "財金猛人追蹤" [ref=f14e132] [cursor=pointer]:
+            - /url: https://specialist.hket.com/sras009/財金猛人追蹤
+          - link "名家專區" [ref=f14e133] [cursor=pointer]:
+            - /url: https://specialist.hket.com/sras010/名家專區
+          - link "研究報告" [ref=f14e134] [cursor=pointer]:
+            - /url: https://specialist.hket.com/sras011/研究報告
+          - link "趨勢分析" [ref=f14e135] [cursor=pointer]:
+            - /url: https://specialist.hket.com/sras012/趨勢分析主頁
+          - paragraph
+          - link "投資" [ref=f14e136] [cursor=pointer]:
+            - /url: https://invest.hket.com
+          - link "即時行情" [ref=f14e137] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai001/即時行情
+          - link "市場拆局" [ref=f14e138] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai003/市場拆局
+          - link "新經濟" [ref=f14e139] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai023/新經濟
+          - link "板塊攻略" [ref=f14e140] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai014/板塊攻略
+          - link "大市" [ref=f14e141] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai002/大市總匯
+          - link "專訪" [ref=f14e142] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai024/專訪
+          - link "財金教室" [ref=f14e143] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai019/財金教室
+          - link "行情" [ref=f14e144] [cursor=pointer]:
+            - /url: https://invest.hket.com/srdi008/報價
+          - link "報章" [ref=f14e145] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai011/投資理財
+          - link "周刊" [ref=f14e146] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai012/投資理財周刊
+          - link "實戰區" [ref=f14e147] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai020/實戰區
+          - link "財智薈" [ref=f14e148] [cursor=pointer]:
+            - /url: https://eti.hket.com/pc/theme/wealthhub/
+          - paragraph
+          - link "報價" [ref=f14e149] [cursor=pointer]:
+            - /url: https://invest.hket.com
+        - generic [ref=f14e150]:
+          - link "報章" [ref=f14e151] [cursor=pointer]:
+            - /url: https://paper.hket.com
+          - link "要聞" [ref=f14e152] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap001/要聞
+          - link "評‧析‧天下" [ref=f14e153] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap002/社評
+          - link "金融" [ref=f14e154] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai010/金融
+          - link "中國" [ref=f14e155] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap031/中國
+          - link "國際" [ref=f14e156] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap006/國際
+          - link "投資理財" [ref=f14e157] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai011/投資理財
+          - link "地產" [ref=f14e158] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap007/地產
+          - link "港聞" [ref=f14e159] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap008/港聞
+          - link "政治" [ref=f14e160] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap009/政治
+          - link "評論" [ref=f14e161] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap010/評論
+          - link "行政人員" [ref=f14e162] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap011/行政人員
+          - link "工商" [ref=f14e163] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap012/工商
+          - link "副刊" [ref=f14e164] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap013/副刊
+          - link "置業家居" [ref=f14e165] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap015/置業家居
+          - link "投資理財周刊" [ref=f14e166] [cursor=pointer]:
+            - /url: https://invest.hket.com/srai012/投資理財周刊
+          - link "昔日新聞" [ref=f14e167] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap017/昔日新聞
+          - paragraph
+          - link "電子報" [ref=f14e168] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap027/電子報
+        - generic [ref=f14e169]:
+          - link "專欄" [ref=f14e170] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap025/全部
+          - link "投資" [ref=f14e171] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap019/投資
+          - link "樓市" [ref=f14e172] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap020/樓市
+          - link "香港" [ref=f14e173] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap021/香港
+          - link "中國" [ref=f14e174] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap032/中國
+          - link "國際" [ref=f14e175] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap022/國際
+          - link "商貿及科技" [ref=f14e176] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap023/商貿及科技
+          - link "副刊" [ref=f14e177] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap024/副刊
+          - paragraph
+          - link "知識" [ref=f14e178] [cursor=pointer]:
+            - /url: https://knowledge.hket.com
+          - link "新經濟" [ref=f14e179] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak001/新經濟
+          - link "宏觀" [ref=f14e180] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak002/宏觀
+          - link "財金" [ref=f14e181] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak003/財金
+          - link "業績" [ref=f14e182] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak004/業績
+          - link "財富" [ref=f14e183] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak005/財富
+          - link "消費" [ref=f14e184] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak006/消費
+          - link "科技" [ref=f14e185] [cursor=pointer]:
+            - /url: https://knowledge.hket.com/srak007/科技
+        - generic [ref=f14e186]:
+          - link "地產站" [ref=f14e187] [cursor=pointer]:
+            - /url: https://ps.hket.com/
+          - link "即時樓市" [ref=f14e188] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae005/即時樓市
+          - link "新盤專頁" [ref=f14e189] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae001/新盤專頁
+          - link "二手專頁" [ref=f14e190] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae003/二手專頁
+          - link "睇片揀荀盤" [ref=f14e191] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae013/睇片揀荀盤
+          - link "買賣樓攻略" [ref=f14e192] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae012/買賣樓攻略
+          - link "家居生活" [ref=f14e193] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae011/家居生活
+          - link "資助房屋" [ref=f14e194] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae009/房協資助房屋及居屋即時新聞及分析
+          - link "視頻新聞" [ref=f14e195] [cursor=pointer]:
+            - /url: https://ps.hket.com/srve001/視頻新聞
+          - link "實用工具" [ref=f14e196] [cursor=pointer]:
+            - /url: https://ps.hket.com/srte001/地產行事曆
+          - link "海外置業情報" [ref=f14e197] [cursor=pointer]:
+            - /url: https://ps.hket.com/srae010/海外置業情報
+        - generic [ref=f14e198]:
+          - link "TOPick" [ref=f14e199] [cursor=pointer]:
+            - /url: http://topick.hket.com
+          - link "話題" [ref=f14e200] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat001/話題
+          - link "健康" [ref=f14e201] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat052/健康
+          - link "親子" [ref=f14e202] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat053/親子
+          - link "娛樂" [ref=f14e203] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat069/娛樂
+          - link "新聞" [ref=f14e204] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat006/新聞
+          - link "休閒消費" [ref=f14e205] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat055/休閒消費
+          - link "觀點" [ref=f14e206] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat008/觀點
+          - link "TOPick TV" [ref=f14e207] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat070/TOPick%20TV
+          - link "Band 1學堂" [ref=f14e208] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat053-6/Band%201學堂
+          - link "醫‧健" [ref=f14e209] [cursor=pointer]:
+            - /url: https://topick.hket.com/srat072-4/
+        - generic [ref=f14e210]:
+          - link "中小企" [ref=f14e211] [cursor=pointer]:
+            - /url: https://sme.hket.com
+          - link "業界頭條" [ref=f14e212] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf001/業界頭條
+          - link "商管策略" [ref=f14e213] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf002/商管策略
+          - link "數碼轉型" [ref=f14e214] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf003/數碼轉型
+          - link "大灣商機" [ref=f14e215] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf004/大灣商機
+          - link "行內熱話" [ref=f14e216] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf005/行內熱話
+          - link "博客論壇" [ref=f14e217] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf006/博客論壇
+          - link "特約" [ref=f14e218] [cursor=pointer]:
+            - /url: https://sme.hket.com/sraf007/特約
+          - paragraph
+          - link "iMoney智富" [ref=f14e219] [cursor=pointer]:
+            - /url: http://imoney.hket.com/im/
+          - link "股樓投資" [ref=f14e220] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran013-1/股樓投資
+          - link "理財智慧" [ref=f14e221] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran013-2/理財智慧
+          - link "名人薈萃" [ref=f14e222] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran013-3/名人薈萃
+          - link "環球政經" [ref=f14e223] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran013-4/環球政經
+          - link "iMTV＋" [ref=f14e224] [cursor=pointer]:
+            - /url: https://inews.hket.com/sran013-5/iMTV＋
+      - generic [ref=f14e226]:
+        - generic [ref=f14e227]: 香港經濟日報版權所有 © 2021
+        - generic [ref=f14e228]:
+          - link "集團網站" [ref=f14e229] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/group/
+          - text: "|"
+          - link "集團招聘" [ref=f14e230] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/ctgoodjobs/
+          - text: "|"
+          - link "私隱條例" [ref=f14e231] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/privacyPolicy/
+          - text: "|"
+          - link "內容授權" [ref=f14e232] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/contentAuthorization/
+          - text: "|"
+          - link "免責聲明 豁免條款" [ref=f14e233] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/disclaimer/
+          - text: "|"
+          - link "訂閱條款" [ref=f14e234] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/subscriptionTandC/
+          - text: "|"
+          - link "廣告查詢" [ref=f14e235] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/advertisement/
+          - text: "|"
+          - link "聯絡我們" [ref=f14e236] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/contactus/
+          - text: "|"
+          - link "常見問題" [ref=f14e237] [cursor=pointer]:
+            - /url: http://www.hket.com/eti/info/faq
+  - generic [ref=f14e239]:
+    - paragraph [ref=f14e240]:
+      - text: 本網站使用Cookies來改善您的瀏覽體驗, 請確定您同意及接受我們的
+      - link "私隱政策" [ref=f14e241] [cursor=pointer]:
+        - /url: https://plus.hket.com/account/info/privacyPolicy
+      - text: 與
+      - link "使用條款" [ref=f14e242] [cursor=pointer]:
+        - /url: https://www.hket.com/info/subscriptionTandC
+      - text: 才繼續瀏覽。
+    - link "同意及關閉" [ref=f14e243] [cursor=pointer]:
+      - /url: javascript:cookieAgree();

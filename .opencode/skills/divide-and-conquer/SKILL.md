@@ -51,6 +51,23 @@ digraph split {
 }
 ```
 
+### Hat-check the split
+
+A wrong tree is worse than no tree: every leaf inherits its parent's mistake. Before
+dispatching a wave, run two hats from the `six-hats` skill against the **decomposition**,
+not the task. Two, not six — this skill already owns structure, so Black and Green would
+duplicate it.
+
+- 🟢 **Green — is this the right axis?** Outcome/artifact/subsystem each give a different
+  tree. Name the axis in one sentence. If you cannot, you are guessing at a split.
+- 🔵 **Blue — do we have the whole tree?** What is missing, and which leaf is the real
+  blocker? Blue also decides when to stop splitting: stop when every leaf is bite-size,
+  not when the tree looks tidy.
+
+The preview matters more than the hats here: state the axis you are splitting on and
+"flips if" the axis turns out to be wrong, before you dispatch anything. A split on the
+wrong axis cannot be repaired by adding leaves.
+
 Spawn is forbidden only when the human explicitly said not to use sub-agents. "Don't over-engineer", "just get it done", and a deadline are not a ban.
 
 One `task` call per message is sequential. Parallel means every unit in the wave is a `task` call in the same message. Edits you batch in the parent are not parallelism.

@@ -20,7 +20,7 @@ Three skills, used in order. Do not skip a stage.
 
 1. **ilAS-data-extract** — scrape an ILAS plan's fund universe into an enriched CSV (NAV, 1Y/3Y/5Y, vol, Sharpe, TER, region, sector, type). Stops below 90% coverage.
 2. **macro-research** — verified macro snapshot (rates, equities, commodities, geopolitics) as JSON. No recommendations.
-3. **ilas-fund-report** — top-down reallocation report (macro → region → sector → funds → age-stratified portfolios) as Markdown plus a self-contained HTML page.
+3. **ilas-fund-report** — top-down reallocation report (macro → region → sector → funds → age-stratified portfolios) as Markdown plus a self-contained HTML page. Fund selection (Phase 4) is hat-checked with `six-hats`.
 
 | Skill name | Folder | Role |
 |---|---|---|
@@ -32,7 +32,7 @@ Three skills, used in order. Do not skip a stage.
 
 | Skill | What it does |
 |---|---|
-| `DnC` | Folder `divide-and-conquer`. Recursively split a project into bite-size units and dispatch independent waves in parallel via sub-agents. Parent coordinates and integrates; it does not also do the leaf work. |
+| `DnC` | Folder `divide-and-conquer`. Recursively split a project into bite-size units and dispatch independent waves in parallel via sub-agents. Parent coordinates and integrates; it does not also do the leaf work. Hat-checks the decomposition with Green + Blue before dispatching. |
 | `six-hats` | Turns a decision into an audit record: falsifiable preview, six labelled hat slots per round across 1–3 rounds, verdict that confirms or revises. Requires the `sequentialthinking` MCP server. Tests: `pressure-tests.md`. |
 
 ## Research and writing

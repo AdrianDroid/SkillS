@@ -1,0 +1,76 @@
+- generic [active] [ref=f199e1]:
+  - link "Skip to Main Content" [ref=f199e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - banner [ref=f199e3]:
+    - generic [ref=f199e4]:
+      - generic [ref=f199e5]:
+        - link "PIMCO Home" [ref=f199e7] [cursor=pointer]:
+          - /url: /hk/en
+          - img "PIMCO logo" [ref=f199e8]
+        - text: 
+      - navigation [ref=f199e9]:
+        - button "Site search" [ref=f199e10] [cursor=pointer]
+        - button "Open primary navigation" [ref=f199e15] [cursor=pointer]
+        - text:        
+        - generic: 
+  - main [ref=f199e19]:
+    - region [ref=f199e20]:
+      - generic [ref=f199e21]:
+        - generic [ref=f199e23]:
+          - heading [level=2]
+          - text: "Please note that due to a duplication of the “Estimated Yield to Maturity” value in the “Current Yield” value in certain Fund Factsheets and Monthly Commentaries for some sub-funds of PIMCO Funds: Global Investors Series plc available from 16 January 2026 to 6 February 2026, the December 2025 Fund Factsheets and Monthly Commentaries have been updated and published. Should you require the latest versions or have any queries, kindly contact"
+          - link "ShareholderServicesAsia@pimco.com." [ref=f199e24] [cursor=pointer]:
+            - /url: mailto:ShareholderServicesAsia@pimco.com
+        - button "close" [ref=f199e25] [cursor=pointer]
+    - region [ref=f199e29]:
+      - generic [ref=f199e30]:
+        - generic [ref=f199e32]:
+          - heading "FRAUD WARNING:" [level=2] [ref=f199e33]
+          - text: For more information,
+          - link "click here." [ref=f199e34] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/alert-on-fraudulent-website
+        - button "close" [ref=f199e35] [cursor=pointer]
+  - contentinfo "PIMCO Footer" [ref=f199e39]:
+    - generic [ref=f199e40]:
+      - generic [ref=f199e41]:
+        - img "PIMCO logo" [ref=f199e42]
+        - list [ref=f199e44]:
+          - listitem [ref=f199e45]:
+            - link [ref=f199e46] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/pimco
+              - generic [ref=f199e48]: 
+          - listitem [ref=f199e49]:
+            - link [ref=f199e50] [cursor=pointer]:
+              - /url: https://www.youtube.com/@PIMCO_HK
+              - generic [ref=f199e52]: 
+      - list [ref=f199e54]:
+        - listitem [ref=f199e55]:
+          - link "Privacy Notice" [ref=f199e56] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/privacy-notice
+          - text: "|"
+        - listitem [ref=f199e57]:
+          - link "Terms and Conditions" [ref=f199e58] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/terms-and-conditions
+          - text: "|"
+        - listitem [ref=f199e59]:
+          - link "Legal Disclaimer" [ref=f199e60] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/legal-disclaimer
+          - text: "|"
+        - listitem [ref=f199e61]:
+          - link "Fee Policy Disclosure" [ref=f199e62] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/fee-policy-disclosure
+          - text: "|"
+        - listitem [ref=f199e63]:
+          - link "Alert on Fraudulent Website" [ref=f199e64] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/alert-on-fraudulent-website
+          - text: "|"
+        - listitem [ref=f199e65]:
+          - link "Site Map" [ref=f199e66] [cursor=pointer]:
+            - /url: /hk/en/sitemap
+      - generic [ref=f199e69]:
+        - paragraph [ref=f199e70]: This website and the products and services referred to in it are intended solely for residents of Hong Kong.
+        - paragraph [ref=f199e71]: This website is not intended for persons in any country other than Hong Kong. We do not invite applications for, offer or sell products or services to persons or in countries or jurisdictions where such invitation, offer or sale would be unlawful.
+        - paragraph [ref=f199e72]: This website is general in nature and is for information purposes only. It is not a solicitation, offer or recommendation of any security, investment management or advisory service. It does not constitute investment, tax or legal advice.
+        - paragraph [ref=f199e73]: This website is issued by PIMCO Asia Limited and has not been reviewed by the Securities and Futures Commission. No part of this publication may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of America LLC in the United States and throughout the world. ©2026 PIMCO. All Rights Reserved.
+        - paragraph [ref=f199e74]: PIMCO Asia Limited, Suite 2201, 22nd Floor, Two International Finance Centre, 8 Finance Street, Central, Hong Kong, 852-3650-7700
+        - img "A company of Allianz" [ref=f199e75]

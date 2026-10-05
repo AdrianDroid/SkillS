@@ -1,0 +1,95 @@
+- generic [ref=f197e1]:
+  - link [ref=f197e2] [cursor=pointer]:
+    - /url: "#MainContent"
+    - text: Skip to Main Content
+  - banner [ref=f197e3]:
+    - generic [ref=f197e4]:
+      - generic [ref=f197e5]:
+        - link [ref=f197e7] [cursor=pointer]:
+          - /url: /hk/en
+        - text: 
+      - navigation [ref=f197e9]:
+        - button [ref=f197e10] [cursor=pointer]
+        - button [ref=f197e15] [cursor=pointer]
+        - text:         
+  - contentinfo [ref=f197e19]:
+    - generic [ref=f197e20]:
+      - list [ref=f197e24]:
+        - listitem [ref=f197e25]:
+          - link [ref=f197e26] [cursor=pointer]:
+            - /url: http://www.linkedin.com/company/pimco
+            - generic [ref=f197e28]: 
+        - listitem [ref=f197e29]:
+          - link [ref=f197e30] [cursor=pointer]:
+            - /url: https://www.youtube.com/@PIMCO_HK
+            - generic [ref=f197e32]: 
+      - list [ref=f197e34]:
+        - listitem [ref=f197e35]:
+          - link [ref=f197e36] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/privacy-notice
+            - text: Privacy Notice
+          - text: "|"
+        - listitem [ref=f197e37]:
+          - link [ref=f197e38] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/terms-and-conditions
+            - text: Terms and Conditions
+          - text: "|"
+        - listitem [ref=f197e39]:
+          - link [ref=f197e40] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/legal-disclaimer
+            - text: Legal Disclaimer
+          - text: "|"
+        - listitem [ref=f197e41]:
+          - link [ref=f197e42] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/fee-policy-disclosure
+            - text: Fee Policy Disclosure
+          - text: "|"
+        - listitem [ref=f197e43]:
+          - link [ref=f197e44] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/alert-on-fraudulent-website
+            - text: Alert on Fraudulent Website
+          - text: "|"
+        - listitem [ref=f197e45]:
+          - link [ref=f197e46] [cursor=pointer]:
+            - /url: /hk/en/sitemap
+            - text: Site Map
+      - generic [ref=f197e49]:
+        - paragraph [ref=f197e50]: This website and the products and services referred to in it are intended solely for residents of Hong Kong.
+        - paragraph [ref=f197e51]: This website is not intended for persons in any country other than Hong Kong. We do not invite applications for, offer or sell products or services to persons or in countries or jurisdictions where such invitation, offer or sale would be unlawful.
+        - paragraph [ref=f197e52]: This website is general in nature and is for information purposes only. It is not a solicitation, offer or recommendation of any security, investment management or advisory service. It does not constitute investment, tax or legal advice.
+        - paragraph [ref=f197e53]: This website is issued by PIMCO Asia Limited and has not been reviewed by the Securities and Futures Commission. No part of this publication may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of America LLC in the United States and throughout the world. ©2026 PIMCO. All Rights Reserved.
+        - paragraph [ref=f197e54]: PIMCO Asia Limited, Suite 2201, 22nd Floor, Two International Finance Centre, 8 Finance Street, Central, Hong Kong, 852-3650-7700
+  - dialog "PIMCO Hong Kong" [active] [ref=f197e60]:
+    - document [ref=f197e61]:
+      - generic [ref=f197e65]:
+        - generic [ref=f197e66]:
+          - generic [ref=f197e68]:
+            - heading "PIMCO Hong Kong" [level=2] [ref=f197e69]
+            - list [ref=f197e71] [cursor=pointer]:
+              - listitem [ref=f197e72]:
+                - radio "中文" [ref=f197e73]
+                - text: 中文
+              - listitem [ref=f197e74]:
+                - radio "English" [checked] [ref=f197e75]
+                - text: English
+          - button "Change Your Location" [ref=f197e76] [cursor=pointer]
+        - generic [ref=f197e79]:
+          - group "Tell us a little about you to help us personalize the site to your needs." [ref=f197e80]:
+            - list [ref=f197e82]:
+              - listitem [ref=f197e83]:
+                - radio "Financial Intermediary I am an adviser or wealth manager." [ref=f197e84]
+                - generic [ref=f197e85] [cursor=pointer]:
+                  - generic [ref=f197e87]: Financial Intermediary
+                  - generic [ref=f197e88]: I am an adviser or wealth manager.
+              - listitem [ref=f197e89]:
+                - radio "Institutional Investor I am a consultant, government/public institution or corporate client." [ref=f197e90]
+                - generic [ref=f197e91] [cursor=pointer]:
+                  - generic [ref=f197e93]: Institutional Investor
+                  - generic [ref=f197e94]: I am a consultant, government/public institution or corporate client.
+              - listitem [ref=f197e95]:
+                - radio "Individual Investor I am looking for investment insights and/or solutions for myself." [ref=f197e96]
+                - generic [ref=f197e97] [cursor=pointer]:
+                  - generic [ref=f197e99]: Individual Investor
+                  - generic [ref=f197e100]: I am looking for investment insights and/or solutions for myself.
+          - generic [ref=f197e101]:
+            - button "Accept" [disabled]

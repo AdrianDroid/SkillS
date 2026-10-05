@@ -1,0 +1,64 @@
+- generic [active] [ref=f101e1]:
+  - link "Skip to Main Content" [ref=f101e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - banner [ref=f101e3]:
+    - generic [ref=f101e4]:
+      - generic [ref=f101e5]:
+        - link "PIMCO Home" [ref=f101e7] [cursor=pointer]:
+          - /url: /hk/en
+          - img "PIMCO logo" [ref=f101e8]
+        - text: 
+      - navigation [ref=f101e9]:
+        - button "Site search" [ref=f101e10] [cursor=pointer]
+        - button "Open primary navigation" [ref=f101e15] [cursor=pointer]
+        - text:        
+        - generic: 
+  - main [ref=f101e19]:
+    - generic [ref=f101e22]:
+      - generic [ref=f101e23]: 404 Error
+      - generic [ref=f101e24]: We Can’t Seem to Find the Page You’re Looking For
+      - generic [ref=f101e25]: Sorry, the page you were looking for doesn’t exist or has been moved. Please hit the back button or visit any of the links below.
+  - contentinfo "PIMCO Footer" [ref=f101e26]:
+    - generic [ref=f101e27]:
+      - generic [ref=f101e28]:
+        - img "PIMCO logo" [ref=f101e29]
+        - list [ref=f101e31]:
+          - listitem [ref=f101e32]:
+            - link [ref=f101e33] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/pimco
+              - generic [ref=f101e35]: 
+          - listitem [ref=f101e36]:
+            - link [ref=f101e37] [cursor=pointer]:
+              - /url: https://www.youtube.com/@PIMCO_HK
+              - generic [ref=f101e39]: 
+      - list [ref=f101e41]:
+        - listitem [ref=f101e42]:
+          - link "Privacy Notice" [ref=f101e43] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/privacy-notice
+          - text: "|"
+        - listitem [ref=f101e44]:
+          - link "Terms and Conditions" [ref=f101e45] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/terms-and-conditions
+          - text: "|"
+        - listitem [ref=f101e46]:
+          - link "Legal Disclaimer" [ref=f101e47] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/legal-disclaimer
+          - text: "|"
+        - listitem [ref=f101e48]:
+          - link "Fee Policy Disclosure" [ref=f101e49] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/fee-policy-disclosure
+          - text: "|"
+        - listitem [ref=f101e50]:
+          - link "Alert on Fraudulent Website" [ref=f101e51] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/alert-on-fraudulent-website
+          - text: "|"
+        - listitem [ref=f101e52]:
+          - link "Site Map" [ref=f101e53] [cursor=pointer]:
+            - /url: /hk/en/sitemap
+      - generic [ref=f101e56]:
+        - paragraph [ref=f101e57]: This website and the products and services referred to in it are intended solely for residents of Hong Kong.
+        - paragraph [ref=f101e58]: This website is not intended for persons in any country other than Hong Kong. We do not invite applications for, offer or sell products or services to persons or in countries or jurisdictions where such invitation, offer or sale would be unlawful.
+        - paragraph [ref=f101e59]: This website is general in nature and is for information purposes only. It is not a solicitation, offer or recommendation of any security, investment management or advisory service. It does not constitute investment, tax or legal advice.
+        - paragraph [ref=f101e60]: This website is issued by PIMCO Asia Limited and has not been reviewed by the Securities and Futures Commission. No part of this publication may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of America LLC in the United States and throughout the world. ©2026 PIMCO. All Rights Reserved.
+        - paragraph [ref=f101e61]: PIMCO Asia Limited, Suite 2201, 22nd Floor, Two International Finance Centre, 8 Finance Street, Central, Hong Kong, 852-3650-7700
+        - img "A company of Allianz" [ref=f101e62]

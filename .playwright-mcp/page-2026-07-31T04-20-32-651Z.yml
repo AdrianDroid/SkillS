@@ -1,0 +1,1437 @@
+- generic [ref=f55e2]:
+  - generic [ref=f55e3]:
+    - generic [ref=f55e4]:
+      - list [ref=f55e6]:
+        - listitem "etnet經濟通主頁" [ref=f55e7] [cursor=pointer]
+        - listitem [ref=f55e8] [cursor=pointer]:
+          - link "etnet TV" [ref=f55e9]:
+            - /url: /www/tc/video/
+        - listitem [ref=f55e10] [cursor=pointer]:
+          - link "新聞" [ref=f55e11]:
+            - /url: /www/tc/news/index.php
+          - generic [ref=f55e12]: "N"
+        - listitem [ref=f55e13] [cursor=pointer]:
+          - link "股票" [ref=f55e14]:
+            - /url: /www/tc/stocks/realtime/index.php
+        - listitem [ref=f55e15] [cursor=pointer]:
+          - link "期貨期權" [ref=f55e16]:
+            - /url: /www/tc/futures/index.php
+        - listitem [ref=f55e17] [cursor=pointer]:
+          - link "權證" [ref=f55e18]:
+            - /url: /www/tc/warrants/realtime/index.php
+        - listitem [ref=f55e19] [cursor=pointer]:
+          - link "ETF" [ref=f55e20]:
+            - /url: /www/tc/etf/index.php
+        - listitem [ref=f55e21] [cursor=pointer]:
+          - link "美股" [ref=f55e22]:
+            - /url: /www/tc/us-stocks/
+        - listitem [ref=f55e23] [cursor=pointer]:
+          - link "A股" [ref=f55e24]:
+            - /url: /www/tc/ashares/index.php
+        - listitem [ref=f55e25] [cursor=pointer]:
+          - link "外匯黃金" [ref=f55e26]:
+            - /url: /www/tc/forex/index.php
+        - listitem [ref=f55e27] [cursor=pointer]:
+          - link "加密貨幣．Bitcoin" [ref=f55e28]:
+            - /url: /www/tc/bitcoin/
+        - listitem [ref=f55e29] [cursor=pointer]:
+          - link "基金" [ref=f55e30]:
+            - /url: /www/tc/funds/index.php
+        - listitem [ref=f55e31] [cursor=pointer]:
+          - link "MPF" [ref=f55e32]:
+            - /url: /www/tc/mpf/index.php
+        - listitem [ref=f55e33] [cursor=pointer]:
+          - link "地產" [ref=f55e34]:
+            - /url: /www/tc/property/main/index.php
+        - listitem [ref=f55e35] [cursor=pointer]:
+          - link "生活" [ref=f55e36]:
+            - /url: /www/tc/lifestyle/index.php
+        - listitem [ref=f55e37] [cursor=pointer]:
+          - link "DIVA" [ref=f55e38]:
+            - /url: /www/tc/diva/index.php
+        - listitem [ref=f55e39] [cursor=pointer]:
+          - link "健康好人生" [ref=f55e40]:
+            - /url: /www/tc/health/index.php
+        - listitem [ref=f55e41] [cursor=pointer]:
+          - link "香港好去處" [ref=f55e42]:
+            - /url: /www/tc/attraction/
+        - listitem [ref=f55e43] [cursor=pointer]:
+          - link "投票區" [ref=f55e44]:
+            - /url: /www/tc/voting/index.php
+      - generic [ref=f55e45]:
+        - generic "etnet經濟通" [ref=f55e46] [cursor=pointer]
+        - generic [ref=f55e48]:
+          - generic [ref=f55e49]:
+            - text: 報價 |
+            - link "極速報價" [ref=f55e50] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text: "|"
+            - link "全文搜索" [ref=f55e51] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - generic [ref=f55e52]:
+            - textbox "Search" [active] [ref=f55e53]: 代號/中文/英文
+            - button "Search" [ref=f55e54] [cursor=pointer]
+        - generic [ref=f55e55]:
+          - list [ref=f55e56]:
+            - listitem [ref=f55e57] [cursor=pointer]:
+              - generic [ref=f55e59]: 會員
+          - list [ref=f55e60]:
+            - listitem [ref=f55e61] [cursor=pointer]: 產品服務 / 串流版
+          - list [ref=f55e62]:
+            - listitem [ref=f55e63] [cursor=pointer]:
+              - generic [ref=f55e65]: 設定
+        - generic [ref=f55e67]:
+          - generic [ref=f55e68]: etnet專輯
+          - link "關稅戰" [ref=f55e71] [cursor=pointer]:
+            - /url: /www/tc/news/supplement_traiffwar.php
+    - list [ref=f55e74]:
+      - listitem "基金" [ref=f55e75] [cursor=pointer]
+      - listitem [ref=f55e76] [cursor=pointer]:
+        - link "基金主頁" [ref=f55e77]:
+          - /url: index.php
+      - listitem [ref=f55e78] [cursor=pointer]:
+        - link "基金新聞" [ref=f55e79]:
+          - /url: news.php
+      - listitem [ref=f55e80] [cursor=pointer]:
+        - link "基金排行榜" [ref=f55e81]:
+          - /url: ranking.php
+      - listitem [ref=f55e82] [cursor=pointer]:
+        - link "基金搜尋" [ref=f55e83]:
+          - /url: search.php
+      - listitem [ref=f55e84] [cursor=pointer]:
+        - link "產品登場" [ref=f55e85]:
+          - /url: prodpromo.php
+      - listitem [ref=f55e86] [cursor=pointer]:
+        - link "專家見地" [ref=f55e87]:
+          - /url: commentary.php
+      - listitem [ref=f55e88] [cursor=pointer]:
+        - link "基金數據" [ref=f55e89]:
+          - /url: statdata.php
+      - listitem [ref=f55e90] [cursor=pointer]:
+        - link "RQFII 人民幣基金" [ref=f55e91]:
+          - /url: rqfii.php
+      - listitem [ref=f55e92] [cursor=pointer]:
+        - link "基金互認" [ref=f55e93]:
+          - /url: mrf.php
+  - generic [ref=f55e95]:
+    - generic [ref=f55e96]:
+      - generic [ref=f55e97]:
+        - generic [ref=f55e98]: 基金搜尋
+        - iframe [ref=f55e102]:
+          - generic [ref=f56e1]:
+            - table [ref=f56e2]:
+              - rowgroup [ref=f56e3]:
+                - row [ref=f56e4]:
+                  - cell [ref=f56e5]:
+                    - iframe [ref=f56e6]:
+                      
+                    - table [ref=f56e7]:
+                      - rowgroup [ref=f56e8]:
+                        - row [ref=f56e9]:
+                          - cell [ref=f56e10]:
+                            - table [ref=f56e11]:
+                              - rowgroup [ref=f56e12]:
+                                - row [ref=f56e13]:
+                                  - cell [ref=f56e14]:
+                                    - table [ref=f56e15]:
+                                      - rowgroup [ref=f56e16]:
+                                        - row [ref=f56e17]:
+                                          - cell [ref=f56e18]:
+                                            - table [ref=f56e20]:
+                                              - rowgroup [ref=f56e21]:
+                                                - row [ref=f56e22]:
+                                                  - cell [ref=f56e23]
+                                                - row [ref=f56e25]:
+                                                  - cell [ref=f56e26]
+                                                  - cell [ref=f56e27]:
+                                                    - table [ref=f56e28]:
+                                                      - rowgroup [ref=f56e29]:
+                                                        - row [ref=f56e30]:
+                                                          - cell [ref=f56e31]:
+                                                            - table [ref=f56e32]:
+                                                              - rowgroup [ref=f56e33]:
+                                                                - row [ref=f56e34]:
+                                                                  - cell [ref=f56e35]:
+                                                                    - table [ref=f56e36]:
+                                                                      - rowgroup [ref=f56e37]:
+                                                                        - row [ref=f56e38]:
+                                                                          - cell "基金名稱:" [ref=f56e39]
+                                                                          - cell [ref=f56e40]:
+                                                                            - textbox [ref=f56e41]
+                                                                          - cell "- 基金公司 -" [ref=f56e42]:
+                                                                            - combobox [ref=f56e43]:
+                                                                              - option "- 基金公司 -" [selected]
+                                                                              - option "中國平安資產管理 (香港) 有限公司"
+                                                                              - option "中銀國際英國保誠資產管理有限公司"
+                                                                              - option "中銀香港資產管理有限公司"
+                                                                              - option "交銀施羅德基金管理有限公司"
+                                                                              - option "信安投資及退休金服務有限公司"
+                                                                              - option "匯添富資產管理 (香港) 有限公司"
+                                                                              - option "匯豐環球投資管理 (香港) 有限公司"
+                                                                              - option "南方東英資產管理有限公司"
+                                                                              - option "博時基金 (國際) 有限公司"
+                                                                              - option "品浩投資管理 (亞洲) 有限公司"
+                                                                              - option "嘉實國際資產管理有限公司"
+                                                                              - option "國泰君安資產管理 (亞洲) 有限公司"
+                                                                              - option "大成國際資產管理有限公司"
+                                                                              - option "大成基金管理有限公司"
+                                                                              - option "安本香港有限公司"
+                                                                              - option "安聯環球投資亞太有限公司"
+                                                                              - option "宏利投資管理 (香港) 有限公司"
+                                                                              - option "富蘭克林鄧普頓投資 (亞洲) 有限公司"
+                                                                              - option "富達基金 (香港) 有限公司"
+                                                                              - option "工銀資管 (全球) 有限公司"
+                                                                              - option "廣發基金管理有限公司"
+                                                                              - option "建信基金管理有限責任公司"
+                                                                              - option "建銀國際資產管理有限公司"
+                                                                              - option "惠理基金管理香港有限公司"
+                                                                              - option "招商證券資產管理 (香港) 有限公司"
+                                                                              - option "摩根基金管理 (中國) 有限公司"
+                                                                              - option "摩根資產管理"
+                                                                              - option "施羅德投資管理 (香港) 有限公司"
+                                                                              - option "易方達資產管理 (香港) 有限公司"
+                                                                              - option "晉達資產管理香港有限公司"
+                                                                              - option "景順投資管理有限公司"
+                                                                              - option "景順長城基金管理有限公司"
+                                                                              - option "東亞聯豐投資管理有限公司"
+                                                                              - option "東方匯理資產管理香港有限公司"
+                                                                              - option "法國巴黎資產管理亞洲有限公司"
+                                                                              - option "泰康資產管理 (香港) 有限公司"
+                                                                              - option "海通國際資產管理 (香港) 有限公司"
+                                                                              - option "瀚亞投資 (香港) 有限公司"
+                                                                              - option "瑞士百達資產管理 (香港) 有限公司"
+                                                                              - option "瑞銀資產管理 (香港) 有限公司"
+                                                                              - option "聯博香港有限公司"
+                                                                              - option "華夏基金 (香港) 有限公司"
+                                                                              - option "華夏基金管理有限公司"
+                                                                              - option "行健資產管理有限公司"
+                                                                              - option "貝萊德資產管理北亞有限公司"
+                                                                              - option "霸菱資產管理 (亞洲) 有限公司"
+                                                                              - option "首源投資 (香港) 有限公司"
+                                                                              - option "駿利亨德森投資香港有限公司"
+                                                                - row [ref=f56e44]:
+                                                                  - cell [ref=f56e45]:
+                                                                    - table [ref=f56e46]:
+                                                                      - rowgroup [ref=f56e47]:
+                                                                        - row [ref=f56e48]:
+                                                                          - cell [ref=f56e49]:
+                                                                            - table [ref=f56e50]:
+                                                                              - rowgroup [ref=f56e51]:
+                                                                                - row [ref=f56e52]:
+                                                                                  - cell "- 資產類別 -" [ref=f56e53]:
+                                                                                    - combobox [ref=f56e54]:
+                                                                                      - option "- 資產類別 -" [selected]
+                                                                                      - option "另類資產"
+                                                                                      - option "固定收益"
+                                                                                      - option "平衡基金"
+                                                                                      - option "股票"
+                                                                                      - option "貨幣市場"
+                                                                                      - option "其他"
+                                                                                  - cell "- 地區 -" [ref=f56e55]:
+                                                                                    - combobox [ref=f56e56]:
+                                                                                      - option "- 地區 -" [selected]
+                                                                                      - option "亞太區"
+                                                                                      - option "亞太區 (不包括日本)"
+                                                                                      - option "中國"
+                                                                                      - option "新興市場"
+                                                                                      - option "歐洲"
+                                                                                      - option "環球"
+                                                                                      - option "大中華"
+                                                                                      - option "香港"
+                                                                                      - option "日本"
+                                                                                      - option "北美洲"
+                                                                        - row [ref=f56e57]:
+                                                                          - cell [ref=f56e58]:
+                                                                            - table [ref=f56e59]:
+                                                                              - rowgroup [ref=f56e60]:
+                                                                                - row [ref=f56e61]:
+                                                                                  - cell "- 行業 -" [ref=f56e62]:
+                                                                                    - combobox [ref=f56e63]:
+                                                                                      - option "- 行業 -" [selected]
+                                                                                      - option "公用事業"
+                                                                                      - option "商品與天然資源"
+                                                                                      - option "商業操守"
+                                                                                      - option "基建"
+                                                                                      - option "工業"
+                                                                                      - option "房地產"
+                                                                                      - option "消費品與消費服務"
+                                                                                      - option "物料"
+                                                                                      - option "環保"
+                                                                                      - option "生物科技與健康護理"
+                                                                                      - option "科技與電訊"
+                                                                                      - option "能源"
+                                                                                      - option "農業"
+                                                                                      - option "金融"
+                                                                                  - cell "- 貨幣 -" [ref=f56e64]:
+                                                                                    - combobox [ref=f56e65]:
+                                                                                      - option "- 貨幣 -" [selected]
+                                                                                      - option "AUD"
+                                                                                      - option "CAD"
+                                                                                      - option "CHF"
+                                                                                      - option "CNH"
+                                                                                      - option "CNY"
+                                                                                      - option "EUR"
+                                                                                      - option "GBP"
+                                                                                      - option "HKD"
+                                                                                      - option "JPY"
+                                                                                      - option "MOP"
+                                                                                      - option "NZD"
+                                                                                      - option "SEK"
+                                                                                      - option "SGD"
+                                                                                      - option "USD"
+                                                                                      - option "ZAR"
+                                                                                  - cell "- 時期 -" [ref=f56e66]:
+                                                                                    - combobox [ref=f56e67]:
+                                                                                      - option "- 時期 -" [selected]
+                                                                                      - option "年初至今"
+                                                                                      - option "一個月"
+                                                                                      - option "三個月"
+                                                                                      - option "六個月"
+                                                                                      - option "一年"
+                                                                                      - option "三年"
+                                                                                      - option "五年"
+                                                                                  - cell "- 表現 -" [ref=f56e68]:
+                                                                                    - combobox [ref=f56e69]:
+                                                                                      - option "- 表現 -" [selected]
+                                                                                      - option "> 0%"
+                                                                                      - option "> 10%"
+                                                                                      - option "> 30%"
+                                                                                      - option "> 50%"
+                                                                                      - option "> 100%"
+                                                                                      - option "> 200%"
+                                                        - row [ref=f56e70]:
+                                                          - cell [ref=f56e71]:
+                                                            - table [ref=f56e72]:
+                                                              - rowgroup [ref=f56e73]:
+                                                                - row [ref=f56e74]:
+                                                                  - cell [ref=f56e75]:
+                                                                    - button "搜尋" [ref=f56e76]
+                                                                  - cell [ref=f56e77]:
+                                                                    - button "重設" [ref=f56e78]
+                                                  - cell [ref=f56e79]
+                                                - row [ref=f56e80]:
+                                                  - cell [ref=f56e81]
+                                          - cell
+                                - row [ref=f56e82]:
+                                  - cell [ref=f56e83]:
+                                    - table [ref=f56e84]:
+                                      - rowgroup [ref=f56e85]:
+                                        - row [ref=f56e86]:
+                                          - cell "備註:" [ref=f56e87]
+                                          - cell "1." [ref=f56e88]
+                                          - cell "基金表現是以基金貨幣及資產淨值或買入價計算（包括股息再投資）。" [ref=f56e89]
+                                        - row [ref=f56e90]:
+                                          - cell [ref=f56e91]
+                                          - cell "2." [ref=f56e92]
+                                          - cell "根據監管規定，如果基金成立未滿六個月，不可提供基金表現數據。" [ref=f56e93]
+                                        - row [ref=f56e94]:
+                                          - cell [ref=f56e95]
+                                          - cell "3." [ref=f56e96]
+                                          - cell "*投資者可參考其他「交易貨幣」價格, 以選擇其他貨幣結帳。" [ref=f56e97]
+                                        - row [ref=f56e98]:
+                                          - cell [ref=f56e99]
+                                          - cell "4." [ref=f56e100]
+                                          - cell "投資涉及風險。過往表現未必可作日後業績的準則。詳情(包括風險因素)請參閱有關銷售文件。" [ref=f56e101]
+                                        - row [ref=f56e102]:
+                                          - cell [ref=f56e103]
+                                          - cell "5." [ref=f56e104]
+                                          - cell "基金資訊乃從各基金公司收集所得，僅供參考之用。投資者應評估投資產品所涉及的風險，並自行尋求獨立及專業顧問的建議。本網站己竭力提供正確及完整的資料，惟錯漏可能仍無法避免。讀者在作出任何投資決定前，請仔細閱讀基金說明書。" [ref=f56e105]
+                                - row [ref=f56e106]:
+                                  - cell [ref=f56e107]
+                - row:
+                  - cell
+            - table [ref=f56e110]:
+              - rowgroup [ref=f56e111]:
+                - row [ref=f56e112]:
+                  - cell [ref=f56e113]:
+                    - table [ref=f56e114]:
+                      - rowgroup [ref=f56e115]:
+                        - row [ref=f56e116]:
+                          - cell [ref=f56e117]:
+                            - text: © 2012 環富通 版權所有
+                            - generic [ref=f56e118]:
+                              - text: "|"
+                              - link "免責聲明" [ref=f56e119] [cursor=pointer]:
+                                - /url: javascript:disclaimerPanel.show();
+                        - row
+                        - row:
+                          - cell
+            - iframe [ref=f56e120]:
+              
+      - table [ref=f55e104]:
+        - rowgroup [ref=f55e105]:
+          - row [ref=f55e106]:
+            - cell "備註：" [ref=f55e107]
+            - cell "資料提供及版權屬於環富通ET Wealth (客務熱線︰2880 8678)" [ref=f55e108]
+    - link [ref=f55e114] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - text: 基金組合
+      - img "展開" [ref=f55e116]
+    - generic [ref=f55e120]:
+      - list [ref=f55e121]:
+        - listitem [ref=f55e122] [cursor=pointer]: 生活
+        - listitem [ref=f55e123] [cursor=pointer]: DIVA
+        - listitem [ref=f55e124]: 健康好人生
+      - generic [ref=f55e125]:
+        - list [ref=f55e127]:
+          - listitem "新文章" [ref=f55e128] [cursor=pointer]
+          - listitem "人氣文章" [ref=f55e130]
+          - listitem "最新回應" [ref=f55e132] [cursor=pointer]
+          - listitem "收藏文章" [ref=f55e134] [cursor=pointer]
+        - generic [ref=f55e137]:
+          - heading [level=2] [ref=f55e138]:
+            - link "健康好人生 - 人氣文章" [ref=f55e139] [cursor=pointer]:
+              - /url: https://www.etnet.com.hk/www/tc/health/list/hot10
+          - list [ref=f55e141]:
+            - listitem [ref=f55e142]: 最近7天
+            - listitem [ref=f55e143] [cursor=pointer]: 最近30天
+          - list [ref=f55e144]:
+            - listitem [ref=f55e145]:
+              - generic [ref=f55e146]:
+                - paragraph [ref=f55e147]:
+                  - link "健康解「迷」" [ref=f55e148] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e149]:
+                  - link "服藥禁忌｜牛奶配抗生素恐失效！專家警告1..." [ref=f55e150] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/402842/%E6%9C%8D%E8%97%A5%E7%A6%81%E5%BF%8C%EF%BD%9C%E7%89%9B%E5%A5%B6%E9%85%8D%E6%8A%97%E7%94%9F%E7%B4%A0%E6%81%90%E5%A4%B1%E6%95%88%EF%BC%81%E5%B0%88%E5%AE%B6%E8%AD%A6%E5%91%8A12%E9%A1%9E%E8%97%A5%E7%89%A9%E7%9B%B8%E6%B2%96%EF%BC%8C%E5%9A%B4%E9%87%8D%E6%88%96%E8%87%B4%E8%85%A6%E5%87%BA%E8%A1%80?section=medgenknow&category=healthyd
+              - generic [ref=f55e151]:
+                - link "服藥禁忌｜牛奶配抗生素恐失效！專家警告1...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/402842/%E6%9C%8D%E8%97%A5%E7%A6%81%E5%BF%8C%EF%BD%9C%E7%89%9B%E5%A5%B6%E9%85%8D%E6%8A%97%E7%94%9F%E7%B4%A0%E6%81%90%E5%A4%B1%E6%95%88%EF%BC%81%E5%B0%88%E5%AE%B6%E8%AD%A6%E5%91%8A12%E9%A1%9E%E8%97%A5%E7%89%A9%E7%9B%B8%E6%B2%96%EF%BC%8C%E5%9A%B4%E9%87%8D%E6%88%96%E8%87%B4%E8%85%A6%E5%87%BA%E8%A1%80?section=medgenknow&category=healthyd
+                  - img "服藥禁忌｜牛奶配抗生素恐失效！專家警告1..." [ref=f55e152] [cursor=pointer]
+            - listitem [ref=f55e153]:
+              - generic [ref=f55e154]:
+                - paragraph [ref=f55e155]:
+                  - link "健康解「迷」" [ref=f55e156] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e157]:
+                  - link [ref=f55e158] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/402831/%E5%90%8D%E4%BA%BA%E8%BF%91%E6%B3%81%EF%BD%9C72%E6%AD%B2%E6%9B%BE%E6%99%BA%E8%8F%AF%E8%B7%8C%E5%80%92%E8%A7%B8%E7%99%BC%E8%88%8A%E6%82%A3%E9%9A%AA%E5%A4%B1%E6%98%8E%EF%BC%8C%E7%B7%8A%E6%80%A5%E9%96%8B%E5%88%80%E7%B0%BD%E7%94%9F%E6%AD%BB%E7%8B%80%EF%BC%8C%E5%91%BB%E7%A7%81%E9%99%A2%E6%89%8B%E8%A1%93%E8%B2%BB%E5%A6%82%E9%BB%91%E6%B4%9E?section=medgenknow&category=healthyd
+                    - text: 名人近況｜72歲曾智華跌倒觸發舊患險失明...
+                    - generic "回應" [ref=f55e159]: "1"
+              - generic [ref=f55e161]:
+                - link "名人近況｜72歲曾智華跌倒觸發舊患險失明...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/402831/%E5%90%8D%E4%BA%BA%E8%BF%91%E6%B3%81%EF%BD%9C72%E6%AD%B2%E6%9B%BE%E6%99%BA%E8%8F%AF%E8%B7%8C%E5%80%92%E8%A7%B8%E7%99%BC%E8%88%8A%E6%82%A3%E9%9A%AA%E5%A4%B1%E6%98%8E%EF%BC%8C%E7%B7%8A%E6%80%A5%E9%96%8B%E5%88%80%E7%B0%BD%E7%94%9F%E6%AD%BB%E7%8B%80%EF%BC%8C%E5%91%BB%E7%A7%81%E9%99%A2%E6%89%8B%E8%A1%93%E8%B2%BB%E5%A6%82%E9%BB%91%E6%B4%9E?section=medgenknow&category=healthyd
+                  - img "名人近況｜72歲曾智華跌倒觸發舊患險失明..." [ref=f55e162] [cursor=pointer]
+            - listitem [ref=f55e163]:
+              - generic [ref=f55e164]:
+                - paragraph [ref=f55e165]:
+                  - link "健康解「迷」" [ref=f55e166] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e167]:
+                  - link "長壽飲食｜89歲癌症名醫公開養生餐單，每..." [ref=f55e168] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403014/%E9%95%B7%E5%A3%BD%E9%A3%B2%E9%A3%9F%EF%BD%9C89%E6%AD%B2%E7%99%8C%E7%97%87%E5%90%8D%E9%86%AB%E5%85%AC%E9%96%8B%E9%A4%8A%E7%94%9F%E9%A4%90%E5%96%AE%EF%BC%8C%E6%AF%8F%E6%99%9A%E5%BF%85%E5%90%833%E7%A8%AE%E9%A3%9F%E7%89%A9%E5%85%BC1%E6%8B%9B%E9%A4%8A%E7%94%9F%E6%B3%95?section=medgenknow&category=healthyd
+              - generic [ref=f55e169]:
+                - link "長壽飲食｜89歲癌症名醫公開養生餐單，每...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403014/%E9%95%B7%E5%A3%BD%E9%A3%B2%E9%A3%9F%EF%BD%9C89%E6%AD%B2%E7%99%8C%E7%97%87%E5%90%8D%E9%86%AB%E5%85%AC%E9%96%8B%E9%A4%8A%E7%94%9F%E9%A4%90%E5%96%AE%EF%BC%8C%E6%AF%8F%E6%99%9A%E5%BF%85%E5%90%833%E7%A8%AE%E9%A3%9F%E7%89%A9%E5%85%BC1%E6%8B%9B%E9%A4%8A%E7%94%9F%E6%B3%95?section=medgenknow&category=healthyd
+                  - img "長壽飲食｜89歲癌症名醫公開養生餐單，每..." [ref=f55e170] [cursor=pointer]
+            - listitem [ref=f55e171]:
+              - generic [ref=f55e172]:
+                - paragraph [ref=f55e173]:
+                  - link "健康解「迷」" [ref=f55e174] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e175]:
+                  - link "抗老運動｜日醫推薦1套5式＋飲食習慣助你..." [ref=f55e176] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/402838/%E6%8A%97%E8%80%81%E9%81%8B%E5%8B%95%EF%BD%9C%E6%97%A5%E9%86%AB%E6%8E%A8%E8%96%A61%E5%A5%975%E5%BC%8F%EF%BC%8B%E9%A3%B2%E9%A3%9F%E7%BF%92%E6%85%A3%E5%8A%A9%E4%BD%A0%E6%B4%BB%E5%88%B090%E6%AD%B2?section=medgenknow&category=healthyd
+              - generic [ref=f55e177]:
+                - link "抗老運動｜日醫推薦1套5式＋飲食習慣助你...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/402838/%E6%8A%97%E8%80%81%E9%81%8B%E5%8B%95%EF%BD%9C%E6%97%A5%E9%86%AB%E6%8E%A8%E8%96%A61%E5%A5%975%E5%BC%8F%EF%BC%8B%E9%A3%B2%E9%A3%9F%E7%BF%92%E6%85%A3%E5%8A%A9%E4%BD%A0%E6%B4%BB%E5%88%B090%E6%AD%B2?section=medgenknow&category=healthyd
+                  - img "抗老運動｜日醫推薦1套5式＋飲食習慣助你..." [ref=f55e178] [cursor=pointer]
+            - listitem [ref=f55e179]:
+              - generic [ref=f55e180]:
+                - paragraph [ref=f55e181]:
+                  - link "健康解「迷」" [ref=f55e182] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e183]:
+                  - link "飲食習慣｜愈食愈重口味恐致慢性腎衰竭！3..." [ref=f55e184] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/402841/%E9%A3%B2%E9%A3%9F%E7%BF%92%E6%85%A3%EF%BD%9C%E6%84%88%E9%A3%9F%E6%84%88%E9%87%8D%E5%8F%A3%E5%91%B3%E6%81%90%E8%87%B4%E6%85%A2%E6%80%A7%E8%85%8E%E8%A1%B0%E7%AB%AD%EF%BC%813%E5%A4%A7%E7%95%B0%E6%A8%A3%E5%8D%B3%E6%B1%82%E9%86%AB?section=medgenknow&category=healthyd
+              - generic [ref=f55e185]:
+                - link "飲食習慣｜愈食愈重口味恐致慢性腎衰竭！3...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/402841/%E9%A3%B2%E9%A3%9F%E7%BF%92%E6%85%A3%EF%BD%9C%E6%84%88%E9%A3%9F%E6%84%88%E9%87%8D%E5%8F%A3%E5%91%B3%E6%81%90%E8%87%B4%E6%85%A2%E6%80%A7%E8%85%8E%E8%A1%B0%E7%AB%AD%EF%BC%813%E5%A4%A7%E7%95%B0%E6%A8%A3%E5%8D%B3%E6%B1%82%E9%86%AB?section=medgenknow&category=healthyd
+                  - img "飲食習慣｜愈食愈重口味恐致慢性腎衰竭！3..." [ref=f55e186] [cursor=pointer]
+            - listitem [ref=f55e187]:
+              - generic [ref=f55e188]:
+                - paragraph [ref=f55e189]:
+                  - link "山外有山 ． 周華山博士" [ref=f55e190] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/emotionalhealth/Social Psychology
+                - heading [level=6] [ref=f55e191]:
+                  - link "社會心理學看「何生」 愛與金錢的集體焦慮" [ref=f55e192] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403211/%E7%A4%BE%E6%9C%83%E5%BF%83%E7%90%86%E5%AD%B8%E7%9C%8B%E3%80%8C%E4%BD%95%E7%94%9F%E3%80%8D+%C2%A0%E6%84%9B%E8%88%87%E9%87%91%E9%8C%A2%E7%9A%84%E9%9B%86%E9%AB%94%E7%84%A6%E6%85%AE?section=emotionalhealth&category=Social Psychology
+              - generic [ref=f55e193]:
+                - link "社會心理學看「何生」 愛與金錢的集體焦慮":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403211/%E7%A4%BE%E6%9C%83%E5%BF%83%E7%90%86%E5%AD%B8%E7%9C%8B%E3%80%8C%E4%BD%95%E7%94%9F%E3%80%8D+%C2%A0%E6%84%9B%E8%88%87%E9%87%91%E9%8C%A2%E7%9A%84%E9%9B%86%E9%AB%94%E7%84%A6%E6%85%AE?section=emotionalhealth&category=Social Psychology
+                  - img "社會心理學看「何生」 愛與金錢的集體焦慮" [ref=f55e194] [cursor=pointer]
+            - listitem [ref=f55e195]:
+              - generic [ref=f55e196]:
+                - paragraph [ref=f55e197]:
+                  - link "健康解「迷」" [ref=f55e198] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e199]:
+                  - link "腎臟健康｜牛油果被封超級食物！腎科醫生警..." [ref=f55e200] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/402997/%E8%85%8E%E8%87%9F%E5%81%A5%E5%BA%B7%EF%BD%9C%E7%89%9B%E6%B2%B9%E6%9E%9C%E8%A2%AB%E5%B0%81%E8%B6%85%E7%B4%9A%E9%A3%9F%E7%89%A9%EF%BC%81%E8%85%8E%E7%A7%91%E9%86%AB%E7%94%9F%E8%AD%A6%E5%91%8A%E9%AB%98%E9%89%80%E9%99%B7%E9%98%B1%EF%BC%8C%E8%85%8E%E5%8A%9F%E8%83%BD%E6%AC%A0%E4%BD%B3%E6%81%90%E8%AA%98%E7%99%BC%E5%BF%83%E5%BE%8B%E4%B8%8D%E6%AD%A3?section=medgenknow&category=healthyd
+              - generic [ref=f55e201]:
+                - link "腎臟健康｜牛油果被封超級食物！腎科醫生警...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/402997/%E8%85%8E%E8%87%9F%E5%81%A5%E5%BA%B7%EF%BD%9C%E7%89%9B%E6%B2%B9%E6%9E%9C%E8%A2%AB%E5%B0%81%E8%B6%85%E7%B4%9A%E9%A3%9F%E7%89%A9%EF%BC%81%E8%85%8E%E7%A7%91%E9%86%AB%E7%94%9F%E8%AD%A6%E5%91%8A%E9%AB%98%E9%89%80%E9%99%B7%E9%98%B1%EF%BC%8C%E8%85%8E%E5%8A%9F%E8%83%BD%E6%AC%A0%E4%BD%B3%E6%81%90%E8%AA%98%E7%99%BC%E5%BF%83%E5%BE%8B%E4%B8%8D%E6%AD%A3?section=medgenknow&category=healthyd
+                  - img "腎臟健康｜牛油果被封超級食物！腎科醫生警..." [ref=f55e202] [cursor=pointer]
+            - listitem [ref=f55e203]:
+              - generic [ref=f55e204]:
+                - paragraph [ref=f55e205]:
+                  - link "照顧者手記 ． 黎凱欣" [ref=f55e206] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/eldercare/caregiver diary
+                - heading [level=6] [ref=f55e207]:
+                  - link "「預設醫療指示」不等於放棄治療或安樂死！..." [ref=f55e208] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403052/%E3%80%8C%E9%A0%90%E8%A8%AD%E9%86%AB%E7%99%82%E6%8C%87%E7%A4%BA%E3%80%8D%E4%B8%8D%E7%AD%89%E6%96%BC%E6%94%BE%E6%A3%84%E6%B2%BB%E7%99%82%E6%88%96%E5%AE%89%E6%A8%82%E6%AD%BB%EF%BC%81%E7%A0%B4%E9%99%A4%E5%85%AD%E5%A4%A7%E8%AA%A4%E8%A7%A3%EF%BC%8C%E8%AE%93%E6%99%9A%E6%99%B4%E6%B4%BB%E5%87%BA%E5%B0%8A%E5%9A%B4?section=eldercare&category=caregiver diary
+              - generic [ref=f55e209]:
+                - link "「預設醫療指示」不等於放棄治療或安樂死！...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403052/%E3%80%8C%E9%A0%90%E8%A8%AD%E9%86%AB%E7%99%82%E6%8C%87%E7%A4%BA%E3%80%8D%E4%B8%8D%E7%AD%89%E6%96%BC%E6%94%BE%E6%A3%84%E6%B2%BB%E7%99%82%E6%88%96%E5%AE%89%E6%A8%82%E6%AD%BB%EF%BC%81%E7%A0%B4%E9%99%A4%E5%85%AD%E5%A4%A7%E8%AA%A4%E8%A7%A3%EF%BC%8C%E8%AE%93%E6%99%9A%E6%99%B4%E6%B4%BB%E5%87%BA%E5%B0%8A%E5%9A%B4?section=eldercare&category=caregiver diary
+                  - img "「預設醫療指示」不等於放棄治療或安樂死！..." [ref=f55e210] [cursor=pointer]
+            - listitem [ref=f55e211]:
+              - generic [ref=f55e212]:
+                - paragraph [ref=f55e213]:
+                  - link "健康解「迷」" [ref=f55e214] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e215]:
+                  - link "中暑警號｜炎夏頭暈非普通感冒，分清熱衰竭..." [ref=f55e216] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/402839/%E4%B8%AD%E6%9A%91%E8%AD%A6%E8%99%9F%EF%BD%9C%E7%82%8E%E5%A4%8F%E9%A0%AD%E6%9A%88%E9%9D%9E%E6%99%AE%E9%80%9A%E6%84%9F%E5%86%92%EF%BC%8C%E5%88%86%E6%B8%85%E7%86%B1%E8%A1%B0%E7%AB%AD%E8%88%87%E4%B8%AD%E6%9A%91%EF%BC%8C%E6%8B%96%E5%BB%B6%E6%81%90%E5%BC%95%E7%99%BC%E8%85%8E%E6%90%8D%E5%82%B7?section=medgenknow&category=healthyd
+              - generic [ref=f55e217]:
+                - link "中暑警號｜炎夏頭暈非普通感冒，分清熱衰竭...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/402839/%E4%B8%AD%E6%9A%91%E8%AD%A6%E8%99%9F%EF%BD%9C%E7%82%8E%E5%A4%8F%E9%A0%AD%E6%9A%88%E9%9D%9E%E6%99%AE%E9%80%9A%E6%84%9F%E5%86%92%EF%BC%8C%E5%88%86%E6%B8%85%E7%86%B1%E8%A1%B0%E7%AB%AD%E8%88%87%E4%B8%AD%E6%9A%91%EF%BC%8C%E6%8B%96%E5%BB%B6%E6%81%90%E5%BC%95%E7%99%BC%E8%85%8E%E6%90%8D%E5%82%B7?section=medgenknow&category=healthyd
+                  - img "中暑警號｜炎夏頭暈非普通感冒，分清熱衰竭..." [ref=f55e218] [cursor=pointer]
+            - listitem [ref=f55e219]:
+              - generic [ref=f55e220]:
+                - paragraph [ref=f55e221]:
+                  - link "健康解「迷」" [ref=f55e222] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e223]:
+                  - link "名人健康｜草蜢蔡一傑患7cm惡性腦癌擴散..." [ref=f55e224] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403340/%E5%90%8D%E4%BA%BA%E5%81%A5%E5%BA%B7%EF%BD%9C%E8%8D%89%E8%9C%A2%E8%94%A1%E4%B8%80%E5%82%91%E6%82%A37cm%E6%83%A1%E6%80%A7%E8%85%A6%E7%99%8C%E6%93%B4%E6%95%A3%EF%BC%81%E4%B8%AD%E8%A5%BF%E5%90%88%E7%92%A7%E7%A9%A9%E5%AE%9A%E7%97%85%E6%83%85+%EF%BC%8C%E9%9D%A0%E6%89%93%E9%BA%BB%E9%9B%80%E4%BF%9D%E6%8C%81%E5%BF%83%E5%A2%83%E9%96%8B%E6%9C%97?section=medgenknow&category=healthyd
+              - generic [ref=f55e225]:
+                - link "名人健康｜草蜢蔡一傑患7cm惡性腦癌擴散...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403340/%E5%90%8D%E4%BA%BA%E5%81%A5%E5%BA%B7%EF%BD%9C%E8%8D%89%E8%9C%A2%E8%94%A1%E4%B8%80%E5%82%91%E6%82%A37cm%E6%83%A1%E6%80%A7%E8%85%A6%E7%99%8C%E6%93%B4%E6%95%A3%EF%BC%81%E4%B8%AD%E8%A5%BF%E5%90%88%E7%92%A7%E7%A9%A9%E5%AE%9A%E7%97%85%E6%83%85+%EF%BC%8C%E9%9D%A0%E6%89%93%E9%BA%BB%E9%9B%80%E4%BF%9D%E6%8C%81%E5%BF%83%E5%A2%83%E9%96%8B%E6%9C%97?section=medgenknow&category=healthyd
+                  - img "名人健康｜草蜢蔡一傑患7cm惡性腦癌擴散..." [ref=f55e226] [cursor=pointer]
+            - listitem [ref=f55e227]:
+              - generic [ref=f55e228]:
+                - paragraph [ref=f55e229]:
+                  - link "山外有山 ． 周華山博士" [ref=f55e230] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/emotionalhealth/Social Psychology
+                - heading [level=6] [ref=f55e231]:
+                  - link "身心症情緒解碼7｜心臟會說話 廣東話的心跳密碼" [ref=f55e232] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/400660/%E8%BA%AB%E5%BF%83%E7%97%87%E6%83%85%E7%B7%92%E8%A7%A3%E7%A2%BC7%EF%BD%9C%E5%BF%83%E8%87%9F%E6%9C%83%E8%AA%AA%E8%A9%B1+%E5%BB%A3%E6%9D%B1%E8%A9%B1%E7%9A%84%E5%BF%83%E8%B7%B3%E5%AF%86%E7%A2%BC?section=emotionalhealth&category=Social Psychology
+              - generic [ref=f55e233]:
+                - link "身心症情緒解碼7｜心臟會說話 廣東話的心跳密碼":
+                  - /url: https://www.etnet.com.hk/www/tc/health/400660/%E8%BA%AB%E5%BF%83%E7%97%87%E6%83%85%E7%B7%92%E8%A7%A3%E7%A2%BC7%EF%BD%9C%E5%BF%83%E8%87%9F%E6%9C%83%E8%AA%AA%E8%A9%B1+%E5%BB%A3%E6%9D%B1%E8%A9%B1%E7%9A%84%E5%BF%83%E8%B7%B3%E5%AF%86%E7%A2%BC?section=emotionalhealth&category=Social Psychology
+                  - img "身心症情緒解碼7｜心臟會說話 廣東話的心跳密碼" [ref=f55e234] [cursor=pointer]
+            - listitem [ref=f55e235]:
+              - generic [ref=f55e236]:
+                - paragraph [ref=f55e237]:
+                  - link "健康解「迷」" [ref=f55e238] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e239]:
+                  - link "補品陷阱｜病危患者勿亂進補！醫生拆解人參..." [ref=f55e240] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403011/%E8%A3%9C%E5%93%81%E9%99%B7%E9%98%B1%EF%BD%9C%E7%97%85%E5%8D%B1%E6%82%A3%E8%80%85%E5%8B%BF%E4%BA%82%E9%80%B2%E8%A3%9C%EF%BC%81%E9%86%AB%E7%94%9F%E6%8B%86%E8%A7%A3%E4%BA%BA%E5%8F%83%E3%80%81%E9%9D%88%E8%8A%9D%E3%80%81%E9%AD%9A%E6%B2%B9%E9%99%B7%E9%98%B1%EF%BC%8C%E6%81%90%E5%8A%A0%E9%87%8D%E5%99%A8%E5%AE%98%E8%B2%A0%E6%93%94?section=medgenknow&category=healthyd
+              - generic [ref=f55e241]:
+                - link "補品陷阱｜病危患者勿亂進補！醫生拆解人參...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403011/%E8%A3%9C%E5%93%81%E9%99%B7%E9%98%B1%EF%BD%9C%E7%97%85%E5%8D%B1%E6%82%A3%E8%80%85%E5%8B%BF%E4%BA%82%E9%80%B2%E8%A3%9C%EF%BC%81%E9%86%AB%E7%94%9F%E6%8B%86%E8%A7%A3%E4%BA%BA%E5%8F%83%E3%80%81%E9%9D%88%E8%8A%9D%E3%80%81%E9%AD%9A%E6%B2%B9%E9%99%B7%E9%98%B1%EF%BC%8C%E6%81%90%E5%8A%A0%E9%87%8D%E5%99%A8%E5%AE%98%E8%B2%A0%E6%93%94?section=medgenknow&category=healthyd
+                  - img "補品陷阱｜病危患者勿亂進補！醫生拆解人參..." [ref=f55e242] [cursor=pointer]
+            - listitem [ref=f55e243]:
+              - generic [ref=f55e244]:
+                - paragraph [ref=f55e245]:
+                  - link "健康解「迷」" [ref=f55e246] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e247]:
+                  - link "家事百科｜保溫杯清潔不足恐致癌，醫生揭洗杯關鍵" [ref=f55e248] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403176/%E5%AE%B6%E4%BA%8B%E7%99%BE%E7%A7%91%EF%BD%9C%E4%BF%9D%E6%BA%AB%E6%9D%AF%E6%B8%85%E6%BD%94%E4%B8%8D%E8%B6%B3%E6%81%90%E8%87%B4%E7%99%8C%EF%BC%8C%E9%86%AB%E7%94%9F%E6%8F%AD%E6%B4%97%E6%9D%AF%E9%97%9C%E9%8D%B5?section=medgenknow&category=healthyd
+              - generic [ref=f55e249]:
+                - link "家事百科｜保溫杯清潔不足恐致癌，醫生揭洗杯關鍵":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403176/%E5%AE%B6%E4%BA%8B%E7%99%BE%E7%A7%91%EF%BD%9C%E4%BF%9D%E6%BA%AB%E6%9D%AF%E6%B8%85%E6%BD%94%E4%B8%8D%E8%B6%B3%E6%81%90%E8%87%B4%E7%99%8C%EF%BC%8C%E9%86%AB%E7%94%9F%E6%8F%AD%E6%B4%97%E6%9D%AF%E9%97%9C%E9%8D%B5?section=medgenknow&category=healthyd
+                  - img "家事百科｜保溫杯清潔不足恐致癌，醫生揭洗杯關鍵" [ref=f55e250] [cursor=pointer]
+            - listitem [ref=f55e251]:
+              - generic [ref=f55e252]:
+                - paragraph [ref=f55e253]:
+                  - link "健康解「迷」" [ref=f55e254] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e255]:
+                  - link "名人保養｜37歲Angelababy公開... 新文章" [ref=f55e256] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403499/%E5%90%8D%E4%BA%BA%E4%BF%9D%E9%A4%8A%EF%BD%9C37%E6%AD%B2Angelababy%E5%85%AC%E9%96%8B21%E5%90%8B%E7%BA%96%E8%85%B0%E9%A4%8A%E6%88%90%E8%A1%93%EF%BC%81%E7%94%9FB%E5%BE%8C%E4%BB%8D%E4%BF%9D%E6%8C%81%E7%BA%96%E7%98%A6%E8%BA%AB%E6%9D%90%EF%BC%8C%E8%87%AA%E5%BE%8B%E9%A3%B2%E9%A3%9F%EF%BC%8B%E7%94%9F%E6%B4%BB%E7%BF%92%E6%85%A3%E6%88%90%E9%97%9C%E9%8D%B5?section=medgenknow&category=healthyd
+                    - text: 名人保養｜37歲Angelababy公開...
+                    - generic [ref=f55e257]: 新文章
+              - generic [ref=f55e258]:
+                - link "名人保養｜37歲Angelababy公開...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403499/%E5%90%8D%E4%BA%BA%E4%BF%9D%E9%A4%8A%EF%BD%9C37%E6%AD%B2Angelababy%E5%85%AC%E9%96%8B21%E5%90%8B%E7%BA%96%E8%85%B0%E9%A4%8A%E6%88%90%E8%A1%93%EF%BC%81%E7%94%9FB%E5%BE%8C%E4%BB%8D%E4%BF%9D%E6%8C%81%E7%BA%96%E7%98%A6%E8%BA%AB%E6%9D%90%EF%BC%8C%E8%87%AA%E5%BE%8B%E9%A3%B2%E9%A3%9F%EF%BC%8B%E7%94%9F%E6%B4%BB%E7%BF%92%E6%85%A3%E6%88%90%E9%97%9C%E9%8D%B5?section=medgenknow&category=healthyd
+                  - img "名人保養｜37歲Angelababy公開..." [ref=f55e259] [cursor=pointer]
+            - listitem [ref=f55e260]:
+              - generic [ref=f55e261]:
+                - paragraph [ref=f55e262]:
+                  - link "健康解「迷」" [ref=f55e263] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e264]:
+                  - link "治療案例｜43歲梁芷珮中藥針灸成功縮子宮..." [ref=f55e265] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403178/%E6%B2%BB%E7%99%82%E6%A1%88%E4%BE%8B%EF%BD%9C43%E6%AD%B2%E6%A2%81%E8%8A%B7%E7%8F%AE%E4%B8%AD%E8%97%A5%E9%87%9D%E7%81%B8%E6%88%90%E5%8A%9F%E7%B8%AE%E5%AD%90%E5%AE%AE%E8%82%8C%E7%98%A4+%E5%AD%90%E5%AE%AE%E5%85%A7%E8%86%9C%E7%99%8C8%E5%A4%A7%E9%AB%98%E5%8D%B1%E6%97%8F%E7%BE%A4?section=medgenknow&category=healthyd
+              - generic [ref=f55e266]:
+                - link "治療案例｜43歲梁芷珮中藥針灸成功縮子宮...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403178/%E6%B2%BB%E7%99%82%E6%A1%88%E4%BE%8B%EF%BD%9C43%E6%AD%B2%E6%A2%81%E8%8A%B7%E7%8F%AE%E4%B8%AD%E8%97%A5%E9%87%9D%E7%81%B8%E6%88%90%E5%8A%9F%E7%B8%AE%E5%AD%90%E5%AE%AE%E8%82%8C%E7%98%A4+%E5%AD%90%E5%AE%AE%E5%85%A7%E8%86%9C%E7%99%8C8%E5%A4%A7%E9%AB%98%E5%8D%B1%E6%97%8F%E7%BE%A4?section=medgenknow&category=healthyd
+                  - img "治療案例｜43歲梁芷珮中藥針灸成功縮子宮..." [ref=f55e267] [cursor=pointer]
+            - listitem [ref=f55e268]:
+              - generic [ref=f55e269]:
+                - paragraph [ref=f55e270]:
+                  - link "健康解「迷」" [ref=f55e271] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e272]:
+                  - link "名人離世｜日本推理小說作家東野圭吾大腸癌..." [ref=f55e273] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403182/%E5%90%8D%E4%BA%BA%E9%9B%A2%E4%B8%96%EF%BD%9C%E6%97%A5%E6%9C%AC%E6%8E%A8%E7%90%86%E5%B0%8F%E8%AA%AA%E4%BD%9C%E5%AE%B6%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE%E5%A4%A7%E8%85%B8%E7%99%8C%E7%97%85%E9%80%9D%EF%BC%8C3%E5%A4%A7%E8%AD%A6%E8%99%9F%E5%8F%8A%E9%A0%90%E9%98%B2%E6%96%B9%E6%B3%95?section=medgenknow&category=healthyd
+              - generic [ref=f55e274]:
+                - link "名人離世｜日本推理小說作家東野圭吾大腸癌...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403182/%E5%90%8D%E4%BA%BA%E9%9B%A2%E4%B8%96%EF%BD%9C%E6%97%A5%E6%9C%AC%E6%8E%A8%E7%90%86%E5%B0%8F%E8%AA%AA%E4%BD%9C%E5%AE%B6%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE%E5%A4%A7%E8%85%B8%E7%99%8C%E7%97%85%E9%80%9D%EF%BC%8C3%E5%A4%A7%E8%AD%A6%E8%99%9F%E5%8F%8A%E9%A0%90%E9%98%B2%E6%96%B9%E6%B3%95?section=medgenknow&category=healthyd
+                  - img "名人離世｜日本推理小說作家東野圭吾大腸癌..." [ref=f55e275] [cursor=pointer]
+            - listitem [ref=f55e276]:
+              - generic [ref=f55e277]:
+                - paragraph [ref=f55e278]:
+                  - link "Call Me Doctor" [ref=f55e279] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/calldoctor
+                - heading [level=6] [ref=f55e280]:
+                  - link "從大便顏色看腸道健康：紅色不一定是腸胃出..." [ref=f55e281] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403179/%E5%BE%9E%E5%A4%A7%E4%BE%BF%E9%A1%8F%E8%89%B2%E7%9C%8B%E8%85%B8%E9%81%93%E5%81%A5%E5%BA%B7%EF%BC%9A%E7%B4%85%E8%89%B2%E4%B8%8D%E4%B8%80%E5%AE%9A%E6%98%AF%E8%85%B8%E8%83%83%E5%87%BA%E8%A1%80%EF%BC%81%E9%BB%91%E8%89%B2%E6%98%AF%E8%85%B8%E7%99%8C%E5%85%88%E5%85%86%EF%BC%9F?section=medgenknow&category=calldoctor
+              - generic [ref=f55e282]:
+                - link "從大便顏色看腸道健康：紅色不一定是腸胃出...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403179/%E5%BE%9E%E5%A4%A7%E4%BE%BF%E9%A1%8F%E8%89%B2%E7%9C%8B%E8%85%B8%E9%81%93%E5%81%A5%E5%BA%B7%EF%BC%9A%E7%B4%85%E8%89%B2%E4%B8%8D%E4%B8%80%E5%AE%9A%E6%98%AF%E8%85%B8%E8%83%83%E5%87%BA%E8%A1%80%EF%BC%81%E9%BB%91%E8%89%B2%E6%98%AF%E8%85%B8%E7%99%8C%E5%85%88%E5%85%86%EF%BC%9F?section=medgenknow&category=calldoctor
+                  - img "從大便顏色看腸道健康：紅色不一定是腸胃出..." [ref=f55e283] [cursor=pointer]
+            - listitem [ref=f55e284]:
+              - generic [ref=f55e285]:
+                - paragraph [ref=f55e286]:
+                  - link "健康解「迷」" [ref=f55e287] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e288]:
+                  - link "腦中風｜中風年輕化趨勢！血壓偏高恐致腦出..." [ref=f55e289] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403015/%E8%85%A6%E4%B8%AD%E9%A2%A8%EF%BD%9C%E4%B8%AD%E9%A2%A8%E5%B9%B4%E8%BC%95%E5%8C%96%E8%B6%A8%E5%8B%A2%EF%BC%81%E8%A1%80%E5%A3%93%E5%81%8F%E9%AB%98%E6%81%90%E8%87%B4%E8%85%A6%E5%87%BA%E8%A1%80%EF%BC%8C%E9%86%AB%E7%94%9F%E6%8F%90%E9%86%923%E5%A4%A7%E5%85%88%E5%85%86%E4%B8%8D%E5%8F%AF%E5%BF%BD%E8%A6%96?section=medgenknow&category=healthyd
+              - generic [ref=f55e290]:
+                - link "腦中風｜中風年輕化趨勢！血壓偏高恐致腦出...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403015/%E8%85%A6%E4%B8%AD%E9%A2%A8%EF%BD%9C%E4%B8%AD%E9%A2%A8%E5%B9%B4%E8%BC%95%E5%8C%96%E8%B6%A8%E5%8B%A2%EF%BC%81%E8%A1%80%E5%A3%93%E5%81%8F%E9%AB%98%E6%81%90%E8%87%B4%E8%85%A6%E5%87%BA%E8%A1%80%EF%BC%8C%E9%86%AB%E7%94%9F%E6%8F%90%E9%86%923%E5%A4%A7%E5%85%88%E5%85%86%E4%B8%8D%E5%8F%AF%E5%BF%BD%E8%A6%96?section=medgenknow&category=healthyd
+                  - img "腦中風｜中風年輕化趨勢！血壓偏高恐致腦出..." [ref=f55e291] [cursor=pointer]
+            - listitem [ref=f55e292]:
+              - generic [ref=f55e293]:
+                - paragraph [ref=f55e294]:
+                  - link "說說心理話 ． 崔潔彤 利嘉敏" [ref=f55e295] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/emotionalhealth/mentalhealth
+                - heading [level=6] [ref=f55e296]:
+                  - link "周國豐首次寫書送給腦退化症媽媽 從裝冷..." [ref=f55e297] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403210/%E5%91%A8%E5%9C%8B%E8%B1%90%E9%A6%96%E6%AC%A1%E5%AF%AB%E6%9B%B8%E9%80%81%E7%B5%A6%E8%85%A6%E9%80%80%E5%8C%96%E7%97%87%E5%AA%BD%E5%AA%BD+%C2%A0%E5%BE%9E%E8%A3%9D%E5%86%B7%E9%85%B7%E7%9A%84%E5%85%92%E5%AD%90%E8%AE%8A%E6%88%90%E6%BA%AB%E6%9F%94%E7%9A%84%E7%85%A7%E9%A1%A7%E8%80%85%EF%BC%9A%E3%80%8C%E6%AF%8F%E6%AC%A1%E8%A6%8B%E9%83%BD%E6%9C%83%E6%8B%96%E5%A5%B9%E7%9A%84%E6%89%8B%EF%BC%8C%E5%83%8F%E5%93%84%E5%A5%B3%E5%8F%8B%E4%B8%80%E6%A8%A3%E3%80%8D?section=emotionalhealth&category=mentalhealth
+              - generic [ref=f55e298]:
+                - link "周國豐首次寫書送給腦退化症媽媽 從裝冷...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403210/%E5%91%A8%E5%9C%8B%E8%B1%90%E9%A6%96%E6%AC%A1%E5%AF%AB%E6%9B%B8%E9%80%81%E7%B5%A6%E8%85%A6%E9%80%80%E5%8C%96%E7%97%87%E5%AA%BD%E5%AA%BD+%C2%A0%E5%BE%9E%E8%A3%9D%E5%86%B7%E9%85%B7%E7%9A%84%E5%85%92%E5%AD%90%E8%AE%8A%E6%88%90%E6%BA%AB%E6%9F%94%E7%9A%84%E7%85%A7%E9%A1%A7%E8%80%85%EF%BC%9A%E3%80%8C%E6%AF%8F%E6%AC%A1%E8%A6%8B%E9%83%BD%E6%9C%83%E6%8B%96%E5%A5%B9%E7%9A%84%E6%89%8B%EF%BC%8C%E5%83%8F%E5%93%84%E5%A5%B3%E5%8F%8B%E4%B8%80%E6%A8%A3%E3%80%8D?section=emotionalhealth&category=mentalhealth
+                  - img "周國豐首次寫書送給腦退化症媽媽 從裝冷..." [ref=f55e299] [cursor=pointer]
+            - listitem [ref=f55e300]:
+              - generic [ref=f55e301]:
+                - paragraph [ref=f55e302]:
+                  - link "健康解「迷」" [ref=f55e303] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e304]:
+                  - link "大腸癌驚號｜排便異常腹脹勿輕視！兩項檢查..." [ref=f55e305] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403007/%E5%A4%A7%E8%85%B8%E7%99%8C%E9%A9%9A%E8%99%9F%EF%BD%9C%E6%8E%92%E4%BE%BF%E7%95%B0%E5%B8%B8%E8%85%B9%E8%84%B9%E5%8B%BF%E8%BC%95%E8%A6%96%EF%BC%81%E5%85%A9%E9%A0%85%E6%AA%A2%E6%9F%A5%E6%AD%A3%E5%B8%B8%E4%BB%8D%E6%82%A3%E7%AC%AC3%E6%9C%9F%EF%BC%8C%E9%86%AB%E6%8F%AD%E5%B9%B4%E8%BC%95%E5%8C%96%E8%B6%A8%E5%8B%A2?section=medgenknow&category=healthyd
+              - generic [ref=f55e306]:
+                - link "大腸癌驚號｜排便異常腹脹勿輕視！兩項檢查...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403007/%E5%A4%A7%E8%85%B8%E7%99%8C%E9%A9%9A%E8%99%9F%EF%BD%9C%E6%8E%92%E4%BE%BF%E7%95%B0%E5%B8%B8%E8%85%B9%E8%84%B9%E5%8B%BF%E8%BC%95%E8%A6%96%EF%BC%81%E5%85%A9%E9%A0%85%E6%AA%A2%E6%9F%A5%E6%AD%A3%E5%B8%B8%E4%BB%8D%E6%82%A3%E7%AC%AC3%E6%9C%9F%EF%BC%8C%E9%86%AB%E6%8F%AD%E5%B9%B4%E8%BC%95%E5%8C%96%E8%B6%A8%E5%8B%A2?section=medgenknow&category=healthyd
+                  - img "大腸癌驚號｜排便異常腹脹勿輕視！兩項檢查..." [ref=f55e307] [cursor=pointer]
+            - listitem [ref=f55e308]:
+              - generic [ref=f55e309]:
+                - paragraph [ref=f55e310]:
+                  - link "健康解「迷」" [ref=f55e311] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e312]:
+                  - link "中藥宜忌｜中藥粉直接吞服未必正確！衞生署..." [ref=f55e313] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403332/%E4%B8%AD%E8%97%A5%E5%AE%9C%E5%BF%8C%EF%BD%9C%E4%B8%AD%E8%97%A5%E7%B2%89%E7%9B%B4%E6%8E%A5%E5%90%9E%E6%9C%8D%E6%9C%AA%E5%BF%85%E6%AD%A3%E7%A2%BA%EF%BC%81%E8%A1%9E%E7%94%9F%E7%BD%B2%E6%8F%90%E9%86%924%E5%A4%A7%E6%9C%8D%E8%97%A5%E5%AE%88%E5%89%87%E9%81%BF%E5%85%8D%E5%BD%B1%E9%9F%BF%E8%97%A5%E6%95%88?section=medgenknow&category=healthyd
+              - generic [ref=f55e314]:
+                - link "中藥宜忌｜中藥粉直接吞服未必正確！衞生署...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403332/%E4%B8%AD%E8%97%A5%E5%AE%9C%E5%BF%8C%EF%BD%9C%E4%B8%AD%E8%97%A5%E7%B2%89%E7%9B%B4%E6%8E%A5%E5%90%9E%E6%9C%8D%E6%9C%AA%E5%BF%85%E6%AD%A3%E7%A2%BA%EF%BC%81%E8%A1%9E%E7%94%9F%E7%BD%B2%E6%8F%90%E9%86%924%E5%A4%A7%E6%9C%8D%E8%97%A5%E5%AE%88%E5%89%87%E9%81%BF%E5%85%8D%E5%BD%B1%E9%9F%BF%E8%97%A5%E6%95%88?section=medgenknow&category=healthyd
+                  - img "中藥宜忌｜中藥粉直接吞服未必正確！衞生署..." [ref=f55e315] [cursor=pointer]
+            - listitem [ref=f55e316]:
+              - generic [ref=f55e317]:
+                - paragraph [ref=f55e318]:
+                  - link "健康解「迷」" [ref=f55e319] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e320]:
+                  - link "醫療事故｜加拿大華人牙醫未消毒工具重用，..." [ref=f55e321] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403175/%E9%86%AB%E7%99%82%E4%BA%8B%E6%95%85%EF%BD%9C%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%8F%AF%E4%BA%BA%E7%89%99%E9%86%AB%E6%9C%AA%E6%B6%88%E6%AF%92%E5%B7%A5%E5%85%B7%E9%87%8D%E7%94%A8%EF%BC%8C%E8%BF%91900%E7%97%85%E4%BA%BA%E6%81%90%E6%9F%93%E6%84%9B%E6%BB%8B%E7%97%85%E8%82%9D%E7%82%8E?section=medgenknow&category=healthyd
+              - generic [ref=f55e322]:
+                - link "醫療事故｜加拿大華人牙醫未消毒工具重用，...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403175/%E9%86%AB%E7%99%82%E4%BA%8B%E6%95%85%EF%BD%9C%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%8F%AF%E4%BA%BA%E7%89%99%E9%86%AB%E6%9C%AA%E6%B6%88%E6%AF%92%E5%B7%A5%E5%85%B7%E9%87%8D%E7%94%A8%EF%BC%8C%E8%BF%91900%E7%97%85%E4%BA%BA%E6%81%90%E6%9F%93%E6%84%9B%E6%BB%8B%E7%97%85%E8%82%9D%E7%82%8E?section=medgenknow&category=healthyd
+                  - img "醫療事故｜加拿大華人牙醫未消毒工具重用，..." [ref=f55e323] [cursor=pointer]
+            - listitem [ref=f55e324]:
+              - generic [ref=f55e325]:
+                - paragraph [ref=f55e326]:
+                  - link "山外有山 ． 周華山博士" [ref=f55e327] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/emotionalhealth/Social Psychology
+                - heading [level=6] [ref=f55e328]:
+                  - link "身心症情緒解碼8｜當呼吸變得困難 肺炎的..." [ref=f55e329] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/400661/%E8%BA%AB%E5%BF%83%E7%97%87%E6%83%85%E7%B7%92%E8%A7%A3%E7%A2%BC8%EF%BD%9C%E7%95%B6%E5%91%BC%E5%90%B8%E8%AE%8A%E5%BE%97%E5%9B%B0%E9%9B%A3+%E8%82%BA%E7%82%8E%E7%9A%84%E6%83%85%E7%B7%92%E5%AF%86%E7%A2%BC?section=emotionalhealth&category=Social Psychology
+              - generic [ref=f55e330]:
+                - link "身心症情緒解碼8｜當呼吸變得困難 肺炎的...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/400661/%E8%BA%AB%E5%BF%83%E7%97%87%E6%83%85%E7%B7%92%E8%A7%A3%E7%A2%BC8%EF%BD%9C%E7%95%B6%E5%91%BC%E5%90%B8%E8%AE%8A%E5%BE%97%E5%9B%B0%E9%9B%A3+%E8%82%BA%E7%82%8E%E7%9A%84%E6%83%85%E7%B7%92%E5%AF%86%E7%A2%BC?section=emotionalhealth&category=Social Psychology
+                  - img "身心症情緒解碼8｜當呼吸變得困難 肺炎的..." [ref=f55e331] [cursor=pointer]
+            - listitem [ref=f55e332]:
+              - generic [ref=f55e333]:
+                - paragraph [ref=f55e334]:
+                  - link "醫齋絮語 ． 李漢威" [ref=f55e335] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/traditionalchinesemedicine/chinesemedicine_whispers
+                - heading [level=6] [ref=f55e336]:
+                  - link "飲食宜忌︱中醫談水果戒避︰榴槤偏性解析與..." [ref=f55e337] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403339/%E9%A3%B2%E9%A3%9F%E5%AE%9C%E5%BF%8C%EF%B8%B1%E4%B8%AD%E9%86%AB%E8%AB%87%E6%B0%B4%E6%9E%9C%E6%88%92%E9%81%BF%EF%B8%B0%E6%A6%B4%E6%A7%A4%E5%81%8F%E6%80%A7%E8%A7%A3%E6%9E%90%E8%88%87%E9%A3%B2%E9%A3%9F%E5%AE%9C%E5%BF%8C%EF%BC%8C+7%E5%A4%A7%E6%85%8E%E5%90%83%E5%A4%8F%E5%AD%A3%E6%B0%B4%E6%9E%9C%E6%8C%87%E5%8D%97?section=traditionalchinesemedicine&category=chinesemedicine_whispers
+              - generic [ref=f55e338]:
+                - link "飲食宜忌︱中醫談水果戒避︰榴槤偏性解析與...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403339/%E9%A3%B2%E9%A3%9F%E5%AE%9C%E5%BF%8C%EF%B8%B1%E4%B8%AD%E9%86%AB%E8%AB%87%E6%B0%B4%E6%9E%9C%E6%88%92%E9%81%BF%EF%B8%B0%E6%A6%B4%E6%A7%A4%E5%81%8F%E6%80%A7%E8%A7%A3%E6%9E%90%E8%88%87%E9%A3%B2%E9%A3%9F%E5%AE%9C%E5%BF%8C%EF%BC%8C+7%E5%A4%A7%E6%85%8E%E5%90%83%E5%A4%8F%E5%AD%A3%E6%B0%B4%E6%9E%9C%E6%8C%87%E5%8D%97?section=traditionalchinesemedicine&category=chinesemedicine_whispers
+                  - img "飲食宜忌︱中醫談水果戒避︰榴槤偏性解析與..." [ref=f55e339] [cursor=pointer]
+            - listitem [ref=f55e340]:
+              - generic [ref=f55e341]:
+                - paragraph [ref=f55e342]:
+                  - link "健康解「迷」" [ref=f55e343] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/medgenknow/healthyd
+                - heading [level=6] [ref=f55e344]:
+                  - link "胰臟癌｜血糖體溫異常飆升要小心！中醫警告..." [ref=f55e345] [cursor=pointer]:
+                    - /url: https://www.etnet.com.hk/www/tc/health/403335/%E8%83%B0%E8%87%9F%E7%99%8C%EF%BD%9C%E8%A1%80%E7%B3%96%E9%AB%94%E6%BA%AB%E7%95%B0%E5%B8%B8%E9%A3%86%E5%8D%87%E8%A6%81%E5%B0%8F%E5%BF%83%EF%BC%81%E4%B8%AD%E9%86%AB%E8%AD%A6%E5%91%8A%E9%AB%98%E5%8D%B1%E9%A3%B2%E9%A3%9F%E7%BF%92%E6%85%A3%E9%A2%A8%E9%9A%AA%E6%80%A5%E5%8D%87%E5%85%AB%E6%88%90?section=medgenknow&category=healthyd
+              - generic [ref=f55e346]:
+                - link "胰臟癌｜血糖體溫異常飆升要小心！中醫警告...":
+                  - /url: https://www.etnet.com.hk/www/tc/health/403335/%E8%83%B0%E8%87%9F%E7%99%8C%EF%BD%9C%E8%A1%80%E7%B3%96%E9%AB%94%E6%BA%AB%E7%95%B0%E5%B8%B8%E9%A3%86%E5%8D%87%E8%A6%81%E5%B0%8F%E5%BF%83%EF%BC%81%E4%B8%AD%E9%86%AB%E8%AD%A6%E5%91%8A%E9%AB%98%E5%8D%B1%E9%A3%B2%E9%A3%9F%E7%BF%92%E6%85%A3%E9%A2%A8%E9%9A%AA%E6%80%A5%E5%8D%87%E5%85%AB%E6%88%90?section=medgenknow&category=healthyd
+                  - img "胰臟癌｜血糖體溫異常飆升要小心！中醫警告..." [ref=f55e347] [cursor=pointer]
+            - listitem [ref=f55e348]:
+              - link "更多" [ref=f55e349] [cursor=pointer]:
+                - /url: https://www.etnet.com.hk/www/tc/health/list/hot10
+  - generic [ref=f55e351]:
+    - generic [ref=f55e352]:
+      - generic [ref=f55e353]:
+        - link "Youtube":
+          - /url: https://www.youtube.com/user/etnethk
+          - img "Youtube" [ref=f55e354] [cursor=pointer]
+        - link "Facebook":
+          - /url: https://www.facebook.com/profile.php?id=61566582185329
+          - img "Facebook" [ref=f55e355] [cursor=pointer]
+        - link "Instagram":
+          - /url: https://www.instagram.com/etnet.hk/
+          - img "Instagram" [ref=f55e356] [cursor=pointer]
+      - generic [ref=f55e358]:
+        - generic [ref=f55e359]: etnet.com.hk
+        - generic [ref=f55e360]: news 新聞
+        - generic [ref=f55e361]: stocks 股票
+        - generic [ref=f55e362]: futures 期貨期權
+        - generic [ref=f55e363]: warrants 權證
+        - generic [ref=f55e364]: ETF 交易所買賣基金
+        - generic [ref=f55e365]: us-stocks 美股
+        - generic [ref=f55e366]: ashares A股
+        - generic [ref=f55e367]: forex 外匯黃金
+        - generic [ref=f55e368]: bitcoin 加密貨幣
+        - generic [ref=f55e369]: funds 基金
+        - generic [ref=f55e370]: ETF 交易所買賣基金
+    - generic [ref=f55e373]:
+      - list [ref=f55e374]:
+        - listitem [ref=f55e375]:
+          - paragraph [ref=f55e376] [cursor=pointer]:
+            - link "etnet TV" [ref=f55e377]:
+              - /url: /www/tc/video/
+          - paragraph
+          - paragraph [ref=f55e378]:
+            - link "最新影片" [ref=f55e379] [cursor=pointer]:
+              - /url: /www/tc/video/
+          - paragraph [ref=f55e380]:
+            - link "人氣影片" [ref=f55e381] [cursor=pointer]:
+              - /url: /www/tc/video/hot/
+          - paragraph [ref=f55e382]:
+            - link "hot talk 1點鐘" [ref=f55e383] [cursor=pointer]:
+              - /url: /www/tc/video/hottalk
+          - paragraph [ref=f55e384]:
+            - link "開市Good Morning" [ref=f55e385] [cursor=pointer]:
+              - /url: /www/tc/video/goodmorning
+          - paragraph [ref=f55e386]:
+            - link "1周部署" [ref=f55e387] [cursor=pointer]:
+              - /url: /www/tc/video/weeklyinsights
+          - paragraph [ref=f55e388]:
+            - link "ETF攻略" [ref=f55e389] [cursor=pointer]:
+              - /url: /www/tc/video/marketclose
+          - paragraph [ref=f55e390]:
+            - link "政經專訪" [ref=f55e391] [cursor=pointer]:
+              - /url: /www/tc/video/moneychat
+          - paragraph [ref=f55e392]:
+            - link "一本萬利" [ref=f55e393] [cursor=pointer]:
+              - /url: /www/tc/video/afortune
+          - paragraph [ref=f55e394]:
+            - link "大國博弈" [ref=f55e395] [cursor=pointer]:
+              - /url: /www/tc/video/chinausrelations
+          - paragraph [ref=f55e396]:
+            - link "3分鐘熱炒股點評" [ref=f55e397] [cursor=pointer]:
+              - /url: /www/tc/video/3minstock
+          - paragraph [ref=f55e398]:
+            - link "風水蔣知識" [ref=f55e399] [cursor=pointer]:
+              - /url: /www/tc/video/fengshui
+          - paragraph [ref=f55e400]:
+            - link "Call Me Doctor" [ref=f55e401] [cursor=pointer]:
+              - /url: /www/tc/video/callmedoctor
+          - paragraph [ref=f55e402]:
+            - link "Kaman生活研究所" [ref=f55e403] [cursor=pointer]:
+              - /url: /www/tc/video/kamaninstitute
+          - paragraph [ref=f55e404]:
+            - link "說說心理話" [ref=f55e405] [cursor=pointer]:
+              - /url: /www/tc/video/psychotalk
+          - paragraph [ref=f55e406]:
+            - link "得閒拉筋 得閒Build肌" [ref=f55e407] [cursor=pointer]:
+              - /url: /www/tc/video/stretching
+          - paragraph [ref=f55e408]:
+            - link "健康談性．嘉點情趣" [ref=f55e409] [cursor=pointer]:
+              - /url: /www/tc/video/loveandsex
+          - paragraph [ref=f55e410]:
+            - link "洪灝策略" [ref=f55e411] [cursor=pointer]:
+              - /url: /www/tc/video/haohong
+          - paragraph [ref=f55e412]:
+            - link "健康達人" [ref=f55e413] [cursor=pointer]:
+              - /url: /www/tc/video/healthsharing
+          - paragraph [ref=f55e414]:
+            - link "與拍賣官看藝術" [ref=f55e415] [cursor=pointer]:
+              - /url: /www/tc/video/auctioneer
+          - paragraph [ref=f55e416]:
+            - link "易經看世界" [ref=f55e417] [cursor=pointer]:
+              - /url: /www/tc/video/yijing
+          - paragraph [ref=f55e418]:
+            - link "師傅靈靈法" [ref=f55e419] [cursor=pointer]:
+              - /url: /www/tc/video/cfulinglingfat
+          - paragraph [ref=f55e420]:
+            - link "山今養生智慧" [ref=f55e421] [cursor=pointer]:
+              - /url: /www/tc/video/plalfkwolxfkzqo5q6eu
+          - paragraph [ref=f55e422]:
+            - link "1分鐘學投資" [ref=f55e423] [cursor=pointer]:
+              - /url: /www/tc/video/1mininvestment
+          - paragraph [ref=f55e424]:
+            - link "練好基本功" [ref=f55e425] [cursor=pointer]:
+              - /url: /www/tc/video/basicinvestment
+          - paragraph [ref=f55e426]:
+            - link "etnet財經．生活App操作教學" [ref=f55e427] [cursor=pointer]:
+              - /url: /www/tc/video/etnetapp
+          - paragraph [ref=f55e428]:
+            - link "MQ操作教學" [ref=f55e429] [cursor=pointer]:
+              - /url: /www/tc/video/mqproapp
+          - paragraph [ref=f55e430]:
+            - link "IQ操作教學" [ref=f55e431] [cursor=pointer]:
+              - /url: /www/tc/video/iq
+          - paragraph [ref=f55e432]:
+            - link "有種生活" [ref=f55e433] [cursor=pointer]:
+              - /url: /www/tc/video/newstopic
+          - paragraph [ref=f55e434]:
+            - link "吃喝玩樂" [ref=f55e435] [cursor=pointer]:
+              - /url: /www/tc/video/fun
+          - paragraph [ref=f55e436]:
+            - link "時尚潮流" [ref=f55e437] [cursor=pointer]:
+              - /url: /www/tc/video/fashion
+          - paragraph [ref=f55e438]:
+            - link "產品及服務" [ref=f55e439] [cursor=pointer]:
+              - /url: /www/tc/video/product
+        - listitem [ref=f55e440]:
+          - paragraph [ref=f55e441] [cursor=pointer]:
+            - text: 新聞
+            - generic [ref=f55e442]: "N"
+          - paragraph [ref=f55e443]:
+            - link "主頁" [ref=f55e444] [cursor=pointer]:
+              - /url: /www/tc/news/index.php
+          - paragraph [ref=f55e445]:
+            - link "專題透視" [ref=f55e446] [cursor=pointer]:
+              - /url: /www/tc/news/topic_news.php
+          - paragraph [ref=f55e447]:
+            - link "焦點新聞" [ref=f55e448] [cursor=pointer]:
+              - /url: /www/tc/news/special_news.php
+          - paragraph [ref=f55e449]:
+            - link "即時新聞" [ref=f55e450] [cursor=pointer]:
+              - /url: /www/tc/news/categorized_news.php
+          - paragraph [ref=f55e451]:
+            - link "評論" [ref=f55e452] [cursor=pointer]:
+              - /url: /www/tc/news/commentary.php
+          - paragraph [ref=f55e453]:
+            - link "圖片新聞" [ref=f55e454] [cursor=pointer]:
+              - /url: /www/tc/news/photo_news.php
+          - paragraph [ref=f55e455]:
+            - link "傳聞" [ref=f55e456] [cursor=pointer]:
+              - /url: /www/tc/news/rumours_list.php
+          - paragraph [ref=f55e457]:
+            - link "貼士" [ref=f55e458] [cursor=pointer]:
+              - /url: /www/tc/news/tips.php
+          - paragraph [ref=f55e459]:
+            - link "港交所新聞" [ref=f55e460] [cursor=pointer]:
+              - /url: /www/tc/news/hkex_news_list.php
+          - paragraph [ref=f55e461]:
+            - link "搜尋" [ref=f55e462] [cursor=pointer]:
+              - /url: /www/tc/news/news_search.php
+          - paragraph [ref=f55e463]:
+            - link "透視大灣區" [ref=f55e464] [cursor=pointer]:
+              - /url: /www/tc/news/supplement_greater_bay_area.php
+          - paragraph [ref=f55e465]:
+            - link "理財easy叻" [ref=f55e466] [cursor=pointer]:
+              - /url: /www/tc/news/../wealth/feature.php
+        - listitem [ref=f55e467]:
+          - paragraph [ref=f55e468] [cursor=pointer]: 股票
+          - paragraph [ref=f55e469]:
+            - link "主頁" [ref=f55e470] [cursor=pointer]:
+              - /url: /www/tc/stocks/realtime/index.php
+          - paragraph [ref=f55e471]:
+            - link "即時報價" [ref=f55e472] [cursor=pointer]:
+              - /url: /www/tc/stocks/realtime/quote.php?code=1
+          - paragraph [ref=f55e473]:
+            - link "指數 N" [ref=f55e474] [cursor=pointer]:
+              - /url: /www/tc/stocks/indexes_main.php
+              - text: 指數
+              - generic [ref=f55e475]: "N"
+          - paragraph [ref=f55e476]:
+            - link "行業" [ref=f55e477] [cursor=pointer]:
+              - /url: /www/tc/stocks/industry.php
+          - paragraph [ref=f55e478]:
+            - link "20大股票" [ref=f55e479] [cursor=pointer]:
+              - /url: /www/tc/stocks/realtime/top20.php
+          - paragraph [ref=f55e480]:
+            - link "創新高" [ref=f55e481] [cursor=pointer]:
+              - /url: /www/tc/stocks/breakrecord.php
+          - paragraph [ref=f55e482]:
+            - link "賣空" [ref=f55e483] [cursor=pointer]:
+              - /url: /www/tc/stocks/ci_act_sell.php
+          - paragraph [ref=f55e484]:
+            - link "熱炒概念股" [ref=f55e485] [cursor=pointer]:
+              - /url: /www/tc/stocks/sector_hot.php
+          - paragraph [ref=f55e486]:
+            - link "AH股" [ref=f55e487] [cursor=pointer]:
+              - /url: /www/tc/stocks/ah.php
+          - paragraph [ref=f55e488]:
+            - link "IPO" [ref=f55e489] [cursor=pointer]:
+              - /url: /www/tc/stocks/ipo-calendar.php
+          - paragraph [ref=f55e490]:
+            - link "公司資料庫" [ref=f55e491] [cursor=pointer]:
+              - /url: /www/tc/stocks/ci_database.php
+          - paragraph [ref=f55e492]:
+            - link "多櫃台" [ref=f55e493] [cursor=pointer]:
+              - /url: /www/tc/stocks/sector_multicounter.php
+        - listitem [ref=f55e494]:
+          - paragraph [ref=f55e495] [cursor=pointer]: 期貨期權
+          - paragraph [ref=f55e496]:
+            - link "即時指數期貨" [ref=f55e497] [cursor=pointer]:
+              - /url: /www/tc/futures/index.php
+          - paragraph [ref=f55e498]:
+            - link "即時股票期貨" [ref=f55e499] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_stockfutures.php
+          - paragraph [ref=f55e500]:
+            - link "即時期權" [ref=f55e501] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_stockoptions.php
+          - paragraph [ref=f55e502]:
+            - link "新聞及評論" [ref=f55e503] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_news.php
+          - paragraph [ref=f55e504]:
+            - link "即時圖表分析" [ref=f55e505] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_chart_interactive.php
+          - paragraph [ref=f55e506]:
+            - link "即時監察表" [ref=f55e507] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_watchlist.php
+        - listitem [ref=f55e508]:
+          - paragraph [ref=f55e509] [cursor=pointer]: 權證
+          - paragraph [ref=f55e510]:
+            - link "權證主頁" [ref=f55e511] [cursor=pointer]:
+              - /url: /www/tc/warrants/realtime/index.php
+          - paragraph [ref=f55e512]:
+            - link "新聞及評論" [ref=f55e513] [cursor=pointer]:
+              - /url: /www/tc/warrants/news.php
+          - paragraph [ref=f55e514]:
+            - link "即時報價" [ref=f55e515] [cursor=pointer]:
+              - /url: /www/tc/warrants/realtime/quote.php?code=29824
+          - paragraph [ref=f55e516]:
+            - link "搜尋" [ref=f55e517] [cursor=pointer]:
+              - /url: /www/tc/warrants/search_cbbc_hsi.php
+          - paragraph [ref=f55e518]:
+            - link "成交分析" [ref=f55e519] [cursor=pointer]:
+              - /url: /www/tc/warrants/turnover.php
+          - paragraph [ref=f55e520]:
+            - link "即時20大排行" [ref=f55e521] [cursor=pointer]:
+              - /url: /www/tc/warrants/realtime/top20.php
+          - paragraph [ref=f55e522]:
+            - link "發行商精選" [ref=f55e523] [cursor=pointer]:
+              - /url: /www/tc/warrants/warrant_issuer_pick.php
+          - paragraph [ref=f55e524]:
+            - link "新上市／到期" [ref=f55e525] [cursor=pointer]:
+              - /url: /www/tc/warrants/memo_newly.php
+          - paragraph [ref=f55e526]:
+            - link "教室" [ref=f55e527] [cursor=pointer]:
+              - /url: /www/tc/warrants/education_benny.php
+        - listitem [ref=f55e528]:
+          - paragraph [ref=f55e529] [cursor=pointer]: ETF
+          - paragraph [ref=f55e530]:
+            - link "主頁" [ref=f55e531] [cursor=pointer]:
+              - /url: /www/tc/etf/index.php
+          - paragraph [ref=f55e532]:
+            - link "ETF市場研究所" [ref=f55e533] [cursor=pointer]:
+              - /url: /www/tc/etf/research
+          - paragraph [ref=f55e534]:
+            - link "主題" [ref=f55e535] [cursor=pointer]:
+              - /url: /www/tc/etf/hk-theme
+          - paragraph [ref=f55e536]:
+            - link "報價" [ref=f55e537] [cursor=pointer]:
+              - /url: /www/tc/etf/quote
+          - paragraph [ref=f55e538]:
+            - link "篩選器" [ref=f55e539] [cursor=pointer]:
+              - /url: /www/tc/etf/stock-screener
+          - paragraph [ref=f55e540]:
+            - link "比較" [ref=f55e541] [cursor=pointer]:
+              - /url: /www/tc/etf/compare
+          - paragraph [ref=f55e542]:
+            - link "新聞及評論" [ref=f55e543] [cursor=pointer]:
+              - /url: /www/tc/etf/news
+          - paragraph [ref=f55e544]:
+            - link "美股ETF" [ref=f55e545] [cursor=pointer]:
+              - /url: /www/tc/etf/../us-stocks/screener-etf.php
+          - paragraph [ref=f55e546]:
+            - link "美股ETF報價" [ref=f55e547] [cursor=pointer]:
+              - /url: /www/tc/etf/../us-stocks/quote/VOO
+      - list [ref=f55e548]:
+        - listitem [ref=f55e549]:
+          - paragraph [ref=f55e550] [cursor=pointer]: 美股
+          - paragraph [ref=f55e551]:
+            - link "主頁" [ref=f55e552] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/
+          - paragraph [ref=f55e553]:
+            - link "環球指數" [ref=f55e554] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/global-indexes
+          - paragraph [ref=f55e555]:
+            - link "宏觀數據" [ref=f55e556] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/macro-data
+          - paragraph [ref=f55e557]:
+            - link "新聞" [ref=f55e558] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/news
+          - paragraph [ref=f55e559]:
+            - link "行業" [ref=f55e560] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/industry
+          - paragraph [ref=f55e561]:
+            - link "概念" [ref=f55e562] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/sector.php
+          - paragraph [ref=f55e563]:
+            - link "20大股票" [ref=f55e564] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/top20.php
+          - paragraph [ref=f55e565]:
+            - link "創新高低" [ref=f55e566] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/newhighs.php
+          - paragraph [ref=f55e567]:
+            - link "選股策略" [ref=f55e568] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/strategy.php
+          - paragraph [ref=f55e569]:
+            - link "篩選器" [ref=f55e570] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/screener.php
+          - paragraph [ref=f55e571]:
+            - link "報價" [ref=f55e572] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/quote/AAPL
+          - paragraph [ref=f55e573]:
+            - link "ETF" [ref=f55e574] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/screener-etf.php
+        - listitem [ref=f55e575]:
+          - paragraph [ref=f55e576] [cursor=pointer]: A股
+          - paragraph [ref=f55e577]:
+            - link "A股主頁" [ref=f55e578] [cursor=pointer]:
+              - /url: /www/tc/ashares/index.php
+          - paragraph [ref=f55e579]:
+            - link "額度" [ref=f55e580] [cursor=pointer]:
+              - /url: /www/tc/ashares/quota.php
+          - paragraph [ref=f55e581]:
+            - link "滬深港通" [ref=f55e582] [cursor=pointer]:
+              - /url: /www/tc/ashares/stockconnect.php?market=sh&type=southbound&subtype=current&view=combine
+          - paragraph [ref=f55e583]:
+            - link "滬深報價" [ref=f55e584] [cursor=pointer]:
+              - /url: /www/tc/ashares/quote.php?code=600000
+          - paragraph [ref=f55e585]:
+            - link "指數" [ref=f55e586] [cursor=pointer]:
+              - /url: /www/tc/ashares/indexes_china.php
+          - paragraph [ref=f55e587]:
+            - link "行業" [ref=f55e588] [cursor=pointer]:
+              - /url: /www/tc/ashares/industry_adu.php
+          - paragraph [ref=f55e589]:
+            - link "20大股票" [ref=f55e590] [cursor=pointer]:
+              - /url: /www/tc/ashares/top20.php?market=combine&type=southbound
+          - paragraph [ref=f55e591]:
+            - link "AH股" [ref=f55e592] [cursor=pointer]:
+              - /url: /www/tc/ashares/ah.php
+          - paragraph [ref=f55e593]:
+            - link "風險警示板" [ref=f55e594] [cursor=pointer]:
+              - /url: /www/tc/ashares/risk_alert_board.php?market=sh
+          - paragraph [ref=f55e595]:
+            - link "新聞" [ref=f55e596] [cursor=pointer]:
+              - /url: /www/tc/ashares/news.php
+          - paragraph [ref=f55e597]:
+            - link "教室" [ref=f55e598] [cursor=pointer]:
+              - /url: /www/tc/ashares/education_connect.php
+          - paragraph [ref=f55e599]:
+            - link "公司搜尋" [ref=f55e600] [cursor=pointer]:
+              - /url: /www/tc/ashares/search.php
+        - listitem [ref=f55e601]:
+          - paragraph [ref=f55e602] [cursor=pointer]: 外匯黃金
+          - paragraph [ref=f55e603]:
+            - link "主頁" [ref=f55e604] [cursor=pointer]:
+              - /url: /www/tc/forex/index.php
+          - paragraph [ref=f55e605]:
+            - link "新聞及評論" [ref=f55e606] [cursor=pointer]:
+              - /url: /www/tc/forex/news
+          - paragraph [ref=f55e607]:
+            - link "定期存款" [ref=f55e608] [cursor=pointer]:
+              - /url: /www/tc/forex/deposit-rate.php
+          - paragraph [ref=f55e609]:
+            - link "銀行外幣兌換" [ref=f55e610] [cursor=pointer]:
+              - /url: /www/tc/forex/bank-exchange-rate.php
+          - paragraph [ref=f55e611]:
+            - link "港元匯率" [ref=f55e612] [cursor=pointer]:
+              - /url: /www/tc/forex/quote-hkd.php
+          - paragraph [ref=f55e613]:
+            - link "美元匯率" [ref=f55e614] [cursor=pointer]:
+              - /url: /www/tc/forex/quote-usd.php
+          - paragraph [ref=f55e615]:
+            - link "貴金屬" [ref=f55e616] [cursor=pointer]:
+              - /url: /www/tc/forex/quote-commodity.php
+          - paragraph [ref=f55e617]:
+            - link "經濟數據" [ref=f55e618] [cursor=pointer]:
+              - /url: /www/tc/forex/economic-major-indicator.php
+          - paragraph [ref=f55e619]:
+            - link "市場指標" [ref=f55e620] [cursor=pointer]:
+              - /url: /www/tc/forex/rate-us-yield.php
+          - paragraph [ref=f55e621]:
+            - link "央行議息時間表" [ref=f55e622] [cursor=pointer]:
+              - /url: /www/tc/forex/economic-major-indicator.php?indicator=central-bank-rate
+          - paragraph [ref=f55e623]:
+            - link "HIBOR走勢" [ref=f55e624] [cursor=pointer]:
+              - /url: /www/tc/forex/rate-hibor.php
+          - paragraph [ref=f55e625]:
+            - link "最優惠利率" [ref=f55e626] [cursor=pointer]:
+              - /url: /www/tc/forex/rate-prime.php
+        - listitem [ref=f55e627]:
+          - paragraph [ref=f55e628] [cursor=pointer]: 加密貨幣
+          - paragraph [ref=f55e629]:
+            - link "主頁" [ref=f55e630] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/
+          - paragraph [ref=f55e631]:
+            - link "新聞" [ref=f55e632] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/news
+          - paragraph [ref=f55e633]:
+            - link "虛幣報價" [ref=f55e634] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/quote
+          - paragraph [ref=f55e635]:
+            - link "虛幣ETF" [ref=f55e636] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/etf
+        - listitem [ref=f55e637]:
+          - paragraph [ref=f55e638] [cursor=pointer]: 基金
+          - paragraph [ref=f55e639]:
+            - link "基金主頁" [ref=f55e640] [cursor=pointer]:
+              - /url: /www/tc/funds/index.php
+          - paragraph [ref=f55e641]:
+            - link "基金新聞" [ref=f55e642] [cursor=pointer]:
+              - /url: /www/tc/funds/news.php
+          - paragraph [ref=f55e643]:
+            - link "基金排行榜" [ref=f55e644] [cursor=pointer]:
+              - /url: /www/tc/funds/ranking.php
+          - paragraph [ref=f55e645]:
+            - link "基金搜尋" [ref=f55e646] [cursor=pointer]:
+              - /url: /www/tc/funds/search.php
+          - paragraph [ref=f55e647]:
+            - link "產品登場" [ref=f55e648] [cursor=pointer]:
+              - /url: /www/tc/funds/prodpromo.php
+          - paragraph [ref=f55e649]:
+            - link "專家見地" [ref=f55e650] [cursor=pointer]:
+              - /url: /www/tc/funds/commentary.php
+          - paragraph [ref=f55e651]:
+            - link "基金數據" [ref=f55e652] [cursor=pointer]:
+              - /url: /www/tc/funds/statdata.php
+          - paragraph [ref=f55e653]:
+            - link "RQFII 人民幣基金" [ref=f55e654] [cursor=pointer]:
+              - /url: /www/tc/funds/rqfii.php
+          - paragraph [ref=f55e655]:
+            - link "基金互認" [ref=f55e656] [cursor=pointer]:
+              - /url: /www/tc/funds/mrf.php
+        - listitem [ref=f55e657]:
+          - paragraph [ref=f55e658] [cursor=pointer]: MPF
+          - paragraph [ref=f55e659]:
+            - link "MPF主頁" [ref=f55e660] [cursor=pointer]:
+              - /url: /www/tc/mpf/index.php
+          - paragraph [ref=f55e661]:
+            - link "新聞及評論" [ref=f55e662] [cursor=pointer]:
+              - /url: /www/tc/mpf/news.php
+          - paragraph [ref=f55e663]:
+            - link "營辦商大比拼" [ref=f55e664] [cursor=pointer]:
+              - /url: /www/tc/mpf/provider_compare_fer.php
+          - paragraph [ref=f55e665]:
+            - link "積金報價" [ref=f55e666] [cursor=pointer]:
+              - /url: /www/tc/mpf/fund_detail.php
+          - paragraph [ref=f55e667]:
+            - link "積金搜尋" [ref=f55e668] [cursor=pointer]:
+              - /url: /www/tc/mpf/search_chart.php
+          - paragraph [ref=f55e669]:
+            - link "積金比較" [ref=f55e670] [cursor=pointer]:
+              - /url: /www/tc/mpf/compare.php
+          - paragraph [ref=f55e671]:
+            - link "積金排行榜" [ref=f55e672] [cursor=pointer]:
+              - /url: /www/tc/mpf/ranking.php
+          - paragraph [ref=f55e673]:
+            - link "MPF教室" [ref=f55e674] [cursor=pointer]:
+              - /url: /www/tc/mpf/education.php
+          - paragraph [ref=f55e675]:
+            - link "我的MPF" [ref=f55e676] [cursor=pointer]:
+              - /url: /www/tc/mpf/portfolio.php
+        - listitem [ref=f55e677]:
+          - paragraph [ref=f55e678] [cursor=pointer]:
+            - link "地產" [ref=f55e679]:
+              - /url: /www/tc/property/main/index.php
+          - paragraph [ref=f55e680]:
+            - link "地產頻道首頁" [ref=f55e681] [cursor=pointer]:
+              - /url: /www/tc/property/main/index.php
+          - paragraph [ref=f55e682]:
+            - link "新盤登場" [ref=f55e683] [cursor=pointer]:
+              - /url: /www/tc/property/new_property/index.php
+          - paragraph [ref=f55e684]:
+            - link "熱門租售盤" [ref=f55e685] [cursor=pointer]:
+              - /url: /www/tc/property/asking/index.php
+          - paragraph [ref=f55e686]:
+            - link "成交排行榜" [ref=f55e687] [cursor=pointer]:
+              - /url: /www/tc/property/transaction/index.php
+          - paragraph [ref=f55e688]:
+            - link "工商鋪成交" [ref=f55e689] [cursor=pointer]:
+              - /url: /www/tc/property/oci/index.php
+          - paragraph [ref=f55e690]:
+            - link "樓市走勢圖" [ref=f55e691] [cursor=pointer]:
+              - /url: /www/tc/property/price_trend/index.php
+          - paragraph [ref=f55e692]:
+            - link "地產新聞" [ref=f55e693] [cursor=pointer]:
+              - /url: /www/tc/news/categorized_news_list.php?category=property
+          - paragraph [ref=f55e694]:
+            - link "買賣須知" [ref=f55e695] [cursor=pointer]:
+              - /url: /www/tc/property/supple_reference/procedure.php
+          - paragraph [ref=f55e696]:
+            - link "網上估價易" [ref=f55e697] [cursor=pointer]:
+              - /url: /www/tc/property/evaluation/index.php
+          - paragraph [ref=f55e698]:
+            - link "業主放盤" [ref=f55e699] [cursor=pointer]:
+              - /url: https://a.eprc.com.hk/s?ETN2EPRC02
+          - paragraph [ref=f55e700]:
+            - link "免費搵盤" [ref=f55e701] [cursor=pointer]:
+              - /url: https://a.eprc.com.hk/s?ETN2EPRC03
+      - list [ref=f55e702]:
+        - listitem [ref=f55e703]:
+          - paragraph [ref=f55e704] [cursor=pointer]:
+            - link "生活" [ref=f55e705]:
+              - /url: /www/tc/lifestyle/index.php
+          - paragraph [ref=f55e706]:
+            - link "主頁" [ref=f55e707] [cursor=pointer]:
+              - /url: /www/tc/lifestyle
+          - paragraph [ref=f55e708]:
+            - link "熱話" [ref=f55e709] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/hottopic
+          - paragraph [ref=f55e710]:
+            - link "世事政情" [ref=f55e711] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/internationalaffairs
+          - paragraph [ref=f55e712]:
+            - link "財富管理" [ref=f55e713] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/wealth
+          - paragraph [ref=f55e714]:
+            - link "辦公室日常" [ref=f55e715] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/officetips
+          - paragraph [ref=f55e716]:
+            - link "影視娛樂" [ref=f55e717] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/filmandentertainment
+          - paragraph [ref=f55e718]:
+            - link "美食" [ref=f55e719] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/foodguide
+          - paragraph [ref=f55e720]:
+            - link "玩樂旅遊" [ref=f55e721] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/eatandplay
+          - paragraph [ref=f55e722]:
+            - link "會員專區" [ref=f55e723] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/etnet
+          - paragraph [ref=f55e724]:
+            - link "專欄" [ref=f55e725] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/list/columnist
+          - paragraph [ref=f55e726]:
+            - link "健康好人生" [ref=f55e727] [cursor=pointer]:
+              - /url: /www/tc/health/
+          - paragraph [ref=f55e728]:
+            - link "香港好去處" [ref=f55e729] [cursor=pointer]:
+              - /url: /www/tc/attraction/index.php
+          - paragraph [ref=f55e730]:
+            - link "海鮮優惠" [ref=f55e731] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/worldwide_seafood/index.php
+        - listitem [ref=f55e732]:
+          - paragraph [ref=f55e733] [cursor=pointer]:
+            - link "DIVA" [ref=f55e734]:
+              - /url: /www/tc/diva/index.php
+          - paragraph [ref=f55e735]:
+            - link "Fashion & Beauty" [ref=f55e736] [cursor=pointer]:
+              - /url: /www/tc/diva/fashion_and_beauty
+          - paragraph [ref=f55e737]:
+            - link "Watch & Jewelry" [ref=f55e738] [cursor=pointer]:
+              - /url: /www/tc/diva/watch
+          - paragraph [ref=f55e739]:
+            - link "Art & Culture" [ref=f55e740] [cursor=pointer]:
+              - /url: /www/tc/diva/art
+          - paragraph [ref=f55e741]:
+            - link "Travel & Dining" [ref=f55e742] [cursor=pointer]:
+              - /url: /www/tc/diva/travel
+          - paragraph [ref=f55e743]:
+            - link "Columnists" [ref=f55e744] [cursor=pointer]:
+              - /url: /www/tc/diva/list/columnist
+        - listitem [ref=f55e745]:
+          - paragraph [ref=f55e746] [cursor=pointer]:
+            - link "健康好人生" [ref=f55e747]:
+              - /url: /www/tc/health/index.php
+          - paragraph [ref=f55e748]:
+            - link "醫學通識" [ref=f55e749] [cursor=pointer]:
+              - /url: /www/tc/health/medgenknow
+          - paragraph [ref=f55e750]:
+            - link "中醫養生" [ref=f55e751] [cursor=pointer]:
+              - /url: /www/tc/health/traditionalchinesemedicine
+          - paragraph [ref=f55e752]:
+            - link "癌症" [ref=f55e753] [cursor=pointer]:
+              - /url: /www/tc/health/cancer
+          - paragraph [ref=f55e754]:
+            - link "健康飲食" [ref=f55e755] [cursor=pointer]:
+              - /url: /www/tc/health/goodnutrition
+          - paragraph [ref=f55e756]:
+            - link "痛症解碼" [ref=f55e757] [cursor=pointer]:
+              - /url: /www/tc/health/paindecoding
+          - paragraph [ref=f55e758]:
+            - link "三高" [ref=f55e759] [cursor=pointer]:
+              - /url: /www/tc/health/metabolicsyndrome
+          - paragraph [ref=f55e760]:
+            - link "輕鬆護老" [ref=f55e761] [cursor=pointer]:
+              - /url: /www/tc/health/eldercare
+          - paragraph [ref=f55e762]:
+            - link "心理情緒" [ref=f55e763] [cursor=pointer]:
+              - /url: /www/tc/health/emotionalhealth
+          - paragraph [ref=f55e764]:
+            - link "敏感症" [ref=f55e765] [cursor=pointer]:
+              - /url: /www/tc/health/sensorysensitivity
+          - paragraph [ref=f55e766]:
+            - link "減肥瘦身" [ref=f55e767] [cursor=pointer]:
+              - /url: /www/tc/health/slimming
+          - paragraph [ref=f55e768]:
+            - link "兩性" [ref=f55e769] [cursor=pointer]:
+              - /url: /www/tc/diva/sexandlove
+          - paragraph [ref=f55e770]:
+            - link "專欄" [ref=f55e771] [cursor=pointer]:
+              - /url: /www/tc/health/list/columnist
+          - paragraph [ref=f55e772]:
+            - link "消委會" [ref=f55e773] [cursor=pointer]:
+              - /url: /www/tc/health/tag/消委會
+          - paragraph [ref=f55e774]:
+            - link "搵專科" [ref=f55e775] [cursor=pointer]:
+              - /url: "#"
+        - listitem [ref=f55e776]:
+          - paragraph [ref=f55e777] [cursor=pointer]:
+            - link "香港好去處" [ref=f55e778]:
+              - /url: /www/tc/attraction/
+          - paragraph [ref=f55e779]:
+            - link "主頁" [ref=f55e780] [cursor=pointer]:
+              - /url: /www/tc/attraction/
+        - listitem [ref=f55e781]:
+          - paragraph [ref=f55e782] [cursor=pointer]:
+            - link "社創SoIN" [ref=f55e783]:
+              - /url: /www/tc/soin/index.php
+          - paragraph [ref=f55e784]:
+            - link "專題" [ref=f55e785] [cursor=pointer]:
+              - /url: /www/tc/soin/sefeatures
+          - paragraph [ref=f55e786]:
+            - link "新聞" [ref=f55e787] [cursor=pointer]:
+              - /url: /www/tc/soin/senews
+          - paragraph [ref=f55e788]:
+            - link "圈中人語" [ref=f55e789] [cursor=pointer]:
+              - /url: /www/tc/soin/secolumn
+          - paragraph [ref=f55e790]:
+            - link "社區項目" [ref=f55e791] [cursor=pointer]:
+              - /url: /www/tc/soin/activity.php
+          - paragraph [ref=f55e792]:
+            - link "社企廊" [ref=f55e793] [cursor=pointer]:
+              - /url: /www/tc/soin/seg.php
+          - paragraph [ref=f55e794]:
+            - link "Video" [ref=f55e795] [cursor=pointer]:
+              - /url: /www/tc/soin/video.php
+        - listitem [ref=f55e796]:
+          - paragraph [ref=f55e797] [cursor=pointer]:
+            - link "投票區" [ref=f55e798]:
+              - /url: /www/tc/voting/index.php
+    - generic [ref=f55e800]:
+      - list [ref=f55e801]:
+        - listitem "etnet流動平台" [ref=f55e802] [cursor=pointer]
+        - listitem "經濟通" [ref=f55e803] [cursor=pointer]
+        - listitem "強化版MQ" [ref=f55e804] [cursor=pointer]
+        - listitem "強化版TQ" [ref=f55e805] [cursor=pointer]
+        - listitem "財曆" [ref=f55e806] [cursor=pointer]
+        - listitem "Mobile Web" [ref=f55e807] [cursor=pointer]: MobileWeb
+      - list [ref=f55e808]:
+        - listitem [ref=f55e809] [cursor=pointer]:
+          - list [ref=f55e810]:
+            - listitem [ref=f55e811]:
+              - img "ETNet_YT" [ref=f55e812]
+            - listitem [ref=f55e813]:
+              - img "ETNet_FB" [ref=f55e814]
+            - listitem [ref=f55e815]:
+              - img "ETNet_IG" [ref=f55e816]
+            - listitem [ref=f55e817]:
+              - img "ETNet_IG" [ref=f55e818]
+        - listitem [ref=f55e819] [cursor=pointer]:
+          - list [ref=f55e820]:
+            - listitem [ref=f55e821]:
+              - link [ref=f55e822]:
+                - /url: https://www.youtube.com/user/etnethk
+                - img "youtube_etnet" [ref=f55e823]
+            - listitem [ref=f55e824]:
+              - link [ref=f55e825]:
+                - /url: https://www.youtube.com/@25degreeslifestyle
+                - img "youtube_25c" [ref=f55e826]
+            - listitem [ref=f55e827]:
+              - link [ref=f55e828]:
+                - /url: https://www.youtube.com/@goodhealthylife-yeah
+                - img "youtube_health" [ref=f55e829]
+            - listitem [ref=f55e830]:
+              - link [ref=f55e831]:
+                - /url: https://www.facebook.com/profile.php?id=61566582185329
+                - img "fb_etnet" [ref=f55e832]
+            - listitem [ref=f55e833]:
+              - link [ref=f55e834]:
+                - /url: https://www.facebook.com/diva.etnet.com.hk
+                - img "fb_diva" [ref=f55e835]
+            - listitem [ref=f55e836]:
+              - link [ref=f55e837]:
+                - /url: https://www.instagram.com/etnet.hk/
+                - img "ig_etnet" [ref=f55e838]
+            - listitem [ref=f55e839]:
+              - link [ref=f55e840]:
+                - /url: https://www.instagram.com/diva.etnet/
+                - img "ig_diva" [ref=f55e841]
+    - list [ref=f55e842]:
+      - listitem [ref=f55e843]:
+        - text: 客務熱線︰(852) 2880 7004 客務郵箱︰
+        - link "cs@etnet.com.hk" [ref=f55e844] [cursor=pointer]:
+          - /url: mailto:cs@etnet.com.hk
+      - listitem [ref=f55e845]:
+        - link "關於我們" [ref=f55e846] [cursor=pointer]:
+          - /url: /www/tc/aboutus/index.php
+        - text: "|"
+        - link "產品服務" [ref=f55e847] [cursor=pointer]:
+          - /url: /www/tc/product/index.php
+        - text: "|"
+        - link "廣告查詢" [ref=f55e848] [cursor=pointer]:
+          - /url: /www/tc/advertisement/index.php
+        - text: "|"
+        - link "聯絡我們" [ref=f55e849] [cursor=pointer]:
+          - /url: /www/tc/aboutus/contactus.php
+        - text: "|"
+        - link "私隱政策" [ref=f55e850] [cursor=pointer]:
+          - /url: /www/tc/aboutus/privacy.php
+        - text: "|"
+        - link "使用條款" [ref=f55e851] [cursor=pointer]:
+          - /url: /www/tc/aboutus/terms.php
+        - text: "|"
+        - link "網站導航" [ref=f55e852] [cursor=pointer]:
+          - /url: /www/tc/aboutus/sitemap.php
+        - text: "|"
+        - link "有用連結" [ref=f55e853] [cursor=pointer]:
+          - /url: /www/tc/aboutus/usefullink.php
+        - text: "|"
+        - link "RSS新聞" [ref=f55e854] [cursor=pointer]:
+          - /url: /www/tc/news/rss_detail.php
+    - generic [ref=f55e855]:
+      - paragraph [ref=f55e856]: Copyright 2026 ET Net Limited. http://www.etnet.com.hk ET Net Limited, HKEx Information Services Limited, its Holding Companies and/or any Subsidiaries of such holding companies, and Third Party Information Providers endeavour to ensure the availability, completeness, timeliness, accuracy and reliability of the information provided but do not guarantee its availability, completeness, timeliness, accuracy or reliability and accept no liability (whether in tort or contract or otherwise) any loss or damage arising directly or indirectly from any inaccuracies, interruption, incompleteness, delay, omissions, or any decision made or action taken by you or any third party in reliance upon the information provided. The quotes, charts, commentaries and buy/sell ratings on this website should be used as references only with your own discretion. ET Net Limited is not soliciting any subscriber or site visitor to execute any trade. Any trades executed following the commentaries and buy/sell ratings on this website are taken at your own risk for your own account.
+      - paragraph [ref=f55e857]: 《經濟通》所刊的署名及／或不署名文章，相關內容屬作者個人意見，並不代表《經濟通》立場，《經濟通》所扮演的角色是提供一個自由言論平台。
+    - list [ref=f55e858]:
+      - listitem [ref=f55e859]:
+        - img "MCA" [ref=f55e860]
+      - listitem [ref=f55e861]:
+        - img "無障礙網頁" [ref=f55e862]
+      - listitem [ref=f55e863]:
+        - img "IFEC" [ref=f55e864]
+      - listitem [ref=f55e865]:
+        - img "HKEX" [ref=f55e866]

@@ -1,0 +1,558 @@
+[    -560ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.blackrock.com/hk/en/products:0
+[     718ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://services.sdiapi.com/bolt/1.0.3.3/bolt.js:0
+[    2510ms] [ERROR] Access to XMLHttpRequest at 'https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location' from origin 'https://hk.allianzgi.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0
+[    2512ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location:0
+[    8456ms] [WARNING] The resource https://hk.allianzgi.com/assets/fonts/patternlab-icons/PatternLab-Iconv2.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0
+[    9306ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1865151531:0
+[    9307ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9307ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1366192091:0
+[    9308ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9308ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU3220604758:0
+[    9308ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9308ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1794554631:0
+[    9308ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9308ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1794554557:0
+[    9309ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9309ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2399975544:0
+[    9309ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9309ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1720050803:0
+[    9309ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9309ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2257996368:0
+[    9310ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9310ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2257995394:0
+[    9310ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9310ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2556244403:0
+[    9310ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9311ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2257995121:0
+[    9311ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9311ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1560902808:0
+[    9311ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9316ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2128073892:0
+[    9316ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9316ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756315078:0
+[    9316ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9317ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756315235:0
+[    9317ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9317ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756314774:0
+[    9317ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9317ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756315151:0
+[    9317ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9318ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756314857:0
+[    9318ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9318ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756314931:0
+[    9318ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9318ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0348788117:0
+[    9318ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9319ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0589944569:0
+[    9319ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9319ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0348744680:0
+[    9319ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9319ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0348744763:0
+[    9320ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9320ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2749775156:0
+[    9320ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9320ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1218110499:0
+[    9320ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10505ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2399975544:0
+[   10505ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10505ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0348744763:0
+[   10505ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10506ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2749775156:0
+[   10506ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10506ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1218110499:0
+[   10506ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10506ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1366192091:0
+[   10507ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10507ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2257995121:0
+[   10507ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10507ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1560902808:0
+[   10507ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10507ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756315078:0
+[   10507ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10508ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756315235:0
+[   10508ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10508ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756314774:0
+[   10508ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10508ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2756315151:0
+[   10508ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10509ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0348788117:0
+[   10509ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10509ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU0589944569:0
+[   10509ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10509ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2257996368:0
+[   10509ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10510ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1720050803:0
+[   10510ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10510ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2257995394:0
+[   10510ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10510ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1794554557:0
+[   10510ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10511ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2556244403:0
+[   10511ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10511ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU1794554631:0
+[   10511ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10511ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU3220604758:0
+[   10511ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   10512ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://hk.allianzgi.com/en-HK/api/funddata/documents/3ae9273d-954b-4631-85a7-387c5f5d7286/LU2399975544:0
+[   10512ms] [LOG] TypeError: Failed to fetch
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54640
+    at r (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37068)
+    at Generator._invoke (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:38207)
+    at e.<computed> [as next] (https://hk.allianzgi.com/assets/js/vendor.bundle.js?v=3e968a53330bcc97288ed4261f3c74b7:171:37247)
+    at a (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47234)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47380
+    at new Promise (<anonymous>)
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:47178
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:55003
+    at https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:54215 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   15353ms] [WARNING] The resource https://hk.allianzgi.com/assets/fonts/patternlab-icons/PatternLab-Iconv2.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0

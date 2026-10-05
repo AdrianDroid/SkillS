@@ -1,0 +1,2389 @@
+- generic [ref=f54e2]:
+  - generic [ref=f54e3]:
+    - generic [ref=f54e4]:
+      - list [ref=f54e6]:
+        - listitem "etnet經濟通主頁" [ref=f54e7] [cursor=pointer]
+        - listitem [ref=f54e8] [cursor=pointer]:
+          - link "etnet TV" [ref=f54e9]:
+            - /url: /www/tc/video/
+        - listitem [ref=f54e10] [cursor=pointer]:
+          - link "新聞" [ref=f54e11]:
+            - /url: /www/tc/news/index.php
+          - generic [ref=f54e12]: "N"
+        - listitem [ref=f54e13] [cursor=pointer]:
+          - link "股票" [ref=f54e14]:
+            - /url: /www/tc/stocks/realtime/index.php
+        - listitem [ref=f54e15] [cursor=pointer]:
+          - link "期貨期權" [ref=f54e16]:
+            - /url: /www/tc/futures/index.php
+        - listitem [ref=f54e17] [cursor=pointer]:
+          - link "權證" [ref=f54e18]:
+            - /url: /www/tc/warrants/realtime/index.php
+        - listitem [ref=f54e19] [cursor=pointer]:
+          - link "ETF" [ref=f54e20]:
+            - /url: /www/tc/etf/index.php
+        - listitem [ref=f54e21] [cursor=pointer]:
+          - link "美股" [ref=f54e22]:
+            - /url: /www/tc/us-stocks/
+        - listitem [ref=f54e23] [cursor=pointer]:
+          - link "A股" [ref=f54e24]:
+            - /url: /www/tc/ashares/index.php
+        - listitem [ref=f54e25] [cursor=pointer]:
+          - link "外匯黃金" [ref=f54e26]:
+            - /url: /www/tc/forex/index.php
+        - listitem [ref=f54e27] [cursor=pointer]:
+          - link "加密貨幣．Bitcoin" [ref=f54e28]:
+            - /url: /www/tc/bitcoin/
+        - listitem [ref=f54e29] [cursor=pointer]:
+          - link "基金" [ref=f54e30]:
+            - /url: /www/tc/funds/index.php
+        - listitem [ref=f54e31] [cursor=pointer]:
+          - link "MPF" [ref=f54e32]:
+            - /url: /www/tc/mpf/index.php
+        - listitem [ref=f54e33] [cursor=pointer]:
+          - link "地產" [ref=f54e34]:
+            - /url: /www/tc/property/main/index.php
+        - listitem [ref=f54e35] [cursor=pointer]:
+          - link "生活" [ref=f54e36]:
+            - /url: /www/tc/lifestyle/index.php
+        - listitem [ref=f54e37] [cursor=pointer]:
+          - link "DIVA" [ref=f54e38]:
+            - /url: /www/tc/diva/index.php
+        - listitem [ref=f54e39] [cursor=pointer]:
+          - link "健康好人生" [ref=f54e40]:
+            - /url: /www/tc/health/index.php
+        - listitem [ref=f54e41] [cursor=pointer]:
+          - link "香港好去處" [ref=f54e42]:
+            - /url: /www/tc/attraction/
+        - listitem [ref=f54e43] [cursor=pointer]:
+          - link "投票區" [ref=f54e44]:
+            - /url: /www/tc/voting/index.php
+      - generic [ref=f54e45]:
+        - generic "etnet經濟通" [ref=f54e46] [cursor=pointer]
+        - generic [ref=f54e48]:
+          - generic [ref=f54e49]:
+            - text: 報價 |
+            - link "極速報價" [ref=f54e50] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - text: "|"
+            - link "全文搜索" [ref=f54e51] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - generic [ref=f54e52]:
+            - textbox "Search" [active] [ref=f54e53]: 代號/中文/英文
+            - button "Search" [ref=f54e54] [cursor=pointer]
+        - generic [ref=f54e55]:
+          - list [ref=f54e56]:
+            - listitem [ref=f54e57] [cursor=pointer]:
+              - generic [ref=f54e59]: 會員
+          - list [ref=f54e60]:
+            - listitem [ref=f54e61] [cursor=pointer]: 產品服務 / 串流版
+          - list [ref=f54e62]:
+            - listitem [ref=f54e63] [cursor=pointer]:
+              - generic [ref=f54e65]: 設定
+        - generic [ref=f54e67]:
+          - generic [ref=f54e68]: etnet專輯
+          - link "中東戰火" [ref=f54e71] [cursor=pointer]:
+            - /url: /www/tc/news/supplement_middleeastwar.php
+    - list [ref=f54e74]:
+      - listitem "基金" [ref=f54e75] [cursor=pointer]
+      - listitem [ref=f54e76] [cursor=pointer]:
+        - link "基金主頁" [ref=f54e77]:
+          - /url: index.php
+      - listitem [ref=f54e78] [cursor=pointer]:
+        - link "基金新聞" [ref=f54e79]:
+          - /url: news.php
+      - listitem [ref=f54e80] [cursor=pointer]:
+        - link "基金排行榜" [ref=f54e81]:
+          - /url: ranking.php
+      - listitem [ref=f54e82] [cursor=pointer]:
+        - link "基金搜尋" [ref=f54e83]:
+          - /url: search.php
+      - listitem [ref=f54e84] [cursor=pointer]:
+        - link "產品登場" [ref=f54e85]:
+          - /url: prodpromo.php
+      - listitem [ref=f54e86] [cursor=pointer]:
+        - link "專家見地" [ref=f54e87]:
+          - /url: commentary.php
+      - listitem [ref=f54e88] [cursor=pointer]:
+        - link "基金數據" [ref=f54e89]:
+          - /url: statdata.php
+      - listitem [ref=f54e90] [cursor=pointer]:
+        - link "RQFII 人民幣基金" [ref=f54e91]:
+          - /url: rqfii.php
+      - listitem [ref=f54e92] [cursor=pointer]:
+        - link "基金互認" [ref=f54e93]:
+          - /url: mrf.php
+  - generic [ref=f54e95]:
+    - generic [ref=f54e96]:
+      - generic [ref=f54e97]:
+        - generic [ref=f54e98]:
+          - link [ref=f54e102] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - text: 基金組合
+            - img "展開" [ref=f54e103]
+          - generic [ref=f54e104]:
+            - generic [ref=f54e105]:
+              - link "基金搜尋" [ref=f54e107] [cursor=pointer]:
+                - /url: search.php
+              - link "More":
+                - /url: search.php
+                - img "More" [ref=f54e108] [cursor=pointer]
+            - generic [ref=f54e109]:
+              - text: 熱門︰
+              - link "債券基金" [ref=f54e110] [cursor=pointer]:
+                - /url: search.php?isSearch=Y&assetType=ETNSI2
+              - link "貨幣基金" [ref=f54e111] [cursor=pointer]:
+                - /url: search.php?isSearch=Y&assetType=ETNSI3
+            - table [ref=f54e114]:
+              - rowgroup [ref=f54e115]:
+                - row [ref=f54e116]:
+                  - cell "基金公司" [ref=f54e117]:
+                    - combobox [ref=f54e118]:
+                      - option "基金公司" [selected]
+                      - option "中國平安資產管理 (香港) 有限公司"
+                      - option "中銀國際英國保誠資產管理有限公司"
+                      - option "中銀香港資產管理有限公司"
+                      - option "交銀施羅德基金管理有限公司"
+                      - option "信安投資及退休金服務有限公司"
+                      - option "匯添富資產管理 (香港) 有限公司"
+                      - option "匯豐環球投資管理 (香港) 有限公司"
+                      - option "南方東英資產管理有限公司"
+                      - option "博時基金 (國際) 有限公司"
+                      - option "品浩投資管理 (亞洲) 有限公司"
+                      - option "嘉實國際資產管理有限公司"
+                      - option "國泰君安資產管理 (亞洲) 有限公司"
+                      - option "大成國際資產管理有限公司"
+                      - option "大成基金管理有限公司"
+                      - option "安本香港有限公司"
+                      - option "安聯環球投資亞太有限公司"
+                      - option "宏利投資管理 (香港) 有限公司"
+                      - option "富蘭克林鄧普頓投資 (亞洲) 有限公司"
+                      - option "富達基金 (香港) 有限公司"
+                      - option "工銀資管 (全球) 有限公司"
+                      - option "廣發基金管理有限公司"
+                      - option "建信基金管理有限責任公司"
+                      - option "建銀國際資產管理有限公司"
+                      - option "惠理基金管理香港有限公司"
+                      - option "招商證券資產管理 (香港) 有限公司"
+                      - option "摩根基金管理 (中國) 有限公司"
+                      - option "摩根資產管理"
+                      - option "施羅德投資管理 (香港) 有限公司"
+                      - option "易方達資產管理 (香港) 有限公司"
+                      - option "晉達資產管理香港有限公司"
+                      - option "景順投資管理有限公司"
+                      - option "景順長城基金管理有限公司"
+                      - option "東亞聯豐投資管理有限公司"
+                      - option "東方匯理資產管理香港有限公司"
+                      - option "法國巴黎資產管理亞洲有限公司"
+                      - option "泰康資產管理 (香港) 有限公司"
+                      - option "海通國際資產管理 (香港) 有限公司"
+                      - option "瀚亞投資 (香港) 有限公司"
+                      - option "瑞士百達資產管理 (香港) 有限公司"
+                      - option "瑞銀資產管理 (香港) 有限公司"
+                      - option "聯博香港有限公司"
+                      - option "華夏基金 (香港) 有限公司"
+                      - option "華夏基金管理有限公司"
+                      - option "行健資產管理有限公司"
+                      - option "貝萊德資產管理北亞有限公司"
+                      - option "霸菱資產管理 (亞洲) 有限公司"
+                      - option "首源投資 (香港) 有限公司"
+                      - option "駿利亨德森投資香港有限公司"
+                - row [ref=f54e119]:
+                  - cell "地區" [ref=f54e120]:
+                    - combobox [ref=f54e121]:
+                      - option "地區" [selected]
+                      - option "亞太區"
+                      - option "亞太區 (不包括日本)"
+                      - option "中國"
+                      - option "新興市場"
+                      - option "歐洲"
+                      - option "環球"
+                      - option "大中華"
+                      - option "香港"
+                      - option "日本"
+                      - option "北美洲"
+                - row [ref=f54e122]:
+                  - cell "時期" [ref=f54e123]:
+                    - combobox [ref=f54e124]:
+                      - option "時期" [selected]
+                      - option "年初至今"
+                      - option "一個月"
+                      - option "三個月"
+                      - option "六個月"
+                      - option "一年"
+                      - option "三年"
+                      - option "五年"
+                - row [ref=f54e125]:
+                  - cell "表現" [ref=f54e126]:
+                    - combobox [ref=f54e127]:
+                      - option "表現" [selected]
+                      - option "> 0%"
+                      - option "> 10%"
+                      - option "> 30%"
+                      - option "> 50%"
+                      - option "> 100%"
+                      - option "> 200%"
+                - row [ref=f54e128]:
+                  - cell [ref=f54e129]:
+                    - generic [ref=f54e130]:
+                      - button "搜尋" [ref=f54e131]
+                      - button "重設" [ref=f54e132]
+                    - link [ref=f54e134] [cursor=pointer]:
+                      - /url: search.php
+                      - img "more" [ref=f54e135]
+                      - text: 進階搜尋
+        - generic [ref=f54e137]:
+          - generic [ref=f54e138]:
+            - link "經濟通基金新聞" [ref=f54e140] [cursor=pointer]:
+              - /url: news.php
+            - link "More":
+              - /url: news.php
+              - img "More" [ref=f54e141] [cursor=pointer]
+          - generic [ref=f54e142]:
+            - generic [ref=f54e143]:
+              - text: 31/07/2026 11:37
+              - link "【外圍經濟】道富：日本干預日圓匯率的規模估計在5萬億日圓" [ref=f54e144] [cursor=pointer]:
+                - /url: news_detail.php?newsid=20260731939
+            - generic [ref=f54e145]:
+              - text: 31/07/2026 11:33
+              - link "日股午市續漲，新報64480升2613點，圓匯160.84" [ref=f54e146] [cursor=pointer]:
+                - /url: news_detail.php?newsid=2026073136
+            - generic [ref=f54e147]:
+              - text: 31/07/2026 11:14
+              - link "【外圍經濟】日本央行將利率維持在1厘，下半年核心CPI漲幅低於預期" [ref=f54e148] [cursor=pointer]:
+                - /url: news_detail.php?newsid=20260731237
+            - generic [ref=f54e149]:
+              - text: 31/07/2026 10:33
+              - link "日股早市飆升，半日收報64572升2704點，圓匯160.61" [ref=f54e150] [cursor=pointer]:
+                - /url: news_detail.php?newsid=2026073124
+            - generic [ref=f54e151]:
+              - text: 31/07/2026 10:20
+              - link "【ＥＴＦ】南方東英KOSPI 200備兌認購期權主動型ETF(03537)今掛牌" [ref=f54e152] [cursor=pointer]:
+                - /url: news_detail.php?newsid=20260731526
+      - generic [ref=f54e154]:
+        - link "基金排行榜" [ref=f54e156] [cursor=pointer]:
+          - /url: ranking.php
+        - generic [ref=f54e157]:
+          - link "More":
+            - /url: ranking.php
+            - img "More" [ref=f54e158] [cursor=pointer]
+        - generic [ref=f54e159]:
+          - generic [ref=f54e160]:
+            - link "中國" [ref=f54e162] [cursor=pointer]:
+              - /url: ranking.php?etnetcat=03
+            - link "More":
+              - /url: ranking.php?etnetcat=03
+              - img "More" [ref=f54e163] [cursor=pointer]
+          - table [ref=f54e165]:
+            - rowgroup [ref=f54e166]:
+              - row [ref=f54e167]:
+                - cell [ref=f54e168]
+                - cell "名稱" [ref=f54e169]
+                - cell "年初至今" [ref=f54e170]
+                - cell "三個月" [ref=f54e171]
+                - cell "一年" [ref=f54e173]
+                - cell "三年" [ref=f54e174]
+                - cell "截至" [ref=f54e175]
+              - row [ref=f54e176]:
+                - cell "1" [ref=f54e177]
+                - cell [ref=f54e179]:
+                  - link "惠理中國A股優選基金 - A/人民幣" [ref=f54e180] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI17308%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+10.66%" [ref=f54e181]
+                - cell "+5.45%" [ref=f54e182]
+                - cell "+26.64%" [ref=f54e183]
+                - cell "+15.85%" [ref=f54e184]
+                - cell "2026/07/29" [ref=f54e185]
+              - row [ref=f54e186]:
+                - cell "2" [ref=f54e187]
+                - cell [ref=f54e189]:
+                  - link "工銀資管中國新興企業基金" [ref=f54e190] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI6004%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+6.81%" [ref=f54e191]
+                - cell "+2.84%" [ref=f54e192]
+                - cell "+23.44%" [ref=f54e193]
+                - cell "+25.27%" [ref=f54e194]
+                - cell "2026/07/29" [ref=f54e195]
+              - row [ref=f54e196]:
+                - cell "3" [ref=f54e197]
+                - cell [ref=f54e199]:
+                  - link "安聯神州A股基金 - AT/累積/美元" [ref=f54e200] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI26070%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+12.65%" [ref=f54e201]
+                - cell "+1.22%" [ref=f54e202]
+                - cell "+43.5%" [ref=f54e203]
+                - cell "+42.95%" [ref=f54e204]
+                - cell "2026/07/29" [ref=f54e205]
+              - row [ref=f54e206]:
+                - cell "4" [ref=f54e207]
+                - cell [ref=f54e209]:
+                  - link "宏利盈進基金SPC - 中國A股獨立資產組合 - AA" [ref=f54e210] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI8608%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+25.83%" [ref=f54e211]
+                - cell "+0.83%" [ref=f54e212]
+                - cell "+60.34%" [ref=f54e213]
+                - cell "+77.28%" [ref=f54e214]
+                - cell "2026/07/29" [ref=f54e215]
+              - row [ref=f54e216]:
+                - cell "5" [ref=f54e217]
+                - cell [ref=f54e219]:
+                  - link "首域盈信中國A股基金 - I" [ref=f54e220] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI29987%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+11.89%" [ref=f54e221]
+                - cell "+0.65%" [ref=f54e222]
+                - cell "+22.95%" [ref=f54e223]
+                - cell "+10.93%" [ref=f54e224]
+                - cell "2026/07/29" [ref=f54e225]
+              - row [ref=f54e226]:
+                - cell "6" [ref=f54e227]
+                - cell [ref=f54e229]:
+                  - link "華夏回報證券投資基金 - H" [ref=f54e230] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI19827%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                  - link "MRF" [ref=f54e232] [cursor=pointer]:
+                    - /url: mrf_list.php#ETNSI19827
+                - cell "+4.44%" [ref=f54e233]
+                - cell "-0.14%" [ref=f54e234]
+                - cell "+10.05%" [ref=f54e235]
+                - cell "+7.87%" [ref=f54e236]
+                - cell "2026/07/29" [ref=f54e237]
+              - row [ref=f54e238]:
+                - cell "7" [ref=f54e239]
+                - cell [ref=f54e241]:
+                  - link "招商紅利回報均衡基金 - A/分派/港元" [ref=f54e242] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI22027%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+6.65%" [ref=f54e243]
+                - cell "-0.19%" [ref=f54e244]
+                - cell "+10.79%" [ref=f54e245]
+                - cell "+23.64%" [ref=f54e246]
+                - cell "2026/07/29" [ref=f54e247]
+              - row [ref=f54e248]:
+                - cell "8" [ref=f54e249]
+                - cell [ref=f54e251]:
+                  - link "摩根中國先驅A股基金 - 累計/美元" [ref=f54e252] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI3004%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+9.41%" [ref=f54e253]
+                - cell "-0.41%" [ref=f54e254]
+                - cell "+33.18%" [ref=f54e255]
+                - cell "+26.03%" [ref=f54e256]
+                - cell "2026/07/29" [ref=f54e257]
+              - row [ref=f54e258]:
+                - cell "9" [ref=f54e259]
+                - cell [ref=f54e261]:
+                  - link "瀚亞投資 - 中國股票基金 - A" [ref=f54e262] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI6067%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "-6.74%" [ref=f54e263]
+                - cell "-0.48%" [ref=f54e264]
+                - cell "+0.63%" [ref=f54e265]
+                - cell "+10.36%" [ref=f54e266]
+                - cell "2026/07/29" [ref=f54e267]
+              - row [ref=f54e268]:
+                - cell "10" [ref=f54e269]
+                - cell [ref=f54e271]:
+                  - link "景順中國健康護理基金 - A/累積/人民幣" [ref=f54e272] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI30053%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "-3.46%" [ref=f54e273]
+                - cell "-0.68%" [ref=f54e274]
+                - cell "-15.78%" [ref=f54e275]
+                - cell "-10.93%" [ref=f54e276]
+                - cell "2026/07/29" [ref=f54e277]
+        - generic [ref=f54e278]:
+          - generic [ref=f54e279]:
+            - link "亞太區" [ref=f54e281] [cursor=pointer]:
+              - /url: ranking.php?etnetcat=01
+            - link "More":
+              - /url: ranking.php?etnetcat=01
+              - img "More" [ref=f54e282] [cursor=pointer]
+          - table [ref=f54e284]:
+            - rowgroup [ref=f54e285]:
+              - row [ref=f54e286]:
+                - cell [ref=f54e287]
+                - cell "名稱" [ref=f54e288]
+                - cell "年初至今" [ref=f54e289]
+                - cell "三個月" [ref=f54e290]
+                - cell "一年" [ref=f54e292]
+                - cell "三年" [ref=f54e293]
+                - cell "截至" [ref=f54e294]
+              - row [ref=f54e295]:
+                - cell "1" [ref=f54e296]
+                - cell [ref=f54e298]:
+                  - link "摩根太平洋科技 - 累計/美元" [ref=f54e299] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI127%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+30.1%" [ref=f54e300]
+                - cell "+6.3%" [ref=f54e301]
+                - cell "+57.24%" [ref=f54e302]
+                - cell "+94.48%" [ref=f54e303]
+                - cell "2026/07/29" [ref=f54e304]
+              - row [ref=f54e305]:
+                - cell "2" [ref=f54e306]
+                - cell [ref=f54e308]:
+                  - link "施羅德環球基金系列亞洲總回報 - A/累積" [ref=f54e309] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI5536%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+20.34%" [ref=f54e310]
+                - cell "+4.28%" [ref=f54e311]
+                - cell "+31.31%" [ref=f54e312]
+                - cell "+67.07%" [ref=f54e313]
+                - cell "2026/07/29" [ref=f54e314]
+              - row [ref=f54e315]:
+                - cell "3" [ref=f54e316]
+                - cell [ref=f54e318]:
+                  - link "法巴綠色亞洲基金 - 經典/派息/美元" [ref=f54e319] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI14236%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+24.42%" [ref=f54e320]
+                - cell "+3.86%" [ref=f54e321]
+                - cell "+39.73%" [ref=f54e322]
+                - cell "+46.63%" [ref=f54e323]
+                - cell "2026/07/29" [ref=f54e324]
+              - row [ref=f54e325]:
+                - cell "4" [ref=f54e326]
+                - cell [ref=f54e328]:
+                  - link "中銀香港投資基金 - 中銀香港澳洲收入基金 - A" [ref=f54e329] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI4162%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+4.94%" [ref=f54e330]
+                - cell "+3.42%" [ref=f54e331]
+                - cell "+5.03%" [ref=f54e332]
+                - cell "+21.02%" [ref=f54e333]
+                - cell "2026/07/29" [ref=f54e334]
+              - row [ref=f54e335]:
+                - cell "5" [ref=f54e336]
+                - cell [ref=f54e338]:
+                  - link "富達基金 - 澳洲多元化股票基金 - A/澳元" [ref=f54e339] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI669%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+1.31%" [ref=f54e340]
+                - cell "+2.98%" [ref=f54e341]
+                - cell "+0.64%" [ref=f54e342]
+                - cell "+23.67%" [ref=f54e343]
+                - cell "2026/07/29" [ref=f54e344]
+              - row [ref=f54e345]:
+                - cell "6" [ref=f54e346]
+                - cell [ref=f54e348]:
+                  - link "施羅德亞洲高息股債基金 - A/累積/港元" [ref=f54e349] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI9867%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+14.99%" [ref=f54e350]
+                - cell "+2.45%" [ref=f54e351]
+                - cell "+23.43%" [ref=f54e352]
+                - cell "+47.4%" [ref=f54e353]
+                - cell "2026/07/29" [ref=f54e354]
+              - row [ref=f54e355]:
+                - cell "7" [ref=f54e356]
+                - cell [ref=f54e358]:
+                  - link "匯豐集合投資信託 - 匯豐亞洲多元資產高入息基金 - AM2/美元" [ref=f54e359] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI28648%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+8.44%" [ref=f54e360]
+                - cell "+2.22%" [ref=f54e361]
+                - cell "+16.79%" [ref=f54e362]
+                - cell "+40.16%" [ref=f54e363]
+                - cell "2026/07/29" [ref=f54e364]
+              - row [ref=f54e365]:
+                - cell "8" [ref=f54e366]
+                - cell [ref=f54e368]:
+                  - link "霸菱澳洲基金 - A/收益/美元" [ref=f54e369] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI456%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+8.07%" [ref=f54e370]
+                - cell "+1.8%" [ref=f54e371]
+                - cell "+6.72%" [ref=f54e372]
+                - cell "+23.31%" [ref=f54e373]
+                - cell "2026/07/29" [ref=f54e374]
+              - row [ref=f54e375]:
+                - cell "9" [ref=f54e376]
+                - cell [ref=f54e378]:
+                  - link "宏利環球基金 - 可持續亞洲股票基金 - AA" [ref=f54e379] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI4758%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+18.85%" [ref=f54e380]
+                - cell "+1.15%" [ref=f54e381]
+                - cell "+36.4%" [ref=f54e382]
+                - cell "+60.47%" [ref=f54e383]
+                - cell "2026/07/29" [ref=f54e384]
+              - row [ref=f54e385]:
+                - cell "10" [ref=f54e386]
+                - cell [ref=f54e388]:
+                  - link "富達基金 - 亞太股息基金 - A/美元" [ref=f54e389] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI1107%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+13.44%" [ref=f54e390]
+                - cell "+1.14%" [ref=f54e391]
+                - cell "+24.7%" [ref=f54e392]
+                - cell "+53.08%" [ref=f54e393]
+                - cell "2026/07/29" [ref=f54e394]
+        - generic [ref=f54e395]:
+          - generic [ref=f54e396]:
+            - link "新興市場" [ref=f54e398] [cursor=pointer]:
+              - /url: ranking.php?etnetcat=04
+            - link "More":
+              - /url: ranking.php?etnetcat=04
+              - img "More" [ref=f54e399] [cursor=pointer]
+          - table [ref=f54e401]:
+            - rowgroup [ref=f54e402]:
+              - row [ref=f54e403]:
+                - cell [ref=f54e404]
+                - cell "名稱" [ref=f54e405]
+                - cell "年初至今" [ref=f54e406]
+                - cell "三個月" [ref=f54e407]
+                - cell "一年" [ref=f54e409]
+                - cell "三年" [ref=f54e410]
+                - cell "截至" [ref=f54e411]
+              - row [ref=f54e412]:
+                - cell "1" [ref=f54e413]
+                - cell [ref=f54e415]:
+                  - link "鄧普頓東歐基金 - A/累算/歐元" [ref=f54e416] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI409%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+22.21%" [ref=f54e417]
+                - cell "+10.15%" [ref=f54e418]
+                - cell "+28.16%" [ref=f54e419]
+                - cell "+94.68%" [ref=f54e420]
+                - cell "2026/07/29" [ref=f54e421]
+              - row [ref=f54e422]:
+                - cell "2" [ref=f54e423]
+                - cell [ref=f54e425]:
+                  - link "景順東協基金 - A/每年派息/美元" [ref=f54e426] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI2%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+5.59%" [ref=f54e427]
+                - cell "+8.27%" [ref=f54e428]
+                - cell "+11.77%" [ref=f54e429]
+                - cell "+18.49%" [ref=f54e430]
+                - cell "2026/07/29" [ref=f54e431]
+              - row [ref=f54e432]:
+                - cell "3" [ref=f54e433]
+                - cell [ref=f54e435]:
+                  - link "匯豐環球投資基金 - 東協股票 - AD" [ref=f54e436] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI1209%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+5.82%" [ref=f54e437]
+                - cell "+7.97%" [ref=f54e438]
+                - cell "+12.24%" [ref=f54e439]
+                - cell "+32.96%" [ref=f54e440]
+                - cell "2026/07/27" [ref=f54e441]
+              - row [ref=f54e442]:
+                - cell "4" [ref=f54e443]
+                - cell [ref=f54e445]:
+                  - link "富達基金 - 東協基金 - A/美元" [ref=f54e446] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI667%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+3.77%" [ref=f54e447]
+                - cell "+7.77%" [ref=f54e448]
+                - cell "+8.93%" [ref=f54e449]
+                - cell "+24.56%" [ref=f54e450]
+                - cell "2026/07/29" [ref=f54e451]
+              - row [ref=f54e452]:
+                - cell "5" [ref=f54e453]
+                - cell [ref=f54e455]:
+                  - link "施羅德環球基金系列新興歐洲 - A/累積" [ref=f54e456] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI285%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+22.58%" [ref=f54e457]
+                - cell "+7.32%" [ref=f54e458]
+                - cell "+30.27%" [ref=f54e459]
+                - cell "+100.68%" [ref=f54e460]
+                - cell "2026/07/29" [ref=f54e461]
+              - row [ref=f54e462]:
+                - cell "6" [ref=f54e463]
+                - cell [ref=f54e465]:
+                  - link "景順新興市場（中國除外）股票基金 - A/每年派息/美元" [ref=f54e466] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI14%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+27.0%" [ref=f54e467]
+                - cell "+7.31%" [ref=f54e468]
+                - cell "+46.72%" [ref=f54e469]
+                - cell "+78.41%" [ref=f54e470]
+                - cell "2026/07/29" [ref=f54e471]
+              - row [ref=f54e472]:
+                - cell "7" [ref=f54e473]
+                - cell [ref=f54e475]:
+                  - link "摩根東協 - 累計/美元" [ref=f54e476] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI109%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+8.15%" [ref=f54e477]
+                - cell "+7.24%" [ref=f54e478]
+                - cell "+13.14%" [ref=f54e479]
+                - cell "+30.8%" [ref=f54e480]
+                - cell "2026/07/29" [ref=f54e481]
+              - row [ref=f54e482]:
+                - cell "8" [ref=f54e483]
+                - cell [ref=f54e485]:
+                  - link "景順印度股票基金 - A/每年派息/美元" [ref=f54e486] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI3380%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "-6.6%" [ref=f54e487]
+                - cell "+6.06%" [ref=f54e488]
+                - cell "-9.29%" [ref=f54e489]
+                - cell "+17.92%" [ref=f54e490]
+                - cell "2026/07/29" [ref=f54e491]
+              - row [ref=f54e492]:
+                - cell "9" [ref=f54e493]
+                - cell [ref=f54e495]:
+                  - link "霸菱大東協基金 - A/收益/美元" [ref=f54e496] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI472%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+10.37%" [ref=f54e497]
+                - cell "+6.0%" [ref=f54e498]
+                - cell "+17.23%" [ref=f54e499]
+                - cell "+32.56%" [ref=f54e500]
+                - cell "2026/07/29" [ref=f54e501]
+              - row [ref=f54e502]:
+                - cell "10" [ref=f54e503]
+                - cell [ref=f54e505]:
+                  - link "霸菱東歐基金 - A/收益/美元" [ref=f54e506] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI34028%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+17.13%" [ref=f54e507]
+                - cell "+5.95%" [ref=f54e508]
+                - cell "+29.81%" [ref=f54e509]
+                - cell "+117.28%" [ref=f54e510]
+                - cell "2026/07/29" [ref=f54e511]
+        - generic [ref=f54e512]:
+          - generic [ref=f54e513]:
+            - link "能源" [ref=f54e515] [cursor=pointer]:
+              - /url: ranking.php?etnetcat=13
+            - link "More":
+              - /url: ranking.php?etnetcat=13
+              - img "More" [ref=f54e516] [cursor=pointer]
+          - table [ref=f54e518]:
+            - rowgroup [ref=f54e519]:
+              - row [ref=f54e520]:
+                - cell [ref=f54e521]
+                - cell "名稱" [ref=f54e522]
+                - cell "年初至今" [ref=f54e523]
+                - cell "三個月" [ref=f54e524]
+                - cell "一年" [ref=f54e526]
+                - cell "三年" [ref=f54e527]
+                - cell "截至" [ref=f54e528]
+              - row [ref=f54e529]:
+                - cell "1" [ref=f54e530]
+                - cell [ref=f54e532]:
+                  - link "貝萊德世界能源基金 - A2/美元" [ref=f54e533] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI1217%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+31.12%" [ref=f54e534]
+                - cell "-0.14%" [ref=f54e535]
+                - cell "+35.5%" [ref=f54e536]
+                - cell "+48.47%" [ref=f54e537]
+                - cell "2026/07/29" [ref=f54e538]
+              - row [ref=f54e539]:
+                - cell "2" [ref=f54e540]
+                - cell [ref=f54e542]:
+                  - link "施羅德環球基金系列環球能源 - A/累積" [ref=f54e543] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI3112%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+34.85%" [ref=f54e544]
+                - cell "-4.37%" [ref=f54e545]
+                - cell "+43.62%" [ref=f54e546]
+                - cell "+59.55%" [ref=f54e547]
+                - cell "2026/07/29" [ref=f54e548]
+              - row [ref=f54e549]:
+                - cell "3" [ref=f54e550]
+                - cell [ref=f54e552]:
+                  - link "貝萊德可持續能源基金 - A2/美元" [ref=f54e553] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI1544%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+9.82%" [ref=f54e554]
+                - cell "-7.24%" [ref=f54e555]
+                - cell "+24.09%" [ref=f54e556]
+                - cell "+30.18%" [ref=f54e557]
+                - cell "2026/07/29" [ref=f54e558]
+        - generic [ref=f54e559]:
+          - generic [ref=f54e560]:
+            - link "商品與天然資源" [ref=f54e562] [cursor=pointer]:
+              - /url: ranking.php?etnetcat=11
+            - link "More":
+              - /url: ranking.php?etnetcat=11
+              - img "More" [ref=f54e563] [cursor=pointer]
+          - table [ref=f54e565]:
+            - rowgroup [ref=f54e566]:
+              - row [ref=f54e567]:
+                - cell [ref=f54e568]
+                - cell "名稱" [ref=f54e569]
+                - cell "年初至今" [ref=f54e570]
+                - cell "三個月" [ref=f54e571]
+                - cell "一年" [ref=f54e573]
+                - cell "三年" [ref=f54e574]
+                - cell "截至" [ref=f54e575]
+              - row [ref=f54e576]:
+                - cell "1" [ref=f54e577]
+                - cell [ref=f54e579]:
+                  - link "百達 - 林木資源 - P/美元" [ref=f54e580] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI5488%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+0.06%" [ref=f54e581]
+                - cell "+3.89%" [ref=f54e582]
+                - cell "-4.42%" [ref=f54e583]
+                - cell "-8.34%" [ref=f54e584]
+                - cell "2026/07/29" [ref=f54e585]
+              - row [ref=f54e586]:
+                - cell "2" [ref=f54e587]
+                - cell [ref=f54e589]:
+                  - link "JPM 環球天然資源 - A/分派/歐元" [ref=f54e590] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI3215%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+16.77%" [ref=f54e591]
+                - cell "-2.29%" [ref=f54e592]
+                - cell "+44.81%" [ref=f54e593]
+                - cell "+55.2%" [ref=f54e594]
+                - cell "2026/07/29" [ref=f54e595]
+              - row [ref=f54e596]:
+                - cell "3" [ref=f54e597]
+                - cell [ref=f54e599]:
+                  - link "貝萊德天然資源基金 - A2/美元" [ref=f54e600] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI11428%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+11.87%" [ref=f54e601]
+                - cell "-2.89%" [ref=f54e602]
+                - cell "+28.04%" [ref=f54e603]
+                - cell "+35.03%" [ref=f54e604]
+                - cell "2026/07/29" [ref=f54e605]
+              - row [ref=f54e606]:
+                - cell "4" [ref=f54e607]
+                - cell [ref=f54e609]:
+                  - link "霸菱環球資源基金 - A/收益/美元" [ref=f54e610] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI488%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+15.28%" [ref=f54e611]
+                - cell "-3.88%" [ref=f54e612]
+                - cell "+34.27%" [ref=f54e613]
+                - cell "+44.34%" [ref=f54e614]
+                - cell "2026/07/29" [ref=f54e615]
+              - row [ref=f54e616]:
+                - cell "5" [ref=f54e617]
+                - cell [ref=f54e619]:
+                  - link "富蘭克林天然資源基金 - A/累算/美元" [ref=f54e620] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI4521%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+16.51%" [ref=f54e621]
+                - cell "-4.96%" [ref=f54e622]
+                - cell "+35.77%" [ref=f54e623]
+                - cell "+46.48%" [ref=f54e624]
+                - cell "2026/07/29" [ref=f54e625]
+              - row [ref=f54e626]:
+                - cell "6" [ref=f54e627]
+                - cell [ref=f54e629]:
+                  - link "晉達GSF環球天然資源基金 - A/累積股份/美元" [ref=f54e630] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI4824%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+12.8%" [ref=f54e631]
+                - cell "-5.02%" [ref=f54e632]
+                - cell "+38.64%" [ref=f54e633]
+                - cell "+62.14%" [ref=f54e634]
+                - cell "2026/07/29" [ref=f54e635]
+              - row [ref=f54e636]:
+                - cell "7" [ref=f54e637]
+                - cell [ref=f54e639]:
+                  - link "貝萊德世界礦業基金 - A2/美元" [ref=f54e640] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI1215%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+4.25%" [ref=f54e641]
+                - cell "-6.47%" [ref=f54e642]
+                - cell "+49.45%" [ref=f54e643]
+                - cell "+55.19%" [ref=f54e644]
+                - cell "2026/07/29" [ref=f54e645]
+              - row [ref=f54e646]:
+                - cell "8" [ref=f54e647]
+                - cell [ref=f54e649]:
+                  - link "安本 - 未來礦物基金 - A/累積/美元" [ref=f54e650] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI8615%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "+10.05%" [ref=f54e651]
+                - cell "-7.47%" [ref=f54e652]
+                - cell "+43.95%" [ref=f54e653]
+                - cell "+47.67%" [ref=f54e654]
+                - cell "2026/07/29" [ref=f54e655]
+              - row [ref=f54e656]:
+                - cell "9" [ref=f54e657]
+                - cell [ref=f54e659]:
+                  - link "價值黃金ETF - 非上市類別 A/累算/港元未對沖" [ref=f54e660] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI36998%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "-5.9%" [ref=f54e661]
+                - cell "-11.71%" [ref=f54e662]
+                - cell "+20.65%" [ref=f54e663]
+                - cell "+105.42%" [ref=f54e664]
+                - cell "2026/07/29" [ref=f54e665]
+              - row [ref=f54e666]:
+                - cell "10" [ref=f54e667]
+                - cell [ref=f54e669]:
+                  - link "晉達GSF環球黃金基金 - A/收益股份/美元" [ref=f54e670] [cursor=pointer]:
+                    - /url: search.php?directLink=https%3A%2F%2Ffc08.etwealth.com%2Fwfc-etnet-hk%2FfundDetailPopup.do%3FappId%3Detnet-hk%26fdId%3DETNSI190%26locale%3Dzh_TW%26forward%3D%2Fmarket.searchFundByHome.do%26noBasket%3DY%26showBack%3Dtrue%26isPopup%3DN%26isParentPopup%3D
+                - cell "-14.07%" [ref=f54e671]
+                - cell "-12.48%" [ref=f54e672]
+                - cell "+54.9%" [ref=f54e673]
+                - cell "+165.5%" [ref=f54e674]
+                - cell "2026/07/29" [ref=f54e675]
+      - generic [ref=f54e676]:
+        - generic [ref=f54e678]:
+          - generic [ref=f54e679]:
+            - link "產品登場" [ref=f54e681] [cursor=pointer]:
+              - /url: prodpromo.php
+            - link "More":
+              - /url: prodpromo.php
+              - img "More" [ref=f54e682] [cursor=pointer]
+          - generic [ref=f54e683]:
+            - generic [ref=f54e684]:
+              - text: 17/07/2026 11:55
+              - link "《基金登場》瀚亞投資推出亞洲科技創新基金，把握亞洲創新生態系統長期增長機遇" [ref=f54e685] [cursor=pointer]:
+                - /url: prodpromo_detail.php?newsid=20260717633
+            - generic [ref=f54e686]:
+              - text: 17/07/2026 08:46
+              - link "中金公司(03908)將發行第二期科創債券，集資不超過40億人幣" [ref=f54e687] [cursor=pointer]:
+                - /url: prodpromo_detail.php?newsid=20260717941
+            - generic [ref=f54e688]:
+              - text: 16/07/2026 17:49
+              - link "《基金登場》Baillie Gifford推出其首隻完全原生代幣化投資基金，面向專業投資者" [ref=f54e689] [cursor=pointer]:
+                - /url: prodpromo_detail.php?newsid=20260716633
+        - generic [ref=f54e691]:
+          - generic [ref=f54e692]:
+            - link "基金數據" [ref=f54e694] [cursor=pointer]:
+              - /url: statdata.php
+            - link "More":
+              - /url: statdata.php
+              - img "More" [ref=f54e695] [cursor=pointer]
+          - generic [ref=f54e696]:
+            - generic [ref=f54e697]:
+              - text: 31/07/2026 09:20
+              - link "《環球經濟》全球主要地區經濟數據一覽" [ref=f54e698] [cursor=pointer]:
+                - /url: statdata_detail.php?newsid=20260731615
+            - generic [ref=f54e699]:
+              - text: 31/07/2026 09:20
+              - link "《經濟數據》昨晚已公布主要經濟數據一覽" [ref=f54e700] [cursor=pointer]:
+                - /url: statdata_detail.php?newsid=20260731613
+            - generic [ref=f54e701]:
+              - text: 31/07/2026 09:20
+              - link "《經濟數據》今明將公布：主要經濟數據一覽" [ref=f54e702] [cursor=pointer]:
+                - /url: statdata_detail.php?newsid=20260731614
+      - generic [ref=f54e704]:
+        - generic [ref=f54e705]:
+          - link "專家見地" [ref=f54e707] [cursor=pointer]:
+            - /url: commentary.php
+          - link "More":
+            - /url: commentary.php
+            - img "More" [ref=f54e708] [cursor=pointer]
+        - generic [ref=f54e709]:
+          - generic [ref=f54e711]:
+            - link [ref=f54e712] [cursor=pointer]:
+              - /url: commentary_expert_list.php?expert=kelvinyu
+            - paragraph [ref=f54e714]: 30/07/2026 10:00
+            - link "《保險智衛－王君傑》淺談香港保險業百萬圓桌的人才啟示" [ref=f54e715] [cursor=pointer]:
+              - /url: commentary_expert_detail.php?expert=kelvinyu&newsid=20260730646
+          - generic [ref=f54e717]:
+            - link [ref=f54e718] [cursor=pointer]:
+              - /url: commentary_expert_list.php?expert=alicia
+            - paragraph [ref=f54e720]: 29/07/2026 10:00
+            - link "《宏觀有法－艾西亞》香港經濟：政府未來將發揮更大作用" [ref=f54e721] [cursor=pointer]:
+              - /url: commentary_expert_detail.php?expert=alicia&newsid=20260729652
+          - generic [ref=f54e723]:
+            - link [ref=f54e724] [cursor=pointer]:
+              - /url: commentary_expert_list.php?expert=nelsonchow
+            - paragraph [ref=f54e726]: 28/07/2026 10:41
+            - link "《與聯共策－鄒建雄》固定收益年中展望：善用市場波動的六大策略" [ref=f54e727] [cursor=pointer]:
+              - /url: commentary_expert_detail.php?expert=nelsonchow&newsid=20260728642
+          - generic [ref=f54e729]:
+            - link [ref=f54e730] [cursor=pointer]:
+              - /url: commentary_expert_list.php?expert=tariq
+            - paragraph [ref=f54e732]: 28/07/2026 10:02
+            - link "《富泰有方－黃德泰》全球承壓，不失韌性" [ref=f54e733] [cursor=pointer]:
+              - /url: commentary_expert_detail.php?expert=tariq&newsid=20260728641
+    - generic [ref=f54e734]:
+      - generic [ref=f54e735]:
+        - generic [ref=f54e736]:
+          - link "互認基金名單" [ref=f54e738] [cursor=pointer]:
+            - /url: mrf_list.php
+          - link "More":
+            - /url: mrf_list.php
+            - img "More" [ref=f54e739] [cursor=pointer]
+        - generic [ref=f54e741]:
+          - link "南下產品 (內地基金)" [ref=f54e744] [cursor=pointer]:
+            - /url: mrf_list.php#south
+          - generic [ref=f54e745]: 上投摩根行業輪動混合型證券投資基金
+          - generic [ref=f54e746]: 融通醫療保健行業混合型證券投資基金
+          - link "北上產品 (香港基金)" [ref=f54e748] [cursor=pointer]:
+            - /url: mrf_list.php#north
+          - generic [ref=f54e749]: 行健宏揚中國基金
+          - generic [ref=f54e750]: 摩根太平洋證券
+      - generic [ref=f54e751]:
+        - generic [ref=f54e752]:
+          - link "投票 Vote!" [ref=f54e754] [cursor=pointer]:
+            - /url: /www/tc/voting/index.php
+          - link "More":
+            - /url: /www/tc/voting/index.php
+            - img "More" [ref=f54e755] [cursor=pointer]
+        - generic [ref=f54e756]:
+          - generic [ref=f54e757]:
+            - paragraph [ref=f54e758]: 2026-07-27
+            - paragraph [ref=f54e759]:
+              - link "日本首相高市早苗支持率跌至新低" [ref=f54e760] [cursor=pointer]:
+                - /url: /www/tc/voting/2813
+              - text: (184人參與)
+            - text: 你認為高市早苗會在今年內下台嗎？
+            - list [ref=f54e761]:
+              - listitem [ref=f54e762]:
+                - paragraph [ref=f54e763]: 會
+              - listitem [ref=f54e764]
+              - listitem [ref=f54e765]: 61%
+            - list [ref=f54e766]:
+              - listitem [ref=f54e767]:
+                - paragraph [ref=f54e768]: 不會
+              - listitem [ref=f54e769]
+              - listitem [ref=f54e770]: 33%
+            - list [ref=f54e771]:
+              - listitem [ref=f54e772]:
+                - paragraph [ref=f54e773]: 不確定
+              - listitem [ref=f54e774]
+              - listitem [ref=f54e775]: 6%
+            - list [ref=f54e776]:
+              - listitem [ref=f54e777] [cursor=pointer]:
+                - link "我要投票" [ref=f54e778]:
+                  - /url: /www/tc/voting/2813#vote
+              - listitem [ref=f54e779] [cursor=pointer]:
+                - link "我要回應" [ref=f54e780]:
+                  - /url: /www/tc/voting/2813#comment_area
+          - generic [ref=f54e781]:
+            - paragraph [ref=f54e782]: 2026-07-27
+            - paragraph [ref=f54e783]:
+              - link "延長交易時段再度引發討論" [ref=f54e784] [cursor=pointer]:
+                - /url: /www/tc/voting/2814
+              - text: (178人參與)
+            - text: 你是否支持港股延長交易時間？
+            - list [ref=f54e785]:
+              - listitem [ref=f54e786]:
+                - paragraph [ref=f54e787]: 支持
+              - listitem [ref=f54e788]
+              - listitem [ref=f54e789]: 44%
+            - list [ref=f54e790]:
+              - listitem [ref=f54e791]:
+                - paragraph [ref=f54e792]: 不支持
+              - listitem [ref=f54e793]
+              - listitem [ref=f54e794]: 55%
+            - list [ref=f54e795]:
+              - listitem [ref=f54e796]:
+                - paragraph [ref=f54e797]: 無意見
+              - listitem [ref=f54e798]
+              - listitem [ref=f54e799]: 1%
+            - list [ref=f54e800]:
+              - listitem [ref=f54e801] [cursor=pointer]:
+                - link "我要投票" [ref=f54e802]:
+                  - /url: /www/tc/voting/2814#vote
+              - listitem [ref=f54e803] [cursor=pointer]:
+                - link "我要回應" [ref=f54e804]:
+                  - /url: /www/tc/voting/2814#comment_area
+      - generic [ref=f54e805]:
+        - generic [ref=f54e807]:
+          - text: 人氣文章
+          - generic "人氣文章" [ref=f54e808]
+        - generic [ref=f54e809]:
+          - link "財經新聞" [ref=f54e811] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - link "評論" [ref=f54e813] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=f54e814]: 專題
+        - generic [ref=f54e816]:
+          - generic [ref=f54e817]:
+            - generic [ref=f54e818]: 最近7天
+            - link "最近30天" [ref=f54e820] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - table [ref=f54e823]:
+            - rowgroup [ref=f54e824]:
+              - row [ref=f54e825]:
+                - cell "1" [ref=f54e826]
+                - cell [ref=f54e828]:
+                  - link "定期存款 | 一周定存合集，工銀亞洲3個月低門檻高達5.88厘，華僑銀行12個月3.2厘" [ref=f54e829] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=special&newsid=402858
+              - row [ref=f54e830]:
+                - cell "2" [ref=f54e831]
+                - cell [ref=f54e833]:
+                  - link "美股收盤 | 道指收市升235點，科技股遭拋售，納指跌0.6%" [ref=f54e834] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=financenews&newsid=402978
+              - row [ref=f54e835]:
+                - cell "3" [ref=f54e836]
+                - cell [ref=f54e838]:
+                  - link "【理財大師班】投資如詠春需攻守兼備 低波幅策略應對震盪市況" [ref=f54e839] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=marketinfo&newsid=402188
+              - row [ref=f54e840]:
+                - cell "4" [ref=f54e841]
+                - cell [ref=f54e843]:
+                  - link "美股 | 特朗普威脅升級中東衝突，油價破百美元，道指和納指雙雙跌逾500點" [ref=f54e844] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=financenews&newsid=402822
+              - row [ref=f54e845]:
+                - cell "5" [ref=f54e846]
+                - cell [ref=f54e848]:
+                  - link "監管風向 | FOCUS | 離岸避稅、流量地租，「817大棋」再落子" [ref=f54e849] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=focus&newsid=403039
+              - row [ref=f54e850]:
+                - cell "6" [ref=f54e851]
+                - cell [ref=f54e853]:
+                  - link "AI | 瑞銀：大模型股市值下滑，不代表長期基本面偏移判斷" [ref=f54e854] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=financenews&newsid=402879
+              - row [ref=f54e855]:
+                - cell "7" [ref=f54e856]
+                - cell [ref=f54e858]:
+                  - link "港交所修訂多項上市規則，降低同股不同權門檻，允許所有新申請人以保密形式遞交上市申請" [ref=f54e859] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=financenews&newsid=402878
+              - row [ref=f54e860]:
+                - cell "8" [ref=f54e861]
+                - cell [ref=f54e863]:
+                  - link "科技股 | AI燒錢惹擔憂Alphabet特斯拉股價重挫，港新舊科技股齊受壓可以點部署？" [ref=f54e864] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=financenews&newsid=402835
+              - row [ref=f54e865]:
+                - cell "9" [ref=f54e866]
+                - cell [ref=f54e868]:
+                  - link "粵車南下｜粵車南下明起擴至大灣區九市，每日名額倍增至200個，陳宗彝倡開放更多口岸" [ref=f54e869] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=hongkongaffairs&newsid=402856
+              - row [ref=f54e870]:
+                - cell "10" [ref=f54e871]
+                - cell [ref=f54e873]:
+                  - link "恒指收跌247點報24963十天線支持，成交僅過兩千億，全周累升400點實現四連升" [ref=f54e874] [cursor=pointer]:
+                    - /url: /www/tc/news/topic_news_detail.php?category=financenews&newsid=402871
+      - generic [ref=f54e876]:
+        - generic [ref=f54e877]:
+          - generic [ref=f54e878]: 專家陣容
+          - generic [ref=f54e881]:
+            - link "國金點評" [ref=f54e883] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=global
+            - table [ref=f54e884]:
+              - rowgroup [ref=f54e885]:
+                - row [ref=f54e886]:
+                  - cell [ref=f54e887]:
+                    - link "洪灝" [ref=f54e888] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=honghao
+                    - link "洪視全球" [ref=f54e889] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=honghao
+                  - cell [ref=f54e891]:
+                    - link "范強" [ref=f54e892] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=justtinfan
+                    - link "政經范局" [ref=f54e893] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=justtinfan
+                - row [ref=f54e895]:
+                  - cell [ref=f54e896]:
+                    - link "溫傑" [ref=f54e897] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=kennywen
+                    - link "比拼華爾街" [ref=f54e898] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=kennywen
+                  - cell [ref=f54e900]:
+                    - link "李曉翀" [ref=f54e901] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=andrewlee
+                    - link "美股星談" [ref=f54e902] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=andrewlee
+                - row [ref=f54e904]:
+                  - cell [ref=f54e905]:
+                    - link "阮子曦" [ref=f54e906] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=harryruan
+                    - link "一股定輸贏" [ref=f54e907] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=harryruan
+                  - cell [ref=f54e909]:
+                    - link "溫嘉煒" [ref=f54e910] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=garywan
+                    - link "國金新見" [ref=f54e911] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=garywan
+                - row [ref=f54e913]:
+                  - cell [ref=f54e914]:
+                    - link "沈文婷" [ref=f54e915] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=troweprice
+                    - link "普論投資" [ref=f54e916] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=troweprice
+                  - cell [ref=f54e918]:
+                    - link "吳永強" [ref=f54e919] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=boscowu
+                    - link "宏觀脈動" [ref=f54e920] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=global&expert=boscowu
+          - generic [ref=f54e923]:
+            - link "中國點評" [ref=f54e925] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=china
+            - table [ref=f54e926]:
+              - rowgroup [ref=f54e927]:
+                - row [ref=f54e928]:
+                  - cell [ref=f54e929]:
+                    - link "陶冬" [ref=f54e930] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=taodong
+                    - link "陶冬天下" [ref=f54e931] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=taodong
+                  - cell [ref=f54e933]:
+                    - link "黎偉成" [ref=f54e934] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=lai
+                    - link "談國論企" [ref=f54e935] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=lai
+                - row [ref=f54e937]:
+                  - cell [ref=f54e938]:
+                    - link "魏東" [ref=f54e939] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=weidong
+                    - link "洞析樓市" [ref=f54e940] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=weidong
+                  - cell [ref=f54e942]:
+                    - link "張憶東" [ref=f54e943] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=haitong
+                    - link "香江策論" [ref=f54e944] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=haitong
+                - row [ref=f54e946]:
+                  - cell [ref=f54e947]:
+                    - link "朱晏民" [ref=f54e948] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=kgi
+                    - link "縱橫台股" [ref=f54e949] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=china&expert=kgi
+          - generic [ref=f54e952]:
+            - link "港股點評" [ref=f54e954] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=stocks
+            - table [ref=f54e955]:
+              - rowgroup [ref=f54e956]:
+                - row [ref=f54e957]:
+                  - cell [ref=f54e958]:
+                    - link "石鏡泉" [ref=f54e959] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=ckashek
+                    - link "政政經經" [ref=f54e960] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=ckashek
+                  - cell [ref=f54e962]:
+                    - link "羅國森" [ref=f54e963] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=lee
+                    - link "品中資" [ref=f54e964] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=lee
+                - row [ref=f54e966]:
+                  - cell [ref=f54e967]:
+                    - link "溫天納" [ref=f54e968] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=ronald
+                    - link "融天納地" [ref=f54e969] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=ronald
+                  - cell [ref=f54e971]:
+                    - link "陳永陸" [ref=f54e972] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=chanwingluk
+                    - link "陸言堂" [ref=f54e973] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=chanwingluk
+                - row [ref=f54e975]:
+                  - cell [ref=f54e976]:
+                    - link "黃瑋傑" [ref=f54e977] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=louiswong
+                    - link "師傅教路" [ref=f54e978] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=louiswong
+                  - cell [ref=f54e980]:
+                    - link "潘鐵珊" [ref=f54e981] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=patrickpun
+                    - link "投資心得" [ref=f54e982] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=patrickpun
+                - row [ref=f54e984]:
+                  - cell [ref=f54e985]:
+                    - link "郭思治" [ref=f54e986] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kwok
+                    - link "思前想後" [ref=f54e987] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kwok
+                  - cell [ref=f54e989]:
+                    - link "林家亨" [ref=f54e990] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=simon
+                    - link "股林淘金" [ref=f54e991] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=simon
+                - row [ref=f54e993]:
+                  - cell [ref=f54e994]:
+                    - link "林嘉麒" [ref=f54e995] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kklam
+                    - link "拆局麒想" [ref=f54e996] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kklam
+                  - cell [ref=f54e998]:
+                    - link "熊麗萍" [ref=f54e999] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=conitahung
+                    - link "缸邊麗評" [ref=f54e1000] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=conitahung
+                - row [ref=f54e1002]:
+                  - cell [ref=f54e1003]:
+                    - link "鄧聲興" [ref=f54e1004] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kennytang
+                    - link "投資智慧" [ref=f54e1005] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kennytang
+                  - cell [ref=f54e1007]:
+                    - link "陳鳳珠" [ref=f54e1008] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=ellie
+                    - link "珠玉之論" [ref=f54e1009] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=ellie
+                - row [ref=f54e1011]:
+                  - cell [ref=f54e1012]:
+                    - link "葉澤恒" [ref=f54e1013] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=alanyipstocks
+                    - link "股海恒言" [ref=f54e1014] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=alanyipstocks
+                  - cell [ref=f54e1016]:
+                    - link "黃偉豪" [ref=f54e1017] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=raviwong
+                    - link "港股偉論" [ref=f54e1018] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=raviwong
+                - row [ref=f54e1020]:
+                  - cell [ref=f54e1021]:
+                    - link "莫灝楠" [ref=f54e1022] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=caspermok
+                    - link "楠楠自語" [ref=f54e1023] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=caspermok
+                  - cell [ref=f54e1025]:
+                    - link "張賽娥" [ref=f54e1026] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=christina
+                    - link "娥姐錦囊" [ref=f54e1027] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=christina
+                - row [ref=f54e1029]:
+                  - cell [ref=f54e1030]:
+                    - link "連敬涵" [ref=f54e1031] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kingston
+                    - link "連場取勝" [ref=f54e1032] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kingston
+                  - cell [ref=f54e1034]:
+                    - link "麥嘉嘉" [ref=f54e1035] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kkmak
+                    - link "嘉觀點" [ref=f54e1036] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=kkmak
+                - row [ref=f54e1038]:
+                  - cell [ref=f54e1039]:
+                    - link "張智威" [ref=f54e1040] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=alvincheung
+                    - link "智瞰天下" [ref=f54e1041] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=alvincheung
+                  - cell [ref=f54e1043]:
+                    - link "戴名" [ref=f54e1044] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=taiming
+                    - link "股壇解碼" [ref=f54e1045] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=taiming
+                - row [ref=f54e1047]:
+                  - cell [ref=f54e1048]:
+                    - link "陳亞雷" [ref=f54e1049] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=charliechen
+                    - link "建視角" [ref=f54e1050] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=stocks&expert=charliechen
+          - generic [ref=f54e1053]:
+            - link "期貨/商品" [ref=f54e1055] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=futures
+            - table [ref=f54e1056]:
+              - rowgroup [ref=f54e1057]:
+                - row [ref=f54e1058]:
+                  - cell [ref=f54e1059]:
+                    - link "梁業豪" [ref=f54e1060] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=futures&expert=benny
+                    - link "運籌帷幄" [ref=f54e1061] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=futures&expert=benny
+                  - cell [ref=f54e1063]:
+                    - link "蕭猷華" [ref=f54e1064] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=futures&expert=tonysiu
+                    - link "套期保值" [ref=f54e1065] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=futures&expert=tonysiu
+          - generic [ref=f54e1068]:
+            - link "窩輪/牛熊證" [ref=f54e1070] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=warrants
+            - table [ref=f54e1071]:
+              - rowgroup [ref=f54e1072]:
+                - row [ref=f54e1073]:
+                  - cell [ref=f54e1074]:
+                    - link "梁業豪" [ref=f54e1075] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=benny_war
+                    - link "窩輪豪情" [ref=f54e1076] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=benny_war
+                  - cell [ref=f54e1078]:
+                    - link "陳其志" [ref=f54e1079] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=keithchan
+                    - link "牛熊志選" [ref=f54e1080] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=keithchan
+                - row [ref=f54e1082]:
+                  - cell [ref=f54e1083]:
+                    - link "麥穎儀" [ref=f54e1084] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=jennymai
+                    - link "出旗制勝" [ref=f54e1085] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=jennymai
+                  - cell [ref=f54e1087]:
+                    - link "鍾宛婷" [ref=f54e1088] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=kathrinchung
+                    - link "星級輪證" [ref=f54e1089] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=kathrinchung
+                - row [ref=f54e1091]:
+                  - cell [ref=f54e1092]:
+                    - link "溫蕎菲" [ref=f54e1093] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=chelseawen
+                    - link "菲常論證" [ref=f54e1094] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=warrants&expert=chelseawen
+          - generic [ref=f54e1097]:
+            - link "ETF" [ref=f54e1099] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=etf
+            - table [ref=f54e1100]:
+              - rowgroup [ref=f54e1101]:
+                - row [ref=f54e1102]:
+                  - cell [ref=f54e1103]:
+                    - link "陳慶煒" [ref=f54e1104] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=etf&expert=qwchen
+                    - link "小虎解碼" [ref=f54e1105] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=etf&expert=qwchen
+                  - cell [ref=f54e1107]:
+                    - link "羅博仁" [ref=f54e1108] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=etf&expert=brianroberts
+                    - link "博策四方" [ref=f54e1109] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=etf&expert=brianroberts
+          - generic [ref=f54e1112]:
+            - link "外匯" [ref=f54e1114] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=forex
+            - table [ref=f54e1115]:
+              - rowgroup [ref=f54e1116]:
+                - row [ref=f54e1117]:
+                  - cell [ref=f54e1118]:
+                    - link "溫灼培" [ref=f54e1119] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=forex&expert=wanchuckpui
+                    - link "真知灼見" [ref=f54e1120] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=forex&expert=wanchuckpui
+                  - cell [ref=f54e1122]:
+                    - link "鄭廣復" [ref=f54e1123] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=forex&expert=patrickcheng
+                    - link "廣匯論勢" [ref=f54e1124] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=forex&expert=patrickcheng
+                - row [ref=f54e1126]:
+                  - cell [ref=f54e1127]:
+                    - link "毛偉廉" [ref=f54e1128] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=forex&expert=williammo
+                    - link "匯海威言" [ref=f54e1129] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=forex&expert=williammo
+          - generic [ref=f54e1132]:
+            - link "基金" [ref=f54e1134] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=funds
+            - table [ref=f54e1135]:
+              - rowgroup [ref=f54e1136]:
+                - row [ref=f54e1137]:
+                  - cell [ref=f54e1138]:
+                    - link "林本利" [ref=f54e1139] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=pllam
+                    - link "一本萬利" [ref=f54e1140] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=pllam
+                  - cell [ref=f54e1142]:
+                    - link "盧穗欣" [ref=f54e1143] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=rexlo
+                    - link "豐碩成果" [ref=f54e1144] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=rexlo
+                - row [ref=f54e1146]:
+                  - cell [ref=f54e1147]:
+                    - link "艾西亞" [ref=f54e1148] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=alicia
+                    - link "宏觀有法" [ref=f54e1149] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=alicia
+                  - cell [ref=f54e1151]:
+                    - link "馬桂銓" [ref=f54e1152] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=charlesma
+                    - link "宏觀銓局" [ref=f54e1153] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=charlesma
+                - row [ref=f54e1155]:
+                  - cell [ref=f54e1156]:
+                    - link "鄒建雄" [ref=f54e1157] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=nelsonchow
+                    - link "與聯共策" [ref=f54e1158] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=nelsonchow
+                  - cell [ref=f54e1160]:
+                    - link "余栢堅" [ref=f54e1161] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=kelvinyu
+                    - link "保險智衛" [ref=f54e1162] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=kelvinyu
+                - row [ref=f54e1164]:
+                  - cell [ref=f54e1165]:
+                    - link "潘恩美" [ref=f54e1166] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=marcellapun
+                    - link "投資特寫" [ref=f54e1167] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=marcellapun
+                  - cell [ref=f54e1169]:
+                    - link "黃德泰" [ref=f54e1170] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=tariq
+                    - link "富泰有方" [ref=f54e1171] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=tariq
+                - row [ref=f54e1173]:
+                  - cell [ref=f54e1174]:
+                    - link "凌風" [ref=f54e1175] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=fundbondstrategy
+                    - link "基金債券攻略" [ref=f54e1176] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=fundbondstrategy
+                  - cell [ref=f54e1178]:
+                    - link "梁啟棠" [ref=f54e1179] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=tommykung
+                    - link "創富理財" [ref=f54e1180] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=tommykung
+                - row [ref=f54e1182]:
+                  - cell [ref=f54e1183]:
+                    - link "蔡明雄" [ref=f54e1184] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=ivantsai
+                    - link "雄才保略" [ref=f54e1185] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=ivantsai
+                  - cell [ref=f54e1187]:
+                    - link "曾珮珊" [ref=f54e1188] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=daisytsang
+                    - link "滙保智庫" [ref=f54e1189] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=funds&expert=daisytsang
+          - generic [ref=f54e1192]:
+            - link "強積金" [ref=f54e1194] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=mpf
+            - table [ref=f54e1195]:
+              - rowgroup [ref=f54e1196]:
+                - row [ref=f54e1197]:
+                  - cell [ref=f54e1198]:
+                    - link "香敏華" [ref=f54e1199] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=mpf&expert=mwheung
+                    - link "「香」講積金" [ref=f54e1200] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=mpf&expert=mwheung
+                  - cell [ref=f54e1202]:
+                    - link "王玉麟" [ref=f54e1203] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=mpf&expert=billywong
+                    - link "積金特「攻」" [ref=f54e1204] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=mpf&expert=billywong
+          - generic [ref=f54e1207]:
+            - link "地產" [ref=f54e1209] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=property
+            - table [ref=f54e1210]:
+              - rowgroup [ref=f54e1211]:
+                - row [ref=f54e1212]:
+                  - cell [ref=f54e1213]:
+                    - link "汪敦敬" [ref=f54e1214] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=property&expert=dunkingwong
+                    - link "樓市點評" [ref=f54e1215] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=property&expert=dunkingwong
+          - generic [ref=f54e1218]:
+            - link "圈中人語" [ref=f54e1220] [cursor=pointer]:
+              - /url: /www/tc/news/commentary_category.php?category=circle
+            - table [ref=f54e1221]:
+              - rowgroup [ref=f54e1222]:
+                - row [ref=f54e1223]:
+                  - cell [ref=f54e1224]:
+                    - link "余偉文" [ref=f54e1225] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=circle&expert=insight
+                    - link "匯思" [ref=f54e1226] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=circle&expert=insight
+                  - cell [ref=f54e1228]:
+                    - link "廖錦興" [ref=f54e1229] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=circle&expert=bobbie
+                    - link "青工俠說" [ref=f54e1230] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=circle&expert=bobbie
+                - row [ref=f54e1232]:
+                  - cell [ref=f54e1233]:
+                    - link "鄧浩然" [ref=f54e1234] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=circle&expert=mike
+                    - link "然之有物" [ref=f54e1235] [cursor=pointer]:
+                      - /url: /www/tc/news/commentary_expert_list.php?category=circle&expert=mike
+          - generic [ref=f54e1238]:
+            - link "選股貼士" [ref=f54e1240] [cursor=pointer]:
+              - /url: /www/tc/news/tips_columnist_list.php
+            - table [ref=f54e1241]:
+              - rowgroup [ref=f54e1242]:
+                - row [ref=f54e1243]:
+                  - cell [ref=f54e1244]:
+                    - link "梁業豪" [ref=f54e1245] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10069
+                  - cell "|" [ref=f54e1246]
+                  - cell [ref=f54e1247]:
+                    - link "岑智勇" [ref=f54e1248] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10236
+                  - cell "|" [ref=f54e1249]
+                  - cell [ref=f54e1250]:
+                    - link "梁祐臻" [ref=f54e1251] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10212
+                  - cell "|" [ref=f54e1252]
+                  - cell [ref=f54e1253]:
+                    - link "陳其志" [ref=f54e1254] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10213
+                - row [ref=f54e1255]:
+                  - cell [ref=f54e1256]:
+                    - link "陳政深" [ref=f54e1257] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10257
+                  - cell "|" [ref=f54e1258]
+                  - cell [ref=f54e1259]:
+                    - link "郭家耀" [ref=f54e1260] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10090
+                  - cell "|" [ref=f54e1261]
+                  - cell [ref=f54e1262]:
+                    - link "黃智慧" [ref=f54e1263] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10167
+                  - cell "|" [ref=f54e1264]
+                  - cell [ref=f54e1265]:
+                    - link "植耀輝" [ref=f54e1266] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10258
+                - row [ref=f54e1267]:
+                  - cell [ref=f54e1268]:
+                    - link "鄧聲興" [ref=f54e1269] [cursor=pointer]:
+                      - /url: tips_columnist_detail.php?expert=10092
+        - generic [ref=f54e1270]: 顯示更多
+      - generic [ref=f54e1275]:
+        - list [ref=f54e1276]:
+          - listitem [ref=f54e1277] [cursor=pointer]: 生活
+          - listitem [ref=f54e1278]: DIVA
+          - listitem [ref=f54e1279] [cursor=pointer]: 健康好人生
+        - generic [ref=f54e1280]:
+          - list [ref=f54e1282]:
+            - listitem "新文章" [ref=f54e1283] [cursor=pointer]
+            - listitem "人氣文章" [ref=f54e1285]
+            - listitem "最新回應" [ref=f54e1287] [cursor=pointer]
+            - listitem "最愛專欄" [ref=f54e1289] [cursor=pointer]
+            - listitem "收藏文章" [ref=f54e1291] [cursor=pointer]
+          - generic [ref=f54e1294]:
+            - heading [level=2] [ref=f54e1295]:
+              - link "DIVA - Most Popular" [ref=f54e1296] [cursor=pointer]:
+                - /url: https://www.etnet.com.hk/www/tc/diva/list/hot10
+            - list [ref=f54e1298]:
+              - listitem [ref=f54e1299]: 7 Days
+              - listitem [ref=f54e1300] [cursor=pointer]: 30 Days
+            - list [ref=f54e1301]:
+              - listitem [ref=f54e1302]:
+                - generic [ref=f54e1303]:
+                  - paragraph [ref=f54e1304]:
+                    - link "Travel & Dining" [ref=f54e1305] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/travel
+                  - heading [level=6] [ref=f54e1306]:
+                    - link "極上和牛割烹Omakase：檸檬麴昆布鹽..." [ref=f54e1307] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/402852/%E6%A5%B5%E4%B8%8A%E5%92%8C%E7%89%9B%E5%89%B2%E7%83%B9Omakase%EF%BC%9A%E6%AA%B8%E6%AA%AC%E9%BA%B4%E6%98%86%E5%B8%83%E9%B9%BD%E5%8E%9A%E5%88%87%E7%89%9B%E8%88%8C%E3%80%81%E7%89%9B%E8%87%80%E8%82%89%E6%9D%BE%E9%9C%B2%E4%B8%89%E6%96%87%E6%B2%BB%E3%80%81%E6%8B%9B%E7%89%8C%E5%B1%B1%E5%A5%A7%E7%87%92%EF%BC%8C%E5%95%96%E5%95%96%E9%A3%BD%E6%BB%BF%E5%A4%9A%E6%B1%81%EF%BC%8C%E6%A5%B5%E7%88%B2%E9%AE%AE%E5%91%B3%EF%BC%81?section=travel&category=saiilee
+                - generic [ref=f54e1308]:
+                  - link "極上和牛割烹Omakase：檸檬麴昆布鹽...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/402852/%E6%A5%B5%E4%B8%8A%E5%92%8C%E7%89%9B%E5%89%B2%E7%83%B9Omakase%EF%BC%9A%E6%AA%B8%E6%AA%AC%E9%BA%B4%E6%98%86%E5%B8%83%E9%B9%BD%E5%8E%9A%E5%88%87%E7%89%9B%E8%88%8C%E3%80%81%E7%89%9B%E8%87%80%E8%82%89%E6%9D%BE%E9%9C%B2%E4%B8%89%E6%96%87%E6%B2%BB%E3%80%81%E6%8B%9B%E7%89%8C%E5%B1%B1%E5%A5%A7%E7%87%92%EF%BC%8C%E5%95%96%E5%95%96%E9%A3%BD%E6%BB%BF%E5%A4%9A%E6%B1%81%EF%BC%8C%E6%A5%B5%E7%88%B2%E9%AE%AE%E5%91%B3%EF%BC%81?section=travel&category=saiilee
+                    - img "極上和牛割烹Omakase：檸檬麴昆布鹽..." [ref=f54e1309] [cursor=pointer]
+              - listitem [ref=f54e1310]:
+                - generic [ref=f54e1311]:
+                  - paragraph [ref=f54e1312]:
+                    - link "Art & Culture" [ref=f54e1313] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/art
+                  - heading [level=6] [ref=f54e1314]:
+                    - link "韓國當代芭蕾《GAT》香港首演！以傳統帽..." [ref=f54e1315] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/402867/%E9%9F%93%E5%9C%8B%E7%95%B6%E4%BB%A3%E8%8A%AD%E8%95%BE%E3%80%8AGAT%E3%80%8B%E9%A6%99%E6%B8%AF%E9%A6%96%E6%BC%94%EF%BC%81%E4%BB%A5%E5%82%B3%E7%B5%B1%E5%B8%BD%E9%A3%BE%E3%80%8C%E9%BB%91%E7%AC%A0%E3%80%8D%E5%85%A5%E8%88%9E%EF%BC%8C%E9%87%8D%E6%96%B0%E6%BC%94%E7%B9%B9%E9%9F%93%E5%9C%8B%E5%82%B3%E7%B5%B1%E7%BE%8E%E5%AD%B8?section=art&category=artfeature
+                - generic [ref=f54e1316]:
+                  - link "韓國當代芭蕾《GAT》香港首演！以傳統帽...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/402867/%E9%9F%93%E5%9C%8B%E7%95%B6%E4%BB%A3%E8%8A%AD%E8%95%BE%E3%80%8AGAT%E3%80%8B%E9%A6%99%E6%B8%AF%E9%A6%96%E6%BC%94%EF%BC%81%E4%BB%A5%E5%82%B3%E7%B5%B1%E5%B8%BD%E9%A3%BE%E3%80%8C%E9%BB%91%E7%AC%A0%E3%80%8D%E5%85%A5%E8%88%9E%EF%BC%8C%E9%87%8D%E6%96%B0%E6%BC%94%E7%B9%B9%E9%9F%93%E5%9C%8B%E5%82%B3%E7%B5%B1%E7%BE%8E%E5%AD%B8?section=art&category=artfeature
+                    - img "韓國當代芭蕾《GAT》香港首演！以傳統帽..." [ref=f54e1317] [cursor=pointer]
+              - listitem [ref=f54e1318]:
+                - generic [ref=f54e1319]:
+                  - paragraph [ref=f54e1320]:
+                    - link "Art & Culture" [ref=f54e1321] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/art
+                  - heading [level=6] [ref=f54e1322]:
+                    - link "《揭密日》：當經典招式變為模式，離神作僅..." [ref=f54e1323] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/402823/%E3%80%8A%E6%8F%AD%E5%AF%86%E6%97%A5%E3%80%8B%EF%BC%9A%E7%95%B6%E7%B6%93%E5%85%B8%E6%8B%9B%E5%BC%8F%E8%AE%8A%E7%82%BA%E6%A8%A1%E5%BC%8F%EF%BC%8C%E9%9B%A2%E7%A5%9E%E4%BD%9C%E5%83%85%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%99?section=art&category=williamzhu
+                - generic [ref=f54e1324]:
+                  - link "《揭密日》：當經典招式變為模式，離神作僅...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/402823/%E3%80%8A%E6%8F%AD%E5%AF%86%E6%97%A5%E3%80%8B%EF%BC%9A%E7%95%B6%E7%B6%93%E5%85%B8%E6%8B%9B%E5%BC%8F%E8%AE%8A%E7%82%BA%E6%A8%A1%E5%BC%8F%EF%BC%8C%E9%9B%A2%E7%A5%9E%E4%BD%9C%E5%83%85%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%99?section=art&category=williamzhu
+                    - img "《揭密日》：當經典招式變為模式，離神作僅..." [ref=f54e1325] [cursor=pointer]
+              - listitem [ref=f54e1326]:
+                - generic [ref=f54e1327]:
+                  - paragraph [ref=f54e1328]:
+                    - link "Art & Culture" [ref=f54e1329] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/art
+                  - heading [level=6] [ref=f54e1330]:
+                    - link "「M+修復」三部香港經典電影：《籠民》《..." [ref=f54e1331] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/402876/%E3%80%8CM%2B%E4%BF%AE%E5%BE%A9%E3%80%8D%E4%B8%89%E9%83%A8%E9%A6%99%E6%B8%AF%E7%B6%93%E5%85%B8%E9%9B%BB%E5%BD%B1%EF%BC%9A%E3%80%8A%E7%B1%A0%E6%B0%91%E3%80%8B%E3%80%8A%E7%BE%8E%E5%9C%8B%E5%BF%83%E3%80%8B%E3%80%8A%E8%9D%B6%E8%AE%8A%E3%80%8B%EF%BC%8C%E9%87%8D%E6%96%B0%E6%84%9F%E5%8F%97%E9%9B%BB%E5%BD%B1%E7%9A%84%E6%99%82%E4%BB%A3%E6%84%8F%E7%BE%A9?section=art&category=artfeature
+                - generic [ref=f54e1332]:
+                  - link "「M+修復」三部香港經典電影：《籠民》《...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/402876/%E3%80%8CM%2B%E4%BF%AE%E5%BE%A9%E3%80%8D%E4%B8%89%E9%83%A8%E9%A6%99%E6%B8%AF%E7%B6%93%E5%85%B8%E9%9B%BB%E5%BD%B1%EF%BC%9A%E3%80%8A%E7%B1%A0%E6%B0%91%E3%80%8B%E3%80%8A%E7%BE%8E%E5%9C%8B%E5%BF%83%E3%80%8B%E3%80%8A%E8%9D%B6%E8%AE%8A%E3%80%8B%EF%BC%8C%E9%87%8D%E6%96%B0%E6%84%9F%E5%8F%97%E9%9B%BB%E5%BD%B1%E7%9A%84%E6%99%82%E4%BB%A3%E6%84%8F%E7%BE%A9?section=art&category=artfeature
+                    - img "「M+修復」三部香港經典電影：《籠民》《..." [ref=f54e1333] [cursor=pointer]
+              - listitem [ref=f54e1334]:
+                - generic [ref=f54e1335]:
+                  - paragraph [ref=f54e1336]:
+                    - link "Fashion & Beauty" [ref=f54e1337] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/fashion_and_beauty
+                  - heading [level=6] [ref=f54e1338]:
+                    - link "開箱Estée Lauder Doubl..." [ref=f54e1339] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403024/%E9%96%8B%E7%AE%B1Est%C3%A9e+Lauder+Double+Wear%E9%9B%B6%E9%87%8D%E6%9F%94%E8%82%8C%E6%8C%81%E4%B9%85%E6%B0%A3%E5%A2%8A%E7%B2%89%E5%BA%95%EF%BC%9A%E8%BC%95%E6%9F%94%E9%9B%B2%E9%9C%A7%E5%85%89%E5%A6%9D%E6%84%9F%EF%BC%8C%E5%A4%8F%E6%97%A5%E5%BA%95%E5%A6%9D%E7%84%A1%E8%B2%A0%E6%93%94%EF%BC%81?section=fashion_and_beauty&category=beautyfeature
+                - generic [ref=f54e1340]:
+                  - link "開箱Estée Lauder Doubl...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403024/%E9%96%8B%E7%AE%B1Est%C3%A9e+Lauder+Double+Wear%E9%9B%B6%E9%87%8D%E6%9F%94%E8%82%8C%E6%8C%81%E4%B9%85%E6%B0%A3%E5%A2%8A%E7%B2%89%E5%BA%95%EF%BC%9A%E8%BC%95%E6%9F%94%E9%9B%B2%E9%9C%A7%E5%85%89%E5%A6%9D%E6%84%9F%EF%BC%8C%E5%A4%8F%E6%97%A5%E5%BA%95%E5%A6%9D%E7%84%A1%E8%B2%A0%E6%93%94%EF%BC%81?section=fashion_and_beauty&category=beautyfeature
+                    - img "開箱Estée Lauder Doubl..." [ref=f54e1341] [cursor=pointer]
+              - listitem [ref=f54e1342]:
+                - generic [ref=f54e1343]:
+                  - paragraph [ref=f54e1344]:
+                    - link "Fashion & Beauty" [ref=f54e1345] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/fashion_and_beauty
+                  - heading [level=6] [ref=f54e1346]:
+                    - link "香港強冷氣保暖救星到 BTS V 的腰間..." [ref=f54e1347] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403021/%E9%A6%99%E6%B8%AF%E5%BC%B7%E5%86%B7%E6%B0%A3%E4%BF%9D%E6%9A%96%E6%95%91%E6%98%9F%E5%88%B0+BTS+V+%E7%9A%84%E8%85%B0%E9%96%93%E5%AF%86%E7%A2%BC%EF%BC%9F%E5%90%8D%E7%89%8C%E7%B5%B2%E5%B7%BE%E6%88%90%E4%BD%8E%E6%88%90%E6%9C%AC%E3%80%81%E9%AB%98%E5%9B%9E%E5%A0%B1%E7%9A%84%E6%99%82%E5%B0%9A%E9%81%93%E5%85%B7%EF%BC%8C%E6%93%BA%E8%84%AB%E9%98%BF%E5%A7%90%E8%80%81%E5%9C%9F%E5%AE%BF%E5%91%BD%EF%BC%81?section=fashion_and_beauty&category=onkichan
+                - generic [ref=f54e1348]:
+                  - link "香港強冷氣保暖救星到 BTS V 的腰間...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403021/%E9%A6%99%E6%B8%AF%E5%BC%B7%E5%86%B7%E6%B0%A3%E4%BF%9D%E6%9A%96%E6%95%91%E6%98%9F%E5%88%B0+BTS+V+%E7%9A%84%E8%85%B0%E9%96%93%E5%AF%86%E7%A2%BC%EF%BC%9F%E5%90%8D%E7%89%8C%E7%B5%B2%E5%B7%BE%E6%88%90%E4%BD%8E%E6%88%90%E6%9C%AC%E3%80%81%E9%AB%98%E5%9B%9E%E5%A0%B1%E7%9A%84%E6%99%82%E5%B0%9A%E9%81%93%E5%85%B7%EF%BC%8C%E6%93%BA%E8%84%AB%E9%98%BF%E5%A7%90%E8%80%81%E5%9C%9F%E5%AE%BF%E5%91%BD%EF%BC%81?section=fashion_and_beauty&category=onkichan
+                    - img "香港強冷氣保暖救星到 BTS V 的腰間..." [ref=f54e1349] [cursor=pointer]
+              - listitem [ref=f54e1350]:
+                - generic [ref=f54e1351]:
+                  - paragraph [ref=f54e1352]:
+                    - link "Fashion & Beauty" [ref=f54e1353] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/fashion_and_beauty
+                  - heading [level=6] [ref=f54e1354]:
+                    - link "一膏多用的極致！Prada柔霧多用胭脂膏..." [ref=f54e1355] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403016/%E4%B8%80%E8%86%8F%E5%A4%9A%E7%94%A8%E7%9A%84%E6%A5%B5%E8%87%B4%EF%BC%81Prada%E6%9F%94%E9%9C%A7%E5%A4%9A%E7%94%A8%E8%83%AD%E8%84%82%E8%86%8F%E7%B3%BB%E5%88%97%EF%BC%9A%E9%AB%98%E7%B4%9A%E8%B2%B4%E5%A9%A6%E8%88%AC%E7%9A%84%E6%B8%85%E9%80%8F%E6%84%9F?section=fashion_and_beauty&category=beautyfeature
+                - generic [ref=f54e1356]:
+                  - link "一膏多用的極致！Prada柔霧多用胭脂膏...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403016/%E4%B8%80%E8%86%8F%E5%A4%9A%E7%94%A8%E7%9A%84%E6%A5%B5%E8%87%B4%EF%BC%81Prada%E6%9F%94%E9%9C%A7%E5%A4%9A%E7%94%A8%E8%83%AD%E8%84%82%E8%86%8F%E7%B3%BB%E5%88%97%EF%BC%9A%E9%AB%98%E7%B4%9A%E8%B2%B4%E5%A9%A6%E8%88%AC%E7%9A%84%E6%B8%85%E9%80%8F%E6%84%9F?section=fashion_and_beauty&category=beautyfeature
+                    - img "一膏多用的極致！Prada柔霧多用胭脂膏..." [ref=f54e1357] [cursor=pointer]
+              - listitem [ref=f54e1358]:
+                - generic [ref=f54e1359]:
+                  - paragraph [ref=f54e1360]:
+                    - link "Fashion & Beauty" [ref=f54e1361] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/fashion_and_beauty
+                  - heading [level=6] [ref=f54e1362]:
+                    - link "如女神般美艷！細看Zendaya出席《O..." [ref=f54e1363] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403343/%E5%A6%82%E5%A5%B3%E7%A5%9E%E8%88%AC%E7%BE%8E%E8%89%B7%EF%BC%81%E7%B4%B0%E7%9C%8BZendaya%E5%87%BA%E5%B8%AD%E3%80%8AOdyssey%E3%80%8B%E5%AE%A3%E5%82%B3%E9%80%A0%E5%9E%8B%E7%84%A6%E9%BB%9E%EF%BC%8C%E5%90%91%E5%8F%A4%E5%85%B8%E5%B8%8C%E8%87%98%E7%BE%8E%E5%AD%B8%E8%87%B4%E6%95%AC?section=fashion_and_beauty&category=fashionfeature
+                - generic [ref=f54e1364]:
+                  - link "如女神般美艷！細看Zendaya出席《O...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403343/%E5%A6%82%E5%A5%B3%E7%A5%9E%E8%88%AC%E7%BE%8E%E8%89%B7%EF%BC%81%E7%B4%B0%E7%9C%8BZendaya%E5%87%BA%E5%B8%AD%E3%80%8AOdyssey%E3%80%8B%E5%AE%A3%E5%82%B3%E9%80%A0%E5%9E%8B%E7%84%A6%E9%BB%9E%EF%BC%8C%E5%90%91%E5%8F%A4%E5%85%B8%E5%B8%8C%E8%87%98%E7%BE%8E%E5%AD%B8%E8%87%B4%E6%95%AC?section=fashion_and_beauty&category=fashionfeature
+                    - img "如女神般美艷！細看Zendaya出席《O..." [ref=f54e1365] [cursor=pointer]
+              - listitem [ref=f54e1366]:
+                - generic [ref=f54e1367]:
+                  - paragraph [ref=f54e1368]:
+                    - link "Travel & Dining" [ref=f54e1369] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/travel
+                  - heading [level=6] [ref=f54e1370]:
+                    - link "「亞洲 50 最佳酒吧」揭曉！Hope ..." [ref=f54e1371] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403369/%E3%80%8C%E4%BA%9E%E6%B4%B2+50+%E6%9C%80%E4%BD%B3%E9%85%92%E5%90%A7%E3%80%8D%E6%8F%AD%E6%9B%89%EF%BC%81Hope+%26+Sesame+%E5%A5%AA%E5%86%A0%E3%80%81Bar+Leone+%E6%8E%92%E5%90%8D%E7%AC%AC%E4%B8%89%E3%80%81%E9%A6%99%E6%B8%AF7%E9%96%93%E9%85%92%E5%90%A7%E4%B8%8A%E6%A6%9C?section=travel&category=travelfeature
+                - generic [ref=f54e1372]:
+                  - link "「亞洲 50 最佳酒吧」揭曉！Hope ...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403369/%E3%80%8C%E4%BA%9E%E6%B4%B2+50+%E6%9C%80%E4%BD%B3%E9%85%92%E5%90%A7%E3%80%8D%E6%8F%AD%E6%9B%89%EF%BC%81Hope+%26+Sesame+%E5%A5%AA%E5%86%A0%E3%80%81Bar+Leone+%E6%8E%92%E5%90%8D%E7%AC%AC%E4%B8%89%E3%80%81%E9%A6%99%E6%B8%AF7%E9%96%93%E9%85%92%E5%90%A7%E4%B8%8A%E6%A6%9C?section=travel&category=travelfeature
+                    - img "「亞洲 50 最佳酒吧」揭曉！Hope ..." [ref=f54e1373] [cursor=pointer]
+              - listitem [ref=f54e1374]:
+                - generic [ref=f54e1375]:
+                  - paragraph [ref=f54e1376]:
+                    - link "Art & Culture" [ref=f54e1377] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/art
+                  - heading [level=6] [ref=f54e1378]:
+                    - link "難堪的真相：《印象派女孩》與《愛的綠洲》" [ref=f54e1379] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403338/%E9%9B%A3%E5%A0%AA%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E3%80%8A%E5%8D%B0%E8%B1%A1%E6%B4%BE%E5%A5%B3%E5%AD%A9%E3%80%8B%E8%88%87%E3%80%8A%E6%84%9B%E7%9A%84%E7%B6%A0%E6%B4%B2%E3%80%8B?section=art&category=artfeature
+                - generic [ref=f54e1380]:
+                  - link "難堪的真相：《印象派女孩》與《愛的綠洲》":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403338/%E9%9B%A3%E5%A0%AA%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E3%80%8A%E5%8D%B0%E8%B1%A1%E6%B4%BE%E5%A5%B3%E5%AD%A9%E3%80%8B%E8%88%87%E3%80%8A%E6%84%9B%E7%9A%84%E7%B6%A0%E6%B4%B2%E3%80%8B?section=art&category=artfeature
+                    - img "難堪的真相：《印象派女孩》與《愛的綠洲》" [ref=f54e1381] [cursor=pointer]
+              - listitem [ref=f54e1382]:
+                - generic [ref=f54e1383]:
+                  - paragraph [ref=f54e1384]:
+                    - link "Art & Culture" [ref=f54e1385] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/art
+                  - heading [level=6] [ref=f54e1386]:
+                    - link "格蘭·里根首爾個展「黑月」：在黑色器物中..." [ref=f54e1387] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403363/%E6%A0%BC%E8%98%AD%C2%B7%E9%87%8C%E6%A0%B9%E9%A6%96%E7%88%BE%E5%80%8B%E5%B1%95%E3%80%8C%E9%BB%91%E6%9C%88%E3%80%8D%EF%BC%9A%E5%9C%A8%E9%BB%91%E8%89%B2%E5%99%A8%E7%89%A9%E4%B8%AD%EF%BC%8C%E5%87%9D%E8%A6%96%E6%AD%B7%E5%8F%B2%E7%9A%84%E6%B2%89%E9%BB%98?section=art&category=artfeature
+                - generic [ref=f54e1388]:
+                  - link "格蘭·里根首爾個展「黑月」：在黑色器物中...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403363/%E6%A0%BC%E8%98%AD%C2%B7%E9%87%8C%E6%A0%B9%E9%A6%96%E7%88%BE%E5%80%8B%E5%B1%95%E3%80%8C%E9%BB%91%E6%9C%88%E3%80%8D%EF%BC%9A%E5%9C%A8%E9%BB%91%E8%89%B2%E5%99%A8%E7%89%A9%E4%B8%AD%EF%BC%8C%E5%87%9D%E8%A6%96%E6%AD%B7%E5%8F%B2%E7%9A%84%E6%B2%89%E9%BB%98?section=art&category=artfeature
+                    - img "格蘭·里根首爾個展「黑月」：在黑色器物中..." [ref=f54e1389] [cursor=pointer]
+              - listitem [ref=f54e1390]:
+                - generic [ref=f54e1391]:
+                  - paragraph [ref=f54e1392]:
+                    - link "Art & Culture" [ref=f54e1393] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/art
+                  - heading [level=6] [ref=f54e1394]:
+                    - link "《實衣與山田小姐》動畫化：救贖者的無力感 新文章" [ref=f54e1395] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403528/%E3%80%8A%E5%AF%A6%E8%A1%A3%E8%88%87%E5%B1%B1%E7%94%B0%E5%B0%8F%E5%A7%90%E3%80%8B%E5%8B%95%E7%95%AB%E5%8C%96%EF%BC%9A%E6%95%91%E8%B4%96%E8%80%85%E7%9A%84%E7%84%A1%E5%8A%9B%E6%84%9F?section=art&category=artfeature
+                      - text: 《實衣與山田小姐》動畫化：救贖者的無力感
+                      - generic [ref=f54e1396]: 新文章
+                - generic [ref=f54e1397]:
+                  - link "《實衣與山田小姐》動畫化：救贖者的無力感":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403528/%E3%80%8A%E5%AF%A6%E8%A1%A3%E8%88%87%E5%B1%B1%E7%94%B0%E5%B0%8F%E5%A7%90%E3%80%8B%E5%8B%95%E7%95%AB%E5%8C%96%EF%BC%9A%E6%95%91%E8%B4%96%E8%80%85%E7%9A%84%E7%84%A1%E5%8A%9B%E6%84%9F?section=art&category=artfeature
+                    - img "《實衣與山田小姐》動畫化：救贖者的無力感" [ref=f54e1398] [cursor=pointer]
+              - listitem [ref=f54e1399]:
+                - generic [ref=f54e1400]:
+                  - paragraph [ref=f54e1401]:
+                    - link "Fashion & Beauty" [ref=f54e1402] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/fashion_and_beauty
+                  - heading [level=6] [ref=f54e1403]:
+                    - link "夏日唇妝推介！Hourglass Pha... 新文章" [ref=f54e1404] [cursor=pointer]:
+                      - /url: https://www.etnet.com.hk/www/tc/diva/403534/%E5%A4%8F%E6%97%A5%E5%94%87%E5%A6%9D%E6%8E%A8%E4%BB%8B%EF%BC%81Hourglass+Phantom+Blur+Balm%E3%80%81Huda+Beauty%E6%B6%B2%E9%AB%94%E5%95%9E%E5%85%89%E6%85%95%E7%B5%B2%E5%94%87%E6%B3%A5%E3%80%81KANEBO+%E6%8C%81%E8%89%B2%E9%AD%85%E5%85%89%E5%A1%91%E5%BD%A2%E5%94%87%E8%86%8F?section=fashion_and_beauty&category=beautyfeature
+                      - text: 夏日唇妝推介！Hourglass Pha...
+                      - generic [ref=f54e1405]: 新文章
+                - generic [ref=f54e1406]:
+                  - link "夏日唇妝推介！Hourglass Pha...":
+                    - /url: https://www.etnet.com.hk/www/tc/diva/403534/%E5%A4%8F%E6%97%A5%E5%94%87%E5%A6%9D%E6%8E%A8%E4%BB%8B%EF%BC%81Hourglass+Phantom+Blur+Balm%E3%80%81Huda+Beauty%E6%B6%B2%E9%AB%94%E5%95%9E%E5%85%89%E6%85%95%E7%B5%B2%E5%94%87%E6%B3%A5%E3%80%81KANEBO+%E6%8C%81%E8%89%B2%E9%AD%85%E5%85%89%E5%A1%91%E5%BD%A2%E5%94%87%E8%86%8F?section=fashion_and_beauty&category=beautyfeature
+                    - img "夏日唇妝推介！Hourglass Pha..." [ref=f54e1407] [cursor=pointer]
+              - listitem [ref=f54e1408]:
+                - link "More" [ref=f54e1409] [cursor=pointer]:
+                  - /url: https://www.etnet.com.hk/www/tc/diva/list/hot10
+  - generic [ref=f54e1411]:
+    - generic [ref=f54e1412]:
+      - generic [ref=f54e1413]:
+        - link "Youtube":
+          - /url: https://www.youtube.com/user/etnethk
+          - img "Youtube" [ref=f54e1414] [cursor=pointer]
+        - link "Facebook":
+          - /url: https://www.facebook.com/profile.php?id=61566582185329
+          - img "Facebook" [ref=f54e1415] [cursor=pointer]
+        - link "Instagram":
+          - /url: https://www.instagram.com/etnet.hk/
+          - img "Instagram" [ref=f54e1416] [cursor=pointer]
+      - generic [ref=f54e1418]:
+        - generic [ref=f54e1419]: etnet.com.hk
+        - generic [ref=f54e1420]: news 新聞
+        - generic [ref=f54e1421]: stocks 股票
+        - generic [ref=f54e1422]: futures 期貨期權
+        - generic [ref=f54e1423]: warrants 權證
+        - generic [ref=f54e1424]: ETF 交易所買賣基金
+        - generic [ref=f54e1425]: us-stocks 美股
+        - generic [ref=f54e1426]: ashares A股
+        - generic [ref=f54e1427]: forex 外匯黃金
+        - generic [ref=f54e1428]: bitcoin 加密貨幣
+        - generic [ref=f54e1429]: funds 基金
+        - generic [ref=f54e1430]: ETF 交易所買賣基金
+    - generic [ref=f54e1433]:
+      - list [ref=f54e1434]:
+        - listitem [ref=f54e1435]:
+          - paragraph [ref=f54e1436] [cursor=pointer]:
+            - link "etnet TV" [ref=f54e1437]:
+              - /url: /www/tc/video/
+          - paragraph
+          - paragraph [ref=f54e1438]:
+            - link "最新影片" [ref=f54e1439] [cursor=pointer]:
+              - /url: /www/tc/video/
+          - paragraph [ref=f54e1440]:
+            - link "人氣影片" [ref=f54e1441] [cursor=pointer]:
+              - /url: /www/tc/video/hot/
+          - paragraph [ref=f54e1442]:
+            - link "hot talk 1點鐘" [ref=f54e1443] [cursor=pointer]:
+              - /url: /www/tc/video/hottalk
+          - paragraph [ref=f54e1444]:
+            - link "開市Good Morning" [ref=f54e1445] [cursor=pointer]:
+              - /url: /www/tc/video/goodmorning
+          - paragraph [ref=f54e1446]:
+            - link "1周部署" [ref=f54e1447] [cursor=pointer]:
+              - /url: /www/tc/video/weeklyinsights
+          - paragraph [ref=f54e1448]:
+            - link "ETF攻略" [ref=f54e1449] [cursor=pointer]:
+              - /url: /www/tc/video/marketclose
+          - paragraph [ref=f54e1450]:
+            - link "政經專訪" [ref=f54e1451] [cursor=pointer]:
+              - /url: /www/tc/video/moneychat
+          - paragraph [ref=f54e1452]:
+            - link "一本萬利" [ref=f54e1453] [cursor=pointer]:
+              - /url: /www/tc/video/afortune
+          - paragraph [ref=f54e1454]:
+            - link "大國博弈" [ref=f54e1455] [cursor=pointer]:
+              - /url: /www/tc/video/chinausrelations
+          - paragraph [ref=f54e1456]:
+            - link "3分鐘熱炒股點評" [ref=f54e1457] [cursor=pointer]:
+              - /url: /www/tc/video/3minstock
+          - paragraph [ref=f54e1458]:
+            - link "風水蔣知識" [ref=f54e1459] [cursor=pointer]:
+              - /url: /www/tc/video/fengshui
+          - paragraph [ref=f54e1460]:
+            - link "Call Me Doctor" [ref=f54e1461] [cursor=pointer]:
+              - /url: /www/tc/video/callmedoctor
+          - paragraph [ref=f54e1462]:
+            - link "Kaman生活研究所" [ref=f54e1463] [cursor=pointer]:
+              - /url: /www/tc/video/kamaninstitute
+          - paragraph [ref=f54e1464]:
+            - link "說說心理話" [ref=f54e1465] [cursor=pointer]:
+              - /url: /www/tc/video/psychotalk
+          - paragraph [ref=f54e1466]:
+            - link "得閒拉筋 得閒Build肌" [ref=f54e1467] [cursor=pointer]:
+              - /url: /www/tc/video/stretching
+          - paragraph [ref=f54e1468]:
+            - link "健康談性．嘉點情趣" [ref=f54e1469] [cursor=pointer]:
+              - /url: /www/tc/video/loveandsex
+          - paragraph [ref=f54e1470]:
+            - link "洪灝策略" [ref=f54e1471] [cursor=pointer]:
+              - /url: /www/tc/video/haohong
+          - paragraph [ref=f54e1472]:
+            - link "健康達人" [ref=f54e1473] [cursor=pointer]:
+              - /url: /www/tc/video/healthsharing
+          - paragraph [ref=f54e1474]:
+            - link "與拍賣官看藝術" [ref=f54e1475] [cursor=pointer]:
+              - /url: /www/tc/video/auctioneer
+          - paragraph [ref=f54e1476]:
+            - link "易經看世界" [ref=f54e1477] [cursor=pointer]:
+              - /url: /www/tc/video/yijing
+          - paragraph [ref=f54e1478]:
+            - link "師傅靈靈法" [ref=f54e1479] [cursor=pointer]:
+              - /url: /www/tc/video/cfulinglingfat
+          - paragraph [ref=f54e1480]:
+            - link "山今養生智慧" [ref=f54e1481] [cursor=pointer]:
+              - /url: /www/tc/video/plalfkwolxfkzqo5q6eu
+          - paragraph [ref=f54e1482]:
+            - link "1分鐘學投資" [ref=f54e1483] [cursor=pointer]:
+              - /url: /www/tc/video/1mininvestment
+          - paragraph [ref=f54e1484]:
+            - link "練好基本功" [ref=f54e1485] [cursor=pointer]:
+              - /url: /www/tc/video/basicinvestment
+          - paragraph [ref=f54e1486]:
+            - link "etnet財經．生活App操作教學" [ref=f54e1487] [cursor=pointer]:
+              - /url: /www/tc/video/etnetapp
+          - paragraph [ref=f54e1488]:
+            - link "MQ操作教學" [ref=f54e1489] [cursor=pointer]:
+              - /url: /www/tc/video/mqproapp
+          - paragraph [ref=f54e1490]:
+            - link "IQ操作教學" [ref=f54e1491] [cursor=pointer]:
+              - /url: /www/tc/video/iq
+          - paragraph [ref=f54e1492]:
+            - link "有種生活" [ref=f54e1493] [cursor=pointer]:
+              - /url: /www/tc/video/newstopic
+          - paragraph [ref=f54e1494]:
+            - link "吃喝玩樂" [ref=f54e1495] [cursor=pointer]:
+              - /url: /www/tc/video/fun
+          - paragraph [ref=f54e1496]:
+            - link "時尚潮流" [ref=f54e1497] [cursor=pointer]:
+              - /url: /www/tc/video/fashion
+          - paragraph [ref=f54e1498]:
+            - link "產品及服務" [ref=f54e1499] [cursor=pointer]:
+              - /url: /www/tc/video/product
+        - listitem [ref=f54e1500]:
+          - paragraph [ref=f54e1501] [cursor=pointer]:
+            - text: 新聞
+            - generic [ref=f54e1502]: "N"
+          - paragraph [ref=f54e1503]:
+            - link "主頁" [ref=f54e1504] [cursor=pointer]:
+              - /url: /www/tc/news/index.php
+          - paragraph [ref=f54e1505]:
+            - link "專題透視" [ref=f54e1506] [cursor=pointer]:
+              - /url: /www/tc/news/topic_news.php
+          - paragraph [ref=f54e1507]:
+            - link "焦點新聞" [ref=f54e1508] [cursor=pointer]:
+              - /url: /www/tc/news/special_news.php
+          - paragraph [ref=f54e1509]:
+            - link "即時新聞" [ref=f54e1510] [cursor=pointer]:
+              - /url: /www/tc/news/categorized_news.php
+          - paragraph [ref=f54e1511]:
+            - link "評論" [ref=f54e1512] [cursor=pointer]:
+              - /url: /www/tc/news/commentary.php
+          - paragraph [ref=f54e1513]:
+            - link "圖片新聞" [ref=f54e1514] [cursor=pointer]:
+              - /url: /www/tc/news/photo_news.php
+          - paragraph [ref=f54e1515]:
+            - link "傳聞" [ref=f54e1516] [cursor=pointer]:
+              - /url: /www/tc/news/rumours_list.php
+          - paragraph [ref=f54e1517]:
+            - link "貼士" [ref=f54e1518] [cursor=pointer]:
+              - /url: /www/tc/news/tips.php
+          - paragraph [ref=f54e1519]:
+            - link "港交所新聞" [ref=f54e1520] [cursor=pointer]:
+              - /url: /www/tc/news/hkex_news_list.php
+          - paragraph [ref=f54e1521]:
+            - link "搜尋" [ref=f54e1522] [cursor=pointer]:
+              - /url: /www/tc/news/news_search.php
+          - paragraph [ref=f54e1523]:
+            - link "透視大灣區" [ref=f54e1524] [cursor=pointer]:
+              - /url: /www/tc/news/supplement_greater_bay_area.php
+          - paragraph [ref=f54e1525]:
+            - link "理財easy叻" [ref=f54e1526] [cursor=pointer]:
+              - /url: /www/tc/news/../wealth/feature.php
+        - listitem [ref=f54e1527]:
+          - paragraph [ref=f54e1528] [cursor=pointer]: 股票
+          - paragraph [ref=f54e1529]:
+            - link "主頁" [ref=f54e1530] [cursor=pointer]:
+              - /url: /www/tc/stocks/realtime/index.php
+          - paragraph [ref=f54e1531]:
+            - link "即時報價" [ref=f54e1532] [cursor=pointer]:
+              - /url: /www/tc/stocks/realtime/quote.php?code=1
+          - paragraph [ref=f54e1533]:
+            - link "指數 N" [ref=f54e1534] [cursor=pointer]:
+              - /url: /www/tc/stocks/indexes_main.php
+              - text: 指數
+              - generic [ref=f54e1535]: "N"
+          - paragraph [ref=f54e1536]:
+            - link "行業" [ref=f54e1537] [cursor=pointer]:
+              - /url: /www/tc/stocks/industry.php
+          - paragraph [ref=f54e1538]:
+            - link "20大股票" [ref=f54e1539] [cursor=pointer]:
+              - /url: /www/tc/stocks/realtime/top20.php
+          - paragraph [ref=f54e1540]:
+            - link "創新高" [ref=f54e1541] [cursor=pointer]:
+              - /url: /www/tc/stocks/breakrecord.php
+          - paragraph [ref=f54e1542]:
+            - link "賣空" [ref=f54e1543] [cursor=pointer]:
+              - /url: /www/tc/stocks/ci_act_sell.php
+          - paragraph [ref=f54e1544]:
+            - link "熱炒概念股" [ref=f54e1545] [cursor=pointer]:
+              - /url: /www/tc/stocks/sector_hot.php
+          - paragraph [ref=f54e1546]:
+            - link "AH股" [ref=f54e1547] [cursor=pointer]:
+              - /url: /www/tc/stocks/ah.php
+          - paragraph [ref=f54e1548]:
+            - link "IPO" [ref=f54e1549] [cursor=pointer]:
+              - /url: /www/tc/stocks/ipo-calendar.php
+          - paragraph [ref=f54e1550]:
+            - link "公司資料庫" [ref=f54e1551] [cursor=pointer]:
+              - /url: /www/tc/stocks/ci_database.php
+          - paragraph [ref=f54e1552]:
+            - link "多櫃台" [ref=f54e1553] [cursor=pointer]:
+              - /url: /www/tc/stocks/sector_multicounter.php
+        - listitem [ref=f54e1554]:
+          - paragraph [ref=f54e1555] [cursor=pointer]: 期貨期權
+          - paragraph [ref=f54e1556]:
+            - link "即時指數期貨" [ref=f54e1557] [cursor=pointer]:
+              - /url: /www/tc/futures/index.php
+          - paragraph [ref=f54e1558]:
+            - link "即時股票期貨" [ref=f54e1559] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_stockfutures.php
+          - paragraph [ref=f54e1560]:
+            - link "即時期權" [ref=f54e1561] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_stockoptions.php
+          - paragraph [ref=f54e1562]:
+            - link "新聞及評論" [ref=f54e1563] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_news.php
+          - paragraph [ref=f54e1564]:
+            - link "即時圖表分析" [ref=f54e1565] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_chart_interactive.php
+          - paragraph [ref=f54e1566]:
+            - link "即時監察表" [ref=f54e1567] [cursor=pointer]:
+              - /url: /www/tc/futures/futures_watchlist.php
+        - listitem [ref=f54e1568]:
+          - paragraph [ref=f54e1569] [cursor=pointer]: 權證
+          - paragraph [ref=f54e1570]:
+            - link "權證主頁" [ref=f54e1571] [cursor=pointer]:
+              - /url: /www/tc/warrants/realtime/index.php
+          - paragraph [ref=f54e1572]:
+            - link "新聞及評論" [ref=f54e1573] [cursor=pointer]:
+              - /url: /www/tc/warrants/news.php
+          - paragraph [ref=f54e1574]:
+            - link "即時報價" [ref=f54e1575] [cursor=pointer]:
+              - /url: /www/tc/warrants/realtime/quote.php?code=29824
+          - paragraph [ref=f54e1576]:
+            - link "搜尋" [ref=f54e1577] [cursor=pointer]:
+              - /url: /www/tc/warrants/search_cbbc_hsi.php
+          - paragraph [ref=f54e1578]:
+            - link "成交分析" [ref=f54e1579] [cursor=pointer]:
+              - /url: /www/tc/warrants/turnover.php
+          - paragraph [ref=f54e1580]:
+            - link "即時20大排行" [ref=f54e1581] [cursor=pointer]:
+              - /url: /www/tc/warrants/realtime/top20.php
+          - paragraph [ref=f54e1582]:
+            - link "發行商精選" [ref=f54e1583] [cursor=pointer]:
+              - /url: /www/tc/warrants/warrant_issuer_pick.php
+          - paragraph [ref=f54e1584]:
+            - link "新上市／到期" [ref=f54e1585] [cursor=pointer]:
+              - /url: /www/tc/warrants/memo_newly.php
+          - paragraph [ref=f54e1586]:
+            - link "教室" [ref=f54e1587] [cursor=pointer]:
+              - /url: /www/tc/warrants/education_benny.php
+        - listitem [ref=f54e1588]:
+          - paragraph [ref=f54e1589] [cursor=pointer]: ETF
+          - paragraph [ref=f54e1590]:
+            - link "主頁" [ref=f54e1591] [cursor=pointer]:
+              - /url: /www/tc/etf/index.php
+          - paragraph [ref=f54e1592]:
+            - link "ETF市場研究所" [ref=f54e1593] [cursor=pointer]:
+              - /url: /www/tc/etf/research
+          - paragraph [ref=f54e1594]:
+            - link "主題" [ref=f54e1595] [cursor=pointer]:
+              - /url: /www/tc/etf/hk-theme
+          - paragraph [ref=f54e1596]:
+            - link "報價" [ref=f54e1597] [cursor=pointer]:
+              - /url: /www/tc/etf/quote
+          - paragraph [ref=f54e1598]:
+            - link "篩選器" [ref=f54e1599] [cursor=pointer]:
+              - /url: /www/tc/etf/stock-screener
+          - paragraph [ref=f54e1600]:
+            - link "比較" [ref=f54e1601] [cursor=pointer]:
+              - /url: /www/tc/etf/compare
+          - paragraph [ref=f54e1602]:
+            - link "新聞及評論" [ref=f54e1603] [cursor=pointer]:
+              - /url: /www/tc/etf/news
+          - paragraph [ref=f54e1604]:
+            - link "美股ETF" [ref=f54e1605] [cursor=pointer]:
+              - /url: /www/tc/etf/../us-stocks/screener-etf.php
+          - paragraph [ref=f54e1606]:
+            - link "美股ETF報價" [ref=f54e1607] [cursor=pointer]:
+              - /url: /www/tc/etf/../us-stocks/quote/VOO
+      - list [ref=f54e1608]:
+        - listitem [ref=f54e1609]:
+          - paragraph [ref=f54e1610] [cursor=pointer]: 美股
+          - paragraph [ref=f54e1611]:
+            - link "主頁" [ref=f54e1612] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/
+          - paragraph [ref=f54e1613]:
+            - link "環球指數" [ref=f54e1614] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/global-indexes
+          - paragraph [ref=f54e1615]:
+            - link "宏觀數據" [ref=f54e1616] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/macro-data
+          - paragraph [ref=f54e1617]:
+            - link "新聞" [ref=f54e1618] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/news
+          - paragraph [ref=f54e1619]:
+            - link "行業" [ref=f54e1620] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/industry
+          - paragraph [ref=f54e1621]:
+            - link "概念" [ref=f54e1622] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/sector.php
+          - paragraph [ref=f54e1623]:
+            - link "20大股票" [ref=f54e1624] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/top20.php
+          - paragraph [ref=f54e1625]:
+            - link "創新高低" [ref=f54e1626] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/newhighs.php
+          - paragraph [ref=f54e1627]:
+            - link "選股策略" [ref=f54e1628] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/strategy.php
+          - paragraph [ref=f54e1629]:
+            - link "篩選器" [ref=f54e1630] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/screener.php
+          - paragraph [ref=f54e1631]:
+            - link "報價" [ref=f54e1632] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/quote/AAPL
+          - paragraph [ref=f54e1633]:
+            - link "ETF" [ref=f54e1634] [cursor=pointer]:
+              - /url: /www/tc/us-stocks/screener-etf.php
+        - listitem [ref=f54e1635]:
+          - paragraph [ref=f54e1636] [cursor=pointer]: A股
+          - paragraph [ref=f54e1637]:
+            - link "A股主頁" [ref=f54e1638] [cursor=pointer]:
+              - /url: /www/tc/ashares/index.php
+          - paragraph [ref=f54e1639]:
+            - link "額度" [ref=f54e1640] [cursor=pointer]:
+              - /url: /www/tc/ashares/quota.php
+          - paragraph [ref=f54e1641]:
+            - link "滬深港通" [ref=f54e1642] [cursor=pointer]:
+              - /url: /www/tc/ashares/stockconnect.php?market=sh&type=southbound&subtype=current&view=combine
+          - paragraph [ref=f54e1643]:
+            - link "滬深報價" [ref=f54e1644] [cursor=pointer]:
+              - /url: /www/tc/ashares/quote.php?code=600000
+          - paragraph [ref=f54e1645]:
+            - link "指數" [ref=f54e1646] [cursor=pointer]:
+              - /url: /www/tc/ashares/indexes_china.php
+          - paragraph [ref=f54e1647]:
+            - link "行業" [ref=f54e1648] [cursor=pointer]:
+              - /url: /www/tc/ashares/industry_adu.php
+          - paragraph [ref=f54e1649]:
+            - link "20大股票" [ref=f54e1650] [cursor=pointer]:
+              - /url: /www/tc/ashares/top20.php?market=combine&type=southbound
+          - paragraph [ref=f54e1651]:
+            - link "AH股" [ref=f54e1652] [cursor=pointer]:
+              - /url: /www/tc/ashares/ah.php
+          - paragraph [ref=f54e1653]:
+            - link "風險警示板" [ref=f54e1654] [cursor=pointer]:
+              - /url: /www/tc/ashares/risk_alert_board.php?market=sh
+          - paragraph [ref=f54e1655]:
+            - link "新聞" [ref=f54e1656] [cursor=pointer]:
+              - /url: /www/tc/ashares/news.php
+          - paragraph [ref=f54e1657]:
+            - link "教室" [ref=f54e1658] [cursor=pointer]:
+              - /url: /www/tc/ashares/education_connect.php
+          - paragraph [ref=f54e1659]:
+            - link "公司搜尋" [ref=f54e1660] [cursor=pointer]:
+              - /url: /www/tc/ashares/search.php
+        - listitem [ref=f54e1661]:
+          - paragraph [ref=f54e1662] [cursor=pointer]: 外匯黃金
+          - paragraph [ref=f54e1663]:
+            - link "主頁" [ref=f54e1664] [cursor=pointer]:
+              - /url: /www/tc/forex/index.php
+          - paragraph [ref=f54e1665]:
+            - link "新聞及評論" [ref=f54e1666] [cursor=pointer]:
+              - /url: /www/tc/forex/news
+          - paragraph [ref=f54e1667]:
+            - link "定期存款" [ref=f54e1668] [cursor=pointer]:
+              - /url: /www/tc/forex/deposit-rate.php
+          - paragraph [ref=f54e1669]:
+            - link "銀行外幣兌換" [ref=f54e1670] [cursor=pointer]:
+              - /url: /www/tc/forex/bank-exchange-rate.php
+          - paragraph [ref=f54e1671]:
+            - link "港元匯率" [ref=f54e1672] [cursor=pointer]:
+              - /url: /www/tc/forex/quote-hkd.php
+          - paragraph [ref=f54e1673]:
+            - link "美元匯率" [ref=f54e1674] [cursor=pointer]:
+              - /url: /www/tc/forex/quote-usd.php
+          - paragraph [ref=f54e1675]:
+            - link "貴金屬" [ref=f54e1676] [cursor=pointer]:
+              - /url: /www/tc/forex/quote-commodity.php
+          - paragraph [ref=f54e1677]:
+            - link "經濟數據" [ref=f54e1678] [cursor=pointer]:
+              - /url: /www/tc/forex/economic-major-indicator.php
+          - paragraph [ref=f54e1679]:
+            - link "市場指標" [ref=f54e1680] [cursor=pointer]:
+              - /url: /www/tc/forex/rate-us-yield.php
+          - paragraph [ref=f54e1681]:
+            - link "央行議息時間表" [ref=f54e1682] [cursor=pointer]:
+              - /url: /www/tc/forex/economic-major-indicator.php?indicator=central-bank-rate
+          - paragraph [ref=f54e1683]:
+            - link "HIBOR走勢" [ref=f54e1684] [cursor=pointer]:
+              - /url: /www/tc/forex/rate-hibor.php
+          - paragraph [ref=f54e1685]:
+            - link "最優惠利率" [ref=f54e1686] [cursor=pointer]:
+              - /url: /www/tc/forex/rate-prime.php
+        - listitem [ref=f54e1687]:
+          - paragraph [ref=f54e1688] [cursor=pointer]: 加密貨幣
+          - paragraph [ref=f54e1689]:
+            - link "主頁" [ref=f54e1690] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/
+          - paragraph [ref=f54e1691]:
+            - link "新聞" [ref=f54e1692] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/news
+          - paragraph [ref=f54e1693]:
+            - link "虛幣報價" [ref=f54e1694] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/quote
+          - paragraph [ref=f54e1695]:
+            - link "虛幣ETF" [ref=f54e1696] [cursor=pointer]:
+              - /url: /www/tc/bitcoin/etf
+        - listitem [ref=f54e1697]:
+          - paragraph [ref=f54e1698] [cursor=pointer]: 基金
+          - paragraph [ref=f54e1699]:
+            - link "基金主頁" [ref=f54e1700] [cursor=pointer]:
+              - /url: /www/tc/funds/index.php
+          - paragraph [ref=f54e1701]:
+            - link "基金新聞" [ref=f54e1702] [cursor=pointer]:
+              - /url: /www/tc/funds/news.php
+          - paragraph [ref=f54e1703]:
+            - link "基金排行榜" [ref=f54e1704] [cursor=pointer]:
+              - /url: /www/tc/funds/ranking.php
+          - paragraph [ref=f54e1705]:
+            - link "基金搜尋" [ref=f54e1706] [cursor=pointer]:
+              - /url: /www/tc/funds/search.php
+          - paragraph [ref=f54e1707]:
+            - link "產品登場" [ref=f54e1708] [cursor=pointer]:
+              - /url: /www/tc/funds/prodpromo.php
+          - paragraph [ref=f54e1709]:
+            - link "專家見地" [ref=f54e1710] [cursor=pointer]:
+              - /url: /www/tc/funds/commentary.php
+          - paragraph [ref=f54e1711]:
+            - link "基金數據" [ref=f54e1712] [cursor=pointer]:
+              - /url: /www/tc/funds/statdata.php
+          - paragraph [ref=f54e1713]:
+            - link "RQFII 人民幣基金" [ref=f54e1714] [cursor=pointer]:
+              - /url: /www/tc/funds/rqfii.php
+          - paragraph [ref=f54e1715]:
+            - link "基金互認" [ref=f54e1716] [cursor=pointer]:
+              - /url: /www/tc/funds/mrf.php
+        - listitem [ref=f54e1717]:
+          - paragraph [ref=f54e1718] [cursor=pointer]: MPF
+          - paragraph [ref=f54e1719]:
+            - link "MPF主頁" [ref=f54e1720] [cursor=pointer]:
+              - /url: /www/tc/mpf/index.php
+          - paragraph [ref=f54e1721]:
+            - link "新聞及評論" [ref=f54e1722] [cursor=pointer]:
+              - /url: /www/tc/mpf/news.php
+          - paragraph [ref=f54e1723]:
+            - link "營辦商大比拼" [ref=f54e1724] [cursor=pointer]:
+              - /url: /www/tc/mpf/provider_compare_fer.php
+          - paragraph [ref=f54e1725]:
+            - link "積金報價" [ref=f54e1726] [cursor=pointer]:
+              - /url: /www/tc/mpf/fund_detail.php
+          - paragraph [ref=f54e1727]:
+            - link "積金搜尋" [ref=f54e1728] [cursor=pointer]:
+              - /url: /www/tc/mpf/search_chart.php
+          - paragraph [ref=f54e1729]:
+            - link "積金比較" [ref=f54e1730] [cursor=pointer]:
+              - /url: /www/tc/mpf/compare.php
+          - paragraph [ref=f54e1731]:
+            - link "積金排行榜" [ref=f54e1732] [cursor=pointer]:
+              - /url: /www/tc/mpf/ranking.php
+          - paragraph [ref=f54e1733]:
+            - link "MPF教室" [ref=f54e1734] [cursor=pointer]:
+              - /url: /www/tc/mpf/education.php
+          - paragraph [ref=f54e1735]:
+            - link "我的MPF" [ref=f54e1736] [cursor=pointer]:
+              - /url: /www/tc/mpf/portfolio.php
+        - listitem [ref=f54e1737]:
+          - paragraph [ref=f54e1738] [cursor=pointer]:
+            - link "地產" [ref=f54e1739]:
+              - /url: /www/tc/property/main/index.php
+          - paragraph [ref=f54e1740]:
+            - link "地產頻道首頁" [ref=f54e1741] [cursor=pointer]:
+              - /url: /www/tc/property/main/index.php
+          - paragraph [ref=f54e1742]:
+            - link "新盤登場" [ref=f54e1743] [cursor=pointer]:
+              - /url: /www/tc/property/new_property/index.php
+          - paragraph [ref=f54e1744]:
+            - link "熱門租售盤" [ref=f54e1745] [cursor=pointer]:
+              - /url: /www/tc/property/asking/index.php
+          - paragraph [ref=f54e1746]:
+            - link "成交排行榜" [ref=f54e1747] [cursor=pointer]:
+              - /url: /www/tc/property/transaction/index.php
+          - paragraph [ref=f54e1748]:
+            - link "工商鋪成交" [ref=f54e1749] [cursor=pointer]:
+              - /url: /www/tc/property/oci/index.php
+          - paragraph [ref=f54e1750]:
+            - link "樓市走勢圖" [ref=f54e1751] [cursor=pointer]:
+              - /url: /www/tc/property/price_trend/index.php
+          - paragraph [ref=f54e1752]:
+            - link "地產新聞" [ref=f54e1753] [cursor=pointer]:
+              - /url: /www/tc/news/categorized_news_list.php?category=property
+          - paragraph [ref=f54e1754]:
+            - link "買賣須知" [ref=f54e1755] [cursor=pointer]:
+              - /url: /www/tc/property/supple_reference/procedure.php
+          - paragraph [ref=f54e1756]:
+            - link "網上估價易" [ref=f54e1757] [cursor=pointer]:
+              - /url: /www/tc/property/evaluation/index.php
+          - paragraph [ref=f54e1758]:
+            - link "業主放盤" [ref=f54e1759] [cursor=pointer]:
+              - /url: https://a.eprc.com.hk/s?ETN2EPRC02
+          - paragraph [ref=f54e1760]:
+            - link "免費搵盤" [ref=f54e1761] [cursor=pointer]:
+              - /url: https://a.eprc.com.hk/s?ETN2EPRC03
+      - list [ref=f54e1762]:
+        - listitem [ref=f54e1763]:
+          - paragraph [ref=f54e1764] [cursor=pointer]:
+            - link "生活" [ref=f54e1765]:
+              - /url: /www/tc/lifestyle/index.php
+          - paragraph [ref=f54e1766]:
+            - link "主頁" [ref=f54e1767] [cursor=pointer]:
+              - /url: /www/tc/lifestyle
+          - paragraph [ref=f54e1768]:
+            - link "熱話" [ref=f54e1769] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/hottopic
+          - paragraph [ref=f54e1770]:
+            - link "世事政情" [ref=f54e1771] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/internationalaffairs
+          - paragraph [ref=f54e1772]:
+            - link "財富管理" [ref=f54e1773] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/wealth
+          - paragraph [ref=f54e1774]:
+            - link "辦公室日常" [ref=f54e1775] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/officetips
+          - paragraph [ref=f54e1776]:
+            - link "影視娛樂" [ref=f54e1777] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/filmandentertainment
+          - paragraph [ref=f54e1778]:
+            - link "美食" [ref=f54e1779] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/foodguide
+          - paragraph [ref=f54e1780]:
+            - link "玩樂旅遊" [ref=f54e1781] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/eatandplay
+          - paragraph [ref=f54e1782]:
+            - link "會員專區" [ref=f54e1783] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/etnet
+          - paragraph [ref=f54e1784]:
+            - link "專欄" [ref=f54e1785] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/list/columnist
+          - paragraph [ref=f54e1786]:
+            - link "健康好人生" [ref=f54e1787] [cursor=pointer]:
+              - /url: /www/tc/health/
+          - paragraph [ref=f54e1788]:
+            - link "香港好去處" [ref=f54e1789] [cursor=pointer]:
+              - /url: /www/tc/attraction/index.php
+          - paragraph [ref=f54e1790]:
+            - link "海鮮優惠" [ref=f54e1791] [cursor=pointer]:
+              - /url: /www/tc/lifestyle/worldwide_seafood/index.php
+        - listitem [ref=f54e1792]:
+          - paragraph [ref=f54e1793] [cursor=pointer]:
+            - link "DIVA" [ref=f54e1794]:
+              - /url: /www/tc/diva/index.php
+          - paragraph [ref=f54e1795]:
+            - link "Fashion & Beauty" [ref=f54e1796] [cursor=pointer]:
+              - /url: /www/tc/diva/fashion_and_beauty
+          - paragraph [ref=f54e1797]:
+            - link "Watch & Jewelry" [ref=f54e1798] [cursor=pointer]:
+              - /url: /www/tc/diva/watch
+          - paragraph [ref=f54e1799]:
+            - link "Art & Culture" [ref=f54e1800] [cursor=pointer]:
+              - /url: /www/tc/diva/art
+          - paragraph [ref=f54e1801]:
+            - link "Travel & Dining" [ref=f54e1802] [cursor=pointer]:
+              - /url: /www/tc/diva/travel
+          - paragraph [ref=f54e1803]:
+            - link "Columnists" [ref=f54e1804] [cursor=pointer]:
+              - /url: /www/tc/diva/list/columnist
+        - listitem [ref=f54e1805]:
+          - paragraph [ref=f54e1806] [cursor=pointer]:
+            - link "健康好人生" [ref=f54e1807]:
+              - /url: /www/tc/health/index.php
+          - paragraph [ref=f54e1808]:
+            - link "醫學通識" [ref=f54e1809] [cursor=pointer]:
+              - /url: /www/tc/health/medgenknow
+          - paragraph [ref=f54e1810]:
+            - link "中醫養生" [ref=f54e1811] [cursor=pointer]:
+              - /url: /www/tc/health/traditionalchinesemedicine
+          - paragraph [ref=f54e1812]:
+            - link "癌症" [ref=f54e1813] [cursor=pointer]:
+              - /url: /www/tc/health/cancer
+          - paragraph [ref=f54e1814]:
+            - link "健康飲食" [ref=f54e1815] [cursor=pointer]:
+              - /url: /www/tc/health/goodnutrition
+          - paragraph [ref=f54e1816]:
+            - link "痛症解碼" [ref=f54e1817] [cursor=pointer]:
+              - /url: /www/tc/health/paindecoding
+          - paragraph [ref=f54e1818]:
+            - link "三高" [ref=f54e1819] [cursor=pointer]:
+              - /url: /www/tc/health/metabolicsyndrome
+          - paragraph [ref=f54e1820]:
+            - link "輕鬆護老" [ref=f54e1821] [cursor=pointer]:
+              - /url: /www/tc/health/eldercare
+          - paragraph [ref=f54e1822]:
+            - link "心理情緒" [ref=f54e1823] [cursor=pointer]:
+              - /url: /www/tc/health/emotionalhealth
+          - paragraph [ref=f54e1824]:
+            - link "敏感症" [ref=f54e1825] [cursor=pointer]:
+              - /url: /www/tc/health/sensorysensitivity
+          - paragraph [ref=f54e1826]:
+            - link "減肥瘦身" [ref=f54e1827] [cursor=pointer]:
+              - /url: /www/tc/health/slimming
+          - paragraph [ref=f54e1828]:
+            - link "兩性" [ref=f54e1829] [cursor=pointer]:
+              - /url: /www/tc/diva/sexandlove
+          - paragraph [ref=f54e1830]:
+            - link "專欄" [ref=f54e1831] [cursor=pointer]:
+              - /url: /www/tc/health/list/columnist
+          - paragraph [ref=f54e1832]:
+            - link "消委會" [ref=f54e1833] [cursor=pointer]:
+              - /url: /www/tc/health/tag/消委會
+          - paragraph [ref=f54e1834]:
+            - link "搵專科" [ref=f54e1835] [cursor=pointer]:
+              - /url: "#"
+        - listitem [ref=f54e1836]:
+          - paragraph [ref=f54e1837] [cursor=pointer]:
+            - link "香港好去處" [ref=f54e1838]:
+              - /url: /www/tc/attraction/
+          - paragraph [ref=f54e1839]:
+            - link "主頁" [ref=f54e1840] [cursor=pointer]:
+              - /url: /www/tc/attraction/
+        - listitem [ref=f54e1841]:
+          - paragraph [ref=f54e1842] [cursor=pointer]:
+            - link "社創SoIN" [ref=f54e1843]:
+              - /url: /www/tc/soin/index.php
+          - paragraph [ref=f54e1844]:
+            - link "專題" [ref=f54e1845] [cursor=pointer]:
+              - /url: /www/tc/soin/sefeatures
+          - paragraph [ref=f54e1846]:
+            - link "新聞" [ref=f54e1847] [cursor=pointer]:
+              - /url: /www/tc/soin/senews
+          - paragraph [ref=f54e1848]:
+            - link "圈中人語" [ref=f54e1849] [cursor=pointer]:
+              - /url: /www/tc/soin/secolumn
+          - paragraph [ref=f54e1850]:
+            - link "社區項目" [ref=f54e1851] [cursor=pointer]:
+              - /url: /www/tc/soin/activity.php
+          - paragraph [ref=f54e1852]:
+            - link "社企廊" [ref=f54e1853] [cursor=pointer]:
+              - /url: /www/tc/soin/seg.php
+          - paragraph [ref=f54e1854]:
+            - link "Video" [ref=f54e1855] [cursor=pointer]:
+              - /url: /www/tc/soin/video.php
+        - listitem [ref=f54e1856]:
+          - paragraph [ref=f54e1857] [cursor=pointer]:
+            - link "投票區" [ref=f54e1858]:
+              - /url: /www/tc/voting/index.php
+    - generic [ref=f54e1860]:
+      - list [ref=f54e1861]:
+        - listitem "etnet流動平台" [ref=f54e1862] [cursor=pointer]
+        - listitem "經濟通" [ref=f54e1863] [cursor=pointer]
+        - listitem "強化版MQ" [ref=f54e1864] [cursor=pointer]
+        - listitem "強化版TQ" [ref=f54e1865] [cursor=pointer]
+        - listitem "財曆" [ref=f54e1866] [cursor=pointer]
+        - listitem "Mobile Web" [ref=f54e1867] [cursor=pointer]: MobileWeb
+      - list [ref=f54e1868]:
+        - listitem [ref=f54e1869] [cursor=pointer]:
+          - list [ref=f54e1870]:
+            - listitem [ref=f54e1871]:
+              - img "ETNet_YT" [ref=f54e1872]
+            - listitem [ref=f54e1873]:
+              - img "ETNet_FB" [ref=f54e1874]
+            - listitem [ref=f54e1875]:
+              - img "ETNet_IG" [ref=f54e1876]
+            - listitem [ref=f54e1877]:
+              - img "ETNet_IG" [ref=f54e1878]
+        - listitem [ref=f54e1879] [cursor=pointer]:
+          - list [ref=f54e1880]:
+            - listitem [ref=f54e1881]:
+              - link [ref=f54e1882]:
+                - /url: https://www.youtube.com/user/etnethk
+                - img "youtube_etnet" [ref=f54e1883]
+            - listitem [ref=f54e1884]:
+              - link [ref=f54e1885]:
+                - /url: https://www.youtube.com/@25degreeslifestyle
+                - img "youtube_25c" [ref=f54e1886]
+            - listitem [ref=f54e1887]:
+              - link [ref=f54e1888]:
+                - /url: https://www.youtube.com/@goodhealthylife-yeah
+                - img "youtube_health" [ref=f54e1889]
+            - listitem [ref=f54e1890]:
+              - link [ref=f54e1891]:
+                - /url: https://www.facebook.com/profile.php?id=61566582185329
+                - img "fb_etnet" [ref=f54e1892]
+            - listitem [ref=f54e1893]:
+              - link [ref=f54e1894]:
+                - /url: https://www.facebook.com/diva.etnet.com.hk
+                - img "fb_diva" [ref=f54e1895]
+            - listitem [ref=f54e1896]:
+              - link [ref=f54e1897]:
+                - /url: https://www.instagram.com/etnet.hk/
+                - img "ig_etnet" [ref=f54e1898]
+            - listitem [ref=f54e1899]:
+              - link [ref=f54e1900]:
+                - /url: https://www.instagram.com/diva.etnet/
+                - img "ig_diva" [ref=f54e1901]
+    - list [ref=f54e1902]:
+      - listitem [ref=f54e1903]:
+        - text: 客務熱線︰(852) 2880 7004 客務郵箱︰
+        - link "cs@etnet.com.hk" [ref=f54e1904] [cursor=pointer]:
+          - /url: mailto:cs@etnet.com.hk
+      - listitem [ref=f54e1905]:
+        - link "關於我們" [ref=f54e1906] [cursor=pointer]:
+          - /url: /www/tc/aboutus/index.php
+        - text: "|"
+        - link "產品服務" [ref=f54e1907] [cursor=pointer]:
+          - /url: /www/tc/product/index.php
+        - text: "|"
+        - link "廣告查詢" [ref=f54e1908] [cursor=pointer]:
+          - /url: /www/tc/advertisement/index.php
+        - text: "|"
+        - link "聯絡我們" [ref=f54e1909] [cursor=pointer]:
+          - /url: /www/tc/aboutus/contactus.php
+        - text: "|"
+        - link "私隱政策" [ref=f54e1910] [cursor=pointer]:
+          - /url: /www/tc/aboutus/privacy.php
+        - text: "|"
+        - link "使用條款" [ref=f54e1911] [cursor=pointer]:
+          - /url: /www/tc/aboutus/terms.php
+        - text: "|"
+        - link "網站導航" [ref=f54e1912] [cursor=pointer]:
+          - /url: /www/tc/aboutus/sitemap.php
+        - text: "|"
+        - link "有用連結" [ref=f54e1913] [cursor=pointer]:
+          - /url: /www/tc/aboutus/usefullink.php
+        - text: "|"
+        - link "RSS新聞" [ref=f54e1914] [cursor=pointer]:
+          - /url: /www/tc/news/rss_detail.php
+    - generic [ref=f54e1915]:
+      - paragraph [ref=f54e1916]: Copyright 2026 ET Net Limited. http://www.etnet.com.hk ET Net Limited, HKEx Information Services Limited, its Holding Companies and/or any Subsidiaries of such holding companies, and Third Party Information Providers endeavour to ensure the availability, completeness, timeliness, accuracy and reliability of the information provided but do not guarantee its availability, completeness, timeliness, accuracy or reliability and accept no liability (whether in tort or contract or otherwise) any loss or damage arising directly or indirectly from any inaccuracies, interruption, incompleteness, delay, omissions, or any decision made or action taken by you or any third party in reliance upon the information provided. The quotes, charts, commentaries and buy/sell ratings on this website should be used as references only with your own discretion. ET Net Limited is not soliciting any subscriber or site visitor to execute any trade. Any trades executed following the commentaries and buy/sell ratings on this website are taken at your own risk for your own account.
+      - paragraph [ref=f54e1917]: 《經濟通》所刊的署名及／或不署名文章，相關內容屬作者個人意見，並不代表《經濟通》立場，《經濟通》所扮演的角色是提供一個自由言論平台。
+    - list [ref=f54e1918]:
+      - listitem [ref=f54e1919]:
+        - img "MCA" [ref=f54e1920]
+      - listitem [ref=f54e1921]:
+        - img "無障礙網頁" [ref=f54e1922]
+      - listitem [ref=f54e1923]:
+        - img "IFEC"
+      - listitem [ref=f54e1924]:
+        - img "HKEX"

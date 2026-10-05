@@ -1,0 +1,104 @@
+- generic [ref=f112e4]:
+  - generic [ref=f112e5]:
+    - banner [ref=f112e7]:
+      - generic [ref=f112e10]:
+        - link "Skip to main content" [ref=f112e11] [cursor=pointer]:
+          - /url: "#contentStart"
+        - generic [ref=f112e12]:
+          - link [ref=f112e14] [cursor=pointer]:
+            - /url: /hk/en/asset-management/adv/
+            - img "JPAM_logo" [ref=f112e15]
+          - text:                   
+          - generic [ref=f112e16]:
+            - button "search" [ref=f112e17] [cursor=pointer]: Search 
+            - button "menu" [ref=f112e18] [cursor=pointer]: Menu 
+          - text:  
+    - generic:   
+  - main [ref=f112e19]:
+    - generic [ref=f112e25]:
+      - heading "Sorry" [level=1] [ref=f112e26]
+      - paragraph [ref=f112e27]: The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+      - paragraph [ref=f112e28]: "Please try one of the following:"
+      - list [ref=f112e29]:
+        - listitem [ref=f112e30]: If you typed the page address in the Address Bar, make sure that it is spelled correctly.
+        - listitem [ref=f112e31]:
+          - text: Go to our
+          - link "home page" [ref=f112e32] [cursor=pointer]:
+            - /url: /hk/en/asset-management/adv/
+          - text: ", and then look for links to the information you want."
+  - text: 
+  - contentinfo [ref=f112e35]:
+    - generic [ref=f112e38]:
+      - generic [ref=f112e42]:
+        - generic [ref=f112e43]:
+          - generic [ref=f112e44]:
+            - generic [ref=f112e45]: J.P. Morgan Asset Management
+            - separator [ref=f112e46]
+          - generic [ref=f112e50]:
+            - list [ref=f112e54]:
+              - listitem [ref=f112e55] [cursor=pointer]:
+                - link "Terms of Use" [ref=f112e56]:
+                  - /url: /hk/en/asset-management/adv/terms-of-use/
+              - listitem [ref=f112e57] [cursor=pointer]:
+                - link "Privacy Statement" [ref=f112e58]:
+                  - /url: /hk/en/asset-management/adv/privacy-statement/
+              - listitem [ref=f112e59] [cursor=pointer]:
+                - link "Cookies Policy" [ref=f112e60]:
+                  - /url: /hk/en/asset-management/adv/cookies-policy/
+              - listitem [ref=f112e61] [cursor=pointer]:
+                - link "Investment Stewardship" [ref=f112e62]:
+                  - /url: /hk/en/asset-management/adv/about-us/investment-stewardship/
+            - list [ref=f112e66]:
+              - listitem [ref=f112e67] [cursor=pointer]:
+                - link "Fund Notes" [ref=f112e68]:
+                  - /url: /hk/en/asset-management/adv/fund-notes/
+              - listitem [ref=f112e69] [cursor=pointer]:
+                - link "Offering Document(s)" [ref=f112e70]:
+                  - /url: https://etrading.jpmorganam.com.hk/mjfUsr/en/offerdocs/content.htm
+              - listitem [ref=f112e71] [cursor=pointer]:
+                - link "Forms & Literature" [ref=f112e72]:
+                  - /url: /hk/en/asset-management/adv/tools-resources/forms-literature/
+              - listitem [ref=f112e73] [cursor=pointer]:
+                - link "Complaint Resolution" [ref=f112e74]:
+                  - /url: /hk/en/asset-management/adv/complaints-handling/
+              - listitem [ref=f112e75] [cursor=pointer]:
+                - link "Guide to Using This Website" [ref=f112e76]:
+                  - /url: /hk/en/asset-management/adv/guide-to-using-this-website/
+              - listitem [ref=f112e77] [cursor=pointer]:
+                - link "Sitemap" [ref=f112e78]:
+                  - /url: /hk/en/asset-management/adv/sitemap/
+            - generic [ref=f112e82]:
+              - paragraph [ref=f112e83]
+              - paragraph [ref=f112e84]:
+                - link [ref=f112e85] [cursor=pointer]:
+                  - /url: https://awm-mi-services.jpmorgan.com/mi-services/html/app-store-redirect.html?utm_source=jpmam-aem&utm_medium=notarg-footer&utm_campaign=bau
+        - generic [ref=f112e86]:
+          - generic [ref=f112e87]:
+            - generic [ref=f112e88]: J.P. Morgan
+            - separator [ref=f112e89]
+          - list [ref=f112e97]:
+            - listitem [ref=f112e98] [cursor=pointer]:
+              - link "J.P. Morgan" [ref=f112e99]:
+                - /url: http://www.jpmorgan.com/
+            - listitem [ref=f112e100] [cursor=pointer]:
+              - link "JPMorgan Chase" [ref=f112e101]:
+                - /url: https://www.jpmorganchase.com/
+            - listitem [ref=f112e102] [cursor=pointer]:
+              - link "Chase" [ref=f112e103]:
+                - /url: https://www.chase.com/
+      - generic [ref=f112e109]:
+        - paragraph [ref=f112e110]:
+          - text: "Important: This area of the website is intended only for distributors of JPMorgan Funds (Asia) Limited. Information is not intended for retail or public distribution. By using this information, you confirm that you accept the"
+          - link "Terms of Use" [ref=f112e112] [cursor=pointer]:
+            - /url: https://am.jpmorgan.com/hk/en/asset-management/adv/terms-of-use/
+          - text: as set out in
+          - link "https://am.jpmorgan.com/hk/" [ref=f112e113] [cursor=pointer]:
+            - /url: https://am.jpmorgan.com/hk/
+          - text: .
+        - paragraph [ref=f112e114]:
+          - text: Investment involves risk. Past performance is not indicative of future performance. In particular, funds which are invested in emerging markets and smaller companies may involve a higher degree of risk and are usually more sensitive to price movements. Investors should carefully read and consider the fund
+          - link "offering document(s)" [ref=f112e115] [cursor=pointer]:
+            - /url: https://etrading.jpmorganam.com.hk/mjfUsr/en/offerdocs/content.htm
+          - text: ", which contain details on investment objectives, risk factors, charges and expenses of the fund, before making any investment decisions. Information in this website does not constitute investment advice, or an offer to sell, or a solicitation of an offer to buy any security, investment product or service, nor a distribution of information for any such purpose. Informational sources are considered reliable but you should conduct your own verification of information contained herein. The above information has not been reviewed by the SFC, issued by JPMorgan Funds (Asia) Limited."
+        - paragraph [ref=f112e116]: Apple, the Apple logo, iPad and iPhone are trademarks of Apple Inc., registered in the US and other countries. App Store is a service mark of Apple Inc.
+        - paragraph [ref=f112e117]: Copyright 2026 JPMorgan Funds (Asia) Limited. All rights reserved.

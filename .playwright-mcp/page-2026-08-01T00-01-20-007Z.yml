@@ -1,0 +1,176 @@
+- generic [ref=f197e1]:
+  - link [ref=f197e2] [cursor=pointer]:
+    - /url: "#MainContent"
+    - text: Skip to Main Content
+  - banner [ref=f197e3]:
+    - generic [ref=f197e4]:
+      - generic [ref=f197e5]:
+        - link [ref=f197e7] [cursor=pointer]:
+          - /url: /hk/en
+        - text: 
+      - navigation [ref=f197e9]:
+        - button [ref=f197e10] [cursor=pointer]
+        - button [ref=f197e15] [cursor=pointer]
+        - text:         
+  - contentinfo [ref=f197e19]:
+    - generic [ref=f197e20]:
+      - list [ref=f197e24]:
+        - listitem [ref=f197e25]:
+          - link [ref=f197e26] [cursor=pointer]:
+            - /url: http://www.linkedin.com/company/pimco
+            - generic [ref=f197e28]: 
+        - listitem [ref=f197e29]:
+          - link [ref=f197e30] [cursor=pointer]:
+            - /url: https://www.youtube.com/@PIMCO_HK
+            - generic [ref=f197e32]: 
+      - list [ref=f197e34]:
+        - listitem [ref=f197e35]:
+          - link [ref=f197e36] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/privacy-notice
+            - text: Privacy Notice
+          - text: "|"
+        - listitem [ref=f197e37]:
+          - link [ref=f197e38] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/terms-and-conditions
+            - text: Terms and Conditions
+          - text: "|"
+        - listitem [ref=f197e39]:
+          - link [ref=f197e40] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/legal-disclaimer
+            - text: Legal Disclaimer
+          - text: "|"
+        - listitem [ref=f197e41]:
+          - link [ref=f197e42] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/fee-policy-disclosure
+            - text: Fee Policy Disclosure
+          - text: "|"
+        - listitem [ref=f197e43]:
+          - link [ref=f197e44] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/alert-on-fraudulent-website
+            - text: Alert on Fraudulent Website
+          - text: "|"
+        - listitem [ref=f197e45]:
+          - link [ref=f197e46] [cursor=pointer]:
+            - /url: /hk/en/sitemap
+            - text: Site Map
+      - generic [ref=f197e49]:
+        - paragraph [ref=f197e50]: This website and the products and services referred to in it are intended solely for residents of Hong Kong.
+        - paragraph [ref=f197e51]: This website is not intended for persons in any country other than Hong Kong. We do not invite applications for, offer or sell products or services to persons or in countries or jurisdictions where such invitation, offer or sale would be unlawful.
+        - paragraph [ref=f197e52]: This website is general in nature and is for information purposes only. It is not a solicitation, offer or recommendation of any security, investment management or advisory service. It does not constitute investment, tax or legal advice.
+        - paragraph [ref=f197e53]: This website is issued by PIMCO Asia Limited and has not been reviewed by the Securities and Futures Commission. No part of this publication may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of America LLC in the United States and throughout the world. ©2026 PIMCO. All Rights Reserved.
+        - paragraph [ref=f197e54]: PIMCO Asia Limited, Suite 2201, 22nd Floor, Two International Finance Centre, 8 Finance Street, Central, Hong Kong, 852-3650-7700
+  - dialog "PIMCO Hong Kong" [ref=f197e60]:
+    - document [ref=f197e61]:
+      - generic [ref=f197e65]:
+        - generic [ref=f197e66]:
+          - generic [ref=f197e68]:
+            - heading "PIMCO Hong Kong" [level=2] [ref=f197e69]
+            - list [ref=f197e71] [cursor=pointer]:
+              - listitem [ref=f197e72]:
+                - radio "中文" [ref=f197e73]
+                - text: 中文
+              - listitem [ref=f197e74]:
+                - radio "English" [checked] [ref=f197e75]
+                - text: English
+          - button "Change Your Location" [ref=f197e76] [cursor=pointer]
+        - generic [ref=f197e79]:
+          - group "Tell us a little about you to help us personalize the site to your needs." [ref=f197e80]:
+            - list [ref=f197e82]:
+              - listitem [ref=f197e83]:
+                - radio "Financial Intermediary I am an adviser or wealth manager." [ref=f197e84]
+                - generic [ref=f197e85] [cursor=pointer]:
+                  - generic [ref=f197e87]: Financial Intermediary
+                  - generic [ref=f197e88]: I am an adviser or wealth manager.
+              - listitem [ref=f197e89]:
+                - radio "Institutional Investor I am a consultant, government/public institution or corporate client." [ref=f197e90]
+                - generic [ref=f197e91] [cursor=pointer]:
+                  - generic [ref=f197e93]: Institutional Investor
+                  - generic [ref=f197e94]: I am a consultant, government/public institution or corporate client.
+              - listitem [ref=f197e95]:
+                - radio "Individual Investor I am looking for investment insights and/or solutions for myself." [checked] [active] [ref=f197e96]
+                - generic [ref=f197e97] [cursor=pointer]:
+                  - generic [ref=f197e99]: Individual Investor
+                  - generic [ref=f197e100]: I am looking for investment insights and/or solutions for myself.
+          - generic [ref=f197e103]:
+            - heading "Terms and Conditions" [level=3] [ref=f197e104]
+            - paragraph [ref=f197e105]: "Please read and acknowledge the following terms and conditions:"
+            - generic [ref=f197e106]:
+              - paragraph [ref=f197e107]:
+                - text: By clicking the checkbox and Accept button below, you confirm that you understand and intend these Terms and Conditions and the
+                - link "Privacy Notice" [ref=f197e108] [cursor=pointer]:
+                  - /url: /hk/en/general/legal-pages/privacy-notice
+                - text: to be the legal equivalent of a signed, written contract, and you accept the terms of use as set forth herein and agree to be legally bound by them, and you hereby provide consent to the processing (including cross-border transfer) of your personal data in the ways and for the purposes set out in the
+                - link "Privacy Notice" [ref=f197e109] [cursor=pointer]:
+                  - /url: /hk/en/general/legal-pages/privacy-notice
+                - text: .
+              - paragraph [ref=f197e110]:
+                - text: If you do not agree to these Terms and Conditions, you will not be entitled to access the Site or any websites thereof. If you do not agree to our processing of personal data as set out in the
+                - link "Privacy Notice" [ref=f197e111] [cursor=pointer]:
+                  - /url: /hk/en/general/legal-pages/privacy-notice
+                - text: ", we may not be able to continue to provide you with our services through this Site or other means."
+              - separator [ref=f197e112]
+              - paragraph [ref=f197e113]:
+                - strong [ref=f197e114]: LEGAL INFORMATION FOR INVESTORS OF HONG KONG
+              - paragraph [ref=f197e115]: By accessing this website and the products, services, information, tools and materials that it contains or describes, you acknowledge that you have understood and accept the following terms and conditions of use. Please read these terms and conditions of use carefully before using this website. This website is owned and operated by PIMCO (as this term is defined hereinafter). You may use the materials on this website solely for personal, informational and non-commercial purposes. All rights not expressly granted in these terms and conditions of use are reserved by PIMCO.
+              - paragraph [ref=f197e116]:
+                - strong [ref=f197e117]: This website includes information on the PIMCO Global Investors Series plc funds which are currently registered for public sale in Hong Kong. It is your responsibility to be aware of and to observe all applicable laws and regulations of any relevant jurisdiction.
+              - paragraph [ref=f197e118]:
+                - strong [ref=f197e119]: "IMPORTANT INFORMATION on PIMCO Funds: Global Investors Series PLC"
+                - text: "PIMCO Funds: Global Investors Series Plc (“PIMCO Funds”) is an umbrella fund under the UCITS regulations and has within it different funds investing in various investments, such as but not limited to fixed income instruments, securities, and financial derivative instruments. Each fund has a different investment objective and/or risk profile."
+              - list [ref=f197e120]:
+                - listitem [ref=f197e121]: The funds may invest primarily in various kinds of fixed income instruments.
+                - listitem [ref=f197e122]: The funds may invest extensively in financial derivative instruments which may involve additional risks (e.g. market, counterparty, liquidity, leverage and volatility risks).
+                - listitem [ref=f197e123]: Some funds may make extensive use of derivative including more complex derivative instrument to achieve the investment objectives, this may lead to higher volatility to its net asset value. In adverse situation, the fund’s use of derivative instruments may become ineffective and the fund may suffer significant losses. The use of derivative may give rise to leverage, liquidity, counterparty and valuation risks. Some funds may invest in high yield securities which may entail greater potential price volatility and may be less liquid than higher-rated securities. These investments are subject to interest rate, credit and downgrade risks.
+                - listitem [ref=f197e124]: Some funds may be subject to the risk of investing in emerging securities markets and emerging market currencies which may be more volatile, and to concentration risk of investing in a single or in a limited number of market(s) or sector(s)
+                - listitem [ref=f197e125]: Some funds may at its discretion pay dividends out of capital directly or effectively, which amounts to a return or withdrawal of part of an investor’s original investment or from any capital gains attributable to the original investment. Any distributions involving the payment of dividends out of the Fund’s capital may result in an immediate reduction of the Fund’s NAV per share.
+                - listitem [ref=f197e126]: The fund’s investments may involve risks (e.g. market, counterparty, liquidity, volatility, and leverage risks) that could result in loss of part or entire amount of your investment.
+                - listitem [ref=f197e127]: In an extreme scenario, the value of the funds may be worth substantially less than the original amount you have invested and in the worst case could worth nothing.
+                - listitem [ref=f197e128]: Investment involves risks and your investment may suffer significant losses. The value of investments and any income from them may go down as well as up.
+                - listitem [ref=f197e129]: In making investment decisions, investors should not rely solely on the information on this website and should read the offering documents of the funds for further details including the risk factors.
+                - listitem [ref=f197e130]: You should not invest unless the intermediary who sells it to you has advised you that the product is suitable for you and explained how it is consistent with your investment objectives. .
+                - listitem [ref=f197e131]: Past performance is not a guarantee or a reliable indicator of future results and no guarantee is being made that similar returns will be achieved in the future.
+              - paragraph [ref=f197e132]: The funds referred to in this website are authorized by the Securities and Futures Commission (the “SFC”) for sale to the public in Hong Kong. SFC authorization is not an official recommendation or endorsement of a scheme nor does it guarantee the commercial merits or its performance. It does not mean that a scheme is suitable for investors nor it is an endorsement of its suitability for any particular investor or class of investors. This website and materials contained in this website has not been reviewed by the SFC.
+              - paragraph [ref=f197e133]:
+                - strong [ref=f197e134]: NO OFFER
+                - text: The information contained in this website is not intended as an offer to sell securities or a solicitation to buy PIMCO funds. The goal is to provide general information on PIMCO funds that have been authorized for retail sale in Hong Kong and are available for investment and purchase in Hong Kong. This site is not directed to individuals or organizations for whom such offer or invitation would be unlawful or prohibited.
+              - paragraph [ref=f197e135]:
+                - strong [ref=f197e136]: NO ADVICE
+                - text: No investment advice, tax advice, or legal advice is provided through this website, and you agree that this website will not be used by you for these purposes. You acknowledge that your use of this website and any requests for information are unsolicited. Investors may wish to seek advice from a financial adviser before making a commitment to invest and in the event you choose not to seek advice, you should consider whether the investment is suitable for you.
+              - paragraph [ref=f197e137]:
+                - strong [ref=f197e138]: WEBSITE ISSUER
+                - text: The issuer of this website is PIMCO Asia Limited. PIMCO Asia Limited, its subsidiaries, affiliates or subsidiaries (hereinfafter collectively “PIMCO”) assumes no responsibility for the financial or other consequences arising from the subscription or purchase of the securities described in this website.
+              - paragraph [ref=f197e139]:
+                - strong [ref=f197e140]: DATA PROTECTION
+                - text: "\"Cookies\" may be stored on your computer for easy navigation. A \"cookie\" does not allow us to identify you directly, but stores information about navigation through our website (such as pages already visited, time and date of visit) which we can remember during the user's next visit to our website in order to improve your browsing experience. Any personal data submitted and collected by PIMCO through this Site is processed in accordance with our privacy notice which is available"
+                - link "here" [ref=f197e141] [cursor=pointer]:
+                  - /url: /hk/en/general/legal-pages/privacy-notice
+                - text: . If you do not agree to our Privacy Notice, please do not access the Site or any websites thereof and do not provide your personal data to PIMCO.
+              - paragraph [ref=f197e142]:
+                - strong [ref=f197e143]: LINKS TO AND FROM OTHER SITES
+                - text: PIMCO is not responsible for hypertext links to other sites, in particular as regards the content of these sites, advice and information provided by the authors of these sites for the subscription or redemption of securities, or in respect of subscriptions and redemptions of securities through such third party sites.
+              - paragraph [ref=f197e144]: PIMCO is not responsible for hypertext links to this site. The creation of such links is prohibited without the prior express permission of PIMCO.
+              - paragraph [ref=f197e145]:
+                - strong [ref=f197e146]: LIMITATION OF LIABILITY
+                - text: YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THIS WEBSITE IS AT YOUR SOLE RISK AND THAT THE WEBSITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS AND WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND EITHER EXPRESSED OR IMPLIED. TO THE FULL EXTENT PERMITTED UNDER APPLICABLE LAW, PIMCO EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+              - paragraph [ref=f197e147]: PIMCO makes no warranty or representation that this website can be accessed at all times. This website may, without notice, be temporarily unavailable or restricted for administrative or other reasons.
+              - paragraph [ref=f197e148]: You will indemnify PIMCO (including their affiliated or associated companies) and their officers, directors, employees and agents in respect of any third-party claim for any injury, loss, damage or expense occasioned by or arising directly or indirectly from your operation or use of this website or your supply of information to a third party provided in breach of any of your obligations under these terms and conditions of use.
+              - paragraph [ref=f197e149]: This website is not designed for the transmission of time sensitive instructions or questions. If you transmit any communication through this website to PIMCO directly or through any third-party internet or other service provider, you shall be responsible and liable for any omissions or failures that may be made while transmitting or receiving communications using this website. Furthermore, if you use this website to transmit time sensitive instructions or questions, you will be liable for any loss that may arise, and any such information is transmitted at your own risk.
+              - paragraph [ref=f197e150]: The information presented in this website is based, among other things, on market data at a given time, that is therefore subject to market changes and may change from time to time. Although the information contained in this document is from sources deemed reliable, no guarantee is made as to its accuracy, completeness or reliability. The price of shares of the PIMCO Funds contained in this website is indicative only and should not be relied upon for dealing purposes.
+              - paragraph [ref=f197e151]:
+                - strong [ref=f197e152]: LAW AND JURISDICTION
+                - text: PIMCO controls and operates this website from its office in Hong Kong. By using this website, you agree that the laws of Hong Kong, without regard to principles of conflict of laws, will govern these terms and conditions of use and any dispute of any sort that might arise between you and PIMCO arising from your use of this website. The courts of Hong Kong will have exclusive jurisdiction to settle any dispute that may arise out of, under, or in connection with these terms and conditions of use, and you consent and submit to the personal jurisdiction of those courts for the purposes of litigating any such action.
+            - generic [ref=f197e153]:
+              - checkbox "I acknowledge that I have read and understand (i) the Terms and Conditions, which I have the authority to consent to, and agree to comply with its terms; and (ii) the Privacy Notice and (iii) agree that PIMCO may notify me of promotional / marketing information about PIMCO and its related services / products from time to time. Where applicable, I grant my prior, express, and free consent for the collection, storage, international transfer, and processing of my personal data as described in the Privacy Notice." [ref=f197e154]
+              - generic [ref=f197e155] [cursor=pointer]:
+                - paragraph [ref=f197e156]:
+                  - text: I acknowledge that I have read and understand (i) the Terms and Conditions, which I have the authority to consent to, and agree to comply with its terms; and (ii) the
+                  - link "Privacy Notice" [ref=f197e158]:
+                    - /url: /hk/en/general/legal-pages/privacy-notice
+                  - text: and (iii) agree that PIMCO may notify me of promotional / marketing information about PIMCO and its related services / products from time to time.
+                - paragraph [ref=f197e159]:
+                  - text: Where applicable, I grant my prior, express, and free consent for the collection, storage, international transfer, and processing of my personal data as described in the
+                  - link "Privacy Notice" [ref=f197e161]:
+                    - /url: /hk/en/general/legal-pages/privacy-notice
+                  - text: .
+          - generic [ref=f197e101]:
+            - button "Accept" [disabled]

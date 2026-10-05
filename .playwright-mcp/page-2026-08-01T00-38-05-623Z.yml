@@ -1,0 +1,811 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#content"
+      - navigation [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: To US Financial Professionals servicing non-US persons
+          - button "Change" [ref=e9] [cursor=pointer]
+        - generic [ref=e10]:
+          - link "Contact Us" [ref=e11] [cursor=pointer]:
+            - /url: https://www.janushenderson.com/en-us/offshore/contact-us
+          - button "Subscriptions" [ref=e15] [cursor=pointer]
+    - navigation [ref=e21]:
+      - link "Janus Henderson Investors" [ref=e22] [cursor=pointer]:
+        - /url: https://www.janushenderson.com/en-us/offshore/
+        - img "Janus Henderson Investors" [ref=e23]
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - button "MENU " [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: MENU
+            - text: 
+          - text:           
+        - img [ref=e39] [cursor=pointer]: +
+  - generic [ref=e41]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "Horizon Global Technology Leaders Fund" [level=1] [ref=e46]
+        - paragraph [ref=e47]: Aims to generate long-term capital growth through investment in a globally diversified portfolio of technology-related companies
+        - generic [ref=e49]:
+          - generic [ref=e50]: Select Share Class
+          - generic [ref=e51] [cursor=pointer]:
+            - text: Share Class - A2 USD
+            - list:
+              - listitem: Share Class - A1 USD
+              - listitem: Share Class - A2 EUR
+              - listitem: Share Class - A2 GBP
+              - listitem: Share Class - A2 USD
+              - listitem: Share Class - F2 USD
+              - listitem: Share Class - I1 GBP
+              - listitem: Share Class - I1 USD
+              - listitem: Share Class - I2 HEUR
+              - listitem: Share Class - I2 USD
+              - listitem: Share Class - X2 EUR
+              - listitem: Share Class - X2 USD
+      - generic [ref=e55]:
+        - heading "Quicklinks" [level=3] [ref=e56]
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "Factsheet" [ref=e59] [cursor=pointer]:
+              - /url: https://documents.janushenderson.com/prod/documents/docId/LXTJKZ
+          - listitem [ref=e60]:
+            - link "Monthly Commentary" [ref=e61] [cursor=pointer]:
+              - /url: https://documents.janushenderson.com/prod/documents/docId/RLXXC8
+          - listitem [ref=e62]:
+            - link "Quarterly Commentary" [ref=e63] [cursor=pointer]:
+              - /url: https://documents.janushenderson.com/prod/documents/docId/5KTQ0Y
+          - listitem [ref=e64]:
+            - link "KID" [ref=e65] [cursor=pointer]:
+              - /url: https://documents.janushenderson.com/prod/documents/docId/VEBI76
+          - listitem [ref=e66]:
+            - link "Commentary" [ref=e67] [cursor=pointer]:
+              - /url: https://documents.janushenderson.com/prod/documents/docId/DAHO27
+          - listitem [ref=e68]:
+            - link "Glossary" [ref=e69] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/glossary/
+      - generic [ref=e70]:
+        - paragraph [ref=e72]:
+          - text: ISIN
+          - strong [ref=e73]: LU0070992663
+        - paragraph [ref=e75]:
+          - text: NAV
+          - strong [ref=e76]: USD 335.91
+          - generic [ref=e77]: As of 07/31/2026
+        - paragraph [ref=e79]:
+          - text: 1-Day Change
+          - generic [ref=e80]:
+            - generic [ref=e81]: 
+            - strong [ref=e82]: USD 11.04 (3.40%)
+          - generic [ref=e83]: As of 07/31/2026
+        - generic [ref=e84]:
+          - paragraph [ref=e85]:
+            - text: Morningstar Rating
+            - button "" [ref=e86] [cursor=pointer]
+          - generic [ref=e88]:
+            - generic [ref=e89]: 
+            - generic [ref=e90]: 
+            - generic [ref=e91]: 
+            - generic [ref=e92]: 
+          - generic [ref=e93]: As of 06/30/2026
+    - navigation [ref=e95]:
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - link "Overview" [ref=e98] [cursor=pointer]:
+            - /url: "#overview"
+        - listitem [ref=e99]:
+          - link "Performance" [ref=e100] [cursor=pointer]:
+            - /url: "#performance"
+        - listitem [ref=e101]:
+          - link "Portfolio" [ref=e102] [cursor=pointer]:
+            - /url: "#portfolio"
+        - listitem [ref=e103]:
+          - link "Documents" [ref=e104] [cursor=pointer]:
+            - /url: "#documents"
+        - listitem [ref=e105]:
+          - link "Insights" [ref=e106] [cursor=pointer]:
+            - /url: "#insights"
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - heading "Overview" [level=2] [ref=e112]
+        - main [ref=e115]:
+          - article [ref=e116]:
+            - generic [ref=e118]:
+              - generic [ref=e122]:
+                - generic [ref=e127]:
+                  - heading "Quarterly Update" [level=3] [ref=e128]
+                  - paragraph [ref=e129]: The investment team recap this quarter.
+                  - paragraph [ref=e130]:
+                    - emphasis [ref=e131]: "(Note: Filmed in July 2026)."
+                - region "Video Player" [ref=e137]:
+                  - button "Play Video" [ref=e141] [cursor=pointer]
+                  - text:            
+              - generic [ref=e145]:
+                - heading "INVESTMENT OBJECTIVE" [level=3] [ref=e151]
+                - generic [ref=e156]:
+                  - paragraph [ref=e158]: "The Fund aims to provide capital growth over the long term. Performance target: To outperform the MSCI ACWI Information Technology Index + MSCI ACWI Communication Services Index, after the deduction of charges, over any 5 year period."
+                  - paragraph [ref=e160]: More
+              - paragraph [ref=e171]: The value of an investment and the income from it can fall as well as rise as a result of market and currency fluctuations and you may not get back the amount originally invested.Potential investors must read the prospectus, and where relevant, the key investor information document before investing.This website is a Marketing Communication and does not qualify as an investment recommendation.
+              - generic [ref=e174]:
+                - heading "ABOUT THIS FUND" [level=3] [ref=e180]
+                - generic [ref=e183]:
+                  - list [ref=e187]:
+                    - listitem [ref=e188]: Seeks to uncover undervalued growth companies where the scale or persistence of earnings growth is underappreciated by the market.
+                    - listitem [ref=e189]: Actively managed by a highly experienced team in the UK, with a focus on long-term trends that are shaping the future of technology.
+                  - region "Video Player" [ref=e193]:
+                    - button "Play Video" [ref=e197] [cursor=pointer]
+                    - text:            
+                - generic [ref=e205]:
+                  - generic [ref=e206]: Past performance does not predict future returns.
+                  - link "GLOSSARY" [ref=e209] [cursor=pointer]:
+                    - /url: https://www.janushenderson.com/en-us/offshore/glossary/
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - link "Fund Details" [ref=e213]:
+              - /url: "#"
+            - generic [ref=e214]:
+              - table [ref=e216]:
+                - rowgroup [ref=e217]:
+                  - row
+                  - row [ref=e218]:
+                    - cell "Asset class" [ref=e219]
+                    - cell "Equities" [ref=e220]
+                  - row [ref=e221]:
+                    - cell "Product Structure" [ref=e222]
+                    - cell "SICAV" [ref=e223]
+                  - row [ref=e224]:
+                    - cell [ref=e225]:
+                      - text: SFDR Categorisation
+                      - button "" [ref=e227] [cursor=pointer]
+                    - cell "Article 8" [ref=e229]
+                  - row [ref=e230]:
+                    - cell "Inception Date" [ref=e231]
+                    - cell "16 Oct 1996" [ref=e232]
+                  - row [ref=e233]:
+                    - cell "Base Currency" [ref=e234]
+                    - cell "USD" [ref=e235]
+                  - row [ref=e236]:
+                    - cell "Fund Assets As of 30/06/26" [ref=e237]
+                    - cell "8.38B" [ref=e238]
+                  - row [ref=e239]:
+                    - cell "Sector" [ref=e240]
+                    - cell "Morningstar Sector Equity Technology" [ref=e241]
+                  - row [ref=e242]:
+                    - cell "Benchmark" [ref=e243]
+                    - cell "MSCI ACWI Information Technology Index + MSCI ACWI Communication Services Index" [ref=e244]
+                  - row [ref=e245]:
+                    - cell "Year End" [ref=e246]
+                    - cell "30-Jun" [ref=e247]
+                  - row [ref=e248]:
+                    - cell "Pricing Basis" [ref=e249]
+                    - cell "Single Priced" [ref=e250]
+              - generic [ref=e252]:
+                - text: Information on compliance with EU Sustainability related disclosures can be found
+                - link "here" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/eu-esg-horizon-global-technology-leaders-fund/
+                - text: .
+          - link "Share Class Facts" [ref=e256] [cursor=pointer]:
+            - /url: "#collapse_share_class_facts"
+      - generic [ref=e258]:
+        - heading "Portfolio Management" [level=3] [ref=e259]
+        - generic [ref=e260]:
+          - generic [ref=e262]:
+            - link [ref=e265] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/bio/graeme-clark/
+            - generic [ref=e267]:
+              - heading [level=3] [ref=e268]:
+                - link "Graeme Clark" [ref=e269] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/bio/graeme-clark/
+              - paragraph [ref=e274]: Portfolio Manager
+              - paragraph [ref=e275]: Industry since 1994. Joined Firm in 2013.
+          - generic [ref=e277]:
+            - link [ref=e280] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/bio/alison-porter/
+            - generic [ref=e282]:
+              - heading [level=3] [ref=e283]:
+                - link "Alison Porter" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/bio/alison-porter/
+              - paragraph [ref=e289]: Portfolio Manager
+              - paragraph [ref=e290]: Industry since 1995. Joined Firm in 2014.
+          - generic [ref=e292]:
+            - link [ref=e295] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/bio/richard-clode/
+            - generic [ref=e297]:
+              - heading [level=3] [ref=e298]:
+                - link "Richard Clode, CFA" [ref=e299] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/bio/richard-clode/
+              - paragraph [ref=e304]: Portfolio Manager
+              - paragraph [ref=e305]: Industry since 2003. Joined Firm in 2014.
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - heading "Performance" [level=2] [ref=e311]
+          - generic [ref=e313]: Past performance does not predict future returns. All performance data includes both income and capital gains or losses and reflects the deduction of any ongoing charges or other fund expenses.
+        - generic [ref=e316]:
+          - tablist [ref=e317]:
+            - listitem [ref=e318]:
+              - tab "Cumulative & Annualised Performance" [selected] [ref=e319] [cursor=pointer]
+            - listitem [ref=e320]:
+              - tab "Calendar Year Performance" [ref=e321] [cursor=pointer]
+            - listitem [ref=e322]:
+              - tab "PRIIP Scenarios & Performance" [ref=e323] [cursor=pointer]
+          - generic [ref=e324]:
+            - tabpanel "Cumulative & Annualised Performance" [ref=e325]:
+              - generic [ref=e326]:
+                - generic [ref=e327]:
+                  - generic [ref=e328]:
+                    - generic [ref=e329]:
+                      - generic [ref=e330]:
+                        - text: Cumulative & Annualised Performance (%)
+                        - generic [ref=e331]: As of 06/30/2026
+                      - generic [ref=e332]:
+                        - generic [ref=e333]:
+                          - generic [ref=e334]: 
+                          - text: A2 USD (Net)
+                        - generic [ref=e335]:
+                          - generic [ref=e336]: 
+                          - text: MSCI ACWI/Information Tech & Comm Services NR
+                        - generic [ref=e337]:
+                          - generic [ref=e338]: 
+                          - text: Sector Equity Technology - OE
+                        - button "" [ref=e340] [cursor=pointer]
+                    - region "Chart. Highcharts interactive chart." [ref=e342]:
+                      - generic [ref=e344]:
+                        - paragraph [ref=e345]: Chart
+                        - generic [ref=e346]: Bar chart with 3 data series.
+                        - generic [ref=e347]: The chart has 1 X axis displaying categories.
+                        - generic [ref=e348]: The chart has 1 Y axis displaying %. Data ranges from -2.57 to 46.77.
+                      - img "Interactive chart" [ref=e353]:
+                        - generic [ref=e359]: "%"
+                        - generic [ref=e361]:
+                          - region "A2 USD (Net), bar series 1 of 3 with 7 bars." [ref=e362]:
+                            - img "1MO, 0.42. A2 USD (Net)." [ref=e363]
+                            - img "YTD, 31.06. A2 USD (Net)." [ref=e364]
+                            - img "1YR, 46.77. A2 USD (Net)." [ref=e365]
+                            - img "3YR, 33.88. A2 USD (Net)." [ref=e366]
+                            - img "5YR, 16.70. A2 USD (Net)." [ref=e367]
+                            - img "10YR, 21.82. A2 USD (Net)." [ref=e368]
+                            - img "Since Inception, 13.05. A2 USD (Net)." [ref=e369]
+                          - region "MSCI ACWI/Information Tech &amp; Comm Services NR, bar series 2 of 3 with 7 bars." [ref=e370]:
+                            - img "1MO, -2.57. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e371]
+                            - img "YTD, 21.91. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e372]
+                            - img "1YR, 41.28. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e373]
+                            - img "3YR, 31.25. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e374]
+                            - img "5YR, 17.26. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e375]
+                            - img "10YR, 21.95. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e376]
+                            - img "Since Inception, 11.98. MSCI ACWI/Information Tech &amp; Comm Services NR." [ref=e377]
+                          - region "Sector Equity Technology - OE, bar series 3 of 3 with 7 bars." [ref=e378]:
+                            - img "1MO, -1.00. Sector Equity Technology - OE." [ref=e379]
+                            - img "YTD, 29.36. Sector Equity Technology - OE." [ref=e380]
+                            - img "1YR, 46.06. Sector Equity Technology - OE." [ref=e381]
+                            - img "3YR, 28.83. Sector Equity Technology - OE." [ref=e382]
+                            - img "5YR, 11.55. Sector Equity Technology - OE." [ref=e383]
+                            - img "10YR, 17.98. Sector Equity Technology - OE." [ref=e384]
+                            - img "Since Inception, 9.74. Sector Equity Technology - OE." [ref=e385]
+                        - generic [ref=e386]:
+                          - generic [ref=e387]: 1MO
+                          - generic [ref=e388]: YTD
+                          - generic [ref=e389]: 1YR
+                          - generic [ref=e390]: 3YR
+                          - generic [ref=e391]: 5YR
+                          - generic [ref=e392]: 10YR
+                          - generic [ref=e393]: Since Inception
+                        - generic [ref=e394]:
+                          - generic [ref=e395]: "0"
+                          - generic [ref=e396]: "10"
+                          - generic [ref=e397]: "20"
+                          - generic [ref=e398]: "30"
+                          - generic [ref=e399]: "40"
+                      - generic [ref=e400]: End of interactive chart.
+                  - table [ref=e403]:
+                    - rowgroup [ref=e404]:
+                      - row [ref=e405]:
+                        - columnheader [ref=e406]
+                        - columnheader "Cumulative" [ref=e407]
+                        - columnheader "Annualised" [ref=e408]
+                    - rowgroup [ref=e409]:
+                      - row [ref=e410]:
+                        - columnheader [ref=e411]
+                        - columnheader "1MO" [ref=e412]
+                        - columnheader "YTD" [ref=e413]
+                        - columnheader "1YR" [ref=e414]
+                        - columnheader "3YR" [ref=e415]
+                        - columnheader "5YR" [ref=e416]
+                        - columnheader "10YR" [ref=e417]
+                        - columnheader "Since Inception 10/15/1996" [ref=e418]:
+                          - text: Since Inception
+                          - generic [ref=e419]: 10/15/1996
+                    - rowgroup [ref=e420]:
+                      - row
+                      - row [ref=e421]:
+                        - cell "A2 USD (Net)" [ref=e422]
+                        - cell "0.42" [ref=e423]
+                        - cell "31.06" [ref=e424]
+                        - cell "46.77" [ref=e425]
+                        - cell "33.88" [ref=e426]
+                        - cell "16.70" [ref=e427]
+                        - cell "21.82" [ref=e428]
+                        - cell "13.05" [ref=e429]
+                      - row [ref=e430]:
+                        - cell "MSCI ACWI/Information Tech & Comm Services NR" [ref=e431]
+                        - cell "-2.57" [ref=e432]
+                        - cell "21.91" [ref=e433]
+                        - cell "41.28" [ref=e434]
+                        - cell "31.25" [ref=e435]
+                        - cell "17.26" [ref=e436]
+                        - cell "21.95" [ref=e437]
+                        - cell "11.98" [ref=e438]
+                      - row [ref=e439]:
+                        - cell "Sector Equity Technology - OE" [ref=e440]
+                        - cell "-1.00" [ref=e441]
+                        - cell "29.36" [ref=e442]
+                        - cell "46.06" [ref=e443]
+                        - cell "28.83" [ref=e444]
+                        - cell "11.55" [ref=e445]
+                        - cell "17.98" [ref=e446]
+                        - cell "9.74" [ref=e447]
+                - generic [ref=e448]:
+                  - generic [ref=e449]: Performance/performance target related data will display only when relevant to the fund/share class inception date and the annualised target time period.
+                  - generic [ref=e451]: Note that any differences among portfolio securities currencies, share class currencies and costs to be paid or represented in currencies other than your home currency will expose you to currency risk. Costs and returns may increase or decrease as a result of currency and exchange rate fluctuations.
+                  - generic [ref=e452]: © Morningstar 2026. All rights reserved. NAV-NAV, gross income reinvested where applicable.
+                  - generic [ref=e453]: Fund charges will impact the value of your investment. In particular, the ongoing charges applicable to each fund will dilute investment performance, particularly over time.
+            - text:       
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - text: Annual Fees & Expenses
+            - generic [ref=e457]: (As of the most recent prospectus)
+          - table [ref=e459]:
+            - rowgroup [ref=e460]:
+              - row [ref=e461]:
+                - columnheader [ref=e462]
+            - rowgroup [ref=e463]:
+              - row
+              - row [ref=e464]:
+                - cell "Initial Charge" [ref=e465]
+                - cell [ref=e466]:
+                  - strong [ref=e467]: 5.00%
+              - row [ref=e468]:
+                - cell "Annual Charge" [ref=e469]
+                - cell [ref=e470]:
+                  - strong [ref=e471]: 1.20%
+              - row [ref=e472]:
+                - cell "Ongoing Charge (As of 06/30/2025)" [ref=e473]:
+                  - text: Ongoing Charge
+                  - generic [ref=e474]: (As of 06/30/2025)
+                - cell [ref=e475]:
+                  - strong [ref=e476]: 1.87%
+          - generic [ref=e477]:
+            - generic [ref=e478]: "The ongoing charge is calculated using the PRIIPs methodology. The PRIIPs methodology differs to the UCITS ongoing charge methodology, as the PRIIPS methodology captures additional recurring charges, including but not limited to: a. Interest paid on borrowing (e.g. bank interest) b. Any fees incurred in relation to stock-lending activity (i.e. the fee paid to the lending agent) c. Any costs associated with holding closed-ended vehicles."
+            - generic [ref=e480]:
+              - text: For more information about charges, please see our
+              - link "fund charges" [ref=e481] [cursor=pointer]:
+                - /url: https://www.janushenderson.com/en-us/offshore/regulatory/fund-charges/
+              - text: page or the “charges” section of the fund’s prospectus.
+      - generic [ref=e482]:
+        - heading "Portfolio" [level=2] [ref=e487]
+        - generic [ref=e490]:
+          - generic [ref=e492]:
+            - generic [ref=e493]: Top Holdings
+            - generic [ref=e494]: (As of 06/30/2026)
+          - generic [ref=e495]:
+            - table [ref=e497]:
+              - rowgroup [ref=e498]:
+                - row [ref=e499]:
+                  - cell [ref=e500]
+                  - cell "% of Fund" [ref=e501]
+                - row [ref=e502]:
+                  - cell "NVIDIA" [ref=e503]
+                  - cell "8.18" [ref=e504]
+                - row [ref=e505]:
+                  - cell "Alphabet" [ref=e506]
+                  - cell "7.56" [ref=e507]
+                - row [ref=e508]:
+                  - cell "Taiwan Semiconductor Manufacturing" [ref=e509]
+                  - cell "7.55" [ref=e510]
+                - row [ref=e511]:
+                  - cell "Amazon.com" [ref=e512]
+                  - cell "4.78" [ref=e513]
+                - row [ref=e514]:
+                  - cell "Broadcom" [ref=e515]
+                  - cell "4.72" [ref=e516]
+                - row [ref=e517]:
+                  - cell "Micron Technology" [ref=e518]
+                  - cell "4.07" [ref=e519]
+                - row [ref=e520]:
+                  - cell "Apple" [ref=e521]
+                  - cell "3.58" [ref=e522]
+                - row [ref=e523]:
+                  - cell "SK hynix" [ref=e524]
+                  - cell "3.25" [ref=e525]
+                - row [ref=e526]:
+                  - cell "Applied Materials" [ref=e527]
+                  - cell "2.95" [ref=e528]
+                - row [ref=e529]:
+                  - cell "Advanced Micro Devices" [ref=e530]
+                  - cell "2.83" [ref=e531]
+                - row [ref=e532]:
+                  - cell "TOTAL" [ref=e533]
+                  - cell "49.48" [ref=e534]
+              - rowgroup
+            - generic [ref=e535]: References made to individual securities do not constitute a recommendation to buy, sell or hold any security, investment strategy or market sector, and should not be assumed to be profitable. Janus Henderson Investors, its affiliated advisor, or its employees, may have a position in the securities mentioned.
+        - generic [ref=e538]:
+          - tablist [ref=e539]:
+            - listitem [ref=e540]:
+              - tab "Sector" [selected] [ref=e541] [cursor=pointer]
+            - listitem [ref=e542]:
+              - tab "Market Cap" [ref=e543] [cursor=pointer]
+            - listitem [ref=e544]:
+              - tab "Countries/Geographical" [ref=e545] [cursor=pointer]
+            - listitem [ref=e546]:
+              - tab "Region" [ref=e547] [cursor=pointer]
+          - generic [ref=e548]:
+            - tabpanel "Sector" [ref=e549]:
+              - generic [ref=e551]:
+                - table [ref=e553]:
+                  - rowgroup [ref=e554]:
+                    - row [ref=e555]:
+                      - cell "Sub-Sector allocation (%)" [ref=e556]
+                      - cell "% of Fund" [ref=e557]
+                      - cell "% of Index" [ref=e558]
+                      - cell " % of Fund" [ref=e559]:
+                        - generic [ref=e560]:
+                          - generic [ref=e561]: 
+                          - text: "% of Fund"
+                      - cell " % of Index" [ref=e562]:
+                        - generic [ref=e563]:
+                          - generic [ref=e564]: 
+                          - text: "% of Index"
+                      - cell "As of 06/30/2026" [ref=e565]
+                - region "Chart. Highcharts interactive chart." [ref=e570]:
+                  - generic [ref=e572]:
+                    - paragraph [ref=e573]: Chart
+                    - generic [ref=e574]: Bar chart with 2 data series.
+                    - generic [ref=e575]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e576]: The chart has 1 Y axis displaying values. Data ranges from 0 to 46.93.
+                  - generic [ref=e580]:
+                    - img "Interactive chart" [ref=e581]:
+                      - generic [ref=e586]:
+                        - region "% of Fund, bar series 1 of 2 with 10 bars." [ref=e587]:
+                          - img "Semiconductors &amp; Semiconductor Equipment46.9342.47, 46.93%. % of Fund." [ref=e588]
+                          - img "Interactive Media &amp; Services11.8013.36, 11.8%. % of Fund." [ref=e589]
+                          - img "Electronic Equipment Instruments &amp; Components10.864.56, 10.86%. % of Fund." [ref=e590]
+                          - img "Software6.4312.57, 6.43%. % of Fund." [ref=e591]
+                          - img "Broadline Retail5.60-, 5.6%. % of Fund." [ref=e592]
+                          - img "Technology Hardware Storage &amp; Peripherals5.1415.76, 5.14%. % of Fund." [ref=e593]
+                          - img "Communications Equipment2.902.58, 2.9%. % of Fund." [ref=e594]
+                          - img "Electrical Equipment2.71-, 2.71%. % of Fund." [ref=e595]
+                          - img "Entertainment1.732.32, 1.73%. % of Fund." [ref=e596]
+                          - img "IT Services1.152.47, 1.15%. % of Fund." [ref=e597]
+                        - region "% of Index, bar series 2 of 2 with 10 bars." [ref=e598]:
+                          - img "Semiconductors &amp; Semiconductor Equipment46.9342.47, 42.47%. % of Index." [ref=e599]
+                          - img "Interactive Media &amp; Services11.8013.36, 13.36%. % of Index." [ref=e600]
+                          - img "Electronic Equipment Instruments &amp; Components10.864.56, 4.56%. % of Index." [ref=e601]
+                          - img "Software6.4312.57, 12.57%. % of Index." [ref=e602]
+                          - img "Broadline Retail5.60-, 0%. % of Index." [ref=e603]
+                          - img "Technology Hardware Storage &amp; Peripherals5.1415.76, 15.76%. % of Index." [ref=e604]
+                          - img "Communications Equipment2.902.58, 2.58%. % of Index." [ref=e605]
+                          - img "Electrical Equipment2.71-, 0%. % of Index." [ref=e606]
+                          - img "Entertainment1.732.32, 2.32%. % of Index." [ref=e607]
+                          - img "IT Services1.152.47, 2.47%. % of Index." [ref=e608]
+                    - table [ref=e610]:
+                      - rowgroup [ref=e611]:
+                        - row [ref=e612]:
+                          - cell [ref=e613]: Semiconductors & Semiconductor Equipment
+                          - cell [ref=e614]: "46.93"
+                          - cell [ref=e615]: "42.47"
+                    - table [ref=e617]:
+                      - rowgroup [ref=e618]:
+                        - row [ref=e619]:
+                          - cell [ref=e620]: Interactive Media & Services
+                          - cell [ref=e621]: "11.80"
+                          - cell [ref=e622]: "13.36"
+                    - table [ref=e624]:
+                      - rowgroup [ref=e625]:
+                        - row [ref=e626]:
+                          - cell [ref=e627]: Electronic Equipment Instruments & Components
+                          - cell [ref=e628]: "10.86"
+                          - cell [ref=e629]: "4.56"
+                    - table [ref=e631]:
+                      - rowgroup [ref=e632]:
+                        - row [ref=e633]:
+                          - cell [ref=e634]: Software
+                          - cell [ref=e635]: "6.43"
+                          - cell [ref=e636]: "12.57"
+                    - table [ref=e638]:
+                      - rowgroup [ref=e639]:
+                        - row [ref=e640]:
+                          - cell [ref=e641]: Broadline Retail
+                          - cell [ref=e642]: "5.60"
+                          - cell [ref=e643]: "-"
+                    - table [ref=e645]:
+                      - rowgroup [ref=e646]:
+                        - row [ref=e647]:
+                          - cell [ref=e648]: Technology Hardware Storage & Peripherals
+                          - cell [ref=e649]: "5.14"
+                          - cell [ref=e650]: "15.76"
+                    - table [ref=e652]:
+                      - rowgroup [ref=e653]:
+                        - row [ref=e654]:
+                          - cell [ref=e655]: Communications Equipment
+                          - cell [ref=e656]: "2.90"
+                          - cell [ref=e657]: "2.58"
+                    - table [ref=e659]:
+                      - rowgroup [ref=e660]:
+                        - row [ref=e661]:
+                          - cell [ref=e662]: Electrical Equipment
+                          - cell [ref=e663]: "2.71"
+                          - cell [ref=e664]: "-"
+                    - table [ref=e666]:
+                      - rowgroup [ref=e667]:
+                        - row [ref=e668]:
+                          - cell [ref=e669]: Entertainment
+                          - cell [ref=e670]: "1.73"
+                          - cell [ref=e671]: "2.32"
+                    - table [ref=e673]:
+                      - rowgroup [ref=e674]:
+                        - row [ref=e675]:
+                          - cell [ref=e676]: IT Services
+                          - cell [ref=e677]: "1.15"
+                          - cell [ref=e678]: "2.47"
+                  - generic [ref=e679]: End of interactive chart.
+            - text:      
+      - heading "Documents" [level=2] [ref=e688]
+      - generic [ref=e693]:
+        - generic [ref=e694]:
+          - heading "Related Insights" [level=2] [ref=e695]
+          - paragraph [ref=e696]: Differentiated insights are central to our investment approach.
+        - generic [ref=e697]:
+          - generic [ref=e699]:
+            - link [ref=e701] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/article/project-glasswing-and-mythos-redefining-the-cybersecurity-landscape/
+              - 'img "Project Glasswing and Mythos: Redefining the cybersecurity landscape" [ref=e702]'
+            - generic [ref=e703]:
+              - generic [ref=e705]:
+                - text: Jun 29, 2026
+                - generic [ref=e706]:
+                  - text: "|"
+                  - link "Timely & Topical" [ref=e707] [cursor=pointer]:
+                    - /url: https://www.janushenderson.com/en-us/offshore/insights/?chip=timely-topical
+                - heading [level=3] [ref=e708]:
+                  - 'link "Project Glasswing and Mythos: Redefining the cybersecurity landscape" [ref=e709] [cursor=pointer]':
+                    - /url: https://www.janushenderson.com/en-us/offshore/article/project-glasswing-and-mythos-redefining-the-cybersecurity-landscape/
+                - generic [ref=e710]: Cybersecurity’s evolution into critical AI infrastructure.
+              - paragraph [ref=e712]:
+                - link "Read More" [ref=e713] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/article/project-glasswing-and-mythos-redefining-the-cybersecurity-landscape/
+          - generic [ref=e719]:
+            - link [ref=e721] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/article/quick-view-is-nvidia-approaching-an-apple-moment/
+              - 'img "Quick View: Is NVIDIA approaching an ‘Apple moment’?" [ref=e722]'
+            - generic [ref=e723]:
+              - generic [ref=e725]:
+                - text: May 21, 2026
+                - generic [ref=e726]:
+                  - text: "|"
+                  - link "Timely & Topical" [ref=e727] [cursor=pointer]:
+                    - /url: https://www.janushenderson.com/en-us/offshore/insights/?chip=timely-topical
+                - heading [level=3] [ref=e728]:
+                  - 'link "Quick View: Is NVIDIA approaching an ‘Apple moment’?" [ref=e729] [cursor=pointer]':
+                    - /url: https://www.janushenderson.com/en-us/offshore/article/quick-view-is-nvidia-approaching-an-apple-moment/
+                - generic [ref=e730]: Can NVIDIA convince the markets that it deserves more recognition for its potential for longer-term sustainable growth and continued innovation?
+              - paragraph [ref=e732]:
+                - link "Read More" [ref=e733] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/article/quick-view-is-nvidia-approaching-an-apple-moment/
+          - generic [ref=e739]:
+            - generic [ref=e742]:
+              - 'img "CEO Sessions: Healthcare innovation and a game changer in AI monetisation" [ref=e743]'
+              - link [ref=e744] [cursor=pointer]:
+                - /url: https://www.janushenderson.com/en-us/offshore/article/ceo-sessions-healthcare-innovation-and-a-game-changer-in-ai-monetisation/
+            - generic [ref=e745]:
+              - generic [ref=e747]:
+                - text: May 13, 2026
+                - generic [ref=e748]:
+                  - text: "|"
+                  - link "Timely & Topical" [ref=e749] [cursor=pointer]:
+                    - /url: https://www.janushenderson.com/en-us/offshore/insights/?chip=timely-topical
+                - heading [level=3] [ref=e750]:
+                  - 'link "CEO Sessions: Healthcare innovation and a game changer in AI monetisation" [ref=e751] [cursor=pointer]':
+                    - /url: https://www.janushenderson.com/en-us/offshore/article/ceo-sessions-healthcare-innovation-and-a-game-changer-in-ai-monetisation/
+                - generic [ref=e752]: Aging populations are driving demand for healthcare innovation, while as AI productivity improves, monetisation paths are becoming clearer.
+              - paragraph [ref=e754]:
+                - link "Read More" [ref=e755] [cursor=pointer]:
+                  - /url: https://www.janushenderson.com/en-us/offshore/article/ceo-sessions-healthcare-innovation-and-a-game-changer-in-ai-monetisation/
+      - generic [ref=e763]:
+        - tablist [ref=e764]:
+          - listitem [ref=e765]:
+            - tab "Specific risks" [selected] [ref=e766] [cursor=pointer]
+          - listitem [ref=e767]:
+            - tab "General risks" [selected] [ref=e768] [cursor=pointer]
+          - listitem [ref=e769]:
+            - tab "General information" [selected] [ref=e770] [cursor=pointer]
+        - tabpanel "Sector" [ref=e772]:
+          - list [ref=e774]:
+            - listitem [ref=e775]: Shares can lose value rapidly, and typically involve higher risks than bonds or money market instruments. The value of your investment may fall as a result.
+            - listitem [ref=e776]: High exposure to a particular country or geographical region carries a higher level of risk than a more broadly diversified portfolio.
+            - listitem [ref=e777]: The Fund is focused towards particular industries or investment themes and may be heavily impacted by factors such as changes in government regulation, increased price competition, technological advancements and other adverse events.
+            - listitem [ref=e778]: When a portfolio is concentrated (has a significant portion of its assets invested in a limited number of holdings), an adverse event impacting even a small number of holdings could create significant volatility or losses.
+            - listitem [ref=e779]: Derivatives may be used with the aim of reducing risk or managing the portfolio more efficiently. However, this introduces other risks, in particular, that a derivative counterparty may not meet its contractual obligations.
+            - listitem [ref=e780]: If the Fund holds assets in currencies other than the base currency of the Fund, or you invest in a share/unit class of a different currency to the Fund (unless hedged, i.e. seeks to mitigate exchange rate movements between the share/unit class currency and the base currency of the Fund), the value of your investment may be impacted by changes in exchange rates.
+            - listitem [ref=e781]: When the Fund, or a share/unit class, seeks to mitigate exchange rate movements of a currency relative to the base currency (hedge), the hedging strategy itself may positively or negatively impact the value of the Fund due to differences in short-term interest rates between the currencies.
+            - listitem [ref=e782]: Securities could become hard to value or to sell at a desired time and price, especially in extreme market conditions when asset prices may be falling, increasing the risk of investment losses.
+            - listitem [ref=e783]: Losses could be incurred if a counterparty became unwilling or unable to meet its obligations, or as a result of failure or delay in operational processes or the failure of a third party provider.
+  - contentinfo [ref=e784]:
+    - generic [ref=e785]:
+      - generic [ref=e786]:
+        - list [ref=e789]:
+          - listitem [ref=e790]:
+            - link "United States" [ref=e791] [cursor=pointer]:
+              - /url: /en-us/
+          - listitem [ref=e792]:
+            - link "Financial Professionals" [ref=e793] [cursor=pointer]:
+              - /url: /en-us/advisor/
+          - listitem [ref=e794]:
+            - link "Individual Investor" [ref=e795] [cursor=pointer]:
+              - /url: /en-us/investor/
+          - listitem [ref=e796]:
+            - link "Institutional" [ref=e797] [cursor=pointer]:
+              - /url: /en-us/institutional/
+          - listitem [ref=e798]:
+            - link "US Offshore" [ref=e799] [cursor=pointer]:
+              - /url: /en-us/offshore/
+        - list [ref=e802]:
+          - listitem [ref=e803]:
+            - link "Media centre" [ref=e804] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/corporate/media
+          - listitem [ref=e805]:
+            - link "Careers" [ref=e806] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/corporate/careers/
+          - listitem [ref=e807]:
+            - link "Contact us" [ref=e808] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/contact-us/
+          - listitem [ref=e809]:
+            - link "Subscriptions" [ref=e810] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/subscriptions/
+        - list [ref=e813]:
+          - listitem [ref=e814]:
+            - link "Legal information" [ref=e815] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/legal-information/
+          - listitem [ref=e816]:
+            - link "Privacy policy" [ref=e817] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/privacy-policy/
+          - listitem [ref=e818]:
+            - link "Cookie policy" [ref=e819] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/cookie-policy/
+          - listitem [ref=e820]:
+            - link "Fraud and security information" [ref=e821] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/en-us/offshore/security-information/
+        - generic [ref=e822]:
+          - generic:
+            - list:
+              - listitem [ref=e823]:
+                - text: 
+                - link "LinkedIn" [ref=e824] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/janus-henderson-emea
+      - generic [ref=e825]:
+        - paragraph [ref=e827]: Where available, overall Morningstar Rating™ is shown for share classes achieving a rating of 4 or 5 stars.
+        - generic [ref=e828]:
+          - paragraph [ref=e830]:
+            - strong [ref=e831]: Marketing Communication. The information on this site is intended only for US Financial Professionals servicing non-US Persons.
+          - paragraph [ref=e833]
+          - paragraph [ref=e835]: Unless otherwise stated all data is sourced from Janus Henderson Investors.
+          - paragraph [ref=e837]
+          - paragraph [ref=e839]: Please note that not all of the funds, products or services described on this website are available in all jurisdictions. In particular, only the US sections of this website are available to US Persons and only the Latin America sections of this website are available to residents of Latin America. The other investment products described elsewhere on this site are not available to US or Latin America residents.
+          - paragraph [ref=e841]
+          - paragraph [ref=e843]: Issued by Janus Henderson Investors. Janus Henderson Investors is the name under which investment products and services are provided by Janus Henderson Investors International Limited (reg no. 3594615), Janus Henderson Investors UK Limited (reg. no. 906355), Janus Henderson Fund Management UK Limited (reg. no. 2678531), Tabula Investment Management Limited (reg. no. 11286661), (each registered in England and Wales at 201 Bishopsgate, London EC2M 3AE and regulated by the Financial Conduct Authority) and Janus Henderson Investors Europe S.A. (reg no. B22848 at 78, Avenue de la Liberté, L-1930 Luxembourg, Luxembourg and regulated by the Commission de Surveillance du Secteur Financier).
+          - paragraph [ref=e845]
+          - paragraph [ref=e847]: We may record telephone calls for our mutual protection, to improve customer service and for regulatory record keeping purposes.
+          - paragraph [ref=e849]
+          - paragraph [ref=e851]:
+            - strong [ref=e852]: Janus Henderson® and any other trademarks used herein are trademarks of Janus Henderson Group Ltd. or one of its subsidiaries. © Janus Henderson Group Ltd.
+        - heading [level=3] [ref=e854]:
+          - img "Janus Henderson Investors Logo" [ref=e855]
+          - text: Investing in a Brighter Future together
+    - dialog [ref=e857]:
+      - generic [ref=e858]:
+        - generic [ref=e859]:
+          - generic [ref=e860] [cursor=pointer]: Close 
+          - generic [ref=e861]: Legal information
+        - generic [ref=e863]:
+          - paragraph [ref=e864]: Please read these Terms and Conditions of Use (“Terms and Conditions”) carefully. Janus Henderson Investors (“Janus Henderson”) owns and operates this NRA Channel-U.S. Offshore Website (“Site”). By reading these Terms and Conditions and clicking the “I Agree” button, you expressly indicate that you understand and intend these Terms and Conditions to be the Legal equivalent of a signed, written contract, and you accept the terms of use as set forth herein and agree to be legally bound by them. If you do not agree to these Terms and Conditions, you will not be entitled to access this website or any pages thereof.
+          - paragraph [ref=e865]:
+            - strong [ref=e866]: This website is intended solely for the use of US Financial Professionals servicing non-US persons.
+          - paragraph [ref=e867]:
+            - text: The information provided on this website is not intended for distribution to, or use by, any person or entity in any jurisdiction where such distribution or use would be contrary to law or regulation or which would subject Janus Henderson or any of Janus Henderson’s products or services to any authorization, registration, licensing or notification requirement within any jurisdiction.
+            - strong [ref=e868]: The Site has been created for informational purposes and is intended to be accessed or used only by financial professionals in the United States who have clients that are not US persons.
+            - text: This Site is expressly not intended for citizens or residents of the United States and should not be accessed by any person in the United States. In case of doubt, please see the end of this document for a definition of “US Person”.If you are a U.S. investor, or a financial professional with clients who are US persons, please visit our other website
+            - link "www.janushenderson.com" [ref=e869] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/
+            - text: for assistance with products and services legally available in the United States.
+          - paragraph [ref=e870]: It is the responsibility of financial professional wishing to make application for shares on behalf of their clients to inform themselves of, and to observe, all applicable laws and regulations of any relevant jurisdictions. Financial professionals should make themselves aware of the legal requirements with respect to such application and any applicable taxes in the countries of each client’s respective citizenship, residence or domicile. Some specific restrictions may apply even in the jurisdictions in which shares of a Fund are available for public distribution.
+          - paragraph [ref=e871]:
+            - strong [ref=e872]: Reservation of Rights
+          - paragraph [ref=e873]: We reserve the right, at our discretion, to change, modify, add, or remove portions of these Terms and Conditions at any time. Each time we modify, change, add or remove portions of these Terms and Conditions you will be required to read the new version and click the “I Agree” button so as to confirm that you are in accordance with the new Terms and Conditions and continue to use the Site. If you do not agree the modifications, changes, additions or subtractions to these Terms and Conditions you will not be allowed to use the Site.
+          - paragraph [ref=e874]:
+            - strong [ref=e875]: Use of Content
+          - paragraph [ref=e876]: The Content (as defined below) of this Site is available for informational purposes only. The posting of Content and access to this Site does not constitute, either explicitly or implicitly, any provision of services or products by Janus Henderson or any of their respective affiliates. No investment advice, tax advice, or legal advice is provided through this website. You agree that this website will not be used by you for these purposes. You acknowledge that your use of this website, and any requests for information made through this website, have not been solicited by Janus Henderson or any of its affiliates and that the provision of any information through this website shall not constitute or be considered investment advice. It is the exclusive responsibility of the investor to consider carefully the material circumstances of each investment prior to making an investment decision.
+          - paragraph [ref=e877]:
+            - strong [ref=e878]: Copyright and Trademarks
+          - paragraph [ref=e879]: "This Site (including the software and files), the computers hosting this Site, and content provided on this Site, including any text, music and sound, graphics, images, photographs, audio and video, footage, animations, podcasts, analyses, studies, reports, and downloads (all such content collectively, the “Content”) are the exclusive property of Janus Henderson (which includes HGI Group Limited, Henderson Global Investors (Brand Management) Sarl and Janus International Holding LLC) or are licensed to Janus Henderson, and are protected by law. Janus Henderson reserves all rights with respect to its proprietary information or material on this Site and will enforce such rights to the full extent of applicable copyright and trademark law. Except as expressly provided in these Terms and Conditions, Janus Henderson does not grant any express or implied rights to you. All rights in the pages and Site Content are owned by Janus Henderson and its respective licensors. You agree not to sell, distribute, publish broadcast, circulate or commercially exploit Site Content in any manner without the express written consent of Janus Henderson. Any downloading or otherwise copying from this Site will not transfer title to any software or material to you. Unless otherwise noted, Janus Henderson and other brands featured on the Site constitute our trade/service marks. You agree not to directly or indirectly: attempt to register, challenge or contest the validity of Janus Henderson’s ownership of, such copyrights, trademarks or any other intellectual property of Janus Henderson, or assist any third party in doing so."
+          - paragraph [ref=e880]:
+            - strong [ref=e881]: Authorization of Use of the Site
+          - paragraph [ref=e882]: By reading and accepting these Terms and Conditions, Janus Henderson authorizes you to use this Site conditioned on your continued compliance and acceptance with these Terms and Conditions. Limited portions of the Content available in the public areas of the Site may be accessed, printed and downloaded on an occasional basis for personal, scholarly, research or non-commercial purposes; provided that all hard copies contain all copyright and other applicable proprietary rights notices included in such content and information and/or appropriate attribution to Janus Henderson in a form and manner acceptable to us. For information on obtaining permission to use any Content beyond the uses permitted above, please contact Janus Henderson Investors, 201 Bishopsgate EC2M 3AE, Unless and except as otherwise expressly permitted by these Terms and Conditions, you may not access, copy, reproduce, modify, create derivative works of, alter, publicly distribute, republish, upload, post, transmit, publicly perform or display, license, transfer, sell, mirror, frame, “deep link,” “scrape,” data mine, or otherwise use any information or material obtained from or through this Site, without written permission from Janus Henderson. Any unauthorized use of this Site or the Content will terminate the authorization granted herein and may violate applicable laws, including copyright law, trademark laws, and commercial regulations and statutes.
+          - paragraph [ref=e883]:
+            - strong [ref=e884]: No Offer
+          - paragraph [ref=e885]: Nothing contained herein constitutes an offer, solicitation or recommendation regarding any investment management product or service, or the offer to sell or the solicitation of an offer to buy any security. The Site is not intended for use by any person in any jurisdiction where (by reason of that person’s nationality, residence or otherwise) the publication or availability of the information on this Site is prohibited. It is the responsibility of any person accessing this Site to inform himself of, and to observe fully, any restrictions or prohibitions of the applicable laws and regulations of any relevant jurisdiction.
+          - paragraph [ref=e886]: The information provided is for informational purposes only. This website does not constitute an offering or recommendation by Janus Henderson to residents of Latin America of any security, investment management service or advisory service. Janus Henderson is not registered as a brokerage firm, investment advisor, financial services firm or fund manager in any jurisdiction in Latin America.
+          - paragraph [ref=e887]: Certain of the statements contained herein may be statements of future expectations and other forward-looking statements that are based on management’s current views and assumptions and involve known and unknown risks and uncertainties that could cause actual results, performance or events to differ materially from those expressed or implied in such statements. In addition to statements which are forward-looking by reason of context, the words “may, will, should, expects, plans, intends, anticipates, believes, estimates, predicts, potential, or continue” and similar expressions identify forward-looking statements.
+          - paragraph [ref=e888]: The matters discussed herein may also involve risks and uncertainties. Janus Henderson assumes no obligation to update any forward-looking information contained herein.
+          - paragraph [ref=e889]:
+            - strong [ref=e890]: No Reliance
+          - paragraph [ref=e891]: Although Janus Henderson has taken reasonable care to ensure that the information contained within this Site is accurate, no representation or warranty (including liability towards third parties), expressed or implied, is made as to its accuracy, reliability or completeness by Janus Henderson or their contractual partners. Opinions and any other contents on the Site are provided by Janus Henderson for personal use and informational purposes only and are subject to change without notice. Nothing contained on this Site constitutes investment, legal, tax or other advice and is not to be relied on in making an investment or other decision.
+          - paragraph [ref=e892]:
+            - strong [ref=e893]: No Warranty
+          - paragraph [ref=e894]: The information and opinions contained on this Site, including hyperlinks or references to other sites, are provided ‘as is’ without any warranty of any kind, either expressed or implied, to the fullest extent permissible pursuant to applicable law. You are responsible for evaluating the adequacy, accuracy, reliability, merchantability, non-infringement, completeness of any information or the content available on the Site or fitness for any particular purpose with respect to the site or any of its content. Janus Henderson further assumes no responsibility for, and makes no warranties that, functions contained on this Site will be uninterrupted or error-free, that defects will be corrected, or that this Site or the servers that make it available will be free of viruses or other harmful components.
+          - paragraph [ref=e895]:
+            - strong [ref=e896]: Liability Waiver
+          - paragraph [ref=e897]: Neither Janus Henderson nor any of its affiliates and their respective, directors, officers, registered representatives or employees, nor any third party vendor, will be liable or have any liability, whether in contract, tort, strict liability or otherwise, for any direct, indirect, incidental, consequential, punitive or special damages arising out of or in any way connected with your access or use or inability to access or use the Site or reliance on the Content, or any failure of performance, interruption, defect, delay in transmission, computer viruses or other harmful components, or line or system failure associated with the Site, regardless of our knowledge thereof. The same is true for any content appearing on any of the Janus Henderson websites.
+          - paragraph [ref=e898]:
+            - strong [ref=e899]: Events Beyond Janus Henderson’s Control
+          - paragraph [ref=e900]: You expressly absolve and release Janus Henderson, its affiliates, related companies, and all of their respective officers, directors, employees, registered representatives, shareholders, legal representatives, attorneys, agents, successors and assigns, from any claim of harm resulting from a cause beyond its control including, but not limited to, the failure of electronic or mechanical equipment or communication lines, telephone or other interconnect problems, computer viruses or software failures, unauthorized access, theft, operator errors, severe weather, earthquakes, or natural disasters, strikes or other labor problems, wars, acts of domestic or foreign terrorism or governmental restrictions.
+          - paragraph [ref=e901]:
+            - strong [ref=e902]: User Representations
+          - paragraph [ref=e903]: You represent and warrant to Janus Henderson that you will not use this Site for any purpose that is unlawful or prohibited by these Terms and Conditions, including but not limited to attempting or actually (a) disrupting, impairing or otherwise interfering with the operation or integrity of the Site or circumventing any Site security system; (b) collecting any information about other users of the Site; or (c) systematically extracting Content or other information or data contained in the Site to populate databases or other sites.
+          - paragraph [ref=e904]:
+            - strong [ref=e905]: Linked Sites
+          - paragraph [ref=e906]: Certain hyperlinks or referenced websites on the Site may for your convenience forward you to third parties’ websites, which generally are recognized by their top level domain name. Any descriptions of, references to, or links to other products, publications or services does not constitute an endorsement, authorization, sponsorship by or affiliation with Janus Henderson with respect to any linked site or its sponsor, unless expressly stated by Janus Henderson. Any such information, products or sites have not necessarily been reviewed by Janus Henderson and are provided or maintained by third parties over whom Janus Henderson exercises no control. Janus Henderson expressly disclaims any responsibility for the content, the accuracy of the information, and/or quality of products or services provided by or advertised on these third-party sites. Janus Henderson reserves the right to terminate any hyperlink or hyperlinking program at any time.
+          - paragraph [ref=e907]:
+            - strong [ref=e908]: Information Submitted By You
+          - paragraph [ref=e909]: You should not submit any confidential or proprietary information via the Site. All information or material submitted through the Site will be deemed to be the property of Janus Henderson. By submitting any information or material to us through the Site, you grant us an unrestricted, irrevocable license to use, reproduce, display, perform, modify, transmit and distribute those materials or information. You also agree that Janus Henderson is free to use for any purpose any ideas, concepts, know-how or techniques that you submit to us through the Site. Janus Henderson shall not be subject to any obligations of confidentiality regarding submitted information, except as agreed by Janus Henderson or as otherwise specifically agreed or required by law. Note that the treatment of the information submitted in accordance with this section does not regard personal information submitted by you.
+          - paragraph [ref=e910]:
+            - strong [ref=e911]: Jurisdiction, Severability
+          - paragraph [ref=e912]: Any action arising out of these Terms and Conditions or the Site shall be litigated in, and only in, courts located in England and Wales, and you agree to submit to the exclusive jurisdiction of those courts and further agree that they are a convenient forum for you.
+          - paragraph [ref=e913]: In the event that any provision of these terms is held unenforceable, the validity or enforceability of the remaining provisions will not be affected, and the unenforceable provision will be replaced with an enforceable provision that comes close to the intention underlying the unenforceable provision.
+          - paragraph [ref=e914]:
+            - strong [ref=e915]: Cookies
+          - paragraph [ref=e916]: "We use cookies, small text files transferred to your browser by our website, to help with several aspects of your visit:"
+          - list [ref=e917]:
+            - listitem [ref=e918]: To allow our web site software to manage your session or visit and the data passed back and forth during your visit and provide you with the ability to login where necessary.
+            - listitem [ref=e919]: To allow our site to remember your preferences when you wish it to, such as whether you accept our terms of use, your chosen country and investor type, or remember the login details you use to frequently access your personal content.
+            - listitem [ref=e920]: To help with web analytics; the measurement of visits to this site so that we at Janus Henderson and our agents can analyse what advertising, content and functionality is popular and useful, how our site is performing, with the aim of continually improving it. The industry standard software we use for our web analytics is provided by Adobe (Adobe Marketing Cloud) and Google (Google Analytics and DoubleClick).
+          - paragraph [ref=e921]: We do not use cookies that provide information to advertising networks or any third parties who might be tracking your activity across multiple sites.
+          - paragraph [ref=e922]: "By continuing without disabling cookies we will assume that you are happy to receive them for the purposes outlined above. If you would like to change your cookie settings please use the following links:"
+          - list [ref=e923]:
+            - listitem [ref=e924]: Disable/enable Adobe cookies
+            - listitem [ref=e925]: Control Google web analytics and cookies (browser add-on)
+            - listitem [ref=e926]: Control all cookies with your browser (please note some parts of the web site will not function when all cookies are disabled)
+            - listitem [ref=e927]: Understand Google’s use of advertising cookies
+          - paragraph [ref=e928]:
+            - text: If you have questions on our use of cookies, please email
+            - link "support@janushenderson.com" [ref=e929] [cursor=pointer]:
+              - /url: mailto:support@janushenderson.com
+            - text: .
+          - paragraph [ref=e930]:
+            - strong [ref=e931]: "‘US Person’ is:"
+          - list [ref=e932]:
+            - listitem [ref=e933]: any natural person resident in the United States (‘US’); or
+            - listitem [ref=e934]: a corporation or partnership incorporated or organised in the US, but excluding an offshore branch or agency of a US person that operates for valid business reasons and is engaged and regulated as an insurance company or bank; or
+            - listitem [ref=e935]: a branch or agency of a foreign entity located in the US; or
+            - listitem [ref=e936]: a trust of which the trustee is a US person, unless a non-US person has or shares investment discretion; or
+            - listitem [ref=e937]: an estate of which a US person is the executor or administrator, unless the estate is governed by foreign law and a non-US person has or shares investment discretion; or
+            - listitem [ref=e938]: a non-discretionary account held for the benefit of a US person; or
+            - listitem [ref=e939]: a discretionary account held by a US dealer or fiduciary, unless held for the benefit of a non-US person; or
+            - listitem [ref=e940]: any entity organised or incorporated for the purposes of evading US securities laws.
+        - generic [ref=e943]:
+          - generic [ref=e944] [cursor=pointer]: Decline
+          - generic [ref=e949] [cursor=pointer]: Accept
+  - text:   
+  - generic:
+    - region "Cookie banner" [ref=e956]:
+      - dialog "Your Privacy" [ref=e957]:
+        - generic [ref=e959]:
+          - generic [ref=e961]:
+            - heading "Your Privacy" [level=2] [ref=e962]
+            - generic [ref=e963]:
+              - text: We use optional cookies to improve your browsing experience, analyse our traffic, and to personalise content on our website. For more information about how we use cookies and how to manage them, please refer to our
+              - link "Cookie policy, opens in a new tab, opens in a new tab" [ref=e964] [cursor=pointer]:
+                - /url: https://www.janushenderson.com/cookie-policy
+                - text: cookies policy.
+          - generic [ref=e966]:
+            - button "Cookies Settings, Opens the preference center dialog" [ref=e967] [cursor=pointer]: Cookies Settings
+            - button "Reject All" [ref=e968] [cursor=pointer]
+            - button "Accept Cookies" [ref=e969] [cursor=pointer]
+    - text: Cookies Settings

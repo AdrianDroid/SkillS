@@ -1,0 +1,85 @@
+[    5076ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/api/funddata/getfundlistdisclaimersuperscript/3ae9273d-954b-4631-85a7-387c5f5d7286:0
+[    5076ms] [ERROR] {readyState: 0, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: } @ https://hk.allianzgi.com/assets/js/application.js?v=7f8b7a39fc7859d0a8c6a68a1ad6e3b7:36
+[    5079ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/multi/funds/3ae9273d-954b-4631-85a7-387c5f5d7286/9c59f8e2-7f0f-4f6f-90bd-c6e63201f374:0
+[    5079ms] [LOG] TypeError: Failed to fetch @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    5079ms] [LOG] TypeError: Failed to fetch @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    5079ms] [LOG] TypeError: Failed to fetch @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    5079ms] [LOG] TypeError: Failed to fetch @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    5079ms] [LOG] TypeError: Failed to fetch @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    5079ms] [LOG] TypeError: Failed to fetch @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[    9623ms] [WARNING] The resource https://hk.allianzgi.com/assets/fonts/patternlab-icons/PatternLab-Iconv2.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0
+[   20630ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/multi/funds/3ae9273d-954b-4631-85a7-387c5f5d7286/9c59f8e2-7f0f-4f6f-90bd-c6e63201f374:0
+[   20630ms] [LOG] TypeError: Failed to fetch
+    at s (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:835)
+    at n (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:4443)
+    at t.value (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:5005)
+    at Tn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:74092)
+    at ro (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:91565)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:25:2746
+    at Ye (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40221)
+    at oo (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:88221)
+    at Yn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:84243)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40511 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   20631ms] [LOG] TypeError: Failed to fetch
+    at s (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:835)
+    at n (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:4443)
+    at t.value (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:5005)
+    at Tn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:74092)
+    at ro (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:91565)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:25:2746
+    at Ye (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40221)
+    at oo (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:88221)
+    at Yn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:84243)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40511 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   20631ms] [LOG] TypeError: Failed to fetch
+    at s (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:835)
+    at n (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:4443)
+    at t.value (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:5005)
+    at Tn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:74092)
+    at ro (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:91565)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:25:2746
+    at Ye (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40221)
+    at oo (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:88221)
+    at Yn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:84243)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40511 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   20631ms] [LOG] TypeError: Failed to fetch
+    at s (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:835)
+    at n (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:4443)
+    at t.value (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:5005)
+    at Tn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:74092)
+    at ro (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:91565)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:25:2746
+    at Ye (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40221)
+    at oo (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:88221)
+    at Yn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:84243)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40511 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   20631ms] [LOG] TypeError: Failed to fetch
+    at s (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:835)
+    at n (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:4443)
+    at t.value (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:5005)
+    at Tn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:74092)
+    at ro (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:91565)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:25:2746
+    at Ye (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40221)
+    at oo (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:88221)
+    at Yn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:84243)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40511 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   20631ms] [LOG] TypeError: Failed to fetch
+    at s (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:835)
+    at n (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:4443)
+    at t.value (https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:1:5005)
+    at Tn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:74092)
+    at ro (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:91565)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:25:2746
+    at Ye (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40221)
+    at oo (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:88221)
+    at Yn (https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:84243)
+    at https://hk.allianzgi.com/assets/js/modules.js?v=3e968a53330bcc97288ed4261f3c74b7:1:40511 @ https://hk.allianzgi.com/assets/js/0.js?v=9e173399f710c24ccebd:0
+[   20631ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/api/funddata/getfundlistdisclaimersuperscript/3ae9273d-954b-4631-85a7-387c5f5d7286:0
+[   20631ms] [ERROR] {readyState: 0, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: } @ https://hk.allianzgi.com/assets/js/application.js?v=7f8b7a39fc7859d0a8c6a68a1ad6e3b7:36
+[   21856ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/api/funddata/getfundlistdisclaimersuperscript/3ae9273d-954b-4631-85a7-387c5f5d7286:0
+[   21856ms] [ERROR] {readyState: 0, getResponseHeader: , getAllResponseHeaders: , setRequestHeader: , overrideMimeType: } @ https://hk.allianzgi.com/assets/js/application.js?v=7f8b7a39fc7859d0a8c6a68a1ad6e3b7:36
+[   25820ms] [WARNING] The resource https://hk.allianzgi.com/assets/fonts/patternlab-icons/PatternLab-Iconv2.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0
+[   33764ms] [WARNING] The resource https://hk.allianzgi.com/assets/fonts/patternlab-icons/PatternLab-Iconv2.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0
+[   36156ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://hk.allianzgi.com/en-HK/api/funddata/multi/funds/3ae9273d-954b-4631-85a7-387c5f5d7286/9c59f8e2-7f0f-4f6f-90bd-c6e63201f374:0
+[   39156ms] [WARNING] The resource https://hk.allianzgi.com/assets/fonts/patternlab-icons/PatternLab-Iconv2.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds:0

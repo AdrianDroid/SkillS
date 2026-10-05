@@ -1,0 +1,308 @@
+- generic [ref=f103e1]:
+  - link "Skip to Main Content" [ref=f103e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - banner [ref=f103e3]:
+    - generic [ref=f103e4]:
+      - generic [ref=f103e5]:
+        - link "PIMCO Home" [ref=f103e7] [cursor=pointer]:
+          - /url: /hk/en
+          - img "PIMCO logo" [ref=f103e8]
+        - text: 
+      - navigation [ref=f103e9]:
+        - button "Site search" [ref=f103e10] [cursor=pointer]
+        - button "Open primary navigation" [ref=f103e15] [cursor=pointer]
+        - text:        
+        - generic: 
+  - main [ref=f103e19]:
+    - generic [ref=f103e21]:
+      - generic [ref=f103e23]:
+        - generic [ref=f103e24]: PIMCO Perspectives
+        - heading "Old-Fashioned Bond Math for a New-Fashioned Fed" [level=1] [ref=f103e25]
+        - generic [ref=f103e26]:
+          - time [ref=f103e27]: 20/7/2026
+          - generic [ref=f103e28]: Marc Seidner, Pramol Dhawan
+        - generic [ref=f103e29]: "In the Warsh Fed's new era of two-way risk, bonds offer something rare: potential downside risk mitigation that investors get paid to hold."
+        - link "Read Article" [ref=f103e31] [cursor=pointer]:
+          - /url: /hk/en/insights/old-fashioned-bond-math-for-a-new-fashioned-fed
+      - img "Thumbnail of Old Fashioned Bond Math for a New Fashioned Fed" [ref=f103e34]
+    - list [ref=f103e37]:
+      - listitem [ref=f103e38]:
+        - group "article" [ref=f103e39]:
+          - generic [ref=f103e40]: Real Estate Outlook
+          - 'heading "Real Estate: From Repricing to Relevance" [level=2] [ref=f103e41]'
+          - link "Read Outlook" [ref=f103e43] [cursor=pointer]:
+            - /url: /hk/en/insights/real-estate-from-repricing-to-relevance
+            - text: Read Outlook
+            - generic [ref=f103e44]: 
+      - listitem [ref=f103e45]:
+        - group "article" [ref=f103e46]:
+          - generic [ref=f103e47]: Secular Outlook
+          - heading "Rupture and Resilience" [level=2] [ref=f103e48]
+          - link "Read Outlook" [ref=f103e50] [cursor=pointer]:
+            - /url: /hk/en/insights/rupture-and-resilience
+            - text: Read Outlook
+            - generic [ref=f103e51]: 
+      - listitem [ref=f103e52]:
+        - group "article" [ref=f103e53]:
+          - generic [ref=f103e54]: Economic and Market Commentary
+          - 'heading "China’s Next Phase: What Persistent Supply-Side Growth Means for Global Markets" [level=2] [ref=f103e55]'
+          - link "Read Article" [ref=f103e57] [cursor=pointer]:
+            - /url: /hk/en/insights/chinas-next-phase-what-persistent-supply-side-growth-means-for-global-markets
+            - text: Read Article
+            - generic [ref=f103e58]: 
+    - generic [ref=f103e59]:
+      - generic [ref=f103e61]:
+        - heading "Stay Informed with PIMCO's Insights" [level=2] [ref=f103e62]
+        - link "View More Insights" [ref=f103e64] [cursor=pointer]:
+          - /url: /hk/en/insights
+      - region "carousel" [ref=f103e65]:
+        - paragraph [ref=f103e66]: This is a carousel with individual cards. Use the previous and next buttons to navigate.
+        - generic [ref=f103e69]:
+          - button "Previous" [disabled] [ref=f103e70] [cursor=pointer]:
+            - generic [ref=f103e71]: prev
+          - button "Next" [ref=f103e74] [cursor=pointer]:
+            - generic [ref=f103e75]: next
+        - generic [ref=f103e81]:
+          - group "card 1 of 12" [ref=f103e82]:
+            - generic [ref=f103e87]:
+              - generic [ref=f103e88]: The Credit Market Lens
+              - heading [level=3] [ref=f103e91]:
+                - 'link "The Credit Market Lens: The Return of Financial Engineering – Not 2008, But Not Nothing" [ref=f103e92] [cursor=pointer]':
+                  - /url: /hk/en/insights/the-credit-market-lens-the-return-of-financial-engineering-not-2008-but-not-nothing
+                - generic [ref=f103e93]: 
+              - paragraph [ref=f103e94]: Leverage and complexity are gaining ground in today’s late-cycle markets, signaling caution – not crisis – and underscoring the value of diversification and risk management.
+          - group "card 2 of 12" [ref=f103e95]:
+            - generic [ref=f103e100]:
+              - generic [ref=f103e101]: Macro Signposts
+              - heading [level=3] [ref=f103e104]:
+                - link "When Monetary Policy Surprises Stop Translating" [ref=f103e105] [cursor=pointer]:
+                  - /url: /hk/en/insights/when-monetary-policy-surprises-stop-translating
+                - generic [ref=f103e106]: 
+              - paragraph [ref=f103e107]: Macro Signposts highlights takeaways from the data analysis conducted by our team of economists and other experts.
+          - group [ref=f103e108]:
+            - generic [ref=f103e116]:
+              - generic [ref=f103e117]: Economic and Market Commentary
+              - heading [level=3] [ref=f103e120]:
+                - link [ref=f103e121] [cursor=pointer]:
+                  - /url: /hk/en/resources/video-library/media/q3-2026-update-from-the-asia-trade-floor
+                  - text: Q3 2026 Update from the Asia Trade Floor
+                - generic [ref=f103e122]: 
+              - paragraph [ref=f103e123]: Higher starting yields are providing a stronger foundation for investors, while while a more selective opportunity set in China and evolving emerging market dynamics create meaningful diversification opportunities.
+          - group [ref=f103e124]:
+            - generic [ref=f103e129]:
+              - generic [ref=f103e130]: The Credit Market Lens
+              - heading [level=3] [ref=f103e133]:
+                - link [ref=f103e134] [cursor=pointer]:
+                  - /url: /hk/en/insights/the-credit-market-lens-rich-spreads-cheap-treasuries-and-an-incomplete-explanation
+                  - text: "The Credit Market Lens: Rich Spreads, Cheap Treasuries, and an Incomplete Explanation"
+                - generic [ref=f103e135]: 
+              - paragraph [ref=f103e136]: The evolution of credit spreads remains driven primarily by credit fundamentals, investor risk appetite, flows, and broader market technicals rather than relative value between Treasuries and swaps.
+          - group [ref=f103e137]:
+            - generic [ref=f103e142]:
+              - generic [ref=f103e143]: PIMCO Perspectives
+              - heading [level=3] [ref=f103e146]:
+                - link [ref=f103e147] [cursor=pointer]:
+                  - /url: /hk/en/insights/old-fashioned-bond-math-for-a-new-fashioned-fed
+                  - text: Old-Fashioned Bond Math for a New-Fashioned Fed
+                - generic [ref=f103e148]: 
+              - paragraph [ref=f103e149]: "In the Warsh Fed's new era of two-way risk, bonds offer something rare: potential downside risk mitigation that investors get paid to hold."
+          - group [ref=f103e150]:
+            - generic [ref=f103e155]:
+              - generic [ref=f103e156]: Macro Signposts
+              - heading [level=3] [ref=f103e159]:
+                - link [ref=f103e160] [cursor=pointer]:
+                  - /url: /hk/en/insights/fed-policymaker-comments-raise-the-stakes-for-inflation-data
+                  - text: Fed Policymaker Comments Raise the Stakes for Inflation Data
+                - generic [ref=f103e161]: 
+              - paragraph [ref=f103e162]: Macro Signposts highlights takeaways from the data analysis conducted by our team of economists and other experts.
+          - group [ref=f103e163]:
+            - generic [ref=f103e168]:
+              - generic [ref=f103e169]: Real Estate Outlook
+              - heading [level=3] [ref=f103e172]:
+                - link [ref=f103e173] [cursor=pointer]:
+                  - /url: /hk/en/insights/real-estate-from-repricing-to-relevance
+                  - text: "Real Estate: From Repricing to Relevance"
+                - generic [ref=f103e174]: 
+              - paragraph [ref=f103e175]: Commercial real estate is entering a new phase. Artificial intelligence and geopolitical volatility are reshaping how physical space is used and valued.
+          - group [ref=f103e176]:
+            - generic [ref=f103e181]:
+              - generic [ref=f103e182]: The Credit Market Lens
+              - heading [level=3] [ref=f103e185]:
+                - link [ref=f103e186] [cursor=pointer]:
+                  - /url: /hk/en/insights/the-credit-market-lens-a-higher-bar-for-earnings-season
+                  - text: "The Credit Market Lens: A Higher Bar for Earnings Season"
+                - generic [ref=f103e187]: 
+              - paragraph [ref=f103e188]: Higher earnings forecasts across corporate credit have raised the bar for second-quarter reporting, while AI hyperscaler capital spending is poised to continue to drive the narrative.
+          - group [ref=f103e189]:
+            - generic [ref=f103e194]:
+              - generic [ref=f103e195]: The Credit Market Lens
+              - heading [level=3] [ref=f103e198]:
+                - link [ref=f103e199] [cursor=pointer]:
+                  - /url: /hk/en/insights/the-credit-market-lens-a-growing-divide-in-leveraged-finance
+                  - text: "The Credit Market Lens: A Growing Divide in Leveraged Finance"
+                - generic [ref=f103e200]: 
+              - paragraph [ref=f103e201]: Higher rates, weaker underwriting, and software concentration are exposing vulnerabilities in direct lending and leveraged loans, while high yield bonds appear better positioned.
+          - group [ref=f103e202]:
+            - generic [ref=f103e207]:
+              - generic [ref=f103e208]: Macro Signposts
+              - heading [level=3] [ref=f103e211]:
+                - link [ref=f103e212] [cursor=pointer]:
+                  - /url: /hk/en/insights/does-ai-raise-or-lower-neutral-rates
+                  - text: Does AI Raise or Lower Neutral Rates?
+                - generic [ref=f103e213]: 
+              - paragraph [ref=f103e214]: Macro Signposts highlights takeaways from the data analysis conducted by our team of economists and other experts.
+          - group [ref=f103e215]:
+            - generic [ref=f103e220]:
+              - generic [ref=f103e221]: The Credit Market Lens
+              - heading [level=3] [ref=f103e224]:
+                - link [ref=f103e225] [cursor=pointer]:
+                  - /url: /hk/en/insights/the-credit-market-lens-what-bdc-redemptions-and-nav-pressures-mean-for-investors
+                  - text: "The Credit Market Lens: What BDC Redemptions and NAV Pressures Mean for Investors"
+                - generic [ref=f103e226]: 
+              - paragraph [ref=f103e227]: A widening confidence gap in non-traded investment vehicles is testing private credit valuations, sharpening the case for manager selection and diversification beyond direct lending.
+          - group [ref=f103e228]:
+            - generic [ref=f103e236]:
+              - generic [ref=f103e237]: Investment Strategies
+              - heading [level=3] [ref=f103e240]:
+                - link [ref=f103e241] [cursor=pointer]:
+                  - /url: /hk/en/resources/video-library/media/active-credit-where-flexibility-meets-alpha
+                  - text: "Active Credit: Where Flexibility Meets Alpha"
+                - generic [ref=f103e242]: 
+              - paragraph [ref=f103e243]: Mohit Mittal, CIO of core strategies, and Saurabh Sud, portfolio manager, explore PIMCO’s active credit approach – how they construct portfolios, navigate market complexity, and uncover value across market environments.
+    - generic [ref=f103e246]:
+      - generic [ref=f103e247]:
+        - heading "How Can PIMCO Help You?" [level=2] [ref=f103e248]
+        - generic [ref=f103e249]: For helpful resources, account assistance, and general contact, visit our Contact & Support Center. For more, access the additional links below.
+        - link "Contact & Support" [ref=f103e251] [cursor=pointer]:
+          - /url: /hk/en/about-us/contact-us
+      - navigation "Support" [ref=f103e252]:
+        - list [ref=f103e253]:
+          - listitem [ref=f103e254]:
+            - link "About Us" [ref=f103e255] [cursor=pointer]:
+              - /url: /hk/en/about-us
+          - listitem [ref=f103e257]:
+            - link "Careers" [ref=f103e258] [cursor=pointer]:
+              - /url: /hk/en/about-us/careers
+          - listitem [ref=f103e260]:
+            - link "PIMCO Offices" [ref=f103e261] [cursor=pointer]:
+              - /url: /hk/en/about-us/offices
+  - generic [ref=f103e268]:
+    - heading [level=2] [ref=f103e269]:
+      - button "Disclosures" [expanded] [ref=f103e270] [cursor=pointer]
+    - generic [ref=f103e274]:
+      - paragraph [ref=f103e275]:
+        - strong [ref=f103e276]: All investments contain risk and may lose value. Investors should consult their investment professional prior to making an investment decision.
+      - paragraph [ref=f103e277]:
+        - strong [ref=f103e278]: Past performance is not a guarantee or a reliable indicator of future results.
+      - paragraph [ref=f103e279]:
+        - strong [ref=f103e280]: "PIMCO Funds:"
+        - text: "Global Investors Series plc is an open-ended investment company with variable capital and with segregated liability between Funds incorporated on 10 December, 1997 and is authorised in Ireland by the Central Bank as an undertaking for collective investment in transferable securities pursuant to the European Communities (Undertakings for Collective Investment in Transferable Securities) Regulations, 2011 (S.I. No. 352 of 2011) as amended. PIMCO Funds: Global Investors Series plc has appointed PIMCO Asia Limited as the Hong Kong Representative. Investors should consider the investment objectives, risks, charges and expenses of the Funds carefully before investing. This and other information are contained in the Fund’s Hong Kong Prospectus, which may be obtained from our website"
+        - link "Go to PIMCO Hong Kong's English homepage" [ref=f103e281] [cursor=pointer]:
+          - /url: /hk/en
+          - text: www.pimco.com/hk
+        - text: or by contacting the Hong Kong Representative or your fund distributor and/or financial advisor. Prospective investors should read the Fund’s Hong Kong Prospectus before deciding whether to subscribe for or purchase shares in any of the Funds. Investor may also wish to seek advice from a financial advisor before making a commitment to invest and in the event you choose not to seek advice, you should consider whether the investment is suitable for you.
+      - paragraph [ref=f103e282]: The Funds typically offer different share classes, which are subject to different fees and expenses (which may affect performance), have different minimum investment requirements and are entitled to different services. Unless otherwise stated in the prospectus, the Funds referenced in this website is not managed against a particular benchmark or index, and any reference to a particular benchmark or index in this website is made solely for risk or performance comparison purposes.
+      - paragraph [ref=f103e283]:
+        - text: A
+        - strong [ref=f103e284]: "word about risk:"
+        - text: Investing in the
+        - strong [ref=f103e285]: bond market
+        - text: is subject to risks, including market, interest rate, issuer, credit, inflation risk, and liquidity risk. The value of most bonds and bond strategies are impacted by changes in interest rates. Bonds and bond strategies with longer durations tend to be more sensitive and volatile than those with shorter durations; bond prices generally fall as interest rates rise, and low interest rate environments increase this risk. Reductions in bond counterparty capacity may contribute to decreased market liquidity and increased price volatility. Bond investments may be worth more or less than the original cost when redeemed. Currency rates may fluctuate significantly over short periods of time and may reduce the returns of a portfolio. Investing in
+        - strong [ref=f103e286]: foreign denominated and/or domiciled securities
+        - text: may involve heightened risk due to currency fluctuations, and economic and political risks, which may be enhanced in emerging markets.
+        - strong [ref=f103e287]: Mortgage and asset-backed securities
+        - text: may be sensitive to changes in interest rates, subject to early repayment risk, and their value may fluctuate in response to the market’s perception of issuer creditworthiness; while generally supported by some form of government or private guarantee there is no assurance that private guarantors will meet their obligations.
+        - strong [ref=f103e288]: Inflation-linked bonds (ILBs)
+        - text: issued by a government are fixed-income securities whose principal value is periodically adjusted according to the rate of inflation; ILBs decline in value when real interest rates rise.
+        - strong [ref=f103e289]: Treasury Inflation-Protected Securities (TIPS)
+        - text: are ILBs issued by the U.S. Government. Sovereign securities are generally backed by the issuing government, obligations of U.S. Government agencies and authorities are supported by varying degrees but are generally not backed by the full faith of the U.S. Government; portfolios that invest in such securities are not guaranteed and will fluctuate in value.
+        - strong [ref=f103e290]: High-yield, lower-rated, securities
+        - text: involve greater risk than higher-rated securities; portfolios that invest in them may be subject to greater levels of credit and liquidity risk than portfolios that do not.
+        - strong [ref=f103e291]: Equities
+        - text: may decline in value due to both real and perceived general market, economic, and industry conditions.
+        - strong [ref=f103e292]: Derivatives
+        - text: may involve certain costs and risks such as liquidity, interest rate, market, credit, management and the risk that a position could not be closed when most advantageous. Investing in derivatives could lose more than the amount invested.
+        - strong [ref=f103e293]: Diversification
+        - text: does not ensure against loss.
+      - paragraph [ref=f103e294]: There is no guarantee that these investment strategies will work under all market conditions or are appropriate for all investors and each investor should evaluate their ability to invest long-term, especially during periods of downturn in the market.
+      - paragraph [ref=f103e295]: PIMCO does not provide legal or tax advice. Please consult your tax and/or legal counsel for specific tax or legal questions and concerns.
+      - paragraph [ref=f103e296]: The views and strategies described may not be appropriate for all investors. This material has been prepared for informational purposes only.
+      - paragraph [ref=f103e297]: PIMCO as a general matter provides services to qualified institutions, financial intermediaries and institutional investors. Individual investors should contact their own financial professional to determine the most appropriate investment options for their financial situation. This material contains the current opinions of the manager and such opinions are subject to change without notice. This material has been distributed for informational purposes only and should not be considered as investment advice or a recommendation of any particular security, strategy or investment product. Information contained herein has been obtained from sources believed to be reliable, but not guaranteed. No part of this material may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of America LLC in the United States and throughout the world.
+  - contentinfo "PIMCO Footer" [ref=f103e298]:
+    - generic [ref=f103e299]:
+      - generic [ref=f103e300]:
+        - img "PIMCO logo" [ref=f103e301]
+        - list [ref=f103e303]:
+          - listitem [ref=f103e304]:
+            - link [ref=f103e305] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/pimco
+              - generic [ref=f103e307]: 
+          - listitem [ref=f103e308]:
+            - link [ref=f103e309] [cursor=pointer]:
+              - /url: https://www.youtube.com/@PIMCO_HK
+              - generic [ref=f103e311]: 
+      - list [ref=f103e313]:
+        - listitem [ref=f103e314]:
+          - link "Privacy Notice" [ref=f103e315] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/privacy-notice
+          - text: "|"
+        - listitem [ref=f103e316]:
+          - link "Terms and Conditions" [ref=f103e317] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/terms-and-conditions
+          - text: "|"
+        - listitem [ref=f103e318]:
+          - link "Legal Disclaimer" [ref=f103e319] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/legal-disclaimer
+          - text: "|"
+        - listitem [ref=f103e320]:
+          - link "Fee Policy Disclosure" [ref=f103e321] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/fee-policy-disclosure
+          - text: "|"
+        - listitem [ref=f103e322]:
+          - link "Alert on Fraudulent Website" [ref=f103e323] [cursor=pointer]:
+            - /url: /hk/en/general/legal-pages/alert-on-fraudulent-website
+          - text: "|"
+        - listitem [ref=f103e324]:
+          - link "Site Map" [ref=f103e325] [cursor=pointer]:
+            - /url: /hk/en/sitemap
+      - generic [ref=f103e328]:
+        - paragraph [ref=f103e329]: This website and the products and services referred to in it are intended solely for residents of Hong Kong.
+        - paragraph [ref=f103e330]: This website is not intended for persons in any country other than Hong Kong. We do not invite applications for, offer or sell products or services to persons or in countries or jurisdictions where such invitation, offer or sale would be unlawful.
+        - paragraph [ref=f103e331]: This website is general in nature and is for information purposes only. It is not a solicitation, offer or recommendation of any security, investment management or advisory service. It does not constitute investment, tax or legal advice.
+        - paragraph [ref=f103e332]: This website is issued by PIMCO Asia Limited and has not been reviewed by the Securities and Futures Commission. No part of this publication may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of America LLC in the United States and throughout the world. ©2026 PIMCO. All Rights Reserved.
+        - paragraph [ref=f103e333]: PIMCO Asia Limited, Suite 2201, 22nd Floor, Two International Finance Centre, 8 Finance Street, Central, Hong Kong, 852-3650-7700
+        - img "A company of Allianz" [ref=f103e334]
+  - dialog "Dialog Window - Close (Press escape to close)" [active] [ref=f103e339]:
+    - document [ref=f103e340]:
+      - generic [ref=f103e344]:
+        - generic [ref=f103e345]:
+          - generic [ref=f103e347]:
+            - heading "PIMCO Hong Kong" [level=2] [ref=f103e348]
+            - list [ref=f103e350] [cursor=pointer]:
+              - listitem [ref=f103e351]:
+                - radio "中文" [ref=f103e352]
+                - text: 中文
+              - listitem [ref=f103e353]:
+                - radio "English" [checked] [ref=f103e354]
+                - text: English
+          - button "Change Your Location" [ref=f103e355] [cursor=pointer]
+        - generic [ref=f103e358]:
+          - group "Tell us a little about you to help us personalize the site to your needs." [ref=f103e359]:
+            - list [ref=f103e361]:
+              - listitem [ref=f103e362]:
+                - radio "Financial Intermediary I am an adviser or wealth manager." [ref=f103e363]
+                - generic [ref=f103e364] [cursor=pointer]:
+                  - generic [ref=f103e366]: Financial Intermediary
+                  - generic [ref=f103e367]: I am an adviser or wealth manager.
+              - listitem [ref=f103e368]:
+                - radio "Institutional Investor I am a consultant, government/public institution or corporate client." [ref=f103e369]
+                - generic [ref=f103e370] [cursor=pointer]:
+                  - generic [ref=f103e372]: Institutional Investor
+                  - generic [ref=f103e373]: I am a consultant, government/public institution or corporate client.
+              - listitem [ref=f103e374]:
+                - radio "Individual Investor I am looking for investment insights and/or solutions for myself." [ref=f103e375]
+                - generic [ref=f103e376] [cursor=pointer]:
+                  - generic [ref=f103e378]: Individual Investor
+                  - generic [ref=f103e379]: I am looking for investment insights and/or solutions for myself.
+          - generic [ref=f103e380]:
+            - button "Accept" [disabled]

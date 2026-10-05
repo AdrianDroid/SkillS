@@ -1,0 +1,1548 @@
+- generic [active] [ref=f98e1]:
+  - generic [ref=f98e6]:
+    - link "Skip to content" [ref=f98e130] [cursor=pointer]:
+      - /url: "#top-content"
+    - generic [ref=f98e131]:
+      - banner [ref=f98e137]:
+        - generic:
+          - generic:
+            - link "Skip to content":
+              - /url: /en-hk/our-funds/price-and-performance/mutual-funds#main-content
+        - generic [ref=f98e142]:
+          - button "Header menu toggle" [ref=f98e143] [cursor=pointer]
+          - link [ref=f98e157] [cursor=pointer]:
+            - /url: /en-hk
+            - img "Franklin Templeton Investments" [ref=f98e158]
+          - button "search" [ref=f98e160] [cursor=pointer]
+      - generic:
+        - dialog "Close"
+      - main [ref=f98e167]:
+        - generic [ref=f98e173]:
+          - generic [ref=f98e176]:
+            - navigation "Breadcrumb" [ref=f98e182]:
+              - list [ref=f98e183]:
+                - listitem [ref=f98e184]:
+                  - link "Home" [ref=f98e185] [cursor=pointer]:
+                    - /url: /en-hk
+                - listitem [ref=f98e190]:
+                  - link "Our Funds" [ref=f98e191] [cursor=pointer]:
+                    - /url: /en-hk/our-funds
+                - listitem [ref=f98e196]:
+                  - link "Price & Performance" [ref=f98e197] [cursor=pointer]:
+                    - /url: /en-hk/our-funds/price-and-performance
+                - listitem
+            - generic [ref=f98e205]:
+              - generic [ref=f98e206]:
+                - generic [ref=f98e208]:
+                  - heading "Mutual Funds" [level=1] [ref=f98e210]
+                  - alert [ref=f98e212]: Showing 75 of 334
+                - application [ref=f98e216]:
+                  - generic [ref=f98e219] [cursor=pointer]:
+                    - generic [ref=f98e221]:
+                      - generic [ref=f98e222]: Mutual Funds
+                      - text: Select Product Type
+                    - button "Mutual Funds" [ref=f98e223]
+              - generic [ref=f98e229]:
+                - generic [ref=f98e230]:
+                  - application [ref=f98e233]:
+                    - generic [ref=f98e236] [cursor=pointer]:
+                      - generic [ref=f98e238]:
+                        - generic [ref=f98e239]: Select to Filter
+                        - text: Asset Class
+                      - button "Select to Filter" [ref=f98e240]
+                  - application [ref=f98e248]:
+                    - generic [ref=f98e251] [cursor=pointer]:
+                      - generic [ref=f98e253]:
+                        - generic [ref=f98e254]: Select to Filter
+                        - text: Investment Manager
+                      - button "Select to Filter" [ref=f98e255]
+                  - application [ref=f98e263]:
+                    - generic [ref=f98e266] [cursor=pointer]:
+                      - generic [ref=f98e268]:
+                        - generic [ref=f98e269]: Select to Filter
+                        - text: Share Class
+                      - button "Select to Filter" [ref=f98e270]
+                  - application [ref=f98e278]:
+                    - generic [ref=f98e281] [cursor=pointer]:
+                      - generic [ref=f98e283]:
+                        - generic [ref=f98e284]: Select to Filter
+                        - text: Currency
+                      - button "Select to Filter" [ref=f98e285]
+                  - search [ref=f98e292]:
+                    - generic [ref=f98e293]:
+                      - textbox "Filter by keyword" [ref=f98e299]
+                      - generic: Filter by keyword
+                - link "Additional Filters" [ref=f98e310] [cursor=pointer]:
+                  - /url: /en-hk/our-funds/price-and-performance/mutual-funds#additional-filters
+          - generic [ref=f98e323]:
+            - generic [ref=f98e325]:
+              - application [ref=f98e329]:
+                - button "Performance" [ref=f98e333] [cursor=pointer]
+              - tabpanel [ref=f98e341]:
+                - generic [ref=f98e343]:
+                  - generic [ref=f98e346]:
+                    - generic [ref=f98e347]: Show Performance (%)
+                    - generic [ref=f98e350]:
+                      - button "Calendar Year" [ref=f98e351] [cursor=pointer]
+                      - button "Cumulative" [ref=f98e352] [cursor=pointer]
+                    - generic [ref=f98e353]: As of 30/06/2026
+                    - generic [ref=f98e356]:
+                      - button "Month End" [ref=f98e357] [cursor=pointer]
+                      - button "Quarter End" [ref=f98e358] [cursor=pointer]
+                  - generic [ref=f98e360]:
+                    - generic [ref=f98e366]:
+                      - link [ref=f98e371] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4912/Z/franklin-biotechnology-discovery-fund/LU0109394709
+                        - heading [level=3] [ref=f98e373]:
+                          - text: Franklin Biotechnology Discovery Fund
+                          - generic [ref=f98e374]:
+                            - text: "-"
+                            - strong [ref=f98e375]: A (acc) USD
+                      - generic [ref=f98e379]:
+                        - generic [ref=f98e380]: Currency
+                        - generic [ref=f98e383]: USD
+                      - generic [ref=f98e385]:
+                        - paragraph [ref=f98e386]: As of 30/07/2026
+                        - generic [ref=f98e388]:
+                          - generic [ref=f98e390]:
+                            - text: NAV
+                            - superscript [ref=f98e392]:
+                              - link "NAV 1" [ref=f98e393] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e395]: $70.42
+                        - generic [ref=f98e397]:
+                          - generic [ref=f98e399]:
+                            - text: NAV Change
+                            - superscript [ref=f98e401]:
+                              - link "NAV Change 1" [ref=f98e402] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e404]:
+                            - text: 2.25%
+                            - paragraph [ref=f98e406]: $1.55
+                      - generic [ref=f98e408]:
+                        - paragraph [ref=f98e409]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e411]:
+                          - generic [ref=f98e412]: YTD
+                          - generic [ref=f98e415]: "18.78"
+                        - generic [ref=f98e417]:
+                          - generic [ref=f98e418]: "2025"
+                          - generic [ref=f98e421]: "51.13"
+                        - generic [ref=f98e423]:
+                          - generic [ref=f98e424]: "2024"
+                          - generic [ref=f98e427]: "2.64"
+                        - generic [ref=f98e429]:
+                          - generic [ref=f98e430]: "2023"
+                          - generic [ref=f98e433]: "17.29"
+                        - generic [ref=f98e435]:
+                          - generic [ref=f98e436]: "2022"
+                          - generic [ref=f98e439]: "-12.51"
+                        - generic [ref=f98e441]:
+                          - generic [ref=f98e442]: "2021"
+                          - generic [ref=f98e445]: "-17.36"
+                        - generic [ref=f98e447]:
+                          - generic [ref=f98e448]: Performance Inception Date
+                          - generic [ref=f98e451]: 03/04/2000
+                    - generic [ref=f98e457]:
+                      - link [ref=f98e462] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/46803/Z/franklin-diversified-income-and-growth-fund/HK0001134060
+                        - heading [level=3] [ref=f98e464]:
+                          - text: Franklin Diversified Income and Growth Fund
+                          - generic [ref=f98e465]:
+                            - text: "-"
+                            - strong [ref=f98e466]: A (acc) USD
+                      - generic [ref=f98e470]:
+                        - generic [ref=f98e471]: Currency
+                        - generic [ref=f98e474]: USD
+                      - generic [ref=f98e476]:
+                        - paragraph [ref=f98e477]: As of 30/07/2026
+                        - generic [ref=f98e479]:
+                          - generic [ref=f98e481]:
+                            - text: NAV
+                            - superscript [ref=f98e483]:
+                              - link "NAV 1" [ref=f98e484] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e486]: $11.30
+                        - generic [ref=f98e488]:
+                          - generic [ref=f98e490]:
+                            - text: NAV Change
+                            - superscript [ref=f98e492]:
+                              - link "NAV Change 1" [ref=f98e493] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e495]:
+                            - text: 0.44%
+                            - paragraph [ref=f98e497]: $0.05
+                      - generic [ref=f98e499]:
+                        - paragraph [ref=f98e500]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e502]:
+                          - generic [ref=f98e503]: YTD
+                          - generic [ref=f98e506]: "7.87"
+                        - generic [ref=f98e508]:
+                          - generic [ref=f98e509]: "2025"
+                          - generic [ref=f98e512]: "4.20"
+                        - generic [ref=f98e514]:
+                          - generic [ref=f98e515]: "2024"
+                          - generic [ref=f98e518]: —
+                        - generic [ref=f98e520]:
+                          - generic [ref=f98e521]: "2023"
+                          - generic [ref=f98e524]: —
+                        - generic [ref=f98e526]:
+                          - generic [ref=f98e527]: "2022"
+                          - generic [ref=f98e530]: —
+                        - generic [ref=f98e532]:
+                          - generic [ref=f98e533]: "2021"
+                          - generic [ref=f98e536]: —
+                        - generic [ref=f98e538]:
+                          - generic [ref=f98e539]: Performance Inception Date
+                          - generic [ref=f98e542]: 22/07/2025
+                    - generic [ref=f98e548]:
+                      - link [ref=f98e553] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/47481/Z/franklin-diversified-income-fund/LU3196153939
+                        - heading [level=3] [ref=f98e555]:
+                          - text: Franklin Diversified Income Fund
+                          - generic [ref=f98e556]:
+                            - text: "-"
+                            - strong [ref=f98e557]: A (acc) USD
+                      - generic [ref=f98e561]:
+                        - generic [ref=f98e562]: Currency
+                        - generic [ref=f98e565]: USD
+                      - generic [ref=f98e567]:
+                        - paragraph [ref=f98e568]: As of 30/07/2026
+                        - generic [ref=f98e570]:
+                          - generic [ref=f98e572]:
+                            - text: NAV
+                            - superscript [ref=f98e574]:
+                              - link "NAV 1" [ref=f98e575] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e577]: $10.10
+                        - generic [ref=f98e579]:
+                          - generic [ref=f98e581]:
+                            - text: NAV Change
+                            - superscript [ref=f98e583]:
+                              - link "NAV Change 1" [ref=f98e584] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e586]:
+                            - text: 0.10%
+                            - paragraph [ref=f98e588]: $0.01
+                      - generic [ref=f98e590]:
+                        - paragraph [ref=f98e591]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e593]:
+                          - generic [ref=f98e594]: YTD
+                          - generic [ref=f98e597]: —
+                        - generic [ref=f98e599]:
+                          - generic [ref=f98e600]: "2025"
+                          - generic [ref=f98e603]: —
+                        - generic [ref=f98e605]:
+                          - generic [ref=f98e606]: "2024"
+                          - generic [ref=f98e609]: —
+                        - generic [ref=f98e611]:
+                          - generic [ref=f98e612]: "2023"
+                          - generic [ref=f98e615]: —
+                        - generic [ref=f98e617]:
+                          - generic [ref=f98e618]: "2022"
+                          - generic [ref=f98e621]: —
+                        - generic [ref=f98e623]:
+                          - generic [ref=f98e624]: "2021"
+                          - generic [ref=f98e627]: —
+                        - generic [ref=f98e629]:
+                          - generic [ref=f98e630]: Performance Inception Date
+                          - generic [ref=f98e633]: 07/01/2026
+                    - generic [ref=f98e639]:
+                      - link [ref=f98e644] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/2212/A/franklin-euro-government-bond-fund/LU0093669546
+                        - heading [level=3] [ref=f98e646]:
+                          - text: Franklin Euro Government Bond Fund
+                          - generic [ref=f98e647]:
+                            - text: "-"
+                            - strong [ref=f98e648]: A (Ydis) EUR
+                      - generic [ref=f98e652]:
+                        - generic [ref=f98e653]: Currency
+                        - generic [ref=f98e656]: EUR
+                      - generic [ref=f98e658]:
+                        - paragraph [ref=f98e659]: As of 30/07/2026
+                        - generic [ref=f98e661]:
+                          - generic [ref=f98e663]:
+                            - text: NAV
+                            - superscript [ref=f98e665]:
+                              - link "NAV 1" [ref=f98e666] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e668]: €9.34
+                        - generic [ref=f98e670]:
+                          - generic [ref=f98e672]:
+                            - text: NAV Change
+                            - superscript [ref=f98e674]:
+                              - link "NAV Change 1" [ref=f98e675] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e677]:
+                            - text: "-0.11%"
+                            - paragraph [ref=f98e679]: €-0.01
+                      - generic [ref=f98e681]:
+                        - paragraph [ref=f98e682]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e684]:
+                          - generic [ref=f98e685]: YTD
+                          - generic [ref=f98e688]: "1.25"
+                        - generic [ref=f98e690]:
+                          - generic [ref=f98e691]: "2025"
+                          - generic [ref=f98e694]: "-0.65"
+                        - generic [ref=f98e696]:
+                          - generic [ref=f98e697]: "2024"
+                          - generic [ref=f98e700]: "1.23"
+                        - generic [ref=f98e702]:
+                          - generic [ref=f98e703]: "2023"
+                          - generic [ref=f98e706]: "5.86"
+                        - generic [ref=f98e708]:
+                          - generic [ref=f98e709]: "2022"
+                          - generic [ref=f98e712]: "-16.56"
+                        - generic [ref=f98e714]:
+                          - generic [ref=f98e715]: "2021"
+                          - generic [ref=f98e718]: "-4.81"
+                        - generic [ref=f98e720]:
+                          - generic [ref=f98e721]: Performance Inception Date
+                          - generic [ref=f98e724]: 08/01/1999
+                    - generic [ref=f98e730]:
+                      - link [ref=f98e735] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4914/A/franklin-euro-high-yield-fund/LU0109395268
+                        - heading [level=3] [ref=f98e737]:
+                          - text: Franklin Euro High Yield Fund
+                          - generic [ref=f98e738]:
+                            - text: "-"
+                            - strong [ref=f98e739]: A (Ydis) EUR
+                      - generic [ref=f98e743]:
+                        - generic [ref=f98e744]: Currency
+                        - generic [ref=f98e747]: EUR
+                      - generic [ref=f98e749]:
+                        - paragraph [ref=f98e750]: As of 30/07/2026
+                        - generic [ref=f98e752]:
+                          - generic [ref=f98e754]:
+                            - text: NAV
+                            - superscript [ref=f98e756]:
+                              - link "NAV 1" [ref=f98e757] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e759]: €5.00
+                        - generic [ref=f98e761]:
+                          - generic [ref=f98e763]:
+                            - text: NAV Change
+                            - superscript [ref=f98e765]:
+                              - link "NAV Change 1" [ref=f98e766] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e768]:
+                            - text: 0.20%
+                            - paragraph [ref=f98e770]: €0.01
+                      - generic [ref=f98e772]:
+                        - paragraph [ref=f98e773]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e775]:
+                          - generic [ref=f98e776]: YTD
+                          - generic [ref=f98e779]: "1.34"
+                        - generic [ref=f98e781]:
+                          - generic [ref=f98e782]: "2025"
+                          - generic [ref=f98e785]: "4.63"
+                        - generic [ref=f98e787]:
+                          - generic [ref=f98e788]: "2024"
+                          - generic [ref=f98e791]: "7.24"
+                        - generic [ref=f98e793]:
+                          - generic [ref=f98e794]: "2023"
+                          - generic [ref=f98e797]: "10.83"
+                        - generic [ref=f98e799]:
+                          - generic [ref=f98e800]: "2022"
+                          - generic [ref=f98e803]: "-10.37"
+                        - generic [ref=f98e805]:
+                          - generic [ref=f98e806]: "2021"
+                          - generic [ref=f98e809]: "1.70"
+                        - generic [ref=f98e811]:
+                          - generic [ref=f98e812]: Performance Inception Date
+                          - generic [ref=f98e815]: 17/04/2000
+                    - generic [ref=f98e821]:
+                      - link [ref=f98e826] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4022/A/franklin-floating-rate-fund-plc
+                        - heading [level=3] [ref=f98e828]:
+                          - text: Franklin Floating Rate Fund PLC
+                          - generic [ref=f98e829]:
+                            - text: "-"
+                            - strong [ref=f98e830]: A (dis) USD
+                      - generic [ref=f98e834]:
+                        - generic [ref=f98e835]: Currency
+                        - generic [ref=f98e838]: USD
+                      - generic [ref=f98e840]:
+                        - paragraph [ref=f98e841]: As of 30/07/2026
+                        - generic [ref=f98e843]:
+                          - generic [ref=f98e845]:
+                            - text: NAV
+                            - superscript [ref=f98e847]:
+                              - link "NAV 1" [ref=f98e848] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e850]: $6.48
+                        - generic [ref=f98e852]:
+                          - generic [ref=f98e854]:
+                            - text: NAV Change
+                            - superscript [ref=f98e856]:
+                              - link "NAV Change 1" [ref=f98e857] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e859]:
+                            - text: 0.00%
+                            - paragraph [ref=f98e861]: $0.00
+                      - generic [ref=f98e863]:
+                        - paragraph [ref=f98e864]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e866]:
+                          - generic [ref=f98e867]: YTD
+                          - generic [ref=f98e870]: "1.04"
+                        - generic [ref=f98e872]:
+                          - generic [ref=f98e873]: "2025"
+                          - generic [ref=f98e876]: "4.34"
+                        - generic [ref=f98e878]:
+                          - generic [ref=f98e879]: "2024"
+                          - generic [ref=f98e882]: "7.22"
+                        - generic [ref=f98e884]:
+                          - generic [ref=f98e885]: "2023"
+                          - generic [ref=f98e888]: "15.02"
+                        - generic [ref=f98e890]:
+                          - generic [ref=f98e891]: "2022"
+                          - generic [ref=f98e894]: "-2.12"
+                        - generic [ref=f98e896]:
+                          - generic [ref=f98e897]: "2021"
+                          - generic [ref=f98e900]: "7.67"
+                        - generic [ref=f98e902]:
+                          - generic [ref=f98e903]: Performance Inception Date
+                          - generic [ref=f98e906]: 15/10/2002
+                    - generic [ref=f98e912]:
+                      - generic [ref=f98e913]:
+                        - link [ref=f98e917] [cursor=pointer]:
+                          - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/16239/Z/franklin-global-convertible-securities-fund/LU0727122425
+                          - heading [level=3] [ref=f98e919]:
+                            - text: Franklin Global Convertible Securities Fund
+                            - generic [ref=f98e920]:
+                              - text: "-"
+                              - strong [ref=f98e921]: A (acc) USD
+                        - generic "Please note that with effect from 22 June 2026, the Fund is fully open to new investors across all share classes, until a target fund size is reached. When the target Fund size is reached, the Fund will close again to subscriptions and switches in from all investors. During this opening period, there is a daily limit of 20 million USD per investor account." [ref=f98e923] [cursor=pointer]:
+                          - alertdialog [ref=f98e924]:
+                            - img "alert" [ref=f98e927]
+                            - paragraph [ref=f98e934]: Important Information
+                      - generic [ref=f98e938]:
+                        - generic [ref=f98e939]: Currency
+                        - generic [ref=f98e942]: USD
+                      - generic [ref=f98e944]:
+                        - paragraph [ref=f98e945]: As of 30/07/2026
+                        - generic [ref=f98e947]:
+                          - generic [ref=f98e949]:
+                            - text: NAV
+                            - superscript [ref=f98e951]:
+                              - link "NAV 1" [ref=f98e952] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e954]: $30.37
+                        - generic [ref=f98e956]:
+                          - generic [ref=f98e958]:
+                            - text: NAV Change
+                            - superscript [ref=f98e960]:
+                              - link "NAV Change 1" [ref=f98e961] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e963]:
+                            - text: 1.64%
+                            - paragraph [ref=f98e965]: $0.49
+                      - generic [ref=f98e967]:
+                        - paragraph [ref=f98e968]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e970]:
+                          - generic [ref=f98e971]: YTD
+                          - generic [ref=f98e974]: "12.42"
+                        - generic [ref=f98e976]:
+                          - generic [ref=f98e977]: "2025"
+                          - generic [ref=f98e980]: "15.18"
+                        - generic [ref=f98e982]:
+                          - generic [ref=f98e983]: "2024"
+                          - generic [ref=f98e986]: "12.15"
+                        - generic [ref=f98e988]:
+                          - generic [ref=f98e989]: "2023"
+                          - generic [ref=f98e992]: "7.25"
+                        - generic [ref=f98e994]:
+                          - generic [ref=f98e995]: "2022"
+                          - generic [ref=f98e998]: "-14.83"
+                        - generic [ref=f98e1000]:
+                          - generic [ref=f98e1001]: "2021"
+                          - generic [ref=f98e1004]: "2.27"
+                        - generic [ref=f98e1006]:
+                          - generic [ref=f98e1007]: Performance Inception Date
+                          - generic [ref=f98e1010]: 24/02/2012
+                    - generic [ref=f98e1016]:
+                      - generic [ref=f98e1017]:
+                        - link [ref=f98e1021] [cursor=pointer]:
+                          - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/29420/AA/franklin-global-income-and-growth-opportunities-fund/LU2129689514
+                          - heading [level=3] [ref=f98e1023]:
+                            - text: Franklin Global Income and Growth Opportunities Fund
+                            - generic [ref=f98e1024]:
+                              - text: "-"
+                              - strong [ref=f98e1025]: A (Mdis) USD
+                        - generic "Effective 10 October 2025, the Franklin Global Income Fund was renamed Franklin Global Income and Growth Opportunities Fund." [ref=f98e1027] [cursor=pointer]:
+                          - alertdialog [ref=f98e1028]:
+                            - img "alert" [ref=f98e1031]
+                            - paragraph [ref=f98e1038]: Important Fund Information
+                      - generic [ref=f98e1042]:
+                        - generic [ref=f98e1043]: Currency
+                        - generic [ref=f98e1046]: USD
+                      - generic [ref=f98e1048]:
+                        - paragraph [ref=f98e1049]: As of 30/07/2026
+                        - generic [ref=f98e1051]:
+                          - generic [ref=f98e1053]:
+                            - text: NAV
+                            - superscript [ref=f98e1055]:
+                              - link "NAV 1" [ref=f98e1056] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1058]: $10.86
+                        - generic [ref=f98e1060]:
+                          - generic [ref=f98e1062]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1064]:
+                              - link "NAV Change 1" [ref=f98e1065] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1067]:
+                            - text: 0.84%
+                            - paragraph [ref=f98e1069]: $0.09
+                      - generic [ref=f98e1071]:
+                        - paragraph [ref=f98e1072]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1074]:
+                          - generic [ref=f98e1075]: YTD
+                          - generic [ref=f98e1078]: "5.63"
+                        - generic [ref=f98e1080]:
+                          - generic [ref=f98e1081]: "2025"
+                          - generic [ref=f98e1084]: "15.02"
+                        - generic [ref=f98e1086]:
+                          - generic [ref=f98e1087]: "2024"
+                          - generic [ref=f98e1090]: "3.82"
+                        - generic [ref=f98e1092]:
+                          - generic [ref=f98e1093]: "2023"
+                          - generic [ref=f98e1096]: "7.28"
+                        - generic [ref=f98e1098]:
+                          - generic [ref=f98e1099]: "2022"
+                          - generic [ref=f98e1102]: "-9.60"
+                        - generic [ref=f98e1104]:
+                          - generic [ref=f98e1105]: "2021"
+                          - generic [ref=f98e1108]: "9.24"
+                        - generic [ref=f98e1110]:
+                          - generic [ref=f98e1111]: Performance Inception Date
+                          - generic [ref=f98e1114]: 18/06/2020
+                    - generic [ref=f98e1120]:
+                      - link [ref=f98e1125] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/42245/AA/franklin-global-low-volatility-bond-fund/HK0001093555
+                        - heading [level=3] [ref=f98e1127]:
+                          - text: Franklin Global Low Volatility Bond Fund
+                          - generic [ref=f98e1128]:
+                            - text: "-"
+                            - strong [ref=f98e1129]: A (Mdis) USD
+                      - generic [ref=f98e1133]:
+                        - generic [ref=f98e1134]: Currency
+                        - generic [ref=f98e1137]: USD
+                      - generic [ref=f98e1139]:
+                        - paragraph [ref=f98e1140]: As of 30/07/2026
+                        - generic [ref=f98e1142]:
+                          - generic [ref=f98e1144]:
+                            - text: NAV
+                            - superscript [ref=f98e1146]:
+                              - link "NAV 1" [ref=f98e1147] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1149]: $9.76
+                        - generic [ref=f98e1151]:
+                          - generic [ref=f98e1153]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1155]:
+                              - link "NAV Change 1" [ref=f98e1156] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1158]:
+                            - text: 0.10%
+                            - paragraph [ref=f98e1160]: $0.01
+                      - generic [ref=f98e1162]:
+                        - paragraph [ref=f98e1163]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1165]:
+                          - generic [ref=f98e1166]: YTD
+                          - generic [ref=f98e1169]: "1.03"
+                        - generic [ref=f98e1171]:
+                          - generic [ref=f98e1172]: "2025"
+                          - generic [ref=f98e1175]: "4.52"
+                        - generic [ref=f98e1177]:
+                          - generic [ref=f98e1178]: "2024"
+                          - generic [ref=f98e1181]: —
+                        - generic [ref=f98e1183]:
+                          - generic [ref=f98e1184]: "2023"
+                          - generic [ref=f98e1187]: —
+                        - generic [ref=f98e1189]:
+                          - generic [ref=f98e1190]: "2022"
+                          - generic [ref=f98e1193]: —
+                        - generic [ref=f98e1195]:
+                          - generic [ref=f98e1196]: "2021"
+                          - generic [ref=f98e1199]: —
+                        - generic [ref=f98e1201]:
+                          - generic [ref=f98e1202]: Performance Inception Date
+                          - generic [ref=f98e1205]: 07/01/2025
+                    - generic [ref=f98e1211]:
+                      - link [ref=f98e1216] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4346/A/franklin-global-real-estate-fund/LU0229948244
+                        - heading [level=3] [ref=f98e1218]:
+                          - text: Franklin Global Real Estate Fund
+                          - generic [ref=f98e1219]:
+                            - text: "-"
+                            - strong [ref=f98e1220]: A (Qdis) USD
+                      - generic [ref=f98e1224]:
+                        - generic [ref=f98e1225]: Currency
+                        - generic [ref=f98e1228]: USD
+                      - generic [ref=f98e1230]:
+                        - paragraph [ref=f98e1231]: As of 30/07/2026
+                        - generic [ref=f98e1233]:
+                          - generic [ref=f98e1235]:
+                            - text: NAV
+                            - superscript [ref=f98e1237]:
+                              - link "NAV 1" [ref=f98e1238] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1240]: $9.70
+                        - generic [ref=f98e1242]:
+                          - generic [ref=f98e1244]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1246]:
+                              - link "NAV Change 1" [ref=f98e1247] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1249]:
+                            - text: "-0.10%"
+                            - paragraph [ref=f98e1251]: $-0.01
+                      - generic [ref=f98e1253]:
+                        - paragraph [ref=f98e1254]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1256]:
+                          - generic [ref=f98e1257]: YTD
+                          - generic [ref=f98e1260]: "8.88"
+                        - generic [ref=f98e1262]:
+                          - generic [ref=f98e1263]: "2025"
+                          - generic [ref=f98e1266]: "6.38"
+                        - generic [ref=f98e1268]:
+                          - generic [ref=f98e1269]: "2024"
+                          - generic [ref=f98e1272]: "-1.56"
+                        - generic [ref=f98e1274]:
+                          - generic [ref=f98e1275]: "2023"
+                          - generic [ref=f98e1278]: "10.00"
+                        - generic [ref=f98e1280]:
+                          - generic [ref=f98e1281]: "2022"
+                          - generic [ref=f98e1284]: "-26.83"
+                        - generic [ref=f98e1286]:
+                          - generic [ref=f98e1287]: "2021"
+                          - generic [ref=f98e1290]: "26.11"
+                        - generic [ref=f98e1292]:
+                          - generic [ref=f98e1293]: Performance Inception Date
+                          - generic [ref=f98e1296]: 29/12/2005
+                    - generic [ref=f98e1302]:
+                      - link [ref=f98e1307] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/14447/Z/franklin-gold-and-precious-metals-fund/LU0496367417
+                        - heading [level=3] [ref=f98e1309]:
+                          - text: Franklin Gold and Precious Metals Fund
+                          - generic [ref=f98e1310]:
+                            - text: "-"
+                            - strong [ref=f98e1311]: A (acc) USD
+                      - generic [ref=f98e1315]:
+                        - generic [ref=f98e1316]: Currency
+                        - generic [ref=f98e1319]: USD
+                      - generic [ref=f98e1321]:
+                        - paragraph [ref=f98e1322]: As of 30/07/2026
+                        - generic [ref=f98e1324]:
+                          - generic [ref=f98e1326]:
+                            - text: NAV
+                            - superscript [ref=f98e1328]:
+                              - link "NAV 1" [ref=f98e1329] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1331]: $17.25
+                        - generic [ref=f98e1333]:
+                          - generic [ref=f98e1335]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1337]:
+                              - link "NAV Change 1" [ref=f98e1338] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1340]:
+                            - text: 3.29%
+                            - paragraph [ref=f98e1342]: $0.55
+                      - generic [ref=f98e1344]:
+                        - paragraph [ref=f98e1345]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1347]:
+                          - generic [ref=f98e1348]: YTD
+                          - generic [ref=f98e1351]: "-10.24"
+                        - generic [ref=f98e1353]:
+                          - generic [ref=f98e1354]: "2025"
+                          - generic [ref=f98e1357]: "190.79"
+                        - generic [ref=f98e1359]:
+                          - generic [ref=f98e1360]: "2024"
+                          - generic [ref=f98e1363]: "16.34"
+                        - generic [ref=f98e1365]:
+                          - generic [ref=f98e1366]: "2023"
+                          - generic [ref=f98e1369]: "1.25"
+                        - generic [ref=f98e1371]:
+                          - generic [ref=f98e1372]: "2022"
+                          - generic [ref=f98e1375]: "-22.70"
+                        - generic [ref=f98e1377]:
+                          - generic [ref=f98e1378]: "2021"
+                          - generic [ref=f98e1381]: "-5.09"
+                        - generic [ref=f98e1383]:
+                          - generic [ref=f98e1384]: Performance Inception Date
+                          - generic [ref=f98e1387]: 30/04/2010
+                    - generic [ref=f98e1393]:
+                      - link [ref=f98e1398] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4385/A/franklin-high-yield-fund/LU0065014192
+                        - heading [level=3] [ref=f98e1400]:
+                          - text: Franklin High Yield Fund
+                          - generic [ref=f98e1401]:
+                            - text: "-"
+                            - strong [ref=f98e1402]: A (Mdis) USD
+                      - generic [ref=f98e1406]:
+                        - generic [ref=f98e1407]: Currency
+                        - generic [ref=f98e1410]: USD
+                      - generic [ref=f98e1412]:
+                        - paragraph [ref=f98e1413]: As of 30/07/2026
+                        - generic [ref=f98e1415]:
+                          - generic [ref=f98e1417]:
+                            - text: NAV
+                            - superscript [ref=f98e1419]:
+                              - link "NAV 1" [ref=f98e1420] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1422]: $5.17
+                        - generic [ref=f98e1424]:
+                          - generic [ref=f98e1426]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1428]:
+                              - link "NAV Change 1" [ref=f98e1429] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1431]:
+                            - text: 0.19%
+                            - paragraph [ref=f98e1433]: $0.01
+                      - generic [ref=f98e1435]:
+                        - paragraph [ref=f98e1436]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1438]:
+                          - generic [ref=f98e1439]: YTD
+                          - generic [ref=f98e1442]: "1.52"
+                        - generic [ref=f98e1444]:
+                          - generic [ref=f98e1445]: "2025"
+                          - generic [ref=f98e1448]: "8.12"
+                        - generic [ref=f98e1450]:
+                          - generic [ref=f98e1451]: "2024"
+                          - generic [ref=f98e1454]: "7.43"
+                        - generic [ref=f98e1456]:
+                          - generic [ref=f98e1457]: "2023"
+                          - generic [ref=f98e1460]: "12.52"
+                        - generic [ref=f98e1462]:
+                          - generic [ref=f98e1463]: "2022"
+                          - generic [ref=f98e1466]: "-10.42"
+                        - generic [ref=f98e1468]:
+                          - generic [ref=f98e1469]: "2021"
+                          - generic [ref=f98e1472]: "3.47"
+                        - generic [ref=f98e1474]:
+                          - generic [ref=f98e1475]: Performance Inception Date
+                          - generic [ref=f98e1478]: 01/03/1996
+                    - generic [ref=f98e1484]:
+                      - link [ref=f98e1489] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4909/A/franklin-income-fund/LU0098860793
+                        - heading [level=3] [ref=f98e1491]:
+                          - text: Franklin Income Fund
+                          - generic [ref=f98e1492]:
+                            - text: "-"
+                            - strong [ref=f98e1493]: A (Mdis) USD
+                      - generic [ref=f98e1497]:
+                        - generic [ref=f98e1498]: Currency
+                        - generic [ref=f98e1501]: USD
+                      - generic [ref=f98e1503]:
+                        - paragraph [ref=f98e1504]: As of 30/07/2026
+                        - generic [ref=f98e1506]:
+                          - generic [ref=f98e1508]:
+                            - text: NAV
+                            - superscript [ref=f98e1510]:
+                              - link "NAV 1" [ref=f98e1511] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1513]: $9.91
+                        - generic [ref=f98e1515]:
+                          - generic [ref=f98e1517]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1519]:
+                              - link "NAV Change 1" [ref=f98e1520] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1522]:
+                            - text: 0.30%
+                            - paragraph [ref=f98e1524]: $0.03
+                      - generic [ref=f98e1526]:
+                        - paragraph [ref=f98e1527]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1529]:
+                          - generic [ref=f98e1530]: YTD
+                          - generic [ref=f98e1533]: "5.19"
+                        - generic [ref=f98e1535]:
+                          - generic [ref=f98e1536]: "2025"
+                          - generic [ref=f98e1539]: "10.93"
+                        - generic [ref=f98e1541]:
+                          - generic [ref=f98e1542]: "2024"
+                          - generic [ref=f98e1545]: "6.01"
+                        - generic [ref=f98e1547]:
+                          - generic [ref=f98e1548]: "2023"
+                          - generic [ref=f98e1551]: "7.01"
+                        - generic [ref=f98e1553]:
+                          - generic [ref=f98e1554]: "2022"
+                          - generic [ref=f98e1557]: "-7.33"
+                        - generic [ref=f98e1559]:
+                          - generic [ref=f98e1560]: "2021"
+                          - generic [ref=f98e1563]: "13.88"
+                        - generic [ref=f98e1565]:
+                          - generic [ref=f98e1566]: Performance Inception Date
+                          - generic [ref=f98e1569]: 01/07/1999
+                    - generic [ref=f98e1575]:
+                      - link [ref=f98e1580] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4345/Z/franklin-india-fund/LU0231203729
+                        - heading [level=3] [ref=f98e1582]:
+                          - text: Franklin India Fund
+                          - generic [ref=f98e1583]:
+                            - text: "-"
+                            - strong [ref=f98e1584]: A (acc) USD
+                      - generic [ref=f98e1588]:
+                        - generic [ref=f98e1589]: Currency
+                        - generic [ref=f98e1592]: USD
+                      - generic [ref=f98e1594]:
+                        - paragraph [ref=f98e1595]: As of 30/07/2026
+                        - generic [ref=f98e1597]:
+                          - generic [ref=f98e1599]:
+                            - text: NAV
+                            - superscript [ref=f98e1601]:
+                              - link "NAV 1" [ref=f98e1602] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1604]: $61.00
+                        - generic [ref=f98e1606]:
+                          - generic [ref=f98e1608]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1610]:
+                              - link "NAV Change 1" [ref=f98e1611] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1613]:
+                            - text: 0.53%
+                            - paragraph [ref=f98e1615]: $0.32
+                      - generic [ref=f98e1617]:
+                        - paragraph [ref=f98e1618]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1620]:
+                          - generic [ref=f98e1621]: YTD
+                          - generic [ref=f98e1624]: "-12.82"
+                        - generic [ref=f98e1626]:
+                          - generic [ref=f98e1627]: "2025"
+                          - generic [ref=f98e1630]: "-3.61"
+                        - generic [ref=f98e1632]:
+                          - generic [ref=f98e1633]: "2024"
+                          - generic [ref=f98e1636]: "14.76"
+                        - generic [ref=f98e1638]:
+                          - generic [ref=f98e1639]: "2023"
+                          - generic [ref=f98e1642]: "26.88"
+                        - generic [ref=f98e1644]:
+                          - generic [ref=f98e1645]: "2022"
+                          - generic [ref=f98e1648]: "-11.55"
+                        - generic [ref=f98e1650]:
+                          - generic [ref=f98e1651]: "2021"
+                          - generic [ref=f98e1654]: "25.55"
+                        - generic [ref=f98e1656]:
+                          - generic [ref=f98e1657]: Performance Inception Date
+                          - generic [ref=f98e1660]: 25/10/2005
+                    - generic [ref=f98e1666]:
+                      - link [ref=f98e1671] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/28619/Z/franklin-innovation-fund/LU2063271972
+                        - heading [level=3] [ref=f98e1673]:
+                          - text: Franklin Innovation Fund
+                          - generic [ref=f98e1674]:
+                            - text: "-"
+                            - strong [ref=f98e1675]: A (acc) USD
+                      - generic [ref=f98e1679]:
+                        - generic [ref=f98e1680]: Currency
+                        - generic [ref=f98e1683]: USD
+                      - generic [ref=f98e1685]:
+                        - paragraph [ref=f98e1686]: As of 30/07/2026
+                        - generic [ref=f98e1688]:
+                          - generic [ref=f98e1690]:
+                            - text: NAV
+                            - superscript [ref=f98e1692]:
+                              - link "NAV 1" [ref=f98e1693] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1695]: $24.16
+                        - generic [ref=f98e1697]:
+                          - generic [ref=f98e1699]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1701]:
+                              - link "NAV Change 1" [ref=f98e1702] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1704]:
+                            - text: 4.77%
+                            - paragraph [ref=f98e1706]: $1.10
+                      - generic [ref=f98e1708]:
+                        - paragraph [ref=f98e1709]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1711]:
+                          - generic [ref=f98e1712]: YTD
+                          - generic [ref=f98e1715]: "11.24"
+                        - generic [ref=f98e1717]:
+                          - generic [ref=f98e1718]: "2025"
+                          - generic [ref=f98e1721]: "17.07"
+                        - generic [ref=f98e1723]:
+                          - generic [ref=f98e1724]: "2024"
+                          - generic [ref=f98e1727]: "30.03"
+                        - generic [ref=f98e1729]:
+                          - generic [ref=f98e1730]: "2023"
+                          - generic [ref=f98e1733]: "42.39"
+                        - generic [ref=f98e1735]:
+                          - generic [ref=f98e1736]: "2022"
+                          - generic [ref=f98e1739]: "-40.93"
+                        - generic [ref=f98e1741]:
+                          - generic [ref=f98e1742]: "2021"
+                          - generic [ref=f98e1745]: "10.59"
+                        - generic [ref=f98e1747]:
+                          - generic [ref=f98e1748]: Performance Inception Date
+                          - generic [ref=f98e1751]: 08/11/2019
+                    - generic [ref=f98e1757]:
+                      - link [ref=f98e1762] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/12378/Z/franklin-mena-fund/LU0352132103
+                        - heading [level=3] [ref=f98e1764]:
+                          - text: Franklin MENA Fund
+                          - generic [ref=f98e1765]:
+                            - text: "-"
+                            - strong [ref=f98e1766]: A (acc) USD
+                      - generic [ref=f98e1770]:
+                        - generic [ref=f98e1771]: Currency
+                        - generic [ref=f98e1774]: USD
+                      - generic [ref=f98e1776]:
+                        - paragraph [ref=f98e1777]: As of 30/07/2026
+                        - generic [ref=f98e1779]:
+                          - generic [ref=f98e1781]:
+                            - text: NAV
+                            - superscript [ref=f98e1783]:
+                              - link "NAV 1" [ref=f98e1784] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1786]: $10.96
+                        - generic [ref=f98e1788]:
+                          - generic [ref=f98e1790]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1792]:
+                              - link "NAV Change 1" [ref=f98e1793] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1795]:
+                            - text: 1.11%
+                            - paragraph [ref=f98e1797]: $0.12
+                      - generic [ref=f98e1799]:
+                        - paragraph [ref=f98e1800]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1802]:
+                          - generic [ref=f98e1803]: YTD
+                          - generic [ref=f98e1806]: "1.93"
+                        - generic [ref=f98e1808]:
+                          - generic [ref=f98e1809]: "2025"
+                          - generic [ref=f98e1812]: "4.72"
+                        - generic [ref=f98e1814]:
+                          - generic [ref=f98e1815]: "2024"
+                          - generic [ref=f98e1818]: "3.80"
+                        - generic [ref=f98e1820]:
+                          - generic [ref=f98e1821]: "2023"
+                          - generic [ref=f98e1824]: "16.82"
+                        - generic [ref=f98e1826]:
+                          - generic [ref=f98e1827]: "2022"
+                          - generic [ref=f98e1830]: "-9.13"
+                        - generic [ref=f98e1832]:
+                          - generic [ref=f98e1833]: "2021"
+                          - generic [ref=f98e1836]: "32.30"
+                        - generic [ref=f98e1838]:
+                          - generic [ref=f98e1839]: Performance Inception Date
+                          - generic [ref=f98e1842]: 16/06/2008
+                    - generic [ref=f98e1848]:
+                      - link [ref=f98e1853] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4820/Z/franklin-mutual-european-fund/LU0140363002
+                        - heading [level=3] [ref=f98e1855]:
+                          - text: Franklin Mutual European Fund
+                          - generic [ref=f98e1856]:
+                            - text: "-"
+                            - strong [ref=f98e1857]: A (acc) EUR
+                      - generic [ref=f98e1861]:
+                        - generic [ref=f98e1862]: Currency
+                        - generic [ref=f98e1865]: EUR
+                      - generic [ref=f98e1867]:
+                        - paragraph [ref=f98e1868]: As of 30/07/2026
+                        - generic [ref=f98e1870]:
+                          - generic [ref=f98e1872]:
+                            - text: NAV
+                            - superscript [ref=f98e1874]:
+                              - link "NAV 1" [ref=f98e1875] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1877]: €44.59
+                        - generic [ref=f98e1879]:
+                          - generic [ref=f98e1881]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1883]:
+                              - link "NAV Change 1" [ref=f98e1884] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1886]:
+                            - text: 1.07%
+                            - paragraph [ref=f98e1888]: €0.47
+                      - generic [ref=f98e1890]:
+                        - paragraph [ref=f98e1891]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1893]:
+                          - generic [ref=f98e1894]: YTD
+                          - generic [ref=f98e1897]: "5.64"
+                        - generic [ref=f98e1899]:
+                          - generic [ref=f98e1900]: "2025"
+                          - generic [ref=f98e1903]: "23.01"
+                        - generic [ref=f98e1905]:
+                          - generic [ref=f98e1906]: "2024"
+                          - generic [ref=f98e1909]: "9.54"
+                        - generic [ref=f98e1911]:
+                          - generic [ref=f98e1912]: "2023"
+                          - generic [ref=f98e1915]: "12.92"
+                        - generic [ref=f98e1917]:
+                          - generic [ref=f98e1918]: "2022"
+                          - generic [ref=f98e1921]: "-3.35"
+                        - generic [ref=f98e1923]:
+                          - generic [ref=f98e1924]: "2021"
+                          - generic [ref=f98e1927]: "18.76"
+                        - generic [ref=f98e1929]:
+                          - generic [ref=f98e1930]: Performance Inception Date
+                          - generic [ref=f98e1933]: 31/12/2001
+                    - generic [ref=f98e1939]:
+                      - link [ref=f98e1944] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/2183/Z/franklin-mutual-global-discovery-fund/LU0211331839
+                        - heading [level=3] [ref=f98e1946]:
+                          - text: Franklin Mutual Global Discovery Fund
+                          - generic [ref=f98e1947]:
+                            - text: "-"
+                            - strong [ref=f98e1948]: A (acc) USD
+                      - generic [ref=f98e1952]:
+                        - generic [ref=f98e1953]: Currency
+                        - generic [ref=f98e1956]: USD
+                      - generic [ref=f98e1958]:
+                        - paragraph [ref=f98e1959]: As of 30/07/2026
+                        - generic [ref=f98e1961]:
+                          - generic [ref=f98e1963]:
+                            - text: NAV
+                            - superscript [ref=f98e1965]:
+                              - link "NAV 1" [ref=f98e1966] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1968]: $34.07
+                        - generic [ref=f98e1970]:
+                          - generic [ref=f98e1972]:
+                            - text: NAV Change
+                            - superscript [ref=f98e1974]:
+                              - link "NAV Change 1" [ref=f98e1975] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e1977]:
+                            - text: 0.77%
+                            - paragraph [ref=f98e1979]: $0.26
+                      - generic [ref=f98e1981]:
+                        - paragraph [ref=f98e1982]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e1984]:
+                          - generic [ref=f98e1985]: YTD
+                          - generic [ref=f98e1988]: "0.00"
+                        - generic [ref=f98e1990]:
+                          - generic [ref=f98e1991]: "2025"
+                          - generic [ref=f98e1994]: "22.42"
+                        - generic [ref=f98e1996]:
+                          - generic [ref=f98e1997]: "2024"
+                          - generic [ref=f98e2000]: "1.59"
+                        - generic [ref=f98e2002]:
+                          - generic [ref=f98e2003]: "2023"
+                          - generic [ref=f98e2006]: "18.97"
+                        - generic [ref=f98e2008]:
+                          - generic [ref=f98e2009]: "2022"
+                          - generic [ref=f98e2012]: "-8.14"
+                        - generic [ref=f98e2014]:
+                          - generic [ref=f98e2015]: "2021"
+                          - generic [ref=f98e2018]: "17.90"
+                        - generic [ref=f98e2020]:
+                          - generic [ref=f98e2021]: Performance Inception Date
+                          - generic [ref=f98e2024]: 25/10/2005
+                    - generic [ref=f98e2030]:
+                      - link [ref=f98e2035] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/658/Z/franklin-mutual-u-s-value-fund/LU0070302665
+                        - heading [level=3] [ref=f98e2037]:
+                          - text: Franklin Mutual U.S. Value Fund
+                          - generic [ref=f98e2038]:
+                            - text: "-"
+                            - strong [ref=f98e2039]: A (acc) USD
+                      - generic [ref=f98e2043]:
+                        - generic [ref=f98e2044]: Currency
+                        - generic [ref=f98e2047]: USD
+                      - generic [ref=f98e2049]:
+                        - paragraph [ref=f98e2050]: As of 30/07/2026
+                        - generic [ref=f98e2052]:
+                          - generic [ref=f98e2054]:
+                            - text: NAV
+                            - superscript [ref=f98e2056]:
+                              - link "NAV 1" [ref=f98e2057] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2059]: $132.05
+                        - generic [ref=f98e2061]:
+                          - generic [ref=f98e2063]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2065]:
+                              - link "NAV Change 1" [ref=f98e2066] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2068]:
+                            - text: 0.74%
+                            - paragraph [ref=f98e2070]: $0.97
+                      - generic [ref=f98e2072]:
+                        - paragraph [ref=f98e2073]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2075]:
+                          - generic [ref=f98e2076]: YTD
+                          - generic [ref=f98e2079]: "3.51"
+                        - generic [ref=f98e2081]:
+                          - generic [ref=f98e2082]: "2025"
+                          - generic [ref=f98e2085]: "10.04"
+                        - generic [ref=f98e2087]:
+                          - generic [ref=f98e2088]: "2024"
+                          - generic [ref=f98e2091]: "9.71"
+                        - generic [ref=f98e2093]:
+                          - generic [ref=f98e2094]: "2023"
+                          - generic [ref=f98e2097]: "11.97"
+                        - generic [ref=f98e2099]:
+                          - generic [ref=f98e2100]: "2022"
+                          - generic [ref=f98e2103]: "-9.85"
+                        - generic [ref=f98e2105]:
+                          - generic [ref=f98e2106]: "2021"
+                          - generic [ref=f98e2109]: "19.76"
+                        - generic [ref=f98e2111]:
+                          - generic [ref=f98e2112]: Performance Inception Date
+                          - generic [ref=f98e2115]: 07/07/1997
+                    - generic [ref=f98e2121]:
+                      - link [ref=f98e2126] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/11610/Z/franklin-natural-resources-fund/LU0300736062
+                        - heading [level=3] [ref=f98e2128]:
+                          - text: Franklin Natural Resources Fund
+                          - generic [ref=f98e2129]:
+                            - text: "-"
+                            - strong [ref=f98e2130]: A (acc) USD
+                      - generic [ref=f98e2134]:
+                        - generic [ref=f98e2135]: Currency
+                        - generic [ref=f98e2138]: USD
+                      - generic [ref=f98e2140]:
+                        - paragraph [ref=f98e2141]: As of 30/07/2026
+                        - generic [ref=f98e2143]:
+                          - generic [ref=f98e2145]:
+                            - text: NAV
+                            - superscript [ref=f98e2147]:
+                              - link "NAV 1" [ref=f98e2148] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2150]: $12.28
+                        - generic [ref=f98e2152]:
+                          - generic [ref=f98e2154]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2156]:
+                              - link "NAV Change 1" [ref=f98e2157] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2159]:
+                            - text: 1.74%
+                            - paragraph [ref=f98e2161]: $0.21
+                      - generic [ref=f98e2163]:
+                        - paragraph [ref=f98e2164]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2166]:
+                          - generic [ref=f98e2167]: YTD
+                          - generic [ref=f98e2170]: "14.38"
+                        - generic [ref=f98e2172]:
+                          - generic [ref=f98e2173]: "2025"
+                          - generic [ref=f98e2176]: "28.53"
+                        - generic [ref=f98e2178]:
+                          - generic [ref=f98e2179]: "2024"
+                          - generic [ref=f98e2182]: "0.12"
+                        - generic [ref=f98e2184]:
+                          - generic [ref=f98e2185]: "2023"
+                          - generic [ref=f98e2188]: "1.77"
+                        - generic [ref=f98e2190]:
+                          - generic [ref=f98e2191]: "2022"
+                          - generic [ref=f98e2194]: "29.04"
+                        - generic [ref=f98e2196]:
+                          - generic [ref=f98e2197]: "2021"
+                          - generic [ref=f98e2200]: "35.02"
+                        - generic [ref=f98e2202]:
+                          - generic [ref=f98e2203]: Performance Inception Date
+                          - generic [ref=f98e2206]: 12/07/2007
+                    - generic [ref=f98e2212]:
+                      - generic [ref=f98e2213]:
+                        - link [ref=f98e2217] [cursor=pointer]:
+                          - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/20820/Z/franklin-next-step-moderate-fund/LU1350352206
+                          - heading [level=3] [ref=f98e2219]:
+                            - text: Franklin NextStep Moderate Fund
+                            - generic [ref=f98e2220]:
+                              - text: "-"
+                              - strong [ref=f98e2221]: A (acc) USD
+                        - generic "On 29 May 2026, a sub-fund of Franklin Templeton Global Solutions plc not authorized by the Securities and Futures Commission merged into the fund." [ref=f98e2223] [cursor=pointer]:
+                          - alertdialog [ref=f98e2224]:
+                            - img "alert" [ref=f98e2227]
+                            - paragraph [ref=f98e2234]: Important Information
+                      - generic [ref=f98e2238]:
+                        - generic [ref=f98e2239]: Currency
+                        - generic [ref=f98e2242]: USD
+                      - generic [ref=f98e2244]:
+                        - paragraph [ref=f98e2245]: As of 30/07/2026
+                        - generic [ref=f98e2247]:
+                          - generic [ref=f98e2249]:
+                            - text: NAV
+                            - superscript [ref=f98e2251]:
+                              - link "NAV 1" [ref=f98e2252] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2254]: $19.47
+                        - generic [ref=f98e2256]:
+                          - generic [ref=f98e2258]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2260]:
+                              - link "NAV Change 1" [ref=f98e2261] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2263]:
+                            - text: 1.20%
+                            - paragraph [ref=f98e2265]: $0.23
+                      - generic [ref=f98e2267]:
+                        - paragraph [ref=f98e2268]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2270]:
+                          - generic [ref=f98e2271]: YTD
+                          - generic [ref=f98e2274]: "7.00"
+                        - generic [ref=f98e2276]:
+                          - generic [ref=f98e2277]: "2025"
+                          - generic [ref=f98e2280]: "12.66"
+                        - generic [ref=f98e2282]:
+                          - generic [ref=f98e2283]: "2024"
+                          - generic [ref=f98e2286]: "8.35"
+                        - generic [ref=f98e2288]:
+                          - generic [ref=f98e2289]: "2023"
+                          - generic [ref=f98e2292]: "14.39"
+                        - generic [ref=f98e2294]:
+                          - generic [ref=f98e2295]: "2022"
+                          - generic [ref=f98e2298]: "-16.82"
+                        - generic [ref=f98e2300]:
+                          - generic [ref=f98e2301]: "2021"
+                          - generic [ref=f98e2304]: "9.15"
+                        - generic [ref=f98e2306]:
+                          - generic [ref=f98e2307]: Performance Inception Date
+                          - generic [ref=f98e2310]: 05/02/2016
+                    - generic [ref=f98e2316]:
+                      - link [ref=f98e2321] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/46821/AA/franklin-post-retirement-stable-income-fund/HK0001134169
+                        - heading [level=3] [ref=f98e2323]:
+                          - text: Franklin Post-Retirement Stable Income Fund
+                          - generic [ref=f98e2324]:
+                            - text: "-"
+                            - strong [ref=f98e2325]: A (Mdis) USD
+                      - generic [ref=f98e2329]:
+                        - generic [ref=f98e2330]: Currency
+                        - generic [ref=f98e2333]: USD
+                      - generic [ref=f98e2335]:
+                        - paragraph [ref=f98e2336]: As of 30/07/2026
+                        - generic [ref=f98e2338]:
+                          - generic [ref=f98e2340]:
+                            - text: NAV
+                            - superscript [ref=f98e2342]:
+                              - link "NAV 1" [ref=f98e2343] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2345]: $9.99
+                        - generic [ref=f98e2347]:
+                          - generic [ref=f98e2349]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2351]:
+                              - link "NAV Change 1" [ref=f98e2352] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2354]:
+                            - text: 0.20%
+                            - paragraph [ref=f98e2356]: $0.02
+                      - generic [ref=f98e2358]:
+                        - paragraph [ref=f98e2359]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2361]:
+                          - generic [ref=f98e2362]: YTD
+                          - generic [ref=f98e2365]: "2.26"
+                        - generic [ref=f98e2367]:
+                          - generic [ref=f98e2368]: "2025"
+                          - generic [ref=f98e2371]: "3.35"
+                        - generic [ref=f98e2373]:
+                          - generic [ref=f98e2374]: "2024"
+                          - generic [ref=f98e2377]: —
+                        - generic [ref=f98e2379]:
+                          - generic [ref=f98e2380]: "2023"
+                          - generic [ref=f98e2383]: —
+                        - generic [ref=f98e2385]:
+                          - generic [ref=f98e2386]: "2022"
+                          - generic [ref=f98e2389]: —
+                        - generic [ref=f98e2391]:
+                          - generic [ref=f98e2392]: "2021"
+                          - generic [ref=f98e2395]: —
+                        - generic [ref=f98e2397]:
+                          - generic [ref=f98e2398]: Performance Inception Date
+                          - generic [ref=f98e2401]: 22/07/2025
+                    - generic [ref=f98e2407]:
+                      - link [ref=f98e2412] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/35967/Z/franklin-sealand-china-a-shares-fund/LU2580892789
+                        - heading [level=3] [ref=f98e2414]:
+                          - text: Franklin Sealand China A-Shares Fund
+                          - generic [ref=f98e2415]:
+                            - text: "-"
+                            - strong [ref=f98e2416]: A (acc) USD
+                      - generic [ref=f98e2420]:
+                        - generic [ref=f98e2421]: Currency
+                        - generic [ref=f98e2424]: USD
+                      - generic [ref=f98e2426]:
+                        - paragraph [ref=f98e2427]: As of 30/07/2026
+                        - generic [ref=f98e2429]:
+                          - generic [ref=f98e2431]:
+                            - text: NAV
+                            - superscript [ref=f98e2433]:
+                              - link "NAV 1" [ref=f98e2434] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2436]: $9.58
+                        - generic [ref=f98e2438]:
+                          - generic [ref=f98e2440]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2442]:
+                              - link "NAV Change 1" [ref=f98e2443] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2445]:
+                            - text: 0.63%
+                            - paragraph [ref=f98e2447]: $0.06
+                      - generic [ref=f98e2449]:
+                        - paragraph [ref=f98e2450]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2452]:
+                          - generic [ref=f98e2453]: YTD
+                          - generic [ref=f98e2456]: "9.63"
+                        - generic [ref=f98e2458]:
+                          - generic [ref=f98e2459]: "2025"
+                          - generic [ref=f98e2462]: "23.70"
+                        - generic [ref=f98e2464]:
+                          - generic [ref=f98e2465]: "2024"
+                          - generic [ref=f98e2468]: "0.00"
+                        - generic [ref=f98e2470]:
+                          - generic [ref=f98e2471]: "2023"
+                          - generic [ref=f98e2474]: "-21.10"
+                        - generic [ref=f98e2476]:
+                          - generic [ref=f98e2477]: "2022"
+                          - generic [ref=f98e2480]: —
+                        - generic [ref=f98e2482]:
+                          - generic [ref=f98e2483]: "2021"
+                          - generic [ref=f98e2486]: —
+                        - generic [ref=f98e2488]:
+                          - generic [ref=f98e2489]: Performance Inception Date
+                          - generic [ref=f98e2492]: 13/04/2023
+                    - generic [ref=f98e2498]:
+                      - link [ref=f98e2503] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/21198/H1/franklin-sealand-china-prospect-mixed-assets-fund/CNE1000025B5
+                        - heading [level=3] [ref=f98e2505]:
+                          - text: Franklin Sealand China Prospect Mixed Assets Fund
+                          - generic [ref=f98e2506]:
+                            - text: "-"
+                            - strong [ref=f98e2507]: H (dis) CNH
+                      - generic [ref=f98e2511]:
+                        - generic [ref=f98e2512]: Currency
+                        - generic [ref=f98e2515]: CNH
+                      - generic [ref=f98e2517]:
+                        - paragraph [ref=f98e2518]: As of 30/07/2026
+                        - generic [ref=f98e2520]:
+                          - generic [ref=f98e2522]:
+                            - text: NAV
+                            - superscript [ref=f98e2524]:
+                              - link "NAV 1" [ref=f98e2525] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2527]: CNH1.38
+                        - generic [ref=f98e2529]:
+                          - generic [ref=f98e2531]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2533]:
+                              - link "NAV Change 1" [ref=f98e2534] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2536]:
+                            - text: "-1.78%"
+                            - paragraph [ref=f98e2538]: CNH-0.03
+                      - generic [ref=f98e2540]:
+                        - paragraph [ref=f98e2541]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2543]:
+                          - generic [ref=f98e2544]: YTD
+                          - generic [ref=f98e2547]: "10.32"
+                        - generic [ref=f98e2549]:
+                          - generic [ref=f98e2550]: "2025"
+                          - generic [ref=f98e2553]: "17.11"
+                        - generic [ref=f98e2555]:
+                          - generic [ref=f98e2556]: "2024"
+                          - generic [ref=f98e2559]: "-0.57"
+                        - generic [ref=f98e2561]:
+                          - generic [ref=f98e2562]: "2023"
+                          - generic [ref=f98e2565]: "-19.06"
+                        - generic [ref=f98e2567]:
+                          - generic [ref=f98e2568]: "2022"
+                          - generic [ref=f98e2571]: "-16.70"
+                        - generic [ref=f98e2573]:
+                          - generic [ref=f98e2574]: "2021"
+                          - generic [ref=f98e2577]: "15.03"
+                        - generic [ref=f98e2579]:
+                          - generic [ref=f98e2580]: Performance Inception Date
+                          - generic [ref=f98e2583]: 07/04/2016
+                    - generic [ref=f98e2589]:
+                      - link [ref=f98e2594] [cursor=pointer]:
+                        - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/31401/2B/franklin-select-apac-quality-income-fund/HK0000740230
+                        - heading [level=3] [ref=f98e2596]:
+                          - text: Franklin Select APAC Quality Income Fund
+                          - generic [ref=f98e2597]:
+                            - text: "-"
+                            - strong [ref=f98e2598]: A (Mdis) HKD
+                      - generic [ref=f98e2602]:
+                        - generic [ref=f98e2603]: Currency
+                        - generic [ref=f98e2606]: HKD
+                      - generic [ref=f98e2608]:
+                        - paragraph [ref=f98e2609]: As of 30/07/2026
+                        - generic [ref=f98e2611]:
+                          - generic [ref=f98e2613]:
+                            - text: NAV
+                            - superscript [ref=f98e2615]:
+                              - link "NAV 1" [ref=f98e2616] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2618]: $7.65
+                        - generic [ref=f98e2620]:
+                          - generic [ref=f98e2622]:
+                            - text: NAV Change
+                            - superscript [ref=f98e2624]:
+                              - link "NAV Change 1" [ref=f98e2625] [cursor=pointer]:
+                                - /url: ""
+                                - text: "1"
+                          - generic [ref=f98e2627]:
+                            - text: "-0.13%"
+                            - paragraph [ref=f98e2629]: $-0.01
+                      - generic [ref=f98e2631]:
+                        - paragraph [ref=f98e2632]: "[products.perf-view-header-calendar-year-NET] As of 30/06/2026"
+                        - generic [ref=f98e2634]:
+                          - generic [ref=f98e2635]: YTD
+                          - generic [ref=f98e2638]: "0.78"
+                        - generic [ref=f98e2640]:
+                          - generic [ref=f98e2641]: "2025"
+                          - generic [ref=f98e2644]: "6.99"
+                        - generic [ref=f98e2646]:
+                          - generic [ref=f98e2647]: "2024"
+                          - generic [ref=f98e2650]: "1.04"
+                        - generic [ref=f98e2652]:
+                          - generic [ref=f98e2653]: "2023"
+                          - generic [ref=f98e2656]: "6.51"
+                        - generic [ref=f98e2658]:
+                          - generic [ref=f98e2659]: "2022"
+                          - generic [ref=f98e2662]: "-10.28"
+                        - generic [ref=f98e2664]:
+                          - generic [ref=f98e2665]: "2021"
+                          - generic [ref=f98e2668]: "-2.08"
+                        - generic [ref=f98e2670]:
+                          - generic [ref=f98e2671]: Performance Inception Date
+                          - generic [ref=f98e2674]: 13/08/2021
+            - generic [ref=f98e2678]:
+              - button [disabled] [ref=f98e2679]:
+                - generic [ref=f98e2680]: Previous
+              - navigation "Pagination Navigation" [ref=f98e2685]:
+                - list [ref=f98e2686]:
+                  - listitem [ref=f98e2687]:
+                    - link "Go to page 1" [ref=f98e2688] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=f98e2689]: Go to page
+                      - text: "1"
+                  - listitem [ref=f98e2690]:
+                    - link "Go to page 2" [ref=f98e2691] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=f98e2692]: Go to page
+                      - text: "2"
+                  - listitem [ref=f98e2693]:
+                    - link "Go to page 3" [ref=f98e2694] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=f98e2695]: Go to page
+                      - text: "3"
+              - button "Next" [ref=f98e2696] [cursor=pointer]
+    - contentinfo [ref=f98e2719]:
+      - generic [ref=f98e2722]:
+        - generic [ref=f98e2723]: This website is intended for residents of Hong Kong.
+        - generic [ref=f98e2725]:
+          - link "Hong Kong" [ref=f98e2728] [cursor=pointer]:
+            - /url: https://www.franklinresources.com/all-sites
+          - list [ref=f98e2731]:
+            - listitem [ref=f98e2732]:
+              - button "Individual Investor" [ref=f98e2733] [cursor=pointer]
+          - list [ref=f98e2741]:
+            - listitem [ref=f98e2742]:
+              - link "English" [ref=f98e2743] [cursor=pointer]:
+                - /url: https://www.franklintempleton.com.hk/en-hk
+            - listitem [ref=f98e2744]:
+              - link "中文" [ref=f98e2745] [cursor=pointer]:
+                - /url: https://www.franklintempleton.com.hk/zh-hk/
+      - navigation [ref=f98e2752]:
+        - list [ref=f98e2753]:
+          - listitem [ref=f98e2754]:
+            - link "Important Legal Information" [ref=f98e2755] [cursor=pointer]:
+              - /url: /en-hk/important-legal-information
+          - listitem [ref=f98e2756]:
+            - link "Terms of Use" [ref=f98e2757] [cursor=pointer]:
+              - /url: /en-hk/terms-of-use
+          - listitem [ref=f98e2758]:
+            - link "Security & Fraud Awareness" [ref=f98e2759] [cursor=pointer]:
+              - /url: /en-hk/about-us/security-policy
+          - listitem [ref=f98e2760]:
+            - link "Privacy and Cookie Policy" [ref=f98e2761] [cursor=pointer]:
+              - /url: /en-hk/privacy-and-cookie-policy
+          - listitem [ref=f98e2762]:
+            - link "Financial Crimes Compliance" [ref=f98e2763] [cursor=pointer]:
+              - /url: https://www.franklinresources.com/help-legal/financial-crimes-compliance
+          - listitem [ref=f98e2764]:
+            - link "Careers" [ref=f98e2765] [cursor=pointer]:
+              - /url: https://www.franklintempletoncareers.com/
+          - listitem [ref=f98e2766]:
+            - link "Media centre" [ref=f98e2767] [cursor=pointer]:
+              - /url: /en-hk/press-releases
+        - generic [ref=f98e2768]:
+          - heading "Connect with us" [level=3] [ref=f98e2769]
+          - list "Connect with us" [ref=f98e2770]:
+            - listitem [ref=f98e2771]:
+              - link "Facebook Link" [ref=f98e2772] [cursor=pointer]:
+                - /url: https://www.facebook.com/franklintempleton/
+            - listitem [ref=f98e2774]:
+              - link "LinkedIn Link" [ref=f98e2775] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/franklin-templeton/about
+            - listitem [ref=f98e2777]:
+              - link "YouTube Link" [ref=f98e2778] [cursor=pointer]:
+                - /url: https://www.youtube.com/@FranklnTempletn
+            - listitem [ref=f98e2780]:
+              - link "Twitter Link" [ref=f98e2781] [cursor=pointer]:
+                - /url: https://twitter.com/FTI_Global
+            - listitem [ref=f98e2783]:
+              - link "Instagram Link" [ref=f98e2784] [cursor=pointer]:
+                - /url: https://www.instagram.com/franklintempleton/
+      - generic [ref=f98e2788]:
+        - generic [ref=f98e2789]: Copyright © 2026 Franklin Templeton. All Rights Reserved.
+        - img "Franklin Templeton Investments" [ref=f98e2792]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic "undefined"
+    - generic:
+      - generic:
+        - dialog "Close"
+  - button "Feedback" [ref=f98e2793] [cursor=pointer]

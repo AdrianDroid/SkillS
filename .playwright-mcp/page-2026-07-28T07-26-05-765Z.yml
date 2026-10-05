@@ -1,0 +1,409 @@
+- generic [active] [ref=f157e1]:
+  - generic [ref=f157e4]:
+    - heading "Welcome to Amova Asset Management Hong Kong" [level=2] [ref=f157e5]
+    - generic [ref=f157e6]: Please select your role before entering the website
+    - generic [ref=f157e7]:
+      - combobox [ref=f157e8]
+      - combobox [ref=f157e11] [cursor=pointer]:
+        - textbox "Retail Investor" [ref=f157e12]
+    - generic [ref=f157e13]: Please read and accept our Disclaimer
+    - generic [ref=f157e15]:
+      - paragraph [ref=f157e16]:
+        - strong [ref=f157e17]: Terms and Conditions
+      - paragraph [ref=f157e18]: "This website (the ‘Site’) is owned by Amova Asset Management Hong Kong Limited, which is regulated by the Securities and Futures Commission of Hong Kong (Central Entity Number (CE No.): AFH646)."
+      - paragraph [ref=f157e19]
+      - paragraph [ref=f157e20]: By accessing and/or using the Site, you acknowledge that you have read these terms and conditions (“Terms”) and that you agree to be bound by them. If you do not agree to these Terms, you should not use this Site. Before using this Site, you should also read carefully the Privacy Policy, which forms a part of these Terms and is hereby incorporated by reference.
+      - paragraph [ref=f157e21]
+      - paragraph [ref=f157e22]: The Site has not been reviewed by the Securities and Futures Commission.
+      - paragraph [ref=f157e23]:
+        - strong
+        - strong [ref=f157e24]: Definitions
+      - paragraph [ref=f157e25]: In these Terms, the following words and expressions shall have the following meanings:-
+      - list [ref=f157e26]:
+        - listitem [ref=f157e27]: "'Content' means all pages, screens, information and materials included in or accessible through this Site (including any content available on any email or SMS services)."
+        - listitem [ref=f157e28]: "'you', 'your' and 'yours' means you, the person(s) accessing this Site and the party on whose behalf you are doing so."
+        - listitem [ref=f157e29]: "'we', 'us' and 'our' means Amova Asset Management Hong Kong Limited."
+        - listitem [ref=f157e30]: "'AMV Group' means Amova Asset Management Hong Kong Limited, its subsidiaries and associated companies from time to time."
+      - paragraph [ref=f157e31]:
+        - strong [ref=f157e32]: Terms
+      - paragraph [ref=f157e33]: All products and services provided by members of the AMV Group have their own terms and conditions (the 'Product Terms'). You must read both the Product Terms and these Terms. To the extent that the Product Terms conflict with these Terms or any local sites' terms and conditions then the Product Terms will prevail.
+      - paragraph [ref=f157e34]
+      - paragraph [ref=f157e35]: This Site is intended for those who access it from within Hong Kong. The availability of this Site and the distribution of the information contained in this Site in certain countries may be prohibited or contrary to local law or regulation and accordingly, we do not guarantee that the Site, or the information therein, complies with the local laws or regulations of, or is appropriate for use in, any other jurisdiction from which you access it. If you choose to access this Site from a jurisdiction other than Hong Kong you do so at your own risk and we and/or the AMV Group shall not be liable for your breach or contravention of any local law or regulation as a result of doing so.
+      - paragraph [ref=f157e36]
+      - paragraph [ref=f157e37]: Please make sure you read carefully all applicable terms, conditions and disclaimers relevant to your use of the products, services or information that may be offered to you from time to time.
+      - paragraph [ref=f157e38]
+      - paragraph [ref=f157e39]: If any part of these Terms is found by any court or other competent authority to be invalid, unlawful or unenforceable then such part shall be severed from the rest of the Terms which shall continue to be valid and enforceable to the fullest extent permitted by law.
+      - paragraph [ref=f157e40]:
+        - strong [ref=f157e41]: Changes to our Terms
+      - paragraph [ref=f157e42]: We reserve the right to change, modify, add or remove these Terms at any time by updating these Terms, without notice or liability. We suggest you review these Terms periodically. If you use this Site after changes are posted to this section, you are deemed to accept the changed Terms.
+      - paragraph [ref=f157e43]:
+        - strong [ref=f157e44]: Availability of Site, products and services
+      - paragraph [ref=f157e45]: The Content, including layout, of this Site or products or services available via this Site may be wholly or partially suspended, withdrawn or changed at any time.
+      - paragraph [ref=f157e46]
+      - paragraph [ref=f157e47]: We also reserve the right at any time to immediately suspend the provision of all or any part of this Site to you and/or block your access to this Site.
+      - paragraph [ref=f157e48]:
+        - strong [ref=f157e49]: The provision of financial services or products
+      - paragraph [ref=f157e50]: Not all the products and services that you may be able to view via the Site are available in all geographical locations. The relevant AMV Group member reserves the right to make the final determination on whether or not you are eligible for any particular product or service.
+      - paragraph [ref=f157e51]
+      - paragraph [ref=f157e52]: If you choose to enter a website outside your country of residence, you are advised that it may not be legal in that jurisdiction for you to access or use the facilities available on that site and the legal requirements of that jurisdiction may prohibit you from dealing or otherwise transacting in that jurisdiction. No member of the AMV Group will be liable for any breach of local law or regulation that you may commit as a result of using and accessing a website in a country in which you are not resident.
+      - paragraph [ref=f157e53]
+      - paragraph [ref=f157e54]: Please be aware that some of the products and services listed within the Site and those provided by any other AMV Group members or third parties that may be accessed via a link from this Site may not be suitable for all investors. Always read the product information fully before committing to any contractual agreement.
+      - paragraph [ref=f157e55]
+      - paragraph [ref=f157e56]: All products or services provided to you by us or any other AMV Group member shall only be available in the jurisdiction/s within which the AMV Group member providing the product or service is authorised to operate in.
+      - paragraph [ref=f157e57]
+      - paragraph [ref=f157e58]: You agree that any of the products or services provided to you by us or any other AMV Group member shall be deemed to be provided in the jurisdiction within which the member providing the product or service is authorised to operate.
+      - paragraph [ref=f157e59]:
+        - strong [ref=f157e60]: Material on this Site
+      - paragraph [ref=f157e61]: The materials on this Site are provided for information purposes only. Nothing on this Site constitutes legal, tax or investment advice. Neither the information, nor any opinion, contained on this Site constitutes a promotion, recommendation, solicitation or offer by us or any other AMV Group member to buy or sell any securities, collective investment schemes or other financial instruments or services, nor shall any such security, collective investment scheme or other financial instruments or services be offered or sold to any person in any jurisdiction in which such offer, solicitation, purchase, or sale would be unlawful under the relevant securities laws of such jurisdiction. Should you seek to rely in any way whatsoever upon any Content contained on this Site, you do so at your own risk.
+      - paragraph [ref=f157e62]
+      - paragraph [ref=f157e63]: Before you make any decision or take any action that might affect you or your personal finances or business, you should always consult a suitably qualified professional adviser(s) to obtain appropriate financial, legal, accounting, tax and other advice.
+      - paragraph [ref=f157e64]:
+        - strong [ref=f157e65]: Investment performance
+      - paragraph [ref=f157e66]: Please note that the value of investments and the income derived from them may fluctuate and an investor may not receive back the amount originally invested. Where past performance is shown it refers to the past and should not be seen as an indication of future performance. The value and any income arising from any investment referred to on this Site may go down as well as up. In particular you may not get back the full amount invested. Where overseas securities are held the rate of currency exchange may cause the value of the investment to go up as well as down. Any forecast, projection or target is indicative only and is not guaranteed in any way. We accept no liability for any failure to meet such a forecast, projection or target.
+      - paragraph [ref=f157e67]
+      - paragraph [ref=f157e68]: In the case of investments for which there is not a recognised market it may be difficult for investors to sell their investment or to obtain reliable information about its value or the extent of the risks to which it is exposed.
+      - paragraph [ref=f157e69]
+      - paragraph [ref=f157e70]: The information on this Site is based on understanding of current law and regulation at the time of going to press. Future changes in law, regulation or tax levels could affect the information on this Site.
+      - paragraph [ref=f157e71]:
+        - strong [ref=f157e72]: No warranties
+      - paragraph [ref=f157e73]: All warranties and representations, whether express, implied or statutory are, to the fullest extent permitted by the law, excluded. Use of this Site is at your sole risk.
+      - paragraph [ref=f157e74]
+      - paragraph [ref=f157e75]: "We do not warrant, either expressly or impliedly, that:"
+      - list [ref=f157e76]:
+        - listitem [ref=f157e77]: any information contained on this Site will be accurate, complete or up to date or meet your specific requirements,
+        - listitem [ref=f157e78]: access to this Site or the functions contained in this Site will be uninterrupted or that there will be no delays, failures, errors, omissions or loss of information as this Site is transmitted to you, or
+        - listitem [ref=f157e79]: this Site or the server that makes it available or e-mails by us are free from viruses or other contaminating or destructive materials or elements that may be transmitted or that your computer system will not be damaged.
+      - paragraph [ref=f157e80]: We do not provide any guarantee about the accuracy, functionality or performance of any third party software, Content or equipment used in connection with this Site.
+      - paragraph [ref=f157e81]:
+        - strong [ref=f157e82]: Exclusion of our liability
+      - paragraph [ref=f157e83]: "To the extent permitted by law, neither we nor any member of the AMV Group shall be liable for any damage, loss or liability (whether arising in contract, tort, including negligence, or otherwise) arising out of or in connection with:"
+      - list [ref=f157e84]:
+        - listitem [ref=f157e85]: your use of this Site,
+        - listitem [ref=f157e86]: your reliance on or your inability to use the information, products or services on this Site, or
+        - listitem [ref=f157e87]: any failure or performance, error, omission, interruption, defect, delay in operation or transmission, computer virus or line or system failure to this Site or your use or attempted use of it.
+      - paragraph [ref=f157e88]: The above exclusions apply to any direct, indirect, special, incidental, punitive, exemplary or consequential loss (such as loss of profits, business, opportunity or data), expenses or damage of any kind whatsoever and howsoever arising even if you have advised us or any other member of the AMV Group of the possibility of such damages, losses or liabilities.
+      - paragraph [ref=f157e89]:
+        - strong [ref=f157e90]: Your obligations
+      - paragraph [ref=f157e91]: "Security - it is your sole responsibility adequately to:"
+      - list [ref=f157e92]:
+        - listitem [ref=f157e93]: protect and back up your data and equipment,
+        - listitem [ref=f157e94]: undertake reasonable and appropriate precautions against any computer virus or other destructive materials or elements, and
+        - listitem [ref=f157e95]: ensure that your computers and your access to this Site are adequately secured against any unauthorised users.
+      - paragraph [ref=f157e96]: "Your use of this Site - you may not use this Site or permit others to use this Site:"
+      - list [ref=f157e97]:
+        - listitem [ref=f157e98]: in any way (including via electronic means) and for any purpose which is unlawful, defamatory or libellous, offensive, abusive, indecent, menacing or threatening or in any way that infringes any intellectual property rights or breaches any obligations of confidence, or
+        - listitem [ref=f157e99]: to cause annoyance, inconvenience or needless anxiety to any other person or in any other way which is in violation of any applicable law or regulation in any jurisdiction in the world, or
+        - listitem [ref=f157e100]: to introduce a virus or other disruptive material or element or otherwise disrupt or impair this Site or any communication service.
+      - paragraph [ref=f157e101]: You undertake to comply with any terms notified to you as required from time to time by any third party supplier of data or services to this Site, including but not limited to, where necessary, entering into a direct agreement with such third party in respect of your use of their data.
+      - paragraph [ref=f157e102]:
+        - strong [ref=f157e103]: Third party sites and endorsements
+      - paragraph [ref=f157e104]: Links to third party websites - where this Site contains hypertext links to other websites and resources provided by third parties, these links are provided for information purposes only. We are not responsible for the content of any websites or resources of third parties linked to or from this Site and no member of AMV Group makes any representation as to the accuracy, timeliness, suitability of use, or completeness of any of such websites or resources. Following links to any websites or resources of third parties shall be at your own risk. We shall not be responsible or liable for any damages or in any other way in connection with such linking of these websites or resources of third parties.
+      - paragraph [ref=f157e105]
+      - paragraph [ref=f157e106]: Downloads from third party websites- links to third party downloadable software websites are for convenience only and we are not responsible nor are we liable for any difficulties or consequences associated with downloading that software. You are responsible for obtaining all necessary authorisations to use such software and we give no implied licence or warranty in relation to the obtaining of or use of such software whatsoever.
+      - paragraph [ref=f157e107]
+      - paragraph [ref=f157e108]: No endorsement of third parties - no endorsement, approval or responsibility for appropriateness of any third parties or their advice, opinions, information, products or services is expressed or implied by any information on this Site or by any hyperlinks to or from any third party websites or pages.
+      - paragraph [ref=f157e109]:
+        - strong [ref=f157e110]: Links to our Site
+      - paragraph [ref=f157e111]: Neither you nor any other party may use any part of this Site on any other website, or link any other website to this Site, without our prior written permission.
+      - paragraph [ref=f157e112]
+      - paragraph [ref=f157e113]: We are not responsible for the set up of any link from a third party website to our Site.
+      - paragraph [ref=f157e114]
+      - paragraph [ref=f157e115]: Neither you nor any other party may deep link to, frame, spider, harvest or scrape the Content or otherwise access the Content for any purposes, or use any machine, electronic, web based or similar device to read or extract the Content by machine based or automated means, without our prior written permission.
+      - paragraph [ref=f157e116]
+      - paragraph [ref=f157e117]:
+        - strong [ref=f157e118]: Internet and e-mail communications
+      - paragraph [ref=f157e119]: Messages sent over the Internet (including e-mail) cannot be guaranteed to be completely secure as they are subject to possible interception, monitoring, delay, loss or alteration.
+      - paragraph [ref=f157e120]
+      - paragraph [ref=f157e121]: Neither we nor any other member of the AMV Group are responsible for any such messages nor liable to you or anyone else for any damages or otherwise in connection with any messages sent by you to us or any other party or any messages sent or appearing to be sent by us or any third party to you over the Internet (including e-mail). You should not include any sensitive or confidential information in such messages.
+      - paragraph [ref=f157e122]:
+        - strong [ref=f157e123]: Our monitoring of communications
+      - paragraph [ref=f157e124]: To help us improve our service and in the interest of security, we may monitor and/or record communications (whether over the Internet, telephone or otherwise) between you and us. All recordings are our sole property.
+      - paragraph [ref=f157e125]:
+        - strong [ref=f157e126]: Data protection and privacy
+      - paragraph [ref=f157e127]: We are committed to protecting your privacy. All information gathered from you in connection with your use of the Site or any Local Site will be maintained in accordance with the applicable privacy policies disclosed for this Site (see our Privacy Policy) or any of the Local Sites.
+      - paragraph [ref=f157e128]:
+        - strong [ref=f157e129]: Trademarks
+      - paragraph [ref=f157e130]: All trademarks, service marks and logos appearing on this Site are the exclusive property of their respective owners.
+      - paragraph [ref=f157e131]
+      - paragraph [ref=f157e132]: "The iEdge-Factset Global Internet Index is a trade mark and is used under licence from SGX. All copyrights and database rights in the iEdge-Factset Global Internet Index belong exclusively to SGX and are used herein under licence. Amova Asset Management Hong Kong Limited is solely responsible for the Amova Global Internet Index ETF. SGX takes no position on the purchase or sale of such Amova Global Internet Index ETF and excludes all liability in relation thereto. [AMV Asia Legal: we note it is a requirement to insert the above notice in relation to clause 7.1(b) of the Index Licence Agreement when there is reference to the Index on any informational material. We assume “informational material” will also cover the information on the index disclosed on our website. Please clarify with the Product team if it is necessary to submit the information relating to the Index that is disclosed on the website for SGX’s review and approval and to confirm that the proposed notice/disclaimer above should be included."
+      - paragraph [ref=f157e133]:
+        - strong [ref=f157e134]: Governing law
+      - paragraph [ref=f157e135]: These Terms are governed by and are to be interpreted in accordance with the laws of Hong Kong.
+      - paragraph [ref=f157e136]
+      - paragraph [ref=f157e137]: The courts in Hong Kong will have non-exclusive jurisdiction in respect of any dispute which may arise in connection with the Terms or your use of this Site. It is a condition of using this Site that you waive any objection to proceedings in the courts of Hong Kong on the grounds of venue or that proceedings have been brought in an inconvenient or inappropriate forum.
+      - paragraph [ref=f157e138]:
+        - strong [ref=f157e139]: Cookie Policy
+      - paragraph [ref=f157e140]: We use cookies to enhance your website experience. By using our website, you agree that we may store and access cookies on your device. A cookie is a small data file sent to your browser to store and track information about users and their visit to the website by the website that you visit.
+      - paragraph [ref=f157e141]
+      - paragraph [ref=f157e142]: The cookie technology we use does not capture any personally identifiable data about you, but captures your browsing pattern on this website and some other websites after you browse here. While this cookie can tell us when you enter our sites and which pages you visit, it cannot read data off your hard disk. The information and analysis will be used by us to improve and customise your experience on this website, and may be shared with our selected group of partners to improve and customise your experience on their websites, or enable them to provide you with information on relevant products and services.
+      - paragraph [ref=f157e143]
+      - paragraph [ref=f157e144]: You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies and remove cookies stored, if you prefer. This may prevent you from using certain features and functions of the website.
+    - button "I accept" [ref=f157e145] [cursor=pointer]
+    - link "Change to a different website" [ref=f157e147] [cursor=pointer]:
+      - /url: javascript:void(0);
+  - banner [ref=f157e148]:
+    - navigation [ref=f157e149]:
+      - img "Amova Asset Management" [ref=f157e151]
+      - generic [ref=f157e153]:
+        - generic [ref=f157e154]:
+          - link "Logo" [ref=f157e155] [cursor=pointer]:
+            - /url: /
+            - img "/images/default-source/global-library/logos/nam_website_logo.svg?sfvrsn=ac8df17a_4" [ref=f157e156]
+          - link "Logo":
+            - /url: /
+            - img "/images/default-source/global-library/logos/nam_website_logo.svg?sfvrsn=ac8df17a_4"
+        - generic [ref=f157e157]:
+          - generic [ref=f157e158]:
+            - list:
+              - listitem:
+                - link "Strategies":
+                  - /url: https://hk.amova-am.com/institutional/strategies
+              - listitem:
+                - link "Insights":
+                  - /url: https://hk.amova-am.com/institutional/insights
+              - listitem:
+                - link "Funds":
+                  - /url: https://hk.amova-am.com/institutional/funds
+                - link "/ 基金":
+                  - /url: https://hk.amova-am.com/institutional/funds
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link "All Funds":
+                              - /url: https://hk.amova-am.com/institutional/funds/all
+                          - listitem:
+                            - link "Investor Notices":
+                              - /url: https://hk.amova-am.com/institutional/funds/investor-notices
+                          - listitem:
+                            - link "Fund Documents":
+                              - /url: https://hk.amova-am.com/institutional/funds/fund-documents
+              - listitem:
+                - link "Sustainability":
+                  - /url: https://hk.amova-am.com/institutional/sustainability
+              - listitem:
+                - link "About Us":
+                  - /url: https://hk.amova-am.com/institutional/about-us
+              - listitem:
+                - link "Press":
+                  - /url: https://hk.amova-am.com/institutional/press
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link "Press Releases":
+                              - /url: https://hk.amova-am.com/institutional/press/press-releases
+                          - listitem:
+                            - link "Media Contact":
+                              - /url: https://hk.amova-am.com/institutional/press/media-contact
+              - listitem:
+                - link "Contact Us":
+                  - /url: https://hk.amova-am.com/institutional/contact-us
+              - listitem:
+                - link "Hong Kong":
+                  - /url: javascript:void(0);
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link "日本":
+                              - /url: https://amova-am.com
+                          - listitem:
+                            - link "日本 (ETF)":
+                              - /url: https://amova-am.com/products/etf
+                          - listitem:
+                            - link "Global HQ":
+                              - /url: https://global.amova-am.com
+                          - listitem:
+                            - link "Americas":
+                              - /url: https://us.amova-am.com
+                          - listitem:
+                            - link "EMEA":
+                              - /url: https://emea.amova-am.com
+                          - listitem:
+                            - link "Hong Kong":
+                              - /url: https://hk.amova-am.com
+                          - listitem:
+                            - link "New Zealand":
+                              - /url: https://nz.amova-am.com
+                          - listitem:
+                            - link "Singapore":
+                              - /url: https://sg.amova-am.com
+              - listitem:
+                - link "Retail Investor":
+                  - /url: javascript:void(0);
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - link "Retail Investor":
+                              - /url: javascript:void(0);
+                          - listitem:
+                            - link "Institutional Investor":
+                              - /url: javascript:void(0);
+          - generic "Toggle Menu" [ref=f157e162]
+  - main [ref=f157e166]:
+    - generic [ref=f157e170]:
+      - generic [ref=f157e172]:
+        - img "/images/default-source/global-library/carouselbanners/for-mobiles/hp-banner-outlook-26_375x500.tmb-rs800x600.png?Culture=en&sfvrsn=3fa45b15_1" [ref=f157e174]
+        - heading "Outlook 2026" [level=2] [ref=f157e175]
+        - generic [ref=f157e176]:
+          - generic [ref=f157e177]: Exploring the forces shaping Global Growth beyond 2026
+          - link "Read more" [ref=f157e179] [cursor=pointer]:
+            - /url: https://hk.amova-am.com/institutional/insights/outlook
+      - generic [ref=f157e181]:
+        - img "/images/default-source/global-library/carouselbanners/for-mobiles/hkcarousel_mobile.tmb-rs800x600.png?Culture=en&sfvrsn=f679335a_6" [ref=f157e183]
+        - heading "Invest with Purpose" [level=2] [ref=f157e184]
+        - generic [ref=f157e185]:
+          - paragraph [ref=f157e187]: We are one of Asia's largest asset management firms with global connectivity and reach.
+          - link "Learn more about our funds" [ref=f157e189] [cursor=pointer]:
+            - /url: https://hk.amova-am.com/institutional/funds?lang=en
+      - generic [ref=f157e191]:
+        - img "/images/default-source/emea_folder/homepage-caroussel/homepage-banner-mobile7e65001b-7d28-4718-9ec3-e69928c4f90e.tmb-rs800x600.jpg?Culture=en&sfvrsn=d7eb15f7_1" [ref=f157e193]
+        - heading "Your Goals Our Commitment." [level=2] [ref=f157e194]: Your GoalsOur Commitment.
+        - generic [ref=f157e195]:
+          - generic [ref=f157e196]:
+            - paragraph [ref=f157e197]: Born in Tokyo. Shaped in Asia. Powered by Global Insight.
+            - emphasis
+          - link "Learn more about us" [ref=f157e199] [cursor=pointer]:
+            - /url: https://hk.amova-am.com/institutional/about-us
+      - generic [ref=f157e201]:
+        - img "/images/default-source/global-library/carouselbanners/for-mobiles/sustainability-report-2026-banner-mobile.tmb-rs800x600.png?Culture=en&sfvrsn=59682605_1" [ref=f157e203]
+        - heading "Invested in Sustainability" [level=2] [ref=f157e204]: Invested inSustainability
+        - generic [ref=f157e205]:
+          - generic [ref=f157e206]: Our Sustainability Report reflects our commitments, both as a fiduciary and a responsible corporate citizen.
+          - link "Sustainability Report 2026" [ref=f157e208] [cursor=pointer]:
+            - /url: /docs/default-source/default-document-library/pdf/esg/sustainability-report-2026.pdf
+      - generic [ref=f157e210]:
+        - img "/images/default-source/global-library/carouselbanners/hkcarousel.tmb-rs800x600.png?Culture=en&sfvrsn=4ed91e55_2" [ref=f157e212]
+        - heading "有目的地投資" [level=2] [ref=f157e213]
+        - generic [ref=f157e214]:
+          - generic [ref=f157e215]: 我們是亞洲最大的資產管理公司之一，擁有全球連結和影響力。
+          - link "詳細了解我們的基金" [ref=f157e217] [cursor=pointer]:
+            - /url: https://hk.amova-am.com/institutional/funds?lang=zh
+    - generic [ref=f157e225]:
+      - heading [level=2] [ref=f157e227]:
+        - link "Investment Strategies" [ref=f157e228] [cursor=pointer]:
+          - /url: https://hk.amova-am.com/institutional/strategies
+      - generic [ref=f157e229]:
+        - generic [ref=f157e231]:
+          - generic [ref=f157e232]:
+            - link [ref=f157e233] [cursor=pointer]:
+              - /url: https://hk.amova-am.com/institutional/strategies/global-equity
+              - img "/images/default-source/global-library/strategies/global-equity/global-equity_edinburgh_homepage-carousel.tmb-medium.jpg?Culture=en&sfvrsn=ebf95e74_1" [ref=f157e235]
+            - heading [level=3] [ref=f157e236]:
+              - link "Global Equity" [ref=f157e237] [cursor=pointer]:
+                - /url: https://hk.amova-am.com/institutional/strategies/global-equity
+            - generic [ref=f157e238]: High active share, differentiated global equity portfolio that aims to provide superior returns through a disciplined and clear investment process.
+          - generic [ref=f157e239]:
+            - link [ref=f157e240] [cursor=pointer]:
+              - /url: https://hk.amova-am.com/institutional/strategies/japan-dividend-equity
+              - img "/images/default-source/global-library/featured-images/strategy_thumb2.tmb-medium.jpg?Culture=en&sfvrsn=6ae20b9d_1" [ref=f157e242]
+            - heading [level=3] [ref=f157e243]:
+              - link "Japan Dividend Equity" [ref=f157e244] [cursor=pointer]:
+                - /url: https://hk.amova-am.com/institutional/strategies/japan-dividend-equity
+            - generic [ref=f157e245]: Focuses not solely on the current level of dividend yield but also on dividend growth potential. The strategy aims to deliver stable total returns from both income and capital gains.
+          - generic [ref=f157e246]:
+            - link [ref=f157e247] [cursor=pointer]:
+              - /url: https://hk.amova-am.com/institutional/strategies/asian-fixed-income
+              - img "/images/default-source/global-library/strategies/featured-image/asianfixed-income-featured.tmb-medium.png?Culture=en&sfvrsn=1498a893_2" [ref=f157e249]
+            - heading [level=3] [ref=f157e250]:
+              - link "Asian Fixed Income" [ref=f157e251] [cursor=pointer]:
+                - /url: https://hk.amova-am.com/institutional/strategies/asian-fixed-income
+            - generic [ref=f157e252]: Amova has a long history of managing Asian fixed income. Our team also boasts several portfolio managers who have received industry recognition for their astute investing.
+        - link "View more" [ref=f157e254] [cursor=pointer]:
+          - /url: https://hk.amova-am.com/institutional/strategies
+    - generic [ref=f157e256]:
+      - heading [level=2] [ref=f157e258]:
+        - link "Our Latest Insights" [ref=f157e259] [cursor=pointer]:
+          - /url: https://hk.amova-am.com/institutional/insights
+      - link "Explore more" [ref=f157e263] [cursor=pointer]:
+        - /url: https://hk.amova-am.com/institutional/insights
+    - heading "Invest With Us" [level=2] [ref=f157e267]
+    - generic [ref=f157e270]:
+      - link "Important Information" [ref=f157e272] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - paragraph [ref=f157e274]: Investment involves risk. Past performance is not indicative of future performance. Investors should refer to the relevant Prospectus for details, including the risk factors before investing. This website is issued by Amova Asset Management Hong Kong Limited and has not been reviewed by the Securities and Futures Commission.
+  - contentinfo [ref=f157e275]:
+    - generic [ref=f157e277]:
+      - generic [ref=f157e278]:
+        - generic [ref=f157e279]:
+          - generic [ref=f157e280]:
+            - heading "Corporate" [level=3] [ref=f157e281]:
+              - text: Corporate
+              - emphasis
+            - list [ref=f157e282]:
+              - listitem [ref=f157e283]:
+                - link "About Us" [ref=f157e284] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/contact-us
+              - listitem [ref=f157e285]:
+                - link "Press Releases" [ref=f157e286] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/press/press-releases
+              - listitem [ref=f157e287]:
+                - link "Sustainability" [ref=f157e288] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/sustainability
+          - generic [ref=f157e289]:
+            - heading "Solutions" [level=3] [ref=f157e290]:
+              - text: Solutions
+              - emphasis
+            - list [ref=f157e291]:
+              - listitem [ref=f157e292]:
+                - link "Strategies" [ref=f157e293] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/strategies
+              - listitem [ref=f157e294]:
+                - link "Funds" [ref=f157e295] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/funds
+          - generic [ref=f157e296]:
+            - heading "Legal & Privacy Policy" [level=3] [ref=f157e297]:
+              - text: Legal & Privacy Policy
+              - emphasis
+            - list [ref=f157e298]:
+              - listitem [ref=f157e299]:
+                - link "Privacy Policy" [ref=f157e300] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/privacy-policy
+              - listitem [ref=f157e301]:
+                - link "Beware of Impersonators of Amova Asset Management or its Affiliates" [ref=f157e302] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/beware-of-impersonators-of-amova-asset-management-or-its-affiliates
+              - listitem [ref=f157e303]:
+                - link "Terms and Conditions" [ref=f157e304] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/terms-and-conditions
+              - listitem [ref=f157e305]:
+                - link "Code of Ethics" [ref=f157e306] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/code-of-ethics
+              - listitem [ref=f157e307]:
+                - link "Amova AM Group Environmental Policy" [ref=f157e308] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/amova-asset-management-group-environmental-policy
+              - listitem [ref=f157e309]:
+                - link "Global Cookie Policy" [ref=f157e310] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/global-cookie-policy
+              - listitem [ref=f157e311]:
+                - link "Amova AM Commitment to Responsible Investing Policy" [ref=f157e312] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/amova-am-commitment-to-responsible-investing-policy
+              - listitem [ref=f157e313]:
+                - link "Amova AM Key ESG Themes" [ref=f157e314] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/amova-am-key-esg-themes
+              - listitem [ref=f157e315]:
+                - link "Amova AM Group Engagement and Stewardship Strategy" [ref=f157e316] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/amova-am-group-engagement-and-stewardship-strategy
+              - listitem [ref=f157e317]:
+                - link "Amova AM Group Proxy Voting Policy" [ref=f157e318] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/amova-am-group-proxy-voting-policy
+              - listitem [ref=f157e319]:
+                - link "Amova AM Position Statement on Climate Change" [ref=f157e320] [cursor=pointer]:
+                  - /url: https://hk.amova-am.com/institutional/legal-privacy-policy/amova-am-position-statement-on-climate-change
+              - listitem [ref=f157e321]:
+                - link "Global Controversial Weapons Exclusion Policy" [ref=f157e322] [cursor=pointer]:
+                  - /url: /docs/default-source/default-document-library/pdf/tcfd/global-controversial-weapon-exclusion-policy.pdf
+        - link "LinkedIn" [ref=f157e325] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/amova-am/
+      - generic [ref=f157e329]:
+        - generic [ref=f157e330]: Amova Asset Management Hong Kong Limited Suite 2201-02, 22/F, Man Yee Building 60-68 Des Voeux Road Central, Hong Kong
+        - generic [ref=f157e331]: Copyright ©Amova Asset Management Hong Kong Limited. All rights reserved.

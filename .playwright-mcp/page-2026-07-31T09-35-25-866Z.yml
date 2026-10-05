@@ -1,0 +1,1209 @@
+- generic [active] [ref=f179e1]:
+  - iframe [ref=f179e2]:
+    
+  - generic [ref=f179e7]:
+    - link "Skip to content" [ref=f179e8] [cursor=pointer]:
+      - /url: "#top-content"
+    - generic [ref=f179e9]:
+      - banner [ref=f179e15]:
+        - generic:
+          - generic:
+            - link "Skip to content":
+              - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#main-content
+        - generic [ref=f179e20]:
+          - button "Header menu toggle" [ref=f179e21] [cursor=pointer]
+          - link [ref=f179e35] [cursor=pointer]:
+            - /url: /en-hk
+            - img "Franklin Templeton Investments" [ref=f179e36]
+          - button "search" [ref=f179e38] [cursor=pointer]
+      - generic:
+        - dialog "Close"
+      - main [ref=f179e45]:
+        - generic [ref=f179e46]:
+          - generic [ref=f179e50]:
+            - navigation "Breadcrumb" [ref=f179e55]:
+              - list [ref=f179e56]:
+                - listitem [ref=f179e57]:
+                  - link "Home" [ref=f179e58] [cursor=pointer]:
+                    - /url: /en-hk
+                - listitem [ref=f179e63]:
+                  - link "Our Funds" [ref=f179e64] [cursor=pointer]:
+                    - /url: /en-hk/our-funds
+                - listitem [ref=f179e69]:
+                  - link "Pricing & Performance" [ref=f179e70] [cursor=pointer]:
+                    - /url: /en-hk/our-funds/price-and-performance
+                - listitem [ref=f179e75]:
+                  - link "Mutual Funds" [ref=f179e76] [cursor=pointer]:
+                    - /url: /en-hk/our-funds/price-and-performance/mutual-funds
+                - listitem
+            - generic [ref=f179e83]:
+              - generic [ref=f179e90]:
+                - generic [ref=f179e91]:
+                  - heading "LU0109391861" [level=1] [ref=f179e94]
+                  - heading "Franklin U.S. Opportunities Fund" [level=1] [ref=f179e97]
+                  - button [ref=f179e102] [cursor=pointer]
+                - generic [ref=f179e110]:
+                  - link "Factsheet" [ref=f179e123] [cursor=pointer]:
+                    - /url: /download/en-hk/factsheet/9b504ea5-89df-470f-a646-6f8b05b81e8a/Factsheet-FranklinUSOpportunitiesFund-4913-FF-HK-en-HK.PDF
+                  - link "View All" [ref=f179e126] [cursor=pointer]:
+                    - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#documents
+              - generic [ref=f179e136]:
+                - generic [ref=f179e137]:
+                  - generic [ref=f179e138]:
+                    - generic [ref=f179e139]: As of 30/07/2026
+                    - generic [ref=f179e143]:
+                      - heading [level=3] [ref=f179e145]:
+                        - text: NAV
+                        - superscript [ref=f179e147]:
+                          - link "NAV 1" [ref=f179e1960] [cursor=pointer]:
+                            - /url: ""
+                            - text: "1"
+                      - paragraph [ref=f179e150]: $38.69
+                  - generic [ref=f179e156]:
+                    - heading [level=3] [ref=f179e158]:
+                      - text: NAV Change
+                      - superscript [ref=f179e160]:
+                        - link "NAV Change 1" [ref=f179e1961] [cursor=pointer]:
+                          - /url: ""
+                          - text: "1"
+                    - generic [ref=f179e162]:
+                      - paragraph [ref=f179e163]: $1.10
+                      - generic [ref=f179e164]: (2.93%)
+                  - generic [ref=f179e170]:
+                    - generic [ref=f179e171]: As of 30/06/2026
+                    - generic [ref=f179e175]:
+                      - heading [level=3] [ref=f179e177]:
+                        - text: Morningstar Overall Rating™
+                        - superscript [ref=f179e179]:
+                          - link "Morningstar Overall Rating™ 2" [ref=f179e1962] [cursor=pointer]:
+                            - /url: ""
+                            - text: "2"
+                      - generic [ref=f179e181]:
+                        - img "3 out of 5 stars" [ref=f179e185]
+                        - generic [ref=f179e196]: US Large-Cap Growth Equity
+                - generic "Close"
+          - navigation [ref=f179e201]:
+            - link "Franklin U.S. Opportunities Fund - A (acc) USD - LU0109391861" [ref=f179e209] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - generic [ref=f179e210]:
+              - link "Overview" [ref=f179e211] [cursor=pointer]:
+                - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#overview
+              - link "Performance" [ref=f179e213] [cursor=pointer]:
+                - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#performance
+              - link "Portfolio" [ref=f179e215] [cursor=pointer]:
+                - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#portfolio
+              - link "Pricing" [ref=f179e217] [cursor=pointer]:
+                - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#pricing
+              - link "Documents" [ref=f179e219] [cursor=pointer]:
+                - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#documents
+          - generic [ref=f179e225]:
+            - paragraph [ref=f179e227]:
+              - generic [ref=f179e229]:
+                - text: To supplement the NAV Daily Percentage Change, please
+                - link "view the complete fund performance" [ref=f179e230] [cursor=pointer]:
+                  - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#calendar-year
+                - text: .
+            - paragraph [ref=f179e232]: This is a marketing communication. Please refer to the offering documents before making any final investment decisions.
+          - generic [ref=f179e239]:
+            - heading "Overview" [level=2] [ref=f179e244]
+            - generic [ref=f179e246]:
+              - generic [ref=f179e252]:
+                - application [ref=f179e256]:
+                  - button "Risk Disclosure" [ref=f179e260] [cursor=pointer]
+                - tabpanel [ref=f179e268]:
+                  - list [ref=f179e281]:
+                    - listitem [ref=f179e282]:
+                      - text: •
+                      - strong [ref=f179e283]: INVESTMENT INVOLVES RISKS. The value of the Fund can be volatile and investors may not get back the amount originally invested. Past performance is not indicative of future results.
+                    - listitem [ref=f179e284]: • Franklin U.S. Opportunities Fund invests principally in equity securities of U.S. companies with strong growth potential across a wide range of sectors.
+                    - listitem [ref=f179e285]: • The Fund is subject to market risk, equity risk, warrants risk, convertible securities risk, liquidity risk, concentration risk, growth stocks risk, smaller and midsize companies risk, foreign currency risk, RMB currency and conversion risk, class hedging risk, counterparty risk, Private Investments in Public Equity risk, private companies risk, special purpose acquisition companies risk and derivative instruments risk.
+                    - listitem [ref=f179e286]: • Security lending may involve the risk that the borrower may fail to return the securities lent out in a timely manner and the value of the collateral may fall below the value of the securities lent out, which may result in a substantial loss to the Fund.
+                    - listitem [ref=f179e287]: • The Fund may at its discretion pay dividends out of the capital or out of gross income of the Fund while paying all or part of the Fund’s fees and expenses out of the capital of the Fund, which results in effectively paying dividends out of capital. Payment of dividends out of capital amounts to a return or withdrawal of part of an investor’s original investment or from any capital gains attributable to that original investment. Any distributions involving payment of dividends out of the Fund’s capital or payment of dividends effectively out of the Fund’s capital (as the case may be) may result in an immediate reduction of the net asset value per share.
+                    - listitem [ref=f179e288]: • Investors should not invest based on this marketing material alone. Offering documents should be read for further details, including the risk factors. Before you decide to invest, you should make sure the intermediary has explained to you that the Fund is suitable to you.
+              - generic [ref=f179e300]:
+                - generic [ref=f179e303]:
+                  - generic [ref=f179e308]:
+                    - heading "Fund Information" [level=5] [ref=f179e311]
+                    - generic [ref=f179e312]:
+                      - generic [ref=f179e313]:
+                        - generic [ref=f179e314]:
+                          - generic [ref=f179e315]: Total Net Assets
+                          - generic [ref=f179e317]: As of 30/06/2026 (Updated Monthly)
+                        - generic [ref=f179e318]: $6.97 Billion
+                      - generic [ref=f179e319]:
+                        - generic [ref=f179e320]: Fund Inception Date
+                        - generic [ref=f179e323]: 03/04/2000
+                      - generic [ref=f179e324]:
+                        - generic [ref=f179e325]: Share Class Inception Date
+                        - generic [ref=f179e328]: 03/04/2000
+                      - generic [ref=f179e329]:
+                        - generic [ref=f179e330]: Base Currency for Fund
+                        - generic [ref=f179e333]: USD
+                      - generic [ref=f179e334]:
+                        - generic [ref=f179e335]: Base Currency for Share Class
+                        - generic [ref=f179e338]: USD
+                      - generic [ref=f179e339]:
+                        - generic [ref=f179e341]:
+                          - text: Benchmark
+                          - superscript [ref=f179e343]:
+                            - link "Benchmark 3" [ref=f179e1963] [cursor=pointer]:
+                              - /url: ""
+                              - text: "3"
+                        - generic [ref=f179e346]: Russell 3000 Growth Index
+                      - generic [ref=f179e347]:
+                        - generic [ref=f179e348]: Additional Benchmark
+                        - generic [ref=f179e351]: S&P 500 Index
+                      - generic [ref=f179e352]:
+                        - generic [ref=f179e353]: Asset Class
+                        - generic [ref=f179e356]: Equity
+                      - generic [ref=f179e357]:
+                        - generic [ref=f179e358]: Investment Manager
+                        - generic [ref=f179e361]: Franklin Advisers, Inc.
+                      - generic [ref=f179e362]:
+                        - generic [ref=f179e363]: Investment Vehicle
+                        - generic [ref=f179e366]: Franklin Templeton Investment Funds
+                      - generic [ref=f179e367]:
+                        - generic [ref=f179e368]: Domicile
+                        - generic [ref=f179e371]: Luxembourg
+                      - generic [ref=f179e372]:
+                        - generic [ref=f179e373]: Minimum Investment
+                        - generic [ref=f179e376]: USD 1000
+                  - generic [ref=f179e377]:
+                    - generic [ref=f179e381]:
+                      - heading [level=5] [ref=f179e384]:
+                        - text: Charges
+                        - superscript [ref=f179e386]:
+                          - link "5" [ref=f179e1964] [cursor=pointer]:
+                            - /url: ""
+                      - generic [ref=f179e388]:
+                        - generic [ref=f179e389]:
+                          - generic [ref=f179e390]:
+                            - generic [ref=f179e391]: Initial Charge
+                            - generic [ref=f179e393]: As of 30/06/2026
+                          - generic [ref=f179e394]: 5.00%
+                        - generic [ref=f179e395]:
+                          - generic [ref=f179e396]:
+                            - generic [ref=f179e397]:
+                              - text: Ongoing Charges Figure
+                              - superscript [ref=f179e399]:
+                                - link "Ongoing Charges Figure 4" [ref=f179e1965] [cursor=pointer]:
+                                  - /url: ""
+                                  - text: "4"
+                            - generic [ref=f179e402]: As of 30/06/2026
+                          - generic [ref=f179e403]: 1.80%
+                    - generic [ref=f179e407]:
+                      - heading "Identifiers" [level=5] [ref=f179e410]
+                      - generic [ref=f179e411]:
+                        - generic [ref=f179e412]:
+                          - generic [ref=f179e413]: CUSIP Code
+                          - generic [ref=f179e416]: L4058R217
+                        - generic [ref=f179e417]:
+                          - generic [ref=f179e418]: ISIN Code
+                          - generic [ref=f179e421]: LU0109391861
+                        - generic [ref=f179e422]:
+                          - generic [ref=f179e423]: Bloomberg Code
+                          - generic [ref=f179e426]: TEMAGAI LX
+                        - generic [ref=f179e427]:
+                          - generic [ref=f179e428]: SEDOL Code
+                          - generic [ref=f179e431]: "4161594"
+                        - generic [ref=f179e432]:
+                          - generic [ref=f179e433]: Fund Number
+                          - generic [ref=f179e436]: "0799"
+                - paragraph [ref=f179e439]: The distribution share classes aim to pay dividend on monthly (Mdis / dis) / quarterly (Qdis) / yearly (Ydis) basis as respectively stated. Dividend yield is not guaranteed. The funds may at their discretion to decide on any dividend distributions and/or pay dividend out of the capital of the funds. The Fund may at its discretion pay dividends out of the capital or out of gross income of the Fund while paying all or part of the Fund’s fees and expenses out of the capital of the Fund, which results in effectively paying dividends out of capital. Payment of dividends out of capital amounts to a return or withdrawal of part of an investor’s original investment or from any capital gains attributable to that original investment. Any distributions involving payment of dividends out of the Fund’s capital or payment of dividends effectively out of the Fund’s capital (as the case may be) may result in an immediate reduction of the net asset value per share. Please refer to Composition of the dividend payments document for details, including the explanatory notes.
+              - generic [ref=f179e449]:
+                - generic [ref=f179e454]:
+                  - heading "Fund Managers" [level=2] [ref=f179e456]
+                  - generic [ref=f179e457]:
+                    - generic [ref=f179e464]:
+                      - heading [level=2] [ref=f179e466]:
+                        - link "Grant Bowers" [ref=f179e467] [cursor=pointer]:
+                          - /url: "#"
+                      - paragraph [ref=f179e469]: California, United States
+                      - paragraph [ref=f179e471]: Managed Fund Since 2007
+                    - generic [ref=f179e478]:
+                      - heading [level=2] [ref=f179e480]:
+                        - link "Sara Araghi, CFA®" [ref=f179e481] [cursor=pointer]:
+                          - /url: "#"
+                      - paragraph [ref=f179e483]: California, United States
+                      - paragraph [ref=f179e485]: Managed Fund Since 2016
+                    - generic [ref=f179e487]:
+                      - heading "AH" [level=2] [ref=f179e492]
+                      - generic [ref=f179e493]:
+                        - heading [level=2] [ref=f179e495]:
+                          - link "Anthony J. Hardy, CFA®" [ref=f179e496] [cursor=pointer]:
+                            - /url: "#"
+                        - paragraph [ref=f179e498]: California, United States
+                        - paragraph [ref=f179e500]: Managed Fund Since 2024
+                - generic "Close"
+          - generic [ref=f179e507]:
+            - heading "Performance" [level=2] [ref=f179e509]
+            - generic [ref=f179e511]:
+              - application [ref=f179e515]:
+                - button "Calendar Year Performance" [ref=f179e519] [cursor=pointer]
+              - tabpanel [ref=f179e527]:
+                - generic [ref=f179e531]:
+                  - generic [ref=f179e532]:
+                    - heading [level=3] [ref=f179e534]:
+                      - generic [ref=f179e535]:
+                        - text: Calendar Year Performance
+                        - superscript [ref=f179e537]:
+                          - link "6" [ref=f179e1966] [cursor=pointer]:
+                            - /url: ""
+                    - generic [ref=f179e539]: As of 30/06/2026
+                  - generic [ref=f179e540]:
+                    - generic [ref=f179e544]:
+                      - button "Month End" [ref=f179e545] [cursor=pointer]
+                      - button "Quarter End" [ref=f179e546] [cursor=pointer]
+                    - generic [ref=f179e547]:
+                      - paragraph [ref=f179e549]:
+                        - strong [ref=f179e550]: Past performance does not predict future returns.
+                      - paragraph [ref=f179e552]:
+                        - strong [ref=f179e553]: "***The calendar year performance of a share class in its year of inception is calculated from the share class inception date to year-end, which is not a full year return. This performance is not comparable to the benchmark performance in the year of inception which is a full year return."
+                    - region "Chart. Highcharts interactive chart." [ref=f179e556]:
+                      - generic [ref=f179e557]:
+                        - paragraph [ref=f179e558]: Chart
+                        - generic [ref=f179e559]: Bar chart with 3 data series.
+                        - generic [ref=f179e560]: The chart has 1 X axis displaying categories.
+                        - generic [ref=f179e561]: The chart has 1 Y axis displaying values. Data ranges from -37.14 to 42.66.
+                      - generic [ref=f179e565]:
+                        - img "Interactive chart" [ref=f179e566]:
+                          - generic [ref=f179e572]:
+                            - region "A (acc) USD (%), bar series 1 of 3 with 10 bars." [ref=f179e573]:
+                              - img "A (acc) USD (%), 6.71. A (acc) USD (%)." [ref=f179e574]
+                              - img "A (acc) USD (%), 24.46. A (acc) USD (%)." [ref=f179e575]
+                              - img "A (acc) USD (%), 38.23. A (acc) USD (%)." [ref=f179e576]
+                              - img "A (acc) USD (%), -37.14. A (acc) USD (%)." [ref=f179e577]
+                              - img "A (acc) USD (%), 16.53. A (acc) USD (%)." [ref=f179e578]
+                              - img "A (acc) USD (%), 42.66. A (acc) USD (%)." [ref=f179e579]
+                              - img "A (acc) USD (%), 32.1. A (acc) USD (%)." [ref=f179e580]
+                              - img "A (acc) USD (%), -1.85. A (acc) USD (%)." [ref=f179e581]
+                              - img "A (acc) USD (%), 26.94. A (acc) USD (%)." [ref=f179e582]
+                              - img "A (acc) USD (%), -2.38. A (acc) USD (%)." [ref=f179e583]
+                            - region "Russell 3000 Growth Index (%), bar series 2 of 3 with 10 bars." [ref=f179e584]:
+                              - img "Russell 3000 Growth Index (%), 18.15. Russell 3000 Growth Index (%)." [ref=f179e585]
+                              - img "Russell 3000 Growth Index (%), 32.46. Russell 3000 Growth Index (%)." [ref=f179e586]
+                              - img "Russell 3000 Growth Index (%), 41.21. Russell 3000 Growth Index (%)." [ref=f179e587]
+                              - img "Russell 3000 Growth Index (%), -28.97. Russell 3000 Growth Index (%)." [ref=f179e588]
+                              - img "Russell 3000 Growth Index (%), 25.85. Russell 3000 Growth Index (%)." [ref=f179e589]
+                              - img "Russell 3000 Growth Index (%), 38.26. Russell 3000 Growth Index (%)." [ref=f179e590]
+                              - img "Russell 3000 Growth Index (%), 35.85. Russell 3000 Growth Index (%)." [ref=f179e591]
+                              - img "Russell 3000 Growth Index (%), -2.12. Russell 3000 Growth Index (%)." [ref=f179e592]
+                              - img "Russell 3000 Growth Index (%), 29.59. Russell 3000 Growth Index (%)." [ref=f179e593]
+                              - img "Russell 3000 Growth Index (%), 7.39. Russell 3000 Growth Index (%)." [ref=f179e594]
+                            - region "S&P 500 Index (%), bar series 3 of 3 with 10 bars." [ref=f179e595]:
+                              - img "S&P 500 Index (%), 17.88. S&P 500 Index (%)." [ref=f179e596]
+                              - img "S&P 500 Index (%), 25.02. S&P 500 Index (%)." [ref=f179e597]
+                              - img "S&P 500 Index (%), 26.29. S&P 500 Index (%)." [ref=f179e598]
+                              - img "S&P 500 Index (%), -18.11. S&P 500 Index (%)." [ref=f179e599]
+                              - img "S&P 500 Index (%), 28.71. S&P 500 Index (%)." [ref=f179e600]
+                              - img "S&P 500 Index (%), 18.4. S&P 500 Index (%)." [ref=f179e601]
+                              - img "S&P 500 Index (%), 31.49. S&P 500 Index (%)." [ref=f179e602]
+                              - img "S&P 500 Index (%), -4.38. S&P 500 Index (%)." [ref=f179e603]
+                              - img "S&P 500 Index (%), 21.83. S&P 500 Index (%)." [ref=f179e604]
+                              - img "S&P 500 Index (%), 11.96. S&P 500 Index (%)." [ref=f179e605]
+                        - generic [ref=f179e606]: "2025"
+                        - generic [ref=f179e607]: "2024"
+                        - generic [ref=f179e608]: "2023"
+                        - generic [ref=f179e609]: "2022"
+                        - generic [ref=f179e610]: "2021"
+                        - generic [ref=f179e611]: "2020"
+                        - generic [ref=f179e612]: "2019"
+                        - generic [ref=f179e613]: "2018"
+                        - generic [ref=f179e614]: "2017"
+                        - generic [ref=f179e615]: "2016"
+                        - generic [ref=f179e616]: "-60"
+                        - generic [ref=f179e617]: "-40"
+                        - generic [ref=f179e618]: "-20"
+                        - generic [ref=f179e619]: "0"
+                        - generic [ref=f179e620]: "20"
+                        - generic [ref=f179e621]: "40"
+                        - generic [ref=f179e622]: "60"
+                      - generic: End of interactive chart.
+                    - generic [ref=f179e626]:
+                      - generic [ref=f179e631]:
+                        - generic [ref=f179e632]:
+                          - generic [ref=f179e633]:
+                            - generic [ref=f179e634]: Month End
+                            - generic [ref=f179e636]: As of 30/06/2026
+                          - generic [ref=f179e637]: A (acc) USD (%)
+                        - generic [ref=f179e641]:
+                          - generic [ref=f179e642]: Currency
+                          - generic [ref=f179e645]: USD
+                        - generic [ref=f179e646]:
+                          - generic [ref=f179e647]: YTD
+                          - generic [ref=f179e650]: "10.45"
+                        - generic [ref=f179e651]:
+                          - generic [ref=f179e652]: "2025"
+                          - generic [ref=f179e655]: "6.71"
+                        - generic [ref=f179e656]:
+                          - generic [ref=f179e657]: "2024"
+                          - generic [ref=f179e660]: "24.46"
+                        - generic [ref=f179e661]:
+                          - generic [ref=f179e662]: "2023"
+                          - generic [ref=f179e665]: "38.23"
+                        - generic [ref=f179e666]:
+                          - generic [ref=f179e667]: "2022"
+                          - generic [ref=f179e670]: "-37.14"
+                        - generic [ref=f179e671]:
+                          - generic [ref=f179e672]: "2021"
+                          - generic [ref=f179e675]: "16.53"
+                        - generic [ref=f179e676]:
+                          - generic [ref=f179e677]: "2020"
+                          - generic [ref=f179e680]: "42.66"
+                        - generic [ref=f179e681]:
+                          - generic [ref=f179e682]: "2019"
+                          - generic [ref=f179e685]: "32.10"
+                        - generic [ref=f179e686]:
+                          - generic [ref=f179e687]: "2018"
+                          - generic [ref=f179e690]: "-1.85"
+                        - generic [ref=f179e691]:
+                          - generic [ref=f179e692]: "2017"
+                          - generic [ref=f179e695]: "26.94"
+                        - generic [ref=f179e696]:
+                          - generic [ref=f179e697]: "2016"
+                          - generic [ref=f179e700]: "-2.38"
+                        - generic [ref=f179e701]:
+                          - generic [ref=f179e702]: Performance Inception Date
+                          - generic [ref=f179e705]: 03/04/2000
+                      - generic [ref=f179e710]:
+                        - generic [ref=f179e711]:
+                          - generic [ref=f179e712]:
+                            - generic [ref=f179e713]: Month End
+                            - generic [ref=f179e715]: As of 30/06/2026
+                          - generic [ref=f179e719]:
+                            - text: Russell 3000 Growth Index (%)
+                            - superscript [ref=f179e721]:
+                              - link "3" [ref=f179e1967] [cursor=pointer]:
+                                - /url: ""
+                        - generic [ref=f179e723]:
+                          - generic [ref=f179e724]: Currency
+                          - generic [ref=f179e727]: USD
+                        - generic [ref=f179e728]:
+                          - generic [ref=f179e729]: YTD
+                          - generic [ref=f179e732]: "5.88"
+                        - generic [ref=f179e733]:
+                          - generic [ref=f179e734]: "2025"
+                          - generic [ref=f179e737]: "18.15"
+                        - generic [ref=f179e738]:
+                          - generic [ref=f179e739]: "2024"
+                          - generic [ref=f179e742]: "32.46"
+                        - generic [ref=f179e743]:
+                          - generic [ref=f179e744]: "2023"
+                          - generic [ref=f179e747]: "41.21"
+                        - generic [ref=f179e748]:
+                          - generic [ref=f179e749]: "2022"
+                          - generic [ref=f179e752]: "-28.97"
+                        - generic [ref=f179e753]:
+                          - generic [ref=f179e754]: "2021"
+                          - generic [ref=f179e757]: "25.85"
+                        - generic [ref=f179e758]:
+                          - generic [ref=f179e759]: "2020"
+                          - generic [ref=f179e762]: "38.26"
+                        - generic [ref=f179e763]:
+                          - generic [ref=f179e764]: "2019"
+                          - generic [ref=f179e767]: "35.85"
+                        - generic [ref=f179e768]:
+                          - generic [ref=f179e769]: "2018"
+                          - generic [ref=f179e772]: "-2.12"
+                        - generic [ref=f179e773]:
+                          - generic [ref=f179e774]: "2017"
+                          - generic [ref=f179e777]: "29.59"
+                        - generic [ref=f179e778]:
+                          - generic [ref=f179e779]: "2016"
+                          - generic [ref=f179e782]: "7.39"
+                        - generic [ref=f179e783]:
+                          - generic [ref=f179e784]: Performance Inception Date
+                          - generic [ref=f179e787]: —
+                      - generic [ref=f179e792]:
+                        - generic [ref=f179e793]:
+                          - generic [ref=f179e794]:
+                            - generic [ref=f179e795]: Month End
+                            - generic [ref=f179e797]: As of 30/06/2026
+                          - generic [ref=f179e798]: S&P 500 Index (%)
+                        - generic [ref=f179e802]:
+                          - generic [ref=f179e803]: Currency
+                          - generic [ref=f179e806]: USD
+                        - generic [ref=f179e807]:
+                          - generic [ref=f179e808]: YTD
+                          - generic [ref=f179e811]: "10.21"
+                        - generic [ref=f179e812]:
+                          - generic [ref=f179e813]: "2025"
+                          - generic [ref=f179e816]: "17.88"
+                        - generic [ref=f179e817]:
+                          - generic [ref=f179e818]: "2024"
+                          - generic [ref=f179e821]: "25.02"
+                        - generic [ref=f179e822]:
+                          - generic [ref=f179e823]: "2023"
+                          - generic [ref=f179e826]: "26.29"
+                        - generic [ref=f179e827]:
+                          - generic [ref=f179e828]: "2022"
+                          - generic [ref=f179e831]: "-18.11"
+                        - generic [ref=f179e832]:
+                          - generic [ref=f179e833]: "2021"
+                          - generic [ref=f179e836]: "28.71"
+                        - generic [ref=f179e837]:
+                          - generic [ref=f179e838]: "2020"
+                          - generic [ref=f179e841]: "18.40"
+                        - generic [ref=f179e842]:
+                          - generic [ref=f179e843]: "2019"
+                          - generic [ref=f179e846]: "31.49"
+                        - generic [ref=f179e847]:
+                          - generic [ref=f179e848]: "2018"
+                          - generic [ref=f179e851]: "-4.38"
+                        - generic [ref=f179e852]:
+                          - generic [ref=f179e853]: "2017"
+                          - generic [ref=f179e856]: "21.83"
+                        - generic [ref=f179e857]:
+                          - generic [ref=f179e858]: "2016"
+                          - generic [ref=f179e861]: "11.96"
+                        - generic [ref=f179e862]:
+                          - generic [ref=f179e863]: Performance Inception Date
+                          - generic [ref=f179e866]: —
+                  - button "View performance for all fund's share classes" [ref=f179e870] [cursor=pointer]
+                  - generic [ref=f179e876]:
+                    - paragraph [ref=f179e878]: The performance inception date is for the share class specified on this individual fund page. This is NOT the performance inception date for those share classes quoted under "View performance for all fund's share classes" table.
+                    - generic [ref=f179e879]:
+                      - paragraph [ref=f179e880]: "Unless stated otherwise, all information is as of the date stated above. Source: Franklin Templeton."
+                      - paragraph [ref=f179e881]: Performance information is based on the stated share class, in Fund Currency, NAV to NAV, taking in account of reinvestments and capital gain or loss.
+                      - paragraph [ref=f179e882]: Franklin Templeton Investments (Asia) Limited is the issuer of this report. Investments are subject to investment risks, fund value may go up as well as down and past performance is not an indicator or a guarantee of future performance. The investment returns are denominated in fund currency. Investors investing in funds denominated in non-local currency should be aware of the risk of exchange rate fluctuations that may cause a loss of principal. Investors should read carefully the Offering Documents (including the section "Risk Considerations") for the relevant risks associated with the investment in the fund before investing. This report has not been reviewed by the Securities and Futures Commission of Hong Kong.
+                      - paragraph [ref=f179e883]: Hedged share classes will attempt to hedge the currency risk between the base currency of the Fund and the currency of the share class, although there can be no guarantee that it will be successful in doing so. In some cases, investors may be subject to additional risks.
+          - generic [ref=f179e888]:
+            - heading "Portfolio" [level=2] [ref=f179e892]
+            - generic [ref=f179e897]:
+              - generic [ref=f179e898]:
+                - generic [ref=f179e902]:
+                  - generic [ref=f179e903]:
+                    - heading "Assets" [level=3] [ref=f179e905]
+                    - generic [ref=f179e907]: As of 30/06/2026 Updated Monthly
+                  - generic [ref=f179e909]:
+                    - generic [ref=f179e910]: Total Net Assets
+                    - generic [ref=f179e913]: $6.97 Billion
+                - generic [ref=f179e917]:
+                  - generic [ref=f179e918]:
+                    - heading "Positions" [level=3] [ref=f179e920]
+                    - generic [ref=f179e922]: As of 30/06/2026 Updated Monthly
+                  - generic [ref=f179e924]:
+                    - generic [ref=f179e925]: Number of Issuers
+                    - generic [ref=f179e928]: "81"
+              - generic [ref=f179e933]:
+                - generic [ref=f179e934]:
+                  - heading "Portfolio Statistics" [level=3] [ref=f179e936]
+                  - generic [ref=f179e938]: As of 30/06/2026 Updated Monthly
+                - table [ref=f179e941]:
+                  - rowgroup [ref=f179e942]:
+                    - row [ref=f179e943]:
+                      - columnheader [ref=f179e944]
+                      - columnheader [ref=f179e945]:
+                        - strong [ref=f179e946]: Fund
+                      - columnheader [ref=f179e947]:
+                        - strong [ref=f179e948]: Benchmark
+                        - button "Benchmark" [ref=f179e949] [cursor=pointer]
+                  - rowgroup [ref=f179e956]:
+                    - row [ref=f179e957]:
+                      - cell [ref=f179e958]:
+                        - text: Price to Cash Flow
+                        - button "Price to Cash Flow" [ref=f179e960] [cursor=pointer]
+                      - cell [ref=f179e967]:
+                        - strong [ref=f179e968]: 30.53x
+                      - cell [ref=f179e969]:
+                        - strong [ref=f179e970]: 30.78x
+                    - row [ref=f179e971]:
+                      - cell [ref=f179e972]:
+                        - text: Price to Book
+                        - button "Price to Book" [ref=f179e974] [cursor=pointer]
+                      - cell [ref=f179e981]:
+                        - strong [ref=f179e982]: 11.12x
+                      - cell [ref=f179e983]:
+                        - strong [ref=f179e984]: 13.71x
+            - generic [ref=f179e986]:
+              - heading "Portfolio Allocations" [level=3] [ref=f179e989]
+              - generic [ref=f179e992]:
+                - application [ref=f179e996]:
+                  - button "Assets" [ref=f179e1000] [cursor=pointer]
+                - tabpanel [ref=f179e1008]:
+                  - generic [ref=f179e1014]:
+                    - generic [ref=f179e1015]:
+                      - heading "Asset Allocation" [level=4] [ref=f179e1017]
+                      - generic [ref=f179e1018]: As of 30/06/2026 % of Total Updated Monthly
+                    - generic [ref=f179e1019]:
+                      - region "Chart. Highcharts interactive chart." [ref=f179e1021]:
+                        - generic [ref=f179e1022]:
+                          - paragraph [ref=f179e1023]: Chart
+                          - generic [ref=f179e1024]: Bar chart with 2 bars.
+                          - generic [ref=f179e1025]: The chart has 1 X axis displaying categories.
+                          - generic [ref=f179e1026]: The chart has 1 Y axis displaying values. Data ranges from -0.2913 to 100.2913.
+                        - generic [ref=f179e1030]:
+                          - img "Interactive chart" [ref=f179e1031]:
+                            - generic [ref=f179e1038]:
+                              - img "100.29%, 100.2913." [ref=f179e1039]
+                              - img "-0.29%, -0.2913." [ref=f179e1040]
+                            - generic [ref=f179e1041]:
+                              - generic [ref=f179e1042]: Equity
+                              - generic [ref=f179e1043]: Cash & Cash Equivalents
+                          - generic [ref=f179e1044]: "-20%"
+                          - generic [ref=f179e1045]: 0%
+                          - generic [ref=f179e1046]: 20%
+                          - generic [ref=f179e1047]: 40%
+                          - generic [ref=f179e1048]: 60%
+                          - generic [ref=f179e1049]: 80%
+                          - generic [ref=f179e1050]: 100%
+                          - generic [ref=f179e1051]: 120%
+                        - generic: End of interactive chart.
+                      - generic [ref=f179e1054]:
+                        - table [ref=f179e1055]:
+                          - rowgroup [ref=f179e1056]:
+                            - row [ref=f179e1057]:
+                              - columnheader [ref=f179e1058]
+                              - columnheader [ref=f179e1059]
+                              - columnheader "Fund" [ref=f179e1060]
+                          - rowgroup [ref=f179e1061]:
+                            - row [ref=f179e1062]:
+                              - cell [ref=f179e1063]
+                              - cell "Equity" [ref=f179e1064]
+                              - cell "100.29%" [ref=f179e1068]
+                            - row [ref=f179e1069]:
+                              - cell [ref=f179e1070]
+                              - cell "Cash & Cash Equivalents" [ref=f179e1071]
+                              - cell "-0.29%" [ref=f179e1075]
+                        - button "Show more" [ref=f179e1079] [cursor=pointer]
+                    - generic [ref=f179e1085]:
+                      - paragraph [ref=f179e1087]: Due to rounding, the sum of portfolio may not equal 100%.
+                      - paragraph [ref=f179e1089]: Any negative cash position reflects a temporary position that is a result of a delay in securities settlement transactions.
+            - generic [ref=f179e1091]:
+              - heading "Portfolio Holdings" [level=3] [ref=f179e1094]
+              - generic [ref=f179e1097]:
+                - application [ref=f179e1101]:
+                  - button "Holdings" [ref=f179e1105] [cursor=pointer]
+                - tabpanel [ref=f179e1113]:
+                  - generic [ref=f179e1116]:
+                    - generic [ref=f179e1117]:
+                      - generic [ref=f179e1119]:
+                        - generic [ref=f179e1121]:
+                          - heading "Holdings" [level=4] [ref=f179e1123]
+                          - generic [ref=f179e1124]: As of 30/06/2026 Updated Monthly
+                        - button [ref=f179e1127] [cursor=pointer]
+                      - generic [ref=f179e1138]:
+                        - generic [ref=f179e1140]:
+                          - generic [ref=f179e1144]:
+                            - generic [ref=f179e1145]:
+                              - generic [ref=f179e1146]: Security Name
+                              - generic [ref=f179e1149]: NVIDIA Corp COM USD.001
+                            - generic [ref=f179e1150]:
+                              - generic [ref=f179e1152]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1154] [cursor=pointer]
+                              - generic [ref=f179e1161]: "8.60"
+                            - generic [ref=f179e1162]:
+                              - generic [ref=f179e1164]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1166] [cursor=pointer]
+                              - generic [ref=f179e1173]: 599,032,643
+                            - generic [ref=f179e1174]:
+                              - generic [ref=f179e1176]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1178] [cursor=pointer]
+                              - generic [ref=f179e1185]: 2,993,816
+                          - generic [ref=f179e1189]:
+                            - generic [ref=f179e1190]:
+                              - generic [ref=f179e1191]: Security Name
+                              - generic [ref=f179e1194]: Apple Inc COM USD.00001
+                            - generic [ref=f179e1195]:
+                              - generic [ref=f179e1197]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1199] [cursor=pointer]
+                              - generic [ref=f179e1206]: "6.76"
+                            - generic [ref=f179e1207]:
+                              - generic [ref=f179e1209]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1211] [cursor=pointer]
+                              - generic [ref=f179e1218]: 471,413,159
+                            - generic [ref=f179e1219]:
+                              - generic [ref=f179e1221]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1223] [cursor=pointer]
+                              - generic [ref=f179e1230]: 1,629,158
+                          - generic [ref=f179e1234]:
+                            - generic [ref=f179e1235]:
+                              - generic [ref=f179e1236]: Security Name
+                              - generic [ref=f179e1239]: Alphabet Inc COM USD.001 CL A
+                            - generic [ref=f179e1240]:
+                              - generic [ref=f179e1242]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1244] [cursor=pointer]
+                              - generic [ref=f179e1251]: "6.56"
+                            - generic [ref=f179e1252]:
+                              - generic [ref=f179e1254]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1256] [cursor=pointer]
+                              - generic [ref=f179e1263]: 457,108,751
+                            - generic [ref=f179e1264]:
+                              - generic [ref=f179e1266]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1268] [cursor=pointer]
+                              - generic [ref=f179e1275]: 1,279,091
+                          - generic [ref=f179e1279]:
+                            - generic [ref=f179e1280]:
+                              - generic [ref=f179e1281]: Security Name
+                              - generic [ref=f179e1284]: Amazon.com Inc COM USD.01
+                            - generic [ref=f179e1285]:
+                              - generic [ref=f179e1287]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1289] [cursor=pointer]
+                              - generic [ref=f179e1296]: "4.44"
+                            - generic [ref=f179e1297]:
+                              - generic [ref=f179e1299]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1301] [cursor=pointer]
+                              - generic [ref=f179e1308]: 309,428,718
+                            - generic [ref=f179e1309]:
+                              - generic [ref=f179e1311]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1313] [cursor=pointer]
+                              - generic [ref=f179e1320]: 1,298,266
+                          - generic [ref=f179e1324]:
+                            - generic [ref=f179e1325]:
+                              - generic [ref=f179e1326]: Security Name
+                              - generic [ref=f179e1329]: Broadcom Inc COM USD 1
+                            - generic [ref=f179e1330]:
+                              - generic [ref=f179e1332]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1334] [cursor=pointer]
+                              - generic [ref=f179e1341]: "3.28"
+                            - generic [ref=f179e1342]:
+                              - generic [ref=f179e1344]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1346] [cursor=pointer]
+                              - generic [ref=f179e1353]: 228,246,372
+                            - generic [ref=f179e1354]:
+                              - generic [ref=f179e1356]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1358] [cursor=pointer]
+                              - generic [ref=f179e1365]: 604,226
+                          - generic [ref=f179e1369]:
+                            - generic [ref=f179e1370]:
+                              - generic [ref=f179e1371]: Security Name
+                              - generic [ref=f179e1374]: Microsoft Corp COM USD0.001
+                            - generic [ref=f179e1375]:
+                              - generic [ref=f179e1377]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1379] [cursor=pointer]
+                              - generic [ref=f179e1386]: "3.17"
+                            - generic [ref=f179e1387]:
+                              - generic [ref=f179e1389]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1391] [cursor=pointer]
+                              - generic [ref=f179e1398]: 220,654,386
+                            - generic [ref=f179e1399]:
+                              - generic [ref=f179e1401]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1403] [cursor=pointer]
+                              - generic [ref=f179e1410]: 591,535
+                          - generic [ref=f179e1414]:
+                            - generic [ref=f179e1415]:
+                              - generic [ref=f179e1416]: Security Name
+                              - generic [ref=f179e1419]: Eli Lilly & Co COM NPV
+                            - generic [ref=f179e1420]:
+                              - generic [ref=f179e1422]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1424] [cursor=pointer]
+                              - generic [ref=f179e1431]: "3.03"
+                            - generic [ref=f179e1432]:
+                              - generic [ref=f179e1434]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1436] [cursor=pointer]
+                              - generic [ref=f179e1443]: 211,138,062
+                            - generic [ref=f179e1444]:
+                              - generic [ref=f179e1446]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1448] [cursor=pointer]
+                              - generic [ref=f179e1455]: 176,032
+                          - generic [ref=f179e1459]:
+                            - generic [ref=f179e1460]:
+                              - generic [ref=f179e1461]: Security Name
+                              - generic [ref=f179e1464]: SPACE EXPLORATION TECHNOLOGIES CORP COM USD NPV CL A *180 DAYS LOCKUP UPON IPO*
+                            - generic [ref=f179e1465]:
+                              - generic [ref=f179e1467]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1469] [cursor=pointer]
+                              - generic [ref=f179e1476]: "2.63"
+                            - generic [ref=f179e1477]:
+                              - generic [ref=f179e1479]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1481] [cursor=pointer]
+                              - generic [ref=f179e1488]: 183,063,676
+                            - generic [ref=f179e1489]:
+                              - generic [ref=f179e1491]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1493] [cursor=pointer]
+                              - generic [ref=f179e1500]: 1,071,425
+                          - generic [ref=f179e1504]:
+                            - generic [ref=f179e1505]:
+                              - generic [ref=f179e1506]: Security Name
+                              - generic [ref=f179e1509]: Meta Platforms Inc COM USD NPV CL A
+                            - generic [ref=f179e1510]:
+                              - generic [ref=f179e1512]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1514] [cursor=pointer]
+                              - generic [ref=f179e1521]: "2.46"
+                            - generic [ref=f179e1522]:
+                              - generic [ref=f179e1524]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1526] [cursor=pointer]
+                              - generic [ref=f179e1533]: 171,185,521
+                            - generic [ref=f179e1534]:
+                              - generic [ref=f179e1536]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1538] [cursor=pointer]
+                              - generic [ref=f179e1545]: 303,903
+                          - generic [ref=f179e1549]:
+                            - generic [ref=f179e1550]:
+                              - generic [ref=f179e1551]: Security Name
+                              - generic [ref=f179e1554]: Amphenol Corp COM USD.001 CL A
+                            - generic [ref=f179e1555]:
+                              - generic [ref=f179e1557]:
+                                - text: Weight (%)
+                                - button "Percentages may not total 100% and may be negative due to rounding, use of any derivatives, unsettled trades or other factors." [ref=f179e1559] [cursor=pointer]
+                              - generic [ref=f179e1566]: "2.45"
+                            - generic [ref=f179e1567]:
+                              - generic [ref=f179e1569]:
+                                - text: Market Value
+                                - button "Market value figures reflect the trading value of the investments." [ref=f179e1571] [cursor=pointer]
+                              - generic [ref=f179e1578]: 170,634,914
+                            - generic [ref=f179e1579]:
+                              - generic [ref=f179e1581]:
+                                - text: Quantity
+                                - button "Shares for stocks, par value for bonds, units for funds and contracts times the multipler for derivative instruments." [ref=f179e1583] [cursor=pointer]
+                              - generic [ref=f179e1590]: 967,757
+                        - generic [ref=f179e1594]:
+                          - button [disabled] [ref=f179e1595]:
+                            - generic [ref=f179e1596]: Previous
+                          - navigation "Pagination Navigation" [ref=f179e1601]:
+                            - list [ref=f179e1602]:
+                              - listitem [ref=f179e1603]:
+                                - link "Go to page 1" [ref=f179e1604] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1605]: Go to page
+                                  - text: "1"
+                              - listitem [ref=f179e1606]:
+                                - link "Go to page 2" [ref=f179e1607] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1608]: Go to page
+                                  - text: "2"
+                              - listitem [ref=f179e1609]:
+                                - link "Go to page 3" [ref=f179e1610] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1611]: Go to page
+                                  - text: "3"
+                              - listitem [ref=f179e1612]:
+                                - link "Go to page 4" [ref=f179e1613] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1614]: Go to page
+                                  - text: "4"
+                              - listitem [ref=f179e1615]:
+                                - link "Go to page 5" [ref=f179e1616] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1617]: Go to page
+                                  - text: "5"
+                              - listitem [ref=f179e1618]:
+                                - link "Go to page 6" [ref=f179e1619] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1620]: Go to page
+                                  - text: "6"
+                              - listitem [ref=f179e1621]:
+                                - link "Go to page ..." [ref=f179e1622]:
+                                  - /url: ""
+                                  - generic [ref=f179e1623]: Go to page
+                                  - text: ...
+                              - listitem [ref=f179e1624]:
+                                - link "Go to page 10" [ref=f179e1625] [cursor=pointer]:
+                                  - /url: ""
+                                  - generic [ref=f179e1626]: Go to page
+                                  - text: "10"
+                          - button "Next" [ref=f179e1627] [cursor=pointer]
+                    - paragraph [ref=f179e1637]: These securities do not represent all of the securities purchased, sold or recommended for clients, and the reader should not assume that investment in the securities listed was or will be profitable.
+          - generic [ref=f179e1644]:
+            - heading "Pricing" [level=2] [ref=f179e1646]
+            - generic [ref=f179e1968]:
+              - generic [ref=f179e1971]:
+                - generic [ref=f179e1974]:
+                  - heading "Pricing History Chart" [level=3] [ref=f179e1976]
+                  - generic [ref=f179e1977]: As of 30/07/2026 Updated Daily
+                - generic [ref=f179e1978]:
+                  - application [ref=f179e1981]:
+                    - generic [ref=f179e1984] [cursor=pointer]:
+                      - generic [ref=f179e1986]:
+                        - generic [ref=f179e1987]: Since Inception
+                        - text: Time Period
+                      - button "Since Inception" [ref=f179e1988]
+                  - generic [ref=f179e1994]:
+                    - generic [ref=f179e1997]:
+                      - generic [ref=f179e1998]: From
+                      - generic [ref=f179e2001]:
+                        - textbox "From" [ref=f179e2002]:
+                          - /placeholder: DD.MM.YYYY
+                          - text: 03.04.2000
+                        - button "[common.date-picker-button], [common.date-picker-selected-date] 3 April 2000" [ref=f179e2003] [cursor=pointer]
+                    - generic [ref=f179e2008]:
+                      - generic [ref=f179e2009]: To
+                      - generic [ref=f179e2012]:
+                        - textbox "To" [ref=f179e2013]:
+                          - /placeholder: DD.MM.YYYY
+                          - text: 30.07.2026
+                        - button "[common.date-picker-button], [common.date-picker-selected-date] 30 July 2026" [ref=f179e2014] [cursor=pointer]
+                - generic [ref=f179e2018]:
+                  - region "Chart. Highcharts interactive chart." [ref=f179e2019]:
+                    - generic [ref=f179e2020]:
+                      - paragraph [ref=f179e2021]: Chart
+                      - generic [ref=f179e2022]: Line chart with 6853 data points.
+                      - generic [ref=f179e2023]: The chart has 1 X axis displaying Time. Data ranges from 2000-04-03 00:00:01 to 2026-07-30 00:00:01.
+                      - generic [ref=f179e2024]: The chart has 1 Y axis displaying values. Data ranges from 2.68 to 41.6.
+                    - generic [ref=f179e2028]:
+                      - img "Interactive chart" [ref=f179e2029]:
+                        - region "NAV, line 1 of 1 with 6853 data points." [ref=f179e2038]
+                        - generic [ref=f179e2042]:
+                          - generic [ref=f179e2043]: "2000"
+                          - generic [ref=f179e2044]: "2005"
+                          - generic [ref=f179e2045]: "2010"
+                          - generic [ref=f179e2046]: "2015"
+                          - generic [ref=f179e2047]: "2020"
+                          - generic [ref=f179e2048]: "2025"
+                        - generic [ref=f179e2049]:
+                          - generic [ref=f179e2050]: $0
+                          - generic [ref=f179e2051]: $10
+                          - generic [ref=f179e2052]: $20
+                          - generic [ref=f179e2053]: $30
+                          - generic [ref=f179e2054]: $40
+                          - generic [ref=f179e2055]: $50
+                      - generic [ref=f179e2056]:
+                        - region "Toggle series visibility, Chart":
+                          - list:
+                            - listitem:
+                              - button "Show NAV" [pressed] [ref=f179e2057] [cursor=pointer]
+                      - button [pressed] [ref=f179e2059] [cursor=pointer]: NAV
+                    - generic: End of interactive chart.
+                  - paragraph [ref=f179e2064]:
+                    - strong [ref=f179e2065]: Past performance does not predict future returns.
+                    - text: The value of shares in the Fund and income received from it can go down as well as up, and investors may not get back the full amount invested. Historical pricing details provided are in share class currency, calculated NAV, taking into account of reinvestments and capital gain or loss. Sales charges and other commissions, other taxes and relevant costs to be paid by an investor are not included in the calculations.
+              - generic [ref=f179e2072]:
+                - generic [ref=f179e2074]:
+                  - paragraph [ref=f179e2077]:
+                    - text: To supplement the NAV Daily % Change, please refer to
+                    - link "Price & Performance" [ref=f179e2078] [cursor=pointer]:
+                      - /url: https://www.franklintempleton.com.hk/en-hk/our-funds/price-and-performance/mutual-funds
+                    - text: page for the minimum performance disclosures.
+                  - generic [ref=f179e2079]:
+                    - heading "Share Prices" [level=3] [ref=f179e2081]
+                    - generic [ref=f179e2082]: As of 30/07/2026
+                - generic [ref=f179e2084]:
+                  - generic [ref=f179e2085]:
+                    - generic [ref=f179e2086]:
+                      - generic [ref=f179e2087]:
+                        - generic [ref=f179e2088]:
+                          - text: NAV
+                          - superscript [ref=f179e2090]:
+                            - link "NAV 1" [ref=f179e2091] [cursor=pointer]:
+                              - /url: ""
+                              - text: "1"
+                        - generic [ref=f179e2093]: (Net Asset Value)
+                      - generic [ref=f179e2094]: $38.69
+                    - generic [ref=f179e2095]:
+                      - generic [ref=f179e2097]:
+                        - text: NAV Change
+                        - superscript [ref=f179e2099]:
+                          - link "NAV Change 1" [ref=f179e2100] [cursor=pointer]:
+                            - /url: ""
+                            - text: "1"
+                      - generic [ref=f179e2102]: $1.10
+                  - generic [ref=f179e2104]:
+                    - generic [ref=f179e2106]:
+                      - text: NAV Change (%)
+                      - superscript [ref=f179e2108]:
+                        - link "NAV Change (%) 1" [ref=f179e2109] [cursor=pointer]:
+                          - /url: ""
+                          - text: "1"
+                    - generic [ref=f179e2111]: 2.93%
+              - generic [ref=f179e2114]:
+                - generic [ref=f179e2117]:
+                  - heading "Highest / Lowest NAV" [level=6] [ref=f179e2119]
+                  - generic [ref=f179e2120]: As of 30/07/2026 Updated Daily
+                - generic [ref=f179e2122]:
+                  - generic [ref=f179e2127]:
+                    - generic [ref=f179e2128]:
+                      - generic [ref=f179e2129]: Year
+                      - generic [ref=f179e2132]: Highest NAV
+                    - generic [ref=f179e2133]:
+                      - generic [ref=f179e2134]: "2026"
+                      - generic [ref=f179e2137]:
+                        - text: $41.60
+                        - generic [ref=f179e2138]: As on 15/06/2026
+                    - generic [ref=f179e2139]:
+                      - generic [ref=f179e2140]: "2025"
+                      - generic [ref=f179e2143]:
+                        - text: $39.46
+                        - generic [ref=f179e2144]: As on 29/10/2025
+                    - generic [ref=f179e2145]:
+                      - generic [ref=f179e2146]: "2024"
+                      - generic [ref=f179e2149]:
+                        - text: $37.25
+                        - generic [ref=f179e2150]: As on 04/12/2024
+                    - generic [ref=f179e2151]:
+                      - generic [ref=f179e2152]: "2023"
+                      - generic [ref=f179e2155]:
+                        - text: $28.39
+                        - generic [ref=f179e2156]: As on 27/12/2023
+                    - generic [ref=f179e2157]:
+                      - generic [ref=f179e2158]: "2022"
+                      - generic [ref=f179e2161]:
+                        - text: $32.40
+                        - generic [ref=f179e2162]: As on 03/01/2022
+                    - generic [ref=f179e2163]:
+                      - generic [ref=f179e2164]: "2021"
+                      - generic [ref=f179e2167]:
+                        - text: $34.92
+                        - generic [ref=f179e2168]: As on 16/11/2021
+                    - generic [ref=f179e2169]:
+                      - generic [ref=f179e2170]: "2020"
+                      - generic [ref=f179e2173]:
+                        - text: $27.89
+                        - generic [ref=f179e2174]: As on 31/12/2020
+                    - generic [ref=f179e2175]:
+                      - generic [ref=f179e2176]: "2019"
+                      - generic [ref=f179e2179]:
+                        - text: $19.66
+                        - generic [ref=f179e2180]: As on 26/12/2019
+                    - generic [ref=f179e2181]:
+                      - generic [ref=f179e2182]: "2018"
+                      - generic [ref=f179e2185]:
+                        - text: $17.95
+                        - generic [ref=f179e2186]: As on 29/08/2018
+                    - generic [ref=f179e2187]:
+                      - generic [ref=f179e2188]: "2017"
+                      - generic [ref=f179e2191]:
+                        - text: $15.29
+                        - generic [ref=f179e2192]: As on 28/11/2017
+                  - generic [ref=f179e2197]:
+                    - generic [ref=f179e2198]:
+                      - generic [ref=f179e2199]: Year
+                      - generic [ref=f179e2202]: Lowest NAV
+                    - generic [ref=f179e2203]:
+                      - generic [ref=f179e2204]: "2026"
+                      - generic [ref=f179e2207]:
+                        - text: $32.93
+                        - generic [ref=f179e2208]: As on 30/03/2026
+                    - generic [ref=f179e2209]:
+                      - generic [ref=f179e2210]: "2025"
+                      - generic [ref=f179e2213]:
+                        - text: $28.41
+                        - generic [ref=f179e2214]: As on 08/04/2025
+                    - generic [ref=f179e2215]:
+                      - generic [ref=f179e2216]: "2024"
+                      - generic [ref=f179e2219]:
+                        - text: $27.23
+                        - generic [ref=f179e2220]: As on 04/01/2024
+                    - generic [ref=f179e2221]:
+                      - generic [ref=f179e2222]: "2023"
+                      - generic [ref=f179e2225]:
+                        - text: $19.99
+                        - generic [ref=f179e2226]: As on 05/01/2023
+                    - generic [ref=f179e2227]:
+                      - generic [ref=f179e2228]: "2022"
+                      - generic [ref=f179e2231]:
+                        - text: $19.68
+                        - generic [ref=f179e2232]: As on 14/10/2022
+                    - generic [ref=f179e2233]:
+                      - generic [ref=f179e2234]: "2021"
+                      - generic [ref=f179e2237]:
+                        - text: $26.00
+                        - generic [ref=f179e2238]: As on 08/03/2021
+                    - generic [ref=f179e2239]:
+                      - generic [ref=f179e2240]: "2020"
+                      - generic [ref=f179e2243]:
+                        - text: $14.96
+                        - generic [ref=f179e2244]: As on 23/03/2020
+                    - generic [ref=f179e2245]:
+                      - generic [ref=f179e2246]: "2019"
+                      - generic [ref=f179e2249]:
+                        - text: $14.37
+                        - generic [ref=f179e2250]: As on 03/01/2019
+                    - generic [ref=f179e2251]:
+                      - generic [ref=f179e2252]: "2018"
+                      - generic [ref=f179e2255]:
+                        - text: $13.74
+                        - generic [ref=f179e2256]: As on 24/12/2018
+                    - generic [ref=f179e2257]:
+                      - generic [ref=f179e2258]: "2017"
+                      - generic [ref=f179e2261]:
+                        - text: $12.02
+                        - generic [ref=f179e2262]: As on 03/01/2017
+              - link "View Historical Pricing" [ref=f179e2272] [cursor=pointer]:
+                - /url: /en-hk/our-funds/price-and-performance/mutual-funds/products/4913/Z/franklin-u-s-opportunities-fund/LU0109391861#view-historical-pricing
+          - generic [ref=f179e1658]:
+            - heading "Documents" [level=2] [ref=f179e1660]
+            - generic [ref=f179e1667]:
+              - heading "Product Literature" [level=2] [ref=f179e1670]
+              - tabpanel "Product Literature" [ref=f179e1673]:
+                - generic [ref=f179e1674]:
+                  - generic [ref=f179e1681]:
+                    - generic [ref=f179e1682]:
+                      - generic [ref=f179e1683]: PDF Format
+                      - paragraph [ref=f179e1685]: Fact Sheet - Franklin U.S. Opportunities Fund
+                    - button [ref=f179e1692] [cursor=pointer]
+                  - generic [ref=f179e1705]:
+                    - generic [ref=f179e1706]:
+                      - generic [ref=f179e1707]: PDF Format
+                      - paragraph [ref=f179e1709]: Annual Report - Franklin Templeton Investment Funds
+                    - button [ref=f179e1716] [cursor=pointer]
+                  - generic [ref=f179e1729]:
+                    - generic [ref=f179e1730]:
+                      - generic [ref=f179e1731]: PDF Format
+                      - paragraph [ref=f179e1733]: Semi Annual Report - Franklin Templeton Investment Funds
+                    - button [ref=f179e1740] [cursor=pointer]
+                  - generic [ref=f179e1753]:
+                    - generic [ref=f179e1754]:
+                      - generic [ref=f179e1755]: PDF Format
+                      - paragraph [ref=f179e1757]: Prospectus - Franklin Templeton Investment Funds
+                    - button [ref=f179e1764] [cursor=pointer]
+                  - generic [ref=f179e1777]:
+                    - generic [ref=f179e1778]:
+                      - generic [ref=f179e1779]: PDF Format
+                      - paragraph [ref=f179e1781]: Key Facts Statement - Franklin U.S. Opportunities Fund
+                    - button [ref=f179e1788] [cursor=pointer]
+          - generic [ref=f179e1803]:
+            - generic [ref=f179e1805]:
+              - heading "Important Legal Information" [level=2] [ref=f179e1807]
+              - paragraph [ref=f179e1809]:
+                - strong [ref=f179e1810]: This fund meets the requirements under Article 8 of the EU Sustainable Finance Disclosure Regulation (SFDR); the fund has binding commitments in its investment policy to promote environmental and/or social characteristics and any companies in which it invests should follow good governance practices.
+                - generic [ref=f179e1813]:
+                  - strong [ref=f179e1814]: "This classification does not represent the fund is authorised as a Green or environmental, social and governance (ESG) fund in Hong Kong. Please visit the full list of SFC-authorised ESG funds at:"
+                  - generic [ref=f179e1815]:
+                    - link "https://www.sfc.hk/en/regulatory-functions/products/list-of-esg-funds" [ref=f179e1816] [cursor=pointer]:
+                      - /url: https://www.sfc.hk/en/regulatory-functions/products/list-of-esg-funds
+                    - text: .
+              - generic [ref=f179e1817]:
+                - paragraph [ref=f179e1818]: This material is intended to be of general interest only and should not be construed as investment advice. It does not constitute legal or tax advice and it is not an offer for shares or an invitation to apply for shares of the Luxembourg-domiciled SICAV Franklin Templeton Investment Funds (the "Fund” or “FTIF"). For the avoidance of doubt, if you make a decision to invest, you will be buying units/shares in the fund and will not be investing directly in the underlying assets of the fund.
+                - paragraph [ref=f179e1819]:
+                  - text: Franklin Templeton (“FT”) provides no guarantee or assurance that the Fund’s investment objective will be attained. The value of shares in the Fund and income received from it can go down as well as up, and investors may not get back the full amount invested.
+                  - strong [ref=f179e1820]: Past performance is not an indicator or a guarantee of future performance.
+                  - text: Currency fluctuations may cause the value of a Fund’s investments to diminish or increase.
+                - paragraph [ref=f179e1821]: FT shall not be liable to any user of this document or to any other person or entity for the inaccuracy of information or any errors or omissions in its contents, regardless of the cause of such inaccuracy, error or omission. Any opinions expressed are the author's at publication date and they are subject to change without prior notice. Any research and analysis contained in this material has been procured by FT for its own purposes and is provided to you only incidentally. Data from third party sources may have been used in the preparation of this document and FT has not independently verified, validated or audited such data.
+                - paragraph [ref=f179e1822]: No shares of the Fund may be directly or indirectly offered or sold to residents of the United States of America. Shares of the Fund are not available for public distribution in all jurisdictions and prospective investors, who are not financial professionals, should consult their financial advisor before deciding to invest. The Fund may use financial derivatives or other instruments which may entail specific risks more fully described in the Fund's Documents.
+                - paragraph [ref=f179e1823]: Subscriptions to shares of the Fund should only be made on the basis of the Fund’s current Prospectus, and, where available, the relevant offering documents.
+                - paragraph [ref=f179e1824]:
+                  - text: In addition, a Summary of Investor Rights is available from
+                  - link "https://www.franklintempleton.com.hk/en-hk/about-us/summary-of-investor-rights" [ref=f179e1825] [cursor=pointer]:
+                    - /url: http://www.franklintempleton.com.hk/en-hk/about-us/summary-of-investor-rights
+                  - text: . The summary is available in English and Chinese.
+                - paragraph [ref=f179e1826]: The sub-funds of FTIF are notified for marketing in multiple EU Member States under the UCITS Directive. FTIF can terminate such notifications for any share class and/or sub-fund at any time by using the process contained in Article 93a of the UCITS Directive. Franklin Templeton International Services S.à r.l. – Supervised by the Commission de Surveillance du Secteur Financier.
+              - paragraph [ref=f179e1828]: CFA® and Chartered Financial Analyst® are trademarks owned by CFA Institute.
+              - generic [ref=f179e1829]:
+                - paragraph [ref=f179e1830]: Indices are unmanaged, and one cannot invest directly in an index. They do not reflect any fees, expenses or sales charges.
+                - paragraph [ref=f179e1831]:
+                  - text: Important data provider notices and terms available at
+                  - link "www.franklintempletondatasources.com" [ref=f179e1832] [cursor=pointer]:
+                    - /url: http://www.franklintempletondatasources.com/
+                  - text: .
+              - paragraph [ref=f179e1834]: "Source: © S&P Dow Jones Indices LLC. All rights reserved."
+              - paragraph [ref=f179e1836]: "Source: FTSE."
+              - generic [ref=f179e1837]:
+                - paragraph [ref=f179e1838]: Issued by Franklin Templeton Investments (Asia) Limited, 62/F, Two IFC, 8 Finance Street, Central, Hong Kong.
+                - paragraph [ref=f179e1839]: This document has not been reviewed by the Securities and Futures Commission in Hong Kong.
+                - paragraph [ref=f179e1840]:
+                  - text: This document is intended to be of general interest only. This document should not be construed as individual investment advice or offer or solicitation to buy, sell or hold any shares of fund or security.
+                  - strong [ref=f179e1841]: Investment involves risks.
+                  - text: Past performance is not an indicator or a guarantee of future performance. The investment returns are calculated on NAV to NAV basis, taking into account of reinvestments and capital gain or loss. The investment returns are denominated in stated currency, which may be a foreign currency other than USD and HKD (“other foreign currency”). US/HK dollar-based investors are therefore exposed to fluctuations in the US/HK dollar / other foreign currency exchange rate. Please refer to the offering documents for further details, including the risk factors.
+                - paragraph [ref=f179e1842]: The data, comments, opinions, estimates and other information contained herein may be subject to change without notice. There is no guarantee that an investment product will meet its objective and any forecasts expressed will be realized. Performance may also be affected by currency fluctuations. Reduced liquidity may have a negative impact on the price of the assets. Currency fluctuations may affect the value of overseas investments. Where an investment product invests in emerging markets, the risks can be greater than in developed markets. Where an investment product invests in a specific sector or geographical area, the returns may be more volatile than a more diversified investment product. The mention of any individual securities should neither constitute nor be construed as a recommendation to purchase or sell securities, and the information provided regarding such individual securities is not a sufficient basis upon which to make an investment decision. Fund allocations, holdings and characteristics are subject to change at any time. Franklin Templeton may have an interest in the acquisition or disposal of the securities mentioned herein.
+                - paragraph [ref=f179e1843]: Franklin Templeton accepts no liability whatsoever for any direct or indirect consequential loss arising from use of this document or any comment, opinion or estimate herein. This document may not be reproduced, distributed or published without prior written permission from Franklin Templeton.
+                - paragraph [ref=f179e1844]: "Unless stated otherwise, all information is as of the date of this document. Source: Franklin Templeton."
+                - paragraph [ref=f179e1845]: Hedged share classes will attempt to hedge the currency risk between the base currency of the Fund and the currency of the share class, although there can be no guarantee that it will be successful in doing so. In some cases, investors may be subject to additional risks.
+              - paragraph [ref=f179e1847]: Copyright © 2026. Franklin Templeton. All rights reserved.
+            - list [ref=f179e1850]:
+              - listitem [ref=f179e1851]:
+                - paragraph [ref=f179e1852]: The above listed Funds prices are unconfirmed unless stated otherwise and for information only, as they have not yet been verified by the Administrative Agent of the relevant Funds. Neither the Fund itself nor Franklin Templeton accepts responsibility for any reliance placed on the prices indicated and the information included in this data file. Purchase, exchange and redemptions of Shares can only be made on the basis of confirmed prices. Confirmed prices may be obtained after 12pm noon from Franklin Templeton.
+              - listitem [ref=f179e1853]:
+                - paragraph [ref=f179e1854]: Morningstar ratings are applied at share class level, which means that each share class requires 36 monthly returns before it will be awarded a rating.
+                - paragraph [ref=f179e1855]: "Copyright - © 2026 Morningstar, Inc. All rights reserved. The information contained herein: (1) is proprietary to Morningstar; (2) may not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this information."
+              - listitem [ref=f179e1856]:
+                - paragraph [ref=f179e1857]: The benchmarks are used for performance comparison purposes. The Russell 3000 Growth Index is considered the Fund's primary benchmark because it consists of growth securities, which is aligned with the investment manager's focus on growth securities in managing the Fund. The performance of the S&P 500 Index may also be provided because it is considered a proxy for the US equity market. While most of the fund's securities will be components of one or both benchmarks, the weightings of the holdings may differ materially from the weightings in the benchmarks. The fund may also invest in securities that are not included in the benchmarks. The fund's percentage exposures to sectors and industries may differ materially from those of the benchmarks.
+              - listitem [ref=f179e1858]:
+                - paragraph [ref=f179e1859]:
+                  - generic [ref=f179e1860]: The Ongoing Charges Figure (OCF)
+                  - generic [ref=f179e1862]: /Total Expense Ratio (TER)
+                  - generic [ref=f179e1864]: includes the fees paid to the management company, the investment manager and the depository, as well as certain other expenses. The OCF
+                  - generic [ref=f179e1866]: /TER
+                  - generic [ref=f179e1868]: is calculated by taking the relevant main material costs paid out over the 12-month period indicated and dividing them by the average net assets over the same period. The OCF
+                  - generic [ref=f179e1870]: /TER
+                  - generic [ref=f179e1872]: does not include all expenses paid by the fund (for example, it does not include what the fund pays for buying and selling securities).
+                  - generic [ref=f179e1874]: For a comprehensive list of the types of costs deducted from fund assets, see the prospectus and Product Key Facts.
+              - listitem [ref=f179e1876]:
+                - paragraph [ref=f179e1877]: The charges are the fees the fund charges to investors to cover the costs of running the Fund. Additional costs, including transaction fees, will also be incurred. These costs are paid out by the Fund, which will impact on the overall return of the Fund. Fund charges will be incurred in multiple currencies, meaning that payments may increase or decrease as a result of currency exchange fluctuations. All charges will be paid out by the Fund, which will impact on the overall return of the Fund.
+              - listitem [ref=f179e1878]:
+                - paragraph [ref=f179e1879]: The computation basis of the calendar year performance is based on the calendar year end, NAV-To-NAV, with dividend reinvested. These figures show by how much the share class(es) increased or decreased in value during the calendar year being shown. Performance data has been calculated in share class currency stated above, including ongoing charges and excluding subscription fee and redemption fee you might have to pay. Where no past performance is shown, there was insufficient data available in that year to provide performance. Past performance is not an indicator or a guarantee of future performance. Investors may not get back the full amount invested
+    - contentinfo [ref=f179e1886]:
+      - generic [ref=f179e1889]:
+        - generic [ref=f179e1890]: This website is intended for residents of Hong Kong.
+        - generic [ref=f179e1892]:
+          - link "Hong Kong" [ref=f179e1895] [cursor=pointer]:
+            - /url: https://www.franklinresources.com/all-sites
+          - list [ref=f179e1898]:
+            - listitem [ref=f179e1899]:
+              - button "Individual Investor" [ref=f179e1900] [cursor=pointer]
+          - list [ref=f179e1908]:
+            - listitem [ref=f179e1909]:
+              - link "English" [ref=f179e1910] [cursor=pointer]:
+                - /url: https://www.franklintempleton.com.hk/en-hk
+            - listitem [ref=f179e1911]:
+              - link "中文" [ref=f179e1912] [cursor=pointer]:
+                - /url: https://www.franklintempleton.com.hk/zh-hk/
+      - navigation [ref=f179e1919]:
+        - list [ref=f179e1920]:
+          - listitem [ref=f179e1921]:
+            - link "Important Legal Information" [ref=f179e1922] [cursor=pointer]:
+              - /url: /en-hk/important-legal-information
+          - listitem [ref=f179e1923]:
+            - link "Terms of Use" [ref=f179e1924] [cursor=pointer]:
+              - /url: /en-hk/terms-of-use
+          - listitem [ref=f179e1925]:
+            - link "Security & Fraud Awareness" [ref=f179e1926] [cursor=pointer]:
+              - /url: /en-hk/about-us/security-policy
+          - listitem [ref=f179e1927]:
+            - link "Privacy and Cookie Policy" [ref=f179e1928] [cursor=pointer]:
+              - /url: /en-hk/privacy-and-cookie-policy
+          - listitem [ref=f179e1929]:
+            - link "Financial Crimes Compliance" [ref=f179e1930] [cursor=pointer]:
+              - /url: https://www.franklinresources.com/help-legal/financial-crimes-compliance
+          - listitem [ref=f179e1931]:
+            - link "Careers" [ref=f179e1932] [cursor=pointer]:
+              - /url: https://www.franklintempletoncareers.com/
+          - listitem [ref=f179e1933]:
+            - link "Media centre" [ref=f179e1934] [cursor=pointer]:
+              - /url: /en-hk/press-releases
+        - generic [ref=f179e1935]:
+          - heading "Connect with us" [level=3] [ref=f179e1936]
+          - list "Connect with us" [ref=f179e1937]:
+            - listitem [ref=f179e1938]:
+              - link "Facebook Link" [ref=f179e1939] [cursor=pointer]:
+                - /url: https://www.facebook.com/franklintempleton/
+            - listitem [ref=f179e1941]:
+              - link "LinkedIn Link" [ref=f179e1942] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/franklin-templeton/about
+            - listitem [ref=f179e1944]:
+              - link "YouTube Link" [ref=f179e1945] [cursor=pointer]:
+                - /url: https://www.youtube.com/@FranklnTempletn
+            - listitem [ref=f179e1947]:
+              - link "Twitter Link" [ref=f179e1948] [cursor=pointer]:
+                - /url: https://twitter.com/FTI_Global
+            - listitem [ref=f179e1950]:
+              - link "Instagram Link" [ref=f179e1951] [cursor=pointer]:
+                - /url: https://www.instagram.com/franklintempleton/
+      - generic [ref=f179e1955]:
+        - generic [ref=f179e1956]: Copyright © 2026 Franklin Templeton. All Rights Reserved.
+        - img "Franklin Templeton Investments" [ref=f179e1959]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic "undefined"
+    - generic:
+      - generic:
+        - dialog "Close"

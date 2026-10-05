@@ -1,0 +1,5 @@
+- generic [active] [ref=f1e1]:
+  - heading "Access Denied" [level=1] [ref=f1e2]
+  - text: You don't have permission to access "http://www.manulife.com.hk/en/individual/products/ilas/manulife-investment-plus-2.html" on this server.
+  - paragraph [ref=f1e3]: "Reference #18.f04f4317.1785137664.298ca3"
+  - paragraph [ref=f1e4]: https://errors.edgesuite.net/18.f04f4317.1785137664.298ca3

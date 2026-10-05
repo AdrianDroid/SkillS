@@ -1,0 +1,726 @@
+- generic [ref=f10e3]:
+  - button "back to page top" [ref=f10e5] [cursor=pointer]:
+    - generic [ref=f10e6]: 
+  - generic [ref=f10e7]:
+    - banner [ref=f10e9]:
+      - generic [ref=f10e12]:
+        - text:      
+        - generic [ref=f10e13]:
+          - link "付費區" [ref=f10e17] [cursor=pointer]:
+            - /url: https://pro.hket.com
+          - link "趨勢 " [ref=f10e19] [cursor=pointer]:
+            - /url: https://specialist.hket.com?mtc=60060
+            - generic [ref=f10e20]: 趨勢
+            - generic [ref=f10e21]: 
+          - link "投資 " [ref=f10e24] [cursor=pointer]:
+            - /url: https://invest.hket.com?mtc=60060
+            - generic [ref=f10e25]: 投資
+            - generic [ref=f10e26]: 
+          - link "報章 " [ref=f10e29] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap001/要聞?mtc=60060
+            - generic [ref=f10e30]: 報章
+            - generic [ref=f10e31]: 
+          - link "專欄 " [ref=f10e34] [cursor=pointer]:
+            - /url: https://paper.hket.com/srap025/全部?mtc=60060
+            - generic [ref=f10e35]: 專欄
+            - generic [ref=f10e36]: 
+          - link "地產站" [ref=f10e39] [cursor=pointer]:
+            - /url: https://ps.hket.com?mtc=60060
+          - link "TOPick" [ref=f10e43] [cursor=pointer]:
+            - /url: https://topick.hket.com?mtc=60060
+      - text:       
+      - generic [ref=f10e46]:
+        - generic [ref=f10e49]:
+          - generic [ref=f10e50]:
+            - link "香港經濟日報主頁" [ref=f10e51] [cursor=pointer]:
+              - /url: https://www.hket.com
+            - link "投資" [ref=f10e54] [cursor=pointer]:
+              - /url: https://invest.hket.com
+          - generic [ref=f10e55]:
+            - link "login" [ref=f10e56] [cursor=pointer]:
+              - /url: https://login.hket.com/cas/?ref=invest&target=https://invest.hket.com/login/aHR0cHM6Ly9pbnZlc3QuaGtldC5jb20v
+              - generic [ref=f10e57]: 
+            - button "search for articles" [ref=f10e58] [cursor=pointer]:
+              - generic [ref=f10e59]: 
+            - button "open hamburger menu" [ref=f10e60] [cursor=pointer]
+        - navigation [ref=f10e66]:
+          - generic [ref=f10e67]:
+            - text:  
+            - generic [ref=f10e70]:
+              - generic [ref=f10e72]:
+                - link "" [ref=f10e74] [cursor=pointer]:
+                  - /url: /
+                - link [ref=f10e77] [cursor=pointer]:
+                  - /url: /srai001/即時行情
+                  - text: 即時行情
+                - link [ref=f10e79] [cursor=pointer]:
+                  - /url: /srai003/市場拆局
+                  - text: 市場拆局
+                - link [ref=f10e81] [cursor=pointer]:
+                  - /url: /srai023/新經濟
+                  - text: 新經濟
+                - link [ref=f10e83] [cursor=pointer]:
+                  - /url: /srai014/板塊攻略
+                  - text: 板塊攻略
+                - link [ref=f10e85] [cursor=pointer]:
+                  - /url: /srai002/大市總匯
+                  - text: 大市
+                - link [ref=f10e87] [cursor=pointer]:
+                  - /url: /srai019/財金教室
+                  - text: 財金教室
+                - link [ref=f10e89] [cursor=pointer]:
+                  - /url: /srdi008/報價
+                  - text: 行情
+                - link [ref=f10e91] [cursor=pointer]:
+                  - /url: /srai011/投資理財
+                  - text: 報章
+                - link [ref=f10e93] [cursor=pointer]:
+                  - /url: /srai012/投資理財周刊
+                  - text: 周刊
+                - link [ref=f10e95] [cursor=pointer]:
+                  - /url: /srai020/實戰區
+                  - text: 實戰區
+                - link [ref=f10e97] [cursor=pointer]:
+                  - /url: https://eti.hket.com/pc/theme/wealthhub
+                  - text: 財智薈
+                - link [ref=f10e99] [cursor=pointer]:
+                  - /url: /markets/dcm
+                  - text: 雙櫃台
+              - button "Previous" [disabled]
+              - button "Next" [ref=f10e100] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - searchbox "enter-article-keywords" [ref=f10e104]
+              - button "submit-article-keywords" [ref=f10e105] [cursor=pointer]:
+                - generic [ref=f10e106]: 
+              - button "close-search-bar" [ref=f10e108] [cursor=pointer]:
+                - generic [ref=f10e109]: 
+          - text: 
+    - generic [ref=f10e112]:
+      - main [ref=f10e113]:
+        - generic [ref=f10e114]:
+          - generic [ref=f10e115]:
+            - generic [ref=f10e116]:
+              - generic [ref=f10e117]: 
+              - generic [ref=f10e119]: 焦點
+            - generic [ref=f10e122]:
+              - link "highlight-img 有圖有勢｜HSI阿里撐場 微軟亞馬遜業績是催化劑（持續更新） 美元指數急挫，美股、日韓台股市，以及A股科創板火力全開，港股連日升勢即時斷䌫，幸有阿里巴巴（09988）撐場，恒指只是輕微下滑。微軟及亞馬遜的業績重新提振市場對AI雲端需求的信心，亦成為阿里今日跑贏大... 今日 12:13 " [ref=f10e124] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4169021/%E6%9C%89%E5%9C%96%E6%9C%89%E5%8B%A2%EF%BD%9C%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E5%B8%B6%E9%A0%98%E7%BE%8E%E8%82%A1%E6%80%A5%E5%BD%88%20HSI%E5%A4%9C%E6%9C%9F%E7%8E%87%E5%85%88%E7%A0%B426000%E9%97%9C%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89?mtc=90009
+                - img "highlight-img" [ref=f10e126]
+                - generic [ref=f10e127]:
+                  - generic [ref=f10e128]: 有圖有勢｜HSI阿里撐場 微軟亞馬遜業績是催化劑（持續更新）
+                  - generic [ref=f10e129]: 美元指數急挫，美股、日韓台股市，以及A股科創板火力全開，港股連日升勢即時斷䌫，幸有阿里巴巴（09988）撐場，恒指只是輕微下滑。微軟及亞馬遜的業績重新提振市場對AI雲端需求的信心，亦成為阿里今日跑贏大...
+                  - generic:
+                    - generic [ref=f10e130]: 今日 12:13
+                    - button "" [ref=f10e131]
+              - generic [ref=f10e133]:
+                - link "item-img-0 新股IPO｜中際旭創3308 爆升返水面 合理值多少？AI算力狂飆持續 今日 09:58 " [ref=f10e135] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168171/%E6%96%B0%E8%82%A1IPO%EF%BD%9C%E4%B8%AD%E9%9A%9B%E6%97%AD%E5%89%B5%E6%9A%97%E7%9B%A4%E5%88%9D%E6%AE%B5%E6%BD%9B%E6%B0%B4%20%E5%AF%A6%E9%9A%9B%E5%80%BC%E5%A4%9A%E5%B0%91%EF%BC%9FAI%E7%AE%97%E5%8A%9B%E7%8B%82%E9%A3%86%E6%8C%81%E7%BA%8C?mtc=90009
+                  - img "item-img-0" [ref=f10e137]
+                  - generic [ref=f10e138]:
+                    - generic [ref=f10e139]: 新股IPO｜中際旭創3308 爆升返水面 合理值多少？AI算力狂飆持續
+                    - generic:
+                      - generic [ref=f10e140]: 今日 09:58
+                      - button "" [ref=f10e141]
+                - link "item-img-1 收息鐵算 - 港元定期存款新優惠 16厘息開搶 今日 11:53 " [ref=f10e144] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168976/%E6%B8%AF%E5%85%83%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%E6%96%B0%E5%84%AA%E6%83%A0%2016%E5%8E%98%E6%81%AF%E9%96%8B%E6%90%B6?mtc=90009
+                  - img "item-img-1" [ref=f10e146]
+                  - generic [ref=f10e147]:
+                    - generic [ref=f10e148]: 收息鐵算 - 港元定期存款新優惠 16厘息開搶
+                    - generic:
+                      - generic [ref=f10e149]: 今日 11:53
+                      - button "" [ref=f10e150]
+                - link "item-img-2 歐洲熱浪下高息藍籌大贏家 今日 11:12 " [ref=f10e153] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168944/%E6%AD%90%E6%B4%B2%E7%86%B1%E6%B5%AA%E4%B8%8B%E7%9A%84%E9%AB%98%E6%81%AF%E8%97%8D%E7%B1%8C%E5%A4%A7%E8%B4%8F%E5%AE%B6?mtc=90009
+                  - img "item-img-2" [ref=f10e155]
+                  - generic [ref=f10e156]:
+                    - generic [ref=f10e157]: 歐洲熱浪下高息藍籌大贏家
+                    - generic:
+                      - generic [ref=f10e158]: 今日 11:12
+                      - button "" [ref=f10e159]
+                - link "item-img-3 8厘息藍籌 北水加倉有得諗？ 今日 12:06 " [ref=f10e162] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168902/8%E5%8E%98%E6%81%AF%E8%97%8D%E7%B1%8C%20%20%E5%8C%97%E6%B0%B4%E5%8A%A0%E5%80%89%E6%9C%89%E5%BE%97%E8%AB%97%EF%BC%9F?mtc=90009
+                  - img "item-img-3" [ref=f10e164]
+                  - generic [ref=f10e165]:
+                    - generic [ref=f10e166]: 8厘息藍籌 北水加倉有得諗？
+                    - generic:
+                      - generic [ref=f10e167]: 今日 12:06
+                      - button "" [ref=f10e168]
+                - link "item-img-4 跟北水吼8厘息現金牛 今日 11:16 " [ref=f10e171] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168936/%E8%B7%9F%E5%8C%97%E6%B0%B4%E5%90%BC8%E5%8E%98%E6%81%AF%E7%8F%BE%E9%87%91%E7%89%9B?mtc=90009
+                  - img "item-img-4" [ref=f10e173]
+                  - generic [ref=f10e174]:
+                    - generic [ref=f10e175]: 跟北水吼8厘息現金牛
+                    - generic:
+                      - generic [ref=f10e176]: 今日 11:16
+                      - button "" [ref=f10e177]
+                - link "item-img-5 北水走向｜北水2日逾7億低位撈貨 兆易創新有望反彈？ 今日 12:01 " [ref=f10e180] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4169029/%E5%8C%97%E6%B0%B4%E8%B5%B0%E5%90%91%EF%BD%9C%E5%8C%97%E6%B0%B46%E6%97%A5%E6%B5%81%E8%B5%B0240%E5%84%84%20%20%E5%96%AE%E6%97%A5%E9%80%BE61%E5%84%84%E6%B2%BD8%E8%82%A1?mtc=90009
+                  - img "item-img-5" [ref=f10e182]
+                  - generic [ref=f10e183]:
+                    - generic [ref=f10e184]: 北水走向｜北水2日逾7億低位撈貨 兆易創新有望反彈？
+                    - generic:
+                      - generic [ref=f10e185]: 今日 12:01
+                      - button "" [ref=f10e186]
+                - link "item-img-6 紅海風暴升級 油運股看俏 今日 11:53 " [ref=f10e189] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168958/%E7%B4%85%E6%B5%B7%E9%A2%A8%E6%9A%B4%E5%8D%87%E7%B4%9A%20%E6%B2%B9%E9%81%8B%E8%82%A1%E7%9C%8B%E4%BF%8F?mtc=90009
+                  - img "item-img-6" [ref=f10e191]
+                  - generic [ref=f10e192]:
+                    - generic [ref=f10e193]: 紅海風暴升級 油運股看俏
+                    - generic:
+                      - generic [ref=f10e194]: 今日 11:53
+                      - button "" [ref=f10e195]
+                - link "item-img-7 大戶手影｜投資組合變動？主權基金GIC減持兩中資股 今日 12:00 " [ref=f10e198] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4169052/%E5%A4%A7%E6%88%B6%E6%89%8B%E5%BD%B1%EF%BD%9C%E4%B8%BB%E6%AC%8A%E5%9F%BA%E9%87%91GIC%E6%B8%9B%E6%8C%81%E5%85%A9%E4%B8%AD%E8%B3%87%E8%82%A1?mtc=90009
+                  - img "item-img-7" [ref=f10e200]
+                  - generic [ref=f10e201]:
+                    - generic [ref=f10e202]: 大戶手影｜投資組合變動？主權基金GIC減持兩中資股
+                    - generic:
+                      - generic [ref=f10e203]: 今日 12:00
+                      - button "" [ref=f10e204]
+                - link "item-img-8 7厘息消費股 股價彈五成 資金換馬首選 今日 09:11 " [ref=f10e207] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168959/7%E5%8E%98%E6%81%AF%E6%B6%88%E8%B2%BB%E8%82%A1%20%E8%82%A1%E5%83%B9%E5%BD%88%E4%BA%94%E6%88%90%20%E8%B3%87%E9%87%91%E6%8F%9B%E9%A6%AC%E9%A6%96%E9%81%B8?mtc=90009
+                  - img "item-img-8" [ref=f10e209]
+                  - generic [ref=f10e210]:
+                    - generic [ref=f10e211]: 7厘息消費股 股價彈五成 資金換馬首選
+                    - generic:
+                      - generic [ref=f10e212]: 今日 09:11
+                      - button "" [ref=f10e213]
+                - link "item-img-9 韓國救市 後市可期？ 今日 10:00 " [ref=f10e216] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168304/%E9%9F%93%E5%9C%8B%E6%95%91%E5%B8%82%20%E5%BE%8C%E5%B8%82%E5%8F%AF%E6%9C%9F-?mtc=90009
+                  - img "item-img-9" [ref=f10e218]
+                  - generic [ref=f10e219]:
+                    - generic [ref=f10e220]: 韓國救市 後市可期？
+                    - generic:
+                      - generic [ref=f10e221]: 今日 10:00
+                      - button "" [ref=f10e222]
+            - generic [ref=f10e224]:
+              - link " 焦點板塊 追縱當前熱門板塊 " [ref=f10e225] [cursor=pointer]:
+                - /url: /data/5/焦點板塊
+                - generic [ref=f10e226]:
+                  - generic [ref=f10e227]: 
+                  - paragraph [ref=f10e228]:
+                    - generic [ref=f10e229]: 焦點板塊
+                    - generic [ref=f10e230]: 追縱當前熱門板塊
+                  - generic [ref=f10e231]: 
+              - link " 板塊排行榜 83個板塊即市排名 " [ref=f10e232] [cursor=pointer]:
+                - /url: /data/6/板塊排行榜
+                - generic [ref=f10e233]:
+                  - generic [ref=f10e234]: 
+                  - paragraph [ref=f10e235]:
+                    - generic [ref=f10e236]: 板塊排行榜
+                    - generic [ref=f10e237]: 83個板塊即市排名
+                  - generic [ref=f10e238]: 
+              - link " 財金教室 助你學習投資知識 " [ref=f10e239] [cursor=pointer]:
+                - /url: /srai019/財金教室
+                - generic [ref=f10e240]:
+                  - generic [ref=f10e241]: 
+                  - paragraph [ref=f10e242]:
+                    - generic [ref=f10e243]: 財金教室
+                    - generic [ref=f10e244]: 助你學習投資知識
+                  - generic [ref=f10e245]: 
+            - generic [ref=f10e246]:
+              - generic [ref=f10e247]:
+                - generic [ref=f10e248]: 
+                - generic [ref=f10e250]: 專欄
+                - link "更多 " [ref=f10e252] [cursor=pointer]:
+                  - /url: https://paper.hket.com/srap025/全部?mtc=90010
+                  - generic [ref=f10e253]: 更多
+                  - generic [ref=f10e254]: 
+              - generic [ref=f10e255]:
+                - generic [ref=f10e257]:
+                  - generic [ref=f10e258]:
+                    - generic [ref=f10e259]: 8厘息藍籌 北水加倉有得諗？
+                    - generic [ref=f10e261]:
+                      - link "張日峯" [ref=f10e262] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E7%9D%87%E9%8C%A2%E4%BB%BD%E4%B8%8A&aut=%E5%BC%B5%E6%97%A5%E5%B3%AF&mtc=90010
+                      - link "睇錢份上" [ref=f10e263] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E7%9D%87%E9%8C%A2%E4%BB%BD%E4%B8%8A&aut=%E5%BC%B5%E6%97%A5%E5%B3%AF&mtc=90010
+                      - generic [ref=f10e264]: 今日 12:06
+                    - button "share article" [ref=f10e265] [cursor=pointer]:
+                      - generic [ref=f10e266]: 
+                  - img "8厘息藍籌 北水加倉有得諗？" [ref=f10e268]
+                  - link "8厘息藍籌 北水加倉有得諗？" [ref=f10e269] [cursor=pointer]:
+                    - /url: https://invest.hket.com/article/4168902/8%E5%8E%98%E6%81%AF%E8%97%8D%E7%B1%8C%20%20%E5%8C%97%E6%B0%B4%E5%8A%A0%E5%80%89%E6%9C%89%E5%BE%97%E8%AB%97%EF%BC%9F?mtc=90010
+                - generic [ref=f10e271]:
+                  - generic [ref=f10e272]:
+                    - generic [ref=f10e273]: 收息鐵算 - 6.5厘息ETF 有升有息之選
+                    - generic [ref=f10e275]:
+                      - link "周劍琴" [ref=f10e276] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E6%94%B6%E6%81%AF%E9%90%B5%E7%AE%97&aut=%E5%91%A8%E5%8A%8D%E7%90%B4&mtc=90010
+                      - link "收息鐵算" [ref=f10e277] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E6%94%B6%E6%81%AF%E9%90%B5%E7%AE%97&aut=%E5%91%A8%E5%8A%8D%E7%90%B4&mtc=90010
+                      - generic [ref=f10e278]: 今日 11:53
+                    - button "share article" [ref=f10e279] [cursor=pointer]:
+                      - generic [ref=f10e280]: 
+                  - img "6.5厘息ETF 有升有息之選" [ref=f10e282]
+                  - link "6.5厘息ETF 有升有息之選" [ref=f10e283] [cursor=pointer]:
+                    - /url: https://invest.hket.com/article/4167099/%E6%BB%AC%E6%B7%B1%E6%B8%AFETF%E6%94%B66.5%E5%8E%98%E6%81%AF%20%E6%9C%89%E5%8D%87%E6%9C%89%E6%81%AF?mtc=90010
+                - generic [ref=f10e285]:
+                  - generic [ref=f10e286]:
+                    - generic [ref=f10e287]: 紅海風暴升級 油運股看俏
+                    - generic [ref=f10e289]:
+                      - link "陳振豪" [ref=f10e290] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E8%82%A1%E5%A3%87%E8%A7%A3%E7%A2%BC&aut=%E9%99%B3%E6%8C%AF%E8%B1%AA&mtc=90010
+                      - link "股壇解碼" [ref=f10e291] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E8%82%A1%E5%A3%87%E8%A7%A3%E7%A2%BC&aut=%E9%99%B3%E6%8C%AF%E8%B1%AA&mtc=90010
+                      - generic [ref=f10e292]: 今日 11:53
+                    - button "share article" [ref=f10e293] [cursor=pointer]:
+                      - generic [ref=f10e294]: 
+                  - img "紅海風暴升級 油運股看俏" [ref=f10e296]
+                  - link "紅海風暴升級 油運股看俏" [ref=f10e297] [cursor=pointer]:
+                    - /url: https://invest.hket.com/article/4168958/%E7%B4%85%E6%B5%B7%E9%A2%A8%E6%9A%B4%E5%8D%87%E7%B4%9A%20%E6%B2%B9%E9%81%8B%E8%82%A1%E7%9C%8B%E4%BF%8F?mtc=90010
+                - generic [ref=f10e299]:
+                  - generic [ref=f10e300]:
+                    - generic [ref=f10e301]: 中字股實力談 - HSI港股頭肩底VS北水逃生
+                    - generic [ref=f10e303]:
+                      - link "余少文" [ref=f10e304] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E4%B8%AD%E5%AD%97%E8%82%A1%E5%AF%A6%E5%8A%9B%E8%AB%87&aut=%E4%BD%99%E5%B0%91%E6%96%87&mtc=90010
+                      - link "中字股實力談" [ref=f10e305] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E4%B8%AD%E5%AD%97%E8%82%A1%E5%AF%A6%E5%8A%9B%E8%AB%87&aut=%E4%BD%99%E5%B0%91%E6%96%87&mtc=90010
+                      - generic [ref=f10e306]: 今日 09:12
+                    - button "share article" [ref=f10e307] [cursor=pointer]:
+                      - generic [ref=f10e308]: 
+                  - img "HSI港股頭肩底VS北水逃生" [ref=f10e310]
+                  - link "HSI港股頭肩底VS北水逃生" [ref=f10e311] [cursor=pointer]:
+                    - /url: https://invest.hket.com/article/4168614/HSI%E6%B8%AF%E8%82%A1%E9%A0%AD%E8%82%A9%E5%BA%95VS%E5%8C%97%E6%B0%B4%E9%80%83%E7%94%9F?mtc=90010
+                - generic [ref=f10e313]:
+                  - generic [ref=f10e314]:
+                    - generic [ref=f10e315]: 小米回軟 留意Put（15431）
+                    - generic [ref=f10e317]:
+                      - link "朱紅" [ref=f10e318] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E8%BC%AA%E8%AD%89%E5%85%B5%E6%B3%95&aut=%E6%9C%B1%E7%B4%85&mtc=90010
+                      - link "輪證兵法" [ref=f10e319] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E8%BC%AA%E8%AD%89%E5%85%B5%E6%B3%95&aut=%E6%9C%B1%E7%B4%85&mtc=90010
+                      - generic [ref=f10e320]: 今日
+                    - button "share article" [ref=f10e321] [cursor=pointer]:
+                      - generic [ref=f10e322]: 
+                  - img "小米回軟 留意Put（15431）" [ref=f10e324]
+                  - link "小米回軟 留意Put（15431）" [ref=f10e325] [cursor=pointer]:
+                    - /url: https://invest.hket.com/article/4168981/%E5%B0%8F%E7%B1%B3%E5%9B%9E%E8%BB%9F%20%E7%95%99%E6%84%8FPut%EF%BC%8815431%EF%BC%89?mtc=90010
+                - generic [ref=f10e327]:
+                  - generic [ref=f10e328]:
+                    - generic [ref=f10e329]: 安踏拋離同業 中高端策略見功
+                    - generic [ref=f10e331]:
+                      - link "價值為先" [ref=f10e332] [cursor=pointer]:
+                        - /url: /srai013/?dis=%E6%9B%B4%E5%A4%9A%E5%B0%88%E6%AC%84%E6%96%87%E7%AB%A0&col=%E5%83%B9%E5%80%BC%E7%82%BA%E5%85%88&aut=&mtc=90010
+                      - generic [ref=f10e333]: 2026/07/30
+                    - button "share article" [ref=f10e334] [cursor=pointer]:
+                      - generic [ref=f10e335]: 
+                  - img "安踏拋離同業 中高端策略見功" [ref=f10e337]
+                  - link "安踏拋離同業 中高端策略見功" [ref=f10e338] [cursor=pointer]:
+                    - /url: https://invest.hket.com/article/4168319/%E5%AE%89%E8%B8%8F%E6%8B%8B%E9%9B%A2%E5%90%8C%E6%A5%AD%20%E4%B8%AD%E9%AB%98%E7%AB%AF%E7%AD%96%E7%95%A5%E8%A6%8B%E5%8A%9F?mtc=90010
+            - generic [ref=f10e339]:
+              - generic [ref=f10e340]: 
+              - generic [ref=f10e342]: 熱話系列
+            - generic [ref=f10e345]:
+              - link "highlight-img 有圖有勢｜HSI阿里撐場 微軟亞馬遜業績是催化劑（持續更新） 美元指數急挫，美股、日韓台股市，以及A股科創板火力全開，港股連日升勢即時斷䌫，幸有阿里巴巴（09988）撐場，恒指只是輕微下滑。微軟及亞馬遜的業績重新提振市場對AI雲端需求的信心，亦成為阿里今日跑贏大... 今日 12:13 " [ref=f10e347] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4169021/%E6%9C%89%E5%9C%96%E6%9C%89%E5%8B%A2%EF%BD%9C%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E5%B8%B6%E9%A0%98%E7%BE%8E%E8%82%A1%E6%80%A5%E5%BD%88%20HSI%E5%A4%9C%E6%9C%9F%E7%8E%87%E5%85%88%E7%A0%B426000%E9%97%9C%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89?mtc=90011
+                - img "highlight-img" [ref=f10e349]
+                - generic [ref=f10e350]:
+                  - generic [ref=f10e351]: 有圖有勢｜HSI阿里撐場 微軟亞馬遜業績是催化劑（持續更新）
+                  - generic [ref=f10e352]: 美元指數急挫，美股、日韓台股市，以及A股科創板火力全開，港股連日升勢即時斷䌫，幸有阿里巴巴（09988）撐場，恒指只是輕微下滑。微軟及亞馬遜的業績重新提振市場對AI雲端需求的信心，亦成為阿里今日跑贏大...
+                  - generic:
+                    - generic [ref=f10e353]: 今日 12:13
+                    - button "" [ref=f10e354]
+              - generic [ref=f10e356]:
+                - link "item-img-0 精選10大內險股 阿爺加持盈喜板塊 今日 11:21 " [ref=f10e358] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4167462/%E9%98%BF%E7%88%BA%E5%8A%A0%E6%8C%81%E7%9B%88%E5%96%9C%E6%9D%BF%E5%A1%8A%2010%E8%82%A1%E5%8F%AF%E9%81%B8?mtc=90011
+                  - img "item-img-0" [ref=f10e360]
+                  - generic [ref=f10e361]:
+                    - generic [ref=f10e362]: 精選10大內險股 阿爺加持盈喜板塊
+                    - generic:
+                      - generic [ref=f10e363]: 今日 11:21
+                      - button "" [ref=f10e364]
+                - link "item-img-1 美團3690 衝紅底？ 今日 11:17 " [ref=f10e367] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168305/%E8%B3%87%E9%87%91%E5%88%87%E8%AE%8A%20%E7%BE%8E%E5%9C%98%E8%A1%9D%E7%B4%85%E5%BA%95%EF%BC%9F?mtc=90011
+                  - img "item-img-1" [ref=f10e369]
+                  - generic [ref=f10e370]:
+                    - generic [ref=f10e371]: 美團3690 衝紅底？
+                    - generic:
+                      - generic [ref=f10e372]: 今日 11:17
+                      - button "" [ref=f10e373]
+                - link "item-img-2 跟北水吼8厘息現金牛 今日 11:16 " [ref=f10e376] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168936/%E8%B7%9F%E5%8C%97%E6%B0%B4%E5%90%BC8%E5%8E%98%E6%81%AF%E7%8F%BE%E9%87%91%E7%89%9B?mtc=90011
+                  - img "item-img-2" [ref=f10e378]
+                  - generic [ref=f10e379]:
+                    - generic [ref=f10e380]: 跟北水吼8厘息現金牛
+                    - generic:
+                      - generic [ref=f10e381]: 今日 11:16
+                      - button "" [ref=f10e382]
+                - link "item-img-3 歐洲熱浪下高息藍籌大贏家 今日 11:12 " [ref=f10e385] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168944/%E6%AD%90%E6%B4%B2%E7%86%B1%E6%B5%AA%E4%B8%8B%E7%9A%84%E9%AB%98%E6%81%AF%E8%97%8D%E7%B1%8C%E5%A4%A7%E8%B4%8F%E5%AE%B6?mtc=90011
+                  - img "item-img-3" [ref=f10e387]
+                  - generic [ref=f10e388]:
+                    - generic [ref=f10e389]: 歐洲熱浪下高息藍籌大贏家
+                    - generic:
+                      - generic [ref=f10e390]: 今日 11:12
+                      - button "" [ref=f10e391]
+                - link "item-img-4 高息消費股 穩中求勝 今日 " [ref=f10e394] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4169010/%E9%AB%98%E6%81%AF%E6%B6%88%E8%B2%BB%E8%82%A1%20%E7%A9%A9%E4%B8%AD%E6%B1%82%E5%8B%9D?mtc=90011
+                  - img "item-img-4" [ref=f10e396]
+                  - generic [ref=f10e397]:
+                    - generic [ref=f10e398]: 高息消費股 穩中求勝
+                    - generic:
+                      - generic [ref=f10e399]: 今日
+                      - button "" [ref=f10e400]
+                - link "item-img-5 康師傅逾7厘息吸引 今日 " [ref=f10e403] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4169008/%E5%BA%B7%E5%B8%AB%E5%82%85%E9%80%BE7%E5%8E%98%E6%81%AF%E5%90%B8%E5%BC%95?mtc=90011
+                  - img "item-img-5" [ref=f10e405]
+                  - generic [ref=f10e406]:
+                    - generic [ref=f10e407]: 康師傅逾7厘息吸引
+                    - generic:
+                      - generic [ref=f10e408]: 今日
+                      - button "" [ref=f10e409]
+            - generic [ref=f10e411]:
+              - generic [ref=f10e412]: 
+              - generic [ref=f10e414]: 計數揀股
+            - generic [ref=f10e417]:
+              - link "highlight-img 計數揀股 - 高息8厘丨內需股起跑 落後股追上 板塊輪動，資金追捧傳統股份，包括內需股，當中，361度（01361）第二季零售銷售，跑贏同業，股價有望追落後。... 11:10 2026/07/30 " [ref=f10e419] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4168323/8%E5%8E%98%E6%81%AF%E4%B8%A8%E5%85%A7%E9%9C%80%E8%82%A1%E8%B5%B7%E8%B7%91%20%E8%90%BD%E5%BE%8C%E8%82%A1%E8%BF%BD%E4%B8%8A?mtc=90012
+                - img "highlight-img" [ref=f10e421]
+                - generic [ref=f10e422]:
+                  - generic [ref=f10e423]: 計數揀股 - 高息8厘丨內需股起跑 落後股追上
+                  - generic [ref=f10e424]: 板塊輪動，資金追捧傳統股份，包括內需股，當中，361度（01361）第二季零售銷售，跑贏同業，股價有望追落後。...
+                  - generic:
+                    - generic [ref=f10e425]: 11:10 2026/07/30
+                    - button "" [ref=f10e426]
+              - generic [ref=f10e428]:
+                - link "item-img-0 361度起跑追落後 2026/07/30 " [ref=f10e430] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4168325/361%E5%BA%A6%E8%B5%B7%E8%B7%91%E8%BF%BD%E8%90%BD%E5%BE%8C?mtc=90012
+                  - img "item-img-0" [ref=f10e432]
+                  - generic [ref=f10e433]:
+                    - generic [ref=f10e434]: 361度起跑追落後
+                    - generic:
+                      - generic [ref=f10e435]: 2026/07/30
+                      - button "" [ref=f10e436]
+                - link "item-img-1 計數揀股 - 國家隊600億撐A股 最大受惠者現身 14:12 2026/07/23 " [ref=f10e439] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4164373/%E5%9C%8B%E5%AE%B6%E9%9A%8A%E6%92%90A%E8%82%A1%20%E8%B2%B7%E8%AD%89%E5%88%B8%E8%82%A1?mtc=90012
+                  - img "item-img-1" [ref=f10e441]
+                  - generic [ref=f10e442]:
+                    - generic [ref=f10e443]: 計數揀股 - 國家隊600億撐A股 最大受惠者現身
+                    - generic:
+                      - generic [ref=f10e444]: 14:12 2026/07/23
+                      - button "" [ref=f10e445]
+                - link "item-img-2 計數揀股 - 政策支持+消費回暖 績優內需股跑出 11:02 2026/07/23 " [ref=f10e448] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4165007/%E6%94%BF%E7%AD%96%E6%94%AF%E6%8C%81-%E6%B6%88%E8%B2%BB%E5%9B%9E%E6%9A%96%E4%B8%A8%E7%B8%BE%E5%84%AA%E5%85%A7%E9%9C%80%E8%82%A1%E8%B7%91%E5%87%BA?mtc=90012
+                  - img "item-img-2" [ref=f10e450]
+                  - generic [ref=f10e451]:
+                    - generic [ref=f10e452]: 計數揀股 - 政策支持+消費回暖 績優內需股跑出
+                    - generic:
+                      - generic [ref=f10e453]: 11:02 2026/07/23
+                      - button "" [ref=f10e454]
+                - link "item-img-3 內需股轉勢 安踏業績跑出 2026/07/23 " [ref=f10e457] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4165017/%E5%85%A7%E9%9C%80%E8%82%A1%E8%BD%89%E5%8B%A2%20%E5%AE%89%E8%B8%8F%E6%A5%AD%E7%B8%BE%E8%B7%91%E5%87%BA?mtc=90012
+                  - img "item-img-3" [ref=f10e459]
+                  - generic [ref=f10e460]:
+                    - generic [ref=f10e461]: 內需股轉勢 安踏業績跑出
+                    - generic:
+                      - generic [ref=f10e462]: 2026/07/23
+                      - button "" [ref=f10e463]
+                - link "item-img-4 國家隊撑A股 買招商證券 2026/07/22 " [ref=f10e466] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4164358/%E5%9C%8B%E5%AE%B6%E9%9A%8A%E6%92%91A%E8%82%A1%20%E8%B2%B7%E6%8B%9B%E5%95%86%E8%AD%89%E5%88%B8?mtc=90012
+                  - img "item-img-4" [ref=f10e468]
+                  - generic [ref=f10e469]:
+                    - generic [ref=f10e470]: 國家隊撑A股 買招商證券
+                    - generic:
+                      - generic [ref=f10e471]: 2026/07/22
+                      - button "" [ref=f10e472]
+                - link "item-img-5 計數揀股 - 中東局勢轉趨緊張丨油價反彈 追石油股 15:19 2026/07/09 " [ref=f10e475] [cursor=pointer]:
+                  - /url: https://invest.hket.com/article/4158152/%E4%B8%AD%E6%9D%B1%E5%B1%80%E5%8B%A2%E8%BD%89%E8%B6%A8%E7%B7%8A%E5%BC%B5%E4%B8%A8%E6%B2%B9%E5%83%B9%E5%8F%8D%E5%BD%88%20%E8%BF%BD%E7%9F%B3%E6%B2%B9%E8%82%A1?mtc=90012
+                  - img "item-img-5" [ref=f10e477]
+                  - generic [ref=f10e478]:
+                    - generic [ref=f10e479]: 計數揀股 - 中東局勢轉趨緊張丨油價反彈 追石油股
+                    - generic:
+                      - generic [ref=f10e480]: 15:19 2026/07/09
+                      - button "" [ref=f10e481]
+          - generic [ref=f10e483]:
+            - generic [ref=f10e485]:
+              - searchbox "enter-rhs-stock-search" [ref=f10e486]
+              - button "rhs-stock-search-btn" [ref=f10e487] [cursor=pointer]:
+                - generic [ref=f10e488]: 
+                - generic [ref=f10e489]: 即時報價
+            - generic [ref=f10e490]:
+              - generic [ref=f10e491]:
+                - generic [ref=f10e492]: 
+                - generic [ref=f10e494]: 即時指數
+              - iframe [ref=f10e497]:
+                - generic [ref=f11e1]:
+                  - generic:
+                    - button "恒指" [ref=f11e2] [cursor=pointer]
+                    - button "國指" [ref=f11e4] [cursor=pointer]
+                    - button "紅籌" [ref=f11e6] [cursor=pointer]
+                  - generic [ref=f11e8]:
+                    - generic [ref=f11e9]: 恒生指數
+                    - list [ref=f11e10]:
+                      - listitem [ref=f11e11]:
+                        - generic [ref=f11e12]: 25,830.58
+                        - generic [ref=f11e13]: 
+                      - listitem [ref=f11e14]:
+                        - generic [ref=f11e15]: "-28.30"
+                        - generic [ref=f11e16]: (-0.11%)
+                  - text:  
+                  - generic [ref=f11e19]:
+                    - list:
+                      - listitem [ref=f11e20]:
+                        - text: 資料提供：
+                        - link "etnet 經濟通" [ref=f11e21] [cursor=pointer]:
+                          - /url: http://www.etnet.com.hk
+                      - listitem [ref=f11e22]:
+                        - link "免責聲明" [ref=f11e23] [cursor=pointer]:
+                          - /url: disclaimer.php
+            - generic [ref=f10e498]:
+              - generic [ref=f10e499]:
+                - generic [ref=f10e500]: 
+                - generic [ref=f10e502]: 投資工具
+              - generic [ref=f10e504]:
+                - link " 經濟日誌" [ref=f10e507] [cursor=pointer]:
+                  - /url: https://invest.hket.com/markets/econdata?mtc=90017
+                  - generic [ref=f10e508]: 
+                  - generic [ref=f10e509]: 經濟日誌
+                - link " 金融大事" [ref=f10e512] [cursor=pointer]:
+                  - /url: https://www.hket.com/store/general/finance/events/calendar.pdf?mtc=90017
+                  - generic [ref=f10e513]: 
+                  - generic [ref=f10e514]: 金融大事
+                - link " 業績預告" [ref=f10e517] [cursor=pointer]:
+                  - /url: https://invest.hket.com/market-store/board_meeting/earnings_forecasts_bycode.html?mtc=90017
+                  - generic [ref=f10e518]: 
+                  - generic [ref=f10e519]: 業績預告
+                - link " 沽空" [ref=f10e522] [cursor=pointer]:
+                  - /url: https://www.hket.com/store/general/finance/stock-info/shortsell/shortsale_index.html?mtc=90017
+                  - generic [ref=f10e523]: 
+                  - generic [ref=f10e524]: 沽空
+                - link " 過戶備忘" [ref=f10e527] [cursor=pointer]:
+                  - /url: https://invest.hket.com/market-store/transfer_note/transfer_note_bycode.html?mtc=90017
+                  - generic [ref=f10e528]: 
+                  - generic [ref=f10e529]: 過戶備忘
+                - link " 股權變動" [ref=f10e532] [cursor=pointer]:
+                  - /url: https://invest.hket.com/markets/stock-ownership-change
+                  - generic [ref=f10e533]: 
+                  - generic [ref=f10e534]: 股權變動
+                - link " 股票資訊" [ref=f10e537] [cursor=pointer]:
+                  - /url: https://invest.hket.com/markets?mtc=90017
+                  - generic [ref=f10e538]: 
+                  - generic [ref=f10e539]: 股票資訊
+                - link " IPO" [ref=f10e542] [cursor=pointer]:
+                  - /url: https://www.hket.com/store/general/finance/web/IPO_Current_IPO.html
+                  - generic [ref=f10e543]: 
+                  - generic [ref=f10e544]: IPO
+        - generic [ref=f10e546]:
+          - generic [ref=f10e547]:
+            - generic [ref=f10e548]: 
+            - generic [ref=f10e550]: 學堂系列
+          - generic [ref=f10e553]:
+            - link "highlight-img 韓股槓桿ETF走勢脫軌 「靈活槓桿機制」能拆彈？ 港股7月30日出現一幕奇景——SK海力士正股（韓：660）在韓國市場低開後一度回升，然而在港上市的南方兩倍做多海力士（07709）卻繼續暴跌逾11%。正股上揚、ETF照崩，槓桿產品與標的資產的走勢突然... 今日 08:17 " [ref=f10e555] [cursor=pointer]:
+              - /url: https://knowledge.hket.com/article/4168543/%E9%9F%93%E8%82%A1%E6%A7%93%E6%A1%BFETF%E8%B5%B0%E5%8B%A2%E8%84%AB%E8%BB%8C%20%20%E3%80%8C%E9%9D%88%E6%B4%BB%E6%A7%93%E6%A1%BF%E6%A9%9F%E5%88%B6%E3%80%8D%E6%8B%86%E5%BD%88%E8%AE%8A%E8%A3%BD%E5%BD%88%EF%BC%9F?mtc=90013
+              - img "highlight-img" [ref=f10e557]
+              - generic [ref=f10e558]:
+                - generic [ref=f10e559]: 韓股槓桿ETF走勢脫軌 「靈活槓桿機制」能拆彈？
+                - generic [ref=f10e560]: 港股7月30日出現一幕奇景——SK海力士正股（韓：660）在韓國市場低開後一度回升，然而在港上市的南方兩倍做多海力士（07709）卻繼續暴跌逾11%。正股上揚、ETF照崩，槓桿產品與標的資產的走勢突然...
+                - generic:
+                  - generic [ref=f10e561]: 今日 08:17
+                  - button "" [ref=f10e562]
+            - generic [ref=f10e564]:
+              - link "item-img-0 發展「場外交易市場」 香港未來新方向？ 17:28 2026/07/30 " [ref=f10e566] [cursor=pointer]:
+                - /url: https://knowledge.hket.com/article/4166879/%E7%99%BC%E5%B1%95%E3%80%8C%E5%A0%B4%E5%A4%96%E4%BA%A4%E6%98%93%E5%B8%82%E5%A0%B4%E3%80%8D%20%E9%A6%99%E6%B8%AF%E6%9C%AA%E4%BE%86%E6%96%B0%E6%96%B9%E5%90%91%EF%BC%9F?mtc=90013
+                - img "item-img-0" [ref=f10e568]
+                - generic [ref=f10e569]:
+                  - generic [ref=f10e570]: 發展「場外交易市場」 香港未來新方向？
+                  - generic:
+                    - generic [ref=f10e571]: 17:28 2026/07/30
+                    - button "" [ref=f10e572]
+              - link "item-img-1 7月政治局會議 哪些焦點可前瞻？ 17:28 2026/07/30 " [ref=f10e575] [cursor=pointer]:
+                - /url: https://knowledge.hket.com/article/4167454/7%E6%9C%88%E6%94%BF%E6%B2%BB%E5%B1%80%E6%9C%83%E8%AD%B0%20%20%E5%93%AA%E4%BA%9B%E7%84%A6%E9%BB%9E%E5%8F%AF%E5%89%8D%E7%9E%BB%EF%BC%9F?mtc=90013
+                - img "item-img-1" [ref=f10e577]
+                - generic [ref=f10e578]:
+                  - generic [ref=f10e579]: 7月政治局會議 哪些焦點可前瞻？
+                  - generic:
+                    - generic [ref=f10e580]: 17:28 2026/07/30
+                    - button "" [ref=f10e581]
+              - link "item-img-2 半導體股災 可口可樂竟變資金避險「挪亞方舟」？ 17:28 2026/07/30 " [ref=f10e584] [cursor=pointer]:
+                - /url: https://knowledge.hket.com/article/4167954/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E7%81%BD%20%E5%8F%AF%E5%8F%A3%E5%8F%AF%E6%A8%82%E7%AB%9F%E8%AE%8A%E8%B3%87%E9%87%91%E9%81%BF%E9%9A%AA%E3%80%8C%E6%8C%AA%E4%BA%9E%E6%96%B9%E8%88%9F%E3%80%8D%EF%BC%9F?mtc=90013
+                - img "item-img-2" [ref=f10e586]
+                - generic [ref=f10e587]:
+                  - generic [ref=f10e588]: 半導體股災 可口可樂竟變資金避險「挪亞方舟」？
+                  - generic:
+                    - generic [ref=f10e589]: 17:28 2026/07/30
+                    - button "" [ref=f10e590]
+              - link "item-img-3 油價波動對沖失效 成本上升航空公司「硬食」？ 17:54 2026/07/28 " [ref=f10e593] [cursor=pointer]:
+                - /url: https://knowledge.hket.com/article/4165922/%E6%B2%B9%E5%83%B9%E6%B3%A2%E5%8B%95%E5%B0%8D%E6%B2%96%E5%A4%B1%E6%95%88%20%E6%88%90%E6%9C%AC%E4%B8%8A%E5%8D%87%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E3%80%8C%E7%A1%AC%E9%A3%9F%E3%80%8D%EF%BC%9F?mtc=90013
+                - img "item-img-3" [ref=f10e595]
+                - generic [ref=f10e596]:
+                  - generic [ref=f10e597]: 油價波動對沖失效 成本上升航空公司「硬食」？
+                  - generic:
+                    - generic [ref=f10e598]: 17:54 2026/07/28
+                    - button "" [ref=f10e599]
+              - link "item-img-4 日圓貶值見40年新低 高市托市有何考量？ 17:56 2026/07/24 " [ref=f10e602] [cursor=pointer]:
+                - /url: https://knowledge.hket.com/article/4164697/%E6%97%A5%E5%9C%93%E8%B2%B6%E5%80%BC%E8%A6%8B40%E5%B9%B4%E6%96%B0%E4%BD%8E%20%E9%AB%98%E5%B8%82%E6%89%98%E5%B8%82%E6%9C%89%E4%BD%95%E8%80%83%E9%87%8F%EF%BC%9F?mtc=90013
+                - img "item-img-4" [ref=f10e604]
+                - generic [ref=f10e605]:
+                  - generic [ref=f10e606]: 日圓貶值見40年新低 高市托市有何考量？
+                  - generic:
+                    - generic [ref=f10e607]: 17:56 2026/07/24
+                    - button "" [ref=f10e608]
+              - link "item-img-5 中美角力｜Kimi AI技壓群雄 多得英偉達GB300「發功」？ 17:56 2026/07/24 " [ref=f10e611] [cursor=pointer]:
+                - /url: https://knowledge.hket.com/article/4165207/%E4%B8%AD%E7%BE%8E%E8%A7%92%E5%8A%9B%EF%BD%9CKimi%20AI%E6%8A%80%E5%A3%93%E7%BE%A4%E9%9B%84%20%20%20%E5%A4%9A%E5%BE%97%E8%8B%B1%E5%81%89%E9%81%94GB300%E3%80%8C%E7%99%BC%E5%8A%9F%E3%80%8D%EF%BC%9F?mtc=90013
+                - img "item-img-5" [ref=f10e613]
+                - generic [ref=f10e614]:
+                  - generic [ref=f10e615]: 中美角力｜Kimi AI技壓群雄 多得英偉達GB300「發功」？
+                  - generic:
+                    - generic [ref=f10e616]: 17:56 2026/07/24
+                    - button "" [ref=f10e617]
+          - generic [ref=f10e619]:
+            - generic [ref=f10e620]: 
+            - generic [ref=f10e622]: 解碼系列
+          - generic [ref=f10e625]:
+            - link "highlight-img 紅海風暴升級 油運股看俏 霍爾木茲受限，沙特改道紅海延布（沙地阿拉伯的紅海港口城市）出口石油，也門胡塞武器再威脅沙特航運，最新由延布到亞洲最短路徑失效，海峽雙咽喉受阻，航距大幅拉長，噸海里需求進入非綫性放大區，長期利好中遠海能... 今日 11:53 " [ref=f10e627] [cursor=pointer]:
+              - /url: https://invest.hket.com/article/4168958/%E7%B4%85%E6%B5%B7%E9%A2%A8%E6%9A%B4%E5%8D%87%E7%B4%9A%20%E6%B2%B9%E9%81%8B%E8%82%A1%E7%9C%8B%E4%BF%8F?mtc=90014
+              - img "highlight-img" [ref=f10e629]
+              - generic [ref=f10e630]:
+                - generic [ref=f10e631]: 紅海風暴升級 油運股看俏
+                - generic [ref=f10e632]: 霍爾木茲受限，沙特改道紅海延布（沙地阿拉伯的紅海港口城市）出口石油，也門胡塞武器再威脅沙特航運，最新由延布到亞洲最短路徑失效，海峽雙咽喉受阻，航距大幅拉長，噸海里需求進入非綫性放大區，長期利好中遠海能...
+                - generic:
+                  - generic [ref=f10e633]: 今日 11:53
+                  - button "" [ref=f10e634]
+            - generic [ref=f10e636]:
+              - link "item-img-0 韓國救市 後市可期？ 今日 09:13 " [ref=f10e638] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4168304/%E9%9F%93%E5%9C%8B%E6%95%91%E5%B8%82%20%E5%BE%8C%E5%B8%82%E5%8F%AF%E6%9C%9F-?mtc=90014
+                - img "item-img-0" [ref=f10e640]
+                - generic [ref=f10e641]:
+                  - generic [ref=f10e642]: 韓國救市 後市可期？
+                  - generic:
+                    - generic [ref=f10e643]: 今日 09:13
+                    - button "" [ref=f10e644]
+              - link "item-img-1 國金解碼 - 債息又升 股市要完? 今日 09:00 " [ref=f10e647] [cursor=pointer]:
+                - /url: https://specialist.hket.com/article/4168932/%E5%82%B5%E6%81%AF%E5%8F%88%E5%8D%87%20%E8%82%A1%E5%B8%82%E8%A6%81%E5%AE%8C-?mtc=90014
+                - img "item-img-1" [ref=f10e649]
+                - generic [ref=f10e650]:
+                  - generic [ref=f10e651]: 國金解碼 - 債息又升 股市要完?
+                  - generic:
+                    - generic [ref=f10e652]: 今日 09:00
+                    - button "" [ref=f10e653]
+              - link "item-img-2 推高債息 有利股市 今日 " [ref=f10e656] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4168980/%E6%8E%A8%E9%AB%98%E5%82%B5%E6%81%AF%20%E6%9C%89%E5%88%A9%E8%82%A1%E5%B8%82?mtc=90014
+                - img "item-img-2" [ref=f10e658]
+                - generic [ref=f10e659]:
+                  - generic [ref=f10e660]: 推高債息 有利股市
+                  - generic:
+                    - generic [ref=f10e661]: 今日
+                    - button "" [ref=f10e662]
+              - link "item-img-3 紅海風暴升級 油運股看俏 今日 " [ref=f10e665] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4168971/%E7%B4%85%E6%B5%B7%E9%A2%A8%E6%9A%B4%E5%8D%87%E7%B4%9A%20%E6%B2%B9%E9%81%8B%E8%82%A1%E7%9C%8B%E4%BF%8F?mtc=90014
+                - img "item-img-3" [ref=f10e667]
+                - generic [ref=f10e668]:
+                  - generic [ref=f10e669]: 紅海風暴升級 油運股看俏
+                  - generic:
+                    - generic [ref=f10e670]: 今日
+                    - button "" [ref=f10e671]
+              - link "item-img-4 攜程捱罰金51.8億 反而鬆了一口氣？ 11:29 2026/07/30 " [ref=f10e674] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4167679/%E6%94%9C%E7%A8%8B%E6%9C%80%E5%A3%9E%E6%99%82%E9%96%93%E5%B7%B2%E9%81%8E%EF%BC%9F?mtc=90014
+                - img "item-img-4" [ref=f10e676]
+                - generic [ref=f10e677]:
+                  - generic [ref=f10e678]: 攜程捱罰金51.8億 反而鬆了一口氣？
+                  - generic:
+                    - generic [ref=f10e679]: 11:29 2026/07/30
+                    - button "" [ref=f10e680]
+              - link "item-img-5 國金解碼 - 槓桿熊市 宿命不變? 09:00 2026/07/30 " [ref=f10e683] [cursor=pointer]:
+                - /url: https://specialist.hket.com/article/4168280/%E6%A7%93%E6%A1%BF%E7%86%8A%E5%B8%82%20%E5%AE%BF%E5%91%BD%E4%B8%8D%E8%AE%8A-?mtc=90014
+                - img "item-img-5" [ref=f10e685]
+                - generic [ref=f10e686]:
+                  - generic [ref=f10e687]: 國金解碼 - 槓桿熊市 宿命不變?
+                  - generic:
+                    - generic [ref=f10e688]: 09:00 2026/07/30
+                    - button "" [ref=f10e689]
+          - generic [ref=f10e691]:
+            - generic [ref=f10e692]: 
+            - generic [ref=f10e694]: 組合系列
+          - generic [ref=f10e697]:
+            - link "highlight-img 中字股實力談 - HSI港股頭肩底VS北水逃生 港股今日好淡爭持，HSI恒生指數一度迫近二萬六，似乎筆者擔心北水逃生陰霾正在煙消雲散！尤其HSI和HSCEI國企指數都出現「頭肩底」，加上熊證「超量」可能引發大戶挾淡殺熊，好友形勢似乎一片大好！但北水... 今日 09:12 " [ref=f10e699] [cursor=pointer]:
+              - /url: https://invest.hket.com/article/4168614/HSI%E6%B8%AF%E8%82%A1%E9%A0%AD%E8%82%A9%E5%BA%95VS%E5%8C%97%E6%B0%B4%E9%80%83%E7%94%9F?mtc=90015
+              - img "highlight-img" [ref=f10e701]
+              - generic [ref=f10e702]:
+                - generic [ref=f10e703]: 中字股實力談 - HSI港股頭肩底VS北水逃生
+                - generic [ref=f10e704]: 港股今日好淡爭持，HSI恒生指數一度迫近二萬六，似乎筆者擔心北水逃生陰霾正在煙消雲散！尤其HSI和HSCEI國企指數都出現「頭肩底」，加上熊證「超量」可能引發大戶挾淡殺熊，好友形勢似乎一片大好！但北水...
+                - generic:
+                  - generic [ref=f10e705]: 今日 09:12
+                  - button "" [ref=f10e706]
+            - generic [ref=f10e708]:
+              - link "item-img-0 中字股實力談 - 古茗繼續增長 發力下沉市場 今日 " [ref=f10e710] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4168964/%E5%8F%A4%E8%8C%97%E7%B9%BC%E7%BA%8C%E5%A2%9E%E9%95%B7%20%E7%99%BC%E5%8A%9B%E4%B8%8B%E6%B2%89%E5%B8%82%E5%A0%B4?mtc=90015
+                - img "item-img-0" [ref=f10e712]
+                - generic [ref=f10e713]:
+                  - generic [ref=f10e714]: 中字股實力談 - 古茗繼續增長 發力下沉市場
+                  - generic:
+                    - generic [ref=f10e715]: 今日
+                    - button "" [ref=f10e716]
+              - link "item-img-1 中字股實力談 - HSI港股破牛熊綫 北水連續5日出逃 09:13 2026/07/30 " [ref=f10e719] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4167989/HSI%E6%B8%AF%E8%82%A1%E4%BA%8C%E8%90%AC%E5%85%AD%E6%BC%B8%E8%BF%91%09%E5%8C%97%E6%B0%B4%E9%80%83%E7%94%9F%E9%99%B0%E9%9C%BE%E6%8F%AE%E4%B9%8B%E4%B8%8D%E5%8E%BB?mtc=90015
+                - img "item-img-1" [ref=f10e721]
+                - generic [ref=f10e722]:
+                  - generic [ref=f10e723]: 中字股實力談 - HSI港股破牛熊綫 北水連續5日出逃
+                  - generic:
+                    - generic [ref=f10e724]: 09:13 2026/07/30
+                    - button "" [ref=f10e725]
+              - link "item-img-2 中字股實力談 - 攜程價值回歸 監管風險出清 2026/07/30 " [ref=f10e728] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4168324/%E6%94%9C%E7%A8%8B%E5%83%B9%E5%80%BC%E5%9B%9E%E6%AD%B8%20%E7%9B%A3%E7%AE%A1%E9%A2%A8%E9%9A%AA%E5%87%BA%E6%B8%85?mtc=90015
+                - img "item-img-2" [ref=f10e730]
+                - generic [ref=f10e731]:
+                  - generic [ref=f10e732]: 中字股實力談 - 攜程價值回歸 監管風險出清
+                  - generic:
+                    - generic [ref=f10e733]: 2026/07/30
+                    - button "" [ref=f10e734]
+              - link "item-img-3 中字股實力談 - HSI港股即將見頂？ 北水連續4日逃生 09:17 2026/07/29 " [ref=f10e737] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4167368/HSI%E6%B8%AF%E8%82%A1%E5%8F%A9%E9%97%9C%09A%E8%82%A1%E8%84%AB%E8%85%B3?mtc=90015
+                - img "item-img-3" [ref=f10e739]
+                - generic [ref=f10e740]:
+                  - generic [ref=f10e741]: 中字股實力談 - HSI港股即將見頂？ 北水連續4日逃生
+                  - generic:
+                    - generic [ref=f10e742]: 09:17 2026/07/29
+                    - button "" [ref=f10e743]
+              - link "item-img-4 中字股實力談 - 中軟背靠華為 擁抱Kimi突圍 2026/07/29 " [ref=f10e746] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4167713/%E4%B8%AD%E8%BB%9F%E8%83%8C%E9%9D%A0%E8%8F%AF%E7%82%BA%20%E6%93%81%E6%8A%B1Kimi%E7%AA%81%E5%9C%8D?mtc=90015
+                - img "item-img-4" [ref=f10e748]
+                - generic [ref=f10e749]:
+                  - generic [ref=f10e750]: 中字股實力談 - 中軟背靠華為 擁抱Kimi突圍
+                  - generic:
+                    - generic [ref=f10e751]: 2026/07/29
+                    - button "" [ref=f10e752]
+              - link "item-img-5 中字股實力談 - HSI港股連日縮量 可以彈幾高？ 09:17 2026/07/28 " [ref=f10e755] [cursor=pointer]:
+                - /url: https://invest.hket.com/article/4166757/HSI%E6%B8%AF%E8%82%A1%E7%B8%AE%E9%87%8F%E5%8F%AF%E4%BB%A5%E5%BD%88%E5%B9%BE%E9%AB%98%EF%BC%9F?mtc=90015
+                - img "item-img-5" [ref=f10e757]
+                - generic [ref=f10e758]:
+                  - generic [ref=f10e759]: 中字股實力談 - HSI港股連日縮量 可以彈幾高？
+                  - generic:
+                    - generic [ref=f10e760]: 09:17 2026/07/28
+                    - button "" [ref=f10e761]
+      - contentinfo [ref=f10e763]:
+        - generic [ref=f10e764]:
+          - generic [ref=f10e765]:
+            - navigation [ref=f10e766]:
+              - generic [ref=f10e767]: "關注我們 :"
+              - link "" [ref=f10e768] [cursor=pointer]:
+                - /url: https://www.facebook.com/hketpage
+              - link "" [ref=f10e770] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/hketvideo
+              - link "" [ref=f10e772] [cursor=pointer]:
+                - /url: http://weibo.com/hket
+              - link "" [ref=f10e774] [cursor=pointer]:
+                - /url: https://www.hket.com/info/wechat
+              - link "" [ref=f10e776] [cursor=pointer]:
+                - /url: https://www.instagram.com/hket_news/
+              - link "" [ref=f10e778] [cursor=pointer]:
+                - /url: https://www.threads.com/@hket_news/
+              - link "" [ref=f10e780] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/hket/
+            - navigation [ref=f10e782]:
+              - generic [ref=f10e783]: "下載 :"
+              - link "香港經濟日報 App" [ref=f10e784] [cursor=pointer]:
+                - /url: https://www.hket.com/info/app_download
+                - generic [ref=f10e785]: 
+                - text: 香港經濟日報 App
+          - generic [ref=f10e786]:
+            - text: "| | | | | | | |"
+            - generic [ref=f10e787]:
+              - text: 香港經濟日報版權所有
+              - generic [ref=f10e788]: © 2026

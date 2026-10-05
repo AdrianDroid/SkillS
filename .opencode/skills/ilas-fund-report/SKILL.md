@@ -230,6 +230,33 @@ Each entry needs a **`reason`** that names a specific macro theme and why this f
 
 `validate_report.py` fails the run if either list is not exactly 10. Run it before INTEGRATE.
 
+### Phase 4 hat-check — BEFORE ranking, not after
+
+Fund selection is the one place in this pipeline that is a judgement rather than a
+retrieval, so it gets the `six-hats` skill's pre-flight and two hats. **Not all six** —
+Phases 1–3 are contract-driven and the gates above already run; a full walk here would
+tax a machine-checked pipeline for no gain.
+
+Run it against the **selection rule**, not the fund list:
+
+```
+Leaning:  the ranking criteria below, applied mechanically to the 10/10 split.
+Flips if: a hat shows the criteria favour a fund the macro thesis excludes, or
+          that Sharpe-only ranking contradicts the regional/sector overweight.
+```
+
+- 🟢 **Green — what did the criteria exclude, and was that right?** The ranking is
+  mechanical by construction; the *exclusions* are where judgement actually leaked in.
+  Name what Sharpe-ranking dropped that the thesis wanted.
+- ⚫ **Black — what breaks downstream?** Bind each risk to a constraint: a TER>2% fund in
+  the growth list, a 1Y-Sharpe fund that a 3Y collapse contradicts, a watchlist that
+  cannot fund a 60+ defensive tab. An empty or thin `ages` tab is the failure this
+  prevents.
+
+Each `reason` in the output should carry the result. If Green or Black moved the
+selection, say which in the reason. **This does not relax any gate** — `validate_report.py`
+and the 10/10 shape are unchanged.
+
 Fund selection criteria (in priority order):
 1. Gross-of-TER Sharpe ratio (1Y, confirmed by 3Y)
 2. Consistency: 3Y return > median for its category

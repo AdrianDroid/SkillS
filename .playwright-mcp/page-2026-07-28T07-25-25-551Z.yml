@@ -1,0 +1,112 @@
+- generic [active] [ref=f135e1]:
+  - link [ref=f135e2] [cursor=pointer]:
+    - /url: "#inv-main-content"
+    - strong [ref=f135e3]: Skip to main content
+  - banner [ref=f135e4]:
+    - generic [ref=f135e6]:
+      - generic [ref=f135e7]:
+        - generic [ref=f135e8]:
+          - generic [ref=f135e9]:
+            - link "Invesco" [ref=f135e11] [cursor=pointer]:
+              - /url: /hk/en/investors.html
+              - generic:
+                - img "Invesco"
+            - generic [ref=f135e12]:
+              - button "Search" [ref=f135e13] [cursor=pointer]: 
+              - button "Expand navigation" [ref=f135e14] [cursor=pointer]:
+                - generic [ref=f135e15]: 
+                - text: 
+          - generic [ref=f135e18]:
+            - generic [ref=f135e19]:
+              - navigation [ref=f135e20]:
+                - list [ref=f135e21]:
+                  - listitem [ref=f135e22]:
+                    - button [ref=f135e23]:
+                      - text: Our Funds
+                      - generic [ref=f135e24]: 
+                    - generic: 
+                  - listitem [ref=f135e25]:
+                    - button [ref=f135e26]:
+                      - text: Investment Ideas
+                      - generic [ref=f135e27]: 
+                    - generic: 
+                  - listitem [ref=f135e28]:
+                    - button [ref=f135e29]:
+                      - text: Learn
+                      - generic [ref=f135e30]: 
+                    - generic: 
+                  - listitem [ref=f135e31]:
+                    - button [ref=f135e32]:
+                      - text: About Us
+                      - generic [ref=f135e33]: 
+                    - generic: 
+              - text:  
+            - generic [ref=f135e34]:
+              - list [ref=f135e35]:
+                - listitem [ref=f135e36]:
+                  - button [ref=f135e37] [cursor=pointer]: Hong Kong 
+                - listitem [ref=f135e38]:
+                  - link [ref=f135e39] [cursor=pointer]:
+                    - /url: /hk/zh/error/404.html
+                    - text: 中文
+              - list [ref=f135e40]:
+                - listitem [ref=f135e41]:
+                  - button [ref=f135e42] [cursor=pointer]: Contact Us 
+                - listitem [ref=f135e43]:
+                  - button [ref=f135e44] [cursor=pointer]: Login 
+        - text: 
+      - generic:
+        - generic:   
+        - text:       
+  - generic [ref=f135e47]:
+    - main [ref=f135e48]:
+      - generic [ref=f135e52]:
+        - heading "Error 404" [level=2] [ref=f135e54]
+        - generic [ref=f135e57]:
+          - heading "The page you were looking for could not be found." [level=3] [ref=f135e58]
+          - paragraph [ref=f135e59]:
+            - text: The content may have been moved, updated or deleted. Visit our
+            - link "Hong Kong investors site" [ref=f135e60] [cursor=pointer]:
+              - /url: /hk/en/investors.html
+            - text: to start your journey.
+    - contentinfo [ref=f135e61]:
+      - generic [ref=f135e62]:
+        - generic [ref=f135e63]:
+          - list [ref=f135e64]:
+            - listitem [ref=f135e65]:
+              - link "Global Site" [ref=f135e66] [cursor=pointer]:
+                - /url: https://www.invesco.com/corporate
+              - text: "|"
+            - listitem [ref=f135e67]:
+              - link "Press and Media" [ref=f135e68] [cursor=pointer]:
+                - /url: /hk/en/investment-ideas/press-and-media.html
+              - text: "|"
+            - listitem [ref=f135e69]:
+              - link "Site Policies" [ref=f135e70] [cursor=pointer]:
+                - /url: /hk/en/footer/site-policies.html
+              - text: "|"
+            - listitem [ref=f135e71]:
+              - link "Privacy" [ref=f135e72] [cursor=pointer]:
+                - /url: https://www.invesco.com/pp/en/privacy-portal.html
+              - text: "|"
+            - listitem [ref=f135e73]:
+              - button "Manage cookies" [ref=f135e74] [cursor=pointer]
+          - generic [ref=f135e75]:
+            - paragraph [ref=f135e76]: This document is intended only for investors in Hong Kong for informational purposes only. This document is not an offering of a financial product and should not be distributed to retail clients who are resident in jurisdiction where its distribution is not authorized or is unlawful. Circulation, disclosure, or dissemination of all or any part of this document to any unauthorized person is prohibited. This document may contain statements that are not purely historical in nature but are "forward-looking statements," which are based on certain assumptions of future events. Forward-looking statements are based on information available on the date hereof, and Invesco does not assume any duty to update any forward-looking statement. Actual events may differ from those assumed. There can be no assurance that forward-looking statements, including any projected returns, will materialize or that actual market conditions and/or performance results will not be materially different or worse than those presented. All material presented is compiled from sources believed to be reliable and current, but accuracy cannot be guaranteed. Investment involves risk. Investors should read the relevant prospectus for details, including the risk factors and product features; or the offering documents for details, including the fees and charges, risk factors, and product feature. The opinions expressed are based on current market conditions and are subject to change without notice. These opinions may differ from those of other Invesco investment professionals. The distribution and offering of this document in certain jurisdictions may be restricted by law. Persons into whose possession this marketing material may come are required to inform themselves about and to comply with any relevant restrictions. This does not constitute an offer or solicitation by anyone in any jurisdiction in which such an offer is not authorised or to any person to whom it is unlawful to make such an offer or solicitation.
+            - paragraph [ref=f135e77]: This document is issued by Invesco Hong Kong Limited景順投資管理有限公司, 45/F, Jardine House, 1 Connaught Place, Central, Hong Kong and has not been reviewed by the Securities and Futures Commission.
+            - paragraph [ref=f135e78]: ©2026 Invesco Hong Kong Limited. All rights reserved
+        - generic [ref=f135e79]:
+          - heading "Stay connected" [level=2] [ref=f135e80]
+          - list [ref=f135e81]:
+            - listitem [ref=f135e82]:
+              - link "linkedin" [ref=f135e83] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/invesco-ltd/
+                - generic [ref=f135e84]: 
+            - listitem [ref=f135e85]:
+              - link "wechat" [ref=f135e86] [cursor=pointer]:
+                - /url: http://invesco.com/content/dam/invesco/apac/en/image/qr-code_blue_wechat_14-oct.png
+                - generic [ref=f135e87]: 
+            - listitem [ref=f135e88]:
+              - link "youtube" [ref=f135e89] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCfBOPCUN0iwNJVHyGM3IqlQ
+                - generic [ref=f135e90]: 

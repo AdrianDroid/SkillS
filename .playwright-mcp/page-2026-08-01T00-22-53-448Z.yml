@@ -1,0 +1,627 @@
+- generic [active] [ref=f269e1]:
+  - generic [ref=f269e4]:
+    - generic [ref=f269e7]:
+      - link [ref=f269e8] [cursor=pointer]:
+        - /url: "?language=en&location=gr&channel=professional&clientId=schdr&clientVersion=v1&r=%2Ffund%2Fsearch%2Ffilter%2F&pageIndex=0&pageSize=20"
+      - paragraph [ref=f269e13]: Schroder ISF Emerging Mkt Multi-Asset
+      - button [ref=f269e17] [cursor=pointer]:
+        - generic [ref=f269e19]:
+          - paragraph [ref=f269e23]: "%"
+          - generic [ref=f269e24]:
+            - paragraph [ref=f269e25]: "Show investment figures as:"
+            - paragraph [ref=f269e26]: Percentage
+    - generic [ref=f269e30]:
+      - generic [ref=f269e39]:
+        - generic [ref=f269e41]:
+          - heading "Schroder International Selection Fund Emerging Markets Multi-Asset A Distribution USD MF" [level=1] [ref=f269e42]
+          - generic [ref=f269e43]:
+            - paragraph [ref=f269e44]: "ISIN: LU1196710351"
+            - paragraph [ref=f269e45]: "Inception: 08.04.2015"
+        - button "Add to watchlist" [ref=f269e47] [cursor=pointer]
+      - navigation "Navigation" [ref=f269e54]:
+        - list [ref=f269e55]:
+          - listitem [ref=f269e56]:
+            - button "Overview" [ref=f269e58] [cursor=pointer]
+          - listitem [ref=f269e60]:
+            - button "Risk Considerations" [ref=f269e62] [cursor=pointer]
+          - listitem [ref=f269e64]:
+            - button "Performance" [ref=f269e66] [cursor=pointer]
+          - listitem [ref=f269e68]:
+            - button "Asset Allocation" [ref=f269e70] [cursor=pointer]
+          - listitem [ref=f269e72]:
+            - button "ESG" [ref=f269e74] [cursor=pointer]
+          - listitem [ref=f269e76]:
+            - button "Fund Facts" [ref=f269e78] [cursor=pointer]
+          - listitem [ref=f269e80]:
+            - button "Important information" [ref=f269e82] [cursor=pointer]
+      - generic [ref=f269e89]:
+        - generic [ref=f269e90]:
+          - paragraph [ref=f269e91]: Unit NAV (USD)
+          - 'img "More information: The value of an entity’s assets minus the value of its liabilities." [ref=f269e94]'
+        - paragraph [ref=f269e97]:
+          - generic [ref=f269e98]: USD 108,9479
+        - paragraph [ref=f269e101]:
+          - text: As of
+          - strong [ref=f269e102]: 31.07.2026
+      - generic [ref=f269e105]:
+        - generic [ref=f269e107]:
+          - heading "Fund objectives and investment policy" [level=2] [ref=f269e110]
+          - generic [ref=f269e112]:
+            - generic [ref=f269e114]:
+              - text: The Fund aims to deliver capital growth and income over a three to five year period after fees have been deducted by investing in a diversified range of assets in emerging markets worldwide.
+              - strong [ref=f269e116]: Above is the Investment Objective of the fund. For details on the fund’s Investment Policy please see the KID.
+              - paragraph [ref=f269e117]: The fund has environmental and/or social characteristics within the meaning of Article 8 of Regulation (EU) 2019/2088 on Sustainability-related Disclosures in the Financial Services Sector (the “SFDR”).
+              - strong [ref=f269e118]: Relevant risks associated with an investment in this fund are shown below and should be carefully considered before making any investment.
+              - strong [ref=f269e119]: Past Performance is not a guide to future performance and may not be repeated. The value of investments and the income from them may go down as well as up and investors may not get back the amounts originally invested. Exchange rate changes may cause the value of investments to fall as well as rise. Performance data does not take into account any commissions and costs, if any, charged when units or shares of any fund, as applicable, are issued and redeemed.
+            - button [ref=f269e120] [cursor=pointer]:
+              - generic [ref=f269e122]:
+                - separator [ref=f269e123]
+                - generic [ref=f269e124]: Read more
+        - generic [ref=f269e129]:
+          - generic [ref=f269e131]:
+            - heading "Fund manager" [level=2] [ref=f269e132]
+            - 'img "More information: Fund Manager(s). Please refer to the fund factsheet for a full list of fund managers." [ref=f269e135]'
+          - list [ref=f269e138]:
+            - button [ref=f269e139] [cursor=pointer]:
+              - generic [ref=f269e146]:
+                - paragraph [ref=f269e147]: Dorian Carrell
+                - generic [ref=f269e148]:
+                  - paragraph [ref=f269e149]: "Managed fund since: 01.09.2018"
+                  - paragraph [ref=f269e150]: "Term: 7,9 Yrs"
+            - button [ref=f269e153] [cursor=pointer]:
+              - generic [ref=f269e160]:
+                - paragraph [ref=f269e161]: Remi Olu-Pitan
+                - generic [ref=f269e162]:
+                  - paragraph [ref=f269e163]: "Managed fund since: 01.09.2018"
+                  - paragraph [ref=f269e164]: "Term: 7,9 Yrs"
+      - generic [ref=f269e169]:
+        - generic [ref=f269e172]:
+          - generic [ref=f269e174]:
+            - generic [ref=f269e175]:
+              - heading "Summary risk indicator (SRI)" [level=2] [ref=f269e176]
+              - 'img "More information: The Summary Risk Indicator is a number between 1 and 7 shown on all Key Information Documents to allow investors to compare funds'' risk profiles. 1 is the lowest risk rating and 7 is the highest. The as at date reflects the date at which the data provider, Accudelta, last updated the SRI figure. This as at date will not always reflect the exact date the figure was updated internally" [ref=f269e179]'
+            - heading [level=3] [ref=f269e182]:
+              - paragraph [ref=f269e183]:
+                - text: As of
+                - strong [ref=f269e184]: 26.06.2026
+          - generic [ref=f269e185]:
+            - generic:
+              - paragraph
+            - list [ref=f269e186]:
+              - listitem [ref=f269e187]:
+                - strong [ref=f269e190]: "1"
+              - listitem [ref=f269e191]:
+                - strong [ref=f269e194]: "2"
+              - listitem [ref=f269e195]:
+                - strong [ref=f269e198]: "3"
+              - listitem [ref=f269e199]:
+                - generic "4, This risk level has a special notch indicating increased importance." [ref=f269e201]:
+                  - strong [ref=f269e204]: "4"
+                  - generic [ref=f269e205]: This risk level has a special notch indicating increased importance.
+              - listitem [ref=f269e206]:
+                - strong [ref=f269e209]: "5"
+              - listitem [ref=f269e210]:
+                - strong [ref=f269e213]: "6"
+              - listitem [ref=f269e214]:
+                - strong [ref=f269e217]: "7"
+          - paragraph [ref=f269e222]: The risk category was calculated using historical performance data (or indicative fund performance during periods of suspension) and may not be a reliable indicator of the fund’s future risk profile. The fund’s risk category is not guaranteed to remain fixed. Please see the Key Information Document for more information.
+        - generic [ref=f269e225]:
+          - heading "Fees & expenses" [level=2] [ref=f269e226]
+          - list [ref=f269e228]:
+            - listitem [ref=f269e229]:
+              - generic [ref=f269e230]:
+                - paragraph [ref=f269e232]: Entry charge up to
+                - 'img "More information: Entry charge up to" [ref=f269e235]'
+              - paragraph [ref=f269e238]:
+                - generic [ref=f269e239]: 5,00%
+            - listitem [ref=f269e240]:
+              - generic [ref=f269e241]:
+                - paragraph [ref=f269e243]: Annual management fee
+                - 'img "More information: The annual management charge (AMC) is the yearly fee an investment manager charges to manage a fund. It is generally a percentage of the assets of the fund, for example 0.6% of the fund’s assets per annum. The charge is automatic deducted from the assets of the fund. The annual management fees are rounded to 3 decimal places." [ref=f269e246]'
+              - paragraph [ref=f269e249]:
+                - generic [ref=f269e250]: 1,250%
+            - listitem [ref=f269e251]:
+              - generic [ref=f269e252]:
+                - paragraph [ref=f269e254]: Ongoing charge
+                - 'img "More information: The ongoing charge figure is made up of the annual management charge (AMC), the administration charges and all other operating expenses (excluding performance fee payable). This is expressed as a percentage of the average daily net asset values during the year" [ref=f269e257]'
+              - paragraph [ref=f269e260]:
+                - generic [ref=f269e261]: 1,64%
+            - listitem [ref=f269e262]:
+              - generic [ref=f269e263]:
+                - paragraph [ref=f269e265]: Redemption fee
+                - 'img "More information: A redemption fee is a fee charged to an investor when shares are sold from a fund." [ref=f269e268]'
+              - paragraph [ref=f269e271]:
+                - generic [ref=f269e272]: 0,00%
+      - generic [ref=f269e276]:
+        - heading "Risk considerations" [level=2] [ref=f269e279]
+        - generic [ref=f269e283]:
+          - generic [ref=f269e284]:
+            - paragraph [ref=f269e285]:
+              - strong [ref=f269e286]: "ABS and MBS risk:"
+              - text: The fund may invest in mortgage or asset-backed securities. The underlying borrowers of these securities may not be able to pay back the full amount that they owe, which may result in losses to the fund.
+            - strong [ref=f269e287]: "Capital risk / distribution policy:"
+            - text: As the fund intends to pay dividends regardless of its performance, a dividend may represent a return of part of the amount you invested.
+            - paragraph
+            - paragraph [ref=f269e288]:
+              - strong [ref=f269e289]: "Capital risk / distribution policy:"
+              - text: As the fund intends to pay dividends regardless of its performance, a dividend may represent a return of part of the amount you invested.
+            - paragraph [ref=f269e290]:
+              - strong [ref=f269e291]: "China risk:"
+              - text: If the fund invests in the China Interbank Bond Market via the Bond Connect or in China "A" shares via the Shanghai-Hong Kong Stock Connect and Shenzhen-Hong Kong Stock Connect or in shares listed on the STAR Board or the ChiNext, this may involve clearing and settlement, regulatory, operational and counterparty risks. If the fund invests in onshore renminbi-denominated securities, currency control decisions made by the Chinese government could affect the value of the fund's investments and could cause the fund to defer or suspend redemptions of its shares.
+            - paragraph [ref=f269e292]:
+              - strong [ref=f269e293]: "Counterparty risk:"
+              - text: The fund may have contractual agreements with counterparties. If a counterparty is unable to fulfil their obligations, the sum that they owe to the fund may be lost in part or in whole.
+            - paragraph [ref=f269e294]:
+              - strong [ref=f269e295]: "Credit risk:"
+              - text: If a borrower of debt provided by the fund or a bond issuer experiences a decline in financial health, their ability to make payments of interest and principal may be affected, which may cause a decline in the value of the fund.
+            - paragraph [ref=f269e296]:
+              - strong [ref=f269e297]: "Currency risk:"
+              - text: If the fund’s investments are denominated in currencies different to the fund’s base currency, the fund may lose value as a result of movements in foreign exchange rates, otherwise known as currency rates. If the investor holds a share class in a different currency to the base currency of the fund, investors may be exposed to losses as a result of movements in currency rates.
+          - generic [ref=f269e298]:
+            - paragraph [ref=f269e299]:
+              - strong [ref=f269e300]: "Derivatives risk:"
+              - text: Derivatives, which are financial instruments deriving their value from an underlying asset, may be used for investment purposes and/ or to manage the portfolio efficiently. A derivative may not perform as expected, may create losses greater than the cost of the derivative and may result in losses to the fund.
+            - paragraph [ref=f269e301]:
+              - strong [ref=f269e302]: "Emerging markets & frontier risk:"
+              - text: Emerging markets, and especially frontier markets, generally carry greater political, legal, counterparty, operational and liquidity risk than developed markets.
+            - paragraph [ref=f269e303]:
+              - strong [ref=f269e304]: "High yield bond risk:"
+              - text: High yield bonds (normally lower rated or unrated) generally carry greater market, credit and liquidity risk meaning greater uncertainty of returns.
+            - paragraph [ref=f269e305]:
+              - strong [ref=f269e306]: "Liquidity risk:"
+              - text: In difficult market conditions, the fund may not be able to sell a security for full value or at all. This could affect performance and could cause the fund to defer or suspend redemptions of its shares, meaning investors may not be able to have immediate access to their holdings.
+            - paragraph [ref=f269e307]:
+              - strong [ref=f269e308]: "Market risk:"
+              - text: The value of investments can go up and down and an investor may not get back the amount initially invested.
+            - paragraph [ref=f269e309]:
+              - strong [ref=f269e310]: "Operational risk:"
+              - text: Operational processes, including those related to the safekeeping of assets, may fail. This may result in losses to the fund.
+            - paragraph [ref=f269e311]:
+              - strong [ref=f269e312]: "Performance risk:"
+              - text: Investment objectives express an intended result but there is no guarantee that such a result will be achieved. Depending on market conditions and the macro economic environment, investment objectives may become more difficult to achieve.
+            - paragraph [ref=f269e313]:
+              - strong [ref=f269e314]: "Sustainability risk:"
+              - text: The fund has environmental and/or social characteristics. This means it may have limited exposure to some companies, industries or sectors and may forego certain investment opportunities, or dispose of certain holdings, that do not align with its sustainability criteria chosen by the investment manager. The fund may invest in companies that do not reflect the beliefs and values of any particular investor.
+            - paragraph
+      - generic [ref=f269e318]:
+        - heading "Performance" [level=2] [ref=f269e321]
+        - generic [ref=f269e323]:
+          - tablist [ref=f269e324]:
+            - tab [selected] [ref=f269e325] [cursor=pointer]:
+              - generic [ref=f269e326]:
+                - text: Discrete yearly performance (%)
+                - 'img "More information: Discrete yearly performance" [ref=f269e329]'
+            - tab [ref=f269e332] [cursor=pointer]:
+              - generic [ref=f269e333]:
+                - text: Cumulative performance
+                - 'img "More information: Total return over a given period." [ref=f269e336]'
+            - tab [ref=f269e339] [cursor=pointer]:
+              - generic [ref=f269e340]:
+                - text: Calendar year performance
+                - 'img "More information: Calendar year performance" [ref=f269e343]'
+            - tab "Income Distribution" [ref=f269e346] [cursor=pointer]
+            - tab "Performance Scenarios" [ref=f269e348] [cursor=pointer]
+          - 'tabpanel "Discrete yearly performance (%) More information: Discrete yearly performance" [ref=f269e351]':
+            - table [ref=f269e353]:
+              - rowgroup [ref=f269e354]:
+                - row [ref=f269e355]:
+                  - columnheader "As of 30.06.2026" [ref=f269e356]:
+                    - paragraph [ref=f269e357]:
+                      - generic [ref=f269e358]: As of 30.06.2026
+                  - columnheader [ref=f269e360]:
+                    - paragraph [ref=f269e361]: Jun 16 - Jun 17
+                  - columnheader [ref=f269e362]:
+                    - paragraph [ref=f269e363]: Jun 17 - Jun 18
+                  - columnheader [ref=f269e364]:
+                    - paragraph [ref=f269e365]: Jun 18 - Jun 19
+                  - columnheader [ref=f269e366]:
+                    - paragraph [ref=f269e367]: Jun 19 - Jun 20
+                  - columnheader [ref=f269e368]:
+                    - paragraph [ref=f269e369]: Jun 20 - Jun 21
+                  - columnheader [ref=f269e370]:
+                    - paragraph [ref=f269e371]: Jun 21 - Jun 22
+                  - columnheader [ref=f269e372]:
+                    - paragraph [ref=f269e373]: Jun 22 - Jun 23
+                  - columnheader [ref=f269e374]:
+                    - paragraph [ref=f269e375]: Jun 23 - Jun 24
+                  - columnheader [ref=f269e376]:
+                    - paragraph [ref=f269e377]: Jun 24 - Jun 25
+                  - columnheader [ref=f269e378]:
+                    - paragraph [ref=f269e379]: Jun 25 - Jun 26
+              - rowgroup [ref=f269e380]:
+                - row [ref=f269e381]:
+                  - cell [ref=f269e382]:
+                    - paragraph [ref=f269e384]: Share class (Net)
+                  - cell [ref=f269e385]:
+                    - paragraph [ref=f269e387]: 13,2%
+                  - cell [ref=f269e388]:
+                    - paragraph [ref=f269e390]: "-1,8%"
+                  - cell [ref=f269e391]:
+                    - paragraph [ref=f269e393]: 0,7%
+                  - cell [ref=f269e394]:
+                    - paragraph [ref=f269e396]: "-5,7%"
+                  - cell [ref=f269e397]:
+                    - paragraph [ref=f269e399]: 34,0%
+                  - cell [ref=f269e400]:
+                    - paragraph [ref=f269e402]: "-26,2%"
+                  - cell [ref=f269e403]:
+                    - paragraph [ref=f269e405]: 5,8%
+                  - cell [ref=f269e406]:
+                    - paragraph [ref=f269e408]: 8,3%
+                  - cell [ref=f269e409]:
+                    - paragraph [ref=f269e411]: 10,1%
+                  - cell [ref=f269e412]:
+                    - paragraph [ref=f269e414]: 51,0%
+                - row [ref=f269e415]:
+                  - cell [ref=f269e416]:
+                    - paragraph [ref=f269e418]: Comparator
+                  - cell [ref=f269e419]:
+                    - paragraph [ref=f269e421]: 14,1%
+                  - cell [ref=f269e422]:
+                    - paragraph [ref=f269e424]: 3,3%
+                  - cell [ref=f269e425]:
+                    - paragraph [ref=f269e427]: 5,8%
+                  - cell [ref=f269e428]:
+                    - paragraph [ref=f269e430]: "-1,4%"
+                  - cell [ref=f269e431]:
+                    - paragraph [ref=f269e433]: 23,3%
+                  - cell [ref=f269e434]:
+                    - paragraph [ref=f269e436]: "-21,8%"
+                  - cell [ref=f269e437]:
+                    - paragraph [ref=f269e439]: 5,1%
+                  - cell [ref=f269e440]:
+                    - paragraph [ref=f269e442]: 9,6%
+                  - cell [ref=f269e443]:
+                    - paragraph [ref=f269e445]: 13,0%
+                  - cell [ref=f269e446]:
+                    - paragraph [ref=f269e448]: 26,6%
+            - paragraph [ref=f269e451]: On 29.10.2021 Schroder ISF Emerging Multi-Asset Income changed its name to Schroder ISF Emerging Markets Multi Asset. The Fund does not have a target benchmark. The Fund's performance and volatility should be compared against 50% MSCI Emerging Market Index (USD), 16.7% JPM EMBI Index EM Hard Currency (USD), 16.7% JPM GBI Emerging Market Index - EM Local (USD), 16.7% JPM CEMB Index (USD). The comparator benchmark is only included for performance and risk comparison purposes and does not have any bearing on how the Investment Manager invests the Fund's assets. The Fund's investment universe is expected to have limited overlap with the components of the comparator benchmark. The Investment Manager invests on a discretionary basis and there are no restrictions on the extent to which the Fund's portfolio and performance may deviate from the comparator benchmark. The Investment Manager will invest in companies or sectors not included in the comparator benchmark. The comparator benchmark has been selected because the Investment Manager believes that the benchmark is a suitable comparison for performance purposes given the Fund's investment objective and policy. The benchmark(s) does/do not take into account the environmental and social characteristics or sustainable objective (as relevant) of the Fund.
+      - generic [ref=f269e455]:
+        - generic [ref=f269e456]:
+          - generic [ref=f269e457]:
+            - heading "10Y Calendar Year Returns (%)" [level=2] [ref=f269e458]
+            - 'img "More information: Total return over each of the last five calendar years." [ref=f269e461]'
+          - heading "01.01.2016 - 31.12.2025" [level=3] [ref=f269e464]
+        - paragraph [ref=f269e467]: This chart shows the fund’s performance as the percentage loss or gain per year over the last 7 years against its benchmark.
+        - region "Chart. Highcharts interactive chart." [ref=f269e475]:
+          - generic [ref=f269e476]:
+            - paragraph [ref=f269e477]: Chart
+            - generic [ref=f269e478]: Bar chart with 2 data series.
+            - generic [ref=f269e479]: FX performance chart comparing different series over the years.
+            - generic [ref=f269e480]: The chart has 1 X axis displaying categories.
+            - generic [ref=f269e481]: The chart has 1 Y axis displaying values. Data ranges from -19.20471 to 31.70966.
+          - generic [ref=f269e486]:
+            - img "Interactive chart" [ref=f269e487]:
+              - generic [ref=f269e493]:
+                - region "Share class (Net)" [ref=f269e494]:
+                  - 'img "At 2016, Share class (Net): 10,89%; Comparator : 10,50%." [ref=f269e495]'
+                  - 'img "At 2017, Share class (Net): 18,82%; Comparator : 23,10%." [ref=f269e496]'
+                  - 'img "At 2018, Share class (Net): -13,69%; Comparator : -9,43%." [ref=f269e497]'
+                  - 'img "At 2019, Share class (Net): 11,08%; Comparator : 16,08%." [ref=f269e498]'
+                  - 'img "At 2020, Share class (Net): 15,61%; Comparator : 11,79%." [ref=f269e499]'
+                  - 'img "At 2021, Share class (Net): -3,14%; Comparator : -2,80%." [ref=f269e500]'
+                  - 'img "At 2022, Share class (Net): -19,20%; Comparator : -16,91%." [ref=f269e501]'
+                  - 'img "At 2023, Share class (Net): 8,44%; Comparator : 10,55%." [ref=f269e502]'
+                  - 'img "At 2024, Share class (Net): 4,20%; Comparator : 5,80%." [ref=f269e503]'
+                  - 'img "At 2025, Share class (Net): 31,71%; Comparator : 23,55%." [ref=f269e504]'
+                - region "Comparator" [ref=f269e505]:
+                  - 'img "At 2016, Share class (Net): 10,89%; Comparator : 10,50%." [ref=f269e506]'
+                  - 'img "At 2017, Share class (Net): 18,82%; Comparator : 23,10%." [ref=f269e507]'
+                  - 'img "At 2018, Share class (Net): -13,69%; Comparator : -9,43%." [ref=f269e508]'
+                  - 'img "At 2019, Share class (Net): 11,08%; Comparator : 16,08%." [ref=f269e509]'
+                  - 'img "At 2020, Share class (Net): 15,61%; Comparator : 11,79%." [ref=f269e510]'
+                  - 'img "At 2021, Share class (Net): -3,14%; Comparator : -2,80%." [ref=f269e511]'
+                  - 'img "At 2022, Share class (Net): -19,20%; Comparator : -16,91%." [ref=f269e512]'
+                  - 'img "At 2023, Share class (Net): 8,44%; Comparator : 10,55%." [ref=f269e513]'
+                  - 'img "At 2024, Share class (Net): 4,20%; Comparator : 5,80%." [ref=f269e514]'
+                  - 'img "At 2025, Share class (Net): 31,71%; Comparator : 23,55%." [ref=f269e515]'
+              - generic [ref=f269e516]:
+                - generic [ref=f269e517]: "2016"
+                - generic [ref=f269e518]: "2017"
+                - generic [ref=f269e519]: "2018"
+                - generic [ref=f269e520]: "2019"
+                - generic [ref=f269e521]: "2020"
+                - generic [ref=f269e522]: "2021"
+                - generic [ref=f269e523]: "2022"
+                - generic [ref=f269e524]: "2023"
+                - generic [ref=f269e525]: "2024"
+                - generic [ref=f269e526]: "2025"
+              - generic [ref=f269e527]:
+                - generic [ref=f269e528]: "-30,00%"
+                - generic [ref=f269e529]: "-20,00%"
+                - generic [ref=f269e530]: "-10,00%"
+                - generic [ref=f269e531]: 0,00%
+                - generic [ref=f269e532]: 10,00%
+                - generic [ref=f269e533]: 20,00%
+                - generic [ref=f269e534]: 30,00%
+                - generic [ref=f269e535]: 40,00%
+            - generic [ref=f269e536]: 10,89%
+            - generic [ref=f269e537]: 18,82%
+            - generic [ref=f269e538]: "-13,69%"
+            - generic [ref=f269e539]: 11,08%
+            - generic [ref=f269e540]: 15,61%
+            - generic [ref=f269e541]: "-3,14%"
+            - generic [ref=f269e542]: "-19,20%"
+            - generic [ref=f269e543]: 8,44%
+            - generic [ref=f269e544]: 4,20%
+            - generic [ref=f269e545]: 31,71%
+            - generic [ref=f269e546]: 10,50%
+            - generic [ref=f269e547]: 23,10%
+            - generic [ref=f269e548]: "-9,43%"
+            - generic [ref=f269e549]: 16,08%
+            - generic [ref=f269e550]: 11,79%
+            - generic [ref=f269e551]: "-2,80%"
+            - generic [ref=f269e552]: "-16,91%"
+            - generic [ref=f269e553]: 10,55%
+            - generic [ref=f269e554]: 5,80%
+            - generic [ref=f269e555]: 23,55%
+          - generic: End of interactive chart.
+        - generic [ref=f269e559]:
+          - generic [ref=f269e563]:
+            - paragraph [ref=f269e565]: (Share class (Net))
+            - paragraph [ref=f269e566]: Schroder International Selection Fund Emerging Markets Multi-Asset A Distribution USD MF
+          - generic [ref=f269e570]:
+            - paragraph [ref=f269e572]: (Comparator )
+            - paragraph [ref=f269e573]: 50% MSCI Emerging Market Index, 16.7% JPM EMBI Index EM Hard Currency (USD), 16.7% JPM GBI Emerging Market Index - EM Local (USD), 16.7% JPM CEMB Index (USD)
+        - paragraph [ref=f269e576]: This chart shows the fund’s performance as the percentage loss or gain per year over the last 7 years against its benchmark.
+        - paragraph [ref=f269e579]:
+          - strong [ref=f269e580]: "Past performance is not a reliable indicator of future performance. Markets could develop very differently in the future. It can help you to assess how the fund has been managed in the past and compare it to its benchmark. Share class launch date: 08.04.2015. Fund launch date: 08.04.2015 The chart shows performance in USD after the ongoing charges and the portfolio transaction costs have been paid. Entry charges are excluded from calculations of past performance."
+      - generic [ref=f269e584]:
+        - generic [ref=f269e585]:
+          - generic [ref=f269e586]:
+            - heading "Cumulative Return (%)" [level=2] [ref=f269e587]
+            - 'img "More information: Total return over five years." [ref=f269e590]'
+          - heading "08.04.2015 - 30.07.2026" [level=3] [ref=f269e593]
+        - generic [ref=f269e594]:
+          - 'button "From: 08.04.2015 To: 30.07.2026" [ref=f269e600] [cursor=pointer]':
+            - generic [ref=f269e601]:
+              - generic [ref=f269e602]: "From:"
+              - generic [ref=f269e603]: 08.04.2015
+              - generic [ref=f269e604]: "To:"
+              - generic [ref=f269e605]: 30.07.2026
+          - region "Chart. Highcharts interactive chart." [ref=f269e610]:
+            - generic [ref=f269e611]:
+              - paragraph [ref=f269e612]: Chart
+              - generic [ref=f269e613]: Line chart with 2 lines.
+              - generic [ref=f269e614]: Cumulative performance chart
+              - generic [ref=f269e615]: The chart has 1 X axis displaying Time. Data ranges from 2015-04-08 00:00:00 to 2026-07-30 00:00:00.
+              - generic [ref=f269e616]: The chart has 1 Y axis displaying values. Data ranges from -0.2017447 to 0.9504828000000001.
+            - generic [ref=f269e621]:
+              - img "Interactive chart" [ref=f269e622]:
+                - generic [ref=f269e628]:
+                  - region "Share class (Net), line 1 of 2 with 4132 data points." [ref=f269e630]
+                  - region "Comparator , line 2 of 2 with 4129 data points." [ref=f269e633]
+                - generic [ref=f269e635]:
+                  - generic [ref=f269e636]: January2016
+                  - generic [ref=f269e637]: January2018
+                  - generic [ref=f269e638]: January2020
+                  - generic [ref=f269e639]: January2022
+                  - generic [ref=f269e640]: January2024
+                  - generic [ref=f269e641]: January2026
+                - generic [ref=f269e642]:
+                  - generic [ref=f269e643]: "-25,0%"
+                  - generic [ref=f269e644]: 0,0%
+                  - generic [ref=f269e645]: 25,0%
+                  - generic [ref=f269e646]: 50,0%
+                  - generic [ref=f269e647]: 75,0%
+                  - generic [ref=f269e648]: 100,0%
+                  - generic [ref=f269e649]: 125,0%
+              - generic:
+                - region "Axis zoom"
+            - generic: End of interactive chart.
+        - generic [ref=f269e653]:
+          - generic [ref=f269e657]:
+            - generic [ref=f269e658]: (Share class (Net)) 08.04.2015 - 30.07.2026
+            - paragraph [ref=f269e660]: Schroder International Selection Fund Emerging Markets Multi-Asset A Distribution USD MF
+            - generic [ref=f269e661]: 74,6%
+          - generic [ref=f269e671]:
+            - generic [ref=f269e672]: (Comparator ) 08.04.2015 - 27.07.2026
+            - paragraph [ref=f269e674]: 50% MSCI Emerging Market Index, 16.7% JPM EMBI Index EM Hard Currency (USD), 16.7% JPM GBI Emerging Market Index - EM Local (USD), 16.7% JPM CEMB Index (USD)
+            - generic [ref=f269e675]: 79,8%
+      - generic [ref=f269e686]:
+        - heading "Price History" [level=2] [ref=f269e689]
+        - generic [ref=f269e690]:
+          - tablist [ref=f269e691]:
+            - tab "Chart View" [selected] [ref=f269e692] [cursor=pointer]
+            - tab "Table View" [ref=f269e693] [cursor=pointer]
+          - tabpanel "Chart View" [ref=f269e695]:
+            - generic [ref=f269e697]:
+              - 'button "From: 08.04.2015 To: 31.07.2026" [ref=f269e700] [cursor=pointer]':
+                - generic [ref=f269e701]:
+                  - generic [ref=f269e702]: "From:"
+                  - generic [ref=f269e703]: 08.04.2015
+                  - generic [ref=f269e704]: "To:"
+                  - generic [ref=f269e705]: 31.07.2026
+              - button [ref=f269e709] [cursor=pointer]:
+                - paragraph [ref=f269e713]: Download Price
+            - region "Chart. Highcharts interactive chart." [ref=f269e716]:
+              - generic [ref=f269e717]:
+                - paragraph [ref=f269e718]: Chart
+                - generic [ref=f269e719]: Line chart with 2893 data points.
+                - generic [ref=f269e720]: Price history chart, showing price over time
+                - generic [ref=f269e721]: The chart has 1 X axis displaying Time. Data ranges from 2015-04-08 00:00:00 to 2026-07-31 00:00:00.
+                - generic [ref=f269e722]: The chart has 1 Y axis displaying values. Data ranges from 61.5736 to 118.6451.
+              - generic [ref=f269e727]:
+                - img "Interactive chart" [ref=f269e728]:
+                  - region "Share class (Net), line 1 of 1 with 2893 data points." [ref=f269e736]
+                  - generic [ref=f269e738]:
+                    - generic [ref=f269e739]: USD 60,0000
+                    - generic [ref=f269e740]: USD 70,0000
+                    - generic [ref=f269e741]: USD 80,0000
+                    - generic [ref=f269e742]: USD 90,0000
+                    - generic [ref=f269e743]: USD 100,0000
+                    - generic [ref=f269e744]: USD 110,0000
+                    - generic [ref=f269e745]: USD 120,0000
+                    - generic [ref=f269e746]: USD 130,0000
+                - generic:
+                  - region "Axis zoom"
+                - generic [ref=f269e747]: January 2016
+                - generic [ref=f269e749]: January 2018
+                - generic [ref=f269e751]: January 2020
+                - generic [ref=f269e753]: January 2022
+                - generic [ref=f269e755]: January 2024
+                - generic [ref=f269e757]: January 2026
+              - generic: End of interactive chart.
+      - generic [ref=f269e765]:
+        - heading "Asset allocation" [level=2] [ref=f269e768]
+        - group [ref=f269e769]:
+          - combobox "Category" [ref=f269e771] [cursor=pointer]:
+            - option "Asset class" [selected]
+            - option "Sector"
+            - option "Region"
+            - option "Top Holdings"
+        - paragraph [ref=f269e772]:
+          - text: As of
+          - strong [ref=f269e773]: 30.06.2026
+        - generic [ref=f269e775]:
+          - generic [ref=f269e776]:
+            - paragraph [ref=f269e779]: 55,70%
+            - paragraph [ref=f269e782]: Equities
+          - generic [ref=f269e783]:
+            - paragraph [ref=f269e786]: 18,00%
+            - paragraph [ref=f269e789]: Hard Currency Corporate
+          - generic [ref=f269e790]:
+            - paragraph [ref=f269e793]: 10,30%
+            - paragraph [ref=f269e796]: Cash
+          - generic [ref=f269e797]:
+            - paragraph [ref=f269e800]: 9,10%
+            - paragraph [ref=f269e803]: Hybrids
+          - generic [ref=f269e804]:
+            - paragraph [ref=f269e807]: 3,60%
+            - paragraph [ref=f269e810]: Local Currency Sovereign
+          - generic [ref=f269e811]:
+            - paragraph [ref=f269e814]: 3,30%
+            - paragraph [ref=f269e817]: US Treasuries
+        - paragraph [ref=f269e820]: "Source: Schroders. Top holdings and asset allocation are at fund level."
+      - generic [ref=f269e824]:
+        - heading "ESG" [level=2] [ref=f269e827]
+        - generic [ref=f269e829]:
+          - tablist [ref=f269e830]:
+            - tab "Overview" [selected] [ref=f269e831] [cursor=pointer]
+            - tab "People" [ref=f269e832] [cursor=pointer]
+            - tab "Planet" [ref=f269e838] [cursor=pointer]
+          - button "Overall impact" [ref=f269e845] [cursor=pointer]
+          - tabpanel "Overview" [ref=f269e848]:
+            - generic [ref=f269e850]:
+              - generic [ref=f269e851]:
+                - heading "Overall impact" [level=2] [ref=f269e853]
+                - heading "As of 30.06.2026" [level=3] [ref=f269e854]
+              - generic [ref=f269e855]:
+                - generic [ref=f269e857]:
+                  - region "Chart. Highcharts interactive chart." [ref=f269e858]:
+                    - generic [ref=f269e859]:
+                      - paragraph [ref=f269e860]: Chart
+                      - generic [ref=f269e861]: Chart with 2 data series.
+                      - generic [ref=f269e862]: Environmental, social and governance chart
+                      - generic [ref=f269e863]: The chart has 1 Y axis displaying values. Data ranges from -9 to 9.
+                    - generic [ref=f269e868]:
+                      - img "Interactive chart" [ref=f269e869]:
+                        - generic [ref=f269e983]:
+                          - region ", series 1 of 2 with 1 data point." [ref=f269e984]:
+                            - img "-0.280209833147102. ." [ref=f269e985]
+                          - region ", series 2 of 2 with 1 data point." [ref=f269e986]:
+                            - img "-3.947170593551222. ." [ref=f269e987]
+                        - generic [ref=f269e988]:
+                          - generic [ref=f269e989]: "-8"
+                          - generic [ref=f269e990]: "-6"
+                          - generic [ref=f269e991]: "-4"
+                          - generic [ref=f269e992]: "-2"
+                          - generic [ref=f269e993]: "0"
+                          - generic [ref=f269e994]: "2"
+                          - generic [ref=f269e995]: "4"
+                          - generic [ref=f269e996]: "6"
+                          - generic [ref=f269e997]: "8"
+                      - generic:
+                        - region "Axis zoom"
+                    - generic: End of interactive chart.
+                  - generic [ref=f269e1001]:
+                    - generic [ref=f269e1002]:
+                      - paragraph [ref=f269e1005]: Fund
+                      - paragraph [ref=f269e1006]:
+                        - generic [ref=f269e1007]: "-0,3%"
+                    - generic [ref=f269e1008]:
+                      - paragraph [ref=f269e1011]: Benchmark
+                      - paragraph [ref=f269e1012]:
+                        - generic [ref=f269e1013]: "-3,9%"
+                  - generic [ref=f269e1014]:
+                    - generic [ref=f269e1015]:
+                      - paragraph [ref=f269e1018]:
+                        - generic [ref=f269e1019]: 85,0%
+                      - paragraph [ref=f269e1021]: Coverage*
+                    - generic [ref=f269e1022]:
+                      - paragraph [ref=f269e1025]:
+                        - generic [ref=f269e1026]: 97,1%
+                      - paragraph [ref=f269e1028]: Coverage*
+                - paragraph [ref=f269e1031]: "The sustainability scores of the fund and the benchmark are shown. The benchmark is the 50% MSCI Emerging Market Index (USD), 16.7% JPM EMBI Index EM Hard Currency (USD), 16.7% JPM GBI Emerging Market Index - EM Local (USD), 16.7% JPM CEMB Index (USD).The Schroders Impact score is based on Schroders’ proprietary tool, SustainEx™. SustainEx™ provides an estimate of the potential societal or environmental impact that may be created by the companies and other issuers in which the fund is invested. The result is expressed as a notional percentage (positive or negative) of sales of the relevant underlying companies and other issuers. For example, a SustainEx™ score of +2% would mean a company contributes $2 of relative notional positive impact (i.e. benefits to society) per $100 of sales.We calculate SustainEx™ scores for companies and other issuers in the fund to arrive at the total fund score. The “Overall Impact” shown is a measure of the fund’s estimated impact compared to that of its benchmark, in each case calculated as a relative notional percentage as described above.The “Impact on People” and “Impact on Planet” measure the fund’s estimated underlying benefits and harms, as compared to its benchmark, in each case calculated as a relative notional percentage as described above.For EU/EEA readers: any ESG ratings within the meaning of Regulation (EU) 2024/3005 contained herein are issued by Schroder Investment Management (Europe) S.A., 5 Heinehaff, L-1736 Senningerberg, Luxembourg. For further information, please go to https://www.schroders.com/en/global/individual/sustainability/sustainability-policies-disclosures-and-reports/"
+      - list [ref=f269e1036]:
+        - listitem "Fund facts" [ref=f269e1037]:
+          - button [ref=f269e1038] [cursor=pointer]:
+            - heading "Fund facts" [level=2] [ref=f269e1041]
+        - listitem "Price" [ref=f269e1044]:
+          - button [ref=f269e1045] [cursor=pointer]:
+            - heading "Price" [level=2] [ref=f269e1048]
+        - listitem "Risk statistics & financial ratios" [ref=f269e1051]:
+          - button [ref=f269e1052] [cursor=pointer]:
+            - heading "Risk statistics & financial ratios" [level=2] [ref=f269e1055]
+        - listitem "Purchase details" [ref=f269e1058]:
+          - button [ref=f269e1059] [cursor=pointer]:
+            - heading "Purchase details" [level=2] [ref=f269e1062]
+        - listitem "Codes" [ref=f269e1065]:
+          - button [ref=f269e1066] [cursor=pointer]:
+            - heading "Codes" [level=2] [ref=f269e1069]
+        - listitem "Ratings and accreditation" [ref=f269e1072]:
+          - button [ref=f269e1073] [cursor=pointer]:
+            - heading "Ratings and accreditation" [level=2] [ref=f269e1076]
+      - generic "Information relating to changes in fund manager, investment objective, benchmark and corporate action information" [ref=f269e1084]:
+        - button [expanded] [ref=f269e1085] [cursor=pointer]:
+          - heading "Information relating to changes in fund manager, investment objective, benchmark and corporate action information" [level=2] [ref=f269e1088]
+        - region "Information relating to changes in fund manager, investment objective, benchmark and corporate action information" [ref=f269e1092]:
+          - paragraph [ref=f269e1095]:
+            - text: On 29.10.2021 Schroder ISF Emerging Multi-Asset Income changed its name to Schroder ISF Emerging Markets Multi Asset.
+            - strong [ref=f269e1096]: "Benchmarks: (If applicable)"
+            - text: Some performance differences between the fund and the benchmark may arise because the fund performance is calculated at a different valuation point from the benchmark. The fund is not managed with reference to a benchmark. The comparator benchmark has been selected because the investment manager believes that the benchmark is a suitable comparison for performance purposes given the fund's investment objective and policy.
+      - generic "Source and ratings information" [ref=f269e1102]:
+        - button [expanded] [ref=f269e1103] [cursor=pointer]:
+          - heading "Source and ratings information" [level=2] [ref=f269e1106]
+        - region "Source and ratings information" [ref=f269e1110]:
+          - paragraph [ref=f269e1113]:
+            - strong [ref=f269e1114]: "MSCI:"
+            - text: "Certain information contained herein (the “Information”) is sourced from/copyright of MSCI Inc., MSCI Solutions LLC, or their affiliates (“MSCI”), or information providers (together the “MSCI Parties”) and may have been used to calculate scores, signals, or other indicators. The Information is for internal use only and may not be reproduced or disseminated in whole or part without prior written permission. The Information may not be used for, nor does it constitute, an offer to buy or sell, or a promotion or recommendation of, any security, financial instrument or product, trading strategy, or index, nor should it be taken as an indication or guarantee of any future performance. Some funds may be based on or linked to MSCI indexes, and MSCI may be compensated based on the fund’s assets under management or other measures. MSCI has established an information barrier between index research and certain Information. None of the Information in and of itself can be used to determine which securities to buy or sell or when to buy or sell them. For regulatory disclosures mandated under the EU ESG Rating Activities Regulation (Regulation (EU) 2024/3005), please visit www.msci.com/legal/sustainability-and-climate-resources-and-disclosures for methodology and organizational disclosures and https://one.msci.com for rating level disclosures. The Information is provided “as is” and the user assumes the entire risk of any use it may make or permit to be made of the Information. No MSCI Party warrants or guarantees the originality, accuracy and/or completeness of the Information and each expressly disclaims all express or implied warranties. No MSCI Party shall have any liability for any errors or omissions in connection with any Information herein, or any liability for any direct, indirect, special, punitive, consequential or any other damages (including lost profits) even if notified of the possibility of such damages. Source of all performance data, unless otherwise stated: Morningstar, bid to bid, net income reinvested, net of fees. Aggregated SustainEx metric definitions are: Carbon emissions: Environmental and societal cost of carbon emissions (scope 1,2 and 3). Water consumption: Environmental and societal cost of companies’ and countries’ freshwater withdrawal. Assigned based on reported water usage. Avoided carbon emissions: Environmental and societal benefits of activities and technologies that enable system-wide reductions in carbon emissions, including companies’ products and services and country investments in clean energy. Fair pay: Societal benefits or costs of companies over- or under-paying staff relative to local living wages (for regions in which they operate). Alcohol: Societal cost of alcohol consumption (assigned to alcohol producers). Tobacco: Societal cost of smoking (assigned to tobacco producers). Energy exposure definitions are: Coal exposure: Measures the weight of the portfolio exposed to companies deriving revenue from the mining of thermal coal (including lignite, bituminous, anthracite and steam coal) and its sale to external parties. It excludes: revenue from metallurgical coal; coal mined for internal power generation (e.g. in the case of vertically integrated power producers); intra-company sales of mined thermal coal; and revenue from coal trading. Tar sands exposure: Measures the weight of the portfolio exposed to companies deriving revenue from oil sands extraction for a set of companies that own oil sands reserves and disclose evidence of deriving revenue from oil sands extraction. This factor does not include revenue from non-extraction activities (e.g. exploration, surveying, processing, refining); ownership of oil sands reserves with no associated extraction revenues; revenue from intra-company sales. *Coverage, which refers to the percentage of indicator data available at month-end for the underlying holdings of the fund and the benchmark, where applicable."
+            - strong [ref=f269e1115]: "Impact scores:"
+            - text: These are generated using Schroders’ proprietary tool SustainEx™.
+            - strong [ref=f269e1116]: "MSCI ESG Research rating:"
+            - text: Produced by MSCI ESG Research as of the “reporting date”. MSCI ESG Research LLC’s (“MSCI ESG”) Fund Metrics and Ratings (the “Information”) provide environmental, social and governance data with respect to underlying securities within more than 31,000 multi-asset class mutual funds and ETFs globally. MSCI ESG is a registered investment adviser under the U.S. Investment Advisers Act of 1940. MSCI ESG materials have not been submitted to, nor received approval from, the U.S. Securities and Exchange Commission or any other regulatory body. None of the Information constitutes an offer to buy or sell, or a promotion or recommendation of, any security, financial instrument or product or trading strategy, nor should it be taken as an indication or guarantee of any future performance, analysis, forecast or prediction. The Information should not be used to determine which securities to buy or sell or when to buy or sell them. The Information is provided “as is” and the user of the Information assumes the entire risk of any use it may make or permit to be made of the Information. Information herein is believed to be reliable but Schroders does not warrant its completeness or accuracy. No responsibility can be accepted for errors of fact or opinion whether on MSCI or Schroders’ part. Reliance should not be placed on the views and information in the document when taking individual investment and/or strategic decisions. Schroders has expressed its own views in this document and these may change. Please note that onward use of the data contained within this document is subject to applicable MSCI licensing requirements. Please note that if you wish to disclose this data for your own purposes, you will need to agree an appropriate licence with MSCI. For further information, please go to
+            - strong [ref=f269e1117]:
+              - link "MSCI ESG Ratings Further Information." [ref=f269e1118] [cursor=pointer]:
+                - /url: https://www.msci.com/data-and-analytics/sustainability-solutions/esg-ratings
+            - strong [ref=f269e1119]: SustainEx™
+            - text: provides an aggregate estimate of the social and environmental costs and benefits that an issuer may create. It does this by scoring the issuer against a list of indicators – scores may be positive (for example, when an issuer pays more than average living wages) or negative (for example, when an issuer emits carbon). The result is expressed as an aggregate score of the sustainability indicators for each issuer, specifically a notional percentage (positive or negative) of sales or GDP of the relevant underlying issuer. SustainEx™ utilises and is reliant on third party data (including third party estimates) as well as Schroders’ own modelling assumptions, and the outcome may differ from other sustainability tools and measures. Where SustainEx™ relies on data and estimates produced by third parties, Schroders cannot and does not warrant the accuracy, completeness and adequacy of such third party data and estimates. Like any model, SustainEx™ will evolve and develop over time as Schroders continues to assess, refine and add to the metrics and their relative contributions. Generating SustainEx™ scores involves an element of judgment and subjectivity across the different metrics chosen by Schroders, and accordingly Schroders does not accept any liability arising from any inaccuracy or omission in, or the use of or reliance on, SustainEx™ scores. As the model evolves, changes made to how metrics are applied may result in changes to the SustainEx™ score of any issuer and ultimately the overall fund/portfolio score. At the same time, of course, the issuer’s SustainEx™ performance might improve or deteriorate. Schroders’ proprietary sustainability tools including SustainEx™ may not cover all of a fund/portfolio’s holdings from time to time, in which case Schroders may use a range of alternative methods to assess the relevant holding. In addition, certain types of assets (such as cash) are treated as neutral and are therefore not considered by our proprietary tools. Other types of assets such as equity indices and index derivatives may not be considered by our proprietary tools and in such case would be excluded from a product’s sustainability score.
+      - generic "Important information" [ref=f269e1125]:
+        - button [expanded] [ref=f269e1126] [cursor=pointer]:
+          - heading "Important information" [level=2] [ref=f269e1129]
+        - region "Important information" [ref=f269e1133]:
+          - generic [ref=f269e1135]:
+            - text: Nothing in this information should be construed as advice and is therefore not a recommendation to buy or sell shares. An investment in Schroder International Selection Fund (the "Company") entails risks, which are fully described in the prospectus.
+            - paragraph [ref=f269e1136]: Nothing in this document should be construed as advice and is therefore not a recommendation to buy or sell shares. An investment in Schroder International Selection Fund ("the "Company") entails risks, which are fully described in the prospectus.
+            - text: "Subscriptions for shares of the Company can only be made on the basis of its latest Key Information Document (the “KID”) and prospectus, together with the latest audited annual report (and subsequent unaudited semi-annual report, if published), copies of which can be obtained, free of charge, from Schroder Investment Management (Europe) S.A. An investment concerns the acquisition of shares in the Company, and not the underlying assets. The Company is a Luxembourg-based Société d'Investissement à Capital Variable (SICAV), established for an unlimited period and coordinated with regard to the European regulations and meets the criteria for Undertakings for Collective Investment in Transferable Securities (UCITS). The KIDs are available in Bulgarian, Czech, Danish, Dutch, English, French, Finnish, German, Greek, Hungarian, Icelandic, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Slovakian, Spanish and Swedish, and the prospectus are available in English, Flemish, French, German, Spanish, free of charge at www.eifs.lu/schroders. The availability of KIDs in the aforementioned languages is subject to the registration of the fund in the respective jurisdiction.For Greece, the Key Information Documents may be obtained in Greek and the other documents in English, free of charge, from the following link: www.eifs.lu/schroders."
+            - paragraph [ref=f269e1137]: Schroders may decide to cease the distribution of any fund(s) in any EEA country at any time but we will publish our intention to do so on our website, in line with applicable regulatory requirements.
+            - paragraph [ref=f269e1138]: The fund has environmental and/or social characteristics within the meaning of Article 8 of Regulation (EU) 2019/2088 on Sustainability-related Disclosures in the Financial Services Sector (the “SFDR”). For information on sustainability-related aspects of this fund please go to https://www.schroders.com/en/global/individual/all-eu-sites/
+            - text: Any reference to regions/ countries/ sectors/ stocks/ securities is for illustrative purposes only and not a recommendation to buy or sell any financial instruments or adopt a specific investment strategy.
+            - paragraph [ref=f269e1139]: Past Performance is not a guide to future performance and may not be repeated.
+            - text: The value of investments and the income from them may go down as well as up and investors may not get back the amounts originally invested. Exchange rate changes may cause the value of investments to fall as well as rise.Performance data does not take into account any commissions and costs, if any, charged when units or shares of any fund, as applicable, are issued and redeemed.Schroders has expressed its own views and opinions in this document and these may change.
+            - paragraph [ref=f269e1140]: The information contained herein is believed to be reliable. Where third-party data is referenced, it remains subject to the rights of the respective provider and must not be reproduced or used without prior consent.
+            - paragraph [ref=f269e1141]
+            - paragraph [ref=f269e1142]: "A summary of investor rights may be obtained in Bulgarian, Czech, Dutch, English, French, German, Greek, Hungarian, Italian, Polish, Portuguese, Slovakian, Spanish and Swedish from: https://www.schroders.com/en/global/individual/summary-of-investor-rights/"
+            - strong [ref=f269e1143]: © Morningstar 2025.
+            - text: "All Rights Reserved. The information contained herein: (1) is proprietaryto Morningstar and/or its content providers; (2) may not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this information. Past performance is no guarantee of future results.JP Morgan index: Information has been obtained from sources believed to be reliable but J.P. Morgan does not warrant its completeness or accuracy. The index is used with permission. The index may not be copied, used or distributed without J.P. Morgan's prior written approval. Copyright 2025, J.P. Morgan Chase & Co. All rights reserved."
+            - paragraph [ref=f269e1144]: Issued by Schroder Investment Management (Europe) S.A., 5 Heienhaff, L-1736 Senningerberg, Luxembourg. Registration No B 37.799.
+            - strong [ref=f269e1145]: "MSCI index:"
+            - text: "Source: MSCI. The MSCI information may only be used for your internal use, may not be reproduced or redisseminated in any form and may not be used as a basis for or a component of any financial instruments or products or indices. None of the MSCI information is intended to constitute investment advice or a recommendation to make (or refrain from making) any kind of investment decision and may not be relied on as such. Historical data and analysis should not be taken as an indication or guarantee of any future performance analysis, forecast or prediction. The MSCI information is provided on an “as is” basis and the user of this information assumes the entire risk of any use made of this information. MSCI, each of its affiliates and each other person involved in or related to compiling, computing or creating any MSCI information (collectively, the “MSCI Parties”) expressly disclaims all warranties (including, without limitation, any warranties of originality, accuracy, completeness, timeliness, non-infringement, merchantability and fitness for a particular purpose) with respect to this information. Without limiting any of the foregoing, in no event shall any MSCI Party have any liability for any direct, indirect, special, incidental, punitive, consequential (including, without limitation, lost profits) or any other damages. (www.msci.com)"
+            - paragraph [ref=f269e1146]: Schroders will be a data controller in respect of your personal data. For information on how Schroders might process your personal data, please view our Privacy Policy available at https://www.schroders.com/en/global/individual/footer/privacy-statement/ or on request should you not have access to this webpage.
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

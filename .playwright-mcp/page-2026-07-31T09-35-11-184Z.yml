@@ -1,0 +1,201 @@
+- generic [ref=f172e1]:
+  - link "Skip to Content (press ENTER)" [ref=f172e2] [cursor=pointer]:
+    - /url: "#mainSection"
+  - banner [ref=f172e3]:
+    - generic [ref=f172e5]:
+      - generic [ref=f172e6]:
+        - button "Menu" [ref=f172e8] [cursor=pointer]
+        - link [ref=f172e12] [cursor=pointer]:
+          - /url: /en-gb/individual
+          - img "Barings" [ref=f172e13]
+        - button "Search" [ref=f172e16] [cursor=pointer]
+      - generic [ref=f172e20]:
+        - searchbox "What are you looking for?" [ref=f172e21]
+        - button "Submit" [ref=f172e22] [cursor=pointer]
+        - button "Clear Search" [ref=f172e23] [cursor=pointer]
+    - navigation [ref=f172e24]:
+      - generic [ref=f172e28]:
+        - list [ref=f172e29]:
+          - listitem [ref=f172e30]:
+            - link "About" [ref=f172e31] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f172e32]:
+            - link "Strategies" [ref=f172e33] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f172e34]:
+            - link "Funds" [ref=f172e35] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f172e36]:
+            - link "Financing Solutions" [ref=f172e37] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f172e38]:
+            - link "Sustainability" [ref=f172e39] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f172e40]:
+            - link "Perspectives" [ref=f172e41] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f172e42]:
+            - link "Contact" [ref=f172e43] [cursor=pointer]:
+              - /url: "#"
+        - button "Locations" [ref=f172e45] [cursor=pointer]
+  - main [ref=f172e48]:
+    - generic [ref=f172e49]:
+      - generic [ref=f172e50]:
+        - generic [ref=f172e56]:
+          - heading "Barings Europe Select Fund" [level=1] [ref=f172e57]
+          - paragraph [ref=f172e58]: PUBLIC EQUITIES
+        - generic [ref=f172e61]:
+          - generic [ref=f172e63]:
+            - generic [ref=f172e64]:
+              - combobox "Click to view shareclass options from the dropdown below" [ref=f172e65] [cursor=pointer]:
+                - generic [ref=f172e66]: Class A USD Accumulating
+              - button "Submit" [ref=f172e69] [cursor=pointer]
+            - generic [ref=f172e70]:
+              - heading "ISIN" [level=2] [ref=f172e71]
+              - paragraph [ref=f172e72]: IE00BGKPWP52
+            - generic [ref=f172e73]:
+              - heading "Quick Links" [level=3] [ref=f172e74]
+              - paragraph [ref=f172e75]:
+                - link "Prospectus" [ref=f172e76] [cursor=pointer]:
+                  - /url: https://documents.barings.com/docs/barings-international-umbrella-fund-prospectus-uk-en.pdf?t=06242026123632
+          - generic [ref=f172e78]:
+            - heading "Small Cap Equities" [level=2] [ref=f172e79]
+            - generic [ref=f172e81]:
+              - generic [ref=f172e82]:
+                - heading "Minimum Investment" [level=2] [ref=f172e83]
+                - paragraph [ref=f172e84]: USD 5,000.00
+              - generic [ref=f172e85]:
+                - heading "Fund Size" [level=2] [ref=f172e86]
+                - paragraph [ref=f172e87]: EUR 34.10 Million
+                - paragraph [ref=f172e88]: As of 30/06/2026
+      - generic [ref=f172e91]:
+        - tablist [ref=f172e96]:
+          - tab "Fund Facts" [selected] [ref=f172e97] [cursor=pointer]
+          - tab "Portfolio Managers" [ref=f172e98] [cursor=pointer]
+          - tab "Documents" [ref=f172e99] [cursor=pointer]
+        - tabpanel "Fund Facts" [ref=f172e101]:
+          - generic [ref=f172e103]:
+            - generic [ref=f172e104]:
+              - generic [ref=f172e107]:
+                - paragraph [ref=f172e108]: For sub-funds or schemes authorised by the Central Bank of Ireland and not authorised by the UK's Financial Conduct Authority, UK investors should note that the sub-fund is not covered by the UK Financial Ombudsman or the UK Financial Services Compensation scheme. UK Retail investors in the sub-fund have a right to access the alternative dispute resolution scheme in Ireland if they feel their complaint has not been dealt with to their satisfaction. However, UK investors will not have a right to access a compensation scheme in Ireland if either the Sub-Fund’s management company or the depositary should become unable to meet its liabilities to investors. Investors should consider obtaining financial advice and review the Prospectus and Supplement before investing.
+                - paragraph [ref=f172e109]:
+                  - strong [ref=f172e110]: The assets of the Barings Europe Select Fund within Barings Investment Funds plc was merged into the Barings Europe Select Fund within the Barings International Umbrella Fund on 14 October 2022. The Fund’s previous track record with the inception date as at 8 February 2019 has been continued.
+                - paragraph [ref=f172e111]: The Barings Europe Select Fund is an Irish-domiciled fund open to new investors, which mirrors the UK-domiciled Barings Europe Select Trust. The Barings Europe Select Fund maintains the same portfolio management team, has substantially the same objective, performance comparator, fee schedule and other key features as the existing UK-domiciled Barings Europe Select Trust.
+                - heading "Objective" [level=2] [ref=f172e112]
+                - paragraph [ref=f172e113]: The investment objective of the Fund is to achieve long-term capital growth by investing in Europe excluding the United Kingdom.
+                - heading "Strategy" [level=2] [ref=f172e114]
+                - paragraph [ref=f172e115]: The Fund will seek to achieve its investment objective by investing at least 75% of its total assets directly and indirectly in equities and equity-related securities (as described below) of smaller companies incorporated in, or exercising the predominant part of their economic activity, or quoted or traded on the stock exchanges in Europe excluding the United Kingdom.
+                - heading "Who Should Invest" [level=2] [ref=f172e116]
+                - paragraph [ref=f172e117]: The Fund is designed for investors seeking a strategy that targets long-term capital growth by investing in smaller companies in Europe excluding the U.K.
+                - heading "Risks" [level=2] [ref=f172e118]
+                - paragraph [ref=f172e119]: The value of investments can fall as well as rise and investors may not get back the amount originally invested. The Fund can hold smaller company shares which can be more difficult to buy and sell as they may trade infrequently, in small volumes and their share prices may fluctuate more than those of larger companies. Changes in exchange rates between the currency of the Fund and the currencies in which the assets of the Fund are valued may also affect the value of the Fund. The Fund may also use derivatives for investment purposes. These are complex instruments that carry the risk of causing increased volatility in the value of the Fund.
+              - generic [ref=f172e120]:
+                - generic [ref=f172e121]:
+                  - heading "Fund Facts" [level=2] [ref=f172e122]
+                  - generic [ref=f172e123]:
+                    - heading "Fund Type" [level=3] [ref=f172e124]
+                    - paragraph [ref=f172e125]: UCITS Funds
+                  - generic [ref=f172e126]:
+                    - heading "Inception Date" [level=3] [ref=f172e127]
+                    - paragraph [ref=f172e128]: 08/02/2019
+                  - generic [ref=f172e129]:
+                    - heading "Domicile" [level=3] [ref=f172e130]
+                    - paragraph [ref=f172e131]: Ireland
+                - generic [ref=f172e132]:
+                  - heading "Share Class Information" [level=2] [ref=f172e133]
+                  - generic [ref=f172e134]:
+                    - heading "Dealing Frequency" [level=3] [ref=f172e135]
+                    - paragraph [ref=f172e136]: Daily
+                  - generic [ref=f172e137]:
+                    - heading "Management Charges" [level=3] [ref=f172e138]
+                    - paragraph [ref=f172e139]: 1.50%
+            - paragraph [ref=f172e144]:
+              - strong [ref=f172e145]: The information available on this website is not an offer to sell or an invitation to apply for this product and is by way of information only, nor is the information available on this website intended as an offering of this product to US Persons. Depending on your jurisdiction, you may not have access to this product. Individual investors should contact their financial advisor before investing in this product. The Key Investor Information Document (KIID), if applicable, must be received and read before investing. All other relevant documents relating to the product such as the Report and Accounts and Prospectus should also be read. The information available on this website does not constitute investment, tax, legal or other advice or recommendation.
+      - dialog [ref=f172e147]:
+        - generic [ref=f172e148]:
+          - button "Close modal" [active] [ref=f172e149] [cursor=pointer]: ✕
+          - generic [ref=f172e150]:
+            - heading "United Kingdom" [level=5] [ref=f172e151]
+            - paragraph [ref=f172e152]: Individual
+        - generic [ref=f172e153]:
+          - paragraph [ref=f172e154]: By clicking confirm below I agree that I meet the criteria listed below.
+          - list [ref=f172e155]:
+            - listitem [ref=f172e156]:
+              - strong [ref=f172e157]: I am a UK resident
+          - paragraph [ref=f172e158]
+          - paragraph [ref=f172e159]: You are representing that you are not a US person. The information available on this website is not an offer to sell or an invitation to apply for this product and is by way of information only, nor is the information available on this website intended as an offering of this product to US Persons.
+          - paragraph [ref=f172e160]
+          - paragraph [ref=f172e161]:
+            - text: By accessing this site you agree to be subject to the website's
+            - link "Legal and Privacy Notice." [ref=f172e162] [cursor=pointer]:
+              - /url: https://www.barings.com/privacy-policy
+        - generic [ref=f172e163]:
+          - button "I confirm" [ref=f172e164] [cursor=pointer]
+          - button "Close this dialog window" [ref=f172e165] [cursor=pointer]: No thank you
+  - generic [ref=f172e168]:
+    - paragraph [ref=f172e172]:
+      - text: We use cookies on our website to provide you with the best experience. By proceeding to our site you agree to our
+      - link "Cookies Notice" [ref=f172e173] [cursor=pointer]:
+        - /url: /en-gb/individual/content/cookies-notice
+      - text: and our site
+      - link "Terms and Conditions" [ref=f172e174] [cursor=pointer]:
+        - /url: /en-gb/individual/content/terms-and-conditions
+      - text: .
+    - button "Close and Accept" [ref=f172e175] [cursor=pointer]
+  - generic: ✕
+  - contentinfo [ref=f172e178]:
+    - generic [ref=f172e181]:
+      - generic [ref=f172e183]:
+        - heading "Who We Are" [level=2] [ref=f172e184]
+        - generic [ref=f172e185]:
+          - paragraph [ref=f172e186]: Barings is a $502 billion* global alternative asset manager that partners with institutional, insurance and wealth clients and supports leading businesses with flexible financing solutions. The firm, a subsidiary of MassMutual with a minority investment from MS&AD, seeks to deliver excess returns by leveraging its global scale and capabilities across credit, real assets, capital solutions and emerging markets.
+          - paragraph [ref=f172e187]: "*As of June 30, 2026"
+        - link "Contact Us" [ref=f172e188] [cursor=pointer]:
+          - /url: /en-gb/individual/contact/contact-barings
+      - generic [ref=f172e190]:
+        - heading "Follow Us" [level=2] [ref=f172e191]
+        - link [ref=f172e192] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/barings
+          - img "LinkedIn" [ref=f172e193]
+        - link [ref=f172e194] [cursor=pointer]:
+          - /url: https://twitter.com/Barings
+          - img "Twitter" [ref=f172e195]
+        - link [ref=f172e196] [cursor=pointer]:
+          - /url: https://podcasts.apple.com/us/podcast/streaming-income-a-podcast-from-barings/id1449496233
+          - img "Apple Podcast" [ref=f172e197]
+        - link [ref=f172e198] [cursor=pointer]:
+          - /url: https://open.spotify.com/show/7wv1GJCQHcggXDdMHbhRlY
+          - img "Spotify" [ref=f172e199]
+        - link [ref=f172e200] [cursor=pointer]:
+          - /url: https://www.youtube.com/@Barings
+          - img "Barings YouTube Channel" [ref=f172e201]
+    - list [ref=f172e204]:
+      - listitem [ref=f172e205]:
+        - link "Privacy Notice" [ref=f172e206] [cursor=pointer]:
+          - /url: /en-gb/individual/content/privacy-notice
+      - listitem [ref=f172e207]:
+        - link "Cookie Notice" [ref=f172e208] [cursor=pointer]:
+          - /url: /en-gb/individual/content/cookies-notice
+      - listitem [ref=f172e209]:
+        - link "Terms & Conditions" [ref=f172e210] [cursor=pointer]:
+          - /url: /en-gb/individual/content/terms-and-conditions
+      - listitem [ref=f172e211]:
+        - link "Important Disclosures" [ref=f172e212] [cursor=pointer]:
+          - /url: /en-gb/individual/content/important-disclosures
+      - listitem [ref=f172e213]:
+        - link "Glossary" [ref=f172e214] [cursor=pointer]:
+          - /url: /en-gb/individual/content/glossary
+      - listitem [ref=f172e215]:
+        - link "Site Map" [ref=f172e216] [cursor=pointer]:
+          - /url: /en-gb/individual/sitemap
+    - generic [ref=f172e220]:
+      - paragraph [ref=f172e221]:
+        - text: The opinions and other information contained herein, whether express or implied are made in good faith in relation to the facts known at the time of preparation and are subject to change without notice.
+        - strong [ref=f172e222]: PAST PERFORMANCE IS NOT NECESSARILY INDICATIVE OF FUTURE RESULTS.
+        - text: All monetary figures are in USD unless otherwise specified.
+      - paragraph [ref=f172e223]: This material should not be construed as a recommendation, and Barings is not soliciting any action based upon such information. Additionally, the strategies and funds may not be available to all investor types in all jurisdictions. In some jurisdictions this website may contain advertising.
+      - paragraph [ref=f172e224]: Copyright © 2026 Barings. The BARINGS name and logo design are trademarks of Barings and are registered in U.S. Patent and Trademark Office and in other countries around the world. All rights are reserved.
+  - iframe [ref=f172e227]:
+    - generic [ref=f173e6]:
+      - text: protected by
+      - strong [ref=f173e7]: reCAPTCHA

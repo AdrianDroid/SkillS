@@ -1,0 +1,2 @@
+[     875ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.schroders.com/en-hk/hk/individual/fund-centre/:0
+[     909ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://www.schroders.com/favicon.ico:0

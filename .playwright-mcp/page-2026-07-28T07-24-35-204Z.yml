@@ -1,0 +1,40 @@
+- generic [active] [ref=f107e1]:
+  - banner [ref=f107e2]:
+    - generic [ref=f107e3]:
+      - link "Skip to content" [ref=f107e4] [cursor=pointer]:
+        - /url: "#content"
+      - navigation [ref=f107e6]:
+        - button "Change Region" [ref=f107e10] [cursor=pointer]
+        - link "Contact Us" [ref=f107e12] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/contact-us
+    - navigation [ref=f107e17]:
+      - link "Janus Henderson Investors" [ref=f107e18] [cursor=pointer]:
+        - /url: https://www.janushenderson.com/
+        - img "Janus Henderson Investors" [ref=f107e19]
+      - img [ref=f107e27] [cursor=pointer]: +
+  - main [ref=f107e33]:
+    - generic [ref=f107e41]:
+      - generic [ref=f107e44]:
+        - generic [ref=f107e45]: 
+        - paragraph [ref=f107e48]: Error 404
+      - generic [ref=f107e51]:
+        - paragraph [ref=f107e55]: We're sorry, the page you're looking for has either moved or is no longer available.
+        - button "Back to Homepage" [ref=f107e59] [cursor=pointer]
+  - contentinfo [ref=f107e65]: 
+  - text:   
+  - generic:
+    - region "Cookie banner" [ref=f107e69]:
+      - dialog "Your Privacy" [ref=f107e70]:
+        - generic [ref=f107e72]:
+          - generic [ref=f107e74]:
+            - heading "Your Privacy" [level=2] [ref=f107e75]
+            - generic [ref=f107e76]:
+              - text: We use optional cookies to improve your browsing experience, analyse our traffic, and to personalise content on our website. For more information about how we use cookies and how to manage them, please refer to our
+              - link "Cookie policy, opens in a new tab, opens in a new tab" [ref=f107e77] [cursor=pointer]:
+                - /url: https://www.janushenderson.com/cookie-policy
+                - text: cookies policy.
+          - generic [ref=f107e79]:
+            - button "Cookies Settings, Opens the preference center dialog" [ref=f107e80] [cursor=pointer]: Cookies Settings
+            - button "Reject All" [ref=f107e81] [cursor=pointer]
+            - button "Accept Cookies" [ref=f107e82] [cursor=pointer]
+    - text: Cookies Settings

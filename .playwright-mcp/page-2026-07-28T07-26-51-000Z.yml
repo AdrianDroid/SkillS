@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - text:      
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - text:  
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link [ref=e7] [cursor=pointer]:
+              - /url: /en-hk/retail
+              - img "Allianz Global Investors Home Page" [ref=e8]
+            - button "Search" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 
+            - link [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e15]: 
+          - generic:  
+        - generic:
+          - text:                                  
+          - generic [ref=e18]:
+            - text: 
+            - menu [ref=e19]:
+              - menuitem [ref=e20]:
+                - generic [ref=e21] [cursor=pointer]:
+                  - generic [ref=e22]: Hong Kong | Retail Investor
+                  - generic [ref=e23]: 
+                - text:    
+      - generic:    
+  - main [ref=e24]:
+    - generic [ref=e27]:
+      - heading "Retail Funds" [level=2] [ref=e29]
+      - paragraph [ref=e31]: Last Updated 28/07/2026
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - generic [ref=e39]:
+            - 'textbox "Search starts after typing three characters : ISIN, WKN, Fundname" [ref=e40]'
+            - button "Clear input" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: 
+          - button "Reset" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - combobox "Fund Name" [ref=e49] [cursor=pointer]:
+              - generic [ref=e51]: 
+            - combobox "Share Class" [ref=e54] [cursor=pointer]:
+              - generic [ref=e56]: 
+            - combobox "Share Class Currency" [ref=e59] [cursor=pointer]:
+              - generic [ref=e61]: 
+            - combobox "Asset Class" [ref=e64] [cursor=pointer]:
+              - generic [ref=e66]: 
+          - generic [ref=e69]:  
+      - generic [ref=e72]:
+        - generic [ref=e75]:
+          - radio "All Funds" [checked] [ref=e76]
+          - generic [ref=e77]: All Funds
+          - radio "My Funds" [ref=e78]
+          - generic [ref=e79] [cursor=pointer]: My Funds
+        - generic [ref=e82]:
+          - tablist [ref=e83]:
+            - tab "Daily Prices" [selected] [ref=e84]
+            - tab "Calendar Year Returns" [ref=e86]
+            - tab "Cumulative Returns" [ref=e88]
+          - text:  
+          - generic [ref=e90]:
+            - tabpanel "Daily Prices" [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - text:  
+                  - button "Download Historical Nav" [ref=e94] [cursor=pointer]:
+                    - generic [ref=e95]: 
+                - generic [ref=e97]:   
+                - text:  
+              - button "Show 10 rows" [ref=e114] [cursor=pointer]:
+                - text: Show 10 rows
+                - generic [ref=e115]: 
+            - text:                  
+    - generic [ref=e121]:
+      - button "Remarks " [ref=e122] [cursor=pointer]
+      - generic [ref=e124]:
+        - generic [ref=e125]: The asset class classification is based on the classification in the offering documents unless otherwise stated.
+        - generic [ref=e126]: "##On 31/08/2022, Allianz Global Intelligent Cities was re-named to Allianz Global Intelligent Cities Income."
+        - generic [ref=e127]: "**On 28/03/2025, Allianz Global Multi Asset Sustainability Balanced was re-named to Allianz Global Multi Asset Balanced."
+        - generic [ref=e128]:
+          - superscript [ref=e129]: "#"
+          - text: On 30/4/2021, Allianz Selection European Equity Dividend was renamed to Allianz Thematic Income. There was a material change of the Fund's objective and investment strategy and restrictions as part of a re-positioning and modification exercise. The performance prior to 30/4/2021 was achieved under circumstances that no longer apply. Please refer to the offering documents for details.
+        - generic [ref=e130]: "***Effective from 31/10/2025, Allianz Yield Plus Fund was repositioned with a material change in the Fund's objectives and investment strategy. There were also changes in base currency as well as the fees and charges. The previous performance was achieved under circumstances that no longer apply. Please refer to the offering documents for details."
+        - generic [ref=e131]:
+          - superscript [ref=e132]: +
+          - text: Performance is calculated from inception of the fund until the end of that calendar year.
+        - generic [ref=e133]: YTD is Year To Date.
+        - generic [ref=e134]: "•Source: All fund data quoted are Allianz Global Investors/IDS GmbH, as at 30/06/2026, unless stated otherwise."
+        - generic [ref=e135]: "•Source: Morningstar, as at 31/05/2026. Copyright ©2026 Morningstar Asia Limited (\"Morningstar\"). All Rights Reserved. The information contained herein: (1) is proprietary to Morningstar and/or its content providers; (2) may not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this information. Past performance is no guarantee of future results."
+        - generic [ref=e137]:
+          - text: Please find the Composition of the Latest Fund Dividend Payout at the following webpage
+          - link "https://hk.allianzgi.com/en-hk/retail/downloads/hk-fund-literature" [ref=e138] [cursor=pointer]:
+            - /url: https://hk.allianzgi.com/en-hk/retail/downloads/hk-fund-literature
+        - generic [ref=e140]:
+          - text: •Please click
+          - link "here" [ref=e141] [cursor=pointer]:
+            - /url: https://lu.allianzgi.com/en-gb/pro/our-funds/funds/list?q=oriental
+          - text: to view the fund prices of a full list of the sub-funds of Allianz Global Investors Fund. Please note that the website you visit may contain the information of funds that are not authorised in Hong Kong, and such funds are not available to the retail public of Hong Kong.
+        - generic [ref=e143]:
+          - text: •Please click
+          - link "here" [ref=e144] [cursor=pointer]:
+            - /url: https://hk.allianzgi.com/documents/hk-calendar-year-return-summary-en
+          - text: to download the calendar year return summary of the funds.
+        - generic [ref=e145]:
+          - superscript [ref=e146]: ^
+          - text: Daily change refers to the percentage change of fund price as at the valuation date shown against the previous valuation date.
+        - generic [ref=e147]:
+          - superscript [ref=e148]: "*"
+          - text: 12-Month Unit NAV High / Low refers to the highest / lowest daily fund prices during the past 12 months.
+        - generic [ref=e149]:
+          - superscript [ref=e150]: •
+          - text: Fund performance will be available after the Fund has attained a 6-month investment track record.
+        - generic [ref=e151]:
+          - superscript [ref=e152]: •
+          - text: All performance figures of the Calendar Year Returns and Cumulative Returns are referenced using the last business day of the month unless otherwise indicated.
+        - generic [ref=e153]: "Allianz Global Investors Fund – Allianz China A-Shares was launched on 23 October 2019 upon the merger of Allianz Global Investors Opportunities – Allianz China A-Shares into the Fund. The performance information shown on or before the date of the merger has been simulated based on the performance of the relevant share class of Allianz Global Investors Opportunities – Allianz China A-Shares with the same investment objectives, risk profiles, and materially the same fee structures and investment policies of the relevant share class of the Fund. Predecessor fund (Allianz Global Investors Opportunities – Allianz China A-Shares) inception date: March 2009."
+        - generic [ref=e154]: Information herein is based on sources we believe to be accurate and reliable as at the date it was made. We reserve the right to revise any information herein at any time without notice. No offer or solicitation to buy or sell securities and no investment advice or recommendation is made herein. In making investment decisions, investors should not rely solely on this material but should seek independent professional advice.
+        - generic [ref=e155]: Allianz Global Investors Asia Pacific Limited (32/F, Two Pacific Place, 88 Queensway, Admiralty, Hong Kong) is the Hong Kong Representative and is regulated by the Securities and Futures Commission of Hong Kong. (54/F, One Island East 18 Westlands Road, Quarry Bay, Hong Kong).
+        - paragraph [ref=e158]: ^^On 02/02/2024, Allianz Indonesia Equity was renamed to Allianz Asia Pacific Income. There was a material change of the Fund's objectives and investment strategy. The previous performance prior to 02/02/2024 was achieved under circumstances that no longer apply. Please refer to the offering documents for details.
+        - generic [ref=e159]: ∆On 28/03/2025, Allianz US Equity Plus was re-named to Allianz AI Income.
+        - generic [ref=e160]: ‡On 28/03/2025, Allianz Emerging Asia Equity was re-named to Allianz Asia ex China Equity.
+        - generic [ref=e161]: ∴On 28/03/2025, Allianz Emerging Markets SRI Corporate Bond was re-named to Allianz Emerging Markets Corporate Bond.
+  - contentinfo [ref=e168]:
+    - generic [ref=e169]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - heading [level=3] [ref=e174]:
+            - link "Funds" [ref=e175] [cursor=pointer]:
+              - /url: /en-hk/retail/products-solutions/retail-funds
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Corporate actions" [ref=e178] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/corporate-action/allianz-global-investors-fund
+            - listitem [ref=e179]:
+              - link "Capabilities at a glance" [ref=e180] [cursor=pointer]:
+                - /url: /en-hk/retail/capability
+            - listitem [ref=e181]:
+              - link "Equities" [ref=e182] [cursor=pointer]:
+                - /url: /en-hk/retail/capability/investment-capabilities-equity
+            - listitem [ref=e183]:
+              - link "- Systematic equity" [ref=e184] [cursor=pointer]:
+                - /url: /en-hk/retail/capability/investment-capabilities-equity/systematic-equity
+            - listitem [ref=e185]:
+              - link "- China Investing" [ref=e186] [cursor=pointer]:
+                - /url: /en-hk/retail/insights/china-investing
+            - listitem [ref=e187]:
+              - link "Fixed income" [ref=e188] [cursor=pointer]:
+                - /url: /en-hk/retail/capability/investment-capabilities-fixed-income
+            - listitem [ref=e189]:
+              - link "Multi asset" [ref=e190] [cursor=pointer]:
+                - /url: /en-hk/retail/capability/investment-capabilities-multi-asset
+            - listitem [ref=e191]:
+              - link "Forms" [ref=e192] [cursor=pointer]:
+                - /url: /en-hk/retail/downloads/hk-forms
+            - listitem [ref=e193]:
+              - link "Fund literature" [ref=e194] [cursor=pointer]:
+                - /url: /en-hk/retail/downloads/hk-fund-literature
+            - listitem [ref=e195]:
+              - link "Capital Investment Entrant Scheme (CIES)" [ref=e196] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/new-cies
+            - listitem [ref=e197]:
+              - link "Overview" [ref=e198] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/fund-in-focus-landing
+            - listitem [ref=e199]:
+              - link "Allianz Income and Growth" [ref=e200] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/fund-in-focus-landing/allianz-income-and-growth-fund-rdb
+            - listitem [ref=e201]:
+              - link "Allianz Global Intelligent Cities Income" [ref=e202] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/fund-in-focus-landing/allianz-global-intelligent-cities-income-rdb
+            - listitem [ref=e203]:
+              - link "Allianz Thematic Income" [ref=e204] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/fund-in-focus-landing/allianz-thematic-income-rdb
+            - listitem [ref=e205]:
+              - link "Allianz China Future Technologies" [ref=e206] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/fund-in-focus-landing/allianz-china-future-technologies-rdb
+            - listitem [ref=e207]:
+              - link "Allianz Best Styles strategies" [ref=e208] [cursor=pointer]:
+                - /url: /en-hk/retail/capability/investment-capabilities-equity/systematic-equity
+            - listitem [ref=e209]:
+              - link "Allianz Dynamic Multi-Asset SRI" [ref=e210] [cursor=pointer]:
+                - /url: /en-hk/retail/our-products/fund-in-focus-landing/allianz-dynamic-multi-asset-strategy-sri
+        - generic [ref=e211]:
+          - heading [level=3] [ref=e212]:
+            - link "Market Insights" [ref=e213] [cursor=pointer]:
+              - /url: /en-hk/retail/insights/insights-and-strategies
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - link "House View & Outlooks" [ref=e216] [cursor=pointer]:
+                - /url: https://hk.allianzgi.com/en-hk/retail/insights/insights-and-strategies?Topics=House%20View%20%26%20Outlooks
+            - listitem [ref=e217]:
+              - link "Investable Themes" [ref=e218] [cursor=pointer]:
+                - /url: /en-hk/retail/insights/investable-themes
+            - listitem [ref=e219]:
+              - link "Fund Commentary" [ref=e220] [cursor=pointer]:
+                - /url: /en-hk/retail/insights/fund-commentary
+            - listitem [ref=e221]:
+              - link "Sustainability Now" [ref=e222] [cursor=pointer]:
+                - /url: https://www.allianzgi.com/en/insights/sustainability-blog
+            - listitem [ref=e223]:
+              - link "The China Briefing" [ref=e224] [cursor=pointer]:
+                - /url: /en-hk/retail/insights/the-china-briefing
+            - listitem [ref=e225]:
+              - link "The India Briefing" [ref=e226] [cursor=pointer]:
+                - /url: https://www.allianzgi.com/en/insights/the-india-briefing
+            - listitem [ref=e227]:
+              - link "Two-Minute Tech" [ref=e228] [cursor=pointer]:
+                - /url: https://www.allianzgi.com/en/insights/two-minute-tech
+        - generic [ref=e229]:
+          - heading [level=3] [ref=e230]:
+            - link "Resources" [ref=e231] [cursor=pointer]:
+              - /url: /en-hk/retail/investor-education-landing
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - link "Investor education" [ref=e234] [cursor=pointer]:
+                - /url: /en-hk/retail/investor-education-landing
+            - listitem [ref=e235]:
+              - link "Investment basics" [ref=e236] [cursor=pointer]:
+                - /url: /en-hk/retail/investor-education-landing/investment-basics/fund-investment-basics
+            - listitem [ref=e237]:
+              - link "Fixed income corner" [ref=e238] [cursor=pointer]:
+                - /url: /en-hk/retail/investor-education-landing/fixed-income-corner/bond-basics
+            - listitem [ref=e239]:
+              - link "Swing pricing - FAQ" [ref=e240] [cursor=pointer]:
+                - /url: https://hk.allianzgi.com/-/media/allianzgi/ap/hongkong/investor-education/hk-swing-pricing-FAQ-en.pdf
+            - listitem [ref=e241]:
+              - link "Allianz Global Investors Academy" [ref=e242] [cursor=pointer]:
+                - /url: https://academy.allianzgi.com/en/home
+            - listitem [ref=e243]:
+              - link "My Funds" [ref=e244] [cursor=pointer]:
+                - /url: https://hk.allianzgi.com/en/retail/products-solutions/retail-funds?ShowTrackedFunds=true
+        - generic [ref=e245]:
+          - heading [level=3] [ref=e246]:
+            - link "Sustainability at a glance" [ref=e247] [cursor=pointer]:
+              - /url: /en-hk/retail/sustainability
+          - list [ref=e248]:
+            - listitem [ref=e249]:
+              - link "Sustainable investing" [ref=e250] [cursor=pointer]:
+                - /url: /en-hk/retail/sustainability/sustainable-investing
+            - listitem [ref=e251]:
+              - link "Impact Investing" [ref=e252] [cursor=pointer]:
+                - /url: /en-hk/retail/sustainability/impact-investing
+            - listitem [ref=e253]:
+              - link "Sustainability insights" [ref=e254] [cursor=pointer]:
+                - /url: /en-hk/retail/sustainability/insights-on-sustainable-investing
+            - listitem [ref=e255]:
+              - link "Policies and reporting" [ref=e256] [cursor=pointer]:
+                - /url: /en-hk/retail/sustainability/policies-and-reporting
+            - listitem [ref=e257]:
+              - link "Sustainable Investing and Stewardship Report 2025" [ref=e258] [cursor=pointer]:
+                - /url: /en-hk/retail/sustainability/sustainability-report-2025
+        - generic [ref=e259]:
+          - heading [level=3] [ref=e260]:
+            - link "Our firm" [ref=e261] [cursor=pointer]:
+              - /url: /en-hk/retail/our-firm
+          - list [ref=e262]:
+            - listitem [ref=e263]:
+              - link "What we do" [ref=e264] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/what-we-do
+            - listitem [ref=e265]:
+              - link "Our history" [ref=e266] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/our-history
+            - listitem [ref=e267]:
+              - link "Our culture" [ref=e268] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/our-culture
+            - listitem [ref=e269]:
+              - link "Our offices" [ref=e270] [cursor=pointer]:
+                - /url: https://www.allianzgi.com/en/our-firm/our-offices
+            - listitem [ref=e271]:
+              - link "Beware of Fraud" [ref=e272] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/beware-of-fraud
+            - listitem [ref=e273]:
+              - link "Contact us" [ref=e274] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/contact-us
+            - listitem [ref=e275]:
+              - link "Leadership team" [ref=e276] [cursor=pointer]:
+                - /url: https://www.allianzgi.com/en/our-firm/leadership
+            - listitem [ref=e277]:
+              - link "Diversity, equity & inclusion" [ref=e278] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/inclusion-diversity
+            - listitem [ref=e279]:
+              - link "Corporate responsibility" [ref=e280] [cursor=pointer]:
+                - /url: /en-hk/retail/our-firm/corporate-responsibility
+            - listitem [ref=e281]:
+              - link "Sponsorships & partnerships" [ref=e282] [cursor=pointer]:
+                - /url: https://www.allianzgi.com/en/our-firm/sponsorships-partnerships
+      - generic [ref=e283]:
+        - link "Facebook" [ref=e284] [cursor=pointer]:
+          - /url: https://z4a33.app.goo.gl/8Ng4
+          - generic [ref=e285]: 
+        - link "WeChat" [ref=e286] [cursor=pointer]:
+          - /url: https://hk.allianzgi.com/en/retail/wechat
+          - generic [ref=e287]: 
+        - link "YouTube" [ref=e288] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/allianzgihk
+          - generic [ref=e289]: 
+        - link "LinkedIn" [ref=e290] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/allianz-global-investors
+          - generic [ref=e291]: 
+      - generic [ref=e293]:
+        - paragraph [ref=e294]:
+          - strong [ref=e295]:
+            - generic [ref=e296]:
+              - text: "Announcement for SFC Authorized Funds:"
+              - link "Read More" [ref=e297] [cursor=pointer]:
+                - /url: https://hk.allianzgi.com/-/media/allianzgi/ap/hongkong/pdf/en/announcements/20220518-agihk-announcement-for-sfc-authorized-funds-en
+        - paragraph [ref=e298]: "The information on this website is provided for Hong Kong residents and for reference only and by using or viewing it, you confirm that you accept the legal terms and understand the Data Protection Policy. Otherwise, you should exit this website. Investment involves risks, in particular, risks associated with investment in emerging and less developed markets. Past performance is not indicative of future performance. Please refer to the offering documents of the relevant funds for details, including a full description of product features and risk factors. This website has not been reviewed by the Securities and Futures Commission of Hong Kong (“SFC”). Note: Securities and Futures Commission of Hong Kong authorization is not a recommendation or endorsement of a product nor does it guarantee the commercial merits of a product or its performance. It does not mean the product is suitable for all investors nor is it an endorsement of its suitability for any particular investor or class of investors."
+      - separator [ref=e299]
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - link "Important Notice" [ref=e302] [cursor=pointer]:
+            - /url: /en-hk/retail/important-notice-new
+          - link "Data Protection Policy" [ref=e303] [cursor=pointer]:
+            - /url: /en-hk/retail/data-protection-policy
+          - link "Legal" [ref=e304] [cursor=pointer]:
+            - /url: /en-hk/retail/terms-of-use
+          - link "Complaint Handling Information" [ref=e305] [cursor=pointer]:
+            - /url: /-/media/allianzgi/ap/hongkong/pdf/en/announcements/information-on-complaint-handling-hk-en-final.pdf?rev=2eb5c10dfae74467a931b8539cd10972
+          - link "Personal Information Collection Statement" [ref=e306] [cursor=pointer]:
+            - /url: https://hk.allianzgi.com/en/personal-information-collection-statement
+        - generic [ref=e307]: © The issuer of this website is Allianz Global Investors Asia Pacific Limited. All rights reserved.
+        - text: 
+      - text: 
+  - text:  
+  - region "Role Terms and Conditions" [ref=e308]:
+    - alertdialog "modal body" [ref=e309]:
+      - generic [ref=e310]:
+        - heading "Welcome to Allianz Global Investors" [level=3] [ref=e312]
+        - generic [ref=e314]:
+          - generic [ref=e315] [cursor=pointer]:
+            - generic [ref=e316]: English
+            - generic [ref=e317]: 
+          - text: 
+        - generic [ref=e319]:
+          - generic [ref=e320] [cursor=pointer]:
+            - generic [ref=e321]: Retail Investor
+            - generic [ref=e322]: 
+          - text: 
+        - list [ref=e325]:
+          - listitem [ref=e326]:
+            - button "Please read through the important notice and then click \"OK\" to proceed. " [ref=e327] [cursor=pointer]
+            - generic [ref=e330]:
+              - paragraph [ref=e331]:
+                - generic:
+                  - strong
+                - strong [ref=e333]: Allianz Global Investors Fund (“AGIF”)
+              - paragraph [ref=e334]:
+                - generic [ref=e335]:
+                  - strong
+                  - text: • Allianz Global Investors Fund (“AGIF”) as an umbrella fund under the UCITS regulations has within it different Sub-Funds investing in fixed income securities, equities, and derivative instruments, each with a different investment objective and/or risk profile.
+              - paragraph [ref=e336]: • All Sub-Funds may invest in financial derivative instruments (“FDI”) which may expose to higher leverage, counterparty, liquidity, valuation, volatility, market and over the counter transaction risks. A Sub-Fund’s net derivative exposure may be up to 50% of its net asset value (“NAV”).
+              - paragraph [ref=e337]: • Some Sub-Funds as part of their investments may invest in any one or a combination of the instruments such as fixed income securities, emerging market securities, and/or mortgage-backed securities, asset-backed securities, property-backed securities (especially REITs) and/or structured products and/or FDI, exposing to various potential risks (including leverage, counterparty, liquidity, valuation, volatility, market, fluctuations in the value of and the rental income received in respect of the underlying property, and over the counter transaction risks).
+              - paragraph [ref=e338]: • Some Sub-Funds may invest in single countries or industry sectors (in particular small/mid cap companies) which may reduce risk diversification. Some Sub-Funds are exposed to significant risks which include investment/general market, country and region, emerging market (such as Mainland China), creditworthiness/credit rating/downgrading, default, asset allocation, interest rate, volatility and liquidity, counterparty, sovereign debt, valuation, credit rating agency, company-specific, currency (in particular RMB), RMB debt securities and Mainland China tax risks.
+              - paragraph [ref=e339]: • Some Sub-Funds may invest in convertible bonds, high-yield, non-investment grade investments and unrated securities that may be subject to higher risks (including volatility, loss of principal and interest, creditworthiness and downgrading, default, interest rate, general market and liquidity risks) and therefore may adversely impact the net asset value of the Sub-Funds. Convertibles will be exposed prepayment risk, equity movement and greater volatility than straight bond investments.
+              - paragraph [ref=e340]: • Some Sub-Funds may invest a significant portion of the assets in interest-bearing securities issued or guaranteed by a non-investment grade sovereign issuer (e.g. Philippines) and is subject to higher risks of liquidity, credit, concentration and default of the sovereign issuer as well as greater volatility and higher risk profile that may result in significant losses to the investors.
+              - paragraph [ref=e341]: • Some Sub-Funds may invest in European countries. The economic and financial difficulties in Europe may get worse and adversely affect the Sub-Funds (such as increased volatility, liquidity and currency risks associated with investments in Europe).
+              - paragraph [ref=e342]: • Some Sub-Funds may invest in the China A-Shares market, China B-Shares market and/or debt securities directly via the Stock Connect or the China Interbank Bond Market or Bond Connect or other foreign access regimes and/or other permitted means and/or indirectly through all eligible instruments and thus is subject to the associated risks (including quota limitations, change in rule and regulations, repatriation of the Sub-Fund’s monies, trade restrictions, clearing and settlement, China market volatility and uncertainty, China market volatility and uncertainty, potential clearing and/or settlement difficulties, change in economic, social and political policy in the PRC and Mainland China tax risks).
+              - paragraph [ref=e343]: • Some Sub-Funds may adopt the following strategies, Socially Responsible Investment (Proprietary Scoring) Strategy, SDG-Aligned Strategy, Sustainability Key Performance Indicator Strategy (Relative), Green Bond Strategy, Multi Asset Sustainable Strategy, Sustainability Key Performance Indicator Strategy (Absolute Threshold), Environment, Social and Governance (“ESG”) Score Strategy, and Sustainability Key Performance Indicator Strategy (Absolute). The Sub-Funds may be exposed to sustainable investment risks relating to the strategies (such as foregoing opportunities to buy certain securities when it might otherwise be advantageous to do so, selling securities when it might be disadvantageous to do so, and/or relying on information and data from third party ESG research data providers and internal analyses which may be subjective, incomplete, inaccurate or unavailable and/or reducing risk diversifications compared to broadly based funds). Also, some Sub-Funds may be particularly focusing on the greenhouse gas emissions (“GHG”) efficiency of the investee companies rather than their financial performance. These may have an adverse impact on the performance of the Sub-Funds.
+              - paragraph [ref=e344]: • Some Sub-Funds may invest in share class with fixed distribution percentage (Class AMf). Investors should note that fixed distribution percentage is not guaranteed. The share class is not an alternative to fixed interest paying investment. The percentage of distributions paid by these share classes is unrelated to expected or past income or returns of these share classes or the Sub-Funds. Distribution will continue even the Sub-Fund has negative returns and may adversely impact the net asset value of the Sub-Fund. Positive distribution yield does not imply positive return.
+              - paragraph [ref=e345]: • Investment involves risks that could result in loss of part or entire amount of investors’ investment.
+              - paragraph [ref=e346]: • In making investment decisions, investors should not rely solely on this [website/material].
+              - paragraph [ref=e347]
+              - paragraph [ref=e348]
+              - paragraph
+              - paragraph [ref=e349]:
+                - generic [ref=e350]:
+                  - strong [ref=e351]:
+                    - generic [ref=e352]:
+                      - text: "Note:"
+                      - emphasis [ref=e353]
+                  - text: Dividend payments may, at the sole discretion of the Investment Manager, be made out of the Sub-Fund’s capital or effectively out of the Sub-Fund’s capital which represents a return or withdrawal of part of the amount investors originally invested and/or capital gains attributable to the original investment. This may result in an immediate decrease in the NAV per share and the capital of the Sub-Fund available for investment in the future and capital growth may be reduced, in particular for hedged share classes for which the distribution amount and NAV of any hedged share classes (HSC) may be adversely affected by differences in the interests rates of the reference currency of the HSC and the base currency of the respective Sub-Fund, particularly if such HSC are applying the IRD Neutral Policy. Dividend payments are applicable for Class A/AM/AMg/AMi/AMgi/AQ Dis (Annually/Monthly/Quarterly distribution) and for reference only but not guaranteed. Positive distribution yield does not imply positive return. For details, please refer to the Sub-Fund’s distribution policy disclosed in the offering documents.
+              - paragraph [ref=e354]
+              - paragraph
+              - paragraph [ref=e355]:
+                - strong [ref=e357]: Allianz Global Investors Asia Fund
+              - paragraph [ref=e358]: • Allianz Global Investors Asia Fund (the “Trust”) is an umbrella unit trust constituted under the laws of Hong Kong pursuant to the Trust Deed. Allianz Thematic Income and Allianz Selection Income and Growth and Allianz Yield Plus Fund are the sub-funds of the Trust (each a “Sub-Fund”) investing in fixed income securities, equities and derivative instruments, each with a different investment objective and/or risk profile.
+              - paragraph [ref=e359]: • Some Sub-Funds are exposed to significant risks which include investment/general market, company-specific, emerging market, creditworthiness/credit rating/downgrading, default, volatility and liquidity, valuation, sovereign debt, thematic concentration, thematic-based investment strategy, counterparty, interest rate changes, country and region, asset allocation risks and currency (such as exchange controls, in particular RMB), and the adverse impact on RMB share classes due to currency depreciation.
+              - paragraph [ref=e360]: • A Sub-Fund may invest in asset-backed securities (“ABS”) and mortgage-backed securities (“MBS”) which may be highly illiquid and prone to substantial price volatility. These instruments may be subject to greater general market risk, concentration risk, credit and counterparty default risk, liquidity risk and interest rate risk compared to other debt securities.
+              - paragraph [ref=e361]: • Some Sub-Funds may invest in high-yield (non-investment grade and unrated) investments and convertible bonds which may be subject to higher risks, such as volatility, creditworthiness, default, interest rate changes, general market and liquidity risks and therefore may adversely impact the net asset value of the Sub-Fund.
+              - paragraph [ref=e362]: • All Sub-Funds may invest in financial derivative instruments (“FDI”) which may expose to higher leverage, counterparty, liquidity, valuation, volatility, market and over the counter transaction risks. The use of derivatives may result in losses to the Sub-Funds which are greater than the amount originally invested. A Sub-Fund’s net derivative exposure may be up to 50% of its net asset value (“NAV”).
+              - paragraph [ref=e363]: • These investments may involve risks that could result in loss of part or entire amount of investors’ investment.
+              - paragraph [ref=e364]: • In making investment decisions, investors should not rely solely on this website.
+              - paragraph
+              - paragraph [ref=e365]: "Note: Dividend payments may, at the sole discretion of the Investment Manager, be made out of the Sub-Fund’s income and/or capital which in the latter case represents a return or withdrawal of part of the amount investors originally invested and/or capital gains attributable to the original investment. This may result in an immediate decrease in the NAV per distribution unit and the capital of the Sub-Fund available for investment in the future and capital growth may be reduced, in particular for hedged share classes for which the distribution amount and NAV of any hedged share classes (HSC) may be adversely affected by differences in the interests rates of the reference currency of the HSC and the base currency of the Sub-Fund, particularly if such HSC are applying the IRD Neutral Policy. Dividend payments are applicable for Class A/AM/AMg/AMi/AMgi Dis (Annually/Monthly distribution) and for reference only but not guaranteed. Positive distribution yield does not imply positive return. For details, please refer to the Sub-Fund’s distribution policy disclosed in the offering documents."
+              - paragraph
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - checkbox "I have read and understood the Important Notice." [disabled] [ref=e369]
+            - generic [ref=e370]: I have read and understood the Important Notice.
+          - button "OK" [disabled] [ref=e371]
+  - dialog: 
+  - dialog: 
+  - region "Cookie banner" [ref=e372]:
+    - dialog "Privacy" [ref=e373]:
+      - generic [ref=e374]:
+        - generic [ref=e377]:
+          - paragraph [ref=e378]: "With cookies, we are able to provide a user-friendly, safe and effective website. To activate the usage of all cookies on this website, please Accept Cookies below or use the Cookies Settings Tool to select which you'd like to allow. You can withdraw your consent at any time using this tool. For more information, please read:"
+          - link "More information about your privacy, opens in a new tab" [ref=e379] [cursor=pointer]:
+            - /url: https://hk.allianzgi.com/en/data-protection-policy
+            - text: Data Protection Policy
+        - generic [ref=e381]:
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e382] [cursor=pointer]: Cookies Settings
+          - button "Accept All Cookies" [ref=e384] [cursor=pointer]

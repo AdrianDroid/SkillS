@@ -1,0 +1,26 @@
+- table [ref=f67e2]:
+  - rowgroup [ref=f67e3]:
+    - row [ref=f67e4]:
+      - cell "簡 | ENG" [ref=f67e5]:
+        - generic [ref=f67e9]:
+          - link "簡" [ref=f67e10] [cursor=pointer]:
+            - /url: "?lang=sc"
+          - text: "|"
+          - link "ENG" [ref=f67e11] [cursor=pointer]:
+            - /url: "?lang=en"
+    - row [ref=f67e12]:
+      - cell [ref=f67e13]
+    - row [ref=f67e17]:
+      - cell [ref=f67e18]:
+        - table [ref=f67e19]:
+          - rowgroup [ref=f67e20]:
+            - row [ref=f67e21]:
+              - cell "抱歉！你找的網頁已不存在或輸入錯誤的網址。" [ref=f67e22]
+            - row [ref=f67e23]:
+              - cell "你可按以下按鍵返回阿思達克財經網主頁。" [ref=f67e24]
+            - row [ref=f67e25]:
+              - cell [ref=f67e26]:
+                - link [ref=f67e27] [cursor=pointer]:
+                  - /url: http://www.aastocks.com/tc/
+    - row [ref=f67e29]:
+      - cell "免責聲明：AASTOCKS.com Ltd 竭力提供準確而可靠的資料，但並不保證資料絕對無誤，資料如有錯漏而令閣下蒙受損失，本公司概不負責。" [ref=f67e30]

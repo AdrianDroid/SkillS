@@ -1,0 +1,5 @@
+- generic [active] [ref=f10e1]:
+  - heading "Access Denied" [level=1] [ref=f10e2]
+  - text: You don't have permission to access "http://www.manulife.com.hk/en/individual/fund-price/investment-linked-assurance-scheme.html/v2?" on this server.
+  - paragraph [ref=f10e3]: "Reference #18.dd4f4317.1785143973.9f048451"
+  - paragraph [ref=f10e4]: https://errors.edgesuite.net/18.dd4f4317.1785143973.9f048451

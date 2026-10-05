@@ -1,0 +1,239 @@
+- generic [ref=f103e1]:
+  - link "Skip to Content (press ENTER)" [ref=f103e2] [cursor=pointer]:
+    - /url: "#mainSection"
+  - banner [ref=f103e3]:
+    - generic [ref=f103e6]:
+      - paragraph [ref=f103e9]: Prices on our website are displayed to accommodate those funds which are priced to three decimal places. Where data is not available to three decimal places, the price displayed will include a zero as the last data point.
+      - button "Close" [ref=f103e10] [cursor=pointer]
+    - generic [ref=f103e14]:
+      - generic [ref=f103e15]:
+        - button "Menu" [ref=f103e17] [cursor=pointer]
+        - link [ref=f103e21] [cursor=pointer]:
+          - /url: /en-hk/individual
+          - img "Barings" [ref=f103e22]
+        - button "Search" [ref=f103e25] [cursor=pointer]
+      - generic [ref=f103e29]:
+        - searchbox "What are you looking for?" [ref=f103e30]
+        - button "Submit" [ref=f103e31] [cursor=pointer]
+        - button "Clear Search" [ref=f103e32] [cursor=pointer]
+    - navigation [ref=f103e33]:
+      - generic [ref=f103e37]:
+        - list [ref=f103e38]:
+          - listitem [ref=f103e39]:
+            - link "About" [ref=f103e40] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f103e41]:
+            - link "Funds" [ref=f103e42] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f103e43]:
+            - link "Sustainability" [ref=f103e44] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f103e45]:
+            - link "Perspectives" [ref=f103e46] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f103e47]:
+            - link "Contact" [ref=f103e48] [cursor=pointer]:
+              - /url: "#"
+        - button "Locations" [ref=f103e50] [cursor=pointer]
+  - main [ref=f103e53]:
+    - generic [ref=f103e54]:
+      - generic [ref=f103e55]:
+        - generic [ref=f103e56]:
+          - generic [ref=f103e58]:
+            - heading "Important Information" [level=6] [ref=f103e62] [cursor=pointer]
+            - generic [ref=f103e65]:
+              - paragraph [ref=f103e66]: The Fund invests primarily in equities and equity-related securities of companies incorporated in, or exercising the predominant part of their economic activity in, countries which are members of the Association of South-East Asian Nations (ASEAN), or quoted or traded on the stock exchanges in those countries.
+              - paragraph [ref=f103e67]: The Fund is subject to risks, such as investment, equities and equity-related securities, liquidity, counterparty, currency risks, and the risks of investing in small and mid-capitalisation companies.
+              - paragraph [ref=f103e68]: The Fund’s investment may be concentrated in the markets in ASEAN and the value of the Fund may be more volatile. Investing in emerging markets may involve increased risks, including liquidity, currency/currency control, political and economic uncertainties, legal and taxation, settlement, custody and volatility risks.
+              - paragraph [ref=f103e69]: The Manager integrates environmental, social and governance (ESG) information into the investment process, which may affect the Fund’s investment performance and, as such, may perform differently compared to similar collective investment schemes.
+              - paragraph [ref=f103e70]: The Fund may have exposure to financial derivative instruments for investment or efficient portfolio management purposes which may involve counterparty/credit, liquidity, valuation, volatility and over-the-counter transaction risks. Exposure to financial derivative investments may lead to a high risk of significant loss by the Fund.
+              - paragraph [ref=f103e71]: Dividends may be paid out of unrealised capital gains at the discretion of the Managers which would effectively represent paying dividend out of capital. This amounts to a return or withdrawal of part of an investor’s original investment or any capital gains attributable to that original investment. Payment of dividends may result in an immediate reduction of the net asset value of the Fund per unit.
+              - paragraph [ref=f103e72]: Investors may suffer substantial loss of their investments in the Fund.
+          - generic [ref=f103e77]:
+            - heading "Barings ASEAN Frontiers Fund" [level=1] [ref=f103e78]
+            - paragraph [ref=f103e79]: PUBLIC EQUITIES
+        - generic [ref=f103e82]:
+          - generic [ref=f103e84]:
+            - generic [ref=f103e85]:
+              - listbox "Click to view shareclass options from the dropdown below" [ref=f103e86] [cursor=pointer]:
+                - generic [ref=f103e87]: Class A USD Acc
+              - button "Submit" [ref=f103e90] [cursor=pointer]
+            - generic [ref=f103e91]:
+              - heading "ISIN" [level=2] [ref=f103e92]
+              - paragraph [ref=f103e93]: IE00B59JG481
+            - generic [ref=f103e94]:
+              - heading "Quick Links" [level=3] [ref=f103e95]
+              - paragraph [ref=f103e96]:
+                - link "Factsheet" [ref=f103e97] [cursor=pointer]:
+                  - /url: https://documents.barings.com/docs/barings-asean-frontiers-fund-factsheet-asia-retail-en.pdf?t=07292026035035
+              - paragraph [ref=f103e98]:
+                - link "Prospectus" [ref=f103e99] [cursor=pointer]:
+                  - /url: https://documents.barings.com/docs/barings-international-umbrella-fund-prospectus-ret-hk-en.pdf?t=06032026033045
+              - paragraph [ref=f103e100]:
+                - link "KFS" [ref=f103e101] [cursor=pointer]:
+                  - /url: https://documents.barings.com/docs/barings-asean-frontiers-fund-kfs-ret-en.pdf?t=04302026025644
+          - generic [ref=f103e106]:
+            - heading "NAV" [level=2] [ref=f103e107]
+            - paragraph [ref=f103e108]: USD 343.030
+            - paragraph [ref=f103e109]: As of 30/7/2026
+      - generic [ref=f103e112]:
+        - tablist [ref=f103e117]:
+          - tab "Fund Facts" [selected] [ref=f103e118] [cursor=pointer]
+          - tab "Historic Pricing" [ref=f103e119] [cursor=pointer]
+          - tab "Portfolio Managers" [ref=f103e120] [cursor=pointer]
+          - tab "Documents" [ref=f103e121] [cursor=pointer]
+        - tabpanel "Fund Facts" [ref=f103e123]:
+          - generic [ref=f103e126]:
+            - generic [ref=f103e129]:
+              - heading "Objective" [level=2] [ref=f103e130]
+              - paragraph [ref=f103e131]: The investment objective of the Barings ASEAN Frontiers Fund (“the Fund”) is to seek long-term capital growth primarily through investment in a diversified portfolio of ASEAN companies which could include Singapore, Thailand, the Philippines, Malaysia, Indonesia and Vietnam.
+              - heading "Strategy" [level=2] [ref=f103e132]
+              - paragraph [ref=f103e133]: Identify investment opportunities through a differentiated and innovative investment process using fundamental, bottom-up analysis.
+              - paragraph [ref=f103e134]
+            - generic [ref=f103e135]:
+              - generic [ref=f103e136]:
+                - heading "Fund Facts" [level=2] [ref=f103e137]
+                - generic [ref=f103e138]:
+                  - heading "Fund Type" [level=3] [ref=f103e139]
+                  - paragraph [ref=f103e140]: UCITS Funds
+                - generic [ref=f103e141]:
+                  - heading "Inception Date" [level=3] [ref=f103e142]
+                  - paragraph [ref=f103e143]: 1/8/2008
+                - generic [ref=f103e144]:
+                  - heading "Domicile" [level=3] [ref=f103e145]
+                  - paragraph [ref=f103e146]: Ireland
+              - generic [ref=f103e147]:
+                - heading "Share Class Information" [level=2] [ref=f103e148]
+                - generic [ref=f103e149]:
+                  - heading "Dealing Frequency" [level=3] [ref=f103e150]
+                  - paragraph [ref=f103e151]: Daily
+                - generic [ref=f103e152]:
+                  - heading "Management Charges" [level=3] [ref=f103e153]
+                  - paragraph [ref=f103e154]: 1.25%
+                - generic [ref=f103e155]:
+                  - heading "Inception Date" [level=3] [ref=f103e156]
+                  - paragraph [ref=f103e157]: 14/3/2012
+      - dialog [ref=f103e161]:
+        - generic [ref=f103e162]:
+          - button "Close modal" [active] [ref=f103e163] [cursor=pointer]: ✕
+          - generic [ref=f103e164]:
+            - heading "Hong Kong English" [level=5] [ref=f103e165]
+            - paragraph [ref=f103e166]: Individual
+        - generic [ref=f103e167]:
+          - paragraph [ref=f103e168]:
+            - strong [ref=f103e169]: Important Risk Disclosures
+          - list [ref=f103e170]:
+            - listitem [ref=f103e171]: Funds quoted on the website may directly or indirectly invest in various instruments including deposits, equities, debt securities and derivatives.
+            - listitem [ref=f103e172]: Some funds may invest in equities which are subject to risks, such as investment, equities and equity-related securities, counterparty, liquidity, valuation and currency risks as well as risks of investing in convertible bonds and master/feeder fund structure.
+            - listitem [ref=f103e173]: Some funds’ investment in small and mid-capitalisation companies may be subject to greater risks than larger companies, which include higher liquidity, volatility, economic and organisational risks.
+            - listitem [ref=f103e174]: Some funds may invest in debt securities which are subject to risks, such as investment, credit, interest rate fluctuation, volatility, liquidity, concentration, downgrading, sovereign debt, valuation, credit rating, counterparty, currency risks and the risks of investing in convertible bonds as well as risks associated with collateralized and/or securitized products.
+            - listitem [ref=f103e175]: Some funds’ investment in sub-investment grade or unrated debt securities may be subject to higher liquidity, volatility and credit risks than higher-rated debt securities, as well as increased risk of loss of principal and interest. Some funds’ investment in securities issued or guaranteed by governments may be exposed to political, social and economic risks and may suffer significant losses when there is a default of sovereign and/or quasi sovereign debt issuers.
+            - listitem [ref=f103e176]: Some funds’ investment in senior secured debt instruments are subject to credit/default risk of the issuer of the debt instruments and there is no guarantee of the repayment of principal of investment from the collateral pledged for the debt instruments in case of default.
+            - listitem [ref=f103e177]: Some funds may invest in single region/sector and the value of the funds may be more volatile. In particular, Agricultural and soft commodities markets may be adversely affected by natural events and human errors.
+            - listitem [ref=f103e178]: Some funds may invest in emerging markets which is subject to increased risks, including liquidity, currency/currency control, political and economic uncertainties, legal and taxation, settlement, custody and volatility risks, and the risk of foreign exchange control and restrictions on capital transactions and payments under certain material adverse circumstances affecting certain countries. Investment in certain countries within the Eurozone may involve sovereign debt risks. Investing in Russia may be subject to special risks, including economic and political unrest, lack of transparent and reliable legal system and lower standard of corporate governance.
+            - listitem [ref=f103e179]: The Manager integrates environmental, social and governance (ESG) information into the investment process, which may affect some funds’ investment performance and, as such, may perform differently compared to similar collective investment schemes.
+            - listitem [ref=f103e180]: Some funds may invest in derivatives for investment or efficient portfolio management (including hedging) purposes which may involve counterparty/credit, valuation, volatility and over-the-counter transactions risks. Exposure to derivatives may lead to a high risk of significant loss by the funds.
+            - listitem [ref=f103e181]: Some funds offer RBM classes and RMB classes are subject to RMB currency risks. RMB is currently not freely convertible and conversion of RMB is subject to foreign exchange control policies and restrictions. There is no guarantee that RMB will not be subject to depreciation. Under exceptional circumstances, payment of realisation proceeds and/or dividend payment from underlying investments to the funds in RMB may be delayed.
+            - listitem [ref=f103e182]: Some funds’ investment in debt instruments with loss-absorption features (“LAP”) are subject to risks of contingent write-down or contingent conversion to ordinary shares upon occurrence of complex and unpredictable trigger events which may result in higher price volatility and total loss of amount invested. LAP may also be exposed to liquidity, valuation and sector concentration risk.
+            - listitem [ref=f103e183]: Barings USD Liquidity Fund may be subject to the risks of investment, liquidity fee, redemption gate and suspension of redemption, credit, interest rate, negative yield environment, downgrading, valuation, credit rating, sovereign debt as well as risks associated with repurchase and reverse repurchase agreements. This fund is an investment fund and is not in the nature of a bank deposit. There is no guarantee of repayment of principal. Valuation of investments of this fund using the amortised cost method (“Constant NAV”) may be higher or lower than the valuation based on the market price of the investments (“Market Price NAV”). Investors subscribe or redeem using the share price based on Constant NAV may be higher or lower than the price based on Market Price NAV. Sudden movements in interest rates or credit concerns may also cause material deviations in the value of investments between these two methodologies. This fund shall use Constant NAV for subscription and redemption, save that where the difference between Constant NAV and Market Price NAV is more than 20 basis point, this fund shall use Market Price NAV instead. Investors may suffer losses when one methodology is used over another. Further, when Constant NAV is used, it is not intended to maintain a stable NAV per share and shares may fall in value. This fund is authorised and regulated as a Low Volatility Net Asset Value Money Market Fund (“LVNAV MMF”) pursuant to the relevant European Union Regulation. This fund is subject to the risk of change of LVNAV MMF status to a Variable Net Asset Value Money Market Fund or, if the Directors deem it appropriate because of adverse political, economic, fiscal or regulatory changes affecting this fund, redeem all shares of this fund and investors may suffer a loss.
+            - listitem [ref=f103e184]: Some funds may pay distribution, at the discretion of the Managers, (i) out of capital, (ii) out of capital gains, or (iii) out of gross income while fees/expenses may be charged to the capital. Items (ii) and (iii) result in distribution effectively paid out of capital. Payment of distribution out of capital amounts to a return or withdrawal of part of an investor’s original investment or from any capital gains attributable to that original investment and would result in an immediate reduction in the net asset value of the funds.
+            - listitem [ref=f103e185]: Investors may suffer substantial loss of their investments in the funds.
+          - paragraph [ref=f103e186]:
+            - strong [ref=f103e187]: Important information
+          - paragraph [ref=f103e188]: This Internet site is created by Baring Asset Management (Asia) Limited and is only provided as a reference service. It has not been reviewed by the Securities and Futures Commission of Hong Kong. Investors should not only base on the information available on this website alone to make investment decisions. You are advised to seek appropriate professional advice.
+          - paragraph [ref=f103e189]: Investment involves risks. The value of investments and any income generated may go down as well as up and is not guaranteed. Past performance is not a guide to future performance. Where yields have been quoted, they are not guaranteed. Investors should read all the relevant documents including Reports and Accounts and Offering Documents, including the risk factors.
+          - paragraph [ref=f103e190]:
+            - text: You must read the above information before proceeding. Please also be reminded to read the Privacy Notice, Cookies Notice, and Terms and Conditions. By clicking the “I Confirm” button below, you acknowledge that you have read the relevant Important Risk Disclosures and
+            - link "Privacy Notice" [ref=f103e192] [cursor=pointer]:
+              - /url: /en-hk/individual/content/privacy-notice
+            - text: ","
+            - link "Cookies Notice" [ref=f103e193] [cursor=pointer]:
+              - /url: /en-hk/individual/content/cookies-notice
+            - text: ", and"
+            - link "Terms and Conditions" [ref=f103e194] [cursor=pointer]:
+              - /url: /en-hk/individual/content/terms-and-conditions
+            - text: .
+          - paragraph [ref=f103e195]
+        - generic [ref=f103e196]:
+          - button "I confirm" [ref=f103e197] [cursor=pointer]
+          - button "Close this dialog window" [ref=f103e198] [cursor=pointer]: No thank you
+      - generic [ref=f103e203]:
+        - heading "Capture the Investment Opportunities in Asian Equities" [level=2] [ref=f103e205]
+        - generic [ref=f103e206]: SooHai Lim, Head of Asia ex-China Equities, discusses four investment themes for Asian Equities
+        - generic [ref=f103e207]:
+          - generic [ref=f103e208] [cursor=pointer]:
+            - button "Play AMF_Video1_HK_1.mp4" [ref=f103e214]:
+              - img "Play AMF_Video1_HK_1.mp4" [ref=f103e215]
+            - generic [ref=f103e218]: De-Globalization - Supply Chain Diversification & Resilience
+          - generic [ref=f103e219] [cursor=pointer]:
+            - button "Play AMF_Video2_HK_3.mp4" [ref=f103e225]:
+              - img "Play AMF_Video2_HK_3.mp4" [ref=f103e226]
+            - generic [ref=f103e229]: Consumption
+          - generic [ref=f103e230] [cursor=pointer]:
+            - button "Play AMF_Video3_HK.mp4" [ref=f103e236]:
+              - img "Play AMF_Video3_HK.mp4" [ref=f103e237]
+            - generic [ref=f103e240]: Technological Ubiquity
+          - generic [ref=f103e241] [cursor=pointer]:
+            - button "Play AMF_Video4_HK_3.mp4" [ref=f103e247]:
+              - img "Play AMF_Video4_HK_3.mp4" [ref=f103e248]
+            - generic [ref=f103e251]: Sustainability
+  - generic [ref=f103e254]:
+    - paragraph [ref=f103e258]:
+      - text: We use cookies on our website to provide you with the best experience. By proceeding to our site you agree to our
+      - link "Cookies Notice" [ref=f103e259] [cursor=pointer]:
+        - /url: /en-hk/individual/content/cookies-notice
+      - text: and our site
+      - link "Terms and Conditions" [ref=f103e260] [cursor=pointer]:
+        - /url: /en-hk/individual/content/terms-and-conditions
+      - text: .
+    - button "Close and Accept" [ref=f103e261] [cursor=pointer]
+  - contentinfo [ref=f103e264]:
+    - generic [ref=f103e267]:
+      - generic [ref=f103e269]:
+        - heading "Who We Are" [level=2] [ref=f103e270]
+        - generic [ref=f103e271]:
+          - paragraph [ref=f103e272]: Barings is a $502 billion* global alternative asset manager that partners with institutional, insurance and wealth clients and supports leading businesses with flexible financing solutions. The firm, a subsidiary of MassMutual with a minority investment from MS&AD, seeks to deliver excess returns by leveraging its global scale and capabilities across credit, real assets, capital solutions and emerging markets.
+          - paragraph [ref=f103e273]: "*As of June 30, 2026"
+        - link "Contact Us" [ref=f103e274] [cursor=pointer]:
+          - /url: /en-hk/individual/contact/contact-barings
+      - generic [ref=f103e276]:
+        - heading "Follow Us" [level=2] [ref=f103e277]
+        - link [ref=f103e278] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/barings
+          - img "LinkedIn" [ref=f103e279]
+        - link [ref=f103e280] [cursor=pointer]:
+          - /url: https://twitter.com/Barings
+          - img "Twitter" [ref=f103e281]
+        - link [ref=f103e282] [cursor=pointer]:
+          - /url: https://podcasts.apple.com/us/podcast/streaming-income-a-podcast-from-barings/id1449496233
+          - img "Apple Podcast" [ref=f103e283]
+        - link [ref=f103e284] [cursor=pointer]:
+          - /url: https://open.spotify.com/show/7wv1GJCQHcggXDdMHbhRlY
+          - img "Spotify" [ref=f103e285]
+        - link [ref=f103e286] [cursor=pointer]:
+          - /url: https://www.youtube.com/@Barings
+          - img "Barings YouTube Channel" [ref=f103e287]
+    - list [ref=f103e290]:
+      - listitem [ref=f103e291]:
+        - link "Privacy Notice" [ref=f103e292] [cursor=pointer]:
+          - /url: /en-hk/individual/content/privacy-notice
+      - listitem [ref=f103e293]:
+        - link "Cookie Notice" [ref=f103e294] [cursor=pointer]:
+          - /url: /en-hk/individual/content/cookies-notice
+      - listitem [ref=f103e295]:
+        - link "Terms & Conditions" [ref=f103e296] [cursor=pointer]:
+          - /url: /en-hk/individual/content/terms-and-conditions
+      - listitem [ref=f103e297]:
+        - link "Important Disclosures" [ref=f103e298] [cursor=pointer]:
+          - /url: /en-hk/individual/content/important-disclosures
+      - listitem [ref=f103e299]:
+        - link "Site Map" [ref=f103e300] [cursor=pointer]:
+          - /url: /en-hk/individual/sitemap
+    - generic [ref=f103e304]:
+      - paragraph [ref=f103e305]:
+        - text: The opinions and other information contained herein, whether express or implied are made in good faith in relation to the facts known at the time of preparation and are subject to change without notice.
+        - strong [ref=f103e306]: PAST PERFORMANCE IS NOT NECESSARILY INDICATIVE OF FUTURE RESULTS.
+        - text: All monetary figures are in USD unless otherwise specified.
+      - paragraph [ref=f103e307]: This material should not be construed as a recommendation, and Barings is not soliciting any action based upon such information. Additionally, the strategies and funds may not be available to all investor types in all jurisdictions. In some jurisdictions this website may contain advertising.
+      - paragraph [ref=f103e308]
+      - paragraph [ref=f103e309]: Copyright © 2026 Barings. The BARINGS name and logo design are trademarks of Barings and are registered in U.S. Patent and Trademark Office and in other countries around the world. All rights are reserved.

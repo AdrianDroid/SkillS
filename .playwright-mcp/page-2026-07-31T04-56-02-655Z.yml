@@ -1,0 +1,1421 @@
+- generic [ref=f74e3]:
+  - generic [ref=f74e4]:
+    - generic [ref=f74e5]:
+      - generic [ref=f74e6]:
+        - link "設首頁" [ref=f74e8] [cursor=pointer]:
+          - /url: "#"
+        - link "简体" [ref=f74e10] [cursor=pointer]:
+          - /url: javascript:toLang('sc')
+        - link "ENG" [ref=f74e14] [cursor=pointer]:
+          - /url: javascript:toLang('en')
+        - link "下載iPhone智財迅手機版" [ref=f74e20] [cursor=pointer]:
+          - /url: https://itunes.apple.com/hk/app/id368726182?mt=8
+        - link "下載Android智財迅手機版" [ref=f74e22] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.aastocks.dzh&hl=zh_TW
+        - link "進入手機版網頁" [ref=f74e24] [cursor=pointer]:
+          - /url: https://www.aastocks.com/tc/mobile/default.aspx
+      - generic [ref=f74e25] [cursor=pointer]: 美股
+      - generic [ref=f74e29] [cursor=pointer]: 基金
+      - generic [ref=f74e33] [cursor=pointer]: 外匯、加密貨幣
+      - generic [ref=f74e37] [cursor=pointer]: 滬、深港通
+      - generic [ref=f74e41] [cursor=pointer]: 港股
+    - generic [ref=f74e45]:
+      - generic [ref=f74e48]:
+        - table [ref=f74e50]:
+          - rowgroup [ref=f74e51]:
+            - row [ref=f74e52]:
+              - cell [ref=f74e53]
+              - cell [ref=f74e54]:
+                - table "道瓊斯及標準普爾500指數為收市數據 香港及深圳指數為即時指數 其他中國指數延遲最少十五分鐘 其他國際指數延遲三十至六十分鐘" [ref=f74e55] [cursor=pointer]:
+                  - rowgroup [ref=f74e56]:
+                    - row [ref=f74e57]:
+                      - cell "*台灣加權" [ref=f74e58]
+                      - cell "42,940" [ref=f74e59]
+                      - cell "3,007.30" [ref=f74e63]
+                    - row [ref=f74e64]:
+                      - cell [ref=f74e65]
+                      - cell "7.53%" [ref=f74e66]
+              - cell [ref=f74e67]
+              - cell [ref=f74e68]:
+                - table "道瓊斯及標準普爾500指數為收市數據 香港及深圳指數為即時指數 其他中國指數延遲最少十五分鐘 其他國際指數延遲三十至六十分鐘" [ref=f74e69] [cursor=pointer]:
+                  - rowgroup [ref=f74e70]:
+                    - row [ref=f74e71]:
+                      - cell "*深證成指" [ref=f74e72]
+                      - cell "13,705" [ref=f74e73]
+                      - cell "419.62" [ref=f74e77]
+                    - row [ref=f74e78]:
+                      - cell [ref=f74e79]
+                      - cell "3.16%" [ref=f74e80]
+              - cell [ref=f74e81]
+        - table [ref=f74e83]:
+          - rowgroup [ref=f74e84]:
+            - row [ref=f74e85]:
+              - cell [ref=f74e86]
+              - cell [ref=f74e87]:
+                - table "道瓊斯及標準普爾500指數為收市數據 香港及深圳指數為即時指數 其他中國指數延遲最少十五分鐘 其他國際指數延遲三十至六十分鐘" [ref=f74e88] [cursor=pointer]:
+                  - rowgroup [ref=f74e89]:
+                    - row [ref=f74e90]:
+                      - cell "*恆指" [ref=f74e91]
+                      - cell "25,830" [ref=f74e92]
+                      - cell "28.30" [ref=f74e96]
+                    - row [ref=f74e97]:
+                      - cell [ref=f74e98]
+                      - cell "0.11%" [ref=f74e99]
+              - cell [ref=f74e100]
+              - cell [ref=f74e101]:
+                - table "道瓊斯及標準普爾500指數為收市數據 香港及深圳指數為即時指數 其他中國指數延遲最少十五分鐘 其他國際指數延遲三十至六十分鐘" [ref=f74e102] [cursor=pointer]:
+                  - rowgroup [ref=f74e103]:
+                    - row [ref=f74e104]:
+                      - cell "*國指" [ref=f74e105]
+                      - cell "8,608" [ref=f74e106]
+                      - cell "35.88" [ref=f74e110]
+                    - row [ref=f74e111]:
+                      - cell [ref=f74e112]
+                      - cell "0.42%" [ref=f74e113]
+              - cell [ref=f74e114]
+      - generic [ref=f74e117]:
+        - generic [ref=f74e120]:
+          - link [ref=f74e122] [cursor=pointer]:
+            - /url: https://accounts.aastocks.com/tc/mainsite/registration.aspx
+            - img "會員登記" [ref=f74e123]
+            - text: 會員登記
+          - link [ref=f74e125] [cursor=pointer]:
+            - /url: https://logon.aastocks.com/mainsite/tc/login.aspx
+            - img "用戶登入" [ref=f74e126]
+            - text: 用戶登入
+        - table [ref=f74e129]:
+          - rowgroup [ref=f74e130]:
+            - row [ref=f74e131]:
+              - cell [ref=f74e132]:
+                - combobox [ref=f74e133]
+              - cell [ref=f74e134]:
+                - link [ref=f74e135] [cursor=pointer]:
+                  - /url: /tc/funds/tool/search.aspx
+    - table [ref=f74e139]:
+      - rowgroup [ref=f74e140]:
+        - row [ref=f74e141]:
+          - cell [ref=f74e142]:
+            - iframe [ref=f74e143]:
+              
+  - generic [ref=f74e146]:
+    - list [ref=f74e147]:
+      - listitem [ref=f74e148]:
+        - link "主頁" [ref=f74e149] [cursor=pointer]:
+          - /url: /tc/funds/default.aspx
+      - listitem [ref=f74e150]
+      - listitem [ref=f74e151]:
+        - link "基金報價" [ref=f74e152] [cursor=pointer]:
+          - /url: /tc/funds/quote/quote.aspx
+      - listitem [ref=f74e153]
+      - listitem [ref=f74e154]:
+        - link "基金新聞" [ref=f74e155] [cursor=pointer]:
+          - /url: /tc/funds/news/search.aspx
+      - listitem [ref=f74e156]
+      - listitem [ref=f74e157]:
+        - link "基金評論" [ref=f74e158] [cursor=pointer]:
+          - /url: /tc/funds/commentary/commentary.aspx
+      - listitem [ref=f74e159]
+      - listitem [ref=f74e160]:
+        - link "工具" [ref=f74e161] [cursor=pointer]:
+          - /url: /tc/funds/tool/quickfunds.aspx
+      - listitem [ref=f74e162]:
+        - link "目錄" [ref=f74e163] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=f74e167]:
+      - link "預設主題基金搜尋" [ref=f74e168] [cursor=pointer]:
+        - /url: /tc/funds/tool/quickfunds.aspx
+      - text: ．
+      - link "基金搜尋" [ref=f74e169] [cursor=pointer]:
+        - /url: /tc/funds/tool/search.aspx
+      - text: ．
+      - link "基金比較" [ref=f74e170] [cursor=pointer]:
+        - /url: /tc/funds/tool/compare.aspx
+  - generic [ref=f74e171]:
+    - generic [ref=f74e172]:
+      - table [ref=f74e173]:
+        - rowgroup [ref=f74e174]:
+          - row [ref=f74e175]:
+            - cell "基金類型 所有" [ref=f74e176]:
+              - generic [ref=f74e177]: 基金類型
+              - combobox [ref=f74e179]:
+                - option "所有" [selected]
+                - option "均衡基金"
+                - option "商品基金"
+                - option "股票基金"
+                - option "定息基金"
+                - option "期貨基金"
+                - option "貨幣市場基金"
+            - cell "基金公司 宏利資產管理（香港）有限公司" [ref=f74e180]:
+              - generic [ref=f74e181]: 基金公司
+              - combobox [ref=f74e183]:
+                - option "所有"
+                - option "安本國際基金管理有限公司"
+                - option "聯博香港有限公司"
+                - option "安聯環球投資亞太有限公司"
+                - option "東方匯理資產管理香港有限公司 - 東方匯理系列基金"
+                - option "東方匯理資產管理香港有限公司 - 法興/ 法興資產收成基金"
+                - option "霸菱資產管理(亞洲)有限公司"
+                - option "貝萊德資產管理北亞有限公司"
+                - option "法國巴黎投資 - 法巴L1基金"
+                - option "Christian DiClementi & Gershon Distenfeld & Fahd Malik & Matthew S. Sheridan & Will Smith"
+                - option "富達基金（香港）有限公司"
+                - option "首源投資(香港)有限公司"
+                - option "富蘭克林鄧普頓投資(亞洲)有限公司"
+                - option "國泰君安資產管理（亞洲）有限公司"
+                - option "亨德森全球投資 (香港) 有限公司"
+                - option "匯豐投資管理(香港)有限公司"
+                - option "景順投資管理亞洲有限公司"
+                - option "摩根資產管理"
+                - option "領先資產管理"
+                - option "麥格理基金集團"
+                - option "英仕曼投資(香港)有限公司"
+                - option "宏利資產管理（香港）有限公司" [selected]
+                - option "Michael Hasenstab & Calvin Ho"
+                - option "中國平安資產管理（香港）有限公司"
+                - option "Rick Rieder & Andreas Doerrenhaus & Bob Miller"
+                - option "施羅德投資管理 (香港) 有限公司"
+                - option "惠理基金管理公司"
+          - row [ref=f74e184]:
+            - cell "基金經理 所有" [ref=f74e185]:
+              - generic [ref=f74e186]: 基金經理
+              - combobox [ref=f74e188]:
+                - option "所有" [selected]
+                - option "Abdallah Guezour"
+                - option "Aditya Shivram"
+                - option "Adrian Brass"
+                - option "鄧鴻文"
+                - option "Aidan Shevlin & Masaomi Shimada"
+                - option "Aidan Shevlin & 張冠邦"
+                - option "Aidan Shevlin （香港）"
+                - option "Ajinkya Dhavale"
+                - option "Akihiko Murai"
+                - option "Akira Yoshimi"
+                - option "Akiva Dickstein & Matthew Kraeger & Bob Miller"
+                - option "Akiva Dickstein &Scott MacLellan, CFA, CMT& Amanda Liu, CFA &Sam Summers"
+                - option "Alan Supple （紐約）& Sara Bellenda （倫敦）"
+                - option "Alan Wilde"
+                - option "Alastair Bishop"
+                - option "Alastair Bishop & Charles Lilford"
+                - option "Alastair Bishop & Mark Hume"
+                - option "Albert Chuang & Jordan Stewart"
+                - option "Alberto Chiandetti"
+                - option "Alberto Chiandetti & Andrea Fornoni"
+                - option "Alberto Chiandetti&Andrea Fornoni"
+                - option "Alethea Leung"
+                - option "Alethea Leung & Stephen Andrews"
+                - option "Alex Gold"
+                - option "Alex Gold & Judith Finegold"
+                - option "Alex Tedder"
+                - option "Alex Wai Shing KO"
+                - option "Alexander Scurlock"
+                - option "Ali, Tawhid & Birse, Andrew"
+                - option "Alice Gaskell & Andreas Zoellinger"
+                - option "Alistair Thompson"
+                - option "Alister Hibbert"
+                - option "Allan Conway & Nicholas Morse"
+                - option "Allan Conway & Rami Sidani"
+                - option "Allan Conway & Tom Wilson"
+                - option "Allan Conway & Waj Hashmi"
+                - option "Allan Liu"
+                - option "Amer Bisat & Michel Aubenas"
+                - option "Amer Bisat & Michel Aubenas & Amer Bisat"
+                - option "Amit Goel"
+                - option "Amit Mehta & Sandip Patodia"
+                - option "Amit Mehta & Sandip Patodia & Ayaz Ebrahim"
+                - option "Amundi（投資經理）；Victory Capital Management Inc.（副投資經理）"
+                - option "Amy Denn"
+                - option "Andreas Doerrenhaus"
+                - option "Andreas Doerrenhaus & Michael Krautzberger"
+                - option "Andreas Doerrenhaus & Michael Krautzberger"
+                - option "Andreas Hildebrand & Giovanni Trombello"
+                - option "Andreas Zoellinger"
+                - option "Andreas Zoellinger & Tom Joy"
+                - option "Andrew Beal"
+                - option "Andrew Birse & Jane Bleeg"
+                - option "Andrew Gillan & Mervyn Koh"
+                - option "Andrew Lees"
+                - option "Andrew Lees & Tyler Dann II"
+                - option "Andrew Mattock & Caroline Maurer"
+                - option "Andrew Swan"
+                - option "Andrew Swan & Alethea Leung"
+                - option "Andrew Swan & Sidharth Mahapatra"
+                - option "Andrew Warwick"
+                - option "Andrew Wheatley Hubbard & Molly Greenen"
+                - option "Andrew Wheatley Hubbard & Olivia Treharne"
+                - option "Andy Weir"
+                - option "Aneta Wynimko"
+                - option "Angel Agudo"
+                - option "Angel Agudo & Ashish Bhardwaj"
+                - option "Angel Agudo&Christopher Moore"
+                - option "Anita Costa"
+                - option "Anne Ruffin"
+                - option "梁淑冰 & 劉曙明"
+                - option "Anthony Srom"
+                - option "Antony Gifford & Nicholas Cowley"
+                - option "Antony Vallee & Natalia Bucci & Katy Thorneycroft"
+                - option "Arjun Vij & 彭逸升"
+                - option "Ashish Bhardwaj"
+                - option "亞洲投資隊伍"
+                - option "亞洲股票隊伍"
+                - option "亞洲債券隊伍"
+                - option "Austin Forey"
+                - option "Avi Lav & Justin Moreau"
+                - option "Ayaz Ebrahim"
+                - option "Ayaz Ebrahim & Christopher Smith"
+                - option "B. Bahra, F. Bourgoin & D.Scammell"
+                - option "Baring Asset Management Limited"
+                - option "Baring Fund Managers Limited"
+                - option "Baring International Fund Managers (Ireland) Limited"
+                - option "Bartlett Geer"
+                - option "Bassel Khatoun & Purav Jhaver & Salah Khaled Chamma"
+                - option "Bassel Khatoun & Salah Shamma"
+                - option "東亞聯豐投資管理有限公司"
+                - option "Ben Lofthouse"
+                - option "Bertrand Puiffe"
+                - option "Betsy Hofman"
+                - option "Betsy Hofman & Glenn Voyles"
+                - option "Bhupinder Bahra & Frederick Bourgoin"
+                - option "Bill Gross"
+                - option "BlackRock (Luxembourg) S.A."
+                - option "BNP Paribas Asset Management"
+                - option "BNP Paribas Investment Partners Asia Limited"
+                - option "Bob Arends"
+                - option "Bob Miller & Aidan Doyle & Chi Chen & Sam Summers"
+                - option "Bob Miller & Akiva Dickstein & Scott MacLellan"
+                - option "Bob Miller & Akiva Dickstein & Scott MacLellan & Adam Carlin & Amanda Liu & Sam Summers"
+                - option "Bob Miller ＆ Akiva Dickstein ＆ Scott MacLellan, CFA, CMT ＆ Adam Carlin, CFA ＆ Amanda Liu, CFA ＆ Sam"
+                - option "Bob Miller & Russell Brownback & Aidan Doyle & Trevor Slaven & Chi Chen & Sam Summers"
+                - option "Brad Slingerlend & Denny Fish"
+                - option "Brian Hall & Peter Hopkins"
+                - option "Bryan Agbabian"
+                - option "Bryan Collins"
+                - option "Caroline Shaw Julie-Ann Ashcroft"
+                - option "Caroline Shaw Julie-Ann Ashcroft"
+                - option "Caroline Yu Maurer"
+                - option "Carrie King & Joseph Wolfe"
+                - option "Carrie King & Tony DeSpirito & Franco Tapia, CFA & David Zhao & Joseph Wolfe"
+                - option "Catherine Raw & Desmond Cheung & Tom Holl & Joshua Freedman"
+                - option "Catherine Raw & Desmond Cheung & Tom Holl & Joshua Freedman"
+                - option "Catrin Hádén"
+                - option "建銀國際資產管理有限公司"
+                - option "Cedric Morisseau"
+                - option "成昌桓 & 阮偉國 & 劉傑翔"
+                - option "Chang Hwan Sung & William Yuen & Chris Lau & Nixon Mak"
+                - option "王長褀 & 梁素芬 & 羅思洋"
+                - option "王長祺 & 梁素芬"
+                - option "Charlemagne Capital (UK) Limited"
+                - option "Charlemagne Capital (UK) Ltd"
+                - option "Charlie Awdry & May Ling Wee"
+                - option "Chate Benchavitvilai & 羅思洋 & 黃寶麗"
+                - option "Chetan Sehgal"
+                - option "Chetan Sehgal & Michael Hasenstab & Calvin Ho"
+                - option "Chetan Sehgal & Michael Hasenstab & Calvin Ho & Vivek Ahuja & Subash Pillai"
+                - option "Chetan Sehgal & Michael Hasenstab & Laura Burakreis"
+                - option "Chetan Sehgal & Michael Hasenstab & Vivek Ahuja & Subash Pillai"
+                - option "Chetan Sehgal & Vikas Chiranewal & Krzysztof Musialik"
+                - option "洪朝陽"
+                - option "Chris Hall & Oisin Crawley"
+                - option "Chris Korpan & Veronika Lysogorskaya"
+                - option "Chris Leavy & Peter Stournaras"
+                - option "梁德康"
+                - option "Christian DiClementi & Gershon Distenfeld & Fahd Malik & Matthew S. Sheridan"
+                - option "Christian DiClementi & Gershon Distenfeld & Fahd Malik & Matthew S. Sheridan & Will Smith"
+                - option "Christian FAY"
+                - option "Christian von & Engelbrechten & Tom Ackermans"
+                - option "Christian Von Engelbrechten"
+                - option "鍾秀霞"
+                - option "Christopher Allen"
+                - option "Christopher Allen & David Rogal"
+                - option "Christopher Allen & Emanuella Enenajor"
+                - option "Christopher Sykes"
+                - option "Christopher Sykes & Mike Gray"
+                - option "花旗集團基金管理有限公司"
+                - option "Claude GUILLAUME"
+                - option "Claudia Calich"
+                - option "Claudia Calich & Peter Ehret"
+                - option "Clive Burstow & James Govan"
+                - option "Clive Burstow & James Govan & Piers Aldred"
+                - option "Coleen Gasiewski & Christopher Linsky"
+                - option "吳志光"
+                - option "Colin Stone"
+                - option "Colin Stone & Jim Maun"
+                - option "Colin Stone & Jim Maun & Joseph Edwards"
+                - option "Conan McKenzie"
+                - option "Conan McKenzie"
+                - option "Craig Abouchar & Sean Feeley & Natalia Krol & Scott Roth & Chris Sawyer & Omotunde Lawal"
+                - option "Dale Nicholls"
+                - option "Damien KOHLER"
+                - option "Dan Chamby & David Clayton & Kent Hogshire & Russ Koesterich"
+                - option "Dan Chamby & Russ Koesterich & David Clayton"
+                - option "Dan Chamby & Russ Koesterich & David Clayton & Kent Hogshire"
+                - option "Dan FREDRIKSON"
+                - option "Dan Neuger & Lan Cai & Tim Campion"
+                - option "Daniel C. Roarty"
+                - option "Daniel C. Roarty & Benjamin Ruegsegger"
+                - option "Daniel C. Roarty & Benjamin Ruegsegger"
+                - option "Daniel Scher & Blair Schmicker"
+                - option "Darin Turner & James Cowen & Chip McKinley & Invesco Real Estate Global Securities Team¹"
+                - option "Darin Turner & James Cowen & Invesco Real Estate Global Securities Team"
+                - option "David Bertocchi & Richard Holroyd"
+                - option "David Bertocchi & Richard Holroyd & Matthew Ward"
+                - option "陳璽安"
+                - option "David CHOA"
+                - option "崔光鉉 & John Cho"
+                - option "David Mitchinson & Robert Lloyd"
+                - option "David Rogal&Johan Sjogren&Harrison Segall"
+                - option "David Tan & Aidan Shevlin"
+                - option "David Tovey"
+                - option "David Tovey"
+                - option "David Tovey"
+                - option "David Tovey & Christopher Sykes"
+                - option "Deena FRIEDMAN"
+                - option "黎耀章"
+                - option "Dennis Stattman & Dan Chamby & Aldo Roldan"
+                - option "Denny Fish"
+                - option "Denny Fish & Garth Yettick"
+                - option "Derek Taner & Dean Dillard"
+                - option "Derek Taner & Henry Wu"
+                - option "Dhananjay Phadnis"
+                - option "Dhiren Shah"
+                - option "Dhiren Shah & Luiz Soares"
+                - option "已發展市場可持續及主題股票團隊"
+                - option "Dmitry Solomakhin"
+                - option "Doug Forsyth"
+                - option "Duncan Goodwin"
+                - option "Duncan Goodwin & James Govan & Clive Burstow"
+                - option "Dylan Ball"
+                - option "Ece Ugurtas"
+                - option "Ed Kuczma"
+                - option "Ed Lugo"
+                - option "Edward D. Perks & Brendan Circle & Todd Brighton"
+                - option "Edward D. Perks & Matt Quinlan & Todd Brighton & Richard Hsu"
+                - option "Edward D. Perks & Matt Quinlan & Todd Brighton & Richard Hsu & Brendan Circle"
+                - option "Edward Ingold & Christopher Linsky"
+                - option "Edward Ingold CFA"
+                - option "Edward Ingold CFA & Christopher Linsky"
+                - option "Edward Jamieson"
+                - option "Edward Perks"
+                - option "Edwin Lugo"
+                - option "Eiji Saito & Koji Namiki"
+                - option "孫瑩心"
+                - option "新興市場債券隊伍"
+                - option "新興市場增長隊伍"
+                - option "葉義信 & 王浩"
+                - option "Erin Xie"
+                - option "Erin Xie & Xiang Liu"
+                - option "Erin Xie & Xiang Liu & Jeff Lee"
+                - option "Euro HY and Global Leverage Loans Team"
+                - option "歐洲股票投資組"
+                - option "歐洲價值股票投資政策小組"
+                - option "Evan McCulloch"
+                - option "Evan McCulloch & Steve Kornfeld"
+                - option "Evan McCulloch & Wendy Lam & Akiva Felt"
+                - option "Evan McCulloch & Wendy Lam & Steve Kornfeld"
+                - option "Eve Tournier"
+                - option "Evy Hambro"
+                - option "Evy Hambro & Catherine Raw"
+                - option "Evy Hambro & Olivia Markham"
+                - option "Evy Hambro & Tom Holl"
+                - option "Fabio Riccelli & Karoline Rosenberg"
+                - option "Felix Odey & Alex Monk & Mark Lacey"
+                - option "Firmino Morgado"
+                - option "首源投資(香港)有限公司"
+                - option "首域投資（香港）有限公司（投資經理）；Colonial First State Investments Limited（副投資經理）"
+                - option "首域投資（香港）有限公司（投資經理）；First State Investment Management (UK) Limited（副投資經理）"
+                - option "首域投資（香港）有限公司（投資經理）；First State Investments (Singapore)（副投資經理）"
+                - option "Folmer Pietersma"
+                - option "Fortis Investment Management USA, Inc."
+                - option "Frank Caruso & John H. Fogarty & Vinay Thapar"
+                - option "Fred Fromm & Steve Land & Matthew Adams"
+                - option "Fred Sykes & David Jehan & Jochen Breuer & Vincent Li"
+                - option "Frederick Fromm"
+                - option "Frederico TRALLI"
+                - option "FREDRIKSON Dan"
+                - option "Gareth Witcomb & Talib Sheikh"
+                - option "Gary CHAN & Cedric SCHOLTES"
+                - option "Gary Motyl"
+                - option "Geoff Blanning"
+                - option "Georgie Merson & Max Huefner"
+                - option "Gershon Distenfeld & Shamaila Khan & Fahd Malik & Matthew S. Sheridan"
+                - option "Gershon Distenfeld, CFA & Shamaila Khan & Douglas J. Peebles & Matthew S. Sheridan, CFA"
+                - option "Ghadir Abu Leil-Cooper"
+                - option "Giles Rothbarth"
+                - option "Gillian Kwek"
+                - option "Glenn Voyles & Patricia O'Connor & Bryant Dieffenbacher & S. James McGiveran III"
+                - option "環球新興市場債券團隊"
+                - option "環球新興市場隊伍"
+                - option "環球新興市場股票團隊"
+                - option "環球新興市場隊伍"
+                - option "環球股票隊伍"
+                - option "環球固定收益及環球信貸隊伍"
+                - option "環球固定收益小組"
+                - option "環球增長動力投資團隊"
+                - option "環球趨勢導向團隊"
+                - option "環球價值投資決策隊伍"
+                - option "Gordon Fraser & Andrew Swan"
+                - option "Gordon Fraser & Emily Fletcher & Kevin Jia"
+                - option "Gordon Fraser & Kevin Jia"
+                - option "Grace CHUNG"
+                - option "Graeme Clark & Alison Porter & Richard Clode"
+                - option "Grant Bowers"
+                - option "Greg Tuorto & Joseph Wilson"
+                - option "Gregory Luttrell & Greg Tuorto"
+                - option "國泰君安資産管理（亞洲）有限公司"
+                - option "Guy Barnard & Nicolas Scherf"
+                - option "Guy Barnard & Tim Gibson"
+                - option "Guy Barnard & Tim Gibson & Greg Kuhl"
+                - option "Habib Saikaly & Oleg Biryulyov"
+                - option "Harjeet Heer"
+                - option "Harlan Hodes & David Tuttle & Kyle Denning & Katie Ylijoki"
+                - option "Harlan Hodes & David Tuttle & Tina Sadler"
+                - option "Harley Lank"
+                - option "Harvest Global Investments Limited"
+                - option "Heather Arnold"
+                - option "Heather Arnold & Dylan Ball & Peter Moeschter"
+                - option "Heather Arnold & Dylan Ball & Peter Moeschter"
+                - option "Heather Arnold & Herbert J Arnett & Dylan Ball"
+                - option "Heather Arnold & Herbert J Arnett Jr & Peter Moeschter & Dylan Ball"
+                - option "Helen Zhu"
+                - option "Helen Zhu & Lucy Liu"
+                - option "Henry Wu"
+                - option "Herbert J Arnett Jr & Peter Moeschter & Peter Moeschter & Christopher Peel"
+                - option "Herbert J Arnett Jr & Peter Moeschter & Warren Pustam & Christopher James Peel"
+                - option "Hetal Shah & Aisa Ogoshi & 郭為熹"
+                - option "Hetal Shah & 郭為熹"
+                - option "高收益債券隊伍"
+                - option "Hilary Natoff"
+                - option "Hiroki Takayama"
+                - option "Hiroki Takayama & Keitaro Kanai"
+                - option "Hokeun Chung"
+                - option "王浩 & 葉義信"
+                - option "王浩 & 葉義信 & 江彥"
+                - option "王浩 & 江彥"
+                - option "Hubert GOYE"
+                - option "Hugh Cuthbert"
+                - option "白浩森 / Michael Dillon"
+                - option "Hyomi Jie"
+                - option "Hyung Jin Lee"
+                - option "李炯陳 & 林素亥 & 洪那玧"
+                - option "Hyunho Sohn"
+                - option "Ian Henderson 與團隊"
+                - option "Ian Spreadbury"
+                - option "ING Investment Management Asia Pacific (Hong Kong) Limited"
+                - option "ING Investment Management Luxembourg S.A.（基金經理）;ING Asset Management B.V.（副投資組合經理）"
+                - option "ING Investment Management Luxembourg S.A.（基金經理）;ING Investment Management Asia Pacific (Hong Kong) Ltd.（副投資組合經理）"
+                - option "Invesco Real Estate Global Securities Team"
+                - option "唐正偉 & Chate Benchavitvilai & 黃寶麗"
+                - option "Jack Neele & Richard Speetjens"
+                - option "James Bristow"
+                - option "James Buckley"
+                - option "James Buckley & Robert Smith"
+                - option "James Ewinger & Adam Upton"
+                - option "James Ewinger & Mayur Nallamala"
+                - option "James Keenan & Jose Aguilar & David Delbos & Mitchell Garfin & James Turner"
+                - option "James Keenan & Jose Aguilar & David Delbos & Mitchell Garfin & Stephen Gough"
+                - option "James Keenan & Jose Aguilar & David Delbos & Mitchell Garfin & Stephen Gough"
+                - option "James Keenan & Michael Phelps & Derek Schoenhofen"
+                - option "James Keenan & Mitchell Garfin & David Delbos"
+                - option "梁宏傑"
+                - option "梁宏傑 & 傅鈺"
+                - option "James Macpherson"
+                - option "James McDermottroe & Charles Bond"
+                - option "James Ringer & Julien Houdain"
+                - option "James Ringer & Martin Couke & Julien Houdain"
+                - option "James Ross"
+                - option "James Trafford"
+                - option "James Yeh & Connie Shen"
+                - option "日本股票隊伍"
+                - option "駿利亨德森日本基金團隊"
+                - option "Jason Byrom & Conan McKenzie"
+                - option "Jason Byrom&Conan McKenzie&Lamiaa Chaabi"
+                - option "Jeff Feng"
+                - option "Jeffrey Parker"
+                - option "Jeffrey Parker & Kimberlee Millar"
+                - option "Jeffrey Roskell & 郭為熹 & 張冠邦"
+                - option "Jeffrey Roskell & Julie Ho & Ruben Lienhard & Shaw Yann Ho & Selina Yu"
+                - option "Jeffrey Roskell & 何世寧 & Ruben Lienhard & 何少燕 & 余佩玲 & Julio Callegari"
+                - option "Jeffrey Roskell & 何世寧 & 何少燕 & 余佩玲"
+                - option "Jenny Jones"
+                - option "Jenny Jones & Robert Kaynor"
+                - option "陳舍伶 & 黃寶麗"
+                - option "Jenny YIU"
+                - option "JF 台灣股票投資組 & 王浩"
+                - option "Jim Maun & Joseph Edwards"
+                - option "Jim Rehlaender & Al Otero (EII)"
+                - option "Jim Rehlaender (European Investors Inc.)"
+                - option "Jing Ning & Alice Li"
+                - option "郭為熹 & 羅思洋"
+                - option "郭為熹 & Mark Davids"
+                - option "郭為熹 & Rajendra Nair"
+                - option "Jochen Breuer"
+                - option "Joe McConnel"
+                - option "Joe V. Rodriguez & Paul Curbo"
+                - option "Joel Kim & Neeraj Seth"
+                - option "曾慧瓊 & 林瑞玲"
+                - option "Johan Sjogren&Giulia Artolli&Georgie Merson"
+                - option "John Beck"
+                - option "John Cho & Ayaz Ebrahim (Hong Kong)"
+                - option "John Cho & Chun Yu Wong"
+                - option "John Cho（香港）"
+                - option "John Coyle & Ben Stanton"
+                - option "John Coyle & Murali Balaraman"
+                - option "John H. Fogarty, CFA & Vinay Thapar"
+                - option "John Remmert & Patrick McKeegan"
+                - option "John Reynolds & Tian Qiu"
+                - option "John Reynolds & Tian Qiu & Richard Spalton"
+                - option "John Surplice & James Rutland & Martin Walker"
+                - option "John Surplice & Martin Walker"
+                - option "John Surplice & Tim Marshall"
+                - option "John Surplice & Tim Marshall & James Rutland"
+                - option "Jonathan Blake"
+                - option "Jonathan Ingram & Blake Crawford & Alex Whyte"
+                - option "Jonathan Ingram & John Baker"
+                - option "Jonathan Ingram & John Baker & Anis Lahlou-Abid"
+                - option "Jonathan Ingram & John Baker & Blake Crawford"
+                - option "Jonathan Ingram & John Baker & Blake Crawford & Alex Whyte"
+                - option "Jonathan Lowe"
+                - option "Jonathan Simon & Gregory Luttrell"
+                - option "Jose Aguilar & David Delbos & Mitchell Garfin & James Turner"
+                - option "Joseph Tse"
+                - option "Joseph Wilson & Eric Ghernati"
+                - option "Joshua Crabb"
+                - option "Joshua Tay & 王浩"
+                - option "JP Scandalios"
+                - option "Julia Ho & Chow Yang Ang"
+                - option "何世寧 & Ruben Lienhard & Julio Callegari & 余佩玲"
+                - option "何世寧 & Ruben Lienhard & 何少燕 & 余佩玲 & Julio Callegari"
+                - option "何世寧 & Ruben Lienhard & Stuart O'Neill"
+                - option "Julio Callegari & 彭逸升 & 余佩玲"
+                - option "Jun Tano"
+                - option "June-Yon Kim"
+                - option "Junichi Inoue"
+                - option "Justin Christofel & Alex Shingler"
+                - option "Justin Kass & Michael Yee & David Oberto"
+                - option "Justin Livengood"
+                - option "Karoline Rosenberg"
+                - option "Karoline Rosenberg & Mac Elatab"
+                - option "Katrina Dudley & Mandana Hormozi"
+                - option "Katrina Dudley & Mandana Hormozi & Todd Ostrow"
+                - option "Kay Herr"
+                - option "Kei Fujibe"
+                - option "杜敬創"
+                - option "King Fuei Lee"
+                - option "Kunal Ghosh"
+                - option "大型公司增長隊伍"
+                - option "羅瑩"
+                - option "羅瑩/ 方偉昌/ 韋正煇/ 賴穎熙"
+                - option "Laurent Develay & Amer Bisat & Michal Wozniak"
+                - option "Lawrence Kemp"
+                - option "Lawrence Kemp & Phil Ruvinsky"
+                - option "Lawrence Kemp & Phil Ruvinsky & Caroline Bottinelli"
+                - option "Leon Eidelman & Austin Forey"
+                - option "Leon Goldfeld"
+                - option "Leon Goldfeld & Jordan Stewart"
+                - option "梁碧嫻 & 馮俊儀 & Li Tan & 彭逸升 & Julio Callegari & 余佩玲"
+                - option "梁碧嫻 & 馮俊儀 & 譚力 & 何少燕 & 彭逸升 & Julio Callegari"
+                - option "梁碧嫻 & 馮俊儀 & 何少燕 & 彭逸升"
+                - option "Lionel Bernard"
+                - option "流動市場結構化團隊"
+                - option "Lisa Walker"
+                - option "郭韶瑜 & 胡嘉林"
+                - option "盧偉良"
+                - option "Lucy Liu"
+                - option "Lucy Liu (INV) & Ada Zhang"
+                - option "Lucy Liu (INV) & Nicholas Chui"
+                - option "Luis Carrillo"
+                - option "Luis Carrillo & Rachel Rodrigues"
+                - option "Luis Carrillo & Sophie Bosch de Hood"
+                - option "Lukas Kamblevicius & Stephen Langford"
+                - option "Luke Chappell"
+                - option "Luke Chappell & Samantha Brownlee"
+                - option "領先資產管理（愛爾蘭）有限公司"
+                - option "M&G Investment Management Limited"
+                - option "M. Metcalf, K. Leidman & M.Scott"
+                - option "Mac Elatab"
+                - option "麥格理基金管理（香港）有限公司"
+                - option "Madeleine Kuang"
+                - option "Madeleine Kuang"
+                - option "Madeleine Kuang"
+                - option "李美玲 & 戴福來"
+                - option "李美玲 & 陳柏鉅"
+                - option "Man Investments Limited"
+                - option "Mandana Hormozi & Todd Ostrow & Katrina Dudley & Tim Rankin"
+                - option "陳淑敏"
+                - option "Manish Bhatia"
+                - option "Manuela von Ditfurth & Erhard Radatz & Tim Herzig"
+                - option "Manulife Asset Management (Europe) Limited"
+                - option "宏利資產管理（香港）有限公司"
+                - option "宏利資產管理（香港）有限公司"
+                - option "宏利資產管理（香港）有限公司"
+                - option "宏利資產管理（香港）有限公司（投資管理人）；Amundi S.A.（分投資管理人）"
+                - option "Manulife Asset Management (US) LLC"
+                - option "Marc Desmidt"
+                - option "Mark Boyadjian & Madeline Lam & Justin G. Ma"
+                - option "Mark Kiesel"
+                - option "Mark Lacey"
+                - option "Mark Lacey & James Luke"
+                - option "Mark Mobius"
+                - option "Mark Mobius & Michael Hasenstab"
+                - option "Mark Nash"
+                - option "Martha Metcalf"
+                - option "Martha Metcalf & Hugo Squire & Michael Davis"
+                - option "Martha Wang"
+                - option "Martin Cobb"
+                - option "Martin Jochum"
+                - option "Martin Skanberg"
+                - option "Martin Walker & John Surplice"
+                - option "Masafumi Oshiden"
+                - option "Masafumi Oshiden"
+                - option "Masafumi Oshiden&Ying Lu"
+                - option "Mats WANDRELL"
+                - option "Matt Clay"
+                - option "Matthew Quaife & Caroline Shaw & Taosha Wang"
+                - option "Matthew Siddle"
+                - option "Matthew Siddle & Helen Powell"
+                - option "Matthias Siller"
+                - option "Matthias Siller & Adnan El-Araby"
+                - option "Matthias Siller & Adnan El-Araby & Maria Szczesna"
+                - option "MAURER Caroline Yu"
+                - option "May Ling Wee"
+                - option "May Ling Wee & Lin Sh"
+                - option "Mayur Nallamala & Rajendra Nair"
+                - option "Michael Constantis"
+                - option "Peter Wilke"
+                - option "Michael Fredericks & Justin Christofel & Alex Shingler"
+                - option "Michael Fredericks & Peter Wilke & Justin Christofel"
+                - option "Michael Gomez"
+                - option "Michael Hasenstab"
+                - option "Michael Hasenstab & Calvin Ho"
+                - option "Michael Hasenstab & Glenn Voyles & Patricia O'Connor & Calvin Ho"
+                - option "Michael Hasenstab & Glenn Voyles & Patricia O'Connor & Sonal Desai"
+                - option "Michael Hasenstab & Laura Burakreis & Calvin Ho"
+                - option "Michael Hasenstab & Laura Burakreis & Sonal Desai"
+                - option "Michael Hasenstab & Lisa Myers"
+                - option "Michael Heldmann"
+                - option "Michael Hyman & Jason Trujillo"
+                - option "Michael Kerley"
+                - option "Michael Kerley & Sat Duhra"
+                - option "Michael Konstantinov"
+                - option "Michael KOORIS"
+                - option "Michael Krautzberger"
+                - option "Michael Krautzberger & Daniel Chen & Tom Mondelaers & Max Huefner"
+                - option "Michael Krautzberger & Christopher Allen"
+                - option "Michael Krautzberger & Christopher Allen & Jozef Prokes"
+                - option "Michael Krautzberger & Stephan Bassas & Tom Mondelaers"
+                - option "Michael Krautzberger & Tom Mondelaers & Max Huefner"
+                - option "Michael Krautzberger&Christopher Allen&Giulia Artolli"
+                - option "Michael Krautzberger&Johan Sjogren&Giulia Artolli"
+                - option "Michael Simpson & Luis Alves deLima"
+                - option "Michael Wood-Martin"
+                - option "Mihir Worah"
+                - option "Mike Kerley & Sat Duhra"
+                - option "蕭光一"
+                - option "蕭光一 & 胡嘉林"
+                - option "蕭光一 & Lorraine Kuo"
+                - option "蕭光一 & 何淑懿"
+                - option "蕭光一 & 鄭榮澤"
+                - option "蕭光一 & 阮偉國 & Shekhar Sambhshivan"
+                - option "Mike Simpson"
+                - option "Mike Simpson & Luis Alves de Lima"
+                - option "Mitchell Garfin & David Delbos"
+                - option "多資產解決方案團隊"
+                - option "N. MacDonald-Brown"
+                - option "Neeraj Seth"
+                - option "Neeraj Seth & Ronie Ganguly & Artur Piasecki"
+                - option "Neeraj Seth & Ronie Ganguly & Venn Saltirov"
+                - option "Neeraj Seth & Ronie Ganguly & Venn Saltirov"
+                - option "Neeraj Seth & Stephen Gough & Venn Saltirov & Yii Hui Wong"
+                - option "Neil Gregson & Chris Korpan"
+                - option "Neuflize Private Assets S.A."
+                - option "Nicholas Little"
+                - option "Nicholas Weindling & Miyako Urabe & Shoichi Mizusawa"
+                - option "Nicholas Weindling & Shoichi Mizusawa"
+                - option "Nicholas Williams"
+                - option "Nicholas Williams & Colin Riddles & Rosemary Simmonds"
+                - option "Nicholas Williams & Colin Riddles & Rosemary Simmonds & William Cuss"
+                - option "Nicholette MacDonald-Brown"
+                - option "Nick Peters & Ayesha Akbar"
+                - option "Nick Price"
+                - option "Nick Price & Chris Tennant & Zoltan Palf"
+                - option "Nicola Stafford"
+                - option "Nicolas Fragneau"
+                - option "Nigel Bolton"
+                - option "Nigel Bolton & Brian Hall"
+                - option "Nilang Mehta & Sanjiv Duggal"
+                - option "Nina De Martinis"
+                - option "Nitin Bajaj & Alice Li"
+                - option "麥劍豪"
+                - option "Noriko Umino & Midori Katsumi"
+                - option "Norman MacDonald"
+                - option "北美洲股票隊伍"
+                - option "紐約管理"
+                - option "Oisin Crawley"
+                - option "Oisin Crawley & Alethea Leung"
+                - option "Oleg Biryulyov & Pandora Omaset & Habib Saikaly"
+                - option "Oleg Biryulyov & Sonal Tanna"
+                - option "Oliver Cox & David Mitchinson"
+                - option "Oliver Cox & 郭為熹（香港）"
+                - option "Olivia Asseo"
+                - option "Olivia Treharne & Molly Greenen"
+                - option "Olivier ROMBI"
+                - option "Olivier VAN HIRTUM"
+                - option "Ollie Beckett"
+                - option "Ollie Beckett & Rory Stokes"
+                - option "Ollie Beckett & Rory Stokes & Julia Scheufler"
+                - option "Oppenheimer Funds Inc."
+                - option "僑豐資產管理有限公司"
+                - option "Owen Murfin"
+                - option "P Grainger & J Ringer & R Boukhoufane & Global Multi-Sector Team"
+                - option "P Grainger & J Ringer & Team"
+                - option "Pamela WOO"
+                - option "泛歐洲股票隊伍"
+                - option "Patrice Lemonnier"
+                - option "Patricia O’Connor"
+                - option "Patricia O'Connor & Glenn Voyles"
+                - option "Patricia O'Connor & Piero del Monte & Rod MacPhee & Emmanuel Teissier"
+                - option "趙國江 & Mayur Nallamala"
+                - option "Patrick Sumner & Guy Barnard"
+                - option "Paul Curbo & James Cowen & Joe Rodriguez & Invesco Real Estate Global Securities Team¹"
+                - option "Paul Ebner"
+                - option "Paul J. DeNoon & Gershon Distenfeld & Douglas J. Peebles & Matthew S. Sheridan"
+                - option "Paul J. DeNoon & Gershon Distenfeld & Shamaila Khan & Douglas J. Peebles & Matthew S. Sheridan"
+                - option "Paul Morgan & Matthew Ward"
+                - option "Paul Mueller"
+                - option "Paul Rathband"
+                - option "Paul Taylor"
+                - option "Paula Bujia"
+                - option "黃寶麗 & 王長祺"
+                - option "黃寶麗 & 羅思洋 & 梁素芬 & 王長褀"
+                - option "黃寶麗 & 陳舍伶"
+                - option "Peter Csöregh"
+                - option "Peter Langerman"
+                - option "Peter Wilmshurst & Michael Hasenstab"
+                - option "Phil Ruvinsky & Caroline Bottinelli"
+                - option "Philippe Brugere-Trelat"
+                - option "Philippe Lespinard"
+                - option "Pierre-Yves Bareau"
+                - option "Pierre-Yves Bareau & Emil Babayev"
+                - option "中國平安資產管理(香港)有限公司"
+                - option "中國平安資產管理（香港）有限公司"
+                - option "寶來證券(香港)有限公司"
+                - option "Polly Kwan"
+                - option "Prasoon Agrawal & Karthik Sankaran"
+                - option "信安資金管理（亞洲）有限公司"
+                - option "信安資金管理（亞洲）有限公司（基金經理）；Principal Global Investors, LLC，信安環球投資（香港）有限公司（基金經理）"
+                - option "信安資金管理（亞洲）有限公司（基金經理）；Principal Global Investors, LLC，信安環球投資（香港）有限公司（基金經理）"
+                - option "Principal Global Investors (Ireland) Limited（經理人）；Principal Global Investors, LLC.（經理人的獲轉授人）"
+                - option "保誠資產管理(新加坡)有限公司"
+                - option "保誠資產管理（新加坡）有限公司（投資經理）；PPM America, Inc.（投資副經理）"
+                - option "保誠資產管理（新加坡）有限公司（投資經理）；英國保誠資產管理（香港）有限公司（投資副經理）"
+                - option "Purav Jhaveri"
+                - option "QEP Global Equities Team"
+                - option "QEP Investment Team"
+                - option "由Justin Abercrombie 帶領的計量投資團隊"
+                - option "Raffaele Savi & Kevin Franklin"
+                - option "Rajeev De Mello"
+                - option "Randy Berkowitz & Russ Koesterich & Kate Moore & Sarah Thompson & Rick Rieder"
+                - option "胡毅弘"
+                - option "Rashique Rahman & Avi Hooper & Michael Hyman & Robert Turner"
+                - option "杝侓強 & 羅肇翔"
+                - option "馬磊"
+                - option "Raymond Ma"
+                - option "江彥 & 譚力"
+                - option "Reema Agarwal & Justin G. Ma & Margaret Chiu & Judy Sher"
+                - option "Reema Agarwal & Madeline Lam & Justin G. Ma"
+                - option "陳慶進/梁維"
+                - option "Ricardo Adrogué & Cem Karacadag & Brian Mangwiro"
+                - option "Ricardo Adrogué & Cem Karacadag & Brian Mangwiro"
+                - option "Ricardo Adrogué & Cem Karacadag & Brian Mangwiro & Manabu Tamaru & Tetsuya Kimata"
+                - option "Ricardo Adrogué & Cem Karacadag & Manabu Tamaru & Brian Mangwiro"
+                - option "Ricardo Adrogué & Cem Karacadag & Manabu Tamaru & Tetsuya Kimata"
+                - option "Richard Davis & Desmond Cheung"
+                - option "Richard Davis & Joshua Freedman & Tom Holl"
+                - option "Richard Hsu"
+                - option "Richard Skelt"
+                - option "Richard Webb & Alexander Fitzalan Howard"
+                - option "Rick Patel"
+                - option "Rick Patel & Ario Emami Nejad"
+                - option "Rick Patel & Ario Emami Nejad & Daniel Ushakov"
+                - option "Rick Patel & Ario Emami Nejad & Rosie McMellin"
+                - option "Rick Patel & Ario Emami Nejad & Rosie McMellin"
+                - option "Rick Patel & David Simner"
+                - option "Rick Rezek & Alix Stewart"
+                - option "Rick Rieder"
+                - option "Rick Rieder & Andreas Doerrenhaus & Bob Miller"
+                - option "Rick Rieder & Andreas Doerrenhaus & Bob Miller & Scott Thiel"
+                - option "Rick Rieder & Bob Miller"
+                - option "Rick Rieder & Bob Miller & Aidan Doyle"
+                - option "Rick Rieder & Bob Miller & Aidan Doyle"
+                - option "Rick Rieder & Dan Chamby & Russ Koesterich & David Clayton"
+                - option "Rick Rieder & Russ Koesterich & David Clayton"
+                - option "Rick Rieder ＆ Russ Koesterich ＆ David Clayton"
+                - option "Rick Rieder & Russell Brownback & Aidan Doyle & Bob Miller"
+                - option "Rick Rieder & Russell Brownback & Aidan Doyle & Trevor Slaven"
+                - option "Rick Rieder & Russell Brownback & Aidan Doyle (FI) & Trevor Slaven"
+                - option "Rick Rieder&Russ Koesterich"
+                - option "Rick Rieder&Russell Brownback &Aidan Doyle"
+                - option "Rie Shigekawa"
+                - option "Rie Shigekawa&Goro Takahashi"
+                - option "Riitta Hujanen"
+                - option "Rob Weatherston"
+                - option "Robert Davy & Allan Conway"
+                - option "Robert Davy & Tom Wilson"
+                - option "Robert Fisher"
+                - option "Robert Fisher & Andrew Huzzey"
+                - option "Robert Fisher & Andrew Huzzey & Muzo Kayacan"
+                - option "Robert Howell"
+                - option "Robert Kaynor"
+                - option "Robert Kaynor & Joanna Wald"
+                - option "Robert L. Evans"
+                - option "Robert Lloyd & Ayaz Ebrahim"
+                - option "Robert Lloyd & Chun Yu Wong"
+                - option "Roberto Lampl"
+                - option "Robin Batchelor & Poppy Allonby"
+                - option "Robin Parbrook"
+                - option "Roger Bayston"
+                - option "Rollo Roscow & Mohsin Memon"
+                - option "Ronald van Loon & Michael Krautzberger"
+                - option "Ronald van Loon&Giulia Artolli&Georgie Merson"
+                - option "Rory Bateman"
+                - option "Rosanna Burcheri & Ashish Bhardwaj"
+                - option "Rukhshad Shroff & Edward Pulling & Rajendra Nair"
+                - option "Rukhshad Shroff & Rajendra Nair"
+                - option "Rupert Gifford"
+                - option "Rupert Gifford & Aditya Shivram"
+                - option "Russ Koesterich & David Clayton"
+                - option "Russell Brownback& Aidan Doyle &Trevor Slaven& Chi Chen &Sam Summers"
+                - option "Ryoichi Hayashi"
+                - option "S. Webber, M. Franklin & G. Money"
+                - option "Sam Vecht"
+                - option "何淑懿 & 鄧偉基"
+                - option "何淑懿 & 阮偉國"
+                - option "Samantha S. Lau & Lei Qiu"
+                - option "Samir Essafri"
+                - option "Samir Essafri & Francois Chacun"
+                - option "Samuel Vecht & Christoph Brinkmann"
+                - option "Samuel Vecht & Christopher Colunga"
+                - option "Samuel Vecht & Gabriela Benjamin & Christoph Brinkmann"
+                - option "Sandeep Bhargava & Howard Williams"
+                - option "Sandeep Bhargava & Zenah Shuhaiber & Nicholas Horne & John Baker"
+                - option "Sandeep Bhargava and Howard Williams"
+                - option "Sander Bus"
+                - option "金相沅 & 陳致強"
+                - option "Sanjiv Duggal"
+                - option "Sara Bellenda & Victor Li & Fred Barasi"
+                - option "Sarinee Sernsukskul & 陳舍伶"
+                - option "Sarinee Sernsukskul & 黃寶麗"
+                - option "Scott A. Mather"
+                - option "Scott DiMaggio & Nicholas Sanders & John Taylor"
+                - option "Scott DiMaggio & Nicholas Sanders & John Taylor"
+                - option "Scott Roth & Sean Feeley & Craig Abouchar & Chris Sawyer & Kristine Li"
+                - option "Scott Thiel"
+                - option "Scott Thiel & Aidan Doyle (FI)"
+                - option "盛寶資產管理有限公司（投資管理人）；惠理基金管理公司（分投資管理人）"
+                - option "Sergey Davalchenko"
+                - option "Sergey Davalchenko & Laurent Saltiel & Guojia Zhang"
+                - option "Sergio Trigo Paz & Laurent Develay & Michal Wozniak"
+                - option "Sergio Trigo Paz & Michel Aubenas"
+                - option "Sergio Trigo Paz & Michel Aubenas & Laurent Develay"
+                - option "Sergio Trigo Paz & Raphael Marechal & Laurent Develay"
+                - option "Seung H. Minn"
+                - option "Shanquan Li"
+                - option "何少燕 & 彭逸升"
+                - option "何少燕 & 彭逸升 & Julio Callegari"
+                - option "Shawn Lyons"
+                - option "Sheldon Lieberman"
+                - option "Shoichi Mizusawa & Eiji Saito"
+                - option "黃淑敏 & 王浩"
+                - option "黃淑敏 / 張冠邦（香港）"
+                - option "Sidharth Mahapatra"
+                - option "Sidharth Mahapatra & 姚偉略"
+                - option "Simon Adler & Nick Kirrage & Liam Nunn"
+                - option "鄭榮澤"
+                - option "Simon Poncet & Peter Kirkman"
+                - option "Simon Webber & Isabella Hervey-Bathurst"
+                - option "Skye Macpherson"
+                - option "Sonal Tanna & Oleg Biryulyov"
+                - option "Sonja Laud (nee Schemmann)"
+                - option "林素亥"
+                - option "林素亥"
+                - option "林素亥 & 蔡美坤"
+                - option "林素亥 & 蔡美坤 & 李炯陳"
+                - option "林素亥 & 李雯霓"
+                - option "林素亥 & 李雯霓 & 李炯陳"
+                - option "林素亥 & 李雯霓 & 張雨婷"
+                - option "林素亥 & 洪那玧"
+                - option "林素亥 & 洪那玧 & Kuldeep Khanapurkar"
+                - option "林素亥 & 洪那玧 & Kuldeep Khanapurkar"
+                - option "林素亥 & Richard Holroyd & Clive Burstow"
+                - option "林素亥 & 劉鐵彬"
+                - option "Sotiris Boutsis"
+                - option "梁素芬 & 羅思洋（新加坡）"
+                - option "Steef Bergakker & Marco van Lent"
+                - option "Stefan Gries"
+                - option "Stefan Gries"
+                - option "Stephen Andrews"
+                - option "Stephen Andrews & Emily Fletcher"
+                - option "Stephen Andrews & Lucy Liu (INV)"
+                - option "Stephen Andrews & Nicholas Chui"
+                - option "Stephen Beinhacker（投資總監- 新興市場增長股票） & Richard Chow（亞洲新興市場基金經理）"
+                - option "張冠邦"
+                - option "Stephen Dover"
+                - option "Stephen Dover & Bassel Khatoun & Purav Jhaveri & Salah Shamma"
+                - option "Stephen Dover & Purav Jhaveri"
+                - option "Stephen Ma"
+                - option "Steve Berexa"
+                - option "Steve Land"
+                - option "Steve Land & Fred Fromm"
+                - option "Stone Harbor 新興市場債券團隊"
+                - option "Stuart Edwards"
+                - option "Stuart Niman"
+                - option "Stuart O’Gorman & Ian Warmerdam"
+                - option "Stuart Parks"
+                - option "Stuart Parks & Tony Roberts & William Lam"
+                - option "Stuart Parks & William Lam & Ian Hargreaves"
+                - option "Stuart Reeve & Andrew Wheatley Hubbard"
+                - option "Stuart Reeve & James Bristow & Andrew Wheatley-Hubbard"
+                - option "Stuart Reeve & Jane Holl & Andrew Wheatley Hubbard"
+                - option "允卓德"
+                - option "Sui Chuan Yeo"
+                - option "Sukumar Rajah"
+                - option "Sukumar Rajah & Stephen Dover"
+                - option "Susan O'Brien"
+                - option "Tad Fukushima"
+                - option "Takuya Furuta"
+                - option "Tassos Stassopoulos"
+                - option "Tawhid Ali & Andrew Birse"
+                - option "Tawhid Ali & Avi Lavi"
+                - option "Tawhid Ali & Takeo Aso & Avi Lavi"
+                - option "首席投資主任格貝利 (Mario J. Gabelli) 領導下的團"
+                - option "Teera Chanpongsang"
+                - option "Tetsuro Miyachi"
+                - option "Thanasis Petronikolos"
+                - option "高盛資產管理歐洲證券團隊"
+                - option "The Invesco Listed Real Assets Team"
+                - option "Theresa Zhou & Ben Li & Yuanlin Lang"
+                - option "Theresa Zhou&Ben Li"
+                - option "Thomas Callen & Erin Xie"
+                - option "Thomas F. Marsico"
+                - option "Thomas Giquel"
+                - option "Thorsten Winkelmann"
+                - option "Thorsten Winkelmann & Robert Hofmann"
+                - option "Tim Dröge"
+                - option "Tim Foster & Ian Fishwick"
+                - option "Tim Foster Ian Fishwick"
+                - option "Tim Gibson & Xin Yan Low"
+                - option "Tim Stevenson & James Ross"
+                - option "Tim Wood & Chris Smith"
+                - option "張毅威"
+                - option "Toby Hudson"
+                - option "Todd Burnside & Ibrahim Kanan"
+                - option "Todd Burnside & Joseph Wolfe"
+                - option "Tom Callan & Jean Rosenbaum"
+                - option "Tom Callan & Nigel Hart & Ian Jamieson"
+                - option "Tom Holl"
+                - option "Tom Holl & Alastair Bishop"
+                - option "Tom Holl & Alastair Bishop & Skye Macpherson"
+                - option "Tom Holl & David Huggins"
+                - option "Tom Mondelaers"
+                - option "Tom Mondelaers ＆ Georgie Merson"
+                - option "Tom Mondelaers & Jozef Prokes"
+                - option "Tom Walker & Hugo Machin"
+                - option "Tom Wilson & Pablo Riveroll"
+                - option "Tom Wilson & Rami Sidani"
+                - option "Tom Wilson & Waj Hashmi"
+                - option "Tony DeSpirito & David Zhao"
+                - option "Tony DeSpirito & Joseph Wolfe & David Zhao"
+                - option "Tony Kim"
+                - option "Tony Kim & Caroline Tall & Reid Menge"
+                - option "Tony Kim & Reid Menge"
+                - option "Tony Roberts & William Lam"
+                - option "Tony Roberts & William Lam & Charles Bond"
+                - option "Trevor Greetham"
+                - option "英國及歐洲股票團隊"
+                - option "Ulrik FUGMANN & Edward LEES"
+                - option "惠理基金管理香港有限公司"
+                - option "惠理基金管理公司"
+                - option "Vasco Moreno"
+                - option "Vasco Moreno & Hashim Bhattee"
+                - option "李鴻斌 & Piers Litherland"
+                - option "Victor Li & Fred Barasi"
+                - option "Victoria Mio"
+                - option "Victoria Mio & Ben Li & Theresa Zhou & Yuanlin Lang"
+                - option "Vinay Thapar"
+                - option "Vincent Durel"
+                - option "Virginie Maisonneuve"
+                - option "WANDRELL Mats"
+                - option "Wesley Sparks"
+                - option "William de Gale"
+                - option "方偉昌"
+                - option "方偉昌 & 賴穎熙"
+                - option "William Fong & Nicola Lai & Titus Wu"
+                - option "方偉昌/ 羅瑩/ 賴穎熙/ 吳宏奇"
+                - option "William H. Gross"
+                - option "William Lam & Ian Hargreaves"
+                - option "William Landers"
+                - option "William Palmer & Michael Levy & Isabelle Irish"
+                - option "William Stormont & Tim Stevenson"
+                - option "阮偉國 & 蕭光一"
+                - option "阮偉國 & Shekhar Sambhshivan"
+                - option "Wilson Magee"
+                - option "Wilson Magee & Daniel Pettersson & Donna Ming-Yuan Lee"
+                - option "Wim-Hein Pals"
+                - option "WOO Pamela"
+                - option "Yoshiaki Okabe"
+                - option "Yu Zhang"
+                - option "Zoltan Palfi & Chris Tennant & Nick Price"
+            - cell "主題 所有" [ref=f74e189]:
+              - generic [ref=f74e190]: 主題
+              - combobox [ref=f74e192]:
+                - option "所有" [selected]
+                - option "亞洲中小企"
+                - option "生物科技"
+                - option "氣候變化"
+                - option "商品期貨"
+                - option "消費者"
+                - option "可換股債券"
+                - option "能源"
+                - option "金融"
+                - option "一般"
+                - option "環球農業"
+                - option "黃金及貴金屬"
+                - option "增長"
+                - option "健康護理"
+                - option "高股息"
+                - option "高息"
+                - option "工業"
+                - option "通脹掛鈎"
+                - option "基礎建設"
+                - option "環球科技"
+                - option "公開招股"
+                - option "管理期貨"
+                - option "天然資源"
+                - option "其他資源"
+                - option "房地產"
+                - option "中小企"
+                - option "科技"
+                - option "電訊"
+                - option "美元"
+                - option "公用事業"
+                - option "價值"
+          - row [ref=f74e193]:
+            - cell "地域分佈 所有" [ref=f74e194]:
+              - generic [ref=f74e195]: 地域分佈
+              - combobox [ref=f74e197]:
+                - option "所有" [selected]
+                - option "東南亞國家聯盟"
+                - option "非洲"
+                - option "東協"
+                - option "亞洲 (日本除外)"
+                - option "亞洲 (包括日本)"
+                - option "亞太區"
+                - option "亞太區(日本除外)"
+                - option "亞太區（日本及澳洲除外）"
+                - option "澳洲"
+                - option "巴西"
+                - option "巴西、印度及中國"
+                - option "金磚四國"
+                - option "中國"
+                - option "中國及印度"
+                - option "東歐"
+                - option "新興市場"
+                - option "新興市場(中國除外)"
+                - option "歐洲"
+                - option "歐洲 (歐元區)"
+                - option "歐洲 (英國除外)"
+                - option "歐洲 (包括英國)"
+                - option "歐洲新興市場"
+                - option "法國"
+                - option "德國"
+                - option "環球"
+                - option "大中華"
+                - option "香港"
+                - option "西班牙 / 葡萄牙"
+                - option "印度"
+                - option "印尼"
+                - option "意大利"
+                - option "日本"
+                - option "韓國"
+                - option "拉丁美洲"
+                - option "馬來西亞"
+                - option "馬來西亞及新加坡"
+                - option "中東"
+                - option "中東及非洲"
+                - option "太平洋"
+                - option "太平洋地區（包括日本）"
+                - option "菲律賓"
+                - option "俄羅斯"
+                - option "新加坡"
+                - option "瑞士"
+                - option "台灣"
+                - option "泰國"
+                - option "土耳其"
+                - option "英國"
+                - option "美國"
+                - option "越南"
+            - cell "基金規模 所有" [ref=f74e198]:
+              - generic [ref=f74e199]: 基金規模
+              - combobox [ref=f74e201]:
+                - option "所有" [selected]
+                - option "小型 (少於1億港元或其等值外幣)"
+                - option "中型 (1億至10億港元或其等值外幣)"
+                - option "大型 (大於或等於10億港元或其等值外幣)"
+          - row [ref=f74e202]:
+            - cell "累積表現 所有" [ref=f74e203]:
+              - generic [ref=f74e204]: 累積表現
+              - combobox [ref=f74e206]:
+                - option "所有" [selected]
+                - option "< 或 = -5.0％"
+                - option "< 或 = 0.0％"
+                - option "> 或 = 0.0％"
+                - option "> 或 = 5.0％"
+                - option "> 或 = 10.0％"
+                - option "> 或 = 15.0％"
+                - option "> 或 = 20.0％"
+            - cell "時期(適用於累積表現) 1個月" [ref=f74e207]:
+              - generic [ref=f74e208]: 時期(適用於累積表現)
+              - combobox [disabled] [ref=f74e210]:
+                - option "1個月" [selected]
+                - option "3個月"
+                - option "6個月"
+                - option "年初至今"
+                - option "1年"
+                - option "3年"
+                - option "5年"
+                - option "自發行以來"
+          - row [ref=f74e211]:
+            - cell "管理費 所有" [ref=f74e212]:
+              - generic [ref=f74e213]: 管理費
+              - combobox [ref=f74e215]:
+                - option "所有" [selected]
+                - option "< 或 = 1.00%"
+                - option "< 或 = 1.25%"
+                - option "< 或 = 1.50%"
+                - option "< 或 = 1.75%"
+                - option "< 或 = 2.00%"
+                - option "> 2%"
+            - cell "基金名稱 Manulife Global Equity" [ref=f74e216]:
+              - generic [ref=f74e217]: 基金名稱
+              - textbox [ref=f74e219]: Manulife Global Equity
+      - generic [ref=f74e220]:
+        - generic [ref=f74e222] [cursor=pointer]: 搜尋
+        - generic [ref=f74e227] [cursor=pointer]: 重設
+    - iframe [ref=f74e234]:
+      
+    - generic [ref=f74e235]:
+      - generic [ref=f74e236]: 搜尋結果
+      - generic [ref=f74e239] [cursor=pointer]: 累積表現
+      - generic [ref=f74e243] [cursor=pointer]: 年度表現
+      - generic [ref=f74e247] [cursor=pointer]: 基金資料
+    - table [ref=f74e251]:
+      - rowgroup [ref=f74e252]:
+        - row [ref=f74e253]:
+          - columnheader [ref=f74e254]:
+            - table [ref=f74e255] [cursor=pointer]:
+              - rowgroup [ref=f74e256]:
+                - row [ref=f74e257]:
+                  - cell [ref=f74e258]
+                  - cell "基金名稱" [ref=f74e260]
+          - columnheader [ref=f74e261]:
+            - table [ref=f74e262] [cursor=pointer]:
+              - rowgroup [ref=f74e263]:
+                - row [ref=f74e264]:
+                  - cell "最新資產 淨值價格" [ref=f74e265]: 最新資產淨值價格
+          - columnheader [ref=f74e266]:
+            - table [ref=f74e267] [cursor=pointer]:
+              - rowgroup [ref=f74e268]:
+                - row [ref=f74e269]:
+                  - cell "估值日期" [ref=f74e270]
+          - columnheader [ref=f74e271]:
+            - table [ref=f74e272] [cursor=pointer]:
+              - rowgroup [ref=f74e273]:
+                - row [ref=f74e274]:
+                  - cell "夏普比率" [ref=f74e275]
+          - columnheader "累積表現" [ref=f74e276]
+          - columnheader [ref=f74e277]:
+            - table [ref=f74e278] [cursor=pointer]:
+              - rowgroup [ref=f74e279]:
+                - row [ref=f74e280]:
+                  - cell "3年年度化波幅" [ref=f74e281]
+          - columnheader "比較" [ref=f74e282]
+        - row [ref=f74e287]:
+          - columnheader [ref=f74e288]:
+            - table [ref=f74e289] [cursor=pointer]:
+              - rowgroup [ref=f74e290]:
+                - row [ref=f74e291]:
+                  - cell "1個月" [ref=f74e292]
+          - columnheader [ref=f74e293]:
+            - table [ref=f74e294] [cursor=pointer]:
+              - rowgroup [ref=f74e295]:
+                - row [ref=f74e296]:
+                  - cell "3個月" [ref=f74e297]
+          - columnheader [ref=f74e298]:
+            - table [ref=f74e299] [cursor=pointer]:
+              - rowgroup [ref=f74e300]:
+                - row [ref=f74e301]:
+                  - cell "6個月" [ref=f74e302]
+          - columnheader [ref=f74e303]:
+            - table [ref=f74e304] [cursor=pointer]:
+              - rowgroup [ref=f74e305]:
+                - row [ref=f74e306]:
+                  - cell "年初至今" [ref=f74e307]
+          - columnheader [ref=f74e308]:
+            - table [ref=f74e309] [cursor=pointer]:
+              - rowgroup [ref=f74e310]:
+                - row [ref=f74e311]:
+                  - cell "1年" [ref=f74e312]
+          - columnheader [ref=f74e313]:
+            - table [ref=f74e314] [cursor=pointer]:
+              - rowgroup [ref=f74e315]:
+                - row [ref=f74e316]:
+                  - cell "3年" [ref=f74e317]
+          - columnheader [ref=f74e318]:
+            - table [ref=f74e319] [cursor=pointer]:
+              - rowgroup [ref=f74e320]:
+                - row [ref=f74e321]:
+                  - cell "5年" [ref=f74e322]
+          - columnheader [ref=f74e323]:
+            - table [ref=f74e324] [cursor=pointer]:
+              - rowgroup [ref=f74e325]:
+                - row [ref=f74e326]:
+                  - cell "自發行以來" [ref=f74e327]
+        - row [ref=f74e328]:
+          - cell "暫時沒有相關資料。" [ref=f74e329]
+  - generic [ref=f74e331]:
+    - generic [ref=f74e332]: 網站地圖
+    - table [ref=f74e333]:
+      - rowgroup [ref=f74e334]:
+        - row [ref=f74e335]:
+          - cell [ref=f74e336]
+          - cell [ref=f74e337]:
+            - text: 阿思達克財經網
+            - list [ref=f74e338]:
+              - listitem [ref=f74e339]:
+                - link "- 基金主頁" [ref=f74e340] [cursor=pointer]:
+                  - /url: /tc/funds/default.aspx
+          - cell [ref=f74e341]:
+            - text: 基金報價
+            - list [ref=f74e342]:
+              - listitem [ref=f74e343]:
+                - link "- 基金報價" [ref=f74e344] [cursor=pointer]:
+                  - /url: /tc/funds/quote/quote.aspx
+                - link "- 基金圖表" [ref=f74e345] [cursor=pointer]:
+                  - /url: /tc/funds/quote/chart.aspx
+                - link "- 資料及費用" [ref=f74e346] [cursor=pointer]:
+                  - /url: /tc/funds/quote/ff.aspx
+                - link "- 基金簡介" [ref=f74e347] [cursor=pointer]:
+                  - /url: /tc/funds/quote/desc.aspx
+                - link "- 與近似基金比較" [ref=f74e348] [cursor=pointer]:
+                  - /url: /tc/funds/quote/comp.aspx
+          - cell [ref=f74e349]:
+            - text: 基金新聞
+            - list [ref=f74e350]:
+              - listitem [ref=f74e351]:
+                - link "- 基金新聞" [ref=f74e352] [cursor=pointer]:
+                  - /url: /tc/funds/news/search.aspx
+          - cell [ref=f74e353]:
+            - text: 基金評論
+            - list [ref=f74e354]:
+              - listitem [ref=f74e355]:
+                - link "- 基金評論" [ref=f74e356] [cursor=pointer]:
+                  - /url: /tc/funds/commentary/commentary.aspx
+          - cell [ref=f74e357]:
+            - text: 工具
+            - list [ref=f74e358]:
+              - listitem [ref=f74e359]:
+                - link "- 預設主題基金搜尋" [ref=f74e360] [cursor=pointer]:
+                  - /url: /tc/funds/tool/quickfunds.aspx
+                - link "- 基金搜尋" [ref=f74e361] [cursor=pointer]:
+                  - /url: /tc/funds/tool/search.aspx
+                - link "- 基金比較" [ref=f74e362] [cursor=pointer]:
+                  - /url: /tc/funds/tool/compare.aspx
+          - cell [ref=f74e363]
+    - table [ref=f74e365]:
+      - rowgroup [ref=f74e366]:
+        - row [ref=f74e367]:
+          - cell [ref=f74e368]
+          - cell [ref=f74e369]:
+            - text: "基金類型:"
+            - link "【另類基金】" [ref=f74e370] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?type=5
+            - link "【均衡基金】" [ref=f74e371] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?type=2
+            - link "【股票基金】" [ref=f74e372] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?type=1
+            - link "【債券基金】" [ref=f74e373] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?type=3
+            - link "【定息基金】" [ref=f74e374] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?type=3
+            - link "【貨幣市場基金】" [ref=f74e375] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?type=4
+            - link "【新興市場基金】" [ref=f74e376] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=10
+            - link "【金磚四國基金】" [ref=f74e377] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=6
+            - link "【大中華基金】" [ref=f74e378] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=18
+            - link "【澳洲基金】" [ref=f74e379] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=5
+            - link "【巴西基金】" [ref=f74e380] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=7
+            - link "【中國A股基金】" [ref=f74e381] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?sector=4
+            - link "【能源基金】" [ref=f74e382] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?sector=9
+            - link "【黃金及貴金屬基金】" [ref=f74e383] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?sector=13
+            - link "【高息股基金】" [ref=f74e384] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?sector=15
+            - link "【中國基金】" [ref=f74e385] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=8
+            - link "【東盟基金】" [ref=f74e386] [cursor=pointer]:
+              - /url: /tc/funds/tool/search.aspx?geo=1
+          - cell [ref=f74e387]
+        - row [ref=f74e388]:
+          - cell [ref=f74e389]
+          - cell "基金資訊提供:" [ref=f74e390]
+          - cell [ref=f74e391]
+        - row [ref=f74e392]:
+          - cell [ref=f74e393]
+          - cell "【基金新聞】【基金投資】【基金價格】【基金表現】【基金分析】【基金資訊】【基金動態】【基金淨值】【基金排名】【基金排行】【基金數據】【基金評級】 【香港基金網】【基金經理】【基金公司】【基金比較】【單位信托基金】【強積金】【MPF】【對沖基金】【保險基金】【退休基金基金】【盈富基金】【A50】【基金介紹】【股票基金】【基金網站】【中國基金】【香港基金】【香港基金】【股票基金】【債券基金】【進取基金】【保本基金】【封閉式基金】【基金淨值】【基金投資】 【基金回報】【私募基金】【基金知識】【月供基金儲蓄】【基金管理】【基金投資組合】【基金焦點】【基金買賣】【基金費用】【理財服務】【個人理財服務】【Fund】 【Mutual Fund】【Fund Trading】【Fund House】【Fund Manager】" [ref=f74e394]: 【基金新聞】【基金投資】【基金價格】【基金表現】【基金分析】【基金資訊】【基金動態】【基金淨值】【基金排名】【基金排行】【基金數據】【基金評級】【香港基金網】【基金經理】【基金公司】【基金比較】【單位信托基金】【強積金】【MPF】【對沖基金】【保險基金】【退休基金基金】【盈富基金】【A50】【基金介紹】【股票基金】【基金網站】【中國基金】【香港基金】【香港基金】【股票基金】【債券基金】【進取基金】【保本基金】【封閉式基金】【基金淨值】【基金投資】【基金回報】【私募基金】【基金知識】【月供基金儲蓄】【基金管理】【基金投資組合】【基金焦點】【基金買賣】【基金費用】【理財服務】【個人理財服務】【Fund】【Mutual Fund】【Fund Trading】【Fund House】【Fund Manager】
+          - cell [ref=f74e395]
+        - row [ref=f74e396]:
+          - cell [ref=f74e397]
+  - generic [ref=f74e401]:
+    - generic [ref=f74e405]:
+      - link "關於我們" [ref=f74e406] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/stocks/aboutus/companyinfo.aspx
+      - text: "|"
+      - link "加入會員" [ref=f74e407] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/memberinfo/registration.aspx
+      - text: "|"
+      - link "廣告查詢" [ref=f74e408] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/stocks/member/contactus.aspx
+      - text: "|"
+      - link "支援" [ref=f74e409] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/memberinfo/faq.aspx
+      - text: "|"
+      - link "免責聲明" [ref=f74e410] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/stocks/aboutus/disclaimer.aspx
+      - text: "|"
+      - link "私隱條例" [ref=f74e411] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/stocks/aboutus/privacy.aspx
+      - text: "|"
+      - link "聯絡我們" [ref=f74e412] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/stocks/member/contactus.aspx
+      - text: "|"
+      - link "人才招聘" [ref=f74e413] [cursor=pointer]:
+        - /url: https://www.aastocks.com/tc/stocks/aboutus/career.aspx
+      - generic [ref=f74e414]:
+        - text: 支援電郵：
+        - link "support@aastocks.com" [ref=f74e415] [cursor=pointer]:
+          - /url: mailto:support@aastocks.com
+        - text: 阿斯達克網絡信息有限公司 (AASTOCKS.COM LIMITED) 版權所有，不得轉載
+    - generic [ref=f74e416]:
+      - text: 此基金報價是AASTOCKS從各基金管理公司的公開資料收集所得，僅供參考之用。AASTOCKS已竭力提供正確及完整的資料，但並不保證資料絕對無誤，資料如有錯漏而令閣下蒙受損失，本公司概不負責。我們建議讀者在作出任何投資決定前，仔細閱讀有關基金說明書及免責聲明。 上述內容僅供參考之用，不得視為買賣任何所述基金的邀約或懇請。投資涉及風險，新興市場的風險可能較已發展市場高。認購將只按照有關銷售文件、最近的年度財務報表及半年度財務報表（如在年度財務報表之後發布）進行。投資價值及來自投資價值的收益（如有）可能有波動性及會在短時間內大幅波動。過往業績並非日後表現的指標。投資回報乃以基金的基本貨幣計值。因此，以美元／港元為基礎的投資者須承受美元／港元／基本貨幣匯率的波動。 在作出任何投資之前， 閣下應詳閱有關銷售文件，尤其是投資政策及風險因素。 閣下應確保自己完全理解基金所附帶的風險，並應考慮 閣下自身的投資目標及可承受的風險水平。謹提醒 閣下， 閣下須對所作出的投資決定負責。同時，除非向 閣下推介或出售基金投資的中介人已向 閣下提出有關基金乃適合 閣下的意見，並已向 閣下闡明理由，包括買入有關基金將如何與 閣下的投資目標一致，否則 閣下不應作出投資。如有疑問，請尋求獨立財務及專業意見。 本網站所載資料及產品僅限於香港投資者。本網站須遵守若干重要法律及法規。該等法律及法規載於
+      - link "免責聲明" [ref=f74e417] [cursor=pointer]:
+        - /url: /tc/funds/disclaimer.aspx
+      - text: 一節，閣下於繼續瀏覽本網站前應詳細閱讀。如 閣下繼續瀏覽本網站，即表示 閣下已經了解並接受 免責聲明一節所載限制。 本網站提供連結的第三方網站不在AASTOCKS控制範圍。因此，AASTOCKS對該第三方網站所載內容的準確性、完整性及合法性，或任何邀約、服務及產品概不負責。 閣下瀏覽本網站，即表示 閣下已經了解並接受
+      - link "AASTOCKS免責聲明" [ref=f74e418] [cursor=pointer]:
+        - /url: /tc/stocks/aboutus/disclaimer.aspx
+      - text: 所載內容。

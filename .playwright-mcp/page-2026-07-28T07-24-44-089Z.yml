@@ -1,0 +1,134 @@
+- generic [ref=f110e1]:
+  - banner
+  - generic [ref=f110e4]:
+    - img "Janus Henderson Logo" [ref=f110e14]
+    - generic [ref=f110e16]:
+      - generic [ref=f110e17]: 
+      - generic [ref=f110e25]:
+        - heading "您的 目標" [level=1] [ref=f110e30]: 您的目標
+        - heading "我們的 專業領域" [level=1] [ref=f110e35]:
+          - text: 我們的
+          - generic [ref=f110e36]: 專業領域
+    - generic [ref=f110e45]:
+      - generic [ref=f110e46]:
+        - link [ref=f110e47] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/zh-hk/investor/
+          - heading "個人投資者 (中文)" [level=3] [ref=f110e48]
+          - paragraph [ref=f110e49]: 自主進行投資的個人。
+        - link [ref=f110e51] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/zh-hk/investor/
+      - generic [ref=f110e55]:
+        - link [ref=f110e56] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/en-hk/investor/
+          - heading "Individual Investors (EN)" [level=3] [ref=f110e57]
+          - paragraph [ref=f110e58]: 自主進行投資的個人。
+        - link [ref=f110e60] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/en-hk/investor/
+      - generic [ref=f110e64]:
+        - link [ref=f110e65] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/en-axj/institutional/
+          - heading "機構投資者" [level=3] [ref=f110e66]
+          - paragraph [ref=f110e67]: 代表金融機構進行諮詢或投資的投資者。
+        - link [ref=f110e69] [cursor=pointer]:
+          - /url: https://www.janushenderson.com/en-axj/institutional/
+    - generic [ref=f110e75]:
+      - paragraph [ref=f110e80]:
+        - generic [ref=f110e81]:
+          - text: 在駿利亨德森，我們始終將您的目標放在首位，致力於將我們的投資專長應用於您的投資組合。這一切都是將人員和想法聚集在
+          - strong [ref=f110e83]: 一起
+          - text: 締造創新的解決方案並提供更好的成果。
+      - heading "我們的使命是提供：" [level=4] [ref=f110e87]
+    - generic [ref=f110e92]:
+      - generic [ref=f110e97]:
+        - generic [ref=f110e100]:
+          - heading "獨具慧眼的投資觀點" [level=4] [ref=f110e102]
+          - separator [ref=f110e103]
+          - paragraph [ref=f110e104]: 駿利亨德森的投資團隊每年會接觸數以千計的公司，透過從這些會面獲取深入資料並結合專有的分析工具，形成了決定我們投資定位的原創觀點。
+        - generic [ref=f110e107]:
+          - heading "紀律嚴明的投資" [level=4] [ref=f110e109]
+          - separator [ref=f110e110]
+          - paragraph [ref=f110e111]: 我們的投資團隊制定明確的目標和流程，以實現長期經風險調整後回報。我們珍重客戶對我們的信任，無論市場環境如何都始終堅守投資作風。
+        - generic [ref=f110e114]:
+          - heading "世界級的服務" [level=4] [ref=f110e116]
+          - separator [ref=f110e117]
+          - paragraph [ref=f110e118]: 我們擁有廣泛的投資專家網絡，服務覆蓋全球各地，並結合當地合作夥伴提供迅速的應對措施、定制方案和親身接洽。
+      - generic [ref=f110e122]:
+        - button "了解更多 " [ref=f110e123] [cursor=pointer]
+        - text:   
+    - generic [ref=f110e127]:
+      - region "Video Player" [ref=f110e131]:
+        - text:          
+        - dialog "Modal Window" [ref=f110e133]:
+          - paragraph [ref=f110e134]: This is a modal window.
+          - document [ref=f110e135]:
+            - generic [ref=f110e136]:
+              - generic [ref=f110e137]:
+                - heading "The Playback API request failed for an unknown reason" [level=2] [ref=f110e138]
+                - generic [ref=f110e139]: "Error Code: VIDEO_CLOUD_ERR_UNKNOWN"
+                - generic [ref=f110e140]:
+                  - generic [ref=f110e141]: "Session ID: 2026-07-28:7d80bd4afd5513f2d5c6f2e5"
+                  - generic [ref=f110e142]: "Player Element ID: jhiAmpVideo"
+              - button "OK" [ref=f110e144] [cursor=pointer]
+              - button "Close Modal Dialog" [ref=f110e145] [cursor=pointer]: 
+        - text:  
+      - generic [ref=f110e148]:
+        - heading "是什麼讓駿利亨德森與眾不同？" [level=3] [ref=f110e150]
+        - generic [ref=f110e151]:
+          - paragraph [ref=f110e152]:
+            - text: 我們擁有逾90年的經驗，採取以研究為基礎、
+            - strong [ref=f110e153]: 以洞察力為核心
+            - text: ，推動獨立思考並作出嚴謹的投資決策。
+          - paragraph [ref=f110e154]:
+            - text: 我們在投資理念、產品及解決方案方面持續創新，與客戶緊密
+            - strong [ref=f110e155]: 合作
+            - text: ，致力締造長遠投資成果。
+    - generic [ref=f110e162]:
+      - generic [ref=f110e164]:
+        - generic [ref=f110e165]:
+          - heading "我們的歷史 & 您的未來" [level=3] [ref=f110e166]
+          - paragraph [ref=f110e168]: 駿利亨德森擅長匯聚人才和投資理念，以締造創意解決方案，協助客戶實現更佳投資成果。本公司在這方面擁有逾90年的經驗。讓我們並肩投資，創建更美好未來。
+          - button [ref=f110e169] [cursor=pointer]:
+            - paragraph [ref=f110e170]: 了解我們的歷史
+            - text: 
+        - img "people walking towards building." [ref=f110e171]
+      - text:   
+    - generic [ref=f110e184]:
+      - generic [ref=f110e188]:
+        - list [ref=f110e192]:
+          - listitem [ref=f110e193]:
+            - link "企業" [ref=f110e194] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/corporate/
+          - listitem [ref=f110e195]:
+            - link "媒體中心" [ref=f110e196] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/corporate/media/
+        - list [ref=f110e200]:
+          - listitem [ref=f110e201]:
+            - link "Careers - open in a new tab" [ref=f110e202] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/careers/
+              - text: 工作機會
+          - listitem [ref=f110e203]:
+            - link "Foundation - open in a new tab" [ref=f110e204] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/corporate/foundation/
+              - text: 駿利亨德森基金會
+          - listitem [ref=f110e205]:
+            - link "Foundation - open in a new tab" [ref=f110e206] [cursor=pointer]:
+              - /url: https://www.janushenderson.com/corporate/security-information/
+              - text: 詐騙與安全資訊
+      - generic [ref=f110e213]:
+        - generic [ref=f110e214]:
+          - paragraph [ref=f110e215]: This website does not provide investment advice or recommendations. Nothing on this website should be considered a solicitation to buy or an offer to sell shares of any fund in any jurisdiction where the offer or solicitation would be unlawful under the securities laws of such jurisdiction.
+          - paragraph [ref=f110e216]: © Janus Henderson Group Ltd.
+        - heading [level=3] [ref=f110e218]:
+          - img "Janus Henderson Investors Logo" [ref=f110e219]
+          - text: 並肩 投資創未來
+  - text:    
+  - generic:
+    - region "餅乾橫幅" [ref=f110e221]:
+      - dialog "隱私" [ref=f110e222]:
+        - generic [ref=f110e224]:
+          - generic [ref=f110e225]: 按下「接受 Cookie」，即表示您同意在您的裝置上存放 Cookie 以加強網站瀏覽體驗、分析網站使用情況，並協助我們的行銷行動。
+          - generic [ref=f110e229]:
+            - button "Cookie 設定, Opens the preference center dialog" [active] [ref=f110e230] [cursor=pointer]: Cookie 設定
+            - button "全部拒絕" [ref=f110e231] [cursor=pointer]
+            - button "接受所有 Cookie" [ref=f110e232] [cursor=pointer]
+    - text: Cookie 設定

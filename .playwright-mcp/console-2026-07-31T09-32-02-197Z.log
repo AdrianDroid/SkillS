@@ -1,0 +1,7 @@
+[    1003ms] [WARNING] DEPRECATED: DI is instantiating a token "Ui" that inherits its @Injectable decorator but does not provide one itself.
+This will become an error in a future version of Angular. Please add @Injectable() to the "Ui" class. @ https://www.franklintempleton.com.hk/vendor.f8508967efda686c40e6.js:0
+[    1941ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://cdn.decibelinsight.net/i/13933/304269/di.js:0
+[    1941ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://munchkin.marketo.net/munchkin.js:0
+[    1941ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://siteimproveanalytics.com/js/siteanalyze_6052778.js:0
+[    2061ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://fml-x.com/page/0.4396655034439144/https://www.franklintempleton.com.hk/en-hk/our-funds/price-and-performance/mutual-funds:0
+[    2280ms] [LOG] Found GTM tag @ https://rtp-static.marketo.com/rtp/libs/ga-integration-2.0.5.js:0

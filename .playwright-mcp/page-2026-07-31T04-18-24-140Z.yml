@@ -1,0 +1,57 @@
+- generic [ref=f17e2]:
+  - link [ref=f17e3] [cursor=pointer]:
+    - /url: /www/tc/home/index.php
+  - heading "很抱歉，無法顯示此頁面" [level=3] [ref=f17e4]
+  - heading "此連結可能已失效，或頁面可能已被移除。" [level=3] [ref=f17e5]
+  - heading "Sorry, this page cannot be displayed" [level=3] [ref=f17e6]
+  - heading "This link may has expired or the page has been removed." [level=3] [ref=f17e7]
+  - searchbox "搜尋/Search..." [ref=f17e10]
+  - list [ref=f17e12]:
+    - listitem [ref=f17e13] [cursor=pointer]:
+      - link "主頁" [ref=f17e14]:
+        - /url: /www/tc/home/index.php
+    - listitem [ref=f17e15] [cursor=pointer]:
+      - link "etnet TV" [ref=f17e16]:
+        - /url: /www/tc/video/
+    - listitem [ref=f17e17] [cursor=pointer]:
+      - link "新聞" [ref=f17e18]:
+        - /url: /www/tc/news/index.php
+    - listitem [ref=f17e19] [cursor=pointer]:
+      - link "股票" [ref=f17e20]:
+        - /url: /www/tc/stocks/realtime/index.php
+    - listitem [ref=f17e21] [cursor=pointer]:
+      - link "期貨期權" [ref=f17e22]:
+        - /url: /www/tc/futures/index.php
+    - listitem [ref=f17e23] [cursor=pointer]:
+      - link "權證" [ref=f17e24]:
+        - /url: /www/tc/warrants/realtime/index.php
+    - listitem [ref=f17e25] [cursor=pointer]:
+      - link "ETF" [ref=f17e26]:
+        - /url: /www/tc/etf/index.php
+    - listitem [ref=f17e27] [cursor=pointer]:
+      - link "A股" [ref=f17e28]:
+        - /url: /www/tc/ashares/index.php
+    - listitem [ref=f17e29] [cursor=pointer]:
+      - link "外匯虛幣" [ref=f17e30]:
+        - /url: /www/tc/forex/index.php
+    - listitem [ref=f17e31] [cursor=pointer]:
+      - link "基金" [ref=f17e32]:
+        - /url: /www/tc/funds/index.php
+    - listitem [ref=f17e33] [cursor=pointer]:
+      - link "MPF" [ref=f17e34]:
+        - /url: /www/tc/mpf/index.php
+    - listitem [ref=f17e35] [cursor=pointer]:
+      - link "地產" [ref=f17e36]:
+        - /url: /www/tc/property/main/index.php
+    - listitem [ref=f17e37] [cursor=pointer]:
+      - link "生活" [ref=f17e38]:
+        - /url: /www/tc/lifestyle/index.php
+    - listitem [ref=f17e39] [cursor=pointer]:
+      - link "DIVA" [ref=f17e40]:
+        - /url: /www/tc/diva/index.php
+    - listitem [ref=f17e41] [cursor=pointer]:
+      - link "健康好人生" [ref=f17e42]:
+        - /url: /www/tc/health/index.php
+    - listitem [ref=f17e43] [cursor=pointer]:
+      - link "社創SoIN" [ref=f17e44]:
+        - /url: /www/tc/soin/index.php

@@ -1,0 +1,86 @@
+- generic:
+  - dialog [ref=f118e3]:
+    - generic [ref=f118e4]:
+      - banner [ref=f118e5]:
+        - generic [ref=f118e6]:
+          - img "Invesco" [ref=f118e8]
+          - generic [ref=f118e9]:
+            - button " HK" [ref=f118e10] [cursor=pointer]
+            - link "中文 " [ref=f118e12] [cursor=pointer]:
+              - /url: /hk/zh/country-splash.html
+      - generic [ref=f118e13]:
+        - heading "Welcome to Invesco Hong Kong" [level=2] [ref=f118e15]
+        - generic [ref=f118e18]:
+          - generic [ref=f118e21]:
+            - paragraph [ref=f118e22]:
+              - text: This website is intended for Hong Kong residents only.
+              - generic [ref=f118e23]:
+                - text: By clicking “Confirm” below, I agree to be bound by all the
+                - link "Site Policies" [ref=f118e24] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html
+                - text: ", including"
+                - link "Legal Information/Notice" [ref=f118e25] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html#legal-information
+                - text: ","
+                - link "Disclaimer of Warranty and Limitation of Liability" [ref=f118e26] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html#declaimer-of-warranty
+                - text: ","
+                - link "Privacy Policy" [ref=f118e27] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html#privacy-statement
+                - text: ","
+                - link "Online Security" [ref=f118e28] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html#online-security
+                - text: ","
+                - link "Cookies Policy" [ref=f118e29] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html#cookies-policy
+                - text: and
+                - link "Social Media Commenting Guidelines & Disclaimer" [ref=f118e30] [cursor=pointer]:
+                  - /url: https://www.invesco.com/hk/en/footer/site-policies.html#social-media
+                - text: .
+            - paragraph [ref=f118e31]
+            - list [ref=f118e32]:
+              - listitem [ref=f118e33]: This website contains information about investment funds which invest in equities, bonds, money market securities and/or other instruments, each with its specific investment policy, features and different risk profiles. The fund(s) may not be suitable for all investors.
+              - listitem [ref=f118e34]: Some funds may invest in equities, investors should note the equities risk.
+              - listitem [ref=f118e35]: Some funds may invest in bonds or other fixed income securities which are subject to (a) interest rate risk (b) credit risk (including default risk, downgrading risk and liquidity risk) and (c) risks relating to non-investment grade bonds and/or unrated bonds and/or high yield bonds.
+              - listitem [ref=f118e36]: Some funds may invest primarily in emerging markets, smaller companies, a single country/region and/or industry sector, the investment focus of such funds might give rise to increased risk over more diversified funds. Funds investing in Europe are subject to the risk of Eurozone crisis.
+              - listitem [ref=f118e37]: Some funds may use financial derivative instruments (FDI) extensively for hedging and efficient portfolio management purposes but will not use FDI extensively for investment purposes. Some funds may use FDI as part of the principal investment policies and strategies. The funds' use of derivatives may become ineffective and they may suffer significant losses. The use of FDI also involves special risks including but not limited to liquidity, volatility, leverage and counterparty risks.
+              - listitem [ref=f118e38]: Some funds may invest in China A shares which involve certain risks (such as greater political, tax, economic, foreign exchange, liquidity, redemption limit and regulatory risks) that are not typically associated with investment in more developed markets. In addition, investors should be aware of the Renminbi (‘RMB’) currency risk as RMB is not freely convertible. In addition to the above, for funds which are launched in Hong Kong via the Mainland-Hong Kong Mutual Recognition of Funds (‘MRF’) arrangement, investors should also be aware of the risk associated with the MRF scheme, Mainland equity risks and Mainland debt securities risks.
+              - listitem [ref=f118e39]: Some funds may invest in Indian domestic debt securities which involve risks relating to Foreign Institutional Investors (FII)/ Foreign Portfolio Investors (FPI) Registration, FPI Indian Investment Limits, India tax risks and risk of investing in Indian sovereign debt securities. In addition, investors should also be aware of the exchange control risk of the Indian Rupee.
+              - listitem [ref=f118e40]: Exchange Traded Fund which is listed on one or more stock exchanges, the trading price of the shares on the stock exchange is driven by market factors such as the demand and supply of the shares. Therefore, the shares may trade at a substantial premium or discount to the fund’s net asset value per share. Investors should note the passive investment risk, trading risks, trading hours different risk, foreign exchange risks, multi-counter risks, reliance on market maker risks, tracking error risk.
+              - listitem [ref=f118e41]: Some Funds’ investment objectives are to seek to track the investment results of an index. Index provider makes no representation regarding the advisability of investing in the funds and makes no warranty and bears no liability with respect to the funds.
+              - listitem [ref=f118e42]: For certain share class(es), the funds may at its discretion pay dividends out of the capital or pay dividends out of gross income while charging the fees and expenses out of the capital to increase the distributable income for the payment of dividends (i.e. effectively pay dividend out of capital). Payment of dividends out of capital amounts to a return or withdrawal of part of an investor’s original investment or from any capital gains attributable to that original investment. Such distributions may result in an immediate reduction in the net asset value per share.
+              - listitem [ref=f118e43]: In addition, investors of the Monthly Distribution-1 share class (MD-1) should note that (a) MD-1 may continue to distribute in periods in which the funds have negative returns or is making losses, which further reduces the net asset value of the relevant MD-1; (b) Investors are subject to exchange rate fluctuations subsequent to the determination of the stable distribution rate; (c) Investments in MD-1 are not an alternative to a savings account or fixed-interest paying investment; and (d) For MD-1 that is currency hedged, investors may forego capital gains arising from the interest rate differential associated with currency hedging in favor of income distributions. The uncertainty and changes of relative interest rates may also adversely impact the return of the hedged unit classes. Investors should also note that for the MD-1 share classes of Invesco Funds, the distribution rate will be determined at the discretion of the funds, dividend payment and dividend rate are not guaranteed.
+              - listitem [ref=f118e44]: If investors invest in share classes denominated/dealt in a different currency than the base currency, due to fluctuations in currency markets, returns to investors, when converted back into the currency in which the investor subscribes and redeems, may be different to the return calculated by reference to the base currency. For hedged unit classes, investor should note the exchange rate risk and that the hedging strategy may reduce the benefit to investors in the hedged unit classes.
+              - listitem [ref=f118e45]: The value of the funds can be volatile and could go down substantially.
+              - listitem [ref=f118e46]: Investment involves risks. Past performance is not indicative of future returns. Investors should not base their investment decision on this website alone and must refer to the Hong Kong offering documents of the funds (in the case of pension funds, the relevant offering documents (including the Key Scheme Information Document and the MPF Scheme Brochure) for further details (including risk factors) prior to investing. Investors are advised to obtain independent professional advice where appropriate.
+            - paragraph [ref=f118e47]:
+              - generic [ref=f118e48]: Invesco Select Retirement Fund
+            - list [ref=f118e49]:
+              - listitem [ref=f118e50]: Invesco Select Retirement Fund currently offers 7 sub-funds which consists of equity fund, mixed asset funds, bond fund and money market funds.
+              - listitem [ref=f118e51]: Investors should take note of risk relating to the specific nature of a fund of funds and investment risk.
+              - listitem [ref=f118e52]: Some funds may invest in equities, investors should note the equities risk.
+              - listitem [ref=f118e53]: Some funds may invest in bonds or other debt securities which are subject to credit risk and interest rate risk.
+              - listitem [ref=f118e54]: Some funds may invest on an international basis and are subject to risk with international investing.
+          - button "Confirm" [ref=f118e55] [cursor=pointer]
+      - contentinfo [ref=f118e56]:
+        - generic [ref=f118e60]:
+          - navigation [ref=f118e61]:
+            - list [ref=f118e62]:
+              - listitem [ref=f118e63]:
+                - button "Manage cookies" [ref=f118e64] [cursor=pointer]
+          - paragraph [ref=f118e65]: ©2026 Invesco Ltd. All rights reserved.
+  - dialog "Managing your cookies" [ref=f118e67]:
+    - generic [ref=f118e68]:
+      - generic [ref=f118e70]:
+        - img "Invesco Logo" [ref=f118e72]
+        - heading "Managing your cookies" [level=2] [ref=f118e73]
+        - generic [ref=f118e74]:
+          - text: Cookies are used on our website to ensure it works, is secure and to improve your experience. Some of the cookies are necessary and will always be active. You can change your preferences at any time by selecting ‘Manage cookies’, using the link at the bottom of any Invesco web page. Read more about how we use cookies in our
+          - link "More information about your privacy, opens in a new tab" [ref=f118e75] [cursor=pointer]:
+            - /url: https://www.invesco.com/pp/en/privacy-portal/cookie-notice.html
+            - text: cookie notice.
+      - generic [ref=f118e77]:
+        - generic [ref=f118e78]:
+          - button "Accept all cookies" [ref=f118e79] [cursor=pointer]
+          - button "Decline all cookies" [ref=f118e80] [cursor=pointer]
+        - button "Manage cookies, Opens the preference center dialog" [ref=f118e81] [cursor=pointer]: Manage cookies

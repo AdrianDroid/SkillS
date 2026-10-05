@@ -1,0 +1,483 @@
+- generic [ref=f153e1]:
+  - link "Skip to main content" [ref=f153e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f153e4]:
+    - banner [ref=f153e5]:
+      - navigation [ref=f153e6]:
+        - separator
+        - button "Menu" [ref=f153e8] [cursor=pointer]
+        - button "香港" [ref=f153e12] [cursor=pointer]:
+          - text: 香港
+          - generic [ref=f153e13]: ❯
+        - button "一般投資者" [ref=f153e15] [cursor=pointer]:
+          - text: 一般投資者
+          - generic [ref=f153e16]: ❯
+        - button "zh" [ref=f153e18] [cursor=pointer]:
+          - text: zh
+          - generic [ref=f153e19]: ❯
+    - navigation [ref=f153e20]:
+      - generic [ref=f153e21]:
+        - button "Toggle navigation " [ref=f153e22] [cursor=pointer]:
+          - generic [ref=f153e23]: Toggle navigation
+          - generic [ref=f153e24]: 
+        - link [ref=f153e26] [cursor=pointer]:
+          - /url: /zh_retail
+          - img "Amundi HK Retail logo" [ref=f153e27]
+        - generic "Search" [ref=f153e28]: 
+        - text: 
+    - text:  
+    - button "back" [ref=f153e31] [cursor=pointer]
+    - main [ref=f153e35]:
+      - generic [ref=f153e36]:
+        - dialog [active] [ref=f153e37]:
+          - generic [ref=f153e43]:
+            - generic [ref=f153e44]:
+              - generic [ref=f153e45]:
+                - generic [ref=f153e46]: "您的投資者身份:"
+                - generic [ref=f153e47]: 個人投資者
+              - paragraph [ref=f153e49]: 如果您管理自己的資金或接受專業投資建議，請訪問本網站。
+              - generic [ref=f153e50]:
+                - generic [ref=f153e51]: 選擇你的語言
+                - listbox "選擇你的語言" [ref=f153e52] [cursor=pointer]:
+                  - option "Chinese, Traditional" [selected] [ref=f153e55]
+                  - text: 
+              - generic [ref=f153e56]:
+                - paragraph [ref=f153e57]: 重要法律資訊。請仔細閱讀此條款及細則。
+                - paragraph [ref=f153e58]: 閣下正進入東方匯理資產管理香港有限公司的網站。在繼續瀏覽網站之前，請您仔細閱讀此頁。 使用此網站及其中網頁，即代表您已閱讀、接受並同意遵守以下條款。 如果您不同意全部條款，您不應使用本網站及其中網頁。
+                - paragraph [ref=f153e59]
+                - paragraph [ref=f153e60]: 東方匯理系列基金
+                - list [ref=f153e61]:
+                  - listitem [ref=f153e62]:
+                    - paragraph [ref=f153e63]: 東方匯理系列基金是包含不同子基金的傘子基金，子基金類型包括股票子基金、債券子基金及多元資產子基金，風險狀況各異。
+                  - listitem [ref=f153e64]:
+                    - paragraph [ref=f153e65]: 部分子基金可能投資於單一國家或行業板塊，因此集中風險可能較高。與廣泛投資的基金相比，這些子基金的投資焦點的波幅或較高。
+                  - listitem [ref=f153e66]:
+                    - paragraph [ref=f153e67]: 雖然部分子基金不會廣泛使用衍生工具作投資用途或採用複雜的衍生工具或策略，偶爾使用衍生工具及/或按揭證券和資產抵押證券或須承受發行人的信貸、流動性、對手方、估值及場外交易風險。金融衍生工具的使用及其槓桿元素可能導致子基金須承受錄得重大損失的高風險。部分子基金可能會廣泛使用衍生工具作投資用途或使用複雜的衍生工具或策略，可能須承受額外較高槓桿水平及波動風險。
+                  - listitem [ref=f153e68]:
+                    - paragraph [ref=f153e69]: 部分子基金可能投資於中小型公司或因此須承受較高之風險。
+                  - listitem [ref=f153e70]:
+                    - paragraph [ref=f153e71]: 個別子基金可能投資於新興市場，或須承受政治、經濟和政策改變等風險，將為基金帶來額外風險。這些子基金將較波動，並比投資於已發展地區的子基金較少流動性。
+                  - listitem [ref=f153e72]:
+                    - paragraph [ref=f153e73]: 部分子基金可能投資於債券及/或新興市場綠色債券，或會承受利率、信貸及預付及匯兌的風險。當中包括高通脹率及利率、巨額外債、政治及社會上之不明朗因素，以及與新興市場綠色債券相關的風險。
+                  - listitem [ref=f153e74]:
+                    - paragraph [ref=f153e75]: 部份子基金可能投資於可轉換債券、高收益、非投資級別及無評級的證券，可能須承受較高風險包括但不限於違約、降級、利率、信貸及流動性風險。
+                  - listitem [ref=f153e76]:
+                    - paragraph [ref=f153e77]: 就人民幣類別而言，由於人民幣不能自由兌換，投資於本基金的人民幣類別可能會因人民幣與其他外幣之間的匯率變動及人民幣的流動性而受到不利的影響。在收到大量人民幣類別贖回要求的情況下，基金經理有絕對酌情權延遲支付人民幣類別的贖回要求。
+                  - listitem [ref=f153e78]:
+                    - paragraph [ref=f153e79]: 就分派類別而言，本基金可酌情決定以本基金的收入或資本或實際上從本基金的資本中支付股息。從資本支付股息及／或實際上從資本中支付股息相當於退還或提取投資者部分原有之投資或任何歸屬於該原有投資的資本收益。任何涉及從本基金的資本中支付股息或實際上從本基金的資本中支付股息（視情況而定）均可導致本基金每股資產淨值即時減少。
+                  - listitem [ref=f153e80]:
+                    - paragraph [ref=f153e81]: 本基金的價值可能會非常波動，且可能在短時間內大幅下跌，令投資者蒙受重大損失。
+                  - listitem [ref=f153e82]:
+                    - paragraph [ref=f153e83]: 這是您個人的投資決定，除非推介該投資產品給您的顧問已指出該產品適合您本人及已向您說明該產品如何符合您的投資目標，否則您不應投資於該產品。
+                - paragraph [ref=f153e84]
+                - paragraph [ref=f153e85]: 東方匯理亞洲傘子基金
+                - list [ref=f153e86]:
+                  - listitem [ref=f153e87]:
+                    - paragraph [ref=f153e88]: 東方匯理亞洲傘子基金是包含不同子基金的傘子基金。子基金是綜合基金中的基金，將至少80%的淨資產投資於UCITS（可轉讓證券集體投資計劃）／UCI（集體投資計劃）。
+                  - listitem [ref=f153e89]:
+                    - paragraph [ref=f153e90]: 投資於本基金或會承受外匯／貨幣風險、集中風險、新興市場風險、歐元區風險、以及投資於其他計劃。
+                  - listitem [ref=f153e91]:
+                    - paragraph [ref=f153e92]: 部份子基金涉及與Standard Chartered的CIO篩選策略有關的風險、使用Standard Chartered的CIO篩選策略的權利被終止的風險、債務證券相關風險（包括信貸／對手方風險、利率風險、低於投資級／無評級債券風險、主權債務風險、波動性及流動性風險、降級風險、估值風險和信貸評級風險）、以及投資於有抵押及／或證券化產品的風險。
+                  - listitem [ref=f153e93]:
+                    - paragraph [ref=f153e94]: 部份子基金涉及投資於其他計劃的風險、與基金的投資策略有關的風險、與DBS之間簽署的投資顧問協議終止的風險，以及債務證券相關風險（包括信貸／對手方風險、利率風險、主權債務風險、低於投資級債券風險、波動性及流動性風險、降級風險、估值風險和信貸評級風險）。
+                  - listitem [ref=f153e95]:
+                    - paragraph [ref=f153e96]: 本基金可投資於可大量使用金融衍生工具作投資用途的相關計劃，或衍生工具風險承擔淨額超過其資產淨值50%的相關計劃。投資於金融衍生工具須承受額外風險，包括對手方風險及信貸風險、流動性風險、估值風險、波動風險及場外交易風險。金融衍生工具的槓桿元素／成分可能導致基金蒙受損失。
+                  - listitem [ref=f153e97]:
+                    - paragraph [ref=f153e98]: 就派息股份類別而言，本基金可酌情決定以本基金的收入或資本或實際上從本基金的資本中支付股息。從資本支付股息及／或實際上從資本中支付股息相當於退還或提取投資者部分原有之投資或任何歸屬於該原有投資的資本收益。任何涉及從本基金的資本中支付股息或實際上從本基金的資本中支付股息（視情況而定）均可導致本基金每股資產淨值即時減少。
+                  - listitem [ref=f153e99]:
+                    - paragraph [ref=f153e100]: 本基金的價值可能會波動，且可能在短時間內大幅下跌，令投資者蒙受損失。
+                  - listitem [ref=f153e101]:
+                    - paragraph [ref=f153e102]: 投資者不可單靠本文而作出投資決定。
+                - paragraph [ref=f153e103]
+                - paragraph [ref=f153e104]: 東方匯理香港–綠色環球基金
+                - list [ref=f153e105]:
+                  - listitem [ref=f153e106]:
+                    - paragraph [ref=f153e107]: 子基金主要投資於某些公司，對有關公司進行投資是根據 (1)有關公司的環境評級及(2)有關公司的財務表現預測，以使投資基金取得超越MSCI World 指數的中長期表現。
+                  - listitem [ref=f153e108]:
+                    - paragraph [ref=f153e109]: 投資在子基金可能需要承受ESG投資政策風險、集中風險及與中小型公司有關之投資風險。運用金融衍生工具作對沖用途可能須承受額外風險，包括發行人的信貸風險、流動性風險、對手方風險及估值風險。
+                  - listitem [ref=f153e110]:
+                    - paragraph [ref=f153e111]: 由於人民幣不能自由兌換，投資於本基金的人民幣類別可能會因人民幣與其他外幣之間的匯率變動及人民幣的流動性而受到不利的影響。在收到大量人民幣類別贖回要求的情況下，基金經理有絕對酌情權延遲支付人民幣類別的贖回要求。
+                  - listitem [ref=f153e112]:
+                    - paragraph [ref=f153e113]: 就分派類別而言，基金經理可酌情決定從本基金的收入或資本支付股息，而同時於／從本基金的資本記入／支付本基金全部或部分費用及支出，以致增加本基金用作支付股息的可分派收入，因此本基金實際上可從資本支付股息。從資本中支付股息的情況相當於退還或提取投資者部分原有的投資或原有投資的資本收益。上述分派可能導致基金每單位資產淨值即時減少。
+                  - listitem [ref=f153e114]:
+                    - paragraph [ref=f153e115]: 本基金的價值可能會波動及可能需要承受重大損失。
+                  - listitem [ref=f153e116]:
+                    - paragraph [ref=f153e117]: 投資者不可單靠本文而作出投資決定。
+                - paragraph [ref=f153e118]
+                - paragraph [ref=f153e119]: 東方匯理香港組合
+                - list [ref=f153e120]:
+                  - listitem [ref=f153e121]:
+                    - paragraph [ref=f153e122]: 東方匯理香港組合是根據信託契據組成為傘子基金的單位信託基金，其中包括不同的子基金投資於股票、債券及貨幣市場工具及其他投資基金。每一個均有不同風險概況。
+                  - listitem [ref=f153e123]:
+                    - paragraph [ref=f153e124]: 部分子基金可能直接或間接透過全球股票及定息工具中的相關基金投資，將面對的是市場風險、包括（但不限於）與下列各項相關風險：(1)股價波動；(2)利率變動；及(3)現行匯率變動，同時面對流動性、信用及交易對手風險。當中包括降級風險和主權債務危機風險。部分子基金可能投資於中小型公司及新興市場或會涉及較高程度的風險。
+                  - listitem [ref=f153e125]:
+                    - paragraph [ref=f153e126]: 部分子基金可能運用金融衍生工具以達到對沖、有效投資組合管理及或投資目的，或可能承受額外風險；包括發行人的信貸、流動性、對手方及估值風險。
+                  - listitem [ref=f153e127]:
+                    - paragraph [ref=f153e128]: 投資於相關投資基金的子基金可能面對影響相關投資基金的風險。
+                  - listitem [ref=f153e129]:
+                    - paragraph [ref=f153e130]: 就對沖類別而言，每個對沖類別的單位將以子基金的基數貨幣對沖其計值貨幣，在盡最大努力的基礎上，以使對沖類別的表現緊貼以基金基數貨幣計值的同等類別的表現為目標。然而，概不保證基金經理運用的對沖技巧會充分而且有效地達至理想的結果和效用。此外，對沖類別的波動可能高於以基金基數貨幣計值的同等類別。如用作對沖的投資工具的對手方違約，對沖類別的投資者或須承受相關計值貨幣的非對沖貨幣匯率風險，並可能因此蒙受進一步的損失。投資者須承擔有關對沖費用，對沖費用可能不少，視乎當時市況而定。
+                  - listitem [ref=f153e131]:
+                    - paragraph [ref=f153e132]: 就分派類別而言，基金經理可酌情決定從本基金的收入或資本支付股息，而同時於／從本基金的資本記入／支付本基金全部或部分費用及支出，以致增加本基金用作支付股息的可分派收入，因此本基金實際上可從資本支付股息。從資本中支付股息的情況相當於退還或提取投資者部分原有的投資或原有投資的資本收益。上述分派可能導致基金每單位資產淨值即時減少。就分派II類別而言，每季的分派並不獲保證，而在支付每季股息之後，基金就此股份類別可供投資的資產將進一步減少。
+                  - listitem [ref=f153e133]:
+                    - paragraph [ref=f153e134]: 東方匯理香港組合 - 靈活配置均衡基金，靈活配置平穩基金，靈活配置增長基金，亞太新動力股息基金和創新動力股票基金將有限度地作出人民幣計值的相關投資。
+                  - listitem [ref=f153e135]:
+                    - paragraph [ref=f153e136]: 由於人民幣不能自由兌換，投資於本基金的人民幣類別可能會因人民幣與其他外幣之間的匯率變動及人民幣的流動性而受到不利的影響。在收到大量人民幣類別贖回要求的情況下，基金經理有絕對酌情權延遲支付人民幣類別的贖回要求。
+                  - listitem [ref=f153e137]:
+                    - paragraph [ref=f153e138]: 東方匯理香港組合– 美元貨幣市場基金屬於聯接基金，而相關基金在香港不是貨幣市場基金。相關基金並不提供任何保證。相關基金的股份與在銀行或接受存款公司存放資金並不相同。
+                  - listitem [ref=f153e139]:
+                    - paragraph [ref=f153e140]: 東方匯理香港組合-創新動力股票基金主要投資於破格性創新公司或須承受較高的市場波動和周轉率，而可能須承受重大損失。
+                  - listitem [ref=f153e141]:
+                    - paragraph [ref=f153e142]: 本子基金的價值可能會非常波動，且可能在短時間內大幅下跌，令投資者蒙受損失。
+                  - listitem [ref=f153e143]:
+                    - paragraph [ref=f153e144]: 這是您個人的投資決定，除非推介該投資產品給您的顧問已指出本基金的子基金適合您本人及已向您說明該子基金如何符合您的投資目標，否則您不應投資於該產品。
+                - paragraph [ref=f153e145]
+                - paragraph [ref=f153e146]: 東方匯理越南機會基金
+                - list [ref=f153e147]:
+                  - listitem [ref=f153e148]:
+                    - paragraph [ref=f153e149]: 本子基金屬於股票基金。
+                  - listitem [ref=f153e150]:
+                    - paragraph [ref=f153e151]: 本子基金投資於單一市場，須承受相對較多元化投資為高的集中及流動性風險。
+                  - listitem [ref=f153e152]:
+                    - paragraph [ref=f153e153]: 本子基金投資於新興市場，須承受較高風險，包括貨幣風險。
+                  - listitem [ref=f153e154]:
+                    - paragraph [ref=f153e155]: 本基金的價值可能會非常波動，且可能在短時間內大幅下跌，令投資者蒙受損失。
+                  - listitem [ref=f153e156]:
+                    - paragraph [ref=f153e157]: 這是您個人的投資決定，除非推介該投資產品給您的顧問已指出該產品適合您本人及已向您說明該產品如何符合您的投資目標，否則您不應投資於該產品。
+                - paragraph [ref=f153e158]
+                - paragraph [ref=f153e159]: 東方匯理恒生香港35指數ETF
+                - paragraph [ref=f153e160]: 東方匯理恒生香港35指數ETF（以下簡稱「HSHK 35 ETF」）是一隻實物資產交易所買賣基金，旨在提供在扣除費用及開支前緊貼恒生香港35指數(「相關指數」)表現的投資業績。
+                - list [ref=f153e161]:
+                  - listitem [ref=f153e162]:
+                    - paragraph [ref=f153e163]: 投資涉及風險，投資者可能會損失重大部分其於HSHK35 ETF之投資, 並應特別留意HSHK35 ETF投資的股票須承受市場風險 。
+                  - listitem [ref=f153e164]:
+                    - paragraph [ref=f153e165]: 由於HSHK35 ETF於香港聯合交易所有限公司上市，所以跟常見的單位信託基金有所不同，而HSHK35 ETF所附帶的風險與其他上市股票相類似，例如：流通性風險及可能會停止買賣的風險。每基金單位的市價可受二級市場中市場供求、流通性及買賣價差等因素影 響，而顯著地高於或低於其每基金單位的資產淨值，每基金單位的市價亦將會於交易日內不斷波動。
+                  - listitem [ref=f153e166]:
+                    - paragraph [ref=f153e167]: HSHK35 ETF須承受追蹤誤差風險、被動式投資所涉及之風險及投資於單一市場/該指數數隻成份股之集中風險。
+                  - listitem [ref=f153e168]:
+                    - paragraph [ref=f153e169]: HSHK35 ETF亦受雙櫃台風險、人民幣交易及結算風險、外匯風險，及依賴莊家之風險。
+                  - listitem [ref=f153e170]:
+                    - paragraph [ref=f153e171]: 基金經理擬至少每半年向股東派息一次。基金經理可酌情從資本中或實際上以資本及收入派息。如從資本中或實際上以資本及收入派息，可能會導致每單位資產淨值即時減少。
+                - paragraph [ref=f153e172]
+                - paragraph [ref=f153e173]: 東方匯理富時中國A50指數ETF
+                - paragraph [ref=f153e174]: 東方匯理富時中國A50指數ETF（以下簡稱「A50 ETF」）是一隻實物資產交易所買賣基金，旨在提供在扣除費用及開支前緊貼富時中國A50指數（「相關指數」）表現的投資業績。
+                - list [ref=f153e175]:
+                  - listitem [ref=f153e176]:
+                    - paragraph [ref=f153e177]: 投資涉及風險，投資者可能會損失重大部分其於A50 ETF之投資。投資者不應單以本材料為基礎作出投資決定，而應仔細閱讀A50 ETF的銷售文件，包括風險因素之全文。
+                  - listitem [ref=f153e178]:
+                    - paragraph [ref=f153e179]: A50 ETF可能以有別於其資產淨值的市價在交易所買賣。A50 ETF渉及風險如流通性風險及可能會停止買賣的風險。
+                  - listitem [ref=f153e180]:
+                    - paragraph [ref=f153e181]: A50 ETF須承受追蹤誤差風險及被動式投資所涉及之風險。
+                  - listitem [ref=f153e182]:
+                    - paragraph [ref=f153e183]: 投資於A股市場是受額度限制（如RQFII及滬港通的規限），單一投資於該市場可能須承受新興市場風險（如經濟、政治、稅務、外匯、監管、波動性及流動性風險）及集中風險。
+                  - listitem [ref=f153e184]:
+                    - paragraph [ref=f153e185]: 人民幣現時不能自由兌換，須受外匯管制及限制。以非人民幣為基礎的投資者須承受外匯風險。
+                  - listitem [ref=f153e186]:
+                    - paragraph [ref=f153e187]: 基金經理可酌情決定從資本或實際從資本支付股息。從資本或實際從資本支付股息相當於退還或提取投資者部分原有之投資或任何歸屬於該原有投資的資本收益。上述任何分派額可導致每基金單位資產淨值即時減少。
+                - paragraph [ref=f153e188]
+                - paragraph [ref=f153e189]: 一般條款
+                - paragraph [ref=f153e190]: 本網站內容僅為提供資訊而設，不構成在未獲准分銷或要約投資產品的司法管轄區分銷、要約購買、銷售或招攬要約購買或銷售任何投資產品。本網站介紹的產品或服務並非全部可在所有司法管轄區登記或獲得許可，或可供所有投資者購買。本網站所載任何內容均不構成東方匯理資產管理香港有限公司之任何成員公司或其聯營公司的招攬或要約，以提供任何投資建議或服務，或購買或銷售任何投資產品。在任何情況下，受此等限制約束的人士（如美國人士）不得取閱本網站所載資訊，並需退出本網站。
+                - paragraph [ref=f153e191]: 東方匯理資產管理香港有限公司保留絕對酌情決定授予或撤銷使用本網站的授權的權利。投資者不得僅以本文件為基礎作出投資決定。
+                - paragraph [ref=f153e192]: 本網站未經香港證券及期貨事務監察委員會（「證監會」）審核。
+                - paragraph [ref=f153e193]: 未經東方匯理資產管理香港有限公司明確許可，在任何情況下不得複製、轉載或轉發本文所載資訊或其中任何部分。在適用法律、規則、守則及指引允許的情況下，東方匯理資產管理香港有限公司或其聯營公司、東方匯理資產管理香港有限公司或其聯營公司的任何董事或員工無須就任何人士依賴該等資訊而產生的任何損害承擔責任，亦無須就該等資訊的任何錯誤或遺漏（包括但不限於第三方造成的錯誤或遺漏）承擔責任。本文提供的資訊或會發生變更，恕不另行通知。
+                - paragraph [ref=f153e194]
+                - paragraph [ref=f153e195]: 存取限制
+                - paragraph [ref=f153e196]: 本網站無意或並非旨在供受法律或法規約束禁止發佈或存取本網站所載資訊的人士瀏覽。
+                - paragraph [ref=f153e197]: 在任何情況下，受此等限制約束的人士不得取閱本網站所載資訊，並需退出本網站。
+                - paragraph [ref=f153e198]: 此外，如果您身處的國家有專門針對當地而設的網站（並非本網站），則本網站並不適用於您，您應相應存取為您國家而設的網站。
+                - paragraph [ref=f153e199]: 您全權負責說明您的國籍及／或居住國，並選擇相應網站。因此，您確認對國家網站的選擇符合您國籍所屬國及／或居住國的所有適用法律及法規，而且完全是您的責任。
+                - paragraph [ref=f153e200]: 本網站不擬提供於美國公民、美國居民或任何根據美國1933年証券法下的規則S或基金說明書中所定義的「美國人士」。
+                - paragraph [ref=f153e201]: 「美國人士」指：(a)任何居於美國的自然人；(b)任何根據美國法律組建或成立的合夥商行或公司；(c)其執行人或管理人是美國人士的產業；(d)其任何受託人是美國人士的信託；(e)位於美國的非美國實體的代理機構或分支；(f)任何由交易商或其他受信人為美國人士的利益或為美國人士而持有的任何非全權管理賬戶或同類賬戶；(g)任何由在美國組建、成立或(如屬個人)居住的交易商或其他受信人持有的任何全權管理賬戶或同類賬戶；及(h)任何有以下情況的合夥商行或公司：(i)根據任何美國境外的司法管轄區法律組建或成立的，及(ii)由美國人士主要為投資於並非根據已修訂的《1933年美國證券法》登記的證券而成立的，除非該合夥商行或公司是由並非自然人、產業或信託的合資格投資者(按已修訂的《1933年美國證券法》規則501(a)定義)所組建或成立並且擁有。
+                - paragraph [ref=f153e202]: 本網站所列的投資產品並未於美國根據美國1933年證券法例（及其後修訂）註冊，亦未向美國證券交易委員會或任何美國證券事務監察委員會註冊，而投資產品亦未有根據1940年投資公司法例（及其後修訂）註冊。所以，除非投資產品信納可在不違反美國證券法例的情況下配發，投資產品不可於美國﹝或受其司法管轄之領土或屬地或區域﹞或向美國人士或為美國人士的利益直接或間接招售或銷售。這限制亦適用於當美國公民或居民的個人，及「美國人士」於美國境外瀏覽本網站。
+                - paragraph [ref=f153e203]
+                - paragraph [ref=f153e204]: 投資建議
+                - paragraph [ref=f153e205]: 投資涉及風險。市場、基金經理以及投資的過往表現及經濟市場、股市、債市或經濟趨勢預測並非將來表現依據。投資回報以非港元或美元為單位可能因匯率波動而令投資總值下跌或上升。投資可跌可升。投資者應閱讀基金說明書的詳細資料，其中包括風險因素。本網站僅提供資訊，並未指明個別人士的個別投資目標、財政狀況及特殊需要。
+                - paragraph [ref=f153e206]: 無論東方匯理香港資產管理有限公司及其聯屬機構或本網站作者，均不會接受基於使用本網站所含信息而導致的任何直接或後果性的損失。任何人士考慮投資時，應取得獨立專業建議﹐並仔細考慮所有其他相關因素。
+                - paragraph [ref=f153e207]: 本網站所列基金或可能投資於金融衍生工具，作為其投資策略的其中一部份，亦有可能投資於新興市場、小型公司等證券或固定收益證券。這類型投資會涉及較大投資風險，對價格走勢亦會較為敏感。基金價格的波動性相對亦會增加。固定收益證券之發行人可能無法履行其義務及有關基金無法收回其投資。銷售文件內有更多風險因素之陳述。投資者必須留意一些因當時市場情況而產生的新風險，方可決定選購有關基金。
+                - paragraph [ref=f153e208]: 不保證條款
+                - paragraph [ref=f153e209]: 本網站提供的資料截至所示日期並以「現況」呈現。東方匯理不會對本網站所提供資訊的準確性、可靠性或完整性作出明示或暗示的保證，並明確拒絕為本網站適用於任何特定目的的任何保證承擔責任。該資料基於我們認為可靠的信息，但我們並不表示其準確、完整、有效或及時，並且不應依賴該材料作出任何特定目的。
+                - paragraph [ref=f153e210]: 市場數據內容
+                - paragraph [ref=f153e211]: 本網站的數據及資訊可由CREDIT AGRICOLE Group的數據提供者根據授予CREDIT AGRICOLE Group的授權提供。
+                - paragraph [ref=f153e212]: 保密性
+                - paragraph [ref=f153e213]: 東方匯理資產管理香港有限公司將為透過本網站提供的任何個人資訊保密，並按照所有相關及適用法律及法規持有該等資訊。
+                - paragraph [ref=f153e214]: 儘管如此，東方匯理資產管理香港有限公司保留使用所收集有關您的個人資訊以及技術及瀏覽資訊（如電腦瀏覽器類型、互聯網協定地址、所瀏覽的網頁，以及平均在本網站所花的時間）的權利，以管理及處理您的投資及所有其他相關活動。
+                - paragraph [ref=f153e215]: 東方匯理資產管理香港有限公司可向其代理及服務供應商披露該資訊，並可與Amundi Group內的其他公司分享該資訊，以向您發送有關所提供產品及服務的資訊。
+                - paragraph [ref=f153e216]: Cookies相關資訊
+                - paragraph [ref=f153e217]: about.amundi.com 網站使用 cookie。造訪網站時，Cookie 會安裝在網路使用者的電腦、平板電腦或智慧型手機上。以下資訊可讓您更了解 cookie 的運作方式以及如何使用目前工具來設定它們。
+                - paragraph [ref=f153e218]: 什麼是cookie?
+                - paragraph [ref=f153e219]: Cookie 的使用在網路上非常普遍。Cookie是一種包含資訊的小型文字檔案。在您的終端機（例如電腦、平板電腦、智慧型手機等）的硬碟上記錄您透過瀏覽器軟體造訪網站。它由網站伺服器傳輸到您的瀏覽器。Cookie 檔案可讓其發行者識別在相關 Cookie 的有效期或註冊期間內記錄該檔案的終端。 Cookie 無法追溯到自然人。
+                - paragraph [ref=f153e220]: 我們為什麼要使用cookies？
+                - paragraph [ref=f153e221]: 我們使用 3 類 cookie，其用途如下所述。我們不使用 cookie 來收集個人資訊（例如姓名）。
+                - paragraph [ref=f153e222]: 1. 功能cookies
+                - paragraph [ref=f153e223]: 這些 cookie 對於瀏覽我們的網站並不是必不可少的，但可以優化其功能並授予網路使用者對特定功能的存取權。
+                - paragraph [ref=f153e224]: 它們還允許我們網站應每個終端的顯示偏好而呈現。
+                - paragraph [ref=f153e225]: 因此，這些 cookie 可確保流暢且量身訂製的瀏覽。
+                - paragraph [ref=f153e226]: 在終端上放置 cookie 是個人化和改善使用者體驗的最簡單、最快的方法。
+                - paragraph [ref=f153e227]: 這些 cookie 由 Amundi 安裝。在大多數情況下，它們的有效期非常短，最多為期一年。
+                - paragraph [ref=f153e228]: 2. 受眾測量cookie（統計）
+                - paragraph [ref=f153e229]: 這些 cookie 會收集訪客如何使用網站的資訊。例如，造訪次數、造訪次數最多的頁面…
+                - paragraph [ref=f153e230]: XITI 是 about.amundi.com 使用的統計工具，會產生一個具有唯一識別碼的 cookie，其有存期限僅限於 13 個月。我們收集 IP 位址是為了識別網路使用者連線的城市。使用後立即匿名。這樣，東方匯理資產管理公司或其關聯公司就無法透過該途徑追蹤自然人。
+                - paragraph [ref=f153e231]: 所收集的資料將由東方匯理資產管理公司保留 6 個月，不會轉讓給第三方或用於其他目的。
+                - paragraph [ref=f153e232]: cookie 是如何管理的？
+                - paragraph [ref=f153e233]: 管理 cookie 有多種可能性。任何網路使用者的配置都可能會修改他們對網路的瀏覽以及存取某些需要使用 Cookie 的服務的條件。
+                - paragraph [ref=f153e234]: 網路使用者可以隨時選擇使用下述方式來表達和修改他們對 cookie 的期望。
+                - paragraph [ref=f153e235]: 1. 瀏覽器的配置
+                - paragraph [ref=f153e236]: "對於 Chrome: https://support.google.com/chrome/answer/95647?hl=fr&hlrm=en"
+                - paragraph [ref=f153e237]: "對於 Internet Explorer: http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-Cookies"
+                - paragraph [ref=f153e238]: "對於FireFox: http://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent?redirectlocale=fr&redirectslug=G%C3%A9rer+les+cookies"
+                - paragraph [ref=f153e239]: "對於Opéra: http://help.opera.com/Windows/10.20/fr/cookies.html"
+                - paragraph [ref=f153e240]: 2. 選擇退出受眾測量 cookie（統計）的鏈接
+                - paragraph [ref=f153e241]: "Xiti (AT Internet) 安裝的 cookie: http://www.xiti.com/fr/optout.aspx"
+                - paragraph [ref=f153e242]
+                - paragraph [ref=f153e243]: 互聯網通訊
+                - paragraph [ref=f153e244]: 經互聯網傳遞的通訊，可能會因互聯網流量而中斷、傳送受阻或傳送延誤，或因互聯網的公共性質而錯誤傳送資料。
+                - paragraph [ref=f153e245]: 使用這網站時，閣下同意互聯網並非安全的資訊溝通媒介，其中任何使用所涉風險，概由閣下自行承擔。東方匯理資產管理香港有限公司將不會對上述任何本網站超鏈接至的第三方信息所帶來損失或損害而承擔責任
+                - paragraph [ref=f153e246]: 本網站的損壞或受阻，或有任何失誤、遺留、刪除、缺少、營運或交易延誤、電腦病毒、線路失誤或轉移或紀錄使用，甚至如果環境因素導致上述事件，並不受我們或任何委託商提供軟件服務及支援，東方匯理資產管理香港有限公司與其聯屬機構及其各自的高級職員、董事、僱員均不會對上述任何人士的損害、賠償承擔責任。
+                - paragraph [ref=f153e247]: 東方匯理資產管理香港有限公司與其聯屬機構將不會就閣下任何損失損害負上責，即使東方匯理資產管理香港有限公司或其他機構已被通知相關損害將可能發生。
+                - paragraph [ref=f153e248]
+                - paragraph [ref=f153e249]: 網站的使用
+                - paragraph [ref=f153e250]: 本網站所載資訊旨在為考慮中的投資相關文件提供補充資訊，以供您查閱。
+                - paragraph [ref=f153e251]: 任何訂閱均應僅以在訂閱前及／或應要求提供予訂戶的相關文件為基礎。
+                - paragraph [ref=f153e252]: 明確禁止故意不當使用東方匯理資產管理香港有限公司網站的任何元素（包括但不限於黑客入侵、傳入病毒、破壞或過度使用或違反適用法律的任何使用行為）。
+                - paragraph [ref=f153e253]: 東方匯理資產管理香港有限公司保留在發出通知（包括發送電子郵件或在網站中發佈通知）後變更或修改此些條款的權利。東方匯理資產管理香港有限公司可在以任何方式向您發送通知後或您違反以上任何條件的情況下，隨時終止您的存取，而無須承擔任何責任。
+                - paragraph [ref=f153e254]
+                - paragraph [ref=f153e255]: 網站連結的使用
+                - paragraph [ref=f153e256]: 如您登入或透過網站中的連結離開本網站，並檢視並非東方匯理資產管理香港有限公司提供的內容，須自行承擔風險。東方匯理資產管理香港有限公司不會編製或檢閱連結中所載資料，或審核其準確性。東方匯理資產管理香港有限公司概不對網站中所提供服務、資訊或其他內容的任何延誤、缺陷或遺漏造成的損害或損失承擔責任，無論是實際責任、指稱責任、相應責任或懲罰性責任。東方匯理資產管理香港有限公司並無作出任何保證或聲明，並且概不對任何第三方以電子形式交付的任何內容（包括任何電子內容的準確性、主題、質素或時效）承擔責任。
+                - paragraph [ref=f153e257]
+                - paragraph [ref=f153e258]: 清洗黑錢活動
+                - paragraph [ref=f153e259]: 由於清洗黑錢活動及其他法規的要求，在您作出投資時需出示身份證明文件。
+                - paragraph [ref=f153e260]
+                - paragraph [ref=f153e261]: 網站的擁有權、版權及商標
+                - paragraph [ref=f153e262]: Amundi Group擁有本網站中所有內容的版權，尤其是圖像、文字、肖像及可從本網站下載的文件，以及網站內整合的任何軟件。
+                - paragraph [ref=f153e263]: 因此，未經Amundi Group事先書面同意，嚴禁以任何方式複製或陳述本網站的全部或部分內容。
+                - paragraph [ref=f153e264]: 然而，您可下載或列印本網站的網頁及／或部分作個人用途，惟不得刪除任何與版權或知識產權權利相關的通知。
+                - paragraph [ref=f153e265]: 下載或以任何其他形式複製本網站提供的軟件或資訊並不授予您與軟件或資訊相關的任何權利，而未經Amundi Group事先書面授權，您不得出於公共或其他商業目的（全部或部分）複製、（透過電子或其他方式）傳輸、修改或使用本網站，亦不得建立與之相關的連結。
+                - paragraph [ref=f153e266]: 「東方匯理」及其與這名字相關商標均屬「東方匯理」的已註冊商標。您不得複製、刪除、重新使用或修改本網站的網頁內所顯示的明確標示。
+                - paragraph [ref=f153e267]: 恒生免責聲明：恒生香港35 (「該指數」)乃由恒生指數有限公司根據恒生資訊服務有限公司特許協議發布及編製。「恒生香港35」之標記及名稱由恒生資訊服務有限公司擁有。恒生指數有 限公司及恒生資訊服務有限公司已同意東方匯理資產管理香港有限公司可就東方匯理恒生香港35指數ETF（「該產品」）使用及引述該指數，惟恒生指數有限公 司及恒生資訊服務有限公司並無就（i）任何該指數及其計算或任何其他與之有關的資料的準確性及完整性；或（ii）任何該指數或其中任何成份或其 所包涵的資 料作任何用途之適用性或適合性；或（iii）任何人士因使用任何該指數或其中任何成份或其所包涵的資料作任何用途而引致之結果，而向該產品之任何經紀或該 產品持有人或任何其他人士作出保證或聲明或擔保，亦不會就任何該指數提供或默示任何保證、聲明或擔保。恒生指數有限公司可隨時更改或修改計算及編製該指數 及其任何有關程式、成份股份及系數之過程及基準，而無須作出通知。於法律容許的範圍內，恒生指數有限公司或恒生資訊服務有限公司不會因（i）東方匯理資產 管理香港有限公司就該產品引用及/或參考任何該指數；或（ii）恒生指數有限公司在計算任何該指數時的任何失準、遺漏、失誤或錯誤；或（iii）與計算任 何該指數有關並由任何其他人士提供的資料的任何失準、遺漏、失誤﹑錯誤或不完整；或（iv）任何經紀、該產品持有人或任何其他處置該產品的人士，因上述原 因而直接或間接蒙受的任何經濟或其他損失承擔任何責任。任何經紀、持有人或任何其他處置該產品的人士，不得因有關該產品，以任何形式向恒生指數有限公司及 /或恒生資訊服務有限公司進行索償、法律行動或法律訴訟。任何經紀、持有人或任何其他處置該產品的人士，須完全了解此免責聲明，並且不能依賴恒生指數有限 公司及恒生資訊服務有限公司。為免產生疑問，本免責聲明並不會於任何經紀、持有人或任何其他人士與恒生指數有限公司及/或恒生資訊服務有限公司之間構成任 何合約或準合約關係，而亦不應視作已構成該等合約關係。
+              - button "認證" [ref=f153e269] [cursor=pointer]
+            - text: 
+        - generic [ref=f153e278]:
+          - generic [ref=f153e281]:
+            - list [ref=f153e282]:
+              - listitem [ref=f153e283] [cursor=pointer]
+              - listitem [ref=f153e284] [cursor=pointer]
+              - listitem [ref=f153e285] [cursor=pointer]
+              - listitem [ref=f153e286] [cursor=pointer]
+              - listitem [ref=f153e287] [cursor=pointer]
+              - listitem [ref=f153e288] [cursor=pointer]
+            - list [ref=f153e289]:
+              - listitem [ref=f153e290]:
+                - generic [ref=f153e291]:
+                  - generic [ref=f153e293]:
+                    - heading "東方匯理系列基金收益機遇基金" [level=2] [ref=f153e294]
+                    - paragraph [ref=f153e295]: 準備將您的收益潛力推向新高峰？ 本基金廣泛布局全球各種資產類別、行業和地區，以提供穩定和高品質的收益為核心投資目標。
+                    - paragraph:
+                      - link "了解更多 " [ref=f153e296] [cursor=pointer]:
+                        - /url: /zh_retail/amundi-funds-income-opportunities
+                        - text: 了解更多
+                        - generic [ref=f153e297]: 
+                  - img "Amundi Funds Income Opportunities" [ref=f153e301]
+              - text:     
+          - generic [ref=f153e303]:
+            - heading "最新市場動態" [level=2] [ref=f153e304]
+            - generic [ref=f153e306]:
+              - tablist [ref=f153e307]:
+                - listitem [ref=f153e308]:
+                  - tab "第三期 | 匯理遠見 Amundi 3 in 3" [selected] [ref=f153e309] [cursor=pointer]
+                - listitem [ref=f153e310]:
+                  - tab "2026年投資展望" [ref=f153e311] [cursor=pointer]
+                - listitem [ref=f153e312]:
+                  - tab "歐洲經濟潛力" [ref=f153e313] [cursor=pointer]
+                - listitem [ref=f153e314]:
+                  - tab "開拓多元收益，豐收投資成果" [ref=f153e315] [cursor=pointer]
+                - listitem [ref=f153e316]:
+                  - tab "駕馭美元走勢" [ref=f153e317] [cursor=pointer]
+                - listitem [ref=f153e318]:
+                  - tab "每月觀點" [ref=f153e319] [cursor=pointer]
+                - listitem:
+                  - tab
+              - tabpanel [ref=f153e321]:
+                - article [ref=f153e322]:
+                  - img "Rate Hike Imminent?" [ref=f153e324]
+                - link "觀看此處 " [ref=f153e325] [cursor=pointer]:
+                  - /url: /zh_retail/disanqi-huiliyuanjian-amundi-3-3
+                  - text: 觀看此處
+                  - generic [ref=f153e326]: 
+          - heading "爲何選擇東方匯理資產管理？" [level=2] [ref=f153e330]
+          - generic [ref=f153e332]:
+            - generic [ref=f153e335]:
+              - generic [ref=f153e336]: 全球1億名
+              - generic [ref=f153e338]:
+                - generic [ref=f153e339]:
+                  - paragraph [ref=f153e340]:
+                    - text: 零售客戶
+                    - superscript [ref=f153e341]: "1"
+                  - img "retail client" [ref=f153e343]
+                - text: "|"
+            - generic [ref=f153e346]:
+              - generic [ref=f153e347]: 歐洲第一大
+              - generic [ref=f153e349]:
+                - generic [ref=f153e350]:
+                  - paragraph [ref=f153e351]:
+                    - text: 資產管理公司
+                    - superscript [ref=f153e352]: "2"
+                  - img "trophy" [ref=f153e354]
+                - text: "|"
+            - generic [ref=f153e357]:
+              - generic [ref=f153e358]: 2.43萬億美元
+              - generic [ref=f153e360]:
+                - generic [ref=f153e361]:
+                  - paragraph [ref=f153e362]:
+                    - text: 資產管理規模
+                    - superscript [ref=f153e363]: "3"
+                  - img "aum" [ref=f153e365]
+                - text: "|"
+            - generic [ref=f153e368]:
+              - generic [ref=f153e369]: 全球第1名
+              - generic [ref=f153e372]:
+                - paragraph [ref=f153e373]:
+                  - text: 環境和社會議題的投票排名
+                  - superscript [ref=f153e374]: "4"
+                - img "ESG voting" [ref=f153e376]
+          - heading "獎項殊榮" [level=2] [ref=f153e379]
+          - img "Our Awards" [ref=f153e384]
+          - link "了解更多" [ref=f153e389] [cursor=pointer]:
+            - /url: /zh_retail/our-achievements
+          - generic [ref=f153e392]:
+            - heading "最新消息" [level=2] [ref=f153e393]
+            - generic [ref=f153e396]:
+              - article [ref=f153e398]:
+                - link "Mid Year Outlook 2026 20/07/2026 | 最新消息 2026年中期投資展望 - 市場耐力大考驗 " [ref=f153e399] [cursor=pointer]:
+                  - /url: /zh_retail/article/mid-year-outlook-2026
+                  - img "Mid Year Outlook 2026" [ref=f153e403]
+                  - generic [ref=f153e404]:
+                    - generic [ref=f153e405]:
+                      - time [ref=f153e408]: 20/07/2026
+                      - generic [ref=f153e409]: "| 最新消息"
+                    - heading "2026年中期投資展望 - 市場耐力大考驗" [level=3] [ref=f153e410]
+                    - text: 
+                    - generic [ref=f153e411]: 
+              - article [ref=f153e416]:
+                - link "GIV JULY 2026 8/07/2026 | 每月市場觀點 全球投資觀點 - 2026年7月 " [ref=f153e417] [cursor=pointer]:
+                  - /url: /zh_retail/article/global-investment-views-july-2026
+                  - img "GIV JULY 2026" [ref=f153e421]
+                  - generic [ref=f153e422]:
+                    - generic [ref=f153e423]:
+                      - time [ref=f153e426]: 8/07/2026
+                      - generic [ref=f153e427]: "| 每月市場觀點"
+                    - heading "全球投資觀點 - 2026年7月" [level=3] [ref=f153e428]
+                    - text: 
+                    - generic [ref=f153e429]: 
+              - article [ref=f153e434]:
+                - link "GIV JUN 2026 15/06/2026 | 每月市場觀點 全球投資觀點 - 2026年6月 " [ref=f153e435] [cursor=pointer]:
+                  - /url: /zh_retail/article/global-investment-views-june-2026
+                  - img "GIV JUN 2026" [ref=f153e439]
+                  - generic [ref=f153e440]:
+                    - generic [ref=f153e441]:
+                      - time [ref=f153e444]: 15/06/2026
+                      - generic [ref=f153e445]: "| 每月市場觀點"
+                    - heading "全球投資觀點 - 2026年6月" [level=3] [ref=f153e446]
+                    - text: 
+                    - generic [ref=f153e447]: 
+              - article [ref=f153e452]:
+                - link "GIV MAY 2026 13/05/2026 | 每月市場觀點 全球投資觀點 - 2026年5月 " [ref=f153e453] [cursor=pointer]:
+                  - /url: /zh_retail/article/global-investment-views-may-2026
+                  - img "GIV MAY 2026" [ref=f153e457]
+                  - generic [ref=f153e458]:
+                    - generic [ref=f153e459]:
+                      - time [ref=f153e462]: 13/05/2026
+                      - generic [ref=f153e463]: "| 每月市場觀點"
+                    - heading "全球投資觀點 - 2026年5月" [level=3] [ref=f153e464]
+                    - text: 
+                    - generic [ref=f153e465]: 
+              - article [ref=f153e470]:
+                - link "Inflation expectations 9/04/2026 | 每月市場觀點 全球投資觀點 - 2026年4月 " [ref=f153e471] [cursor=pointer]:
+                  - /url: /zh_retail/article/global-investment-views-apr-2026
+                  - img "Inflation expectations" [ref=f153e475]
+                  - generic [ref=f153e476]:
+                    - generic [ref=f153e477]:
+                      - time [ref=f153e480]: 9/04/2026
+                      - generic [ref=f153e481]: "| 每月市場觀點"
+                    - heading "全球投資觀點 - 2026年4月" [level=3] [ref=f153e482]
+                    - text: 
+                    - generic [ref=f153e483]: 
+              - article [ref=f153e488]:
+                - link "Convictions unchanged 2/04/2026 | 最新消息 儘管關稅不確定性重現，我們的核心觀點維持不變 " [ref=f153e489] [cursor=pointer]:
+                  - /url: /zh_retail/article/our-convictions-unchanged-despite-tariff-uncertainty
+                  - img "Convictions unchanged" [ref=f153e493]
+                  - generic [ref=f153e494]:
+                    - generic [ref=f153e495]:
+                      - time [ref=f153e498]: 2/04/2026
+                      - generic [ref=f153e499]: "| 最新消息"
+                    - heading "儘管關稅不確定性重現，我們的核心觀點維持不變" [level=3] [ref=f153e500]
+                    - text: 
+                    - generic [ref=f153e501]: 
+              - article [ref=f153e506]:
+                - link "GIV MAR 2026 16/03/2026 | 每月市場觀點 全球投資觀點 - 2026年3月 " [ref=f153e507] [cursor=pointer]:
+                  - /url: /zh_retail/article/globalinvestmentviewsmar2026
+                  - img "GIV MAR 2026" [ref=f153e511]
+                  - generic [ref=f153e512]:
+                    - generic [ref=f153e513]:
+                      - time [ref=f153e516]: 16/03/2026
+                      - generic [ref=f153e517]: "| 每月市場觀點"
+                    - heading "全球投資觀點 - 2026年3月" [level=3] [ref=f153e518]
+                    - text: 
+                    - generic [ref=f153e519]: 
+              - article [ref=f153e524]:
+                - link "GIV FEB 2026 12/02/2026 | 每月市場觀點 全球投資觀點 - 2026年2月 " [ref=f153e525] [cursor=pointer]:
+                  - /url: /zh_retail/article/globalinvestmentviewsfeb2026
+                  - img "GIV FEB 2026" [ref=f153e529]
+                  - generic [ref=f153e530]:
+                    - generic [ref=f153e531]:
+                      - time [ref=f153e534]: 12/02/2026
+                      - generic [ref=f153e535]: "| 每月市場觀點"
+                    - heading "全球投資觀點 - 2026年2月" [level=3] [ref=f153e536]
+                    - text: 
+                    - generic [ref=f153e537]: 
+          - paragraph [ref=f153e545]: "1. 資料來源: 東方匯理，截至2025年6月30日2. 資料來源: 2025年6月出版之IPE《500大資產管理公司》，截至2024年12月31日之資產管理規模3. 資料來源: 東方匯理，截至2025年12月31日4. 資料來源: 英國協會ShareAction出版的《投票的重要性 2024》"
+          - tablist [ref=f153e548]:
+            - generic [ref=f153e550]:
+              - heading [level=2] [ref=f153e551]:
+                - button "重要資訊 +" [expanded] [ref=f153e552] [cursor=pointer]
+              - generic [ref=f153e557]:
+                - paragraph [ref=f153e558]: 本文不擬被視為要約或招攬購買或出售證券，當中包括基金股份。本文所載的觀點及/或所提及的公司不應被視為東方匯理資產管理的建議。所有意見及估計可以隨時作出更改而毋須事先通知。在適用之法律、規則、守則及指引允許的範圍內，東方匯理資產管理及其相關公司對任何因使用本文所載之資料而引致的直接或間接損失概不負責。
+                - paragraph [ref=f153e559]: 本文只能分發予獲淮接受之人仕，及任何可能接受本文而沒有違反適用法例及條例之人士。本文並未得到香港證券及期貨事務監察委員會(“證監會”) 的審閱。
+                - paragraph [ref=f153e560]: 本文撰寫的目的只為提供資訊，並不代表已參考個別可能接收到本文人士的個別投資目標，財務情況及個別需求。有意投資者應就個別投資項目的適合程度或其他因素尋求獨立的意見。投資者不可單靠本文而作出投資決定。
+                - paragraph [ref=f153e561]: 投資涉及風險。市場、基金經理以及投資的過往表現及經濟市場、股市、債市或經濟趨勢預測並非將來表現依據。投資回報以非港元或美元為單位可能因匯率波動而令投資總值下跌或上升。投資可跌可升。
+                - paragraph [ref=f153e562]: 本文不擬提供於美國公民、美國居民或任何根據美國1933年証券法下的規則S所定義的「美國人士」。
+    - contentinfo [ref=f153e563]:
+      - generic [ref=f153e565]:
+        - list [ref=f153e570]:
+          - listitem [ref=f153e571]:
+            - link "監管資訊及文件" [ref=f153e572] [cursor=pointer]:
+              - /url: /zh_retail/legalnotices-tc
+          - listitem [ref=f153e573]:
+            - link "文件/重要通知" [ref=f153e574] [cursor=pointer]:
+              - /url: /zh_retail/article/regulatorydocument-tc
+          - listitem [ref=f153e575]:
+            - link "詐騙警告" [ref=f153e576] [cursor=pointer]:
+              - /url: /zh_retail/scamattempts_tc
+        - generic [ref=f153e579]:
+          - paragraph [ref=f153e580]: 跟隨我們
+          - list [ref=f153e581]:
+            - listitem [ref=f153e582]:
+              - link "linkedin page" [ref=f153e583] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/amundi-
+                - generic [ref=f153e584]: 
+            - listitem [ref=f153e585]:
+              - link "twitter page" [ref=f153e586] [cursor=pointer]:
+                - /url: https://www.twitter.com/Amundi_ENG
+                - generic [ref=f153e587]: 
+            - listitem [ref=f153e588]:
+              - link "youtube page" [ref=f153e589] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/AmundiGroupretail
+                - generic [ref=f153e590]: 
+            - listitem [ref=f153e591]:
+              - link "instagram page" [ref=f153e592] [cursor=pointer]:
+                - /url: https://www.instagram.com/amundi/
+                - generic [ref=f153e593]: 
+            - listitem [ref=f153e594]:
+              - link "facebook page" [ref=f153e595] [cursor=pointer]:
+                - /url: https://www.facebook.com/AmundiHongKong
+                - generic [ref=f153e596]: 
+      - paragraph [ref=f153e601]: © 2026 Amundi
+  - status [ref=f153e602]

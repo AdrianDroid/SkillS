@@ -1,0 +1,5 @@
+- generic [active] [ref=f12e1]:
+  - heading "Access Denied" [level=1] [ref=f12e2]
+  - text: You don't have permission to access "http://www.manulifeim.com.hk/en/funds/fund-prices.html" on this server.
+  - paragraph [ref=f12e3]: "Reference #18.194e4317.1785143999.81cb7aa5"
+  - paragraph [ref=f12e4]: https://errors.edgesuite.net/18.194e4317.1785143999.81cb7aa5
