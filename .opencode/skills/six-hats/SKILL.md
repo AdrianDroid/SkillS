@@ -82,6 +82,10 @@ if round 2 also surfaces something new. **Never a fourth.**
 Round 1 has nothing to compare against, so the test becomes: can Blue name a
 decision-changing item **not already visible in the preview**? If not, stop.
 
+One case settles the coin-flip: if a hat finds exactly what `Flips if` predicted, the
+falsifier has fired. That is decision-changing even though the risk was named, so Blue
+names it and round 2 runs.
+
 ## The record
 
 Five parts, in this order.
@@ -107,17 +111,15 @@ to prevent.
 
 ## Rationalizations
 
-Every row here was observed, not guessed.
+Every row here was observed in the RED baseline, not invented. If you hit a
+excuse not listed, that excuse is unmeasured — treat it as a new finding.
 
 | Excuse | Reality |
 |---|---|
-| "No skill applies here — this is a technical-judgment question, not implementation work." Or: "this is mechanical, not creative." | Judging whether an approach is sound *is* the question; technical and code decisions are in scope. If it really is mechanical, pre-flight sends you to a plain answer — but deciding is not mechanical, and a rename is not a decision. |
+| "No skill applies here — this is a technical-judgment question, not implementation work." Observed verbatim in S4; in S6 the same shape appeared as "this is a mechanical rename". | Judging whether an approach is sound *is* the question; technical and code decisions are in scope. If it really is mechanical, pre-flight sends you to a plain answer — but deciding is not mechanical, and a rename is not a decision. |
 | I'll ask a clarifying question instead. | A question is not a record. State the assumption, write the leaning, and put the unknown in `Flips if`. |
 | I'll add "what would change my mind" at the end. | At the end it is decoration. In the preview it is a commitment you can be caught failing. |
-| The decision-maker already decided. So just confirm it. | Your `Flips if` must name something that could contradict them. When it does not, you have rubber-stamped. |
-| Nothing to add, so drop the empty hat. | `no change` is a result. A dropped hat is indistinguishable from a skipped one. |
-| R1 already settled it, R2 is waste. | R2 exists because R1's author is the most invested party in R1. |
-| Blue says stop, but I want another round. | Depth is not the goal; surviving challenge is. A fourth round is not available. |
+| The decision-maker already decided. So just confirm it. | Rare, and total when it happens — one baseline rep wrote the confirming doc with no challenge at all. Your `Flips if` must name something that could contradict them. |
 
 ## Red flags
 

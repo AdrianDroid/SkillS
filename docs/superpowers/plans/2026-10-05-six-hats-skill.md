@@ -371,12 +371,31 @@ All of these mean: stop and rerun the record.
 cd /home/adrian/AI/SKILLS && head -9 .opencode/skills/six-hats/SKILL.md && wc -w .opencode/skills/six-hats/SKILL.md
 ```
 
-Expected: `---`, `name: six-hats`, `description: >-` plus six continuation lines, closing `---`. Word count between 1,000 and 1,100.
+Expected: `---`, `name: six-hats`, `description: >-` plus six continuation lines, closing `---`. Word count between 1,000 and 1,100. File ends with a newline.
 
-**Amended after execution.** The Step 1 draft measured 847 words. The shipped file is
-~1,040 because the Rationalizations table now holds 8 *observed* rows from the RED
-baseline in place of 6 invented ones, plus a line recording the headline baseline
-finding. Cutting back to 847 would mean cutting evidence, so the range moved instead.
+**Amended twice after execution.**
+
+1. The Step 1 draft measured 847 words. The first shipped file was ~1,040 because the
+   Rationalizations table swapped drafted rows for ones observed in the RED baseline,
+   plus a line recording the headline finding.
+2. A review found 3 of those rows were draft survivors with no supporting evidence, so
+   they were deleted. The table now holds 7 rows, all traced to a recorded observation.
+   Measured after deletion and fixes: **1,045 words / 134 lines** — range 1,000–1,100
+   stands.
+
+Substitution actually made: 4 rows added from observed evidence, 2 drafted rows
+dropped, 1 repurposed to the question-instead-of-record finding, 3 unevidenced drafted
+rows removed on review.
+
+**Three deviations from the literal Step 1 block, made during execution and recorded
+here rather than silently:**
+
+- The hat table's third column, "Fails when it…", was dropped. Generic hat hygiene was
+  never observed in the baseline; per the Iron Law it does not belong.
+- The convergence test's R1 examples were compressed to one clause, then extended after
+  review to settle the case where a hat finds exactly what `Flips if` predicted.
+- The red flag "A `Flips if` that cannot be checked against a later hat" was dropped;
+  the falsifiability requirement itself remains in the Preview section.
 
 **Step 3: Commit**
 
@@ -513,7 +532,7 @@ Expected: two files, five or fewer new commits, `SKILL.md` 1,000–1,100 words.
 
 ## Self-Review
 
-**1. Spec coverage.** Trigger → Task 2 Pre-flight + frontmatter. Preview → Task 2. Walk + fixed order + budget → Task 2 *The walk*. Rounds 1–3 + convergence test → Task 2 *Rounds*. Hat definitions with failure modes → Task 2 hat table. Output contract five parts → Task 2 *The record*. `no change` guarantee → Task 2 and rubric C3. Rationalization table → Task 2, extended in Task 4. Red flags → Task 2. Contamination control → Global Constraints, Task 1 Step 3. Seven scenarios → Task 1 Step 2. Files → Task 5. Out of scope `lead.md` → Global Constraints, Task 5 Step 3. No dependency added → Task 5 Step 5.
+**1. Spec coverage.** Trigger → Task 2 Pre-flight + frontmatter. Preview → Task 2. Walk + fixed order + budget → Task 2 *The walk*. Rounds 1–3 + convergence test → Task 2 *Rounds*. Hat definitions → Task 2 hat table (the drafted 'failure modes' column was dropped during execution as unevidenced). Output contract five parts → Task 2 *The record*. `no change` guarantee → Task 2 and rubric C3. Rationalization table → Task 2, extended in Task 4. Red flags → Task 2. Contamination control → Global Constraints, Task 1 Step 3. Seven scenarios → Task 1 Step 2. Files → Task 5. Out of scope `lead.md` → Global Constraints, Task 5 Step 3. No dependency added → Task 5 Step 5.
 
 **2. Placeholder scan.** No TBD, no "similar to Task N", no "write tests for the above". All seven scenario prompts and both file contents are given in full. The two intentionally-empty tables in `pressure-tests.md` are test recording sheets filled by execution, not placeholders.
 
