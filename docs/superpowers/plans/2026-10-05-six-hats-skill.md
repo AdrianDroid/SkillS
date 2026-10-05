@@ -247,122 +247,12 @@ git commit -m "Record six-hats baseline pressure-test failures"
 **Step 1: Write `SKILL.md`**
 
 ````markdown
----
-name: six-hats
-description: >-
-  Use when a request involves choosing between options, judging whether an approach
-  is sound, or weighing trade-offs — "should I", "which approach", "is this a good
-  idea", architecture or plan decisions, reviewing someone's proposal, or an explicit
-  "six hats" / de Bono request. Do NOT use for factual lookups, reading files or
-  code, or one-line edits.
----
-
-# Six Hats
-
-A decision record, not a chat reply. The reader must see where you stood, what
-attacked it, and whether it survived.
-
-**A verdict that was never attacked is a guess with formatting.**
-
-## Pre-flight
-
-Non-trivial? Run the walk. If not, answer directly with no trail. Skip for trivial
-chat, factual lookups, one-line edits, "what does this file say".
-
-An explicit request always runs, even when trivial. Do not argue the user out of it.
-
-## Preview
-
-Before any hat:
-
-```
-Leaning:  <one line>
-Flips if: <one line — an observable a later hat can produce or fail to produce>
-```
-
-`Flips if` must be falsifiable. "If it feels wrong" is not. "If a hat finds a
-migration with no rollback path" is.
-
-## The walk
-
-`sequentialthinking`, one call per hat, in this order, every round:
-
-⚪ White → 🔴 Red → ⚫ Black → 🟡 Yellow → 🟢 Green → 🔵 Blue
-
-| Hat | Question | Fails when it… |
-|---|---|---|
-| ⚪ White | What do I actually know? | States a guess as fact |
-| 🔴 Red | What does my gut say? How will the user feel? | Hedged into vagueness |
-| ⚫ Black | What breaks? Risks, edge cases, downsides? | Offers a mitigation as its "risk" |
-| 🟡 Yellow | What's the upside? Does it serve the goal? | Echoes Black's risks positively |
-| 🟢 Green | What else could we do? Lateral moves? | Only rephrases the chosen option |
-| 🔵 Blue | Did we cover it? What did we learn? Synthesise. | Delivers a verdict with no new content |
-
-A hat may reference earlier material — Black can attack Red's gut call. Each hat
-answers only its own question. Reference is not bleed; substitution is.
-
-Budget: ~120 words per hat in round 1, ~60 words per hat in rounds 2–3.
-
-## Rounds
-
-One to three. Round 1 always runs. Round 2 runs unless Blue stops it. Round 3 only
-if round 2 also surfaces something new. **Never a fourth.**
-
-### Convergence test
-
-> Another round happens only if the round just finished surfaced something **new**
-> that changes the decision's risk surface or option set. If Blue cannot name that
-> new thing in one sentence, the protocol stops.
->
-> Re-litigating what an earlier round covered does not count as new.
-
-Round 1 has no earlier round to compare against. Blue stops if it cannot name a
-decision-changing item not already visible in the preview: no White gap that moves
-the decision, no Green option outside the preview's framing, no Black risk that
-flips it.
-
-## The record
-
-Five parts, in this order.
-
-```
-1  HEADER      [Hats] R1 ⚪→🔴→⚫→🟡→🟢→🔵  R2 …
-2  PREVIEW     Leaning / Flips if
-3  HAT SLOTS   six per round, every round, labelled
-4  BLUE STOP   per round: `stop` | `round N+1: <the new thing>`
-5  VERDICT     confirmed | revised — <which hat moved it, or "none">
-```
-
-**Every hat holds a slot in every round.** A hat with nothing to contribute writes
-`no change`. It does not vanish — an empty Green written as "nothing new" is itself
-the finding: Green searched and found nothing.
-
-Rounds 2–3 carry deltas, not re-statements.
-
-The verdict must resolve. `revised` names the hat that moved it. `confirmed` states
-that no hat moved it — the evidence the decision survived challenge rather than
-merely escaped scrutiny.
-
-## Rationalizations
-
-| Excuse | Reality |
-|---|---|
-| This decision is obvious, hats are ceremony | The record exists so a reader can audit the obviousness. Cheap at one round. |
-| Red doesn't apply to a technical question | Most useful there — it catches the gut objection nobody has voiced. |
-| Nothing to add, drop the empty hat | `no change` is a result. A dropped hat is indistinguishable from a skipped one. |
-| R1 already decided it, R2 is waste | R2 exists because R1's author is the most invested party in R1. |
-| I already wrote the verdict in the preview | That is why it is stated first — so the move from preview to verdict stays visible. |
-| Blue says stop, but I want more depth | Depth is not the goal; surviving challenge is. A fourth round is not available. |
-
-## Red flags
-
-- A round with a missing hat slot
-- Blue stopping without naming the new thing, or naming "none" when something existed
-- A verdict with no `confirmed` / `revised`
-- More than three rounds
-- A `Flips if` that cannot be checked against a later hat
-
-All of these mean: stop and rerun the record.
+(SKILL.md draft removed. It diverged ~50% from the shipped file after the Task 2
+review and the Task 4 REFACTOR, and it duplicated the hat table, five-part contract,
+and Rationalizations table a second time in the same repo — which was also the
+contamination surface for I-6 in the final review: a subagent searching the tree could
+read the protocol without the skill being loaded. The shipped file at
+`.opencode/skills/six-hats/SKILL.md` is the single source of truth.)
 ````
 
 **Step 2: Verify the frontmatter**
@@ -379,7 +269,7 @@ Expected: `---`, `name: six-hats`, `description: >-` plus five continuation line
    Rationalizations table swapped drafted rows for ones observed in the RED baseline,
    plus a line recording the headline finding.
 2. A review found 3 of those rows were draft survivors with no supporting evidence, so
-   they were deleted. The table now holds 4 rows, all traced to a recorded observation.
+   they were deleted. The table held 4 rows then; Task 4 added a fifth, so the shipped table has 5, all traceable.
    Measured after deletion and fixes: **1,055 words / 134 lines**.
 3. Task 4 added two evidenced fixes from the GREEN run (a six-calls-per-round
    mechanism note, and a counter for correct-objection-with-no-record), plus two red
@@ -544,4 +434,16 @@ Expected: two files, `SKILL.md` 1,100–1,200 words and under 170 lines.
 
 **2. Placeholder scan.** No TBD, no "similar to Task N", no "write tests for the above". All seven scenario prompts and both file contents are given in full. The two intentionally-empty tables in `pressure-tests.md` are test recording sheets filled by execution, not placeholders.
 
-**3. Type consistency.** Skill `name: six-hats` matches folder `six-hats` in all five tasks. Rubric checks C1–C7 are defined once in `.opencode/skills/six-hats/pressure-tests.md` and must match here; the suite file is the single source of truth for rubric text. Scenario IDs S1–S7 are defined once and reused unchanged. Hat order string is identical in Global Constraints and Task 2.
+**3. Type consistency.** Skill `name: six-hats` matches folder `six-hats` in all five tasks. Rubric checks C1–C7 are authored in `.opencode/skills/six-hats/pressure-tests.md`, the single source of truth. The copies in this plan are historical, were reconciled twice, and should not be treated as authoritative. Scenario IDs S1–S7 are defined once and reused unchanged. Hat order string is identical in Global Constraints and Task 2.
+## Post-execution corrections (final review)
+
+Applied after the final whole-branch review:
+
+- The Task 2 Step 1 `SKILL.md` draft was deleted. It had diverged ~50% from the shipped
+  file, duplicated the skill's own tables, and was the contamination surface for I-6 —
+  a subagent searching the tree could read the protocol without the skill being loaded.
+- C4's "5/5" here was corrected to "S1 5/5, S2 5/5, S3 4/5" to match the suite.
+- The Rationalizations row count was corrected from 4 to 5 (Task 4 added one).
+- The suite gained two disclosures the plan never carried: the excluded S6 run 1, and
+  the fact that **no scenario exercises the router**. Task 3's 4-of-5 and 5-of-5 gates
+  were superseded at n=3, and the anchored S5 has no baseline of its own.

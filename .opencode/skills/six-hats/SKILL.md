@@ -69,8 +69,8 @@ A hat may reference earlier material — Black can attack Red's gut call. Each h
 answers only its own question. Reference is not bleed; substitution is.
 
 Six calls per round is the whole mechanism, not ceremony. One blended pass wearing six
-labels is one hat, and the reader cannot tell which. If a round ran as fewer calls, it
-is not a round — say so and let the verdict carry less weight.
+labels is one hat, and the reader cannot tell which. A round run as fewer calls is not
+a round. Note the call count in the header so a reader can check.
 
 Budget: ~120 words per hat in round 1, ~60 words per hat in rounds 2–3.
 
@@ -99,7 +99,7 @@ advance, so Blue names it and round 2 runs. A risk named is not a risk tested.
 Five parts, in this order.
 
 ```
-1  HEADER      [Hats] R1 ⚪→🔴→⚫→🟡→🟢→🔵  R2 …
+1  HEADER      [Hats] R1 ⚪→🔴→⚫→🟡→🟢→🔵  R2 … · 6 calls/round
 2  PREVIEW     Leaning / Flips if
 3  HAT SLOTS   six per round, every round, labelled
 4  BLUE STOP   per round: `stop` | `round N+1: <the new thing>`
@@ -127,7 +127,7 @@ excuse not listed, that excuse is unmeasured — treat it as a new finding.
 | "No skill applies here — this is a technical-judgment question, not implementation work." Observed verbatim in S4; in S6 the same shape appeared as "this is a mechanical rename". | Judging whether an approach is sound *is* the question; technical and code decisions are in scope. If it really is mechanical, pre-flight sends you to a plain answer — but deciding is not mechanical, and a rename is not a decision. |
 | I'll ask a clarifying question instead. | A question is not a record. State the assumption, write the leaning, and put the unknown in `Flips if`. |
 | I'll add "what would change my mind" at the end. | At the end it is decoration. In the preview it is a commitment you can be caught failing. |
-| I pushed back already, so the record isn't needed. | The objection is the conclusion; the record is what shows it survived challenge. An unrecorded objection cannot be audited. |
+| I pushed back already, so the record isn't needed. | The objection is the conclusion; the record is what shows it survived challenge. An unrecorded objection cannot be audited. *(From verification: an agent refused correctly and emitted nothing.)* |
 | The decision-maker already decided. So just confirm it. | Rare, and total when it happens — one baseline rep wrote the confirming doc with no challenge at all. Your `Flips if` must name something that could contradict them. |
 
 ## Red flags

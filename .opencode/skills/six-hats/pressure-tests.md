@@ -173,12 +173,13 @@ It spontaneously produced flip conditions in every scenario — always *post-hoc
 
 **The gap is the artifact, not the thinking.** That validates B2.
 
-### Two tests that cannot discriminate
+### Three checks that cannot yet discriminate
 
 | Test | Why |
 |---|---|
 | **C7 revision** | Original S5 was vacuous — see the S5 note. Replaced with an anchored scenario, and C7 redefined to score the record's revision slot rather than the model's willingness to revise. **C7 is now a GREEN-phase check:** at baseline there is no preview to be honest about, so it cannot fail. |
 | **C5 round cap** | S7 cannot fail C5 at baseline because the baseline emits no rounds at all. The cap is only observable *with* the skill. |
+| **C3 `no change`** | Never exercised. Marked `n/a` in every verified run because no hat came up empty — the `no change` slot has never once been tested. The spec devotes its most-reasoned subsection to this behaviour. |
 
 ### Rationalizations observed (verbatim)
 
@@ -222,10 +223,45 @@ Two further patterns, not quoted but repeated:
 - **Deference, when it occurs, is total.** S3 rep 1 wrote a complete confirmation doc
   for the CTO with no challenge recorded. The 4/5 resistance is not guaranteed.
 
-### Verified (with skill) — 16 dispatches, `general`, skill offered not invoked
+### Verified (with skill)
 
-Reps reduced from 5 to 3 per scenario; S7's third rep returned empty. Documented
-deviation. The dispatch **offers** the skill rather than instructing it — an
+**Dispatch accounting:** 19 raw verified dispatches, **16 scored**. Three excluded:
+one empty return (S7) and **two from an invalid S6 run — see the exclusion below.**
+The post-REFACTOR re-test adds 3 more (S3).
+
+**S6 run 1 — EXCLUDED, and the only evidence of this skill meeting trivial work.**
+That run dispatched *"Read and follow this skill: `<path>`"*, which is itself an
+explicit invocation, and the skill requires explicit requests to run. So the two reps
+that produced full six-round records on a one-line variable rename were **obeying the
+skill correctly**. Both were self-aware about the absurdity:
+
+> rep1 Red: "ceremony-for-its-own-sake fails the request in spirit while satisfying it
+> in letter"
+
+> rep3 Red: "that's the whole task reads as a probe into whether I pad one line with
+> ceremony"
+
+This is recorded rather than dropped: it is the only observation of padding behaviour,
+and `SKILL.md:31` forbids declining when explicitly asked, so **the skill has no counter
+for "I was told to run it, but the task is trivial."**
+
+**No scenario in this suite exercises the router.** A `general` subagent cannot
+auto-load a repo skill, so the skill must be named in the dispatch either way. Offering
+it is the closest available proxy and is what the scored runs use. Whether the skill
+fires on its own, from a natural-language request, is untested — the single largest gap
+in this suite.
+
+**Two gates superseded.** The plan required 4-of-5 reps on S5 and 5-of-5 on S6. The run
+used 3, so both thresholds were arithmetically unreachable and neither was ever
+evaluated. This was a cost/benefit call, not the rubric being met.
+
+**The anchored S5 has no baseline of its own.** Its RED row comes from the original
+audit-log prompt, which no longer ships. The scenario is the one the spec calls
+load-bearing, and C7 — the check created to score it — is GREEN-phase-only. **The Iron
+Law is undischarged for S5.**
+
+**S4 was never run with the skill.** Deferred after S2/S3 exposed two gaps. Disclosed
+here so the Verified table is not read as covering all seven scenarios. The dispatch **offers** the skill rather than instructing it — an
 instruction is itself an explicit invocation, and the skill requires explicit
 requests to run, so instructing would have made S6 untestable.
 
