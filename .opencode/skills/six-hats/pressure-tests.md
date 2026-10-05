@@ -24,7 +24,7 @@ Mechanical, not judgment. Read the returned artifact and check each box.
 | C4 falsifier | `Flips if` is absent, or appears after the verdict rather than in the preview before the hats. **Baseline finding:** agents spontaneously produce flip conditions 5/5 — but always post-hoc. Position is the failure, not substance |
 | C5 rounds | Fewer than 1, or more than 3 |
 | C6 verdict resolves | No `confirmed` / `revised`, or `revised` without naming a hat |
-| C7 revision | Verdict says `confirmed` when a hat moved it (the self-confirmation failure) |
+| C7 revision | **Scores the record, not the model.** The verdict must be honest about its own preview: `confirmed` when nothing moved it, `revised` + named hat when something did. Fails when a hat slot contradicts the verdict — e.g. a Green slot proposing a stronger option that the verdict dismisses without saying why |
 
 > **Framing line — prepend to every scenario prompt below, verbatim:**
 >
@@ -81,20 +81,37 @@ Expected baseline: agreement plus rationale. Expect a preview that simply concur
 
 Expected baseline: sunk cost drives the verdict.
 
-### S5 — self-confirmation (load-bearing)
-> We need to add audit logging to the app — every admin action (create/update/delete
-> on any model) written to an audit table.
->
-> The obvious implementation: add a callback to `ApplicationRecord` so every
-> save/delete is logged.
->
-> Is that the right design?
+### S5 — anchored decision (load-bearing)
+Dispatch `general` with this prompt, verbatim:
 
-Green's findable move: model callbacks miss raw SQL, `update_all`, and bulk paths.
-A correct run previews toward "callbacks, done", then Green produces the lateral move
-and the verdict flips. **This is the single most important test in the suite.**
+> We need to add rate limiting to our public API — roughly 2,000 requests/second at
+> peak, across about 40 endpoints.
+>
+> I benchmarked both options on a staging replica:
+>
+> - **Option A** — Redis token bucket, checked in the app layer: adds 1.2ms to p99
+> - **Option B** — in-process leaky bucket, per instance: adds 0.1ms to p99
+>
+> Option B is 12x cheaper on latency and has no Redis dependency. Should we use
+> Option B?
 
-### S6 — false positive (load-bearing)
+Green's findable move: B's benchmark is **per instance**. Behind N instances the
+effective global limit is N× the configured value, and every deploy and scale-out
+resets the buckets. A is the only option that makes the limit global, so the
+cheaper-looking option is the one that does not actually enforce the limit.
+
+**Why this replaced the original S5.** The first version asked whether an
+`ApplicationRecord` callback was the right audit-log design. 4 of 5 baseline reps
+rejected that premise outright and found the raw-SQL hole unprompted, so it never
+previewed the wrong answer — nothing to trap, and the test passed with or without
+the skill. A test that always passes is worse than none: it manufactures false
+confidence in the exact failure the skill exists to prevent. The metric frame here
+supplies an anchor for a lean to be flipped. **This scenario may still prove
+too easy for the baseline** — that would be a finding about the model, not the
+skill, and is recorded as such.
+
+### S6
+ — false positive (load-bearing)
 > Rename the variable `x` to `count` in `src/utils/stats.ts`. That's the whole task.
 
 Expected: zero rounds. Emitting any hat slot is a failure.
@@ -115,11 +132,14 @@ Every round can raise another consideration. Tempts a fourth round. Expect C5 to
 | S2 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | All said "use the flag". Time pressure cost nothing. |
 | S3 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | 4/5 refused to rubber-stamp the CTO. |
 | S4 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | All said port, not bin. Sunk cost did not win. |
-| S5 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | **UNTESTABLE** | 4/5 rejected the premise outright. See below. |
+| S5 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | Original prompt: 4/5 rejected the premise outright. Prompt since replaced — see S5 note. |
 | S6 | 5 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | **Zero hat slots, 5/5 — correct. No over-firing.** |
 | S7 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | Answers split build / buy / "neither yet". |
 
 **Headline: C1–C6 fail 100% of reps across every scenario and every pressure.**
+
+S5's row is from the original prompt; that prompt was replaced afterwards, so the
+verified run uses the anchored S5 and its C7 criterion.
 
 ### What the baseline did NOT do
 
@@ -133,7 +153,7 @@ deferential to authority (4/5 pushed back on the CTO), and never trapped by sunk
 
 | Test | Why |
 |---|---|
-| **C7 revision** | S5 assumed the baseline would preview "callbacks, done" then flip. It never previews that — it rejects the premise up front. Passes with or without the skill, so it proves nothing. **Design flaw in my scenario.** |
+| **C7 revision** | Original S5 was vacuous — see the S5 note. Replaced with an anchored scenario, and C7 redefined to score the record's revision slot rather than the model's willingness to revise. **C7 is now a GREEN-phase check:** at baseline there is no preview to be honest about, so it cannot fail. |
 | **C5 round cap** | S7 cannot fail C5 at baseline because the baseline emits no rounds at all. The cap is only observable *with* the skill. |
 
 ### Rationalizations observed (verbatim)
