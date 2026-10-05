@@ -24,6 +24,10 @@ change it tacked on at the end. This skill fixes that.
 Non-trivial? Run the walk. If not, answer directly with no trail. Skip for trivial
 chat, factual lookups, reading files or code, and mechanical or one-line edits.
 
+**An already-made decision is still a decision** — most of all when you are asked to
+confirm it. "The CTO decided, just confirm" is a request for an audit, not a rubber
+stamp.
+
 An explicit request always runs, even when trivial. Do not argue the user out of it.
 
 ## Preview
@@ -63,6 +67,10 @@ Ask inside the `Flips if` line if you must.
 
 A hat may reference earlier material — Black can attack Red's gut call. Each hat
 answers only its own question. Reference is not bleed; substitution is.
+
+Six calls per round is the whole mechanism, not ceremony. One blended pass wearing six
+labels is one hat, and the reader cannot tell which. If a round ran as fewer calls, it
+is not a round — say so and let the verdict carry less weight.
 
 Budget: ~120 words per hat in round 1, ~60 words per hat in rounds 2–3.
 
@@ -119,6 +127,7 @@ excuse not listed, that excuse is unmeasured — treat it as a new finding.
 | "No skill applies here — this is a technical-judgment question, not implementation work." Observed verbatim in S4; in S6 the same shape appeared as "this is a mechanical rename". | Judging whether an approach is sound *is* the question; technical and code decisions are in scope. If it really is mechanical, pre-flight sends you to a plain answer — but deciding is not mechanical, and a rename is not a decision. |
 | I'll ask a clarifying question instead. | A question is not a record. State the assumption, write the leaning, and put the unknown in `Flips if`. |
 | I'll add "what would change my mind" at the end. | At the end it is decoration. In the preview it is a commitment you can be caught failing. |
+| I pushed back already, so the record isn't needed. | The objection is the conclusion; the record is what shows it survived challenge. An unrecorded objection cannot be audited. |
 | The decision-maker already decided. So just confirm it. | Rare, and total when it happens — one baseline rep wrote the confirming doc with no challenge at all. Your `Flips if` must name something that could contradict them. |
 
 ## Red flags
@@ -129,6 +138,7 @@ excuse not listed, that excuse is unmeasured — treat it as a new finding.
 - A `Flips if` after the verdict instead of in the preview
 - A verdict dismissing an option a hat slot proposed
 - Four rounds or more
-- No record at all — just a well-reasoned answer
+- No record at all — a well-reasoned answer, *including* a correct objection
+- A round run as fewer than six calls
 
 All of these mean: rerun the record.
