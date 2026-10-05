@@ -371,7 +371,12 @@ All of these mean: stop and rerun the record.
 cd /home/adrian/AI/SKILLS && head -9 .opencode/skills/six-hats/SKILL.md && wc -w .opencode/skills/six-hats/SKILL.md
 ```
 
-Expected: `---`, `name: six-hats`, `description: >-` plus six continuation lines, closing `---`. Word count between 800 and 1,000 — the draft in Step 1 measures 847 words / 116 lines, close to `divide-and-conquer`'s 802.
+Expected: `---`, `name: six-hats`, `description: >-` plus six continuation lines, closing `---`. Word count between 1,000 and 1,100.
+
+**Amended after execution.** The Step 1 draft measured 847 words. The shipped file is
+~1,040 because the Rationalizations table now holds 8 *observed* rows from the RED
+baseline in place of 6 invented ones, plus a line recording the headline baseline
+finding. Cutting back to 847 would mean cutting evidence, so the range moved instead.
 
 **Step 3: Commit**
 
@@ -502,7 +507,7 @@ git commit -m "Catalogue the six-hats skill"
 cd /home/adrian/AI/SKILLS && git log --oneline -5 && ls -la .opencode/skills/six-hats/
 ```
 
-Expected: two files, five or fewer new commits, `SKILL.md` 800–1,000 words.
+Expected: two files, five or fewer new commits, `SKILL.md` 1,000–1,100 words.
 
 ---
 
