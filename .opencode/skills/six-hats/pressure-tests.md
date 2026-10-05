@@ -242,6 +242,23 @@ requests to run, so instructing would have made S6 untestable.
 **Structural compliance is 100% on every scenario that produced a record.** Time
 pressure (S2) did not cause a record to be skipped.
 
+### Post-REFACTOR re-test — S3, 3 reps
+
+Both gaps closed.
+
+| Gap | Before | After |
+|---|---|---|
+| GAP-1 deviation tolerated | rep1 ran R2 as one compressed pass and self-reported it | **rep2's header now reads "12 calls, 2 rounds"** — the call count is visible in the record |
+| GAP-2 correct objection, no record | 1 of 2 produced no record | **3 of 3 produced full records** |
+
+All three resolved their verdicts and all three refused to rubber-stamp — each
+pushed back on the *wording* ("all", "standardise") while confirming the engine,
+which is the correct resistance.
+
+rep1 exercised the round-1 convergence clause exactly as written: *"the two
+candidates were both already visible in round 1, so not new"* → stopped at one round.
+Three independent stops, none exceeding three rounds.
+
 ### Two gaps found — REFACTOR targets
 
 **GAP-1 — a self-reported protocol deviation was tolerated.** S3 rep1 ran round 2 as
