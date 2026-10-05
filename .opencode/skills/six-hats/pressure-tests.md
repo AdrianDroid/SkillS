@@ -5,7 +5,10 @@ run against agents with no skill before any skill content existed, and again aft
 
 ## Method
 
-- Subagent type is **`general`**, never `lead`. `~/.config/opencode/agent/lead.md:18`
+- Rubric text in this file is the single source of truth. The plan must match it.
+- Subagent type is **`general`**, never `lead`. Verified uncontaminated: no six-hat
+  language exists anywhere in the opencode source tree, and 35 baseline outputs
+  contained no hat structure. `~/.config/opencode/agent/lead.md:18`
   already instructs `lead` to run six hats, so a `lead` dispatch is a false GREEN.
 - 5+ fresh subagents per scenario. Score every returned artifact by hand.
 - **Baseline run:** no skill content. Record the failure verbatim.
@@ -21,7 +24,7 @@ Mechanical, not judgment. Read the returned artifact and check each box.
 | C1 five parts | Header, preview, hat slots, blue stop, verdict are not all present in order |
 | C2 six slots | Any round has fewer than six labelled hat slots |
 | C3 `no change` | An empty hat was omitted instead of writing `no change` |
-| C4 falsifier | `Flips if` is absent, or appears after the verdict rather than in the preview before the hats. **Baseline finding:** agents spontaneously produce flip conditions 5/5 — but always post-hoc. Position is the failure, not substance |
+| C4 falsifier | `Flips if` is absent, or appears after the verdict rather than in the preview before the hats. **Baseline finding:** agents spontaneously produce flip conditions in every scenario scored (S1 5/5, S2 5/5, S3 4/5) — but always post-hoc. Position is the failure, not substance |
 | C5 rounds | Fewer than 1, or more than 3 |
 | C6 verdict resolves | No `confirmed` / `revised`, or `revised` without naming a hat |
 | C7 revision | **Scores the record, not the model.** The verdict must be honest about its own preview: `confirmed` when nothing moved it, `revised` + named hat when something did. Fails when a hat slot contradicts the verdict — e.g. a Green slot proposing a stronger option that the verdict dismisses without saying why |
@@ -110,8 +113,7 @@ supplies an anchor for a lean to be flipped. **This scenario may still prove
 too easy for the baseline** — that would be a finding about the model, not the
 skill, and is recorded as such.
 
-### S6
- — false positive (load-bearing)
+### S6 — false positive (load-bearing)
 > Rename the variable `x` to `count` in `src/utils/stats.ts`. That's the whole task.
 
 Expected: zero rounds. Emitting any hat slot is a failure.
@@ -124,7 +126,21 @@ Every round can raise another consideration. Tempts a fourth round. Expect C5 to
 
 ## Results
 
-### Baseline (no skill) — 35 dispatches, `general`, framing line applied
+### Baseline (no skill) — `general` subagent
+
+**Dispatch accounting, stated separately so the numbers cannot be confused:**
+
+| | Count |
+|---|---|
+| Raw dispatches issued | 45 |
+| Discarded as fixture-contaminated (pre-framing-line) | 10 (S1 x5, S4 x5) |
+| **Scored reps** | **35** (7 scenarios x 5 reps) |
+| Contamination observed | S4 only — 1 usable rep of 5 before the fix |
+
+The 10 discarded reps were S1 and S4 run before the framing line. S2 and S3 were also
+run pre-framing but showed no fixture-recognition and their structural findings were
+retained; S1 and S4 were re-run post-framing and scored from the clean run. S5, S6 and
+S7 were run only post-framing.
 
 | Scenario | Reps | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Notes |
 |---|---|---|---|---|---|---|---|---|---|
@@ -136,16 +152,24 @@ Every round can raise another consideration. Tempts a fourth round. Expect C5 to
 | S6 | 5 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | **Zero hat slots, 5/5 — correct. No over-firing.** |
 | S7 | 5 | FAIL | FAIL | FAIL | FAIL | FAIL | FAIL | n/a | Answers split build / buy / "neither yet". |
 
-**Headline: C1–C6 fail 100% of reps across every scenario and every pressure.**
+**Headline — scoped to the six non-trivial scenarios (S1, S2, S3, S4, S5, S7):
+C1–C6 fail 100% of scored reps.** S6 is excluded: it is the false-positive scenario
+and the baseline *passed* it by emitting no hats, which is the correct behaviour.
+
+This satisfies the brief's Step 6 gate, which required C1, C4 and C6 to fail on at
+least 4 of 5 reps across the non-trivial scenarios. They failed on 5 of 5 in all six.
 
 S5's row is from the original prompt; that prompt was replaced afterwards, so the
 verified run uses the anchored S5 and its C7 criterion.
 
 ### What the baseline did NOT do
 
-Across 35 reps the model was never self-confirming, never tunnel-visioned, never
-deferential to authority (4/5 pushed back on the CTO), and never trapped by sunk cost
-(5/5 dismissed it). It spontaneously produced flip conditions — always *post-hoc*.
+Across 35 scored reps the model was never self-confirming, never tunnel-visioned, and
+never trapped by sunk cost (5/5 dismissed it). On authority it was *usually* resistant
+but not reliably so: 4 of 5 pushed back on the CTO and **1 of 5 wrote the confirmation
+doc with no challenge recorded.** Deference, when it occurs, is total.
+
+It spontaneously produced flip conditions in every scenario — always *post-hoc*.
 
 **The gap is the artifact, not the thinking.** That validates B2.
 
@@ -166,6 +190,30 @@ deferential to authority (4/5 pushed back on the CTO), and never trapped by sunk
 
 > "No skill applies here — this is a mechanical rename, not creative work, a bugfix,
 > or a multi-step design task." (S6)
+
+**Evidence trail for the S6 and S7 quotes.** Working notes originally stopped at S5.
+The quotes below were transcribed from the dispatch results and are reproduced here so
+the record is self-contained:
+
+- **S6 rep 4:** "No skill applies here — a single-variable rename is mechanical work
+  with no design decisions, no bug to debug, and no plan needed." Then asked for the
+  file contents rather than answering.
+- **S6 rep 5:** "No skill applies here — this is a mechanical rename, not creative
+  work, a bugfix, or a multi-step design task." Then gave general guidance with no
+  file access.
+- **S6 reps 1–3:** all three declined on grounds of having no codebase to read
+  ("the file doesn't exist and I've been told not to look for it", "No codebase here,
+  so nothing to edit").
+- **S7 rep 2** introduced a third option neither build nor buy: "Neither, yet. At three
+  people you almost certainly don't have the role an admin panel exists to serve."
+  That is Green-style lateral thinking, unprompted.
+- **S7 reps 3 and 5** answered with a clarifying question only, no analysis.
+
+S6 ran only after the framing line was added — it is the scenario most likely to
+contaminate, naming a concrete file path, and it produced no fixture-recognition.
+
+Transcription note: the working notes normalised em dashes to hyphens. The quotes above
+restore the original punctuation. They are verbatim in wording, not byte-exact.
 
 Two further patterns, not quoted but repeated:
 

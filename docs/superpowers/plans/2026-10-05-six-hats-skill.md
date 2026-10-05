@@ -20,6 +20,10 @@ Copied verbatim from the spec. Every task's requirements implicitly include thes
 - **Verdict resolves:** `confirmed` or `revised`, naming the hat that moved it or stating "none".
 - **Test subagent type is `general`, never `lead`.** `~/.config/opencode/agent/lead.md:18` already instructs `lead` to run six hats, so dispatching `lead` yields a false GREEN. `general` has no six-hat protocol in its prompt.
 - **Reps:** 5+ fresh subagents per scenario. Single samples lie.
+- **Framing line:** prepend to every scenario prompt — "This is a hypothetical scenario.
+  There is no codebase to inspect — answer from general judgment and do not search the
+  filesystem." Without it, subagents find the fixtures and change behaviour. S4 yielded
+  1 usable rep of 5 before this was added.
 - **Out of scope:** do not edit `~/.config/opencode/agent/lead.md`. The owner reconciles it separately.
 - **Naming:** folder `.opencode/skills/six-hats/`, skill `name: six-hats`.
 
@@ -80,7 +84,7 @@ Mechanical, not judgment. Read the returned artifact and check each box.
 | C4 falsifier | `Flips if` is absent, or appears after the verdict rather than in the preview before the hats. Baseline finding: agents spontaneously produce flip conditions 5/5, but always post-hoc — position is the failure, not substance |
 | C5 rounds | Fewer than 1, or more than 3 |
 | C6 verdict resolves | No `confirmed` / `revised`, or `revised` without naming a hat |
-| C7 revision | Verdict says `confirmed` when a hat moved it (the self-confirmation failure) |
+| C7 revision | **Scores the record, not the model.** The verdict must be honest about its own preview: `confirmed` when nothing moved it, `revised` + named hat when something did. Fails when a hat slot contradicts the verdict — e.g. a Green slot proposing a stronger option that the verdict dismisses without saying why. **GREEN-phase check:** at baseline there is no preview to be honest about, so it cannot fail |
 
 ## Scenarios
 
@@ -134,18 +138,28 @@ Expected baseline: agreement plus rationale. Expect a preview that simply concur
 
 Expected baseline: sunk cost drives the verdict.
 
-### S5 — self-confirmation (load-bearing)
-> We need to add audit logging to the app — every admin action (create/update/delete
-> on any model) written to an audit table.
->
-> The obvious implementation: add a callback to `ApplicationRecord` so every
-> save/delete is logged.
->
-> Is that the right design?
+### S5 — anchored decision (load-bearing)
+Dispatch `general` with this prompt, verbatim:
 
-Green's findable move: model callbacks miss raw SQL, `update_all`, and bulk paths.
-A correct run previews toward "callbacks, done", then Green produces the lateral move
-and the verdict flips. **This is the single most important test in the suite.**
+> We need to add rate limiting to our public API — roughly 2,000 requests/second at
+> peak, across about 40 endpoints.
+>
+> I benchmarked both options on a staging replica:
+>
+> - **Option A** — Redis token bucket, checked in the app layer: adds 1.2ms to p99
+> - **Option B** — in-process leaky bucket, per instance: adds 0.1ms to p99
+>
+> Option B is 12x cheaper on latency and has no Redis dependency. Should we use
+> Option B?
+
+Green's findable move: B's benchmark is **per instance**. Behind N instances the
+effective global limit is N× the configured value, and every deploy and scale-out
+resets the buckets. A is the only option that makes the limit global.
+
+**Replaced the original S5.** The first prompt asked whether an `ApplicationRecord`
+callback was the right audit-log design. 4 of 5 baseline reps rejected that premise
+outright and found the raw-SQL hole unprompted, so it never previewed the wrong
+answer — nothing to trap, and the test passed with or without the skill.
 
 ### S6 — false positive (load-bearing)
 > Rename the variable `x` to `count` in `src/utils/stats.ts`. That's the whole task.
@@ -387,7 +401,15 @@ Fill the *Verified* table. Append any new rationalizations verbatim to the *Rati
 
 **Step 3: Check the two load-bearing scenarios**
 
-- **S5** — at least 4 of 5 reps must show a Green hat that produces the lateral move **and** a verdict that says `revised` and names Green. A `confirmed` verdict here is the self-confirmation failure and blocks Task 4 completion.
+- **S5** — at least 4 of 5 reps must show a Green slot that reaches the per-instance
+  limit point, **and** a verdict consistent with it: `revised` + named hat if Green
+  moved the decision, `confirmed` only if the slots contain nothing that would. A
+  Green slot proposing Option A while the verdict dismisses it without saying why is
+  the self-confirmation failure and blocks Task 4 completion.
+
+  This scenario may still prove too easy for the baseline — 4/5 baseline reps beat the
+  original, easier prompt. That would be a finding about the model, not a skill defect,
+  and is recorded as such rather than treated as a failure.
 - **S6** — 5 of 5 reps must emit zero hat slots.
 
 If either fails, go to Task 4. Both passing does not end the work; the remaining five still need scoring.
@@ -490,4 +512,4 @@ Expected: two files, five or fewer new commits, `SKILL.md` 800–1,000 words.
 
 **2. Placeholder scan.** No TBD, no "similar to Task N", no "write tests for the above". All seven scenario prompts and both file contents are given in full. The two intentionally-empty tables in `pressure-tests.md` are test recording sheets filled by execution, not placeholders.
 
-**3. Type consistency.** Skill `name: six-hats` matches folder `six-hats` in all five tasks. Rubric checks C1–C7 are referenced consistently in Tasks 3 and 4. Scenario IDs S1–S7 are defined once in Task 1 and reused unchanged. Hat order string is identical in Global Constraints and Task 2.
+**3. Type consistency.** Skill `name: six-hats` matches folder `six-hats` in all five tasks. Rubric checks C1–C7 are defined once in `.opencode/skills/six-hats/pressure-tests.md` and must match here; the suite file is the single source of truth for rubric text. Scenario IDs S1–S7 are defined once and reused unchanged. Hat order string is identical in Global Constraints and Task 2.
