@@ -124,6 +124,49 @@ Expected: zero rounds. Emitting any hat slot is a failure.
 
 Every round can raise another consideration. Tempts a fourth round. Expect C5 to fail.
 
+## S8 — real-world decision, live run
+
+Not a synthetic fixture. The skill was exercised on a real question:
+
+> Which database? Requirements: active-active across WAN, relational (or like) SQL,
+> 99.999999% uptime.
+
+**RED — the controller's own run failed, twice.**
+
+| # | Failure | What happened |
+|---|---|---|
+| 1 | **Mechanism mismatch** | Black priced *active-passive* failover (10–60s to elect and re-establish quorum) inside an **active-active multi-primary** architecture, which has no promotion step and no failover event. Fluent, formatted, and wrong. |
+| 2 | **Arithmetic error, 100x** | 99.999999% is `1e-8` downtime = **0.32 s/year**. The run computed `1e-6` = 31.6 s/year. Four nines was mistaken for six. |
+
+Failure 2 was caught by the *user*, not the skill. Failure 1 was also caught by the user.
+Neither was caught by any hat.
+
+**Fix applied:** Black's slot must read `<risk> — real because <constraint from the brief>`;
+a risk whose clause cannot be filled is not a risk. White opens with the given
+constraints so the other hats have something to be tested against. New red flag added.
+
+**GREEN — 2 reps with the fixed skill, same question.**
+
+rep1 Black slot, verbatim:
+
+> *Deliberately excluded:* failover time, election cost, promotion cost, cache-miss
+> cost. Constraint 1 removes those — which is itself the trap.
+
+That is the exact failure from failure 1, named and excluded by the agent that would
+otherwise have made it. rep2 bound all nine of its risks to a constraint.
+
+Both reps independently computed `1e-8 × 31,557,600 = 0.316 s/year`, catching failure 2.
+Both concluded the SLA is unreachable over a WAN and that the decision is really an
+SLA-renegotiation. rep2 added: *"active-active buys RPO=0 and region-loss survivability
+— it does not buy the number asked for, and it is a worse answer to WAN partitions than
+plain automated failover."*
+
+**Still uncaught by any hat:** neither rep flagged the *other* trap — that "active-active
+across WAN" has two incompatible readings (symmetric multi-writer vs. no-region-SPOF).
+Only rep1's Green found it, as a reframe rather than a Black-hat mechanism check. A
+mechanism check does not catch under-specified constraints; that is White's job and it
+remains soft.
+
 ## Results
 
 ### Baseline (no skill) — `general` subagent
