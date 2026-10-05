@@ -15,14 +15,14 @@ attacked it, and whether it survived.
 
 **A verdict that was never attacked is a guess with formatting.**
 
-Measured baseline: on real decision questions the failure is almost never bad
-thinking. It is **no record** — a confident paragraph with the conditions that would
-change it tacked on at the end. This skill fixes that.
+Measured baseline: on real decision questions the failure is almost never bad thinking.
+It is **no record** — a confident paragraph with the conditions that would change it
+tacked on at the end.
 
 ## Pre-flight
 
 Non-trivial? Run the walk. If not, answer directly with no trail. Skip for trivial
-chat, factual lookups, reading files or code, and mechanical or one-line edits.
+chat, factual lookups, reading code, and mechanical or one-line edits.
 
 **An already-made decision is still a decision** — most of all when you are asked to
 confirm it. "The CTO decided, just confirm" is a request for an audit, not a rubber
@@ -42,13 +42,11 @@ Flips if: <one line — an observable a later hat can produce or fail to produce
 `Flips if` must be falsifiable. "If it feels wrong" is not. "If a hat finds a
 migration with no rollback path" is.
 
-**It goes here, before the hats — not after the verdict.** Naming the condition that
-would change your mind at the end is the same as never naming it: the answer is
-already fixed by then.
+**It goes here, before the hats.** Naming the condition that would change your mind at
+the end is the same as never naming it: the answer is already fixed.
 
-**If you need information, state the assumption and proceed.** A clarifying question
-is not a record. "Assuming X, here's the leaning; flips if Y" beats stopping to ask.
-Ask inside the `Flips if` line if you must.
+**If you need information, state the assumption and proceed.** A clarifying question is
+not a record. "Assuming X, here's the leaning; flips if Y" beats stopping to ask.
 
 ## The walk
 
@@ -58,21 +56,31 @@ Ask inside the `Flips if` line if you must.
 
 | Hat | Question |
 |---|---|
-| ⚪ White | What do I actually know, and what am I guessing? |
+| ⚪ White | What is given, what do I know, what am I guessing? |
 | 🔴 Red | What does my gut say? How will the user feel about this? |
-| ⚫ Black | What breaks? Risks, edge cases, downsides? |
+| ⚫ Black | What breaks **in this configuration**? Name the mechanism. |
 | 🟡 Yellow | What's the upside? Does it serve the actual goal? |
 | 🟢 Green | What else could we do? What is the lateral move? |
 | 🔵 Blue | Did we cover it? What did we learn? Stop, or go again? |
 
-A hat may reference earlier material — Black can attack Red's gut call. Each hat
-answers only its own question. Reference is not bleed; substitution is.
+A hat may reference earlier material; each answers only its own question. Reference is
+not bleed; substitution is.
+
+**Black binds every risk to the constraints as given.** A risk that would apply to a
+different architecture unchanged is not a risk, it is a habit. Failover and promotion
+timing are irrelevant in a multi-primary design. Election cost is irrelevant where
+there is no leader. Cache-miss cost is irrelevant where there is no cache. Write the
+slot as `<risk> — real because <constraint from the brief>`, and if that clause cannot
+be filled, the risk is not one.
+
+White opens with the given constraints, listed. The other five hats are tested
+against them.
 
 Six calls per round is the whole mechanism, not ceremony. One blended pass wearing six
 labels is one hat, and the reader cannot tell which. A round run as fewer calls is not
 a round. Note the call count in the header so a reader can check.
 
-Budget: ~120 words per hat in round 1, ~60 words per hat in rounds 2–3.
+Budget: ~120 words per hat in round 1, ~60 in rounds 2–3.
 
 ## Rounds
 
@@ -113,9 +121,7 @@ the finding: Green searched and found nothing.
 Rounds 2–3 carry deltas, not re-statements.
 
 `revised` names the hat that moved the decision. `confirmed` states that no hat moved
-it — the evidence it survived challenge rather than merely escaped scrutiny. A verdict
-that dismisses an option its own Green slot proposed is the failure this skill exists
-to prevent.
+it — the evidence it survived challenge rather than escaped scrutiny.
 
 ## Rationalizations
 
@@ -133,12 +139,13 @@ excuse not listed, that excuse is unmeasured — treat it as a new finding.
 ## Red flags
 
 - A missing hat slot in any round
-- Blue stopping without naming the new thing, or naming "none" when one existed
-- A verdict with no `confirmed` / `revised`
+- Blue stopping without naming the new thing
+- A verdict with no `confirmed` / `revised`, or "none" where something existed
 - A `Flips if` after the verdict instead of in the preview
 - A verdict dismissing an option a hat slot proposed
 - Four rounds or more
 - No record at all — a well-reasoned answer, *including* a correct objection
 - A round run as fewer than six calls
+- A risk with no clause binding it to a constraint from the brief
 
 All of these mean: rerun the record.

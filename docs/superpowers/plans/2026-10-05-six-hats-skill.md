@@ -261,7 +261,7 @@ read the protocol without the skill being loaded. The shipped file at
 cd /home/adrian/AI/SKILLS && head -9 .opencode/skills/six-hats/SKILL.md && wc -w .opencode/skills/six-hats/SKILL.md
 ```
 
-Expected: `---`, `name: six-hats`, `description: >-` plus five continuation lines, closing `---`. Word count between 1,100 and 1,200. File ends with a newline.
+Expected: `---`, `name: six-hats`, `description: >-` plus five continuation lines, closing `---`. Word count between 1,200 and 1,300. File ends with a newline. Under 170 lines.
 
 **Amended twice after execution.**
 
@@ -424,7 +424,7 @@ git commit -m "Catalogue the six-hats skill"
 cd /home/adrian/AI/SKILLS && git log --oneline -5 && ls -la .opencode/skills/six-hats/
 ```
 
-Expected: two files, `SKILL.md` 1,100–1,200 words and under 170 lines.
+Expected: two files, `SKILL.md` 1,200–1,300 words and under 170 lines.
 
 ---
 
@@ -435,6 +435,26 @@ Expected: two files, `SKILL.md` 1,100–1,200 words and under 170 lines.
 **2. Placeholder scan.** No TBD, no "similar to Task N", no "write tests for the above". All seven scenario prompts and both file contents are given in full. The two intentionally-empty tables in `pressure-tests.md` are test recording sheets filled by execution, not placeholders.
 
 **3. Type consistency.** Skill `name: six-hats` matches folder `six-hats` in all five tasks. Rubric checks C1–C7 are authored in `.opencode/skills/six-hats/pressure-tests.md`, the single source of truth. The copies in this plan are historical, were reconciled twice, and should not be treated as authoritative. Scenario IDs S1–S7 are defined once and reused unchanged. Hat order string is identical in Global Constraints and Task 2.
+## Post-execution correction (S8 live run)
+
+The skill was exercised on a real decision — active-active multi-region relational
+database against a 99.999999% uptime requirement. Its Black hat priced **active-passive
+failover** (10–60s to elect and re-establish quorum) inside an **active-active
+multi-primary** architecture, which has no promotion step and no failover event. A
+confident, well-formatted, entirely wrong mechanism.
+
+That is a new failure class, not a variant of anything already covered: **a hat citing
+a mechanism that belongs to a different configuration than the one specified.** It is
+also the worst kind of error, because the reader cannot detect it.
+
+Fix: Black's slot must now read `<risk> — real because <constraint from the brief>`, and
+a risk whose clause cannot be filled is not a risk. White opens with the given
+constraints so the other hats have something to be tested against. Red flag added.
+
+Cost: +~110 words, 1,247 total, 151 lines. The word band moved to 1,200–1,300. Every
+increase in this file has been an evidenced fix; the line count is still under the 170
+the plan originally targeted. Verified in `pressure-tests.md` as S8.
+
 ## Post-execution corrections (final review)
 
 Applied after the final whole-branch review:
