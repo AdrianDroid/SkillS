@@ -371,7 +371,7 @@ All of these mean: stop and rerun the record.
 cd /home/adrian/AI/SKILLS && head -9 .opencode/skills/six-hats/SKILL.md && wc -w .opencode/skills/six-hats/SKILL.md
 ```
 
-Expected: `---`, `name: six-hats`, `description: >-` plus six continuation lines, closing `---`. Word count between 1,000 and 1,100. File ends with a newline.
+Expected: `---`, `name: six-hats`, `description: >-` plus five continuation lines, closing `---`. Word count between 1,000 and 1,100. File ends with a newline.
 
 **Amended twice after execution.**
 
@@ -379,15 +379,15 @@ Expected: `---`, `name: six-hats`, `description: >-` plus six continuation lines
    Rationalizations table swapped drafted rows for ones observed in the RED baseline,
    plus a line recording the headline finding.
 2. A review found 3 of those rows were draft survivors with no supporting evidence, so
-   they were deleted. The table now holds 7 rows, all traced to a recorded observation.
-   Measured after deletion and fixes: **1,045 words / 134 lines** — range 1,000–1,100
+   they were deleted. The table now holds 4 rows, all traced to a recorded observation.
+   Measured after deletion and fixes: **1,055 words / 134 lines** — range 1,000–1,100
    stands.
 
 Substitution actually made: 4 rows added from observed evidence, 2 drafted rows
 dropped, 1 repurposed to the question-instead-of-record finding, 3 unevidenced drafted
 rows removed on review.
 
-**Three deviations from the literal Step 1 block, made during execution and recorded
+**Four deviations from the literal Step 1 block, made during execution and recorded
 here rather than silently:**
 
 - The hat table's third column, "Fails when it…", was dropped. Generic hat hygiene was
@@ -396,6 +396,10 @@ here rather than silently:**
   review to settle the case where a hat finds exactly what `Flips if` predicted.
 - The red flag "A `Flips if` that cannot be checked against a later hat" was dropped;
   the falsifiability requirement itself remains in the Preview section.
+- The frontmatter `description` gained "technical and code judgments" and "mechanical
+  edits". Both are load-bearing: the router reads `description` to decide whether to
+  load the skill, so without "technical and code judgments" it would never load on the
+  exact case Rationalizations row 1 defends against.
 
 **Step 3: Commit**
 

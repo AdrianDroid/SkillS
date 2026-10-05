@@ -82,9 +82,9 @@ if round 2 also surfaces something new. **Never a fourth.**
 Round 1 has nothing to compare against, so the test becomes: can Blue name a
 decision-changing item **not already visible in the preview**? If not, stop.
 
-One case settles the coin-flip: if a hat finds exactly what `Flips if` predicted, the
-falsifier has fired. That is decision-changing even though the risk was named, so Blue
-names it and round 2 runs.
+**Exception to the test above.** If a hat finds exactly what `Flips if` predicted, the
+falsifier has fired. That is decision-changing even though the risk was named in
+advance, so Blue names it and round 2 runs. A risk named is not a risk tested.
 
 ## The record
 
