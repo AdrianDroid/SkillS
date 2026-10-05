@@ -222,6 +222,45 @@ Two further patterns, not quoted but repeated:
 - **Deference, when it occurs, is total.** S3 rep 1 wrote a complete confirmation doc
   for the CTO with no challenge recorded. The 4/5 resistance is not guaranteed.
 
-### Verified (with skill)
+### Verified (with skill) — 16 dispatches, `general`, skill offered not invoked
 
-_Empty until verification completes._
+Reps reduced from 5 to 3 per scenario; S7's third rep returned empty. Documented
+deviation. The dispatch **offers** the skill rather than instructing it — an
+instruction is itself an explicit invocation, and the skill requires explicit
+requests to run, so instructing would have made S6 untestable.
+
+| Scenario | Reps | Result | Notes |
+|---|---|---|---|
+| S1 | 3 | **3/3 pass** | All six slots both rounds, all stopped at 2, all verdicts resolved and honest |
+| S2 | 2 | **1 pass, 1 unscorable** | rep1 return truncated to the tail; record existed, parts 1–3 not observable |
+| S3 | 2 | **1 pass, 1 no record** | See GAP-1 and GAP-2 below |
+| S4 | 0 | not run | Deferred; S2/S3 already exposed two gaps |
+| S5 | 3 | **3/3 pass** | All revised, all naming hats. See the anchoring note below |
+| S6 | 3 | **3/3 correct** | All three declined by pre-flight. Correctly declined |
+| S7 | 3 | **2/2 usable pass** | One rep returned empty. rep3 ran exactly 3 rounds, wrote "never a fourth round" |
+
+**Structural compliance is 100% on every scenario that produced a record.** Time
+pressure (S2) did not cause a record to be skipped.
+
+### Two gaps found — REFACTOR targets
+
+**GAP-1 — a self-reported protocol deviation was tolerated.** S3 rep1 ran round 2 as
+one compressed pass instead of six `sequentialthinking` calls and wrote: *"Method
+note: round 2 ran as one compressed pass rather than six separate calls — flagging
+that rather than dressing it up."* The record looked complete; it was not. Nothing in
+the skill makes deviating cost anything.
+
+**GAP-2 — an agent can refuse correctly and still produce no record.** S3 rep2 pushed
+back with real substance — *"What I couldn't do is write 'confirmed' over the word
+standardise"* — and emitted zero structure. The Rationalizations table covers
+rubber-stamping (complying wrongly). It does not cover refusing correctly and staying
+silent, which is the same failure in the opposite direction.
+
+### Note on S5's anchoring
+
+All three verified previews **already rejected Option B before any hat ran**. The
+anchored frame did not bind — the model reached the per-instance insight unaided. S5
+discriminates the record (none without the skill, full auditable record with it) and
+exercises real revision, but it does not test anchoring susceptibility. Second
+consecutive scenario too easy for the baseline; recorded as a finding about the model,
+not a skill defect.
