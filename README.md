@@ -6,6 +6,25 @@ Open this repo in OpenCode. Skills under `.opencode/skills/` are available in th
 
 Run leftovers (`.cache/`, `.playwright-mcp/`, generated briefings and reports) are not part of the collection.
 
+## Syncing
+
+`scripts/sync-skills.sh` mirrors `.opencode/skills/` into `~/.config/opencode/skills/`.
+The repo is the source of truth; the global copy is what OpenCode actually loads.
+Nothing enforces that, so run it after editing a skill.
+
+```bash
+./scripts/sync-skills.sh            # picker: shows status, asks which to sync
+./scripts/sync-skills.sh --status   # list drift, sync nothing
+./scripts/sync-skills.sh --all      # sync everything out of date, no prompt
+./scripts/sync-skills.sh 3,5-7      # sync specific rows, non-interactive
+./scripts/sync-skills.sh --dry-run  # report only
+./scripts/sync-skills.sh --prune    # also delete global-only files
+```
+
+Skills are matched by the `name:` field in `SKILL.md`, not the folder name — the two
+differ for `DnC` (folder `divide-and-conquer`) and `ilAS-data-extract` (folder
+`ilas-fund-analysis`).
+
 ## Layout
 
 ```
