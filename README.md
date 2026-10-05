@@ -33,6 +33,7 @@ Three skills, used in order. Do not skip a stage.
 | Skill | What it does |
 |---|---|
 | `DnC` | Folder `divide-and-conquer`. Recursively split a project into bite-size units and dispatch independent waves in parallel via sub-agents. Parent coordinates and integrates; it does not also do the leaf work. |
+| `six-hats` | Turns a decision into an audit record: falsifiable preview, six labelled hat slots per round across 1–3 rounds, verdict that confirms or revises. Requires the `sequentialthinking` MCP server. Tests: `pressure-tests.md`. |
 
 ## Research and writing
 
